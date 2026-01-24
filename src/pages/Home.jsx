@@ -7,96 +7,43 @@ import { articles } from '../data/articles';
 function Home() {
     return (
         <div className="home-container">
+            <header className="story-header" style={{ paddingBottom: '1rem', maxWidth: '100%' }}>
+                <h1 className="story-title" style={{ fontSize: '3.5rem', marginBottom: '0.5rem' }}>The Journal</h1>
+                <p className="story-meta">Thoughts, stories, and ideas.</p>
+            </header>
 
-
-            <div className="articles-grid" style={{
-                display: 'grid',
-                gridTemplateColumns: 'repeat(auto-fill, minmax(320px, 1fr))',
-                gap: '2rem',
-                padding: '2rem 0'
-            }}>
+            <div className="articles-grid">
                 {articles.map((article, index) => (
                     <motion.div
                         key={article.id}
-                        initial={{ opacity: 0, scale: 0.95 }}
-                        animate={{ opacity: 1, scale: 1 }}
-                        transition={{ delay: index * 0.1 }}
+                        initial={{ opacity: 0, y: 20 }}
+                        animate={{ opacity: 1, y: 0 }}
+                        transition={{ delay: index * 0.1, duration: 0.5 }}
                         className="article-card"
-                        style={{
-                            background: 'white',
-                            borderRadius: '28px', // More "square round"
-                            overflow: 'hidden',
-                            boxShadow: '0 4px 20px rgba(0,0,0,0.06)',
-                            border: '1px solid #f3f4f6',
-                            display: 'flex',
-                            flexDirection: 'column',
-                            transition: 'transform 0.3s ease, box-shadow 0.3s ease'
-                        }}
-                        whileHover={{ y: -5, boxShadow: '0 12px 30px rgba(0,0,0,0.1)' }}
                     >
-                        <div className="card-image" style={{ width: '100%', aspectRatio: '16/9', overflow: 'hidden', background: '#f0f0f0' }}>
+                        <div className="card-image">
                             <img
                                 src={article.image}
                                 alt={article.title}
-                                style={{ width: '100%', height: '100%', objectFit: 'cover', transition: 'transform 0.5s ease' }}
                             />
                         </div>
 
-                        <div className="card-content" style={{ padding: '1.5rem', flex: 1, display: 'flex', flexDirection: 'column' }}>
-                            <div style={{
-                                fontSize: '0.7rem',
-                                textTransform: 'uppercase',
-                                color: '#2563eb',
-                                fontWeight: 700,
-                                letterSpacing: '0.05em',
-                                marginBottom: '0.5rem'
-                            }}>
+                        <div className="card-content">
+                            <div className="card-category">
                                 {article.category}
                             </div>
 
-                            <h2 style={{
-                                fontFamily: 'var(--font-serif)',
-                                fontSize: '1.4rem',
-                                margin: '0 0 0.75rem 0',
-                                lineHeight: 1.25,
-                                display: '-webkit-box',
-                                WebkitLineClamp: 2,
-                                WebkitBoxOrient: 'vertical',
-                                overflow: 'hidden'
-                            }}>
+                            <h2 className="card-title">
                                 {article.title}
                             </h2>
 
-                            <p style={{
-                                color: '#6b7280',
-                                marginBottom: '1.25rem',
-                                fontSize: '0.95rem',
-                                lineHeight: 1.5,
-                                flex: 1,
-                                display: '-webkit-box',
-                                WebkitLineClamp: 3,
-                                WebkitBoxOrient: 'vertical',
-                                overflow: 'hidden'
-                            }}>
+                            <p className="card-excerpt">
                                 {article.excerpt}
                             </p>
 
-                            <Link to={`/article/${article.id}`} style={{ textDecoration: 'none' }}>
-                                <button style={{
-                                    background: '#1a1a1a',
-                                    color: 'white',
-                                    padding: '0.7rem 1.4rem',
-                                    borderRadius: '100px',
-                                    border: 'none',
-                                    fontSize: '0.85rem',
-                                    fontWeight: 600,
-                                    cursor: 'pointer',
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    gap: '0.4rem',
-                                    width: 'fit-content'
-                                }}>
-                                    Read Story <ArrowRight size={15} />
+                            <Link to={`/article/${article.id}`} style={{ textDecoration: 'none', marginTop: 'auto' }}>
+                                <button className="btn" style={{ padding: '0.6rem 1.2rem', fontSize: '0.85rem' }}>
+                                    Read Story <ArrowRight size={14} />
                                 </button>
                             </Link>
                         </div>
