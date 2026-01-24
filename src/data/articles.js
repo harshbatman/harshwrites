@@ -409,37 +409,53 @@ export const articles = [
       <p>Now look at the numbers.</p>
 
       <div style="margin: 3rem 0; padding: 2rem; background: #f9fafb; border-radius: 16px; border: 1px solid #e5e7eb;">
-        <!-- Indian Pharma -->
-        <div style="margin-bottom: 2rem;">
-            <div style="font-weight: 700; color: #374151; margin-bottom: 1rem; display: flex; align-items: center; gap: 8px;">
-                <span style="font-size: 1.25rem;">🇮🇳</span> India's Top Pharma Giants (Combined)
-            </div>
-            <div style="display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 1rem; align-items: center;">
-                <img src="https://www.google.com/s2/favicons?domain=sunpharma.com&sz=64" title="Sun Pharma" style="width: 24px; height: 24px; border-radius: 4px;">
-                <img src="https://www.google.com/s2/favicons?domain=drreddys.com&sz=64" title="Dr. Reddy's" style="width: 24px; height: 24px; border-radius: 4px;">
-                <img src="https://www.google.com/s2/favicons?domain=cipla.com&sz=64" title="Cipla" style="width: 24px; height: 24px; border-radius: 4px;">
-                <img src="https://www.google.com/s2/favicons?domain=lupin.com&sz=64" title="Lupin" style="width: 24px; height: 24px; border-radius: 4px;">
-                <img src="https://www.google.com/s2/favicons?domain=aurobindo.com&sz=64" title="Aurobindo" style="width: 24px; height: 24px; border-radius: 4px;">
-                <img src="https://www.google.com/s2/favicons?domain=divislabs.com&sz=64" title="Divi's" style="width: 24px; height: 24px; border-radius: 4px;">
-                <img src="https://www.google.com/s2/favicons?domain=torrentpharma.com&sz=64" title="Torrent" style="width: 24px; height: 24px; border-radius: 4px;">
-            </div>
-            <div style="font-size: 1.1rem; font-weight: 700; color: #111827;">≈ $23 Billion Revenue</div>
-             <div style="font-size: 0.85rem; color: #6b7280; margin-top: 4px;">(Sun Pharma, Dr. Reddy’s, Cipla, Lupin, Aurobindo, Divi’s, Torrent)</div>
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; color: #111827; letter-spacing: -0.01em;">Annual Revenue Comparison (2024)</h4>
+        
+        <!-- Pfizer Revenue -->
+        <div style="margin-bottom: 1.5rem;">
+          <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
+            <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
+              <img src="https://www.google.com/s2/favicons?domain=pfizer.com&sz=64" alt="Pfizer" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
+              Pfizer (USA)
+            </span>
+            <span style="font-weight: 700; color: #111827;">$58.5 Billion</span>
+          </div>
+          <div style="width: 100%; height: 24px; background: #e5e7eb; border-radius: 6px; overflow: hidden; position: relative;">
+            <div style="width: 100%; height: 100%; background: #3b82f6; border-radius: 6px;"></div>
+          </div>
+          <div style="font-size: 0.85rem; color: #6b7280; margin-top: 4px;">Single Company</div>
         </div>
 
-        <div style="border-top: 1px solid #e5e7eb; margin: 1.5rem 0;"></div>
-
-        <!-- Pfizer -->
-        <div>
-            <div style="font-weight: 700; color: #374151; margin-bottom: 1rem; display: flex; align-items: center; gap: 8px;">
-                <span style="font-size: 1.25rem;">🇺🇸</span> Pfizer (Single Company)
-            </div>
-             <div style="margin-bottom: 1rem;">
-                <img src="https://www.google.com/s2/favicons?domain=pfizer.com&sz=64" title="Pfizer" style="width: 32px; height: 32px; border-radius: 4px;">
-            </div>
-            <div style="font-size: 1.1rem; font-weight: 700; color: #111827; margin-bottom: 0.25rem;">$58.5 Billion Revenue</div>
-            <div style="font-size: 0.95rem; color: #16a34a; font-weight: 600;">$8.03 Billion Net Profit</div>
+        <!-- Indian Pharma Revenue -->
+        <div style="margin-bottom: 1.5rem;">
+          <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
+            <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
+              <span style="font-size: 1.2em;">🇮🇳</span>
+              Top 7 Indian Pharma Cos.
+            </span>
+            <span style="font-weight: 700; color: #111827;">~$23 Billion</span>
+          </div>
+          <div style="width: 100%; height: 24px; background: #e5e7eb; border-radius: 6px; overflow: hidden; position: relative;">
+            <div style="width: 39.3%; height: 100%; background: #f97316; border-radius: 6px;"></div>
+          </div>
+          <div style="font-size: 0.85rem; color: #6b7280; margin-top: 4px;">Sum of Sun Pharma, Dr. Reddy’s, Cipla, Lupin, Aurobindo, Divi’s, Torrent</div>
         </div>
+
+        <!-- Pfizer Net Profit (Context) -->
+        <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px dashed #d1d5db;">
+             <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
+            <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
+               <div style="width: 12px; height: 12px; background: #16a34a; border-radius: 50%;"></div>
+              Pfizer Net Profit
+            </span>
+            <span style="font-weight: 700; color: #16a34a;">$8.03 Billion</span>
+          </div>
+           <div style="width: 100%; height: 12px; background: #e5e7eb; border-radius: 99px; overflow: hidden;">
+            <div style="width: 13.7%; height: 100%; background: #16a34a; border-radius: 99px;"></div>
+          </div>
+           <div style="font-size: 0.85rem; color: #6b7280; margin-top: 4px;">(Just profit, not revenue)</div>
+        </div>
+
       </div>
 
       <p>All major Indian pharma companies combined — Sun Pharma, Dr. Reddy’s, Cipla, Lupin, Aurobindo, Divi’s, Torrent — together generate roughly $23 billion in annual revenue.</p>
