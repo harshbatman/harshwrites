@@ -101,6 +101,23 @@ export const articles = [
 
       <p>American firms stopped at “innovate once”. Chinese firms iterated endlessly.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Then Came the Flood</h3>
+
+      <p>Suddenly, the market was full.</p>
+
+      <p>Full of phones that were:</p>
+      <ul>
+        <li>not perfect</li>
+        <li>not revolutionary</li>
+        <li>but fast, affordable, and improving</li>
+      </ul>
+
+      <p>One company became five. Five became twenty.</p>
+
+      <p>They competed with each other brutally. Margins were sacrificed. Speed was everything.</p>
+
+      <p>That internal competition did what no regulation ever could — it forced excellence.</p>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Today’s Reality (No Emotion, Just Facts)</h3>
 
       <p>Look around us.</p>
