@@ -448,5 +448,108 @@ export const articles = [
 
       <p class="story-punchline">That’s the uncomfortable but important conversation Rajan is pushing us toward — and it’s one we need to have honestly.</p>
     `
+  },
+  {
+    id: "how-facebook-took-over-the-world",
+    title: "How Facebook Took Over the World",
+    author: "Harsh Mahto",
+    category: "Technology & Culture",
+    date: "February 2026",
+    image: "/facebook-world.jpg",
+    excerpt: "You know what’s funny? Everyone today talks like Facebook was always meant to rule the internet. But it wasn't even the first social media platform.",
+    content: `
+      <p>You know what’s funny? Everyone today talks like Facebook was always meant to rule the internet.</p>
+
+      <p>Now you might say, "Yeah, as if it fell from the sky fully formed. But the truth is — Facebook wasn’t even the first social media platform."</p>
+
+      <p>Exactly. Before Facebook, we already had platforms like Friendster and MySpace. People were already adding friends, posting photos, even customising profiles with loud music and glitter backgrounds.</p>
+
+      <p>But those platforms had one big flaw. They never figured out who you really were. Fake names, random usernames, anonymous vibes. Fun? Yes. Trustworthy? Not really.</p>
+
+      <p>And that’s where Facebook quietly changed the game. Real names. Real colleges. Real people. Suddenly, our online identity matched our offline life.</p>
+
+      <p>That one decision — real identity — was the masterstroke. Once our classmates, hostel mates, and office colleagues were there, leaving Facebook felt like disappearing from society itself.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Early Days: Not Cool, Just Clever</h3>
+
+      <p>People forget how boring early Facebook looked. No flashy profiles, no music, no drama.</p>
+
+      <p>True. But it felt clean. Almost like filling out a college form. And slowly, every engineering college, every university, every batch group got pulled in.</p>
+
+      <p>Very Indian, actually. Once seniors joined, juniors had no choice. Once one college joined, others followed. Network effect at work.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">2005: The News Feed Shock</h3>
+
+      <p>Then came 2005 — the News Feed.</p>
+
+      <p>Now you will say, "People hated it at first. 'Why is Facebook showing what I liked, who I added, where I went?'"</p>
+
+      <p>But that’s the point. Facebook didn’t just let us post — it decided what mattered. It trained us to scroll, react, compare.</p>
+
+      <p>And slowly, we stopped visiting profiles. The feed became the internet.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">2007: Facebook Becomes a Platform</h3>
+
+      <p>2007 was another turning point. Facebook opened itself as a platform.</p>
+
+      <p>Games, quizzes, apps — remember FarmVille?</p>
+
+      <p>Oh yes. People who never cared about “social media” suddenly joined because their crops would die otherwise.</p>
+
+      <p>Facebook wasn’t just for people anymore. It became a place — like a digital bazaar.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Like Button: A Small Click, Massive Control</h3>
+
+      <p>Then came the Like button. Simple. Dangerous.</p>
+
+      <p>One click to agree, support, signal identity. Likes turned emotions into data.</p>
+
+      <p>And once likes existed, Facebook could map what we love, hate, fear, and desire — better than most governments.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">From People to Everything</h3>
+
+      <p>At first, it was just friends. Then came company pages.</p>
+
+      <p>Then political pages. Local businesses. NGOs. Meme pages. Dog adoption groups. Buy-and-sell marketplaces.</p>
+
+      <p>In our cities, small दुकानदार didn’t need websites. A Facebook page was enough.</p>
+
+      <p>Facebook didn’t replace the internet. It absorbed it.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Buying the Future: Instagram & WhatsApp</h3>
+
+      <p>And whenever a threat appeared, Facebook didn’t fight — it bought.</p>
+
+      <p>Like Instagram — where younger users were moving. Visual, fast, cool.</p>
+
+      <p>And WhatsApp — which became our default communication layer. Family groups, office updates, political forwards, everything.</p>
+
+      <p>In India, WhatsApp isn’t an app. It’s infrastructure.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">So How Did Facebook Really Win?</h3>
+
+      <p>Not by being first. Not by being flashy.</p>
+
+      <p>But by cracking three things:</p>
+      <ul>
+        <li>Real identity</li>
+        <li>Habit-forming design</li>
+        <li>Buying instead of competing</li>
+      </ul>
+
+      <p>Facebook understood something deep — people don’t want platforms, they want presence. They want to feel seen.</p>
+
+      <p>And once our social life, business life, and political life moved online — Facebook sat right in the middle.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Final Thought</h3>
+
+      <p>So yeah, Facebook didn’t just take over the world.</p>
+
+      <p>It became the mirror we keep looking into — whether we like what we see or not.</p>
+
+      <p>And the scary part?</p>
+
+      <p class="story-punchline">Leaving Facebook doesn’t mean leaving an app. It feels like leaving society.</p>
+    `
   }
 ];
