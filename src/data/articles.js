@@ -118,6 +118,25 @@ export const articles = [
 
       <p>That internal competition did what no regulation ever could — it forced excellence.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">And Look Around Us</h3>
+
+      <p>Now, just look at our surroundings.</p>
+
+      <p>Exactly.</p>
+
+      <p>Most people don’t care where a phone is designed.</p>
+      <p>They care:</p>
+      <ul>
+        <li>how much it costs</li>
+        <li>how long it lasts</li>
+        <li>how fast it charges</li>
+        <li>how good the camera is for the price</li>
+      </ul>
+
+      <p>Chinese brands understood us better than American ones.</p>
+
+      <p>Not emotionally. Economically.</p>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Today’s Reality (No Emotion, Just Facts)</h3>
 
       <p>Look around us.</p>
