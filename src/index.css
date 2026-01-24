@@ -300,3 +300,38 @@ footer {
   background: var(--color-surface);
   margin-top: auto;
 }
+
+/* Story Punchlines */
+.story-punchline {
+  font-family: var(--font-serif);
+  font-size: 1.6rem;
+  font-weight: 700;
+  /* Bold */
+  color: var(--color-text-primary);
+  margin: 2.5rem 0;
+  line-height: 1.25;
+  position: relative;
+  /* Option: Center it for impact */
+  /* text-align: center; */
+}
+
+/* Add a subtle accent or marker if desired, e.g. a small line */
+.story-punchline::before {
+  content: '';
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: var(--color-text-primary);
+  margin-bottom: 1rem;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 3px solid var(--color-text-primary);
+  padding-left: 1.5rem;
+  margin: 2rem 0;
+  font-family: var(--font-serif);
+  font-style: italic;
+  font-size: 1.3rem;
+  color: var(--color-text-secondary);
+}
