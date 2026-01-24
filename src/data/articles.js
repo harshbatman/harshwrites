@@ -91,6 +91,123 @@ export const articles = [
 
       <p>Globalisation gave them access. They converted access into advantage.</p>
 
+      <div class="market-share-chart" style="margin: 3rem 0; padding: 2rem; background: #f9fafb; border-radius: 16px; border: 1px solid #e5e7eb;">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; color: #111827; letter-spacing: -0.01em;">India Smartphone Market Share</h4>
+        
+        <!-- Vivo -->
+        <div style="margin-bottom: 1.25rem;">
+          <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
+            <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
+              Vivo
+              <span style="font-size: 1.1em; opacity: 0.9;" title="China">🇨🇳</span>
+            </span>
+            <span style="font-weight: 600; color: #111827;">19.1%</span>
+          </div>
+          <div style="width: 100%; height: 10px; background: #e5e7eb; border-radius: 99px; overflow: hidden;">
+            <div style="width: 19.1%; height: 100%; background: #ef4444; border-radius: 99px;"></div>
+          </div>
+        </div>
+
+        <!-- Xiaomi -->
+        <div style="margin-bottom: 1.25rem;">
+          <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
+            <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
+              Xiaomi
+              <span style="font-size: 1.1em; opacity: 0.9;" title="China">🇨🇳</span>
+            </span>
+            <span style="font-weight: 600; color: #111827;">17.0%</span>
+          </div>
+          <div style="width: 100%; height: 10px; background: #e5e7eb; border-radius: 99px; overflow: hidden;">
+            <div style="width: 17.0%; height: 100%; background: #ef4444; border-radius: 99px;"></div>
+          </div>
+        </div>
+
+         <!-- Realme -->
+        <div style="margin-bottom: 1.25rem;">
+          <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
+            <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
+              Realme
+              <span style="font-size: 1.1em; opacity: 0.9;" title="China">🇨🇳</span>
+            </span>
+            <span style="font-weight: 600; color: #111827;">13.5%</span>
+          </div>
+          <div style="width: 100%; height: 10px; background: #e5e7eb; border-radius: 99px; overflow: hidden;">
+            <div style="width: 13.5%; height: 100%; background: #ef4444; border-radius: 99px;"></div>
+          </div>
+        </div>
+
+         <!-- Oppo -->
+        <div style="margin-bottom: 1.25rem;">
+          <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
+            <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
+              Oppo
+              <span style="font-size: 1.1em; opacity: 0.9;" title="China">🇨🇳</span>
+            </span>
+            <span style="font-weight: 600; color: #111827;">12.5%</span>
+          </div>
+          <div style="width: 100%; height: 10px; background: #e5e7eb; border-radius: 99px; overflow: hidden;">
+            <div style="width: 12.5%; height: 100%; background: #ef4444; border-radius: 99px;"></div>
+          </div>
+        </div>
+
+        <!-- Samsung -->
+        <div style="margin-bottom: 1.25rem;">
+          <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
+            <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
+              Samsung
+              <span style="font-size: 1.1em; opacity: 0.9;" title="South Korea">🇰🇷</span>
+            </span>
+            <span style="font-weight: 600; color: #111827;">11.4%</span>
+          </div>
+          <div style="width: 100%; height: 10px; background: #e5e7eb; border-radius: 99px; overflow: hidden;">
+            <div style="width: 11.4%; height: 100%; background: #3b82f6; border-radius: 99px;"></div>
+          </div>
+        </div>
+
+          <!-- Lava/Others -->
+        <div style="margin-bottom: 1.25rem;">
+          <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
+            <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
+              Lava & Others
+              <span style="font-size: 1.1em; opacity: 0.9;" title="India">🇮🇳</span>
+            </span>
+            <span style="font-weight: 600; color: #111827;">10.3%</span>
+          </div>
+          <div style="width: 100%; height: 10px; background: #e5e7eb; border-radius: 99px; overflow: hidden;">
+            <div style="width: 10.3%; height: 100%; background: #10b981; border-radius: 99px;"></div>
+          </div>
+        </div>
+
+          <!-- Apple -->
+        <div style="margin-bottom: 1.25rem;">
+          <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
+            <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
+              Apple
+              <span style="font-size: 1.1em; opacity: 0.9;" title="USA">🇺🇸</span>
+            </span>
+            <span style="font-weight: 600; color: #111827;">10.0%</span>
+          </div>
+          <div style="width: 100%; height: 10px; background: #e5e7eb; border-radius: 99px; overflow: hidden;">
+            <div style="width: 10.0%; height: 100%; background: #6b7280; border-radius: 99px;"></div>
+          </div>
+        </div>
+
+            <!-- Motorola -->
+        <div style="margin-bottom: 0;">
+          <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
+            <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
+              Motorola
+              <span style="font-size: 1.1em; opacity: 0.9;" title="USA">🇺🇸</span>
+            </span>
+            <span style="font-weight: 600; color: #111827;">6.2%</span>
+          </div>
+          <div style="width: 100%; height: 10px; background: #e5e7eb; border-radius: 99px; overflow: hidden;">
+            <div style="width: 6.2%; height: 100%; background: #6b7280; border-radius: 99px;"></div>
+          </div>
+        </div>
+
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Semiconductors: Same Story, Higher Stakes</h3>
 
       <p>Phones are visible. Chips are invisible.</p>
