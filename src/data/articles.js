@@ -8,83 +8,145 @@ export const articles = [
     image: "/story1.png",
     excerpt: "It started as a simple efficiency upgrade. But let me tell you, it ended as a massive headache. You know how everyone thought it was a brilliant idea to separate the \"thinking\" from the \"making\"?",
     content: `
-      <p>See this picture? JFK, Nixon, Reagan, Obama, Biden, Trump — and that big red word screaming LOSERS. Harsh? Maybe. Wrong? Not entirely.</p>
+      <p>Every American president here believed globalisation would automatically keep America on top.</p>
 
-      <p>Now you might say, "That’s a bold claim. America invented globalisation. Silicon Valley, free markets, WTO — that was their playbook."</p>
+      <p>But instead, it taught China how to beat them at their own game.</p>
 
-      <p>Exactly. They wrote the rules. Then forgot to read the fine print.</p>
+      <p>Exactly. Globalisation wasn’t a charity scheme. It was a classroom. China was the most serious student.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">Globalisation: The Original Deal</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">The Beginning: When the Door Opened</h3>
 
-      <p>You might ask, where did it all start going wrong?</p>
+      <p>People forget how intentional this was.</p>
 
-      <p>Let’s rewind to 1972. Richard Nixon lands in China. Big moment. Cold War thaw. Handshakes. Photos. History.</p>
+      <p>1972. Richard Nixon visits China.</p>
 
-      <p>Now you will tell me, "At that time, China was poor. Rural. Barely industrial."</p>
+      <p>America’s thinking was simple: “Trade will change China.”</p>
 
-      <p>True. But America wasn’t opening China out of charity. The logic was simple: “We design. They manufacture. Everyone wins.” Cheap labour for American companies. Higher profits. Lower prices. Wall Street loved it.</p>
+      <p>What they didn’t consider: China would change trade instead.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">The Manufacturing Exit</h3>
+      <p>Factories moved. Supply chains shifted. Costs fell. Profits exploded. Wall Street celebrated. Main Street slowly disappeared.</p>
 
-      <p>And what about factories?</p>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">Manufacturing Wasn’t ‘Low Skill’. It Was Leverage.</h3>
 
-      <p>Gone. One by one. Detroit → Shenzhen. Ohio → Guangdong. America decided manufacturing was “low value”. Finance, software, and services were “the future”.</p>
+      <p>Now you see, America treated factories like old baggage.</p>
 
-      <p>But China didn’t see it that way.</p>
+      <p>China treated them like national infrastructure. That difference matters.</p>
 
-      <p>Exactly. China saw factories as power.</p>
-
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">Semiconductors: The Fatal Assumption</h3>
-
-      <p>Now you will say, "But semiconductors? That’s high-tech. America still dominates there."</p>
-
-      <p>Design? Yes.</p>
-      <p>Manufacturing? That’s where the mistake lies.</p>
-
-      <p>America assumed fabs were just another factory. Dirty. Expensive. Low glamour. China assumed fabs were strategic weapons. So Beijing subsidised. Planned. Protected. Waited.</p>
-
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">Meanwhile, America…</h3>
-
-      <p>So what did the U.S. do?</p>
-
-      <p>Quarterly profits. Stock buybacks. Outsourcing.</p>
-
-      <p>Presidents changed. Policies didn’t.</p>
+      <p>Because when you make things, you learn:</p>
       <ul>
-        <li>Reagan trusted markets.</li>
-        <li>Clinton doubled down on free trade.</li>
-        <li>Bush focused on wars.</li>
-        <li>Obama hoped supply chains were “too global to break”.</li>
-        <li>Trump noticed the problem — too late, too loud.</li>
-        <li>Biden is now trying to rebuild what was dismantled for 40 years.</li>
+        <li>how parts fit</li>
+        <li>how costs fall</li>
+        <li>how defects disappear</li>
+        <li>how scale works</li>
       </ul>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">China’s Long Game</h3>
+      <p>Design without manufacturing is theory. Manufacturing turns theory into dominance.</p>
 
-      <p>And China?</p>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">The iPhone Lesson Everyone Ignored</h3>
 
-      <p>Five-year plans. Technology transfer. Local champions. Manufacturing scale.</p>
-      <p>They didn’t just make toys and shoes. They climbed — steel → electronics → chips → EVs → AI hardware.</p>
-      <p>Globalisation didn’t accidentally help China. China used it deliberately.</p>
+      <p>Let’s talk about phones. That’s where people really see it.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">The Real Lesson</h3>
+      <p>It acts as the perfect example.</p>
 
-      <p>So you ask, who really failed?</p>
+      <p>The iPhone was revolutionary. Designed in California. Assembled in China.</p>
 
-      <p>Not one president. Not one policy. The failure was believing that making things doesn’t matter.</p>
+      <p>China didn’t just assemble it. They studied it.</p>
 
-      <p>America designed the world. China built it.</p>
-      <p class="story-punchline">And in semiconductors — the brain of modern power — the country that builds eventually decides.</p>
+      <p>They learned:</p>
+      <ul>
+        <li>supply chain orchestration</li>
+        <li>precision manufacturing</li>
+        <li>component optimisation</li>
+        <li>ecosystem thinking</li>
+      </ul>
 
+      <p>And then something predictable happened.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">Copy → Improve → Outnumber</h3>
 
-      <p>So this image calling them “losers”...</p>
+      <p>Chinese companies didn’t waste time.</p>
 
-      <p>It’s not about humiliation. It’s about warning.</p>
+      <p>Zero time.</p>
 
-      <p>Globalisation rewards those who produce, not just those who promise.</p>
+      <p>They copied fast. Then improved faster. Then produced at insane scale. Not just one brand — dozens.</p>
 
-      <p class="story-punchline">America taught the world how to globalise. China learned how to win from it.</p>
+      <p>The result? Phones that were:</p>
+      <ul>
+        <li>cheaper</li>
+        <li>“good enough”</li>
+        <li>tailored for our wallets, our networks, our usage</li>
+      </ul>
+
+      <p>Meanwhile, American companies stayed premium. Exclusive. Expensive.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">Today’s Reality (No Emotion, Just Facts)</h3>
+
+      <p>Look around us.</p>
+
+      <p>Exactly. Most people around us don’t use iPhones. They use Chinese smartphones.</p>
+
+      <p>Not because of nationalism. Because of value.</p>
+
+      <p>China didn’t just dominate manufacturing. It dominated distribution, pricing, and iteration speed.</p>
+
+      <p>Globalisation gave them access. They converted access into advantage.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">Semiconductors: Same Story, Higher Stakes</h3>
+
+      <p>Phones are visible. Chips are invisible.</p>
+
+      <p>And that’s why America slept on it.</p>
+
+      <p>Semiconductors power everything:</p>
+      <ul>
+        <li>phones</li>
+        <li>cars</li>
+        <li>missiles</li>
+        <li>AI</li>
+        <li>satellites</li>
+      </ul>
+
+      <p>America stayed strong in design. But manufacturing? Outsourced. Neglected. Delayed.</p>
+
+      <p>China watched this pattern once. They’re repeating it again — slower, harder, but deliberately.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">America’s Core Mistake</h3>
+
+      <p>So where exactly did America go wrong?</p>
+
+      <p>They believed three dangerous ideas:</p>
+      <ul>
+        <li>Markets will fix everything</li>
+        <li>Manufacturing doesn’t matter anymore</li>
+        <li>No one will challenge us at scale</li>
+      </ul>
+
+      <p>China believed none of these.</p>
+
+      <p>They believed:</p>
+      <ul>
+        <li>scale creates power</li>
+        <li>learning beats innovation over time</li>
+        <li>control beats efficiency in crises</li>
+      </ul>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">And Where Do We Fit In?</h3>
+
+      <p>Now you will ask, "This isn’t just America vs China, is it?"</p>
+
+      <p>No. It’s about us.</p>
+
+      <p>We don’t buy Chinese products because they’re Chinese. We buy them because they’re available, affordable, and improving.</p>
+
+      <p>That’s the uncomfortable truth.</p>
+      
+      <p>Globalisation doesn’t reward morality. It rewards who shows up every day to build.</p>
+
+      <p>So this image calling American presidents “losers”...</p>
+
+      <p>It’s not about mocking leaders. It’s about exposing a system-level failure.</p>
+
+      <p class="story-punchline">America taught the world how to globalise. China learned how to dominate it. And the world — including us — buys from the one who delivers.</p>
     `
 
   },
