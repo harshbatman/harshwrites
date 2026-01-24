@@ -91,6 +91,16 @@ export const articles = [
 
       <p>Meanwhile, American companies stayed premium. Exclusive. Expensive.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Copying Was Never the End Goal</h3>
+
+      <p>People mock Chinese companies for copying.</p>
+
+      <p>That’s lazy analysis.</p>
+
+      <p>Copying was step one. Learning was step two. Optimising was step three. Scaling was step four.</p>
+
+      <p>American firms stopped at “innovate once”. Chinese firms iterated endlessly.</p>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Today’s Reality (No Emotion, Just Facts)</h3>
 
       <p>Look around us.</p>
