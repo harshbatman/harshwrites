@@ -441,19 +441,34 @@ export const articles = [
           <div style="font-size: 0.85rem; color: #6b7280; margin-top: 4px;">Sum of Sun Pharma, Dr. Reddy’s, Cipla, Lupin, Aurobindo, Divi’s, Torrent</div>
         </div>
 
-        <!-- Pfizer Net Profit (Context) -->
+        <!-- Profit Comparison (Context) -->
         <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 1px dashed #d1d5db;">
+             <h5 style="font-size: 1rem; font-weight: 700; color: #374151; margin-bottom: 1.25rem;">Net Profit Comparison</h5>
+
+             <!-- Pfizer Profit -->
              <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
-            <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
-               <div style="width: 12px; height: 12px; background: #16a34a; border-radius: 50%;"></div>
-              Pfizer Net Profit
-            </span>
-            <span style="font-weight: 700; color: #16a34a;">$8.03 Billion</span>
-          </div>
-           <div style="width: 100%; height: 12px; background: #e5e7eb; border-radius: 99px; overflow: hidden;">
-            <div style="width: 13.7%; height: 100%; background: #16a34a; border-radius: 99px;"></div>
-          </div>
-           <div style="font-size: 0.85rem; color: #6b7280; margin-top: 4px;">(Just profit, not revenue)</div>
+                <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
+                   <div style="width: 12px; height: 12px; background: #16a34a; border-radius: 50%;"></div>
+                  Pfizer Net Profit
+                </span>
+                <span style="font-weight: 700; color: #16a34a;">$8.03 Billion</span>
+              </div>
+              <div style="width: 100%; height: 12px; background: #e5e7eb; border-radius: 99px; overflow: hidden; margin-bottom: 1.25rem;">
+                <div style="width: 13.7%; height: 100%; background: #16a34a; border-radius: 99px;"></div>
+              </div>
+
+             <!-- Indian Pharma Profit -->
+             <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
+                <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
+                   <div style="width: 12px; height: 12px; background: #f97316; border-radius: 50%;"></div>
+                  Top 7 Indian Pharma Net Profit
+                </span>
+                <span style="font-weight: 700; color: #f97316;">~$8 Billion</span>
+              </div>
+              <div style="width: 100%; height: 12px; background: #e5e7eb; border-radius: 99px; overflow: hidden;">
+                <div style="width: 13.7%; height: 100%; background: #f97316; border-radius: 99px;"></div>
+              </div>
+               <div style="font-size: 0.85rem; color: #6b7280; margin-top: 8px;">(Combined profit of all 7 giants vs Single US Company)</div>
         </div>
 
       </div>
