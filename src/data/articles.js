@@ -76,7 +76,7 @@ export const articles = [
       <p>America designed the world. China built it.</p>
       <p class="story-punchline">And in semiconductors — the brain of modern power — the country that builds eventually decides.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">Final Punchline</h3>
+
 
       <p>So this image calling them “losers”...</p>
 
