@@ -205,7 +205,7 @@ export const articles = [
             <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
               <img src="https://www.google.com/s2/favicons?domain=motorola.com&sz=128" alt="Motorola" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
               Motorola (Lenovo)
-              <span style="font-size: 1.1em; opacity: 0.9;" title="China">��</span>
+              <span style="font-size: 1.1em; opacity: 0.9;" title="China">🇨🇳</span>
             </span>
             <span style="font-weight: 600; color: #111827;">6.2%</span>
           </div>
