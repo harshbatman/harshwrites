@@ -81,17 +81,17 @@ export const articles = [
     image: "/services-vs-manufacturing.jpg",
     excerpt: "Every time someone talks about growth, it’s always the same story: 'Let’s build factories.' But Raghuram Rajan asks us to take a hard look at what we’re doing.",
     content: `
-      <p><strong>Person A:</strong> Every time someone talks about growth, it’s always the same story: “Let’s build factories. Let’s make things. Let’s attract big companies.”</p>
+      <p>Every time someone talks about growth, it’s always the same story: “Let’s build factories. Let’s make things. Let’s attract big companies.”</p>
 
-      <p><strong>Person B:</strong> Yeah, Make in India, PLI, incentives — you name it. And now Apple’s iPhone production sites and Foxconn get talked about like they’re the holy grail of jobs and development.</p>
+      <p>Now you will say, "Yeah, Make in India, PLI, incentives — you name it. And now Apple’s iPhone production sites and Foxconn get talked about like they’re the holy grail of jobs and development."</p>
 
-      <p><strong>Person A:</strong> Exactly. But then Raghuram Rajan asks us to take a hard look at what we’re doing. In his interview with The Wire, he argues that we should value services just as much as manufacturing — and invest accordingly — because that’s where our people and our future might actually lie.</p>
+      <p>Exactly. But then Raghuram Rajan asks us to take a hard look at what we’re doing. In his interview with The Wire, he argues that we should value services just as much as manufacturing — and invest accordingly — because that’s where our people and our future might actually lie.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">But What About Apple and Foxconn? Big Money Flows Here…</h3>
 
-      <p><strong>Person B:</strong> Okay, but surely bringing Apple to make iPhones here is great! Doesn’t that create wealth?</p>
+      <p>Now you might think, "Okay, but surely bringing Apple to make iPhones here is great! Doesn’t that create wealth?"</p>
 
-      <p><strong>Person A:</strong> It does some — but let’s unpack it. The Indian government — both Centre and states — has been offering huge incentives and subsidies to attract companies like Apple’s supplier Foxconn as part of schemes like the PLI (Production Linked Incentive) and state ESDM policies.</p>
+      <p>It does some — but let’s unpack it. The Indian government — both Centre and states — has been offering huge incentives and subsidies to attract companies like Apple’s supplier Foxconn as part of schemes like the PLI (Production Linked Incentive) and state ESDM policies.</p>
 
       <p>For example:</p>
       <ul>
@@ -105,25 +105,25 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">Great Numbers — But What Do We Get in Return?</h3>
 
-      <p><strong>Person B:</strong> I mean, export numbers are huge too, right? Apple iPhones made here have crossed $50 billion in exports during the latest PLI period.</p>
+      <p>Now you will say, "I mean, export numbers are huge too, right? Apple iPhones made here have crossed $50 billion in exports during the latest PLI period."</p>
 
-      <p><strong>Person A:</strong> Yes — exports are impressive. But here’s the point Rajan makes: These are capital-heavy, technology-intensive operations where most big profits flow back to corporate headquarters abroad, and the number of direct jobs per rupee invested isn’t as high as we often assume.</p>
+      <p>Yes — exports are impressive. But here’s the point Rajan makes: These are capital-heavy, technology-intensive operations where most big profits flow back to corporate headquarters abroad, and the number of direct jobs per rupee invested isn’t as high as we often assume.</p>
 
       <p>Think of it like this — a factory might churn out billions in value, but employ far fewer people than an equivalent investment in healthcare workers, teachers, software developers, designers, consultants, logistics specialists, and other service talent.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">Rajan’s Central Argument: Services Are Not Second-Class</h3>
 
-      <p><strong>Person B:</strong> So Rajan is saying we’re focusing too much on manufacturing?</p>
+      <p>So does that mean Rajan is saying we’re focusing too much on manufacturing?</p>
 
-      <p><strong>Person A:</strong> Yes — but not that manufacturing is bad. His point is: If we subsidise factories billions of dollars, why don’t we also subsidise people — our human capital — so they can sell services from India to the world, without tariff and trade-war problems?</p>
+      <p>Yes — but not that manufacturing is bad. His point is: If we subsidise factories billions of dollars, why don’t we also subsidise people — our human capital — so they can sell services from India to the world, without tariff and trade-war problems?</p>
 
       <p class="story-punchline">Services — like healthcare, education, technology, digital content, finance, design, professional services — don’t face the same kind of tariff walls, and our young population can compete globally from right here.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">Where Could That Money Go Instead?</h3>
 
-      <p><strong>Person B:</strong> Like… invest in people?</p>
+      <p>Like… invest in people?</p>
 
-      <p><strong>Person A:</strong> Exactly. Here are some ideas:</p>
+      <p>Exactly. Here are some ideas:</p>
 
       <ul>
       <li><strong>Upskilling & Vocational Training</strong> — Tech skills, language training, digital literacy, AI/ML courses.</li>
@@ -135,9 +135,9 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">The Real Question We Need to Ask</h3>
 
-      <p><strong>Person B:</strong> So it’s not just “manufacturing or services”?</p>
+      <p>So it’s not just “manufacturing or services”?</p>
 
-      <p><strong>Person A:</strong> It’s about balance. Rajan reminds us that development isn’t just about machines and factories. It’s about people, skills, ideas, and adaptability.</p>
+      <p>It’s about balance. Rajan reminds us that development isn’t just about machines and factories. It’s about people, skills, ideas, and adaptability.</p>
 
       <p>If we’re willing to spend thousands of crores on factory subsidies, why not spend similarly on human resource development that lets our youth sell services to the world — without worrying about trade wars or tariffs?</p>
 
