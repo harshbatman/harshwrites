@@ -42,7 +42,7 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 2rem; margin-bottom: 1.5rem">And then there’s India.</h3>
 
-      <p>India watched the experiment fail — and took notes.</p>
+      <p class="story-punchline">India watched the experiment fail — and took notes.</p>
 
       <p>For years, India existed on the periphery of global tech manufacturing. It exported software, talent, and services while observing what happened when a country surrendered physical production in exchange for efficiency. America provided a real-world case study of what not to do.</p>
 
