@@ -39,7 +39,7 @@ function App() {
         </main>
 
         <footer style={{ borderTop: '1px solid #e5e7eb', padding: '3rem 0', textAlign: 'center', color: '#6b7280' }}>
-          <p>&copy; {new Date().getFullYear()} harsh writes. All rights reserved.</p>
+          <p>&copy; 2023 harsh writes. All rights reserved.</p>
         </footer>
       </div>
     </Router>
