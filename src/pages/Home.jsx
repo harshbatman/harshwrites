@@ -1,19 +1,63 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight } from 'lucide-react';
+import { ArrowRight, Search } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { articles } from '../data/articles';
 
 function Home() {
+    const [searchTerm, setSearchTerm] = useState('');
+
+    const filteredArticles = articles.filter(article => {
+        const searchLower = searchTerm.toLowerCase();
+        return (
+            article.title.toLowerCase().includes(searchLower) ||
+            article.excerpt.toLowerCase().includes(searchLower) ||
+            article.category.toLowerCase().includes(searchLower)
+        );
+    });
+
     return (
         <div className="home-container">
             <header className="story-header" style={{ paddingBottom: '1rem', maxWidth: '100%' }}>
                 <h1 className="story-title" style={{ fontSize: '3.5rem', marginBottom: '0.5rem' }}>The Journal</h1>
                 <p className="story-meta">Thoughts, stories, and ideas.</p>
+
+                <div className="search-wrapper" style={{ marginTop: '2rem', maxWidth: '500px' }}>
+                    <div style={{ position: 'relative', display: 'flex', alignItems: 'center' }}>
+                        <Search
+                            size={20}
+                            style={{
+                                position: 'absolute',
+                                left: '1rem',
+                                color: 'var(--color-text-secondary)',
+                                pointerEvents: 'none'
+                            }}
+                        />
+                        <input
+                            type="text"
+                            placeholder="Search stories..."
+                            value={searchTerm}
+                            onChange={(e) => setSearchTerm(e.target.value)}
+                            style={{
+                                width: '100%',
+                                padding: '0.875rem 1rem 0.875rem 3rem',
+                                borderRadius: 'var(--radius-FULL)',
+                                border: '1px solid var(--color-border)',
+                                background: 'var(--color-surface)',
+                                fontSize: '1rem',
+                                color: 'var(--color-text-primary)',
+                                outline: 'none',
+                                transition: 'all 0.2s ease',
+                                boxShadow: 'var(--shadow-sm)'
+                            }}
+                            className="search-input"
+                        />
+                    </div>
+                </div>
             </header>
 
             <div className="articles-grid">
-                {articles.map((article, index) => (
+                {filteredArticles.map((article, index) => (
                     <motion.div
                         key={article.id}
                         initial={{ opacity: 0, y: 20 }}
@@ -50,6 +94,12 @@ function Home() {
                     </motion.div>
                 ))}
             </div>
+
+            {filteredArticles.length === 0 && (
+                <div style={{ textAlign: 'center', padding: '4rem 0', color: 'var(--color-text-secondary)' }}>
+                    <p>No stories found matching "{searchTerm}"</p>
+                </div>
+            )}
         </div>
     );
 }

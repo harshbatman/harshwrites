@@ -134,8 +134,8 @@ a {
 /* Article Grid (Home) */
 .articles-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-  gap: 2.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 2rem;
   padding: 3rem 0;
 }
 
@@ -341,4 +341,15 @@ blockquote {
   font-style: italic;
   font-size: 1.3rem;
   color: var(--color-text-secondary);
+}
+
+/* Search Input Styles */
+.search-input:focus {
+  border-color: var(--color-text-primary) !important;
+  box-shadow: 0 0 0 4px rgba(0, 0, 0, 0.05) !important;
+}
+
+.search-input::placeholder {
+  color: var(--color-text-secondary);
+  opacity: 0.7;
 }
