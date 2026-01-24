@@ -14,7 +14,7 @@ export const articles = [
 
       <p>Exactly. They wrote the rules. Then forgot to read the fine print.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">🌍 Globalisation: The Original Deal</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">Globalisation: The Original Deal</h3>
 
       <p>You might ask, where did it all start going wrong?</p>
 
@@ -24,7 +24,7 @@ export const articles = [
 
       <p>True. But America wasn’t opening China out of charity. The logic was simple: “We design. They manufacture. Everyone wins.” Cheap labour for American companies. Higher profits. Lower prices. Wall Street loved it.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">🏭 The Manufacturing Exit</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">The Manufacturing Exit</h3>
 
       <p>And what about factories?</p>
 
@@ -34,7 +34,7 @@ export const articles = [
 
       <p>Exactly. China saw factories as power.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">⚙️ Semiconductors: The Fatal Assumption</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">Semiconductors: The Fatal Assumption</h3>
 
       <p>Now you will say, "But semiconductors? That’s high-tech. America still dominates there."</p>
 
@@ -43,7 +43,7 @@ export const articles = [
 
       <p>America assumed fabs were just another factory. Dirty. Expensive. Low glamour. China assumed fabs were strategic weapons. So Beijing subsidised. Planned. Protected. Waited.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">🧩 Meanwhile, America…</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">Meanwhile, America…</h3>
 
       <p>So what did the U.S. do?</p>
 
@@ -59,7 +59,7 @@ export const articles = [
         <li>Biden is now trying to rebuild what was dismantled for 40 years.</li>
       </ul>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">🏗️ China’s Long Game</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">China’s Long Game</h3>
 
       <p>And China?</p>
 
@@ -67,7 +67,7 @@ export const articles = [
       <p>They didn’t just make toys and shoes. They climbed — steel → electronics → chips → EVs → AI hardware.</p>
       <p>Globalisation didn’t accidentally help China. China used it deliberately.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">🧠 The Real Lesson</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">The Real Lesson</h3>
 
       <p>So you ask, who really failed?</p>
 
@@ -76,7 +76,7 @@ export const articles = [
       <p>America designed the world. China built it.</p>
       <p class="story-punchline">And in semiconductors — the brain of modern power — the country that builds eventually decides.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">🧾 Final Punchline</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">Final Punchline</h3>
 
       <p>So this image calling them “losers”...</p>
 
