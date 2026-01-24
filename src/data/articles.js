@@ -506,6 +506,44 @@ export const articles = [
 
       <p>And once likes existed, Facebook could map what we love, hate, fear, and desire — better than most governments.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Psychology 101: Variable Rewards & Dopamine Loops</h3>
+
+      <p>This is where psychology kicks in. Facebook borrowed heavily from behavioural science.</p>
+
+      <p>Variable rewards — the same mechanism used in slot machines.</p>
+
+      <p>You refresh the feed. Sometimes it’s boring. Sometimes there’s a like, a comment, a message. That unpredictability releases dopamine.</p>
+
+      <p>We don’t scroll because we’re bored. We scroll because our brain is hoping.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Sean Parker’s Warning (From the Inside)</h3>
+
+      <p>Remember what Sean Parker, Facebook’s first president, later admitted?</p>
+
+      <p>Yeah. He openly said Facebook was designed to exploit “a vulnerability in human psychology.”</p>
+
+      <p>His words were blunt: How do we consume as much of your time and conscious attention as possible?</p>
+
+      <p>That wasn’t an accident. That was the business model.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Data Becomes the New Oil</h3>
+
+      <p>Here’s the real shift. Facebook made data the new oil — but unlike oil, users produce it for free.</p>
+
+      <p>Every like, pause, scroll, message became a signal.</p>
+
+      <p>Facebook didn’t sell our data directly. It sold access to our attention, perfectly targeted.</p>
+
+      <p>That’s how it made billions — not by charging us, but by knowing us better than we know ourselves.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Kara Swisher’s Sharp Take</h3>
+
+      <p>Tech journalist Kara Swisher once said something brutal.</p>
+
+      <p>Yeah — If you’re not paying for the product, you are the product.</p>
+
+      <p>Facebook refined that idea to perfection.</p>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">From People to Everything</h3>
 
       <p>At first, it was just friends. Then came company pages.</p>
@@ -541,15 +579,21 @@ export const articles = [
 
       <p>And once our social life, business life, and political life moved online — Facebook sat right in the middle.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Final Thought</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Final Realisation</h3>
 
-      <p>So yeah, Facebook didn’t just take over the world.</p>
+      <p>So Facebook didn’t win because it was cool.</p>
 
-      <p>It became the mirror we keep looking into — whether we like what we see or not.</p>
+      <p>It won because it understood human psychology, built addictive systems, and monetised attention better than anyone.</p>
 
-      <p>And the scary part?</p>
+      <p>It didn’t just reflect society.</p>
 
-      <p class="story-punchline">Leaving Facebook doesn’t mean leaving an app. It feels like leaving society.</p>
+      <p>It reshaped it.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Closing Line</h3>
+
+      <p>Facebook’s greatest innovation wasn’t technology.</p>
+
+      <p class="story-punchline">It was learning how to keep us looking — and never letting us leave.</p>
     `
   }
 ];
