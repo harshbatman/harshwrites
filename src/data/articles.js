@@ -6,7 +6,7 @@ export const articles = [
     category: "Technology & Geopolitics",
     date: "October 2023",
     image: "/story1.png",
-    excerpt: "It started as a simple efficiency upgrade. But let me tell you, it ended as a massive headache. You know how everyone thought it was a brilliant idea to separate the \"thinking\" from the \"making\"?",
+    excerpt: "Every American president here believed globalisation would automatically keep America on top. But instead, it taught China how to beat them at their own game.",
     content: `
       <p>Every American president here believed globalisation would automatically keep America on top.</p>
 
