@@ -98,6 +98,7 @@ export const articles = [
         <div style="margin-bottom: 1.25rem;">
           <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
             <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
+              <img src="https://logo.clearbit.com/vivo.com" alt="Vivo" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
               Vivo
               <span style="font-size: 1.1em; opacity: 0.9;" title="China">🇨🇳</span>
             </span>
@@ -112,6 +113,7 @@ export const articles = [
         <div style="margin-bottom: 1.25rem;">
           <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
             <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
+              <img src="https://logo.clearbit.com/mi.com" alt="Xiaomi" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
               Xiaomi
               <span style="font-size: 1.1em; opacity: 0.9;" title="China">🇨🇳</span>
             </span>
@@ -126,6 +128,7 @@ export const articles = [
         <div style="margin-bottom: 1.25rem;">
           <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
             <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
+              <img src="https://logo.clearbit.com/realme.com" alt="Realme" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
               Realme
               <span style="font-size: 1.1em; opacity: 0.9;" title="China">🇨🇳</span>
             </span>
@@ -140,6 +143,7 @@ export const articles = [
         <div style="margin-bottom: 1.25rem;">
           <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
             <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
+              <img src="https://logo.clearbit.com/oppo.com" alt="Oppo" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
               Oppo
               <span style="font-size: 1.1em; opacity: 0.9;" title="China">🇨🇳</span>
             </span>
@@ -154,6 +158,7 @@ export const articles = [
         <div style="margin-bottom: 1.25rem;">
           <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
             <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
+              <img src="https://logo.clearbit.com/samsung.com" alt="Samsung" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
               Samsung
               <span style="font-size: 1.1em; opacity: 0.9;" title="South Korea">🇰🇷</span>
             </span>
@@ -168,6 +173,7 @@ export const articles = [
         <div style="margin-bottom: 1.25rem;">
           <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
             <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
+               <img src="https://logo.clearbit.com/lavamobiles.com" alt="Lava" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
               Lava & Others
               <span style="font-size: 1.1em; opacity: 0.9;" title="India">🇮🇳</span>
             </span>
@@ -182,6 +188,7 @@ export const articles = [
         <div style="margin-bottom: 1.25rem;">
           <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
             <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
+              <img src="https://logo.clearbit.com/apple.com" alt="Apple" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
               Apple
               <span style="font-size: 1.1em; opacity: 0.9;" title="USA">🇺🇸</span>
             </span>
@@ -196,6 +203,7 @@ export const articles = [
         <div style="margin-bottom: 0;">
           <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
             <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
+              <img src="https://logo.clearbit.com/motorola.com" alt="Motorola" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
               Motorola
               <span style="font-size: 1.1em; opacity: 0.9;" title="USA">🇺🇸</span>
             </span>
