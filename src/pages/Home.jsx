@@ -7,15 +7,7 @@ import { articles } from '../data/articles';
 function Home() {
     return (
         <div className="home-container">
-            <motion.div
-                initial={{ opacity: 0, y: 20 }}
-                animate={{ opacity: 1, y: 0 }}
-                className="hero"
-                style={{ padding: '4rem 0', textAlign: 'center', maxWidth: '800px', margin: '0 auto' }}
-            >
-                <h1 style={{ fontFamily: 'var(--font-serif)', fontSize: '3.5rem', marginBottom: '1rem' }}>HarshWrites</h1>
-                <p style={{ fontSize: '1.2rem', color: '#666' }}>Navigating the intersection of technology, geopolitics, and human stories.</p>
-            </motion.div>
+
 
             <div className="articles-grid" style={{
                 display: 'grid',
