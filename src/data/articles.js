@@ -14,7 +14,7 @@ export const articles = [
 
       <p>Exactly. Globalisation wasn’t a charity scheme. It was a classroom. China was the most serious student.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">The Beginning: When the Door Opened</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Beginning: When the Door Opened</h3>
 
       <p>People forget how intentional this was.</p>
 
@@ -26,7 +26,7 @@ export const articles = [
 
       <p>Factories moved. Supply chains shifted. Costs fell. Profits exploded. Wall Street celebrated. Main Street slowly disappeared.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">Manufacturing Wasn’t ‘Low Skill’. It Was Leverage.</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Manufacturing Wasn’t ‘Low Skill’. It Was Leverage.</h3>
 
       <p>Now you see, America treated factories like old baggage.</p>
 
@@ -42,7 +42,7 @@ export const articles = [
 
       <p>Design without manufacturing is theory. Manufacturing turns theory into dominance.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">The iPhone Lesson Everyone Ignored</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The iPhone Lesson Everyone Ignored</h3>
 
       <p>Let’s talk about phones. That’s where people really see it.</p>
 
@@ -62,7 +62,7 @@ export const articles = [
 
       <p>And then something predictable happened.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">Copy → Improve → Outnumber</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Copy → Improve → Outnumber</h3>
 
       <p>Chinese companies didn’t waste time.</p>
 
@@ -79,7 +79,7 @@ export const articles = [
 
       <p>Meanwhile, American companies stayed premium. Exclusive. Expensive.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">Today’s Reality (No Emotion, Just Facts)</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Today’s Reality (No Emotion, Just Facts)</h3>
 
       <p>Look around us.</p>
 
@@ -91,7 +91,7 @@ export const articles = [
 
       <p>Globalisation gave them access. They converted access into advantage.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">Semiconductors: Same Story, Higher Stakes</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Semiconductors: Same Story, Higher Stakes</h3>
 
       <p>Phones are visible. Chips are invisible.</p>
 
@@ -110,7 +110,7 @@ export const articles = [
 
       <p>China watched this pattern once. They’re repeating it again — slower, harder, but deliberately.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">Meanwhile, America…</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Meanwhile, America…</h3>
 
       <p>So what did the U.S. do?</p>
 
@@ -126,7 +126,7 @@ export const articles = [
         <li>Biden is now trying to rebuild what was dismantled for 40 years.</li>
       </ul>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">America’s Core Mistake</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">America’s Core Mistake</h3>
 
       <p>So where exactly did America go wrong?</p>
 
@@ -146,7 +146,7 @@ export const articles = [
         <li>control beats efficiency in crises</li>
       </ul>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">And Where Do We Fit In?</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">And Where Do We Fit In?</h3>
 
       <p>Now you will ask, "This isn’t just America vs China, is it?"</p>
 
@@ -181,7 +181,7 @@ export const articles = [
 
       <p>Exactly. But then Raghuram Rajan asks us to take a hard look at what we’re doing. In his interview with The Wire, he argues that we should value services just as much as manufacturing — and invest accordingly — because that’s where our people and our future might actually lie.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">But What About Apple and Foxconn? Big Money Flows Here…</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">But What About Apple and Foxconn? Big Money Flows Here…</h3>
 
       <p>Now you might think, "Okay, but surely bringing Apple to make iPhones here is great! Doesn’t that create wealth?"</p>
 
@@ -197,7 +197,7 @@ export const articles = [
 
       <p class="story-punchline">So we’re talking about subsidy flows in the thousands of crores — numbers big enough to make anyone blink.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">Great Numbers — But What Do We Get in Return?</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Great Numbers — But What Do We Get in Return?</h3>
 
       <p>Now you will say, "I mean, export numbers are huge too, right? Apple iPhones made here have crossed $50 billion in exports during the latest PLI period."</p>
 
@@ -205,7 +205,7 @@ export const articles = [
 
       <p>Think of it like this — a factory might churn out billions in value, but employ far fewer people than an equivalent investment in healthcare workers, teachers, software developers, designers, consultants, logistics specialists, and other service talent.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">Rajan’s Central Argument: Services Are Not Second-Class</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Rajan’s Central Argument: Services Are Not Second-Class</h3>
 
       <p>So does that mean Rajan is saying we’re focusing too much on manufacturing?</p>
 
@@ -213,7 +213,7 @@ export const articles = [
 
       <p class="story-punchline">Services — like healthcare, education, technology, digital content, finance, design, professional services — don’t face the same kind of tariff walls, and our young population can compete globally from right here.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">Where Could That Money Go Instead?</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Where Could That Money Go Instead?</h3>
 
       <p>Like… invest in people?</p>
 
@@ -227,7 +227,7 @@ export const articles = [
       <li><strong>SME and Gig-Economy Support</strong> — Micro loans, incubation, digital platforms that connect small service providers globally.</li>
       </ul>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">The Real Question We Need to Ask</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Real Question We Need to Ask</h3>
 
       <p>So it’s not just “manufacturing or services”?</p>
 
@@ -242,7 +242,7 @@ export const articles = [
       <li>Often higher value per worker</li>
       </ul>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">Conclusion</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Conclusion</h3>
 
       <p>We’ve been telling ourselves:</p>
       <p class="story-punchline">“Manufacturing is the engine of jobs.”</p>
