@@ -7,7 +7,7 @@ export const articles = [
     date: "October 2023",
     image: "/story1.png",
     excerpt: "It started as a simple efficiency upgrade. But let me tell you, it ended as a massive headache. You know how everyone thought it was a brilliant idea to separate the \"thinking\" from the \"making\"?",
-    content: 
+    content: `
       <p class="story-punchline">It started as a simple efficiency upgrade. But let me tell you, it ended as a massive headache.</p>
 
       <p><span className="drop-cap">Y</span>ou know how everyone thought it was a brilliant idea to separate the "thinking" from the "making"? For almost thirty years, that really was the playbook. The plan was simple: America would handle the cool stuff—research, design, software—and shipment of the actual manufacturing would go to wherever it was cheapest. On paper? Ideally, it made total sense. Costs went down, profits went up, and consumers got cheaper gadgets.</p>
@@ -69,6 +69,7 @@ export const articles = [
       <p class="story-punchline">Whoever owns the stack, owns the future.</p>
 
       <p>And let me tell you, we aren't planning on sitting this one out.</p>
+    `
 
   }
 ];
