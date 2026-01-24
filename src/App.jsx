@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <div className="app">
-        <header>
+        <header className="site-header">
           <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
             <Link to="/" className="site-logo">harsh writes</Link>
           </div>
