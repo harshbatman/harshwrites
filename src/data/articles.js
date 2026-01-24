@@ -1,7 +1,7 @@
 export const articles = [
   {
     id: "globalisation-tech-power",
-    title: "Globalisation, Tech Power, and the Lessons America Taught the World",
+    title: "They Designed It. China Copied It. We Bought It.",
     author: "Harsh Mahto",
     category: "Technology & Geopolitics",
     date: "October 2023",
