@@ -589,7 +589,7 @@ export const articles = [
 
       <p>It reshaped it.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Closing Line</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Conclusion</h3>
 
       <p>Facebook’s greatest innovation wasn’t technology.</p>
 
