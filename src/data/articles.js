@@ -263,6 +263,16 @@ export const articles = [
         <li>Biden is now trying to rebuild what was dismantled for 40 years.</li>
       </ul>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">China’s Long Game</h3>
+
+      <p>And what about China?</p>
+
+      <p>Five-year plans. Technology transfer. Local champions. Manufacturing scale.</p>
+
+      <p>They didn’t just make toys and shoes. They climbed — steel → electronics → chips → EVs → AI hardware.</p>
+
+      <p>Globalisation didn’t accidentally help China. China used it deliberately.</p>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">America’s Core Mistake</h3>
 
       <p>So where exactly did America go wrong?</p>
