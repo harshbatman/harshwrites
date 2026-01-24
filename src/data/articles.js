@@ -110,6 +110,22 @@ export const articles = [
 
       <p>China watched this pattern once. They’re repeating it again — slower, harder, but deliberately.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">Meanwhile, America…</h3>
+
+      <p>So what did the U.S. do?</p>
+
+      <p>Quarterly profits. Stock buybacks. Outsourcing.</p>
+
+      <p>Presidents changed. Policies didn’t.</p>
+      <ul>
+        <li>Reagan trusted markets.</li>
+        <li>Clinton doubled down on free trade.</li>
+        <li>Bush focused on wars.</li>
+        <li>Obama hoped supply chains were “too global to break”.</li>
+        <li>Trump noticed the problem — too late, too loud.</li>
+        <li>Biden is now trying to rebuild what was dismantled for 40 years.</li>
+      </ul>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem;">America’s Core Mistake</h3>
 
       <p>So where exactly did America go wrong?</p>
