@@ -80,7 +80,7 @@ export const articles = [
     date: "January 2026",
     image: "/services-vs-manufacturing.jpg",
     excerpt: "Every time someone talks about growth, it’s always the same story: 'Let’s build factories.' But Raghuram Rajan asks us to take a hard look at what we’re doing.",
-    content: \`
+    content: `
       <p><strong>Person A:</strong> Every time someone talks about growth, it’s always the same story: “Let’s build factories. Let’s make things. Let’s attract big companies.”</p>
 
       <p><strong>Person B:</strong> Yeah, Make in India, PLI, incentives — you name it. And now Apple’s iPhone production sites and Foxconn get talked about like they’re the holy grail of jobs and development.</p>
@@ -160,6 +160,6 @@ export const articles = [
       <p>We should ask ourselves: If we can give crores to factories, why not invest equally in our people who can serve the world from right here?</p>
 
       <p class="story-punchline">That’s the uncomfortable but important conversation Rajan is pushing us toward — and it’s one we need to have honestly.</p>
-    \`
+    `
   }
 ];
