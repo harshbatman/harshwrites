@@ -457,6 +457,7 @@ export const articles = [
                 <div style="width: 13.7%; height: 100%; background: #16a34a; border-radius: 99px;"></div>
               </div>
 
+
              <!-- Indian Pharma Profit -->
              <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
                 <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
@@ -469,6 +470,52 @@ export const articles = [
                 <div style="width: 13.7%; height: 100%; background: #f97316; border-radius: 99px;"></div>
               </div>
                <div style="font-size: 0.85rem; color: #6b7280; margin-top: 8px;">(Combined profit of all 7 giants vs Single US Company)</div>
+        </div>
+
+        <!-- US Industry Comparison (The "Systemic" Scale) -->
+        <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 2px solid #e5e7eb;">
+             <h4 style="font-family: var(--font-serif); font-size: 1.1rem; font-weight: 700; margin-bottom: 1.5rem; color: #111827;">The Bigger Picture: Total US Pharma Market</h4>
+
+             <!-- Revenue Scale -->
+             <div style="margin-bottom: 1.25rem;">
+               <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.9rem;">
+                  <span style="font-weight: 600; color: #374151;">🇺🇸 US Pharma Market Revenue</span>
+                  <span style="font-weight: 700; color: #111827;">~$635 Billion</span>
+               </div>
+               <div style="width: 100%; height: 18px; background: #e5e7eb; border-radius: 6px; overflow: hidden;">
+                  <div style="width: 100%; height: 100%; background: #1e3a8a; border-radius: 6px;"></div>
+               </div>
+               
+               <div style="display: flex; justify-content: space-between; margin-top: 0.5rem; margin-bottom: 0.25rem; font-size: 0.9rem;">
+                  <span style="font-weight: 600; color: #374151;">🇮🇳 India Top 7 Revenue</span>
+                  <span style="font-weight: 700; color: #f97316;">~$23 Billion</span>
+               </div>
+               <div style="width: 100%; height: 18px; background: #e5e7eb; border-radius: 6px; overflow: hidden;">
+                  <!-- ~3.6% of US Revenue -->
+                  <div style="width: 3.6%; height: 100%; background: #f97316; border-radius: 6px;"></div>
+               </div>
+             </div>
+
+             <!-- Profit Scale -->
+             <div style="margin-top: 1.5rem;">
+               <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.9rem;">
+                  <span style="font-weight: 600; color: #374151;">🇺🇸 Est. Top 15 US Cos. Profit</span>
+                  <span style="font-weight: 700; color: #15803d;">~$116 Billion</span>
+               </div>
+               <div style="width: 100%; height: 18px; background: #e5e7eb; border-radius: 6px; overflow: hidden;">
+                  <div style="width: 100%; height: 100%; background: #15803d; border-radius: 6px;"></div>
+               </div>
+
+                <div style="display: flex; justify-content: space-between; margin-top: 0.5rem; margin-bottom: 0.25rem; font-size: 0.9rem;">
+                  <span style="font-weight: 600; color: #374151;">🇮🇳 India Top 7 Profit</span>
+                  <span style="font-weight: 700; color: #f97316;">~$8 Billion</span>
+               </div>
+               <div style="width: 100%; height: 18px; background: #e5e7eb; border-radius: 6px; overflow: hidden;">
+                   <!-- ~6.9% of US Profit -->
+                  <div style="width: 6.9%; height: 100%; background: #f97316; border-radius: 6px;"></div>
+               </div>
+             </div>
+             
         </div>
 
       </div>
