@@ -60,7 +60,18 @@ function ArticleView() {
                     <h1 className="story-title">{article.title}</h1>
                     <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1.5rem', color: '#6b7280', fontSize: '0.95rem' }}>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                            <User size={16} /> <span>{article.author}</span>
+                            <img
+                                src="/harsh-mahto.jpg"
+                                alt={article.author}
+                                style={{
+                                    width: '32px',
+                                    height: '32px',
+                                    borderRadius: '50%',
+                                    objectFit: 'cover',
+                                    border: '1px solid #e5e7eb'
+                                }}
+                            />
+                            <span>{article.author}</span>
                         </div>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                             <Calendar size={16} /> <span>{article.date}</span>
