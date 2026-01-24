@@ -8,9 +8,9 @@ export const articles = [
     image: "/story1.png",
     excerpt: "It started as an efficiency upgrade. It ended as a strategic liability. For nearly three decades, the global technology industry ran on a deceptively simple idea: separate thinking from making.",
     content: `
-      <p><span className="drop-cap">I</span>t started as an efficiency upgrade. It ended as a strategic liability.</p>
+      <p class="story-punchline">It started as an efficiency upgrade. It ended as a strategic liability.</p>
 
-      <p>For nearly three decades, the global technology industry ran on a deceptively simple idea: separate thinking from making. The United States would lead in research, design, and software, while manufacturing would move to wherever labour and inputs were cheapest. On balance sheets, the logic was flawless. Costs fell. Profits rose. Consumers won.</p>
+      <p><span className="drop-cap">F</span>or nearly three decades, the global technology industry ran on a deceptively simple idea: separate thinking from making. The United States would lead in research, design, and software, while manufacturing would move to wherever labour and inputs were cheapest. On balance sheets, the logic was flawless. Costs fell. Profits rose. Consumers won.</p>
 
       <p class="story-punchline">But technology doesn’t reward separation forever.</p>
 
