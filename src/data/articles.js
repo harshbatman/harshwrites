@@ -26,6 +26,18 @@ export const articles = [
 
       <p>Factories moved. Supply chains shifted. Costs fell. Profits exploded. Wall Street celebrated. Main Street slowly disappeared.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Manufacturing Exit</h3>
+
+      <p>Now you will ask, "And factories?"</p>
+
+      <p>Gone. One by one. Detroit → Shenzhen. Ohio → Guangdong.</p>
+
+      <p>America decided manufacturing was “low value”. Finance, software, and services were “the future”.</p>
+
+      <p>But China didn’t see it that way.</p>
+
+      <p>Exactly. China saw factories as power.</p>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Manufacturing Wasn’t ‘Low Skill’. It Was Leverage.</h3>
 
       <p>Now you see, America treated factories like old baggage.</p>
