@@ -398,6 +398,62 @@ export const articles = [
 
       <p>Think of it like this — a factory might churn out billions in value, but employ far fewer people than an equivalent investment in healthcare workers, teachers, software developers, designers, consultants, logistics specialists, and other service talent.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Pharma Mirror: High Volume, Low Value</h3>
+
+      <p>But pharma is our success story, right? We’re called the pharmacy of the world.</p>
+
+      <p>True — and that’s precisely why it’s the perfect mirror.</p>
+
+      <p>We dominate pharmaceutical manufacturing. Generics, APIs, bulk drugs — huge volumes, global reach. But manufacturing is the lowest-value part of the pharma chain. The real money is in R&D, new molecules, patents, and innovation.</p>
+
+      <p>Now look at the numbers.</p>
+
+      <div style="margin: 3rem 0; padding: 2rem; background: #f9fafb; border-radius: 16px; border: 1px solid #e5e7eb;">
+        <!-- Indian Pharma -->
+        <div style="margin-bottom: 2rem;">
+            <div style="font-weight: 700; color: #374151; margin-bottom: 1rem; display: flex; align-items: center; gap: 8px;">
+                <span style="font-size: 1.25rem;">🇮🇳</span> India's Top Pharma Giants (Combined)
+            </div>
+            <div style="display: flex; flex-wrap: wrap; gap: 16px; margin-bottom: 1rem; align-items: center;">
+                <img src="https://www.google.com/s2/favicons?domain=sunpharma.com&sz=64" title="Sun Pharma" style="width: 24px; height: 24px; border-radius: 4px;">
+                <img src="https://www.google.com/s2/favicons?domain=drreddys.com&sz=64" title="Dr. Reddy's" style="width: 24px; height: 24px; border-radius: 4px;">
+                <img src="https://www.google.com/s2/favicons?domain=cipla.com&sz=64" title="Cipla" style="width: 24px; height: 24px; border-radius: 4px;">
+                <img src="https://www.google.com/s2/favicons?domain=lupin.com&sz=64" title="Lupin" style="width: 24px; height: 24px; border-radius: 4px;">
+                <img src="https://www.google.com/s2/favicons?domain=aurobindo.com&sz=64" title="Aurobindo" style="width: 24px; height: 24px; border-radius: 4px;">
+                <img src="https://www.google.com/s2/favicons?domain=divislabs.com&sz=64" title="Divi's" style="width: 24px; height: 24px; border-radius: 4px;">
+                <img src="https://www.google.com/s2/favicons?domain=torrentpharma.com&sz=64" title="Torrent" style="width: 24px; height: 24px; border-radius: 4px;">
+            </div>
+            <div style="font-size: 1.1rem; font-weight: 700; color: #111827;">≈ $23 Billion Revenue</div>
+             <div style="font-size: 0.85rem; color: #6b7280; margin-top: 4px;">(Sun Pharma, Dr. Reddy’s, Cipla, Lupin, Aurobindo, Divi’s, Torrent)</div>
+        </div>
+
+        <div style="border-top: 1px solid #e5e7eb; margin: 1.5rem 0;"></div>
+
+        <!-- Pfizer -->
+        <div>
+            <div style="font-weight: 700; color: #374151; margin-bottom: 1rem; display: flex; align-items: center; gap: 8px;">
+                <span style="font-size: 1.25rem;">🇺🇸</span> Pfizer (Single Company)
+            </div>
+             <div style="margin-bottom: 1rem;">
+                <img src="https://www.google.com/s2/favicons?domain=pfizer.com&sz=64" title="Pfizer" style="width: 32px; height: 32px; border-radius: 4px;">
+            </div>
+            <div style="font-size: 1.1rem; font-weight: 700; color: #111827; margin-bottom: 0.25rem;">$58.5 Billion Revenue</div>
+            <div style="font-size: 0.95rem; color: #16a34a; font-weight: 600;">$8.03 Billion Net Profit</div>
+        </div>
+      </div>
+
+      <p>All major Indian pharma companies combined — Sun Pharma, Dr. Reddy’s, Cipla, Lupin, Aurobindo, Divi’s, Torrent — together generate roughly $23 billion in annual revenue.</p>
+
+      <p>Now compare that to Pfizer.</p>
+
+      <p>Pfizer alone generated about $58.5 billion in revenue in 2024. More strikingly, its net profit was $8.03 billion.</p>
+
+      <p>Let that sink in.</p>
+
+      <p>One American company’s profit is comparable to the combined profit of India’s biggest pharma manufacturers.</p>
+      
+      <p>And its revenue is more than double our combined pharma revenue.</p>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Rajan’s Central Argument: Services Are Not Second-Class</h3>
 
       <p>So does that mean Rajan is saying we’re focusing too much on manufacturing?</p>
