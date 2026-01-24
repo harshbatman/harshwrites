@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react';
+import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, User, Calendar, Share2 } from 'lucide-react';
@@ -7,11 +7,30 @@ import { articles } from '../data/articles';
 function ArticleView() {
     const { id } = useParams();
     const article = articles.find(a => a.id === id);
+    const [copied, setCopied] = useState(false);
 
     // Scroll to top on mount
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
+
+    const handleShare = async () => {
+        if (navigator.share) {
+            try {
+                await navigator.share({
+                    title: article?.title,
+                    text: article?.excerpt,
+                    url: window.location.href,
+                });
+            } catch (err) {
+                console.error("Share failed:", err);
+            }
+        } else {
+            navigator.clipboard.writeText(window.location.href);
+            setCopied(true);
+            setTimeout(() => setCopied(false), 2000);
+        }
+    };
 
     if (!article) {
         return (
@@ -67,8 +86,11 @@ function ArticleView() {
                 />
 
                 <div style={{ padding: '3rem 0', marginTop: '3rem', borderTop: '1px solid #e5e7eb', display: 'flex', justifyContent: 'center' }}>
-                    <button style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', background: 'white', border: '1px solid #e5e7eb', padding: '0.75rem 1.5rem', borderRadius: '2rem', cursor: 'pointer', fontWeight: 500, color: '#374151' }}>
-                        <Share2 size={18} /> Share this story
+                    <button
+                        onClick={handleShare}
+                        style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', background: copied ? '#1a1a1a' : 'white', color: copied ? 'white' : '#374151', border: '1px solid #e5e7eb', padding: '0.75rem 1.5rem', borderRadius: '2rem', cursor: 'pointer', fontWeight: 500, transition: 'all 0.2s' }}
+                    >
+                        <Share2 size={18} /> {copied ? 'Link Copied!' : 'Share this story'}
                     </button>
                 </div>
             </div>
