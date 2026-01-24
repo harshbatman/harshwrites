@@ -1,4 +1,4 @@
-# HarshWrites
+# harsh writes
 
 A personal blog built with React, Vite, and Framer Motion.
 

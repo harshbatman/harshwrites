@@ -11,7 +11,7 @@ function App() {
       <div className="app">
         <header>
           <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            <Link to="/" className="site-logo">HarshWrites</Link>
+            <Link to="/" className="site-logo">harsh writes</Link>
           </div>
         </header>
 
@@ -39,7 +39,7 @@ function App() {
         </main>
 
         <footer style={{ borderTop: '1px solid #e5e7eb', padding: '3rem 0', textAlign: 'center', color: '#6b7280' }}>
-          <p>&copy; {new Date().getFullYear()} HarshWrites. All rights reserved.</p>
+          <p>&copy; {new Date().getFullYear()} harsh writes. All rights reserved.</p>
         </footer>
       </div>
     </Router>
