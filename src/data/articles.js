@@ -409,14 +409,14 @@ export const articles = [
       <p>Now look at the numbers. And to be fair, let's take not just the top 5 or 7, but the <strong>Top 15</strong> Indian pharma companies combined.</p>
 
       <div style="margin: 3rem 0; padding: 2rem; background: #f9fafb; border-radius: 16px; border: 1px solid #e5e7eb;">
-        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; color: #111827; letter-spacing: -0.01em;">Annual Revenue Comparison (2024)</h4>
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; color: #111827; letter-spacing: -0.01em;">Annual Revenue & Profit Comparison (2023)</h4>
         
         <!-- Pfizer Revenue -->
         <div style="margin-bottom: 1.5rem;">
           <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
             <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
               <img src="https://www.google.com/s2/favicons?domain=pfizer.com&sz=64" alt="Pfizer" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
-              Pfizer (USA)
+              Pfizer (USA) Revenue
             </span>
             <span style="font-weight: 700; color: #111827;">$58.5 Billion</span>
           </div>
@@ -431,16 +431,16 @@ export const articles = [
           <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
             <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
               <span style="font-size: 1.2em;">🇮🇳</span>
-              Top 15 Indian Pharma Cos.
+              India Top 15 Revenue
             </span>
-            <span style="font-weight: 700; color: #111827;">~$29 Billion</span>
+            <span style="font-weight: 700; color: #111827;">~$25 Billion</span>
           </div>
           <div style="width: 100%; height: 24px; background: #e5e7eb; border-radius: 6px; overflow: hidden; position: relative;">
-            <!-- 29/58.5 = ~49.5% -->
-            <div style="width: 49.5%; height: 100%; background: #f97316; border-radius: 6px;"></div>
+            <!-- 25/58.5 = ~42% -->
+            <div style="width: 42%; height: 100%; background: #f97316; border-radius: 6px;"></div>
           </div>
           <div style="font-size: 0.85rem; color: #6b7280; margin-top: 4px; line-height: 1.4;">
-            Sum of Sun Pharma, Dr. Reddy’s, Aurobindo, Cipla, Lupin, Zydus, Alkem, Mankind, Torrent, Divi’s + 5 others.
+            Sum of Sun Pharma, Dr. Reddy’s, Aurobindo, Cipla, Lupin, Zydus, etc.
           </div>
         </div>
 
@@ -455,10 +455,10 @@ export const articles = [
                    <div style="width: 12px; height: 12px; background: #16a34a; border-radius: 50%;"></div>
                   Pfizer Net Profit
                 </span>
-                <span style="font-weight: 700; color: #16a34a;">$8.03 Billion</span>
+                <span style="font-weight: 700; color: #16a34a;">$2.12 Billion</span>
               </div>
               <div style="width: 100%; height: 12px; background: #e5e7eb; border-radius: 99px; overflow: hidden; margin-bottom: 1.25rem;">
-                <div style="width: 13.7%; height: 100%; background: #16a34a; border-radius: 99px;"></div>
+                <div style="width: 47%; height: 100%; background: #16a34a; border-radius: 99px;"></div>
               </div>
 
              <!-- Indian Pharma Profit -->
@@ -470,10 +470,9 @@ export const articles = [
                 <span style="font-weight: 700; color: #f97316;">~$4.5 Billion</span>
               </div>
               <div style="width: 100%; height: 12px; background: #e5e7eb; border-radius: 99px; overflow: hidden;">
-                <!-- 4.5/58.5 = ~7.7% -->
-                <div style="width: 7.7%; height: 100%; background: #f97316; border-radius: 99px;"></div>
+                <div style="width: 100%; height: 100%; background: #f97316; border-radius: 99px;"></div>
               </div>
-               <div style="font-size: 0.85rem; color: #6b7280; margin-top: 8px;">(Combined profit of all 15 giants vs Single US Company)</div>
+               <div style="font-size: 0.85rem; color: #6b7280; margin-top: 8px;">(Note: Pfizer profit dipped in 2023 due to post-Covid corrections)</div>
         </div>
 
         <!-- US Industry Comparison (The "Systemic" Scale) -->
@@ -492,11 +491,11 @@ export const articles = [
                
                <div style="display: flex; justify-content: space-between; margin-top: 0.5rem; margin-bottom: 0.25rem; font-size: 0.9rem;">
                   <span style="font-weight: 600; color: #374151;">🇮🇳 India Top 15 Revenue</span>
-                  <span style="font-weight: 700; color: #f97316;">~$29 Billion</span>
+                  <span style="font-weight: 700; color: #f97316;">~$25 Billion</span>
                </div>
                <div style="width: 100%; height: 18px; background: #e5e7eb; border-radius: 6px; overflow: hidden;">
-                  <!-- 29/635 = ~4.5% -->
-                  <div style="width: 4.5%; height: 100%; background: #f97316; border-radius: 6px;"></div>
+                  <!-- 25/635 = ~3.9% -->
+                  <div style="width: 3.9%; height: 100%; background: #f97316; border-radius: 6px;"></div>
                </div>
              </div>
 
@@ -524,17 +523,15 @@ export const articles = [
 
       </div>
 
-      <p>All major Indian pharma companies combined — Sun Pharma, Dr. Reddy’s, Cipla, Lupin, Aurobindo, Divi’s, Torrent and others — together generate roughly $29 billion in annual revenue.</p>
+      <p>All major Indian pharma companies combined — Sun Pharma, Dr. Reddy’s, Cipla, Lupin, Aurobindo, Divi’s, Torrent and others — together generate roughly $25 billion in annual revenue.</p>
 
       <p>Now compare that to Pfizer.</p>
 
-      <p>Pfizer alone generated about $58.5 billion in revenue in 2024. More strikingly, its net profit was $8.03 billion.</p>
+      <p>Pfizer alone generated about $58.5 billion in revenue in 2023.</p>
 
       <p>Let that sink in.</p>
 
-      <p>One American company’s profit is nearly <strong>double</strong> the combined profit of India’s top 15 pharma manufacturers.</p>
-      
-      <p>And its revenue is double our combined pharma revenue.</p>
+      <p>One American company’s revenue is more than <strong>double</strong> the combined revenue of India’s top 15 pharma manufacturers.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">What This Actually Tells Us</h3>
 
