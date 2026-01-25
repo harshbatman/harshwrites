@@ -467,11 +467,11 @@ export const articles = [
                    <div style="width: 12px; height: 12px; background: #f97316; border-radius: 50%;"></div>
                   Top 15 Indian Pharma Net Profit
                 </span>
-                <span style="font-weight: 700; color: #f97316;">~$4.8 Billion</span>
+                <span style="font-weight: 700; color: #f97316;">~$4.5 Billion</span>
               </div>
               <div style="width: 100%; height: 12px; background: #e5e7eb; border-radius: 99px; overflow: hidden;">
-                <!-- 4.8/58.5 = ~8.2% -->
-                <div style="width: 8.2%; height: 100%; background: #f97316; border-radius: 99px;"></div>
+                <!-- 4.5/58.5 = ~7.7% -->
+                <div style="width: 7.7%; height: 100%; background: #f97316; border-radius: 99px;"></div>
               </div>
                <div style="font-size: 0.85rem; color: #6b7280; margin-top: 8px;">(Combined profit of all 15 giants vs Single US Company)</div>
         </div>
@@ -512,11 +512,11 @@ export const articles = [
 
                 <div style="display: flex; justify-content: space-between; margin-top: 0.5rem; margin-bottom: 0.25rem; font-size: 0.9rem;">
                   <span style="font-weight: 600; color: #374151;">🇮🇳 India Top 15 Profit</span>
-                  <span style="font-weight: 700; color: #f97316;">~$4.8 Billion</span>
+                  <span style="font-weight: 700; color: #f97316;">~$4.5 Billion</span>
                </div>
                <div style="width: 100%; height: 18px; background: #e5e7eb; border-radius: 6px; overflow: hidden;">
-                   <!-- 4.8/116 = ~4.1% -->
-                  <div style="width: 4.1%; height: 100%; background: #f97316; border-radius: 6px;"></div>
+                   <!-- 4.5/116 = ~3.8% -->
+                  <div style="width: 3.8%; height: 100%; background: #f97316; border-radius: 6px;"></div>
                </div>
              </div>
              
@@ -532,7 +532,7 @@ export const articles = [
 
       <p>Let that sink in.</p>
 
-      <p>One American company’s profit is nearly double the combined profit of India’s top 15 pharma manufacturers.</p>
+      <p>One American company’s profit is nearly <strong>double</strong> the combined profit of India’s top 15 pharma manufacturers.</p>
       
       <p>And its revenue is double our combined pharma revenue.</p>
 
