@@ -1556,16 +1556,14 @@ export const articles = [
     excerpt: "When I was in school, I used to shout slogans without thinking twice. Jai Jawan, Jai Kisan echoed during morning assemblies, Independence Day functions, and rallies. I raised my voice with everyone else—confident, patriotic—yet I never truly understood what those words meant.",
     content: `
       <p style="font-style: italic; color: #4b5563; border-left: 4px solid #e5e7eb; padding-left: 1rem; margin-bottom: 2rem;">
-        When I was in school, I used to shout slogans without thinking twice. Jai Jawan, Jai Kisan echoed during morning assemblies, Independence Day functions, and rallies. I raised my voice with everyone else—confident, patriotic—yet I never truly understood what those words meant.
+        When I was in school, I used to shout slogans without thinking twice. Jai Jawan, Jai Kisan echoed through morning assemblies, Independence Day functions, and rallies. I raised my voice with everyone else—confident, patriotic—yet I never truly understood what those words meant.
         <br><br>
-        Back then, it felt like just another line we were expected to remember. I memorised it, repeated it, and moved on. What I didn’t realise was that this slogan wasn’t created for classrooms or ceremonies. It was born in a time of war, shortage, and uncertainty—when the nation was struggling to protect its borders and feed its people at the same time.
+        Back then, it felt like just another line we were expected to memorise. I repeated it and moved on, unaware that this slogan wasn’t created for classrooms or ceremonies. It was born in a time of war, shortage, and uncertainty—when the nation was struggling to protect its borders and feed its people at the same time.
         <br><br>
-        Years later, looking back at our history, I finally understood that Jai Jawan, Jai Kisan was not meant to sound good. It was meant to remind us who actually keeps the country standing.
+        Years later, looking back at our history, I finally understood that Jai Jawan, Jai Kisan was never meant to sound good or poetic. It was meant to remind us who actually keeps the country standing.
       </p>
 
-      <p>Because let me tell you something: this slogan didn’t come from comfort. It came from fear, loss, and a moment when our country was standing at the edge.</p>
-
-      <p>Exactly. And you might think it was just a catchy line, a political slogan. But no—this line was born when we were unsure if we could protect our borders and feed our people at the same time.</p>
+      <p>Because this slogan didn’t come from comfort. It came from fear, loss, and a moment when the country was standing at the edge—unsure whether it could defend itself and sustain its people at once.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">1962: The Trauma Before the Triumph</h3>
 
