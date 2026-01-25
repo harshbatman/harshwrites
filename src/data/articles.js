@@ -1563,7 +1563,7 @@ export const articles = [
         Years later, looking back at our history, I finally understood that Jai Jawan, Jai Kisan was not meant to sound good. It was meant to remind us who actually keeps the country standing.
       </p>
 
-      <p>You know, we shout “Jai Jawan, Jai Kisan” so easily today—at rallies, on banners, during speeches. But let me tell you something: this slogan didn’t come from comfort. It came from fear, loss, and a moment when our country was standing at the edge.</p>
+      <p>Because let me tell you something: this slogan didn’t come from comfort. It came from fear, loss, and a moment when our country was standing at the edge.</p>
 
       <p>Exactly. And you might think it was just a catchy line, a political slogan. But no—this line was born when we were unsure if we could protect our borders and feed our people at the same time.</p>
 
