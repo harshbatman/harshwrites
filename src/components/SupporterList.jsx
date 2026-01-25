@@ -11,6 +11,7 @@ const supporters = [
     { name: "Aesha", amount: "₹100" },
     { name: "Prakash Tyagi", amount: "₹100" },
     { name: "Praveen", amount: "₹100" },
+    { name: "Komal", amount: "₹100" },
 ];
 
 const SupporterList = () => {
