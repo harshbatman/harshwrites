@@ -33,8 +33,6 @@ const SupportSection = () => {
                 fontFamily: 'serif' // matching the likely article style or keeping it distinct
             }}>
                 This website is intentionally <span style={{ fontWeight: 'bold', color: '#111' }}>ad-free</span>.
-                <br />
-                I don’t like serving something to others that I wouldn’t consume myself.
                 <br /><br />
                 If you enjoy the stories or learn something here, and would like to support more such work, you can do so via UPI (
                 <span style={{ fontWeight: '600', color: '#111' }}>{upiId}</span>
