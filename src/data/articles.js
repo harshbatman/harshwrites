@@ -1545,5 +1545,69 @@ export const articles = [
 
       <p class="story-punchline">It sounds… very us.</p>
     `
+  },
+  {
+    id: "story-behind-jai-jawan-jai-kisan",
+    title: "The Story Behind Jai Jawan, Jai Kisan",
+    author: "Harsh Mahto",
+    category: "History & Policy",
+    date: "January 2026",
+    image: "/jai-jawan-jai-kisan.jpg",
+    excerpt: "You know, we shout “Jai Jawan, Jai Kisan” so easily today—at rallies, on banners, during speeches. But let me tell you something: this slogan didn’t come from comfort.",
+    content: `
+      <p>You know, we shout “Jai Jawan, Jai Kisan” so easily today—at rallies, on banners, during speeches. But let me tell you something: this slogan didn’t come from comfort. It came from fear, loss, and a moment when our country was standing at the edge.</p>
+
+      <p>Exactly. And you might think it was just a catchy line, a political slogan. But no—this line was born when we were unsure if we could protect our borders and feed our people at the same time.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">1962: The Trauma Before the Triumph</h3>
+
+      <p>Let’s go back a little. Before this slogan echoed across our villages and cantonments, we had just lived through the trauma of the 1962 war with China. Militarily, emotionally, psychologically—we were shaken.</p>
+
+      <p>That war broke something inside us. We believed in idealism, in diplomacy, in moral leadership. Under Jawaharlal Nehru, we trusted that peace would protect us. But 1962 taught us a brutal lesson: good intentions alone don’t stop armies.</p>
+
+      <p>And Nehru paid a heavy personal price. His confidence was questioned, his health declined, and the nation lost its innocence. When he passed away in 1964, we were still recovering—militarily weak, economically fragile, and heavily dependent on food imports.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Enter the Quiet Leader</h3>
+
+      <p>Then comes Lal Bahadur Shastri. A quiet man. No dramatic speeches. No chest-thumping nationalism. But let me tell you—sometimes history is shaped by calm voices, not loud ones.</p>
+
+      <p>And what timing. Within a year of taking office, we were pushed into another conflict—the 1965 war with Pakistan. Tanks rolled in Punjab, air raids over cities, blackouts at night. Soldiers were fighting on the frontlines, while at home food shortages were real.</p>
+
+      <p>That’s the part people forget. You might think wars are only about guns and borders. But for us, the bigger fear was: Can we survive this economically? Can we feed ourselves?</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Birth of a Slogan</h3>
+
+      <p>This is where the slogan was born. Not in a studio. Not in a marketing meeting. But in crisis. Shastri looked at the nation and said—our strength rests on two pillars:</p>
+      <ul>
+        <li>The jawan, guarding our borders.</li>
+        <li>The kisan, feeding our people.</li>
+      </ul>
+
+      <p>And with one line—“Jai Jawan, Jai Kisan”—he connected the soldier in uniform and the farmer in the field. He told us that national security doesn’t begin at the border—it begins in the soil.</p>
+
+      <p>Remember how he asked people to skip one meal a week? Not as symbolism, but necessity. That wasn’t politics; that was leadership under scarcity.</p>
+
+      <p>And it worked—not overnight, but in spirit. The slogan wasn’t hollow. It reshaped how we saw dignity. Farming was no longer just livelihood—it was nation-building. Soldiers were no longer distant heroes—they were family.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Legacy Lives On</h3>
+
+      <p>Shastri didn’t live long enough to see how deeply this idea would shape us. His sudden death in Tashkent cut short a moral authority we desperately needed.</p>
+
+      <p>After him came Indira Gandhi, who inherited not just power, but pressure. She took this slogan forward—not just in words, but in policy.</p>
+
+      <p>Under her, we saw the Green Revolution. High-yield seeds, irrigation, procurement systems. The farmer became central to national planning. Food self-sufficiency became strategy, not charity.</p>
+
+      <p>So when we say “Jai Jawan, Jai Kisan” today, we’re not just repeating history—we’re remembering a moment when our survival depended equally on rifles and ploughs.</p>
+
+      <p class="story-punchline">It’s a reminder that our wars taught us humility, our hunger taught us resilience, and our leaders—despite flaws—understood something fundamental: A nation stands only when those who protect it and those who feed it are both respected.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Why It Still Matters</h3>
+
+      <p>You might think slogans are cheap. But this one? This one was paid for with sacrifice—on icy borders, in dusty farms, and in the quiet resolve of a nation learning how to stand on its own feet.</p>
+
+      <p>And maybe that’s why it still resonates. Because it doesn’t belong to one party or one era.</p>
+
+      <p class="story-punchline">It belongs to us.</p>
+    `
   }
 ];
