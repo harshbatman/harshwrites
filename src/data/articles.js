@@ -1326,7 +1326,7 @@ export const articles = [
     content: `
       <p>I was randomly scrolling the internet the other day — nothing specific, just the usual wandering we all do — when I suddenly stopped. Not because something was loud or sensational, but because something felt quietly important. It was this photograph.</p>
 
-      <img src="/indira-thatcher.jpg" alt="Indira Gandhi and Margaret Thatcher" style="width: 100%; border-radius: 8px; margin: 2rem 0;">
+
 
       <p>Just two women sitting on a sofa. Smiling. Relaxed. Almost ordinary.</p>
 
