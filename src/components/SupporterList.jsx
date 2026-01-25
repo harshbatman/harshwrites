@@ -39,6 +39,7 @@ const SupporterList = () => {
     const processedSupporters = useMemo(() => {
         return rawSupporters.map(s => ({
             ...s,
+            name: `${s.name} Ji`,
             stars: calculateStars(s.amount)
         })).sort((a, b) => {
             // Sort by Stars (descending) -> Amount (descending) -> Name (optional)
