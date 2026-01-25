@@ -1,32 +1,53 @@
-import React, { useRef, useEffect, useState } from 'react';
+import React, { useRef, useEffect, useState, useMemo } from 'react';
 
-const supporters = [
-    { name: "Akash Sharma", amount: "₹2000" },
-    { name: "Prakash Singh", amount: "₹1000" },
-    { name: "Priyanka Bhattacharya", amount: "₹1000" },
-    { name: "Vijay Srivastav", amount: "₹1000" },
-    { name: "Kabir", amount: "₹1000" },
-    { name: "Noor Khan", amount: "₹500" },
-    { name: "Pawan", amount: "₹100" },
-    { name: "Aesha", amount: "₹100" },
-    { name: "Prakash Tyagi", amount: "₹100" },
-    { name: "Praveen", amount: "₹100" },
-    { name: "Komal", amount: "₹100" },
-    { name: "Vijay Prasad", amount: "₹1000" },
-    { name: "Satyam Tripathi", amount: "₹1000" },
-    { name: "Vikas yadav", amount: "₹1000" },
-    { name: "Mohit Kushwaha", amount: "₹1000" },
-    { name: "Sammer", amount: "₹2000" },
-    { name: "Rohan Pandit", amount: "₹2000" },
-].sort((a, b) => {
-    const amountA = parseInt(a.amount.replace('₹', ''));
-    const amountB = parseInt(b.amount.replace('₹', ''));
-    return amountB - amountA;
-});
+// Raw data - usually fetched from an API
+const rawSupporters = [
+    { name: "Akash Sharma", amount: 2000 },
+    { name: "Prakash Singh", amount: 1000 },
+    { name: "Priyanka Bhattacharya", amount: 1000 },
+    { name: "Vijay Srivastav", amount: 1000 },
+    { name: "Kabir", amount: 1000 },
+    { name: "Noor Khan", amount: 500 },
+    { name: "Pawan", amount: 100 },
+    { name: "Aesha", amount: 100 },
+    { name: "Prakash Tyagi", amount: 100 },
+    { name: "Praveen", amount: 100 },
+    { name: "Komal", amount: 100 },
+    { name: "Vijay Prasad", amount: 1000 },
+    { name: "Satyam Tripathi", amount: 1000 },
+    { name: "Vikas yadav", amount: 1000 },
+    { name: "Mohit Kushwaha", amount: 1000 },
+    { name: "Sammer", amount: 2000 },
+    { name: "Rohan Pandit", amount: 2000 },
+];
+
+const calculateStars = (amount) => {
+    if (amount >= 4000) return 3;
+    if (amount >= 2000) return 2;
+    if (amount >= 1000) return 1;
+    return 0;
+};
+
+const renderStars = (count) => {
+    if (count === 0) return null;
+    return <span style={{ color: '#fbbf24', marginLeft: '6px', fontSize: '0.9em' }}>{'⭐'.repeat(count)}</span>;
+};
 
 const SupporterList = () => {
+    // Process and sort data
+    const processedSupporters = useMemo(() => {
+        return rawSupporters.map(s => ({
+            ...s,
+            stars: calculateStars(s.amount)
+        })).sort((a, b) => {
+            // Sort by Stars (descending) -> Amount (descending) -> Name (optional)
+            if (b.stars !== a.stars) return b.stars - a.stars;
+            return b.amount - a.amount;
+        });
+    }, []);
+
     // Duplicate list for seamless loop illusion
-    const displayList = [...supporters, ...supporters];
+    const displayList = [...processedSupporters, ...processedSupporters];
     const scrollRef = useRef(null);
     const [isPaused, setIsPaused] = useState(false);
 
@@ -40,15 +61,9 @@ const SupporterList = () => {
         const scroll = () => {
             if (!isPaused) {
                 // Adjust speed: smaller number = slower
-                // 0.5 is a very slow, elegant drift
-                scrollContainer.scrollTop += 0.5;
+                // 0.4 is even smoother/slower for premium feel
+                scrollContainer.scrollTop += 0.4;
 
-                // Check if we've reached the halfway point (end of first list)
-                // We assume the list is duplicated exactly once
-                // scrollHeight is total height, clientHeight is visible height
-                // Roughly, if scrollTop >= (scrollHeight / 2), we jump back to 0
-                // We need to be careful with exact math, but for visual looping of identical content:
-                // If we scroll past exactly half the scrollHeight, reset.
                 if (scrollContainer.scrollTop >= scrollContainer.scrollHeight / 2) {
                     scrollContainer.scrollTop = 0;
                 }
@@ -74,18 +89,18 @@ const SupporterList = () => {
             maxWidth: '600px',
             marginLeft: 'auto',
             marginRight: 'auto',
-            boxShadow: '0 10px 30px -10px rgba(0,0,0,0.3)',
-            overflow: 'hidden'
+            boxShadow: '0 10px 40px -10px rgba(0,0,0,0.5)', // Deeper shadow
+            overflow: 'hidden',
+            border: '1px solid #1a1a1a' // Very subtle border for structure
         }}>
             {/* Embedded styles for custom scrollbar */}
             <style>
                 {`
                     .supporter-scroll::-webkit-scrollbar {
-                        width: 6px;
+                        width: 4px; /* Thinner for elegance */
                     }
                     .supporter-scroll::-webkit-scrollbar-track {
-                        background: #1a1a1a;
-                        border-radius: 4px;
+                        background: transparent;
                     }
                     .supporter-scroll::-webkit-scrollbar-thumb {
                         background: #333;
@@ -102,7 +117,7 @@ const SupporterList = () => {
                 fontSize: '1.25rem',
                 fontWeight: '600',
                 color: '#ffffff',
-                letterSpacing: '0.02em',
+                letterSpacing: '0.04em', // More premium letter spacing
                 fontFamily: '-apple-system, BlinkMacSystemFont, sans-serif'
             }}>
                 Shout-out to Our Supporters ❤️
@@ -117,49 +132,63 @@ const SupporterList = () => {
                 onTouchStart={() => setIsPaused(true)}
                 onTouchEnd={() => setIsPaused(false)}
                 style={{
-                    height: '240px',
-                    overflowY: 'auto', // Enable manual scroll
+                    height: '260px', // Slightly taller
+                    overflowY: 'auto',
                     position: 'relative',
-                    // Fade masks
+                    // Smoother fade masks
                     maskImage: 'linear-gradient(to bottom, transparent, black 15%, black 85%, transparent)',
                     WebkitMaskImage: 'linear-gradient(to bottom, transparent, black 15%, black 85%, transparent)',
-                    scrollbarWidth: 'thin', // Firefox
-                    scrollbarColor: '#333 #1a1a1a' // Firefox
+                    scrollbarWidth: 'thin',
+                    scrollbarColor: '#333 transparent'
                 }}
             >
                 <div style={{ paddingBottom: '1rem' }}>
                     {displayList.map((s, index) => (
                         <div key={index} style={{
-                            padding: '10px 0',
-                            fontSize: '1.05rem',
+                            padding: '12px 0', // More breathing room
+                            fontSize: s.stars >= 2 ? '1.1rem' : '1rem', // Subtle size bump for top stars
+                            fontWeight: s.stars >= 2 ? '500' : '400',
                             color: '#d4d4d4',
                             display: 'flex',
                             justifyContent: 'center',
                             alignItems: 'center',
                             gap: '8px',
-                            fontFamily: 'serif'
+                            fontFamily: 'serif',
+                            opacity: s.stars === 0 ? 0.8 : 1 // Slight fade for non-starred to make stars pop
                         }}>
-                            <span style={{ fontWeight: 500, color: '#f5f5f5' }}>{s.name}</span>
-                            <span style={{ color: '#525252', fontSize: '0.8em' }}>—</span>
-                            <span style={{ color: '#a3a3a3' }}>{s.amount}</span>
+                            <span style={{ color: '#f5f5f5' }}>
+                                {s.name}
+                                {renderStars(s.stars)}
+                            </span>
+                            <span style={{ color: '#525252', fontSize: '0.8em', margin: '0 4px' }}>—</span>
+                            <span style={{ color: '#a3a3a3' }}>₹{s.amount}</span>
                         </div>
                     ))}
                 </div>
             </div>
 
             <div style={{
-                marginTop: '1.5rem',
+                marginTop: '2rem',
                 display: 'flex',
-                justifyContent: 'center'
+                justifyContent: 'center',
+                flexDirection: 'column',
+                alignItems: 'center',
+                gap: '0.5rem'
             }}>
                 <p style={{
-                    fontSize: '0.8rem',
+                    fontSize: '0.7rem',
                     color: '#525252',
                     fontStyle: 'italic',
-                    borderTop: '1px solid #262626',
-                    paddingTop: '1rem',
-                    paddingLeft: '2rem',
-                    paddingRight: '2rem'
+                    maxWidth: '80%',
+                    lineHeight: '1.4'
+                }}>
+                    Stars reflect long-term support and belief in this work.
+                </p>
+
+                <p style={{
+                    fontSize: '0.8rem',
+                    color: '#737373',
+                    marginTop: '0.5rem'
                 }}>
                     This platform exists because of you.
                 </p>
