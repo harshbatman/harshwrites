@@ -1553,8 +1553,16 @@ export const articles = [
     category: "History & Policy",
     date: "January 2026",
     image: "/jai-jawan-jai-kisan.jpg",
-    excerpt: "You know, we shout “Jai Jawan, Jai Kisan” so easily today—at rallies, on banners, during speeches. But let me tell you something: this slogan didn’t come from comfort.",
+    excerpt: "When I was in school, I used to shout slogans without thinking twice. Jai Jawan, Jai Kisan echoed during morning assemblies, Independence Day functions, and rallies. I raised my voice with everyone else—confident, patriotic—yet I never truly understood what those words meant.",
     content: `
+      <p style="font-style: italic; color: #4b5563; border-left: 4px solid #e5e7eb; padding-left: 1rem; margin-bottom: 2rem;">
+        When I was in school, I used to shout slogans without thinking twice. Jai Jawan, Jai Kisan echoed during morning assemblies, Independence Day functions, and rallies. I raised my voice with everyone else—confident, patriotic—yet I never truly understood what those words meant.
+        <br><br>
+        Back then, it felt like just another line we were expected to remember. I memorised it, repeated it, and moved on. What I didn’t realise was that this slogan wasn’t created for classrooms or ceremonies. It was born in a time of war, shortage, and uncertainty—when the nation was struggling to protect its borders and feed its people at the same time.
+        <br><br>
+        Years later, looking back at our history, I finally understood that Jai Jawan, Jai Kisan was not meant to sound good. It was meant to remind us who actually keeps the country standing.
+      </p>
+
       <p>You know, we shout “Jai Jawan, Jai Kisan” so easily today—at rallies, on banners, during speeches. But let me tell you something: this slogan didn’t come from comfort. It came from fear, loss, and a moment when our country was standing at the edge.</p>
 
       <p>Exactly. And you might think it was just a catchy line, a political slogan. But no—this line was born when we were unsure if we could protect our borders and feed our people at the same time.</p>
