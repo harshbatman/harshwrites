@@ -5,7 +5,7 @@ export const articles = [
     author: "Harsh Mahto",
     category: "Technology & Geopolitics",
     date: "October 2023",
-    image: "/story1.png",
+    image: "/uploaded_image_1769301997332.png",
     excerpt: "Every American president here believed globalisation would automatically keep America on top. But instead, it taught China how to beat them at their own game.",
     content: `
       <p>Every American president here believed globalisation would automatically keep America on top.</p>
