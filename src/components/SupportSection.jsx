@@ -34,7 +34,7 @@ const SupportSection = () => {
             }}>
                 This website is intentionally <span style={{ fontWeight: 'bold', color: '#111' }}>ad-free</span>.
                 <br /><br />
-                If you enjoy the stories or learn something here, and would like to support more such work, you can do so via UPI (
+                If you enjoy the stories or learn something new here, and would like to support more such work, you can do so via UPI (
                 <span style={{ fontWeight: '600', color: '#111' }}>{upiId}</span>
                 <button
                     onClick={handleCopy}
