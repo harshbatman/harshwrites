@@ -32,7 +32,7 @@ const SupportSection = () => {
                 marginRight: 'auto',
                 fontFamily: 'serif' // matching the likely article style or keeping it distinct
             }}>
-                This website is intentionally ad-free.
+                This website is intentionally <span style={{ fontWeight: 'bold', color: '#111' }}>ad-free</span>.
                 <br />
                 I don’t like serving something to others that I wouldn’t consume myself.
                 <br /><br />
