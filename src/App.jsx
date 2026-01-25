@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import { Send } from 'lucide-react';
 import Home from './pages/Home';
 import ArticleView from './pages/ArticleView';
+import Subscribe from './components/Subscribe';
 import './index.css';
 
 function App() {
@@ -22,20 +23,7 @@ function App() {
           </Routes>
 
           {/* Subscribe Section */}
-          <section className="subscribe-section">
-            <h3 style={{ fontSize: '2rem', marginBottom: '1rem', fontFamily: 'var(--font-serif)', fontWeight: 700 }}>Enjoyed reading?</h3>
-            <p style={{ color: 'var(--color-text-secondary)', marginBottom: '2.5rem', fontSize: '1.1rem' }}>Subscribe to get my latest stories directly in your inbox.</p>
-            <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', maxWidth: '450px', margin: '0 auto' }}>
-              <input
-                type="email"
-                placeholder="Enter your email address"
-                className="subscribe-input"
-              />
-              <button className="btn">
-                Subscribe <Send size={16} />
-              </button>
-            </div>
-          </section>
+          <Subscribe />
         </main>
 
         <footer>
