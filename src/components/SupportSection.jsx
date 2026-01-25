@@ -33,12 +33,34 @@ const SupportSection = () => {
                 fontFamily: 'serif' // matching the likely article style or keeping it distinct
             }}>
                 This website is intentionally ad-free.
+                <br />
+                I don’t like serving something to others that I wouldn’t consume myself.
                 <br /><br />
-                If you’d like to support the work, you can do so via UPI (<span onClick={handleCopy} style={{ cursor: 'pointer', fontWeight: 'bold' }} title="Click to copy">{upiId}</span>) or by scanning the QR code.
+                If you enjoy the stories or learn something here, and would like to support more such work, you can do so via UPI (
+                <span style={{ fontWeight: '600', color: '#111' }}>{upiId}</span>
+                <button
+                    onClick={handleCopy}
+                    style={{
+                        background: 'none',
+                        border: 'none',
+                        cursor: 'pointer',
+                        marginLeft: '4px',
+                        verticalAlign: 'middle',
+                        padding: '4px',
+                        borderRadius: '4px',
+                        color: copied ? '#10b981' : '#6b7280',
+                        transition: 'all 0.2s'
+                    }}
+                    title="Copy UPI ID"
+                    aria-label="Copy UPI ID"
+                >
+                    {copied ? <Check size={16} /> : <Copy size={16} />}
+                </button>
+                ) or by scanning the QR code.
                 <br />
                 Supporters are acknowledged on the website.
                 <br /><br />
-                Thanks for being here
+                Thanks for being here ❤️
             </p>
 
             {/* PhonePe Style Card */}
