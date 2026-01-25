@@ -743,5 +743,128 @@ export const articles = [
 
       <p class="story-punchline">It was learning how to keep us looking — and never letting us leave.</p>
     `
+  },
+  {
+    id: "how-android-took-over-the-world",
+    title: "How Android Took Over the World",
+    author: "Harsh Mahto",
+    category: "Technology & Business",
+    date: "March 2026",
+    image: "/android-vs-ios.jpg",
+    excerpt: "Have you ever stopped and thought about this—how the hell did Android end up everywhere? Like, from a ₹6,000 phone in our hands to a flagship Samsung in the US.",
+    content: \`
+      <p>Have you ever stopped and thought about this—how the hell did Android end up everywhere? Like, from a ₹6,000 phone in our hands to a flagship Samsung in the US.</p>
+
+      <p>That’s the crazy part. Android didn’t just win. It flooded the planet. And the real twist? It wasn’t built to sell phones. It was built to protect something else.</p>
+
+      <p>Let me guess—search?</p>
+
+      <p>Exactly. When Google bought Android in 2005, smartphones weren’t even mainstream. Nokia ruled. BlackBerry ruled. Apple hadn’t dropped the iPhone yet.</p>
+
+      <p>So Google saw the future before the future arrived?</p>
+
+      <p>More like they feared it. Google’s entire business depended on people accessing the internet freely—and searching. If Apple or Microsoft controlled mobile platforms tightly, Google risked being locked out.</p>
+
+      <p>So Google made a radical decision: Don’t sell the operating system. Give it away.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Android Strategy: “Be Everywhere”</h3>
+
+      <p>That sounds suicidal for a business.</p>
+
+      <p>Only if your business is selling software. Google’s business was selling attention. Android was the highway; ads were the toll booths.</p>
+
+      <p>Phone makers loved it. No license fee. Customizable. Cheap to scale.</p>
+
+      <p>Samsung, Xiaomi, Oppo, Vivo—everyone jumped in.</p>
+
+      <p>And Apple?</p>
+
+      <p>Apple chose the opposite philosophy.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Apple’s Bet: Control Everything</h3>
+
+      <p>Apple launched the iPhone in 2007 with Apple’s own operating system—iOS.</p>
+
+      <p>Closed ecosystem. Tight hardware-software integration. Premium pricing.</p>
+
+      <p>Apple didn’t want volume. Apple wanted margin.</p>
+
+      <p>So Android chased users, Apple chased profit?</p>
+
+      <p>Bingo.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Numbers That Changed Everything</h3>
+
+      <p>Okay, give me scale. How big is this difference really?</p>
+
+      <p>Let’s talk users—not vibes.</p>
+
+      <p>Android users worldwide: ~3.5 to 4 billion</p>
+      <p>iOS users worldwide: ~1.3 to 1.5 billion</p>
+
+      <p>That means 7 out of every 10 smartphones on Earth run Android.</p>
+
+      <img src="/android-market-share.jpg" alt="Android vs iOS Market Share" style="width: 100%; border-radius: 12px; margin: 2rem 0;">
+
+      <p>That’s… insane.</p>
+
+      <p>And here’s the irony—Despite fewer users, Apple makes more profit than the entire Android ecosystem combined.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Why Android Won the World (Especially Outside the US)</h3>
+
+      <p>So why did Android dominate globally?</p>
+
+      <p>Three reasons:</p>
+
+      <p><strong>1. Price Elasticity</strong></p>
+      <p>Android phones exist at every price point. iOS doesn’t.</p>
+      <p>For most of the world—for us, for Africa, for Southeast Asia—a $1,000 phone isn’t aspirational, it’s impossible.</p>
+
+      <p><strong>2. Local Manufacturing & Customization</strong></p>
+      <p>Android allowed companies to tweak software for local markets. Regional languages. Local apps preinstalled. Different hardware experiments.</p>
+      <p>Apple said: This is the iPhone. Take it or leave it.</p>
+
+      <p><strong>3. Google Services as the Backbone</strong></p>
+      <p>Gmail. Maps. YouTube. Play Store.</p>
+      <p>Android wasn’t just an OS. It was Google bundled into your pocket.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Apple Didn’t Lose. Apple Chose.</h3>
+
+      <p>But people talk like Apple lost the smartphone war.</p>
+
+      <p>That’s lazy analysis.</p>
+
+      <p>Apple didn’t lose. Apple opted out of the volume war.</p>
+
+      <p>They built a luxury ecosystem:</p>
+      <ul>
+        <li>Higher customer loyalty</li>
+        <li>Longer device lifespan</li>
+        <li>Massive App Store revenue</li>
+        <li>Hardware + services lock-in</li>
+      </ul>
+
+      <p>Android built reach. Apple built rent.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Real Lesson</h3>
+
+      <p>So what’s the real takeaway?</p>
+
+      <p>That there isn’t one way to win.</p>
+      <p>Android proves platform power beats product purity.</p>
+      <p>Apple proves control beats scale if margins are high.</p>
+
+      <p>Google wanted to make sure no one controlled the internet except the internet itself.</p>
+      <p>Apple wanted to make sure every Apple user stayed Apple forever.</p>
+
+      <p>Both succeeded. Just in completely different ways.</p>
+
+      <p>So Android didn’t just take over phones.</p>
+
+      <p>It took over access to the digital world.</p>
+
+      <p>And Apple?</p>
+      <p class="story-punchline">Apple monetized loyalty better than anyone in history.</p>
+    \`
   }
 ];
