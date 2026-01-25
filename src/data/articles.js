@@ -483,7 +483,7 @@ export const articles = [
              <!-- Revenue Scale -->
              <div style="margin-bottom: 1.25rem;">
                <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.9rem;">
-                  <span style="font-weight: 600; color: #374151;">🇺🇸 US Pharma Revenue</span>
+                  <span style="font-weight: 600; color: #374151;">🇺🇸 US Top 15 Revenue</span>
                   <span style="font-weight: 700; color: #111827;">~$635 Billion</span>
                </div>
                <div style="width: 100%; height: 18px; background: #e5e7eb; border-radius: 6px; overflow: hidden;">
@@ -503,7 +503,7 @@ export const articles = [
              <!-- Profit Scale -->
              <div style="margin-top: 1.5rem;">
                <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.9rem;">
-                  <span style="font-weight: 600; color: #374151;">🇺🇸 Top 15 US Cos. Profit</span>
+                  <span style="font-weight: 600; color: #374151;">🇺🇸 US Top 15 Profit</span>
                   <span style="font-weight: 700; color: #15803d;">~$116 Billion</span>
                </div>
                <div style="width: 100%; height: 18px; background: #e5e7eb; border-radius: 6px; overflow: hidden;">
