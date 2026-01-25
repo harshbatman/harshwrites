@@ -1238,5 +1238,81 @@ export const articles = [
       <p>And Apple?</p>
       <p class="story-punchline">Apple monetized loyalty better than anyone in history.</p>
     `
+  },
+  {
+    id: "semiconductor-story-india",
+    title: "A Conversation on Our Semiconductor Story: Where We Faltered, and Where We Stand Today",
+    author: "Harsh Mahto",
+    category: "Technology & Manufacturing",
+    date: "April 2026",
+    image: "/semiconductor-india.jpg",
+    excerpt: "Everywhere I look these days—phones, cars, even washing machines—everything runs on chips. And yet, when it comes to making them ourselves, it feels like we missed the bus.",
+    content: `
+      <p>You know, everywhere I look these days—phones, cars, even washing machines—everything runs on chips. And yet, when it comes to making them ourselves, it feels like we missed the bus. Why did this happen to us?</p>
+
+      <p>Yeah, that question hurts a little, doesn’t it? Let me tell you something—this didn’t happen overnight. Our semiconductor situation is the result of decades of small decisions, delays, and honestly… hesitation.</p>
+
+      <p>Hesitation? We’ve always been good with technology, right? Software, IT services, space missions—so what went wrong with chips?</p>
+
+      <p>That’s exactly where the story starts. You see, early on, we chose software over hardware. And at that time, it made sense. Software needed less capital, gave faster returns, and aligned well with our talent pool. Writing code was cheaper than building factories that cost billions.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The "Safer" Road?</h3>
+
+      <p>So we basically took the easier road?</p>
+
+      <p>Not the easier road—more like the safer one. Semiconductor manufacturing is brutal. You need insane precision, clean rooms cleaner than hospitals, uninterrupted power, ultra-pure water, and a supply chain that never breaks. One mistake and billions go down the drain.</p>
+
+      <p>Okay, but still… other countries took that risk.</p>
+
+      <p>Exactly. And that’s where we fell behind. While others were investing long-term, we were stuck in short-term thinking. Policies kept changing, approvals took years, and investors didn’t feel confident. No one wants to put billions into a project when the rules might change midway.</p>
+
+      <p>I’ve heard that even when companies showed interest, things didn’t move fast enough.</p>
+
+      <p>You’ve heard right. Semiconductor plants don’t wait. If land, water, power, or clearances are delayed, companies simply move elsewhere. And that happened more than once with us. By the time we said “yes,” someone else had already said “welcome.”</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">More Than Just Money</h3>
+
+      <p>So was it only about money and policy?</p>
+
+      <p>Not at all. Talent was another gap—but not in intelligence, in experience. Designing chips is one thing; manufacturing them at scale is another beast altogether. We didn’t have enough people who had actually run fabs. And without that experience, even money can’t save you.</p>
+
+      <p>That’s frustrating. We had brains, but not factories.</p>
+
+      <p>Exactly. We became the world’s back office, not its factory floor. Brilliant engineers from here went abroad and built chips for other countries, while we imported the final product back.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Wake-Up Call</h3>
+
+      <p>And then the global chip shortage happened…</p>
+
+      <p>And that was the wake-up call. Suddenly, cars were stuck, phones were delayed, defense systems depended on foreign suppliers. That’s when we collectively realized—this isn’t just business, this is national security.</p>
+
+      <p>So where do we stand today? Are we still just talking, or are things actually moving?</p>
+
+      <p>This time, things are different. Let me explain why. Now, there’s a clear understanding at the top level that semiconductors are strategic. Incentives are clearer, funding support is real, and states are competing to attract fabs instead of blocking them.</p>
+
+      <p>But can we realistically catch up? Others are decades ahead.</p>
+
+      <p>We don’t need to beat everyone at the cutting edge on day one. That’s the key mindset shift. Even older-node chips power cars, appliances, power grids, and defense equipment. Owning any part of the supply chain is better than owning none.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">A New Beginning?</h3>
+
+      <p>So it’s more about starting than winning immediately.</p>
+
+      <p>Exactly. Building packaging units, testing facilities, specialty fabs—these are stepping stones. Once the ecosystem forms, momentum follows. Chips don’t exist in isolation; suppliers, talent, logistics—all grow together.</p>
+
+      <p>Do you feel confident this time?</p>
+
+      <p>Cautiously optimistic. We’ve failed before, yes—but we’ve also learned. Today, there’s urgency, global demand, and geopolitical pressure pushing manufacturing diversification. And for once, the world actually wants an alternative.</p>
+
+      <p>So maybe our failure wasn’t the end of the story—just a delayed beginning?</p>
+
+      <p>That’s a good way to put it. We lost time, no doubt. But if we stay consistent—same policies, long-term vision, and patience—we can still build something meaningful. Semiconductor success isn’t a sprint. It’s a 20-year commitment.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Ready to Commit?</h3>
+
+      <p>Then I guess the real question is—are we finally ready to commit?</p>
+
+      <p class="story-punchline">That’s on all of us. Governments, industry, and society. Because this time, if we walk away again, the cost won’t just be economic—it’ll be strategic.</p>
+    `
   }
 ];
