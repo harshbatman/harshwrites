@@ -3,6 +3,7 @@ import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { ArrowLeft, User, Calendar, Share2 } from 'lucide-react';
 import { articles } from '../data/articles';
+import SupportSection from '../components/SupportSection';
 
 function ArticleView() {
     const { id } = useParams();
@@ -95,6 +96,8 @@ function ArticleView() {
                     transition={{ duration: 0.8, delay: 0.4 }}
                     dangerouslySetInnerHTML={{ __html: article.content }}
                 />
+
+                <SupportSection />
 
                 <div style={{ padding: '3rem 0', marginTop: '3rem', borderTop: '1px solid #e5e7eb', display: 'flex', justifyContent: 'center' }}>
                     <button
