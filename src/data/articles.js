@@ -1314,5 +1314,125 @@ export const articles = [
 
       <p class="story-punchline">That’s on all of us. Governments, industry, and society. Because this time, if we walk away again, the cost won’t just be economic—it’ll be strategic.</p>
     `
+  },
+  {
+    id: "two-women-two-nations-one-frame",
+    title: "Two Women, Two Nations, One Frame",
+    author: "Harsh Mahto",
+    category: "History & Leadership",
+    date: "January 2026",
+    image: "/indira-thatcher.jpg",
+    excerpt: "I was randomly scrolling the internet the other day — nothing specific, just the usual wandering we all do — when I suddenly stopped. Not because something was loud or sensational, but because something felt quietly important.",
+    content: \`
+      <p>I was randomly scrolling the internet the other day — nothing specific, just the usual wandering we all do — when I suddenly stopped. Not because something was loud or sensational, but because something felt quietly important. It was this photograph.</p>
+
+      <img src="/indira-thatcher.jpg" alt="Indira Gandhi and Margaret Thatcher" style="width: 100%; border-radius: 8px; margin: 2rem 0;">
+
+      <p>Just two women sitting on a sofa. Smiling. Relaxed. Almost ordinary.</p>
+
+      <p>Now you might say, "Ordinary? Come on. You don’t sit like that when you’re carrying half the world’s power on your shoulders."</p>
+
+      <p>Exactly. That’s why this image matters. This is Indira Gandhi with Margaret Thatcher — and you know what makes it rare?</p>
+
+      <p>Let me guess. Two heads of government. Both women. Same frame?</p>
+
+      <p>In the 20th century, no less. When global power was almost entirely a men’s club — suits, cigars, war rooms — here are two women leading nations that once stood on opposite sides of empire and history.</p>
+
+      <p>And they’re not posturing. They’re comfortable.</p>
+
+      <p>Now you might think this is just diplomacy…</p>
+
+      <p>Yeah, most people will say, "Just another state visit photo."</p>
+
+      <p>But pause for a second. This meeting happened in October 1984, during Indira Gandhi’s visit to the UK — days before her assassination.</p>
+
+      <p>This is among her last calm, unguarded moments on the world stage.</p>
+
+      <p>That adds weight. A lot of weight.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Two Very Different Women — And Yet…</h3>
+
+      <p>You might think Indira and Thatcher were opposites.</p>
+
+      <p>One came from a freedom movement legacy. The other from conservative British politics. One led us, a post-colonial nation. The other led the former empire.</p>
+
+      <p>But here’s the thing — they understood each other.</p>
+
+      <p>Because power recognises power.</p>
+
+      <p>Exactly. Thatcher once wrote about Indira Gandhi in her memoir <em>The Downing Street Years</em>, calling her:</p>
+
+      <blockquote style="border-left: 4px solid #e5e7eb; padding-left: 1rem; font-style: italic; margin: 1.5rem 0; color: #4b5563;">
+        “A woman of extraordinary authority, courage, and presence.”
+      </blockquote>
+
+      <p>That’s not casual praise. Thatcher didn’t hand out compliments easily.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Friendship Without Flattery</h3>
+
+      <p>Was it really friendship though? Or just respect?</p>
+
+      <p>A rare kind of friendship — the kind that doesn’t need validation. They disagreed on many things: Cold War alignments, economic philosophy, the role of the state.</p>
+
+      <p>Yet Thatcher admired Indira’s command over her cabinet and country. Indira, in turn, respected Thatcher’s clarity and decisiveness.</p>
+
+      <p>No small talk. No fake warmth. Just two leaders who didn’t need permission to lead.</p>
+
+      <p>You think leadership looks loud — speeches, slogans, chest-thumping. But look at this photo again.</p>
+
+      <p>No theatrics. No body language of insecurity. No attempt to dominate the frame.</p>
+
+      <p>Quiet authority.</p>
+
+      <p>Exactly. Indira Gandhi once wrote in <em>My Truth</em>:</p>
+
+      <blockquote style="border-left: 4px solid #e5e7eb; padding-left: 1rem; font-style: italic; margin: 1.5rem 0; color: #4b5563;">
+        “Power is useful only when it is restrained.”
+      </blockquote>
+
+      <p>That line explains her posture here better than any analysis.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Assassination — And Thatcher’s Words</h3>
+
+      <p>And then, just days later… everything ended.</p>
+
+      <p>31 October 1984. Indira Gandhi was assassinated. Margaret Thatcher was deeply shaken.</p>
+
+      <p>In her official statement, she said:</p>
+
+      <blockquote style="border-left: 4px solid #e5e7eb; padding-left: 1rem; font-style: italic; margin: 1.5rem 0; color: #4b5563;">
+        “Mrs Gandhi was a towering figure on the world stage… her death is a tragedy not only for India, but for all who value courage in leadership.”
+      </blockquote>
+
+      <p>Later, she added something more personal: <em style="color: #374151;">“She had the courage to lead when leadership was lonely.”</em></p>
+
+      <p>That doesn’t sound like diplomatic protocol. That sounds like loss.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Why This Image Is Iconic For Us</h3>
+
+      <p>For us, this photo is more than history. It reminds us that we didn’t borrow authority — we earned it. Our leadership didn’t need approval from the West. A woman from our soil could sit as an equal with any world leader.</p>
+
+      <p>And do it without raising her voice.</p>
+
+      <p>Exactly. In a century where women leaders were treated as exceptions, this image says: We were already there.</p>
+
+      <p>Yeah, I also feel something strange looking at it…</p>
+
+      <p>Me too. It feels calm — but heavy. Because we know what’s coming next. History gives this photo its silence.</p>
+
+      <p>Two women. Two nations. One moment before everything changed.</p>
+
+      <p>And that’s why this photograph isn’t just rare — it’s one of the most iconic images of 20th-century leadership.</p>
+
+      <p class="story-punchline">Not because of tragedy alone. But because it shows us what quiet, unapologetic power really looks like.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">An Image That History Keeps Returning To</h3>
+
+      <p>Maybe that’s why this photograph keeps resurfacing.</p>
+
+      <p>Exactly. Not because of what is happening in it, but because of what we know happened soon after. It freezes a moment before history turned, before tragedy reshaped everything. And in doing so, it becomes one of the most iconic images of 20th-century leadership, not just because two women are present, but because both understood power deeply — its necessity, its cost, and its loneliness.</p>
+
+      <p class="story-punchline">This photograph does not shout. It endures. And sometimes, that is the most powerful kind of history.</p>
+    \`
   }
 ];
