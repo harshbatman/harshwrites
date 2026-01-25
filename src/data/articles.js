@@ -1434,5 +1434,116 @@ export const articles = [
 
       <p class="story-punchline">This photograph does not shout. It endures. And sometimes, that is the most powerful kind of history.</p>
     `
+  },
+  {
+    id: "our-nuclear-journey-science-sanctions-self-respect",
+    title: "Our Nuclear Journey: Science, Sanctions, and Self-Respect",
+    author: "Harsh Mahto",
+    category: "Science & Geopolitics",
+    date: "January 2026",
+    image: "/india-nuclear-journey.jpg",
+    excerpt: "You know what? I was thinking the other day—when we talk about our energy future, solar comes up, wind comes up… but nuclear? We whisper about it. Almost like it’s a secret we’re not sure we should own.",
+    content: `
+      <p>You know what? I was thinking the other day—when we talk about our energy future, solar comes up, wind comes up… but nuclear? We whisper about it. Almost like it’s a secret we’re not sure we should own.</p>
+
+      <p>Yeah, I feel that too. And it’s strange, right? Because nuclear isn’t new for us. It’s not something we borrowed yesterday. It’s something we started building when we were barely standing on our feet as a country.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Beginning: When We Dreamed Big Despite Being Poor</h3>
+
+      <p>Let me tell you where it really begins. Late 1940s, early 1950s. We had just come out of colonial rule. Food shortages, refugees, no money—and still, our leadership was thinking decades ahead.</p>
+
+      <p>You’re talking about Nehru, right?</p>
+
+      <p>Exactly. Jawaharlal Nehru believed science was our way out of poverty. Not slogans—science. That’s why, in 1954, we created the Atomic Energy Department.</p>
+
+      <p>And standing beside him was a man who rarely gets mainstream attention today but shaped everything—Homi J. Bhabha.</p>
+
+      <p>Bhabha was different. Visionary, confident, sometimes even arrogant—but that’s what it took. He didn’t want us to depend on uranium imports forever. He designed a three-stage nuclear program, knowing very well that we had thorium, not uranium.</p>
+
+      <p class="story-punchline">Think about that foresight. No PowerPoint. No consultants. Just belief.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">From Power to Security: When Peace Wasn’t Enough</h3>
+
+      <p>But nuclear for us was never only about electricity, was it?</p>
+
+      <p>No. And we shouldn’t pretend otherwise.</p>
+
+      <p>China tested a nuclear bomb in 1964. Pakistan was watching closely. The world suddenly felt smaller—and more dangerous.</p>
+
+      <p>That’s where Lal Bahadur Shastri comes in.</p>
+
+      <p>Yes. Lal Bahadur Shastri quietly pushed scientific self-reliance even during wartime pressure. No noise, no chest-thumping—just resolve.</p>
+
+      <p>And then came Indira Gandhi in 1974. Pokhran-I. Smiling Buddha. We called it a “peaceful nuclear explosion,” but the message was loud and clear: we can do this.</p>
+
+      <p>It wasn’t about aggression. It was about never being blackmailed again.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Pokhran-II and the Moment We Stood Alone</h3>
+
+      <p>But the real turning point?</p>
+
+      <p>1998. Atal Bihari Vajpayee. Pokhran-II.</p>
+
+      <p>Sanctions followed. Pressure came from everywhere. And yet—no apology tour.</p>
+
+      <p>That’s when Kalam becomes central to the story. Absolutely. A. P. J. Abdul Kalam wasn’t just a missile man. He was the bridge between civilian science and strategic strength.</p>
+
+      <p>Agni. Prithvi. The foundations of our ICBM capability—credible, restrained, but real.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Energy Today: Quiet Work, Real Impact</h3>
+
+      <p>Okay, but let’s talk power plants. Actual electricity.</p>
+
+      <p>Fair. As of today, we have 7 nuclear power plant sites with 22 operational reactors.</p>
+
+      <p>They’re spread across:</p>
+      <ul>
+        <li>Maharashtra (Tarapur)</li>
+        <li>Rajasthan (Rawatbhata)</li>
+        <li>Tamil Nadu (Kalpakkam, Kudankulam)</li>
+        <li>Gujarat (Kakrapar)</li>
+        <li>Uttar Pradesh (Narora)</li>
+        <li>Karnataka (Kaiga)</li>
+      </ul>
+
+      <p>And no, they don’t power the whole country. True. Nuclear contributes a small percentage of our total electricity—but it’s clean, stable, and long-term. No sun dependency. No wind uncertainty.</p>
+
+      <p>And with climate pressure rising, nuclear quietly becomes relevant again.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Shadow Side: Jadugoda and the Cost We Don’t Talk About</h3>
+
+      <p>But we can’t romanticize everything.</p>
+
+      <p>No. We shouldn’t.</p>
+
+      <p>Jadugoda in Jharkhand—our uranium backbone—has paid a heavy price. Health issues, displacement, environmental damage.</p>
+
+      <p>That’s the uncomfortable truth. Yes. Our nuclear story isn’t just labs and missiles. It’s also miners, villages, and people who rarely appear in glossy documentaries.</p>
+
+      <p>If nuclear is our pride, responsibility must be part of that pride.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">So Where Do We Stand Today?</h3>
+
+      <p>You know what I feel?</p>
+
+      <p>We are in a strange place. Confident, but cautious. Capable, but understated.</p>
+
+      <p>We’re a nuclear power that doesn’t shout. A democracy with nuclear weapons. A poor country that dared to think like a rich one.</p>
+
+      <p>And the story isn’t finished.</p>
+
+      <p>Not at all. Thorium reactors. Cleaner tech. Safer designs. Strategic restraint.</p>
+
+      <p>Our nuclear journey isn’t about domination—it’s about choice.</p>
+      <ul>
+        <li>The choice to stand on our own feet.</li>
+        <li>The choice to never be cornered.</li>
+        <li>And the choice to power our future without begging for fuel.</li>
+      </ul>
+
+      <p>Yeah… when you put it that way, it doesn’t sound scary anymore.</p>
+
+      <p class="story-punchline">It sounds… very us.</p>
+    `
   }
 ];
