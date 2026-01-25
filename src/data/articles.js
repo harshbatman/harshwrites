@@ -1241,7 +1241,7 @@ export const articles = [
   },
   {
     id: "semiconductor-story-india",
-    title: "A Conversation on Our Semiconductor Story: Where We Faltered, and Where We Stand Today",
+    title: "A Nation That Codes, But Doesn’t Fabricate",
     author: "Harsh Mahto",
     category: "Technology & Manufacturing",
     date: "April 2026",
