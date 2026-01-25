@@ -1,7 +1,17 @@
-import React from 'react';
+import React, { useState } from 'react';
 import QRCode from 'react-qr-code';
+import { Copy, Check } from 'lucide-react';
 
 const SupportSection = () => {
+    const [copied, setCopied] = useState(false);
+    const upiId = "harshwrites@ibl";
+
+    const handleCopy = () => {
+        navigator.clipboard.writeText(upiId);
+        setCopied(true);
+        setTimeout(() => setCopied(false), 2000);
+    };
+
     return (
         <div style={{
             marginTop: '4rem',
@@ -25,7 +35,29 @@ const SupportSection = () => {
                 If you enjoy reading stories like this and want to be part of the journey,
                 I’m trying to keep the website completely ad-free.
                 <br /><br />
-                You can help support this work via UPI: <strong>harshwrites@ibl</strong> or by scanning the QR code.
+                You can help support this work via UPI:
+                <span
+                    onClick={handleCopy}
+                    style={{
+                        cursor: 'pointer',
+                        padding: '0.2rem 0.5rem',
+                        background: '#f3f4f6',
+                        borderRadius: '0.375rem',
+                        margin: '0 0.3rem',
+                        fontWeight: 'bold',
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: '0.3rem',
+                        verticalAlign: 'middle',
+                        position: 'relative',
+                        userSelect: 'none'
+                    }}
+                    title="Click to copy UPI ID"
+                >
+                    {upiId}
+                    {copied ? <Check size={14} color="#10b981" /> : <Copy size={14} color="#6b7280" />}
+                </span>
+                or by scanning the QR code.
                 <br /><br />
                 As a small thank-you, your name will be displayed on the website as a supporter.
                 Your support directly helps keep this platform independent and free from ads—without it,
@@ -79,7 +111,7 @@ const SupportSection = () => {
                     margin: '0 auto 20px auto'
                 }}>
                     <QRCode
-                        value="upi://pay?pa=harshwrites@ibl&pn=Harsh%20Kumar%20Mahto"
+                        value={`upi://pay?pa=${upiId}&pn=Harsh%20Kumar%20Mahto`}
                         size={200}
                         style={{ height: "auto", maxWidth: "100%", width: "100%" }}
                         viewBox={`0 0 256 256`}
