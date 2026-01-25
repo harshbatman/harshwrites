@@ -536,6 +536,19 @@ export const articles = [
       
       <p>And its revenue is double our combined pharma revenue.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">What This Actually Tells Us</h3>
+
+      <p>So the problem isn’t that we’re bad at pharma — it’s where we’re positioned in the value chain.</p>
+
+      <p>Exactly. We manufacture at scale, but we don’t capture value at scale.</p>
+
+      <p>And this is Rajan’s larger point:</p>
+
+      <p>If we keep pushing an economic strategy built around low-value manufacturing, we’ll keep growing — but we won’t become rich.</p>
+
+      <p>Factories raise GDP.</p>
+      <p class="story-punchline">Innovation raises income.</p>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Rajan’s Central Argument: Services Are Not Second-Class</h3>
 
       <p>So does that mean Rajan is saying we’re focusing too much on manufacturing?</p>
