@@ -12,6 +12,12 @@ const supporters = [
     { name: "Prakash Tyagi", amount: "₹100" },
     { name: "Praveen", amount: "₹100" },
     { name: "Komal", amount: "₹100" },
+    { name: "Vijay Prasad", amount: "₹1000" },
+    { name: "Satyam Tripathi", amount: "₹1000" },
+    { name: "Vikas yadav", amount: "₹1000" },
+    { name: "Mohit Kushwaha", amount: "₹1000" },
+    { name: "Sammer", amount: "₹2000" },
+    { name: "Rohan Pandit", amount: "₹2000" },
 ].sort((a, b) => {
     const amountA = parseInt(a.amount.replace('₹', ''));
     const amountB = parseInt(b.amount.replace('₹', ''));
