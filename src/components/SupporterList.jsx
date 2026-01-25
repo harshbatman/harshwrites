@@ -57,23 +57,22 @@ const SupporterList = () => {
         if (!scrollContainer) return;
 
         let animationFrameId;
+        let scrollPos = scrollContainer.scrollTop; // Use a local float variable to track position
 
-        // Anti-gravity scroll logic
         const scroll = () => {
             if (!isPaused) {
-                // 0.5 is a safer minimum speed for consistent cross-browser scrolling
-                scrollContainer.scrollTop += 0.5;
+                scrollPos += 0.8; // Increased speed slightly and using float
 
-                // Robust loop reset
-                // If we have scrolled past roughly half the content (the original list), reset to 0
-                if (scrollContainer.scrollTop >= (scrollContainer.scrollHeight - scrollContainer.clientHeight) / 2) {
-                    // If we are just looping the same content twice, 
-                    // a safer reset point is often simply scrollHeight / 2 if the content is perfectly duplicated.
-                    // However, to be safe with padding:
-                    if (scrollContainer.scrollTop >= scrollContainer.scrollHeight / 2) {
-                        scrollContainer.scrollTop = 0;
-                    }
+                // If we've scrolled past the first set of items (half the total height), reset to 0
+                // We use a small buffer to ensure we don't reset too early or late
+                if (scrollPos >= scrollContainer.scrollHeight / 2) {
+                    scrollPos = 0;
                 }
+
+                scrollContainer.scrollTop = scrollPos;
+            } else {
+                // If paused, update our tracker to match manual scroll position
+                scrollPos = scrollContainer.scrollTop;
             }
             animationFrameId = requestAnimationFrame(scroll);
         };
