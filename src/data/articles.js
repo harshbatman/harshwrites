@@ -1323,7 +1323,7 @@ export const articles = [
     date: "January 2026",
     image: "/indira-thatcher.jpg",
     excerpt: "I was randomly scrolling the internet the other day — nothing specific, just the usual wandering we all do — when I suddenly stopped. Not because something was loud or sensational, but because something felt quietly important.",
-    content: \`
+    content: `
       <p>I was randomly scrolling the internet the other day — nothing specific, just the usual wandering we all do — when I suddenly stopped. Not because something was loud or sensational, but because something felt quietly important. It was this photograph.</p>
 
       <img src="/indira-thatcher.jpg" alt="Indira Gandhi and Margaret Thatcher" style="width: 100%; border-radius: 8px; margin: 2rem 0;">
@@ -1433,6 +1433,6 @@ export const articles = [
       <p>Exactly. Not because of what is happening in it, but because of what we know happened soon after. It freezes a moment before history turned, before tragedy reshaped everything. And in doing so, it becomes one of the most iconic images of 20th-century leadership, not just because two women are present, but because both understood power deeply — its necessity, its cost, and its loneliness.</p>
 
       <p class="story-punchline">This photograph does not shout. It endures. And sometimes, that is the most powerful kind of history.</p>
-    \`
+    `
   }
 ];
