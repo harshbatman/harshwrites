@@ -60,12 +60,18 @@ const SupporterList = () => {
         // Anti-gravity scroll logic
         const scroll = () => {
             if (!isPaused) {
-                // Adjust speed: smaller number = slower
-                // 0.4 is even smoother/slower for premium feel
-                scrollContainer.scrollTop += 0.4;
+                // 0.5 is a safer minimum speed for consistent cross-browser scrolling
+                scrollContainer.scrollTop += 0.5;
 
-                if (scrollContainer.scrollTop >= scrollContainer.scrollHeight / 2) {
-                    scrollContainer.scrollTop = 0;
+                // Robust loop reset
+                // If we have scrolled past roughly half the content (the original list), reset to 0
+                if (scrollContainer.scrollTop >= (scrollContainer.scrollHeight - scrollContainer.clientHeight) / 2) {
+                    // If we are just looping the same content twice, 
+                    // a safer reset point is often simply scrollHeight / 2 if the content is perfectly duplicated.
+                    // However, to be safe with padding:
+                    if (scrollContainer.scrollTop >= scrollContainer.scrollHeight / 2) {
+                        scrollContainer.scrollTop = 0;
+                    }
                 }
             }
             animationFrameId = requestAnimationFrame(scroll);
