@@ -1,5 +1,4 @@
-import React from 'react';
-import { motion } from 'framer-motion';
+import React, { useRef, useEffect, useState } from 'react';
 
 const supporters = [
     { name: "Akash Sharma", amount: "₹2000" },
@@ -14,12 +13,45 @@ const supporters = [
 ];
 
 const SupporterList = () => {
-    // Duplicate list for seamless loop
+    // Duplicate list for seamless loop illusion
     const displayList = [...supporters, ...supporters];
+    const scrollRef = useRef(null);
+    const [isPaused, setIsPaused] = useState(false);
+
+    useEffect(() => {
+        const scrollContainer = scrollRef.current;
+        if (!scrollContainer) return;
+
+        let animationFrameId;
+
+        // Anti-gravity scroll logic
+        const scroll = () => {
+            if (!isPaused) {
+                // Adjust speed: smaller number = slower
+                // 0.5 is a very slow, elegant drift
+                scrollContainer.scrollTop += 0.5;
+
+                // Check if we've reached the halfway point (end of first list)
+                // We assume the list is duplicated exactly once
+                // scrollHeight is total height, clientHeight is visible height
+                // Roughly, if scrollTop >= (scrollHeight / 2), we jump back to 0
+                // We need to be careful with exact math, but for visual looping of identical content:
+                // If we scroll past exactly half the scrollHeight, reset.
+                if (scrollContainer.scrollTop >= scrollContainer.scrollHeight / 2) {
+                    scrollContainer.scrollTop = 0;
+                }
+            }
+            animationFrameId = requestAnimationFrame(scroll);
+        };
+
+        animationFrameId = requestAnimationFrame(scroll);
+
+        return () => cancelAnimationFrame(animationFrameId);
+    }, [isPaused]);
 
     return (
         <div style={{
-            background: '#0a0a0a', // Deep black for premium feel
+            background: '#0a0a0a',
             color: '#e5e5e5',
             padding: '3rem 1.5rem',
             borderRadius: '16px',
@@ -33,7 +65,26 @@ const SupporterList = () => {
             boxShadow: '0 10px 30px -10px rgba(0,0,0,0.3)',
             overflow: 'hidden'
         }}>
-            {/* Heading - Fixed */}
+            {/* Embedded styles for custom scrollbar */}
+            <style>
+                {`
+                    .supporter-scroll::-webkit-scrollbar {
+                        width: 6px;
+                    }
+                    .supporter-scroll::-webkit-scrollbar-track {
+                        background: #1a1a1a;
+                        border-radius: 4px;
+                    }
+                    .supporter-scroll::-webkit-scrollbar-thumb {
+                        background: #333;
+                        border-radius: 4px;
+                    }
+                    .supporter-scroll::-webkit-scrollbar-thumb:hover {
+                        background: #555;
+                    }
+                `}
+            </style>
+
             <h3 style={{
                 marginBottom: '2rem',
                 fontSize: '1.25rem',
@@ -45,25 +96,26 @@ const SupporterList = () => {
                 Shout-out to Our Supporters ❤️
             </h3>
 
-            {/* Scroll Area - Masked for fade effect */}
-            <div style={{
-                height: '240px',
-                overflow: 'hidden',
-                position: 'relative',
-                // Mask for fade in/out effect at top and bottom
-                maskImage: 'linear-gradient(to bottom, transparent, black 20%, black 80%, transparent)',
-                WebkitMaskImage: 'linear-gradient(to bottom, transparent, black 20%, black 80%, transparent)'
-            }}>
-                <motion.div
-                    // Move from 0% to -50% (halfway) because we doubled the list
-                    // This creates a seamless loop as the second half replaces the first half exactly
-                    animate={{ y: ["0%", "-50%"] }}
-                    transition={{
-                        repeat: Infinity,
-                        ease: "linear",
-                        duration: 30 // Slow, elegant speed
-                    }}
-                >
+            {/* Scroll Area */}
+            <div
+                ref={scrollRef}
+                className="supporter-scroll"
+                onMouseEnter={() => setIsPaused(true)}
+                onMouseLeave={() => setIsPaused(false)}
+                onTouchStart={() => setIsPaused(true)}
+                onTouchEnd={() => setIsPaused(false)}
+                style={{
+                    height: '240px',
+                    overflowY: 'auto', // Enable manual scroll
+                    position: 'relative',
+                    // Fade masks
+                    maskImage: 'linear-gradient(to bottom, transparent, black 15%, black 85%, transparent)',
+                    WebkitMaskImage: 'linear-gradient(to bottom, transparent, black 15%, black 85%, transparent)',
+                    scrollbarWidth: 'thin', // Firefox
+                    scrollbarColor: '#333 #1a1a1a' // Firefox
+                }}
+            >
+                <div style={{ paddingBottom: '1rem' }}>
                     {displayList.map((s, index) => (
                         <div key={index} style={{
                             padding: '10px 0',
@@ -73,17 +125,16 @@ const SupporterList = () => {
                             justifyContent: 'center',
                             alignItems: 'center',
                             gap: '8px',
-                            fontFamily: 'serif' // Giving it a slightly literary/story feel
+                            fontFamily: 'serif'
                         }}>
                             <span style={{ fontWeight: 500, color: '#f5f5f5' }}>{s.name}</span>
                             <span style={{ color: '#525252', fontSize: '0.8em' }}>—</span>
                             <span style={{ color: '#a3a3a3' }}>{s.amount}</span>
                         </div>
                     ))}
-                </motion.div>
+                </div>
             </div>
 
-            {/* Footer - Subtle Line */}
             <div style={{
                 marginTop: '1.5rem',
                 display: 'flex',
