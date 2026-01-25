@@ -752,7 +752,7 @@ export const articles = [
     date: "March 2026",
     image: "/android-vs-ios.jpg",
     excerpt: "Have you ever stopped and thought about this—how the hell did Android end up everywhere? Like, from a ₹6,000 phone in our hands to a flagship Samsung in the US.",
-    content: \`
+    content: `
       <p>Have you ever stopped and thought about this—how the hell did Android end up everywhere? Like, from a ₹6,000 phone in our hands to a flagship Samsung in the US.</p>
 
       <p>That’s the crazy part. Android didn’t just win. It flooded the planet. And the real twist? It wasn’t built to sell phones. It was built to protect something else.</p>
@@ -865,6 +865,6 @@ export const articles = [
 
       <p>And Apple?</p>
       <p class="story-punchline">Apple monetized loyalty better than anyone in history.</p>
-    \`
+    `
   }
 ];
