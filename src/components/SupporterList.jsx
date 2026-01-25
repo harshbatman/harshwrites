@@ -3,12 +3,12 @@ import React, { useRef, useEffect, useState } from 'react';
 const supporters = [
     { name: "Akash Sharma", amount: "₹2000" },
     { name: "Prakash Singh", amount: "₹1000" },
-    { name: "Priyanka Tyagi", amount: "₹1000" },
+    { name: "Priyanka Bhattacharya", amount: "₹1000" },
     { name: "Vijay Srivastav", amount: "₹1000" },
     { name: "Kabir Kumar", amount: "₹1000" },
     { name: "Noor Khan", amount: "₹500" },
     { name: "Pawan Kumar", amount: "₹100" },
-    { name: "Ayesha", amount: "₹100" },
+    { name: "Aesha", amount: "₹100" },
     { name: "Prakash Tyagi", amount: "₹100" },
 ];
 
