@@ -1245,7 +1245,7 @@ export const articles = [
     author: "Harsh Mahto",
     category: "Technology & Manufacturing",
     date: "April 2026",
-    image: "/semiconductor-india.jpg",
+    image: "/semiconductor-india-landscape.jpg",
     excerpt: "Everywhere I look these days—phones, cars, even washing machines—everything runs on chips. And yet, when it comes to making them ourselves, it feels like we missed the bus.",
     content: `
       <p>You know, everywhere I look these days—phones, cars, even washing machines—everything runs on chips. And yet, when it comes to making them ourselves, it feels like we missed the bus. Why did this happen to us?</p>
