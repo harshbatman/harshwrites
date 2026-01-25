@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { ArrowLeft, User, Calendar, Share2 } from 'lucide-react';
 import { articles } from '../data/articles';
 import SupportSection from '../components/SupportSection';
+import SupporterList from '../components/SupporterList';
 
 function ArticleView() {
     const { id } = useParams();
@@ -98,6 +99,7 @@ function ArticleView() {
                 />
 
                 <SupportSection />
+                <SupporterList />
 
                 <div style={{ padding: '3rem 0', marginTop: '3rem', borderTop: '1px solid #e5e7eb', display: 'flex', justifyContent: 'center' }}>
                     <button
