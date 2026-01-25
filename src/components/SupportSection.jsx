@@ -116,7 +116,7 @@ const SupportSection = () => {
 
                 {/* Footer */}
                 <div style={{ fontSize: '10px', color: '#9ca3af', marginTop: 'auto' }}>
-                    ©2025, All rights reserved, PhonePe Internet Pvt. Ltd.
+                    ©2023, All rights reserved, PhonePe Internet Pvt. Ltd.
                 </div>
             </div>
         </div>
