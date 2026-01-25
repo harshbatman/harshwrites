@@ -12,7 +12,11 @@ const supporters = [
     { name: "Prakash Tyagi", amount: "₹100" },
     { name: "Praveen", amount: "₹100" },
     { name: "Komal", amount: "₹100" },
-];
+].sort((a, b) => {
+    const amountA = parseInt(a.amount.replace('₹', ''));
+    const amountB = parseInt(b.amount.replace('₹', ''));
+    return amountB - amountA;
+});
 
 const SupporterList = () => {
     // Duplicate list for seamless loop illusion
