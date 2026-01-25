@@ -804,7 +804,99 @@ export const articles = [
 
       <p>That means 7 out of every 10 smartphones on Earth run Android.</p>
 
-      <img src="/android-market-share.jpg" alt="Android vs iOS Market Share" style="width: 100%; border-radius: 12px; margin: 2rem 0;">
+      <div class="statista-chart" style="margin: 3rem 0; padding: 2rem; background: #f0f9ff; border-radius: 16px; border: 1px solid #bae6fd; font-family: sans-serif;">
+        <div style="border-left: 5px solid #22c55e; padding-left: 1rem; margin-bottom: 2rem;">
+          <h4 style="font-size: 1.5rem; font-weight: 800; color: #111827; margin: 0; line-height: 1.2;">Apple or Android Nation?</h4>
+          <p style="font-size: 0.95rem; color: #4b5563; margin-top: 0.5rem;">Mobile operating systems market share in selected countries</p>
+        </div>
+
+        <div style="display: flex; gap: 1.5rem; justify-content: center; margin-bottom: 2rem; font-size: 0.9rem; font-weight: 600;">
+          <div style="display: flex; align-items: center; gap: 0.5rem;"><div style="width: 12px; height: 12px; background: #0e7490;"></div> iOS</div>
+          <div style="display: flex; align-items: center; gap: 0.5rem;"><div style="width: 12px; height: 12px; background: #86efac;"></div> Android</div>
+          <div style="display: flex; align-items: center; gap: 0.5rem;"><div style="width: 12px; height: 12px; background: #9ca3af;"></div> Others</div>
+        </div>
+
+        <!-- Japan -->
+        <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+          <div style="width: 120px; font-weight: 600; color: #374151; display: flex; align-items: center; gap: 8px;">Japan <span style="font-size: 1.2em;">🇯🇵</span></div>
+          <div style="flex: 1; height: 24px; display: flex; border-radius: 4px; overflow: hidden;">
+            <div style="width: 63%; background: #0e7490;"></div>
+            <div style="width: 37%; background: #86efac;"></div>
+          </div>
+        </div>
+
+        <!-- U.S. -->
+        <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+          <div style="width: 120px; font-weight: 600; color: #374151; display: flex; align-items: center; gap: 8px;">U.S. <span style="font-size: 1.2em;">🇺🇸</span></div>
+          <div style="flex: 1; height: 24px; display: flex; border-radius: 4px; overflow: hidden;">
+            <div style="width: 59%; background: #0e7490;"></div>
+            <div style="width: 41%; background: #86efac;"></div>
+          </div>
+        </div>
+
+        <!-- UK -->
+        <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+          <div style="width: 120px; font-weight: 600; color: #374151; display: flex; align-items: center; gap: 8px;">UK <span style="font-size: 1.2em;">🇬🇧</span></div>
+          <div style="flex: 1; height: 24px; display: flex; border-radius: 4px; overflow: hidden;">
+            <div style="width: 48%; background: #0e7490;"></div>
+            <div style="width: 51%; background: #86efac;"></div>
+            <div style="width: 1%; background: #9ca3af;"></div>
+          </div>
+        </div>
+
+        <!-- Germany -->
+        <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+          <div style="width: 120px; font-weight: 600; color: #374151; display: flex; align-items: center; gap: 8px;">Germany <span style="font-size: 1.2em;">🇩🇪</span></div>
+          <div style="flex: 1; height: 24px; display: flex; border-radius: 4px; overflow: hidden;">
+            <div style="width: 28%; background: #0e7490;"></div>
+            <div style="width: 71%; background: #86efac;"></div>
+            <div style="width: 1%; background: #9ca3af;"></div>
+          </div>
+        </div>
+        
+        <!-- China -->
+        <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+          <div style="width: 120px; font-weight: 600; color: #374151; display: flex; align-items: center; gap: 8px;">China <span style="font-size: 1.2em;">🇨🇳</span></div>
+          <div style="flex: 1; height: 24px; display: flex; border-radius: 4px; overflow: hidden;">
+            <div style="width: 21%; background: #0e7490;"></div>
+            <div style="width: 78%; background: #86efac;"></div>
+            <div style="width: 1%; background: #9ca3af;"></div>
+          </div>
+        </div>
+
+        <!-- Brazil -->
+        <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+          <div style="width: 120px; font-weight: 600; color: #374151; display: flex; align-items: center; gap: 8px;">Brazil <span style="font-size: 1.2em;">🇧🇷</span></div>
+          <div style="flex: 1; height: 24px; display: flex; border-radius: 4px; overflow: hidden;">
+            <div style="width: 14%; background: #0e7490;"></div>
+            <div style="width: 86%; background: #86efac;"></div>
+          </div>
+        </div>
+
+        <!-- Nigeria -->
+        <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+          <div style="width: 120px; font-weight: 600; color: #374151; display: flex; align-items: center; gap: 8px;">Nigeria <span style="font-size: 1.2em;">🇳🇬</span></div>
+          <div style="flex: 1; height: 24px; display: flex; border-radius: 4px; overflow: hidden;">
+            <div style="width: 10%; background: #0e7490;"></div>
+            <div style="width: 82%; background: #86efac;"></div>
+            <div style="width: 8%; background: #9ca3af;"></div>
+          </div>
+        </div>
+
+        <!-- India -->
+        <div style="display: flex; align-items: center; margin-bottom: 1rem;">
+          <div style="width: 120px; font-weight: 600; color: #374151; display: flex; align-items: center; gap: 8px;">India <span style="font-size: 1.2em;">🇮🇳</span></div>
+          <div style="flex: 1; height: 24px; display: flex; border-radius: 4px; overflow: hidden;">
+            <div style="width: 3%; background: #0e7490;"></div>
+            <div style="width: 95%; background: #86efac;"></div>
+            <div style="width: 2%; background: #9ca3af;"></div>
+          </div>
+        </div>
+
+        <div style="margin-top: 1.5rem; text-align: right; font-size: 0.8rem; color: #6b7280; font-style: italic;">
+          Source: StatCounter / Statista
+        </div>
+      </div>
 
       <p>That’s… insane.</p>
 
