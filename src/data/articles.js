@@ -478,7 +478,7 @@ export const articles = [
 
         <!-- US Industry Comparison (The "Systemic" Scale) -->
         <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 2px solid #e5e7eb;">
-             <h4 style="font-family: var(--font-serif); font-size: 1.1rem; font-weight: 700; margin-bottom: 1.5rem; color: #111827;">The Bigger Picture: Total US Pharma Market</h4>
+             <h4 style="font-family: var(--font-serif); font-size: 1.1rem; font-weight: 700; margin-bottom: 1.5rem; color: #111827;">The Bigger Picture: Total US Pharma Revenue</h4>
 
              <!-- Revenue Scale -->
              <div style="margin-bottom: 1.25rem;">
