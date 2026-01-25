@@ -203,6 +203,10 @@ a {
   margin-bottom: 1rem;
   color: var(--color-text-primary);
   text-shadow: none;
+  display: -webkit-box;
+  -webkit-line-clamp: 3;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 
 .card-excerpt {
