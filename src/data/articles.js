@@ -58,6 +58,10 @@ export const articles = [
       <p>And maybe that’s why that aura you noticed in the movie felt real.</p>
       
       <p class="story-punchline">Yeah. Turns out, it wasn’t acting at all.</p>
+
+      <p>And it’s funny how we discover these stories.</p>
+
+      <p>That’s what hit me the hardest. We study history in fragments—dates, wars, names—but sometimes a random Netflix night connects the dots better than textbooks ever did.</p>
     `
   },
 
