@@ -144,7 +144,112 @@ export const articles = [
       <p>And that’s where we are right now.</p>
       <p>Not at the end of the AI story—</p>
 
-      <p class="story-punchline">—but right at the beginning.</p>
+      <p>—but right at the beginning.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Real Story: The AI Stack</h3>
+
+      <p>Let me tell you something. When people talk about AI, most of us only see the surface—chatbots, image generators, code assistants. But that’s just the application layer. The real story is much deeper.</p>
+
+      <p>Exactly. Now you might think—<em>bas AI bol diya, kaam khatam</em>.</p>
+      <p>But AI is not one thing. It’s a full stack, like a skyscraper. If even one layer breaks, the whole thing collapses.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">1. Application Layer – What We Touch</h3>
+
+      <p>This is the part everyone sees.</p>
+      <p>Chat interfaces. AI writing tools. Code copilots. Image and video generators.</p>
+
+      <p>Tools powered by models from places like <strong>OpenAI</strong> feel magical because they speak our language.</p>
+      <p>No commands. No syntax. Just intent.</p>
+
+      <p>But this layer is deceptive. It feels like the product—but it’s actually the tip of the iceberg.</p>
+      <p>The real power sits underneath.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">2. LLM Model Development Layer – The Brain</h3>
+
+      <p>This is where large language models live.</p>
+      <p>Trained on massive amounts of text, code, images—learning patterns, not facts.</p>
+
+      <p>And here’s the key point people miss:</p>
+      <p><strong>LLMs</strong> don’t know things.</p>
+      <p>They predict what comes next—at a scale so large it looks like understanding.</p>
+
+      <p>Training these models costs insane money, insane compute, insane energy.</p>
+      <p>This is why only a few players can even attempt it.</p>
+
+      <p>This layer decides intelligence quality.</p>
+      <p>Everything above it—apps, chatbots, copilots—is only as good as this foundation.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">3. Data Layer – The Silent King</h3>
+
+      <p>Now you might think compute is the most important part.</p>
+      <p>But <strong>data</strong> decides what kind of intelligence we create.</p>
+
+      <p>Garbage data → confident garbage output.</p>
+
+      <p>Exactly.</p>
+      <p>Data isn’t just volume. It’s diversity, freshness, bias, language, culture.</p>
+
+      <p>This is where countries, companies, and languages matter.</p>
+      <p>If our data isn’t represented, the AI doesn’t understand us properly.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">4. Chip & Computing Infrastructure Layer – The Muscle</h3>
+
+      <p>Now we come to the raw power.</p>
+      <p>GPUs, TPUs, accelerators.</p>
+
+      <p>This is where <strong>NVIDIA</strong> quietly became one of the most important companies on the planet.</p>
+
+      <p>Training one large model can take thousands of GPUs, running nonstop for weeks.</p>
+
+      <p>Earlier, chips were about speed.</p>
+      <p>Now they’re about <strong>parallel intelligence</strong>.</p>
+
+      <p>Whoever controls advanced chips controls the pace of AI development.</p>
+      <p>That’s not business—that’s geopolitics.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">5. Cloud Infrastructure Layer – The Nervous System</h3>
+
+      <p>But chips alone can’t scale globally.</p>
+      <p>That’s where cloud infrastructure comes in.</p>
+
+      <p>Platforms like <strong>Amazon Web Services</strong>, <strong>Azure</strong>, and <strong>Google Cloud</strong> connect compute, storage, and networking into one system.</p>
+
+      <p>This layer allows AI models to be accessed instantly—from a phone, a laptop, or an API.</p>
+
+      <p>Without cloud, AI stays locked in labs.</p>
+      <p>With cloud, AI becomes a utility—like electricity or internet bandwidth.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">6. Energy Layer – The Constraint No One Talks About</h3>
+
+      <p>Now here’s the uncomfortable truth.</p>
+      <p>AI runs on <strong>electricity</strong>. Lots of it.</p>
+
+      <p>Data centers consume power like small cities.</p>
+      <p>Training models is energy-intensive. Inference at scale is even worse.</p>
+
+      <p>This means AI growth is now tied to energy policy, grids, renewables, and efficiency.</p>
+
+      <p>The future of intelligence is limited not by ideas—but by watts.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Putting It All Together</h3>
+
+      <p>So when we say “AI revolution,” what we’re really talking about is a full-stack transformation.</p>
+
+      <p>Applications on top.</p>
+      <p>Models underneath.</p>
+      <p>Data feeding them.</p>
+      <p>Chips powering them.</p>
+      <p>Cloud distributing them.</p>
+      <p>Energy sustaining them.</p>
+
+      <p>That’s why AI feels different from every tech wave before.</p>
+
+      <p>Social media changed how we talk.</p>
+      <p>AI changes who can do what.</p>
+
+      <p>And this time, the bottleneck isn’t imagination—</p>
+
+      <p class="story-punchline">—it’s infrastructure.</p>
     `
   },
   {
