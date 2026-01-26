@@ -60,13 +60,15 @@ export const articles = [
 
       <p>Very. Once faith turns into identity politics, questioning anything feels like betrayal. And people stop thinking—they start defending.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Propaganda Doesn’t Shout Anymore</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Propaganda Doesn’t Look Like Propaganda</h3>
 
-      <p>But today no one calls it propaganda.</p>
+      <p>But propaganda today doesn’t look like old Soviet posters.</p>
 
-      <p>That’s the genius. Bezmenov predicted this too. Modern propaganda looks local. Sounds emotional. Comes in short videos, clips, forwards, outrage headlines.</p>
+      <p>Bezmenov predicted that too. Modern propaganda comes as memes, influencers, half-truths, emotional stories. It feels organic. Feels local. Feels like it’s coming from “our own people”.</p>
 
-      <p>It doesn’t say think this. It says feel this.</p>
+      <p>That’s the dangerous part.</p>
+
+      <p>Because when propaganda feels familiar, we defend it emotionally, not rationally.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">You Know Who I’m Talking About</h3>
 
