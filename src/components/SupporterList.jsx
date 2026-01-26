@@ -8,7 +8,7 @@ const rawSupporters = [
     { name: "Vijay Srivastav", amount: 1000 },
     { name: "Kabir", amount: 1000 },
     { name: "Noor Khan", amount: 500 },
-    { name: "Pawan", amount: 100 },
+    { name: "Poonam", amount: 100 },
     { name: "Aesha", amount: 100 },
     { name: "Prakash Tyagi", amount: 100 },
     { name: "Praveen", amount: 100 },
