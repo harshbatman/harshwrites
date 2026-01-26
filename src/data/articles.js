@@ -1,5 +1,103 @@
 export const articles = [
   {
+    id: "yuri-bezmenov-modern-politics",
+    title: "A Simple Guide to Understanding Modern Politics",
+    author: "Harsh Mahto",
+    category: "Politics & Society",
+    date: "January 2026",
+    image: "/yuri-bezmenov.jpg",
+    excerpt: "Last week, late night, phone in hand, doing what we all do—random YouTube scrolling. One video leads to another. And suddenly this old clip pops up.",
+    content: `
+      <p>Last week, late night, phone in hand, doing what we all do—random YouTube scrolling. One video leads to another. And suddenly this old clip pops up.</p>
+
+      <p>Let me guess—some Cold War guy?</p>
+
+      <p>Now you might think, yeh me as well, another YouTube conspiracy uncle. But no. This was Yuri Bezmenov—a Soviet agent who defected in the 1970s.</p>
+
+      <p>Ahh, that man. His videos refuse to die.</p>
+
+      <p>Because what he said back then is alive everywhere today. Especially with us. Especially around language and religion.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">He Wasn’t Talking About War</h3>
+
+      <p>People say he was just spreading fear.</p>
+
+      <p>That’s the mistake. He wasn’t talking about bombs or armies. He said the real war is fought inside people’s heads.</p>
+      
+      <p>Slow. Silent. Patient.</p>
+
+      <p>So… brainwashing?</p>
+
+      <p>He called it ideological subversion. I call it—making people hate each other without knowing who benefits.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">He Understood Us Very Well</h3>
+
+      <p>And he spent time with us, right?</p>
+
+      <p>Yes. He lived among us, observed us closely. And he said something very uncomfortable: A society deeply rooted in religion, language, and identity is strong—but if mishandled, it becomes fragile.</p>
+
+      <p>Because emotions run deep.</p>
+
+      <p>Exactly. Touch someone’s language or faith, and logic leaves the room.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Language: The Easiest Fault Line</h3>
+
+      <p>Explain that part.</p>
+
+      <p>Bezmenov said—first you divide people by language. You don’t say who is right or wrong. You just keep reminding them: you are different. Different tongue. Different accent. Different history.</p>
+
+      <p>And suddenly we stop seeing each other as “us”.</p>
+
+      <p>Yes. We become categories. Labels. Camps. And once language becomes political, every sentence feels like an attack.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Religion: The Strongest Lever</h3>
+
+      <p>And religion?</p>
+
+      <p>He said religion is the most powerful emotional trigger. You don’t need to insult it. You just reinterpret it. Weaponize it. Reduce centuries of philosophy into slogans.</p>
+
+      <p>That sounds… familiar.</p>
+
+      <p>Very. Once faith turns into identity politics, questioning anything feels like betrayal. And people stop thinking—they start defending.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Propaganda Doesn’t Shout Anymore</h3>
+
+      <p>But today no one calls it propaganda.</p>
+
+      <p>That’s the genius. Bezmenov predicted this too. Modern propaganda looks local. Sounds emotional. Comes in short videos, clips, forwards, outrage headlines.</p>
+
+      <p>It doesn’t say think this. It says feel this.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">You Know Who I’m Talking About</h3>
+
+      <p>So when politics mixes with language and religion…</p>
+
+      <p>You know who I’m talking about. No party names needed. No flags needed. Just look at how quickly debates turn into fights. How easily we stop listening.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Most Dangerous Stage</h3>
+
+      <p>Did he think people would wake up?</p>
+
+      <p>He warned that after a point, even facts stop working. You can show proof, data, history—but if it hurts identity, it gets rejected.</p>
+
+      <p>Because belief becomes who we are.</p>
+
+      <p>Exactly. And attacking belief feels like attacking existence.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">So What’s The Escape?</h3>
+
+      <p>So what do we do?</p>
+
+      <p>Be suspicious of anyone who benefits from us fighting over language and religion. Slow down before reacting. And remember—unity doesn’t mean sameness.</p>
+
+      <p>Heavy stuff for a YouTube video.</p>
+
+      <p>Yeah. That’s the scary part. He wasn’t predicting our future.</p>
+
+      <p class="story-punchline">He was calmly describing our present.</p>
+    `
+  },
+  {
     id: "netflix-zhukov-republic-day",
     title: "I Didn’t Expect Netflix to Lead Me to Republic Day 1957",
     author: "Harsh Mahto",
