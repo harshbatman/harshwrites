@@ -10,11 +10,13 @@ export const articles = [
     content: `
       <p>Let me tell you something. Our modern digital world didn’t arrive in one big bang. It crept in, layer by layer. And the funny part? Most of the people building it had no idea what they were actually setting in motion.</p>
 
-      <p>Now you might think, that everything started with smartphones or social media. But if we’re being honest, the real starting point was far more boring and far more dangerous in impact: the transistor.</p>
+      <p>Now you might think, that everything started with smartphones or social media. But if we’re being honest, the real starting point was far more boring and far more dangerous in impact: the <strong>transistor</strong>.</p>
 
       <p>Yeah. No flashy UI, no apps, no internet hype. Just a tiny electronic switch. But once we replaced vacuum tubes with transistors, suddenly machines could shrink, consume less power, and become reliable. That single change made personal computing possible.</p>
 
-      <p>And then came a prediction that quietly ruled our lives for decades—Moore’s Law.</p>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Obsession With Speed</h3>
+
+      <p>And then came a prediction that quietly ruled our lives for decades—<strong>Moore’s Law</strong>.</p>
       <p>The idea that computing power would double every couple of years. Not a law of physics. Just an observation. But the entire tech industry treated it like destiny.</p>
 
       <p>That expectation forced companies to race nonstop.</p>
@@ -23,26 +25,30 @@ export const articles = [
 
       <p>Which is why today, the same company that once made gaming cards is now at the center of AI power. This wasn’t planned. This was evolution.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Who Controls The Power?</h3>
+
       <p>But hardware alone means nothing without control. That’s where operating systems came in.</p>
       <p>They decided who gets power and who doesn’t.</p>
 
-      <p>On one side, Microsoft.</p>
+      <p>On one side, <strong>Microsoft</strong>.</p>
       <p>Windows everywhere. Offices, schools, government systems. Cheap, flexible, sometimes messy—but everywhere. It democratized computing.</p>
 
-      <p>On the other side, Apple.</p>
+      <p>On the other side, <strong>Apple</strong>.</p>
       <p>Closed systems. Tight control. Design obsession. Apple didn’t want everyone. They wanted loyal users. And that strategy shaped our idea of premium tech.</p>
 
       <p>And below all of this, hidden from normal people, programming languages evolved.</p>
-      <p>C gave us control.</p>
-      <p>C++ gave us performance.</p>
-      <p>Java promised “write once, run anywhere.”</p>
-      <p>Python made programming feel human.</p>
+      <p><strong>C</strong> gave us control.</p>
+      <p><strong>C++</strong> gave us performance.</p>
+      <p><strong>Java</strong> promised “write once, run anywhere.”</p>
+      <p><strong>Python</strong> made programming feel human.</p>
       <p>This layer decided who could build and how fast innovation could move.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Connection: When The World Went Online</h3>
 
       <p>Then came the moment everything changed—not computers, but connection.</p>
       <p>The internet already existed, but it wasn’t usable for normal people until the World Wide Web arrived.</p>
 
-      <p>That was Web 1.0.</p>
+      <p>That was <strong>Web 1.0</strong>.</p>
       <p>Static pages. One-way communication. We read. We downloaded. We waited for pages to load.</p>
       <p>It felt slow, but for the first time, information ignored borders.</p>
 
@@ -57,10 +63,12 @@ export const articles = [
       <p>The dot-com bubble burst.</p>
       <p>Startups died. Jobs vanished. Investors learned the hard way that technology doesn’t erase economics.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Web 2.0: We Became The Product</h3>
+
       <p>And here’s the irony—people said the internet failed.</p>
       <p>In reality, weak ideas failed. The internet was just warming up.</p>
 
-      <p>That warm-up became Web 2.0.</p>
+      <p>That warm-up became <strong>Web 2.0</strong>.</p>
       <p>The shift from pages to platforms.</p>
       <p>From consuming to participating.</p>
 
@@ -72,19 +80,23 @@ export const articles = [
       <p>Algorithms became invisible editors of truth.</p>
 
       <p>We didn’t pay with money.</p>
-      <p>We paid with attention.</p>
+      <p>We paid with <strong>attention</strong>.</p>
       <p>And attention turned out to be the most valuable currency ever discovered.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Invisible Revolution: AI & UPI</h3>
+
       <p>Fast-forward to today.</p>
-      <p>AI is no longer science fiction—it’s infrastructure.</p>
+      <p><strong>AI</strong> is no longer science fiction—it’s infrastructure.</p>
       <p>Bitcoin questions what money even is.</p>
-      <p>And for us, UPI quietly did what crypto promised—instant, borderless digital payments—without ideology or hype.</p>
+      <p>And for us, <strong>UPI</strong> quietly did what crypto promised—instant, borderless digital payments—without ideology or hype.</p>
 
       <p>That’s an important lesson.</p>
       <p>Real revolutions don’t announce themselves loudly.</p>
       <p>They integrate silently.</p>
 
-      <p>Now comes Web 3.0, decentralization, blockchain, NFTs, and the metaverse.</p>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Why The Metaverse Feels Different</h3>
+
+      <p>Now comes <strong>Web 3.0</strong>, decentralization, blockchain, NFTs, and the metaverse.</p>
       <p>And honestly? I agree with you. I don’t think the metaverse will be as big as the smartphone.</p>
 
       <p>Phones were frictionless.</p>
@@ -93,6 +105,8 @@ export const articles = [
 
       <p>The smartphone worked because it merged with life.</p>
       <p>The metaverse tries to replace it.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Real Revolution Is Invisible</h3>
 
       <p>History tells us something simple:</p>
       <p>The technologies that win don’t feel revolutionary forever. They become boring. Invisible. Necessary.</p>
