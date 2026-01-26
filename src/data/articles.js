@@ -98,6 +98,10 @@ export const articles = [
 
       <p>Be suspicious of anyone who benefits from us fighting over language and religion. Slow down before reacting. And remember—unity doesn’t mean sameness.</p>
 
+      <p>So… are we doomed?</p>
+
+      <p>No. But Bezmenov had an indirect answer. Question everything—even what flatters your side. Stay boringly rational in an age that rewards outrage. And remember—when someone benefits from us fighting each other, they’re probably not on our side.</p>
+
       <p>Heavy stuff for a YouTube video.</p>
 
       <p>Yeah. That’s the scary part. He wasn’t predicting our future.</p>
