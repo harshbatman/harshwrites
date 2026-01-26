@@ -38,7 +38,7 @@ export const articles = [
 
       <p>Because emotions run deep.</p>
 
-      <p>Exactly. Touch someone’s language or faith, and logic leaves the room.</p>
+      <p>Exactly. Touch someone’s religion, language or faith, and logic leaves the room.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Language: The Easiest Fault Line</h3>
 
