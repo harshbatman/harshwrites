@@ -30,8 +30,8 @@ export const articles = [
 
       <p>The one where he’s sitting on top of an elephant. That image alone says so much. A Soviet Field Marshal, symbol of military power, sitting calmly on an elephant during Republic Day of India celebrations. It wasn’t optics. It was respect.</p>
 
-      <div style="margin: 2rem 0;">
-        <img src="/zhukov-elephant.jpg" alt="Marshal Zhukov on an elephant in India" style="width: 100%; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);">
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/zhukov-elephant.jpg" alt="Marshal Zhukov on an elephant in India" style="width: 70%; display: block; margin: 0 auto; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);">
         <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">Marshal Zhukov visiting India, 1957</p>
       </div>
 
