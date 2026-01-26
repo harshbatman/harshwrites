@@ -1,4 +1,60 @@
 export const articles = [
+  {
+    id: "netflix-zhukov-republic-day",
+    title: "I Didn’t Expect Netflix to Lead Me to Republic Day 1957",
+    author: "Harsh Mahto",
+    category: "History & Culture",
+    date: "January 2026",
+    image: "/zhukov-republic-day.jpg",
+    excerpt: "Last week I was doing what we all do—Netflix and chill. Then I randomly hit play on The Death of Stalin. I watched it for the laughs, but honestly? One character hijacked my attention.",
+    content: `
+      <p>Last week I was doing what we all do—Netflix and chill, nothing serious. Then I randomly hit play on The Death of Stalin. I watched it for the laughs, but honestly? One character hijacked my attention.</p>
+
+      <p>Let me guess. Marshal Zhukov?</p>
+
+      <p>Exactly. Georgy Zhukov. The moment he walks in—no noise, no drama—just pure aura. You might think, yeah, it’s a movie exaggerating things. Yeh, me as well thought like that.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Rabbit Hole</h3>
+
+      <p>But then you went down the rabbit hole.</p>
+
+      <p>Obviously. After the movie, I searched more about him. And then it hit me—this wasn’t just some cinematic character. This was the guy who led the Red Army into Berlin. The guy who accepted Nazi Germany’s surrender on the Western Front. Not a background general. The general.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The “Us” Connection</h3>
+
+      <p>And that’s when the “us” connection comes in, right?</p>
+
+      <p>Yes. And this is the part that shocked me. Zhukov had actually visited us. Not casually—he was here on our 8th Republic Day in 1957, as the chief guest. Think about that for a second.</p>
+
+      <p>That famous photo?</p>
+
+      <p>The one where he’s sitting on top of an elephant. That image alone says so much. A Soviet Field Marshal, symbol of military power, sitting calmly on an elephant during Republic Day of India celebrations. It wasn’t optics. It was respect.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">More Than Strategy</h3>
+
+      <p>Now you might think this was just Cold War diplomacy.</p>
+
+      <p>But it wasn’t just that. Russia has always been more than a “strategic partner” for us. From the beginning, they respected that we were non-aligned. They didn’t force us to pick sides. They stood with us when it actually mattered.</p>
+
+      <p>Through thick and thin.</p>
+
+      <p>Exactly. From Joseph Stalin to Nikita Khrushchev, then Leonid Brezhnev, Mikhail Gorbachev, and now Vladimir Putin. And on our side—from Jawaharlal Nehru to Indira Gandhi to Narendra Modi. Governments changed. Ideologies shifted. But that line never broke.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">A Statement of Trust</h3>
+
+      <p>So Zhukov’s visit wasn’t random history trivia.</p>
+
+      <p>No. It symbolised something deeper. Mutual respect. No lectures. No superiority. Just recognition of us as equals on the world stage—at a time when we were still a young republic.</p>
+
+      <p>Funny how one Netflix movie can pull you into a whole forgotten chapter of history.</p>
+
+      <p>That’s the thing. We talk a lot about alliances today, but some friendships were built quietly, long before hashtags and headlines. Zhukov on that elephant wasn’t just a photo. It was a statement—Russia saw us, trusted us, and stood with us.</p>
+
+      <p>And maybe that’s why that aura you noticed in the movie felt real.</p>
+      
+      <p class="story-punchline">Yeah. Turns out, it wasn’t acting at all.</p>
+    `
+  },
 
   {
     id: "globalisation-tech-power",
