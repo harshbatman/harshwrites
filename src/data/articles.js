@@ -366,7 +366,7 @@ export const articles = [
     author: "Harsh Mahto",
     category: "Economics & Policy",
     date: "January 2026",
-    image: "/services-vs-manufacturing.jpg",
+    image: "/services-vs-manufacturing-updated.jpg",
     excerpt: "Every time someone talks about growth, it’s always the same story: 'Let’s build factories.' But Raghuram Rajan asks us to take a hard look at what we’re doing.",
     content: `
       <p>Every time someone talks about growth, it’s always the same story: “Let’s build factories. Let’s make things. Let’s attract big companies.”</p>
