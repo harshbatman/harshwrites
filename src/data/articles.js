@@ -83,49 +83,68 @@ export const articles = [
       <p>We paid with <strong>attention</strong>.</p>
       <p>And attention turned out to be the most valuable currency ever discovered.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Invisible Revolution: AI & UPI</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Generative Shift</h3>
 
-      <p>Fast-forward to today.</p>
-      <p><strong>AI</strong> is no longer science fiction—it’s infrastructure.</p>
-      <p>Bitcoin questions what money even is.</p>
-      <p>And for us, <strong>UPI</strong> quietly did what crypto promised—instant, borderless digital payments—without ideology or hype.</p>
+      <p>Now you might think the story ends with social media. That after Facebook, Instagram, and endless scrolling, we’d reached the peak of the digital world.</p>
 
-      <p>That’s an important lesson.</p>
-      <p>Real revolutions don’t announce themselves loudly.</p>
-      <p>They integrate silently.</p>
+      <p>Yeh, I also thought that once. But that was just the internet shaping what we see.</p>
+      <p><strong>AI</strong> is different. AI is starting to shape what gets created.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Why The Metaverse Feels Different</h3>
+      <p>That’s the real break.</p>
+      <p>Earlier, computers only did what we explicitly told them. Logic in, output out.</p>
+      <p>But with <strong>generative AI</strong>, machines don’t just execute—they produce.</p>
 
-      <p>Now comes <strong>Web 3.0</strong>, decentralization, blockchain, NFTs, and the metaverse.</p>
-      <p>And honestly? I agree with you. I don’t think the metaverse will be as big as the smartphone.</p>
+      <p>And this didn’t come out of nowhere. Decades of data, better chips, GPUs from companies like <strong>NVIDIA</strong>, and suddenly models became large enough to recognize patterns in human language, images, and code.</p>
 
-      <p>Phones were frictionless.</p>
-      <p>No learning curve. No extra hardware.</p>
-      <p>The metaverse demands headsets, processing power, and a reason to escape reality. That’s a much smaller audience.</p>
+      <p>This is where <strong>OpenAI</strong> changed the direction.</p>
+      <p>For the first time, normal people—not researchers—could talk to a machine and get meaningful responses. Not commands. Conversations.</p>
 
-      <p>The smartphone worked because it merged with life.</p>
-      <p>The metaverse tries to replace it.</p>
+      <p>And that’s when it hit us—<em>yeh sirf tool nahi hai</em>.</p>
+      <p>This feels closer to intelligence than anything we’ve used before.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Real Revolution Is Invisible</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Coding Is Changing</h3>
 
-      <p>History tells us something simple:</p>
-      <p>The technologies that win don’t feel revolutionary forever. They become boring. Invisible. Necessary.</p>
+      <p>Look at programming.</p>
+      <p>For decades, learning to code meant learning syntax, debugging line by line, memorizing logic.</p>
+      <p>Now tools like <strong>Cursor</strong> sit inside the editor itself—suggesting code, explaining bugs, even writing full functions.</p>
 
-      <p>Electricity did that.</p>
-      <p>The internet did that.</p>
-      <p>UPI is doing that right now.</p>
+      <p>Earlier, software engineers told computers what to do.</p>
+      <p>Now they tell AI what they want, and the AI figures out how.</p>
 
-      <p>So the future won’t come with a dramatic launch event.</p>
-      <p>It’ll come quietly—embedded into our habits—until one day we realize we can’t imagine us without it.</p>
+      <p>That’s a massive shift.</p>
+      <p>This isn’t automation of muscle power like machines in factories.</p>
+      <p>This is automation of <strong>cognitive work</strong>—writing, coding, designing, summarizing, even thinking through problems.</p>
 
-      <p>That’s our digital journey.</p>
-      <p>Not a straight line.</p>
-      <p>Not hype-driven.</p>
-      <p>Just a series of small technical decisions… slowly reshaping us, our society, and our power structures.</p>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Intelligence, Not Just Information</h3>
 
-      <p>And the scariest part?</p>
+      <p>And this is why comparing AI to social media or the metaverse misses the point.</p>
+      <p>Social media changed behavior.</p>
+      <p>AI changes <strong>capability</strong>.</p>
 
-      <p class="story-punchline">We’re still in the middle of it.</p>
+      <p>Exactly.</p>
+      <p>The internet gave us access to information.</p>
+      <p>Generative AI gives us the ability to use that information instantly.</p>
+
+      <p>Students, developers, writers, analysts—everyone now starts with a co-pilot.</p>
+      <p>The baseline skill level just jumped.</p>
+
+      <p>And unlike the metaverse, AI doesn’t ask us to wear headsets or leave reality.</p>
+      <p>It blends into our existing tools—browsers, editors, phones, workflows.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Silent Revolution</h3>
+
+      <p>That’s why AI feels inevitable.</p>
+      <p>Just like electricity or the internet, once it works well enough, opting out becomes impractical.</p>
+
+      <p>So when we look at our digital journey—from transistors to the web, from social media to AI—the pattern stays the same.</p>
+
+      <p>The biggest revolutions don’t shout.</p>
+      <p>They quietly move into our daily habits… until one day we realize the way we work, we learn, and we create has permanently changed.</p>
+
+      <p>And that’s where we are right now.</p>
+      <p>Not at the end of the AI story—</p>
+
+      <p class="story-punchline">—but right at the beginning.</p>
     `
   },
   {
