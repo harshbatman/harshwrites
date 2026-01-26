@@ -1,5 +1,131 @@
 export const articles = [
   {
+    id: "data-structures-and-algorithms",
+    title: "Data Structures and Algorithms",
+    author: "Harsh Mahto",
+    category: "Software Engineering",
+    date: "January 2026",
+    image: "/uploaded_image_1769388074067.jpg",
+    excerpt: "Recently, I put a pause on web development and started focusing on Data Structures and Algorithms. Web development was moving fast, but something felt incomplete.",
+    content: `
+      <p>Recently, I put a pause on web development and started focusing on Data Structures and Algorithms.</p>
+
+      <p>Web development was moving fast. Things were building. Projects were shipping.</p>
+
+      <p>But something felt incomplete.</p>
+
+      <p>I was writing features. I was fixing bugs. Yet, when the logic got complex, I felt shaky.</p>
+
+      <p>So I stopped. Not permanently. Just long enough to fix the foundation.</p>
+
+      <p>That’s when I started spending most of my time on Data Structures and Algorithms.</p>
+
+      <p>At first, I thought I was doing fine. I was writing code. It was running. I assumed that was enough.</p>
+
+      <p>It wasn’t.</p>
+      
+      <p>I was doing it wrong.</p>
+
+      <p>The code worked, but I couldn’t explain it. I couldn’t clearly tell why one solution was better than another. I couldn’t say where it would break.</p>
+
+      <p>That gap stayed with me.</p>
+
+      <p>So I slowed down further.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Back to Basics</h3>
+
+      <p>About two months ago, I went back to basics.</p>
+
+      <p>Before getting deep into DSA, I spent time on statistics and probability. Earlier, I skipped this part. Now I know that was a mistake.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Choosing C++</h3>
+
+      <p>Then I chose C++. Earlier, I avoided it because it felt difficult. That avoidance was another mistake.</p>
+
+      <p>C++ doesn’t hide things. Memory is visible. Pointers are real. Control flow is clear.</p>
+
+      <p>It forced me to be precise.</p>
+
+      <p>At first, I jumped into random problems. I was solving, but not learning. That approach was wrong. So I changed it.</p>
+
+      <p>I went back and started with time and space complexity. Now, before writing any code, I think about scale. I think about growth. I think about limits.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Arrays and Complexity</h3>
+
+      <p>Then came arrays. Earlier, I treated arrays as basic. That was careless.</p>
+
+      <p>Prefix sums. Sliding window. Two pointers. Once these clicked, problems stopped feeling random.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Sorting and Searching</h3>
+      
+      <p>Sorting and searching came next. Earlier, I just used built-in functions. I didn’t care how they worked underneath.</p>
+
+      <p>Now I understand why sorting matters. Why binary search changes everything. Why reducing time from O(n) to O(log n) is not a small thing.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Hashing</h3>
+
+      <p>Then came hashing. At first, hash maps felt like magic. Key in, value out. That thinking was wrong.</p>
+
+      <p>I learned about collisions. I learned when hashing helps and when it doesn’t.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Recursion and Backtracking</h3>
+
+      <p>Recursion came after that. This part was frustrating. I kept trying to see the full solution at once. That never worked.</p>
+
+      <p>What worked was focusing on one step. Base case first. Then the recursive call. That correction changed my thinking.</p>
+
+      <p>Backtracking followed naturally. Choose. Explore. Undo.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Data Structures Flow</h3>
+
+      <p>Then I moved through linked lists, stacks, and queues. Earlier, I memorised definitions. Now, I understand purpose.</p>
+
+      <p>Linked lists showed me how memory flows. Stacks made undo and backtracking clear. Queues showed how tasks move through a system.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Bit Manipulation and DP</h3>
+
+      <p>Then came bit manipulation. Earlier, I ignored it. It felt unnecessary. It wasn’t.</p>
+
+      <p>Bits taught me efficiency. They taught me how close code can be to hardware.</p>
+
+      <p>Then came Dynamic Programming. This is where I struggled the most. I tried to memorise patterns. Nothing stuck. So I stopped.</p>
+
+      <p>I asked one question: What is repeating here?</p>
+
+      <p>Once I started thinking in states and transitions, things changed. Recursion with memoization. Then tabulation. Dynamic Programming started making sense.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Advanced Structures</h3>
+
+      <p>Greedy algorithms followed. I learned when greed works. I learned when it fails.</p>
+
+      <p>Trees and graphs pushed my thinking further. Binary trees strengthened recursion. BSTs taught ordering. Heaps taught prioritisation.</p>
+
+      <p>Graphs—DFS, BFS, shortest paths—showed structure and flow.</p>
+
+      <p>I also touched tries and segment trees. Earlier, they felt advanced. Now, they feel like extensions of basics done right.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Process</h3>
+
+      <p>This is where problem solving mattered most. I spend a lot of time on CodeChef and Codeforces.</p>
+
+      <p>Not just submitting. Not just chasing green ticks.</p>
+
+      <p>I read problems slowly. I try multiple approaches. I fail. I debug. I try again.</p>
+
+      <p>CodeChef keeps me consistent. Codeforces sharpens my thinking.</p>
+
+      <p>That loop—solve, fail, understand, retry—that’s where learning actually happens.</p>
+
+      <p>I’m still learning. I still get stuck.</p>
+
+      <p>But now, when I see a problem, I don’t rush. I pause. I break it down. I think. Then I code.</p>
+
+      <p>Pausing web development wasn’t stepping back. It was stepping deeper.</p>
+
+      <p class="story-punchline">That’s what learning Data Structures and Algorithms means to me right now.</p>
+    `
+  },
+  {
     id: "globalisation-tech-power",
     title: "They Designed It. China Copied It. We Bought It.",
     author: "Harsh Mahto",
