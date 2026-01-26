@@ -1038,7 +1038,7 @@ export const articles = [
 
       <p>That’s the crazy part. Android didn’t just win. It flooded the planet. And the real twist? It wasn’t built to sell phones. It was built to protect something else.</p>
 
-      <p>Let me guess—search?</p>
+      <p>You guessed it—search.</p>
 
       <p>Exactly. When Google bought Android in 2005, smartphones weren’t even mainstream. Nokia ruled. BlackBerry ruled. Apple hadn’t dropped the iPhone yet.</p>
 
