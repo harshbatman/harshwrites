@@ -74,6 +74,14 @@ export const articles = [
 
       <p>You know who I’m talking about. No party names needed. No flags needed. Just look at how quickly debates turn into fights. How easily we stop listening.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Religion, Language, Politics, and Permanent Outrage</h3>
+
+      <p>So when we see religion, language, and politics mixed with constant outrage…</p>
+
+      <p>…that’s exactly what he warned about. Not attacking religion and language itself, but using it as fuel. Same with ideology. Same with nationalism. Same with activism.</p>
+
+      <p>Everything becomes sacred. Everything becomes offensive. Nothing can be questioned.</p>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Most Dangerous Stage</h3>
 
       <p>Did he think people would wake up?</p>
