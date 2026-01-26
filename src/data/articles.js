@@ -70,6 +70,16 @@ export const articles = [
 
       <p>Because when propaganda feels familiar, we defend it emotionally, not rationally.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">First Step: Confuse The Mind</h3>
+
+      <p>So what was his so-called plan?</p>
+
+      <p>He broke it into stages. First—demoralization. You flood society with conflicting ideas. People stop knowing what’s right or wrong. Truth becomes “my truth” vs “your truth”.</p>
+
+      <p>Like when everyone has their own version of history?</p>
+
+      <p>Or when facts depend on which WhatsApp group you’re in.</p>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Then You Divide Us</h3>
 
       <p>And the next stage?</p>
