@@ -1,5 +1,120 @@
 export const articles = [
   {
+    id: "transistors-to-ai",
+    title: "From Transistors to AI",
+    author: "Harsh Mahto",
+    category: "Technology & History",
+    date: "January 2026",
+    image: "/transistors-to-ai.jpg",
+    excerpt: "Let me tell you something. Our modern digital world didn’t arrive in one big bang. It crept in, layer by layer. And the funny part? Most of the people building it had no idea what they were actually setting in motion.",
+    content: `
+      <p>Let me tell you something. Our modern digital world didn’t arrive in one big bang. It crept in, layer by layer. And the funny part? Most of the people building it had no idea what they were actually setting in motion.</p>
+
+      <p>Now you might think, that everything started with smartphones or social media. But if we’re being honest, the real starting point was far more boring and far more dangerous in impact: the transistor.</p>
+
+      <p>Yeah. No flashy UI, no apps, no internet hype. Just a tiny electronic switch. But once we replaced vacuum tubes with transistors, suddenly machines could shrink, consume less power, and become reliable. That single change made personal computing possible.</p>
+
+      <p>And then came a prediction that quietly ruled our lives for decades—Moore’s Law.</p>
+      <p>The idea that computing power would double every couple of years. Not a law of physics. Just an observation. But the entire tech industry treated it like destiny.</p>
+
+      <p>That expectation forced companies to race nonstop.</p>
+      <p>Chipmakers like Intel and AMD kept pushing CPUs faster and cheaper.</p>
+      <p>Later NVIDIA realized something even bigger—that parallel computing and GPUs would matter more than raw CPU speed.</p>
+
+      <p>Which is why today, the same company that once made gaming cards is now at the center of AI power. This wasn’t planned. This was evolution.</p>
+
+      <p>But hardware alone means nothing without control. That’s where operating systems came in.</p>
+      <p>They decided who gets power and who doesn’t.</p>
+
+      <p>On one side, Microsoft.</p>
+      <p>Windows everywhere. Offices, schools, government systems. Cheap, flexible, sometimes messy—but everywhere. It democratized computing.</p>
+
+      <p>On the other side, Apple.</p>
+      <p>Closed systems. Tight control. Design obsession. Apple didn’t want everyone. They wanted loyal users. And that strategy shaped our idea of premium tech.</p>
+
+      <p>And below all of this, hidden from normal people, programming languages evolved.</p>
+      <p>C gave us control.</p>
+      <p>C++ gave us performance.</p>
+      <p>Java promised “write once, run anywhere.”</p>
+      <p>Python made programming feel human.</p>
+      <p>This layer decided who could build and how fast innovation could move.</p>
+
+      <p>Then came the moment everything changed—not computers, but connection.</p>
+      <p>The internet already existed, but it wasn’t usable for normal people until the World Wide Web arrived.</p>
+
+      <p>That was Web 1.0.</p>
+      <p>Static pages. One-way communication. We read. We downloaded. We waited for pages to load.</p>
+      <p>It felt slow, but for the first time, information ignored borders.</p>
+
+      <p>And entrepreneurs smelled blood.</p>
+      <p>Amazon started with books—not because books were special, but because logistics could be tested.</p>
+      <p>Google didn’t create information; it organized it. And whoever controls discovery controls power.</p>
+
+      <p>That era was pure optimism.</p>
+      <p>Every website thought it would become a billion-dollar company. Revenue didn’t matter. Profit didn’t matter. “Eyeballs” mattered.</p>
+
+      <p>Until 2000.</p>
+      <p>The dot-com bubble burst.</p>
+      <p>Startups died. Jobs vanished. Investors learned the hard way that technology doesn’t erase economics.</p>
+
+      <p>And here’s the irony—people said the internet failed.</p>
+      <p>In reality, weak ideas failed. The internet was just warming up.</p>
+
+      <p>That warm-up became Web 2.0.</p>
+      <p>The shift from pages to platforms.</p>
+      <p>From consuming to participating.</p>
+
+      <p>And this is where everything got psychological.</p>
+      <p>Facebook didn’t just connect friends. It mapped social relationships. It learned what made us angry, happy, tribal, insecure.</p>
+
+      <p>Likes became validation.</p>
+      <p>Shares became identity.</p>
+      <p>Algorithms became invisible editors of truth.</p>
+
+      <p>We didn’t pay with money.</p>
+      <p>We paid with attention.</p>
+      <p>And attention turned out to be the most valuable currency ever discovered.</p>
+
+      <p>Fast-forward to today.</p>
+      <p>AI is no longer science fiction—it’s infrastructure.</p>
+      <p>Bitcoin questions what money even is.</p>
+      <p>And for us, UPI quietly did what crypto promised—instant, borderless digital payments—without ideology or hype.</p>
+
+      <p>That’s an important lesson.</p>
+      <p>Real revolutions don’t announce themselves loudly.</p>
+      <p>They integrate silently.</p>
+
+      <p>Now comes Web 3.0, decentralization, blockchain, NFTs, and the metaverse.</p>
+      <p>And honestly? I agree with you. I don’t think the metaverse will be as big as the smartphone.</p>
+
+      <p>Phones were frictionless.</p>
+      <p>No learning curve. No extra hardware.</p>
+      <p>The metaverse demands headsets, processing power, and a reason to escape reality. That’s a much smaller audience.</p>
+
+      <p>The smartphone worked because it merged with life.</p>
+      <p>The metaverse tries to replace it.</p>
+
+      <p>History tells us something simple:</p>
+      <p>The technologies that win don’t feel revolutionary forever. They become boring. Invisible. Necessary.</p>
+
+      <p>Electricity did that.</p>
+      <p>The internet did that.</p>
+      <p>UPI is doing that right now.</p>
+
+      <p>So the future won’t come with a dramatic launch event.</p>
+      <p>It’ll come quietly—embedded into our habits—until one day we realize we can’t imagine us without it.</p>
+
+      <p>That’s our digital journey.</p>
+      <p>Not a straight line.</p>
+      <p>Not hype-driven.</p>
+      <p>Just a series of small technical decisions… slowly reshaping us, our society, and our power structures.</p>
+
+      <p>And the scariest part?</p>
+
+      <p class="story-punchline">We’re still in the middle of it.</p>
+    `
+  },
+  {
     id: "yuri-bezmenov-modern-politics",
     title: "A Simple Guide to Understanding Modern Politics",
     author: "Harsh Mahto",
