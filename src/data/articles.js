@@ -248,8 +248,102 @@ export const articles = [
       <p>AI changes who can do what.</p>
 
       <p>And this time, the bottleneck isn’t imagination—</p>
+      <p>—it’s infrastructure.</p>
 
-      <p class="story-punchline">—it’s infrastructure.</p>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">AI vs Internet vs Smartphone</h3>
+
+      <p>So now let’s step back. We’ve talked about layers, infrastructure, chips, energy, data. But the real question is simple:</p>
+      <p>Where does AI actually stand compared to the internet and the smartphone?</p>
+
+      <p>Yeah, because every generation hears the same line—“this will change everything.”</p>
+      <p>Sometimes it’s true. Sometimes it’s marketing.</p>
+
+      <p>The internet changed <strong>access</strong>.</p>
+      <p>Before it, information was locked behind institutions—libraries, universities, governments, media houses.</p>
+
+      <p>After the internet, access became cheap. Almost free.</p>
+      <p>Anyone could learn. Anyone could publish. Anyone could search.</p>
+
+      <p>But the internet still assumed one thing:</p>
+      <p>Humans would do the thinking.</p>
+
+      <p>Exactly. The internet answered questions.</p>
+      <p>It didn’t solve problems for us.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">From Access To Presence</h3>
+
+      <p>Then came the smartphone.</p>
+      <p>That didn’t change access—it changed <strong>presence</strong>.</p>
+
+      <p>Computing moved from desks to pockets.</p>
+      <p>The internet became continuous. Always on. Always watching. Always nudging.</p>
+
+      <p>Smartphones rewired habits—attention, social life, work-life boundaries. But again, the phone didn’t think.</p>
+      <p>It just followed instructions faster and closer to us.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">From Presence To Capability</h3>
+
+      <p>Now AI breaks that pattern.</p>
+
+      <p>Because AI doesn’t just give access or presence.</p>
+      <p>AI gives <strong>capability</strong>.</p>
+
+      <p>This is the first time a tool doesn’t just extend our hands—it extends our <strong>cognitive output</strong>.</p>
+
+      <p>Writing, coding, designing, analyzing—things that took years of training—are now partially automated.</p>
+
+      <p>Not replaced.</p>
+      <p>But amplified.</p>
+
+      <p>And that’s why AI feels uncomfortable.</p>
+      <p>The internet threatened gatekeepers.</p>
+      <p>Smartphones threatened attention.</p>
+      <p>AI threatens <strong>professional advantage</strong>.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Invisible Shift</h3>
+
+      <p>This is also why AI spreads differently.</p>
+      <p>No hardware revolution like phones.</p>
+      <p>No massive behavior change like social media.</p>
+
+      <p>It just slips into existing tools.</p>
+      <p>Editors. Browsers. Office software. Workflows.</p>
+
+      <p>That’s the dangerous part.</p>
+      <p>The most powerful changes don’t ask permission.</p>
+
+      <p>So will AI be “bigger” than the internet or smartphones?</p>
+
+      <p>Wrong question.</p>
+
+      <p>Yeah. The better question is:</p>
+      <p>Will AI become as invisible as they did?</p>
+
+      <p>And the answer is—yes. Eventually.</p>
+
+      <p>When a student assumes AI help by default.</p>
+      <p>When a developer treats AI as a baseline tool.</p>
+      <p>When businesses design workflows assuming intelligence is cheap—</p>
+
+      <p>—that’s when the shift is complete.</p>
+
+      <p>Not when headlines scream.</p>
+      <p>But when silence sets in.</p>
+
+      <p>So if the internet was about information,</p>
+      <p>and smartphones were about connectivity—</p>
+
+      <p>AI is about <strong>leverage</strong>.</p>
+
+      <p>Who gets it.</p>
+      <p>Who controls it.</p>
+      <p>And who gets left adjusting to a new normal.</p>
+
+      <p>And that’s where we are right now.</p>
+
+      <p>Not after the revolution.</p>
+
+      <p class="story-punchline">Right in the middle of it.</p>
     `
   },
   {
