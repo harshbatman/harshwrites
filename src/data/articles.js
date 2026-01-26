@@ -82,15 +82,15 @@ export const articles = [
 
       <p>Everything becomes sacred. Everything becomes offensive. Nothing can be questioned.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Most Dangerous Stage</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">And The Final Warning</h3>
 
-      <p>Did he think people would wake up?</p>
+      <p>Did he think this could be reversed?</p>
 
-      <p>He warned that after a point, even facts stop working. You can show proof, data, history—but if it hurts identity, it gets rejected.</p>
+      <p>That’s the most depressing part. He said once a society is fully demoralized, even if you show people proof, documents, facts—they won’t believe it.</p>
 
-      <p>Because belief becomes who we are.</p>
+      <p>Because belief becomes identity.</p>
 
-      <p>Exactly. And attacking belief feels like attacking existence.</p>
+      <p>Exactly. And attacking belief feels like a personal attack.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">So What’s The Escape?</h3>
 
