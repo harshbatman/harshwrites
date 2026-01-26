@@ -250,6 +250,65 @@ export const articles = [
       <p>And this time, the bottleneck isn’t imagination—</p>
       <p>—it’s infrastructure.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Search War & Browser War — Who Controls the Doorway</h3>
+
+      <p>Before AI, before social media dominance, there was another quiet battle most of us didn’t notice at the time—the search war and the browser war.</p>
+
+      <p>Yeah, now you might think—<em>browser matlab bas software hi toh hai</em>.</p>
+      <p>But browsers and search engines aren’t tools. They’re <strong>gatekeepers</strong>.</p>
+
+      <p>Whoever controls the browser controls the default path to the internet.</p>
+      <p>And whoever controls search controls what gets discovered and what stays invisible.</p>
+
+      <p>Back in the day, the browser war looked simple.</p>
+      <p><strong>Microsoft</strong> pushed Internet Explorer with Windows. It was everywhere because Windows was everywhere.</p>
+
+      <p>Distribution beat quality.</p>
+      <p>Most people didn’t choose a browser. It came pre-installed.</p>
+
+      <p>But then came <strong>Google</strong> with a different playbook.</p>
+      <p>They didn’t start with a browser. They started with search.</p>
+
+      <p>And that was genius.</p>
+      <p>Search wasn’t about control—it was about usefulness.</p>
+      <p>Type a question, get a clean answer. No clutter.</p>
+
+      <p>Once search became habit, Google launched <strong>Chrome</strong>.</p>
+      <p>Fast. Minimal. Tied directly to search and data.</p>
+
+      <p>That flipped the browser war.</p>
+      <p>The browser stopped being software—it became a <strong>data collection layer</strong>.</p>
+
+      <p>Every click, every query, every page load fed the search engine.</p>
+      <p>Better data → better search → more users → even more data.</p>
+
+      <p>A perfect loop.</p>
+      <p>This wasn’t about winning users once. It was about <strong>locking in behavior</strong>.</p>
+
+      <p>And this matters because AI didn’t arrive on neutral ground.</p>
+      <p>It arrived on top of search dominance and browser dominance.</p>
+
+      <p>Exactly.</p>
+      <p>Search trained us to ask questions.</p>
+      <p>AI now answers them directly.</p>
+
+      <p>Earlier, we clicked links.</p>
+      <p>Now we might not click anything at all.</p>
+
+      <p>That’s why <strong>search is under threat</strong> for the first time in decades.</p>
+      <p>If AI becomes the interface, traditional search results lose relevance.</p>
+
+      <p>Which means this isn’t just an AI race.</p>
+      <p>It’s a new search war—who becomes the <strong>default intelligence layer</strong>?</p>
+
+      <p>Browsers, operating systems, AI assistants—</p>
+      <p>They’re all fighting to be the first place we ask.</p>
+
+      <p>Because history shows one thing clearly:</p>
+      <p>Whoever owns the doorway doesn’t just shape traffic—</p>
+
+      <p>—they shape reality.</p>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">AI vs Internet vs Smartphone</h3>
 
       <p>So now let’s step back. We’ve talked about layers, infrastructure, chips, energy, data. But the real question is simple:</p>
