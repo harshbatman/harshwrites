@@ -70,11 +70,17 @@ export const articles = [
 
       <p>Because when propaganda feels familiar, we defend it emotionally, not rationally.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">You Know Who I’m Talking About</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Then You Divide Us</h3>
 
-      <p>So when politics mixes with language and religion…</p>
+      <p>And the next stage?</p>
 
-      <p>You know who I’m talking about. No party names needed. No flags needed. Just look at how quickly debates turn into fights. How easily we stop listening.</p>
+      <p>Destabilization. You don’t need to invent new problems. You take existing ones—politics, religion, language, identity—and amplify them.</p>
+
+      <p>You know who I’m talking about. No need to name anyone.</p>
+
+      <p>Yeah. Suddenly every issue becomes us vs them.</p>
+
+      <p>Exactly. Neighbours stop listening to each other. Families argue at dinner tables. Everyone is angry, but no one remembers why.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Religion, Language, Politics, and Permanent Outrage</h3>
 
