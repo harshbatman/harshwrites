@@ -1646,6 +1646,47 @@ export const articles = [
 
       <p>Or when facts depend on which WhatsApp group you’re in.</p>
 
+      <!-- The 4 Stages of Subversion Diagram -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Bezmenov’s 4 Stages of Subversion</h4>
+        
+        <div style="display: flex; flex-direction: column; gap: 1rem; max-width: 500px; margin: 0 auto;">
+          
+          <!-- Stage 1 -->
+          <div style="position: relative; padding-left: 20px;">
+             <div style="position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: #52525b; border-radius: 2px;"></div>
+             <div style="font-weight: 700; color: #18181b;">1. Demoralization (15-20 Years)</div>
+             <div style="font-size: 0.9rem; color: #52525b; margin-top: 4px;">Educating a generation to reject their own values. Slow, invisible, often unnoticed until it's too late.</div>
+          </div>
+
+          <!-- Stage 2 -->
+          <div style="position: relative; padding-left: 20px;">
+             <div style="position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: #ef4444; border-radius: 2px;"></div>
+             <div style="font-weight: 700; color: #18181b;">2. Destabilization (2-5 Years)</div>
+             <div style="font-size: 0.9rem; color: #52525b; margin-top: 4px;">Economy, foreign relations, and defense systems are targeted. Society becomes polarized.</div>
+          </div>
+
+          <!-- Stage 3 -->
+          <div style="position: relative; padding-left: 20px;">
+             <div style="position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: #f59e0b; border-radius: 2px;"></div>
+             <div style="font-weight: 700; color: #18181b;">3. Crisis (2-6 Months)</div>
+             <div style="font-size: 0.9rem; color: #52525b; margin-top: 4px;">A violent change in power structure. Chaos requires "strong intervention."</div>
+          </div>
+
+          <!-- Stage 4 -->
+          <div style="position: relative; padding-left: 20px;">
+             <div style="position: absolute; left: 0; top: 0; bottom: 0; width: 4px; background: #10b981; border-radius: 2px;"></div>
+             <div style="font-weight: 700; color: #18181b;">4. Normalization (Indefinite)</div>
+             <div style="font-size: 0.9rem; color: #52525b; margin-top: 4px;">The "new normal" is accepted. Dissent is crushed. The revolution is declared over.</div>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          It takes decades to build, but only months to break.
+        </p>
+      </div>
+
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Then You Divide Us</h3>
 
       <p>And the next stage?</p>
@@ -1665,6 +1706,47 @@ export const articles = [
       <p>…that’s exactly what he warned about. Not attacking religion and language itself, but using it as fuel. Same with ideology. Same with nationalism. Same with activism.</p>
 
       <p>Everything becomes sacred. Everything becomes offensive. Nothing can be questioned.</p>
+
+      <!-- The Cycle of Polarization Diagram -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Polarization Trap</h4>
+        
+        <div style="display: flex; align-items: center; justify-content: center; gap: 2rem; flex-wrap: wrap;">
+          
+          <!-- Unified Society -->
+          <div style="text-align: center;">
+             <div style="width: 100px; height: 100px; border-radius: 50%; background: #e4e4e7; margin: 0 auto 1rem; position: relative;">
+                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: #52525b; font-size: 0.8rem; font-weight: 600;">We are<br/>One</div>
+             </div>
+             <div style="font-size: 0.8rem; color: #71717a; font-weight: 500;">Healthy Debate</div>
+          </div>
+
+          <div style="color: #d4d4d8; font-size: 1.5rem;">➝</div>
+
+          <!-- Divided Society -->
+          <div style="text-align: center;">
+             <div style="display: flex; gap: 4px; justify-content: center; margin-bottom: 1rem; width: 100px; height: 100px; margin-left: auto; margin-right: auto; align-items: center;">
+                
+                <!-- Left Half -->
+                <div style="width: 48px; height: 100px; background: #ef4444; border-radius: 50px 0 0 50px; display: flex; align-items: center; justify-content: center;">
+                    <span style="color: white; font-size: 0.7rem; font-weight: 700;">US</span>
+                </div>
+
+                <!-- Right Half -->
+                <div style="width: 48px; height: 100px; background: #2563eb; border-radius: 0 50px 50px 0; display: flex; align-items: center; justify-content: center;">
+                    <span style="color: white; font-size: 0.7rem; font-weight: 700;">THEM</span>
+                </div>
+
+             </div>
+             <div style="font-size: 0.8rem; color: #71717a; font-weight: 500;">"Us vs. Them"</div>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          When belief becomes identity, conversation dies.
+        </p>
+      </div>
+
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">And The Final Warning</h3>
 
