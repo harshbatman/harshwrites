@@ -1,14 +1,15 @@
-{
-  id: "marie-curie-nobel",
+export const articles = [
+  {
+    id: "marie-curie-nobel",
     views: 1200,
-      publishDate: "2026-01-27",
-        title: "One Woman. Two Nobel Prizes. Two Sciences.",
-          author: "Harsh Mahto",
-            category: "History & Science",
-              date: "January 2026",
-                image: "/marie-curie-nobel.png",
-                  excerpt: "I was just scrolling YouTube last night—no plan, no purpose. One video ended, another started… you know how it goes. And suddenly, this old black-and-white photo pops up.",
-                    content: `
+    publishDate: "2026-01-27",
+    title: "One Woman. Two Nobel Prizes. Two Sciences.",
+    author: "Harsh Mahto",
+    category: "History & Science",
+    date: "January 2026",
+    image: "/marie-curie-nobel.png",
+    excerpt: "I was just scrolling YouTube last night—no plan, no purpose. One video ended, another started… you know how it goes. And suddenly, this old black-and-white photo pops up.",
+    content: `
       <p>I was just scrolling YouTube last night—no plan, no purpose. One video ended, another started… you know how it goes.</p>
 
       <p>Yeah, algorithm decides our life.</p>
@@ -46,17 +47,17 @@
       <p>And maybe that’s the real Nobel Prize.</p>
     `,
   },
-{
-  id: "transistors-to-ai",
+  {
+    id: "transistors-to-ai",
     views: 12500,
-      publishDate: "2026-01-28",
-        title: "From Transistors to AI",
-          author: "Harsh Mahto",
-            category: "Technology & History",
-              date: "January 2026",
-                image: "/transistors-to-ai.jpg",
-                  excerpt: "Let me tell you something. Our modern digital world didn’t arrive in one big bang. It crept in, layer by layer. And the funny part? Most of the people building it had no idea what they were actually setting in motion.",
-                    content: `
+    publishDate: "2026-01-28",
+    title: "From Transistors to AI",
+    author: "Harsh Mahto",
+    category: "Technology & History",
+    date: "January 2026",
+    image: "/transistors-to-ai.jpg",
+    excerpt: "Let me tell you something. Our modern digital world didn’t arrive in one big bang. It crept in, layer by layer. And the funny part? Most of the people building it had no idea what they were actually setting in motion.",
+    content: `
       <p>Let me tell you something. Our modern digital world didn’t arrive in one big bang. It crept in, layer by layer. And the funny part? Most of the people building it had no idea what they were actually setting in motion.</p>
 
       <p>Now you might think, that everything started with smartphones or social media. But if we’re being honest, the real starting point was far more boring and far more dangerous in impact: the <strong>transistor</strong>.</p>
@@ -712,18 +713,18 @@
 
       <p class="story-punchline">Right in the middle of it.</p>
     `
-},
-{
-  id: "yuri-bezmenov-modern-politics",
+  },
+  {
+    id: "yuri-bezmenov-modern-politics",
     views: 8900,
-      publishDate: "2026-01-26",
-        title: "A Simple Guide to Understanding Modern Politics",
-          author: "Harsh Mahto",
-            category: "Politics & Society",
-              date: "January 2026",
-                image: "/yuri-bezmenov.jpg",
-                  excerpt: "Last week, late night, phone in hand, doing what we all do—random YouTube scrolling. One video leads to another. And suddenly this old clip pops up.",
-                    content: `
+    publishDate: "2026-01-26",
+    title: "A Simple Guide to Understanding Modern Politics",
+    author: "Harsh Mahto",
+    category: "Politics & Society",
+    date: "January 2026",
+    image: "/yuri-bezmenov.jpg",
+    excerpt: "Last week, late night, phone in hand, doing what we all do—random YouTube scrolling. One video leads to another. And suddenly this old clip pops up.",
+    content: `
       <p>Last week, late night, phone in hand, doing what we all do—random YouTube scrolling. One video leads to another. And suddenly this old clip pops up.</p>
 
       <p>Let me guess—some Cold War guy?</p>
@@ -842,18 +843,18 @@
 
       <p class="story-punchline">He was calmly describing our present.</p>
     `
-},
-{
-  id: "netflix-zhukov-republic-day",
+  },
+  {
+    id: "netflix-zhukov-republic-day",
     views: 4500,
-      publishDate: "2026-01-25",
-        title: "I Didn’t Expect Netflix to Lead Me to Republic Day 1957",
-          author: "Harsh Mahto",
-            category: "History & Culture",
-              date: "January 2026",
-                image: "/zhukov-republic-day.jpg",
-                  excerpt: "Last week I was doing what we all do—Netflix and chill. Then I randomly hit play on The Death of Stalin. I watched it for the laughs, but honestly? One character hijacked my attention.",
-                    content: `
+    publishDate: "2026-01-25",
+    title: "I Didn’t Expect Netflix to Lead Me to Republic Day 1957",
+    author: "Harsh Mahto",
+    category: "History & Culture",
+    date: "January 2026",
+    image: "/zhukov-republic-day.jpg",
+    excerpt: "Last week I was doing what we all do—Netflix and chill. Then I randomly hit play on The Death of Stalin. I watched it for the laughs, but honestly? One character hijacked my attention.",
+    content: `
       <p>Last week I was doing what we all do—Netflix and chill, nothing serious. Then I randomly hit play on The Death of Stalin. I watched it for the laughs, but honestly? One character hijacked my attention.</p>
 
       <p>Let me guess. Marshal Zhukov?</p>
@@ -909,19 +910,19 @@
 
       <p>That’s what hit me the hardest. We study history in fragments—dates, wars, names—but sometimes a random Netflix night connects the dots better than textbooks ever did.</p>
     `
-},
+  },
 
-{
-  id: "globalisation-tech-power",
+  {
+    id: "globalisation-tech-power",
     views: 15000,
-      publishDate: "2023-10-01",
-        title: "They Designed It. China Copied It. We Bought It.",
-          author: "Harsh Mahto",
-            category: "Technology & Geopolitics",
-              date: "October 2023",
-                image: "/uploaded_image_1769301997332.png",
-                  excerpt: "Every American president here believed globalisation would automatically keep America on top. But instead, it taught China how to beat them at their own game.",
-                    content: `
+    publishDate: "2023-10-01",
+    title: "They Designed It. China Copied It. We Bought It.",
+    author: "Harsh Mahto",
+    category: "Technology & Geopolitics",
+    date: "October 2023",
+    image: "/uploaded_image_1769301997332.png",
+    excerpt: "Every American president here believed globalisation would automatically keep America on top. But instead, it taught China how to beat them at their own game.",
+    content: `
       <p>Every American president here believed globalisation would automatically keep America on top.</p>
 
       <p>But instead, it taught China how to beat them at their own game.</p>
@@ -1272,18 +1273,18 @@
       <p class="story-punchline">America taught the world how to globalise. China learned how to dominate it. And the world — including us — buys from the one who delivers.</p>
     `
 
-},
-{
-  id: "manufacturing-vs-services",
+  },
+  {
+    id: "manufacturing-vs-services",
     views: 6700,
-      publishDate: "2026-01-20",
-        title: "Manufacturing or Services? The Great Indian Debate",
-          author: "Harsh Mahto",
-            category: "Economics & Policy",
-              date: "January 2026",
-                image: "/rajan-services-vs-manufacturing.jpg",
-                  excerpt: "Every time someone talks about growth, it’s always the same story: 'Let’s build factories.' But Raghuram Rajan asks us to take a hard look at what we’re doing.",
-                    content: `
+    publishDate: "2026-01-20",
+    title: "Manufacturing or Services? The Great Indian Debate",
+    author: "Harsh Mahto",
+    category: "Economics & Policy",
+    date: "January 2026",
+    image: "/rajan-services-vs-manufacturing.jpg",
+    excerpt: "Every time someone talks about growth, it’s always the same story: 'Let’s build factories.' But Raghuram Rajan asks us to take a hard look at what we’re doing.",
+    content: `
       <p>Every time someone talks about growth, it’s always the same story: “Let’s build factories. Let’s make things. Let’s attract big companies.”</p>
 
       <p>Now you will say, "Yeah, Make in India, PLI, incentives — you name it. And now Apple’s iPhone production sites and Foxconn get talked about like they’re the holy grail of jobs and development."</p>
@@ -1512,18 +1513,18 @@
 
       <p class="story-punchline">That’s the uncomfortable but important conversation Rajan is pushing us toward — and it’s one we need to have honestly.</p>
     `
-},
-{
-  id: "how-facebook-took-over-the-world",
+  },
+  {
+    id: "how-facebook-took-over-the-world",
     views: 9200,
-      publishDate: "2026-02-01",
-        title: "How Facebook Took Over the World",
-          author: "Harsh Mahto",
-            category: "Technology & Culture",
-              date: "February 2026",
-                image: "/facebook-world.jpg",
-                  excerpt: "You know what’s funny? Everyone today talks like Facebook was always meant to rule the internet. But it wasn't even the first social media platform.",
-                    content: `
+    publishDate: "2026-02-01",
+    title: "How Facebook Took Over the World",
+    author: "Harsh Mahto",
+    category: "Technology & Culture",
+    date: "February 2026",
+    image: "/facebook-world.jpg",
+    excerpt: "You know what’s funny? Everyone today talks like Facebook was always meant to rule the internet. But it wasn't even the first social media platform.",
+    content: `
       <p>You know what’s funny? Everyone today talks like Facebook was always meant to rule the internet.</p>
 
       <p>Now you might say, "Yeah, as if it fell from the sky fully formed. But the truth is — Facebook wasn’t even the first social media platform."</p>
@@ -1941,18 +1942,18 @@
 
       <p class="story-punchline">It was learning how to keep us looking — and never letting us leave.</p>
     `
-},
-{
-  id: "how-android-took-over-the-world",
+  },
+  {
+    id: "how-android-took-over-the-world",
     views: 8100,
-      publishDate: "2026-03-01",
-        title: "How Android Took Over the World",
-          author: "Harsh Mahto",
-            category: "Technology & Business",
-              date: "March 2026",
-                image: "/android-vs-ios.jpg",
-                  excerpt: "Have you ever thought about this—how the hell did Android end up everywhere? From a ₹10,000 phone in our hands to a flagship Samsung in the US.",
-                    content: `
+    publishDate: "2026-03-01",
+    title: "How Android Took Over the World",
+    author: "Harsh Mahto",
+    category: "Technology & Business",
+    date: "March 2026",
+    image: "/android-vs-ios.jpg",
+    excerpt: "Have you ever thought about this—how the hell did Android end up everywhere? From a ₹10,000 phone in our hands to a flagship Samsung in the US.",
+    content: `
       <p>Have you ever thought about this—how the hell did Android end up everywhere? From a ₹10,000 phone in our hands to a flagship Samsung in the US.</p>
 
       <p>That’s the crazy part. Android didn’t just win. It flooded the planet. And the real twist? It wasn’t built to sell phones. It was built to protect something else.</p>
@@ -2158,18 +2159,18 @@
       <p>And Apple?</p>
       <p class="story-punchline">Apple monetized loyalty better than anyone in history.</p>
     `
-},
-{
-  id: "semiconductor-story-india",
+  },
+  {
+    id: "semiconductor-story-india",
     views: 5400,
-      publishDate: "2026-04-01",
-        title: "A Nation That Codes, But Doesn’t Fabricate",
-          author: "Harsh Mahto",
-            category: "Technology & Manufacturing",
-              date: "April 2026",
-                image: "/semiconductor-india-chip.jpg",
-                  excerpt: "Everywhere I look these days—phones, cars, even washing machines—everything runs on chips. And yet, when it comes to making them ourselves, it feels like we missed the bus.",
-                    content: `
+    publishDate: "2026-04-01",
+    title: "A Nation That Codes, But Doesn’t Fabricate",
+    author: "Harsh Mahto",
+    category: "Technology & Manufacturing",
+    date: "April 2026",
+    image: "/semiconductor-india-chip.jpg",
+    excerpt: "Everywhere I look these days—phones, cars, even washing machines—everything runs on chips. And yet, when it comes to making them ourselves, it feels like we missed the bus.",
+    content: `
       <p>You know, everywhere I look these days—phones, cars, even washing machines—everything runs on chips. And yet, when it comes to making them ourselves, it feels like we missed the bus. Why did this happen to us?</p>
 
       <p>Yeah, that question hurts a little, doesn’t it? Let me tell you something—this didn’t happen overnight. Our semiconductor situation is the result of decades of small decisions, delays, and honestly… hesitation.</p>
@@ -2236,18 +2237,18 @@
 
       <p class="story-punchline">That’s on all of us. Governments, industry, and society. Because this time, if we walk away again, the cost won’t just be economic—it’ll be strategic.</p>
     `
-},
-{
-  id: "two-women-two-nations-one-frame",
+  },
+  {
+    id: "two-women-two-nations-one-frame",
     views: 3200,
-      publishDate: "2026-01-15",
-        title: "Two Women, Two Nations, One Frame",
-          author: "Harsh Mahto",
-            category: "History & Leadership",
-              date: "January 2026",
-                image: "/indira-thatcher.jpg",
-                  excerpt: "I was randomly scrolling the internet the other day — nothing specific, just the usual wandering we all do — when I suddenly stopped. Not because something was loud or sensational, but because something felt quietly important.",
-                    content: `
+    publishDate: "2026-01-15",
+    title: "Two Women, Two Nations, One Frame",
+    author: "Harsh Mahto",
+    category: "History & Leadership",
+    date: "January 2026",
+    image: "/indira-thatcher.jpg",
+    excerpt: "I was randomly scrolling the internet the other day — nothing specific, just the usual wandering we all do — when I suddenly stopped. Not because something was loud or sensational, but because something felt quietly important.",
+    content: `
       <p>I was randomly scrolling the internet the other day — nothing specific, just the usual wandering we all do — when I suddenly stopped. Not because something was loud or sensational, but because something felt quietly important. It was this photograph.</p>
 
 
@@ -2358,18 +2359,18 @@
 
       <p class="story-punchline">This photograph does not shout. It endures. And sometimes, that is the most powerful kind of history.</p>
     `
-},
-{
-  id: "our-nuclear-journey-science-sanctions-self-respect",
+  },
+  {
+    id: "our-nuclear-journey-science-sanctions-self-respect",
     views: 7800,
-      publishDate: "2026-01-24",
-        title: "Our Nuclear Journey: Science, Sanctions, and Self-Respect",
-          author: "Harsh Mahto",
-            category: "Science & Geopolitics",
-              date: "January 2026",
-                image: "/india-nuclear-journey.jpg",
-                  excerpt: "You know what? I was thinking the other day—when we talk about our energy future, solar comes up, wind comes up… but nuclear? We whisper about it. Almost like it’s a secret we’re not sure we should own.",
-                    content: `
+    publishDate: "2026-01-24",
+    title: "Our Nuclear Journey: Science, Sanctions, and Self-Respect",
+    author: "Harsh Mahto",
+    category: "Science & Geopolitics",
+    date: "January 2026",
+    image: "/india-nuclear-journey.jpg",
+    excerpt: "You know what? I was thinking the other day—when we talk about our energy future, solar comes up, wind comes up… but nuclear? We whisper about it. Almost like it’s a secret we’re not sure we should own.",
+    content: `
       <p>You know what? I was thinking the other day—when we talk about our energy future, solar comes up, wind comes up… but nuclear? We whisper about it. Almost like it’s a secret we’re not sure we should own.</p>
 
       <p>Yeah, I feel that too. And it’s strange, right? Because nuclear isn’t new for us. It’s not something we borrowed yesterday. It’s something we started building when we were barely standing on our feet as a country.</p>
@@ -2471,18 +2472,18 @@
 
       <p class="story-punchline">It sounds… very us.</p>
     `
-},
-{
-  id: "story-behind-jai-jawan-jai-kisan",
+  },
+  {
+    id: "story-behind-jai-jawan-jai-kisan",
     views: 4100,
-      publishDate: "2026-01-10",
-        title: "The Story Behind Jai Jawan, Jai Kisan",
-          author: "Harsh Mahto",
-            category: "History & Policy",
-              date: "January 2026",
-                image: "/jai-jawan-jai-kisan.jpg",
-                  excerpt: "When I was in school, I used to shout slogans without thinking twice. Jai Jawan, Jai Kisan echoed during morning assemblies, Independence Day functions, and rallies. I raised my voice with everyone else—confident, patriotic—yet I never truly understood what those words meant.",
-                    content: `
+    publishDate: "2026-01-10",
+    title: "The Story Behind Jai Jawan, Jai Kisan",
+    author: "Harsh Mahto",
+    category: "History & Policy",
+    date: "January 2026",
+    image: "/jai-jawan-jai-kisan.jpg",
+    excerpt: "When I was in school, I used to shout slogans without thinking twice. Jai Jawan, Jai Kisan echoed during morning assemblies, Independence Day functions, and rallies. I raised my voice with everyone else—confident, patriotic—yet I never truly understood what those words meant.",
+    content: `
       <p>When I was in school, I used to shout slogans without thinking twice. Jai Jawan, Jai Kisan echoed through morning assemblies, Independence Day functions, and rallies. I raised my voice with everyone else—confident, patriotic—yet I never truly understood what those words meant.</p>
 
       <p>Back then, it felt like just another line we were expected to memorise. I repeated it and moved on, unaware that this slogan wasn’t created for classrooms or ceremonies. It was born in a time of war, shortage, and uncertainty—when the nation was struggling to protect its borders and feed its people at the same time.</p>
@@ -2541,18 +2542,18 @@
 
       <p class="story-punchline">It belongs to us.</p>
     `
-},
-{
-  id: "data-structures-and-algorithms",
+  },
+  {
+    id: "data-structures-and-algorithms",
     views: 2500,
-      publishDate: "2026-01-05",
-        title: "Data Structures and Algorithms",
-          author: "Harsh Mahto",
-            category: "Software Engineering",
-              date: "January 2026",
-                image: "/uploaded_image_1769388074067.jpg",
-                  excerpt: "Recently, I put a pause on web development and started focusing on Data Structures and Algorithms. Web development was moving fast, but something felt incomplete.",
-                    content: `
+    publishDate: "2026-01-05",
+    title: "Data Structures and Algorithms",
+    author: "Harsh Mahto",
+    category: "Software Engineering",
+    date: "January 2026",
+    image: "/uploaded_image_1769388074067.jpg",
+    excerpt: "Recently, I put a pause on web development and started focusing on Data Structures and Algorithms. Web development was moving fast, but something felt incomplete.",
+    content: `
       <p>Recently, I put a pause on web development and started focusing on Data Structures and Algorithms.</p>
 
       <p>Web development was moving fast. Things were building. Projects were shipping.</p>
@@ -2669,5 +2670,5 @@
 
       <p class="story-punchline">That’s what learning Data Structures and Algorithms means to me right now.</p>
     `
-}
+  }
 ];
