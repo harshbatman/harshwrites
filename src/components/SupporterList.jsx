@@ -25,6 +25,9 @@ const rawSupporters = [
     { name: "Neha", amount: 1000 },
     { name: "Manjeet singh", amount: 2000 },
     { name: "Sneha Srinivas", amount: 1000 },
+    { name: "Subhas", amount: 500 },
+    { name: "Ritik Singh", amount: 500 },
+    { name: "Himanshu", amount: 500 },
 ];
 
 const calculateStars = (amount) => {
