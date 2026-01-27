@@ -6,7 +6,7 @@ const rawSupporters = [
     { name: "Prakash Singh", amount: 1000 },
     { name: "Priyanka Bhattacharya", amount: 1000 },
     { name: "Vijay Srivastav", amount: 1000 },
-    { name: "Kabir", amount: 1000 },
+    { name: "Viraj", amount: 1000 },
     { name: "Noor Khan", amount: 500 },
     { name: "Poonam", amount: 100 },
     { name: "Aesha", amount: 2000 },
@@ -57,7 +57,7 @@ const SupporterList = () => {
             "Priyanka Bhattacharya": 102, // Girl
             "Vijay Srivastav": 103,       // Boy
             "Kusum": 104,                 // Girl
-            "Kabir": 105,                 // Boy
+            "Viraj": 105,                 // Boy
             "Bhavya": 106,                // Girl
             "Vijay Prasad": 107,          // Boy
             "Neha": 108,                  // Girl
