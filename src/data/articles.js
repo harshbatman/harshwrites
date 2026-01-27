@@ -210,6 +210,43 @@ export const articles = [
 
       <p>Exactly. And that’s deadly. Because prolonged wars bleed money, manpower, and defence equipment.</p>
 
+      <!-- Blitzkrieg vs Grindkrieg Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Speed vs. Duration</h4>
+        
+        <div style="display: flex; gap: 2rem; align-items: center; justify-content: center; max-width: 600px; margin: 0 auto;">
+          
+          <!-- Blitzkrieg -->
+          <div style="flex: 1; text-align: center;">
+            <div style="height: 150px; display: flex; align-items: flex-end; justify-content: center; margin-bottom: 1rem;">
+               <div style="width: 60px; height: 30px; background: #10b981; border-radius: 4px; position: relative;">
+                 <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); font-weight: 700; color: #10b981;">Weeks</div>
+               </div>
+            </div>
+            <div style="font-weight: 600; color: #18181b;">Blitzkrieg</div>
+            <div style="font-size: 0.8rem; color: #71717a;">High Intensity, Short Time</div>
+          </div>
+
+          <!-- Divider -->
+          <div style="height: 100px; width: 2px; background: #e5e7eb;"></div>
+
+          <!-- Grindkrieg -->
+           <div style="flex: 1; text-align: center;">
+            <div style="height: 150px; display: flex; align-items: flex-end; justify-content: center; margin-bottom: 1rem;">
+               <div style="width: 60px; height: 140px; background: #ef4444; border-radius: 4px; position: relative;">
+                 <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); font-weight: 700; color: #ef4444;">Years</div>
+               </div>
+            </div>
+            <div style="font-weight: 600; color: #18181b;">Grindkrieg</div>
+            <div style="font-size: 0.8rem; color: #71717a;">Attrition, Endless Drain</div>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          History favors the fast.
+        </p>
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Putin had history books. Did he read them fully?</h3>
 
       <p>So what lesson should Vladimir Putin have taken?</p>
@@ -232,6 +269,32 @@ export const articles = [
       <p>Meanwhile, equipment gets destroyed. Soldiers get exhausted.</p>
 
       <p>And every extra month costs billions. Tanks don’t regenerate. Trained soldiers aren’t replaceable overnight.</p>
+
+      <!-- Cost of War Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; text-align: center;">The Cost of Stagnation</h4>
+        
+        <div style="position: relative; height: 200px; border-left: 2px solid #52525b; border-bottom: 2px solid #52525b; max-width: 500px; margin: 0 auto;">
+           <!-- Area Graph Shape -->
+           <svg style="position: absolute; bottom: 0; left: 0; width: 100%; height: 100%;" viewBox="0 0 100 100" preserveAspectRatio="none">
+             <path d="M0,100 Q30,90 50,50 T100,0 V100 H0 Z" fill="rgba(239, 68, 68, 0.2)" />
+             <path d="M0,100 Q30,90 50,50 T100,0" fill="none" stroke="#ef4444" stroke-width="2" />
+           </svg>
+
+           <div style="position: absolute; bottom: 10px; right: 10px; font-weight: 700; color: #ef4444;">Bankruptcy / Collapse</div>
+           <div style="position: absolute; bottom: 10px; left: 10px; font-weight: 700; color: #10b981;">Initial Budget</div>
+        </div>
+        
+        <div style="display: flex; justify-content: space-between; max-width: 500px; margin: 10px auto 0; font-size: 0.8rem; color: #52525b;">
+          <span>Day 1</span>
+          <span>Day 100</span>
+          <span>Day 1000+</span>
+        </div>
+
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          Calls for time cost money.
+        </p>
+      </div>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">So what’s the brutal truth?</h3>
 
