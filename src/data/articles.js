@@ -2997,6 +2997,42 @@ export const articles = [
 
       <p>Bingo.</p>
 
+      <!-- The Two Philosophies Diagram -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Two Philosophies</h4>
+        
+        <div style="display: flex; gap: 2rem; justify-content: center; flex-wrap: wrap;">
+          
+          <!-- Android Model -->
+          <div style="flex: 1; min-width: 250px; background: white; padding: 1.5rem; border-radius: 8px; border: 1px solid #e5e7eb; position: relative;">
+            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 4px; background: #86efac; border-radius: 8px 8px 0 0;"></div>
+            <h5 style="text-align: center; color: #18181b; font-weight: 700; margin-bottom: 1rem;">Google (Android)</h5>
+            <div style="font-size: 0.9rem; color: #52525b; line-height: 1.6;">
+              <div style="display: flex; justify-content: space-between; margin-bottom: 8px;"><span>OS Cost:</span> <span style="font-weight: 600; color: #16a34a;">Free</span></div>
+              <div style="display: flex; justify-content: space-between; margin-bottom: 8px;"><span>Hardware:</span> <span style="font-weight: 600;">Any OEM</span></div>
+              <div style="display: flex; justify-content: space-between; margin-bottom: 8px;"><span>Goal:</span> <span style="font-weight: 600;">Max Views</span></div>
+              <div style="margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed #e5e7eb; text-align: center; font-weight: 700; color: #16a34a;">Revenue = Ads</div>
+            </div>
+          </div>
+
+          <!-- Apple Model -->
+          <div style="flex: 1; min-width: 250px; background: white; padding: 1.5rem; border-radius: 8px; border: 1px solid #e5e7eb; position: relative;">
+            <div style="position: absolute; top: 0; left: 0; width: 100%; height: 4px; background: #0e7490; border-radius: 8px 8px 0 0;"></div>
+            <h5 style="text-align: center; color: #18181b; font-weight: 700; margin-bottom: 1rem;">Apple (iOS)</h5>
+             <div style="font-size: 0.9rem; color: #52525b; line-height: 1.6;">
+              <div style="display: flex; justify-content: space-between; margin-bottom: 8px;"><span>OS Cost:</span> <span style="font-weight: 600; color: #ef4444;">Exclusive</span></div>
+              <div style="display: flex; justify-content: space-between; margin-bottom: 8px;"><span>Hardware:</span> <span style="font-weight: 600;">Only Apple</span></div>
+              <div style="display: flex; justify-content: space-between; margin-bottom: 8px;"><span>Goal:</span> <span style="font-weight: 600;">Max Margin</span></div>
+              <div style="margin-top: 1rem; padding-top: 1rem; border-top: 1px dashed #e5e7eb; text-align: center; font-weight: 700; color: #0e7490;">Revenue = Hardware</div>
+            </div>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          One wanted the ocean. The other wanted the island.
+        </p>
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Numbers That Changed Everything</h3>
 
       <p>Okay, give me scale. How big is this difference really?</p>
@@ -3141,6 +3177,47 @@ export const articles = [
       </ul>
 
       <p>Android built reach. Apple built rent.</p>
+
+      <!-- The Paradox of Power Diagram -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Paradox of Power</h4>
+        
+        <div style="display: flex; gap: 2rem; justify-content: center; align-items: flex-end; height: 200px; max-width: 500px; margin: 0 auto;">
+          
+          <!-- Users -->
+          <div style="flex: 1; text-align: center;">
+             <div style="display: flex; align-items: flex-end; justify-content: center; gap: 4px; height: 150px; margin-bottom: 1rem;">
+                <div style="width: 40px; height: 72%; background: #86efac; border-radius: 4px 4px 0 0; position: relative;" title="Android Users">
+                   <div style="position: absolute; top: -20px; left: 50%; transform: translateX(-50%); font-size: 0.7rem; font-weight: 700; color: #16a34a;">72%</div>
+                </div>
+                <div style="width: 40px; height: 27%; background: #0e7490; border-radius: 4px 4px 0 0; position: relative;" title="iOS Users">
+                   <div style="position: absolute; top: -20px; left: 50%; transform: translateX(-50%); font-size: 0.7rem; font-weight: 700; color: #0e7490;">27%</div>
+                </div>
+             </div>
+             <div style="font-weight: 600; color: #52525b;">Global Users</div>
+          </div>
+
+          <!-- Divider -->
+          <div style="width: 1px; height: 150px; background: #e5e7eb;"></div>
+
+          <!-- Profits -->
+          <div style="flex: 1; text-align: center;">
+             <div style="display: flex; align-items: flex-end; justify-content: center; gap: 4px; height: 150px; margin-bottom: 1rem;">
+                 <div style="width: 40px; height: 15%; background: #86efac; border-radius: 4px 4px 0 0; position: relative;" title="Android Profits">
+                    <div style="position: absolute; top: -20px; left: 50%; transform: translateX(-50%); font-size: 0.7rem; font-weight: 700; color: #16a34a;">15%</div>
+                 </div>
+                <div style="width: 40px; height: 85%; background: #0e7490; border-radius: 4px 4px 0 0; position: relative;" title="iOS Profits">
+                   <div style="position: absolute; top: -20px; left: 50%; transform: translateX(-50%); font-size: 0.7rem; font-weight: 700; color: #0e7490;">85%</div>
+                </div>
+             </div>
+             <div style="font-weight: 600; color: #52525b;">Global Profits</div>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          Android wins the crowd. Apple wins the bank.
+        </p>
+      </div>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Real Lesson</h3>
 
