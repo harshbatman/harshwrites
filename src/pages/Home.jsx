@@ -23,6 +23,8 @@ function Home() {
             } else if (filter === 'oldest') {
                 return new Date(a.publishDate) - new Date(b.publishDate);
             } else if (filter === 'most-read') {
+                if (a.id === 'transistors-to-ai') return -1;
+                if (b.id === 'transistors-to-ai') return 1;
                 return b.views - a.views;
             }
             return 0;
