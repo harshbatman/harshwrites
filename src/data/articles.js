@@ -3388,6 +3388,51 @@ export const articles = [
 
       <p class="story-punchline">Think about that foresight. No PowerPoint. No consultants. Just belief.</p>
 
+      <!-- Three-Stage Program Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Bhabha’s Three-Stage Vision</h4>
+        
+        <div style="display: flex; flex-direction: column; gap: 1rem; max-width: 500px; margin: 0 auto;">
+          
+          <!-- Stage 1 -->
+          <div style="display: flex; gap: 1rem; align-items: center;">
+             <div style="width: 40px; height: 40px; background: #52525b; border-radius: 50%; color: white; display: flex; align-items: center; justify-content: center; font-weight: 700;">1</div>
+             <div style="flex: 1; padding: 1rem; border: 1px solid #e5e7eb; border-radius: 8px; background: white;">
+                <div style="font-weight: 600; color: #18181b;">Pressurized Heavy Water Reactors</div>
+                <div style="font-size: 0.85rem; color: #52525b; margin-top: 4px;">Fuel: Natural Uranium</div>
+             </div>
+          </div>
+
+          <!-- Arrow -->
+          <div style="text-align: center; color: #d4d4d8;">↓</div>
+
+          <!-- Stage 2 -->
+          <div style="display: flex; gap: 1rem; align-items: center;">
+             <div style="width: 40px; height: 40px; background: #db2777; border-radius: 50%; color: white; display: flex; align-items: center; justify-content: center; font-weight: 700;">2</div>
+             <div style="flex: 1; padding: 1rem; border: 1px solid #e5e7eb; border-radius: 8px; background: white;">
+                <div style="font-weight: 600; color: #18181b;">Fast Breeder Reactors</div>
+                <div style="font-size: 0.85rem; color: #52525b; margin-top: 4px;">Fuel: Plutonium (Self-Sustaining)</div>
+             </div>
+          </div>
+
+          <!-- Arrow -->
+           <div style="text-align: center; color: #d4d4d8;">↓</div>
+
+          <!-- Stage 3 -->
+          <div style="display: flex; gap: 1rem; align-items: center;">
+             <div style="width: 40px; height: 40px; background: #10b981; border-radius: 50%; color: white; display: flex; align-items: center; justify-content: center; font-weight: 700;">3</div>
+             <div style="flex: 1; padding: 1rem; border: 1px solid #e5e7eb; border-radius: 8px; background: white;">
+                <div style="font-weight: 600; color: #18181b;">Thorium Based Reactors</div>
+                <div style="font-size: 0.85rem; color: #52525b; margin-top: 4px;">Fuel: Thorium (Our real abundance)</div>
+             </div>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          A roadmap designed for independence, not imports.
+        </p>
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">From Power to Security: When Peace Wasn’t Enough</h3>
 
       <p>But nuclear for us was never only about electricity, was it?</p>
@@ -3431,6 +3476,50 @@ export const articles = [
         <li>Uttar Pradesh (Narora)</li>
         <li>Karnataka (Kaiga)</li>
       </ul>
+
+      <!-- Nuclear Capacity Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Nuclear Power Capacity (MW)</h4>
+        
+        <div style="display: flex; align-items: flex-end; justify-content: space-between; height: 200px; padding-bottom: 0.5rem; border-bottom: 2px solid #e5e7eb; padding-right: 1rem; padding-left: 1rem;">
+          
+          <!-- Bar 1970 -->
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+            <div style="width: 20px; height: 5%; background: #a1a1aa; border-radius: 4px 4px 0 0;"></div>
+            <span style="font-size: 0.75rem; color: #52525b; margin-top: 8px;">1970</span>
+          </div>
+
+          <!-- Bar 1990 -->
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+            <div style="width: 20px; height: 20%; background: #a1a1aa; border-radius: 4px 4px 0 0;"></div>
+            <span style="font-size: 0.75rem; color: #52525b; margin-top: 8px;">1990</span>
+          </div>
+
+          <!-- Bar 2010 -->
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+            <div style="width: 20px; height: 50%; background: #18181b; border-radius: 4px 4px 0 0;"></div>
+            <span style="font-size: 0.75rem; color: #52525b; margin-top: 8px;">2010</span>
+          </div>
+
+           <!-- Bar 2024 -->
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+            <div style="width: 20px; height: 80%; background: #18181b; border-radius: 4px 4px 0 0; position: relative;">
+               <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); font-weight: 700; font-size: 0.7rem; color: #18181b; white-space: nowrap;">7,480 MW</div>
+            </div>
+            <span style="font-size: 0.75rem; color: #18181b; font-weight: 600; margin-top: 8px;">2024</span>
+          </div>
+          
+           <!-- Future Target -->
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+            <div style="width: 20px; height: 95%; background: #10b981; opacity: 0.3; border-radius: 4px 4px 0 0; border: 1px dashed #10b981;"></div>
+            <span style="font-size: 0.75rem; color: #10b981; margin-top: 8px;">2032 (Target)</span>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          Slow start, steady rise.
+        </p>
+      </div>
 
       <p>And no, they don’t power the whole country. True. Nuclear contributes a small percentage of our total electricity—but it’s clean, stable, and long-term. No sun dependency. No wind uncertainty.</p>
 
