@@ -2293,7 +2293,7 @@ export const articles = [
   },
   {
     id: "manufacturing-vs-services",
-    views: 6700,
+    views: 6850,
     publishDate: "2026-01-20",
     title: "Manufacturing or Services? The Great Indian Debate",
     author: "Harsh Mahto",
@@ -2303,44 +2303,146 @@ export const articles = [
     excerpt: "Every time someone talks about growth, it’s always the same story: 'Let’s build factories.' But Raghuram Rajan asks us to take a hard look at what we’re doing.",
     content: `
       <p>Every time someone talks about growth, it’s always the same story: “Let’s build factories. Let’s make things. Let’s attract big companies.”</p>
+      
+      <p>Now you will say, “Yeah, Make in India, PLI, incentives—you name it. And now Apple’s iPhone production sites and Foxconn get talked about like they’re the holy grail of jobs and development.”</p>
 
-      <p>Now you will say, "Yeah, Make in India, PLI, incentives — you name it. And now Apple’s iPhone production sites and Foxconn get talked about like they’re the holy grail of jobs and development."</p>
+      <p>Exactly. But then Raghuram Rajan asks us to take a hard look at what we’re doing.</p>
 
-      <p>Exactly. But then Raghuram Rajan asks us to take a hard look at what we’re doing. In his interview with The Wire, he argues that we should value services just as much as manufacturing — and invest accordingly — because that’s where our people and our future might actually lie.</p>
+      <p>What’s his argument?</p>
+      
+      <p>In his interview with The Wire, he argues that we should value services just as much as manufacturing—and invest accordingly—because that’s where our people and our future might actually lie.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">But What About Apple and Foxconn? Big Money Flows Here…</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">But What About Apple and Foxconn?</h3>
 
-      <p>Now you might think, "Okay, but surely bringing Apple to make iPhones here is great! Doesn’t that create wealth?"</p>
+      <p>Now you might think, “Okay, but surely bringing Apple to make iPhones here is great! Doesn’t that create wealth?”</p>
 
-      <p>It does some — but let’s unpack it. The Indian government — both Centre and states — has been offering huge incentives and subsidies to attract companies like Apple’s supplier Foxconn as part of schemes like the PLI (Production Linked Incentive) and state ESDM policies.</p>
+      <p>It does some—but let’s unpack it.</p>
+      
+      <p>The Indian government—both Centre and states—has been offering huge incentives and subsidies to attract companies like Apple’s supplier Foxconn as part of schemes like the PLI (Production Linked Incentive).</p>
 
-      <p>For example:</p>
-      <ul>
-      <li>Under Karnataka’s Electronics System Design and Manufacturing incentives, Foxconn is set to get about ₹6,970 crore in subsidies as part of support for its iPhone-related manufacturing plant.</li>
-      <li>Across India, the government pledged around ₹41,000 crore (about $4.8 billion) in manufacturing subsidies under the PLI program — some of which is earmarked for Foxconn and others.</li>
-      <li>In recent years, Foxconn reportedly received roughly ₹2,450 crore (≈ $295 million) in direct subsidies from the central incentive scheme alone.</li>
-      <li>And Foxconn has poured about $1.5 billion (~₹12,500 crore) into its Indian capacity expansion.</li>
-      </ul>
+      <p>How huge?</p>
+      
+      <p>Let’s look at the numbers.</p>
 
-      <p class="story-punchline">So we’re talking about subsidy flows in the thousands of crores — numbers big enough to make anyone blink.</p>
+      <!-- Subsidy Allocation Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Incentive Flow</h4>
+        
+        <div style="display: flex; flex-direction: column; gap: 1.5rem; max-width: 600px; margin: 0 auto;">
+          
+          <!-- Total Incentive -->
+          <div>
+             <div style="display: flex; justify-content: space-between; font-size: 0.9rem; font-weight: 600; color: #52525b; margin-bottom: 0.5rem;">
+                <span>Total PLI Pledged</span>
+                <span>₹41,000 Cr ($4.8B)</span>
+             </div>
+             <div style="width: 100%; height: 24px; background: #e4e4e7; border-radius: 4px; overflow: hidden;">
+                <div style="width: 100%; height: 100%; background: #18181b;"></div>
+             </div>
+          </div>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Great Numbers — But What Do We Get in Return?</h3>
+          <!-- Foxconn Karnataka -->
+           <div>
+             <div style="display: flex; justify-content: space-between; font-size: 0.9rem; font-weight: 600; color: #52525b; margin-bottom: 0.5rem;">
+                <span>Foxconn (Karnataka Incentive)</span>
+                <span>₹6,970 Cr</span>
+             </div>
+             <div style="width: 100%; height: 24px; background: #e4e4e7; border-radius: 4px; overflow: hidden;">
+                <div style="width: 17%; height: 100%; background: #f97316;"></div>
+             </div>
+          </div>
+          
+           <!-- Foxconn Direct -->
+           <div>
+             <div style="display: flex; justify-content: space-between; font-size: 0.9rem; font-weight: 600; color: #52525b; margin-bottom: 0.5rem;">
+                <span>Foxconn (Direct Central Subsidy)</span>
+                <span>₹2,450 Cr</span>
+             </div>
+             <div style="width: 100%; height: 24px; background: #e4e4e7; border-radius: 4px; overflow: hidden;">
+                <div style="width: 6%; height: 100%; background: #1e40af;"></div>
+             </div>
+          </div>
 
-      <p>Now you will say, "I mean, export numbers are huge too, right? Apple iPhones made here have crossed $50 billion in exports during the latest PLI period."</p>
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          High stakes betting on assembly lines.
+        </p>
+      </div>
 
-      <p>Yes — exports are impressive. But here’s the point Rajan makes: These are capital-heavy, technology-intensive operations where most big profits flow back to corporate headquarters abroad, and the number of direct jobs per rupee invested isn’t as high as we often assume.</p>
+      <p>So we’re talking about subsidy flows in the thousands of crores.</p>
+      
+      <p>Numbers big enough to make anyone blink.</p>
 
-      <p>Think of it like this — a factory might churn out billions in value, but employ far fewer people than an equivalent investment in healthcare workers, teachers, software developers, designers, consultants, logistics specialists, and other service talent.</p>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Great Numbers — But What Do We Get?</h3>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Pharma Mirror: High Volume, Low Value</h3>
+      <p>Now you will say, “I mean, export numbers are huge too, right? Apple iPhones made here have crossed $50 billion in exports.”</p>
+
+      <p>Yes—exports are impressive. But here’s the point Rajan makes.</p>
+      
+      <p>These are capital-heavy operations. Robots, clean rooms, expensive machinery.</p>
+      
+      <p>Jobs?</p>
+      
+      <p>Fewer than you think. And crucially, most of the <em>profit</em> flows back to Cupertino, not Karnataka.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Smile Curve Reality</h3>
+
+      <p>Think of the "Smile Curve" in manufacturing.</p>
+      
+      <p>The Smile Curve?</p>
+      
+      <p>It means the value is at the ends, not the middle.</p>
+      <p>Design and R&D (Left side) = High Value.</p>
+      <p>Marketing and Sales (Right side) = High Value.</p>
+      <p>Manufacturing and Assembly (Middle) = Lowest Value.</p>
+
+      <!-- Smile Curve Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Smile Curve of Value</h4>
+        
+        <div style="position: relative; height: 200px; max-width: 500px; margin: 0 auto;">
+           <!-- Axes -->
+           <div style="position: absolute; left: 0; bottom: 0; width: 100%; height: 2px; background: #a1a1aa;"></div>
+           <div style="position: absolute; left: 0; bottom: 0; width: 2px; height: 100%; background: #a1a1aa;"></div>
+
+           <!-- Curve -->
+           <svg style="position: absolute; bottom: 0; left: 0; width: 100%; height: 100%; overflow: visible;" viewBox="0 0 100 100" preserveAspectRatio="none">
+             <path d="M0,10 Q20,10 50,80 Q80,10 100,10" fill="none" stroke="#ef4444" stroke-width="4" transform="scale(1, -1) translate(0, -100)" />
+           </svg>
+
+           <!-- Points -->
+           <div style="position: absolute; top: 10px; left: 0; font-weight: 700; color: #18181b; font-size: 0.8rem;">Design / R&D</div>
+           <div style="position: absolute; top: 10px; right: 0; font-weight: 700; color: #18181b; font-size: 0.8rem;">Branding / Sales</div>
+           <div style="position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); font-weight: 700; color: #18181b; font-size: 0.8rem; background: white; padding: 2px 6px; border: 1px solid #e4e4e7; border-radius: 4px;">Assembly (We Are Here)</div>
+        
+           <!-- Value Label -->
+           <div style="position: absolute; top: 50%; left: -40px; transform: rotate(-90deg); font-size: 0.75rem; color: #71717a; font-weight: 600;">VALUE ADDED</div>
+        </div>
+        
+         <p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          We fight for the bottom of the curve, while others own the top.
+        </p>
+      </div>
+
+      <p>We are fighting to be the factory floor, while the US and China own the intellectual property.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Pharma Mirror</h3>
 
       <p>But pharma is our success story, right? We’re called the pharmacy of the world.</p>
 
-      <p>True — and that’s precisely why it’s the perfect mirror.</p>
+      <p>True—and that’s precisely why it’s the perfect mirror.</p>
 
-      <p>We dominate pharmaceutical manufacturing. Generics, APIs, bulk drugs — huge volumes, global reach. But manufacturing is the lowest-value part of the pharma chain. The real money is in R&D, new molecules, patents, and innovation.</p>
+      <p>We dominate manufacturing. Generics. Bulk drugs. Huge volumes.</p>
 
-      <p>Now look at the numbers. And to be fair, let's take not just the top 5 or 7, but the <strong>Top 15</strong> Indian pharma companies combined.</p>
+      <p>But the money?</p>
+
+      <p>The real profit is in patents. In new molecules. In R&D. Not in making the pill itself.</p>
+
+      <p>We make the medicine. They own the cure.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Comparison: Pfizer vs India</h3>
+
+      <p>Let’s look at the numbers. And to be fair, let's take not just the top 5, but the <strong>Top 15</strong> Indian pharma companies combined.</p>
 
       <div style="margin: 3rem 0; padding: 2rem; background: #f9fafb; border-radius: 16px; border: 1px solid #e5e7eb;">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; color: #111827; letter-spacing: -0.01em;">Annual Revenue & Profit Comparison (2023)</h4>
@@ -2349,7 +2451,6 @@ export const articles = [
         <div style="margin-bottom: 1.5rem;">
           <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
             <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
-              <img src="https://www.google.com/s2/favicons?domain=pfizer.com&sz=64" alt="Pfizer" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
               Pfizer (USA) Revenue
             </span>
             <span style="font-weight: 700; color: #111827;">$58.5 Billion</span>
@@ -2399,26 +2500,10 @@ export const articles = [
              <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
                 <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
                    <div style="width: 12px; height: 12px; background: #f97316; border-radius: 50%;"></div>
-                  Top 15 Indian Pharma Net Profit
+                  Top 15 Combined
                 </span>
                 <span style="font-weight: 700; color: #f97316;">~$4.5 Billion</span>
               </div>
-              <div style="width: 100%; height: 12px; background: #e5e7eb; border-radius: 99px; overflow: hidden;">
-                <div style="width: 100%; height: 100%; background: #f97316; border-radius: 99px;"></div>
-              </div>
-               <div style="font-size: 0.85rem; color: #6b7280; margin-top: 8px;">(Note: Pfizer profit dipped in 2023 due to post-Covid corrections)</div>
-        </div>
-
-        <!-- US Industry Comparison (The "Systemic" Scale) -->
-        <div style="margin-top: 2rem; padding-top: 1.5rem; border-top: 2px solid #e5e7eb;">
-             <h4 style="font-family: var(--font-serif); font-size: 1.1rem; font-weight: 700; margin-bottom: 1.5rem; color: #111827;">The Bigger Picture: Total US Pharma Revenue</h4>
-
-             <!-- Revenue Scale -->
-             <div style="margin-bottom: 1.25rem;">
-               <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.9rem;">
-                  <span style="font-weight: 600; color: #374151;">🇺🇸 US Top 15 Revenue</span>
-                  <span style="font-weight: 700; color: #111827;">~$635 Billion</span>
-               </div>
                <div style="width: 100%; height: 18px; background: #e5e7eb; border-radius: 6px; overflow: hidden;">
                   <div style="width: 100%; height: 100%; background: #1e3a8a; border-radius: 6px;"></div>
                </div>
