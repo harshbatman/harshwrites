@@ -42,14 +42,33 @@ const renderStars = (count) => {
 const SupporterList = () => {
     // Process and sort data
     const processedSupporters = useMemo(() => {
+        // Defined ranking for specific sorting requirements when amounts are equal
+        const customRank = {
+            "Manjeet singh": 1,
+            "Sammer": 2,
+            "Aesha": 3,
+            "Akash Sharma": 99
+        };
+
         return rawSupporters.map(s => ({
             ...s,
-            name: `${s.name} Ji`,
+            name: `${s.name} Ji`, // Display name with Ji
+            rawName: s.name,      // Raw name for sorting logic
             stars: calculateStars(s.amount)
         })).sort((a, b) => {
-            // Sort by Stars (descending) -> Amount (descending) -> Name (optional)
+            // 1. Sort by Stars (descending)
             if (b.stars !== a.stars) return b.stars - a.stars;
-            return b.amount - a.amount;
+
+            // 2. Sort by Amount (descending)
+            if (b.amount !== a.amount) return b.amount - a.amount;
+
+            // 3. Custom Rank if available (ascending rank means top of list)
+            const rankA = customRank[a.rawName] || 50; // Default rank 50 (middle)
+            const rankB = customRank[b.rawName] || 50;
+
+            if (rankA !== rankB) return rankA - rankB;
+
+            return 0;
         });
     }, []);
 
