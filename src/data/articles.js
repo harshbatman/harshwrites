@@ -3921,130 +3921,182 @@ export const articles = [
   },
   {
     id: "data-structures-and-algorithms",
-    views: 2500,
-    publishDate: "2026-01-05",
+    views: 2605,
+    publishDate: "2026-01-28",
     title: "Data Structures and Algorithms",
     author: "Harsh Mahto",
     category: "Software Engineering",
     date: "January 2026",
     image: "/uploaded_image_1769388074067.jpg",
-    excerpt: "Recently, I put a pause on web development and started focusing on Data Structures and Algorithms. Web development was moving fast, but something felt incomplete.",
+    excerpt: "Recently, I put a pause on web development. It was moving fast, projects were shipping, but something felt… incomplete. The foundation was shaky.",
     content: `
-      <p>Recently, I put a pause on web development and started focusing on Data Structures and Algorithms.</p>
+      <p>Let me tell you something. Recently, I put a hard pause on web development.</p>
 
-      <p>Web development was moving fast. Things were building. Projects were shipping.</p>
+      <p>Wait, really? You were shipping projects. Things were moving fast.</p>
 
-      <p>But something felt incomplete.</p>
+      <p>That was the problem. It was moving <em>too</em> fast.</p>
+      <p>I was building features, fixing bugs, deploying sites. On the surface, I looked like a developer. But underneath?</p>
 
-      <p>I was writing features. I was fixing bugs. Yet, when the logic got complex, I felt shaky.</p>
+      <p>Underneath?</p>
 
-      <p>So I stopped. Not permanently. Just long enough to fix the foundation.</p>
+      <p>I felt shaky.</p>
+      <p>Whenever logic got complex, I found myself guessing. I could make it work, but I couldn’t explain <em>why</em> it worked, or when it would break.</p>
 
-      <p>That’s when I started spending most of my time on Data Structures and Algorithms.</p>
+      <p>So you stopped.</p>
 
-      <p>At first, I thought I was doing fine. I was writing code. It was running. I assumed that was enough.</p>
+      <p>I stopped. Not forever. Just long enough to fix the foundation.</p>
+      <p>I decided to dive properly into Data Structures and Algorithms (DSA).</p>
 
-      <p>It wasn’t.</p>
-      
-      <p>I was doing it wrong.</p>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The "It Works" Trap</h3>
 
-      <p>The code worked, but I couldn’t explain it. I couldn’t clearly tell why one solution was better than another. I couldn’t say where it would break.</p>
+      <p>At first, I thought I was fine. I wrote code. It ran. Output was correct.</p>
 
-      <p>That gap stayed with me.</p>
+      <p>That sounds like success.</p>
 
-      <p>So I slowed down further.</p>
+      <p>It’s a trap.</p>
+      <p>Getting the right answer is easy. Getting it efficiently is engineering.</p>
+      <p>I realized I didn’t understand <em>scale</em>.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Back to Basics</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Complexity: The First Reality Check</h3>
 
-      <p>About two months ago, I went back to basics.</p>
+      <p>So I went back to basics. Complexity analysis.</p>
 
-      <p>Before getting deep into DSA, I spent time on statistics and probability. Earlier, I skipped this part. Now I know that was a mistake.</p>
+      <p>Big O notation?</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Choosing C++</h3>
+      <p>Exactly. Before, I ignored it. "Computers are fast," I thought. "Who cares if it's O(n) or O(n squared)?"</p>
 
-      <p>Then I chose C++. Earlier, I avoided it because it felt difficult. That avoidance was another mistake.</p>
+      <p>And now?</p>
 
-      <p>C++ doesn’t hide things. Memory is visible. Pointers are real. Control flow is clear.</p>
+      <p>Now I know that the difference between O(n) and O(n²) isn’t just seconds. It’s the difference between a system that survives and a system that crashes.</p>
 
-      <p>It forced me to be precise.</p>
+      <!-- Time Complexity Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Why Scale Kills (The Growth Curve)</h4>
+        
+        <div style="position: relative; height: 250px; border-left: 2px solid #52525b; border-bottom: 2px solid #52525b; max-width: 500px; margin: 0 auto;">
+           
+           <!-- O(1) -->
+           <div style="position: absolute; bottom: 10px; left: 0; width: 100%; height: 2px; background: #10b981;"></div>
+           <div style="position: absolute; bottom: 15px; right: 5px; color: #10b981; font-weight: 700; font-size: 0.8rem;">O(1) - Constant</div>
 
-      <p>At first, I jumped into random problems. I was solving, but not learning. That approach was wrong. So I changed it.</p>
+           <!-- O(log n) -->
+           <svg style="position: absolute; bottom: 0; left: 0; width: 100%; height: 100%;" viewBox="0 0 100 100" preserveAspectRatio="none">
+             <path d="M0,100 Q20,95 100,85" fill="none" stroke="#3b82f6" stroke-width="2" />
+           </svg>
+           <div style="position: absolute; bottom: 45px; right: 5px; color: #3b82f6; font-weight: 700; font-size: 0.8rem;">O(log n)</div>
 
-      <p>I went back and started with time and space complexity. Now, before writing any code, I think about scale. I think about growth. I think about limits.</p>
+           <!-- O(n) -->
+           <svg style="position: absolute; bottom: 0; left: 0; width: 100%; height: 100%;" viewBox="0 0 100 100" preserveAspectRatio="none">
+             <path d="M0,100 L100,50" fill="none" stroke="#f59e0b" stroke-width="2" />
+           </svg>
+           <div style="position: absolute; top: 120px; right: 5px; color: #f59e0b; font-weight: 700; font-size: 0.8rem;">O(n)</div>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Arrays and Complexity</h3>
+           <!-- O(n^2) -->
+           <svg style="position: absolute; bottom: 0; left: 0; width: 100%; height: 100%;" viewBox="0 0 100 100" preserveAspectRatio="none">
+             <path d="M0,100 Q50,90 100,0" fill="none" stroke="#ef4444" stroke-width="2" />
+           </svg>
+           <div style="position: absolute; top: 10px; right: 5px; color: #ef4444; font-weight: 700; font-size: 0.8rem;">O(n²) - Dangerous</div>
 
-      <p>Then came arrays. Earlier, I treated arrays as basic. That was careless.</p>
+        </div>
+        
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          As inputs grow, bad algorithms die.
+        </p>
+      </div>
 
-      <p>Prefix sums. Sliding window. Two pointers. Once these clicked, problems stopped feeling random.</p>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Choosing the Hard Path: C++</h3>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Sorting and Searching</h3>
-      
-      <p>Sorting and searching came next. Earlier, I just used built-in functions. I didn’t care how they worked underneath.</p>
+      <p>Then I made a choice. C++.</p>
 
-      <p>Now I understand why sorting matters. Why binary search changes everything. Why reducing time from O(n) to O(log n) is not a small thing.</p>
+      <p>Why? Everyone loves Python or JavaScript for interviews. They’re easier.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Hashing</h3>
+      <p>That’s exactly why I avoided them this time.</p>
+      <p>C++ doesn’t hide things. It puts your face right against the memory management.</p>
+      <p>Pointers. References. Garbage collection? No, <em>you</em> are the garbage collector.</p>
 
-      <p>Then came hashing. At first, hash maps felt like magic. Key in, value out. That thinking was wrong.</p>
+      <p>It sounds painful.</p>
 
-      <p>I learned about collisions. I learned when hashing helps and when it doesn’t.</p>
+      <p>It is. But that pain teaches you precision. You stop taking things for granted.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Recursion and Backtracking</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Recurring Nightmare (Recursion)</h3>
 
-      <p>Recursion came after that. This part was frustrating. I kept trying to see the full solution at once. That never worked.</p>
+      <p>And then… recursion.</p>
 
-      <p>What worked was focusing on one step. Base case first. Then the recursive call. That correction changed my thinking.</p>
+      <p>Oh, the "function calling itself" magic.</p>
 
-      <p>Backtracking followed naturally. Choose. Explore. Undo.</p>
+      <p>Magic? It felt like a curse.</p>
+      <p>My brain kept trying to trace every single step. "Okay, it goes here, then here, then here…" and stack overflow. In my head.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Data Structures Flow</h3>
+      <p>So how did you fix it?</p>
 
-      <p>Then I moved through linked lists, stacks, and queues. Earlier, I memorised definitions. Now, I understand purpose.</p>
+      <p>I stopped trying to see the whole tree. I focused on the Leap of Faith.</p>
+      <p>1. Base case (When do I stop?)</p>
+      <p>2. Recursive step (Trust it works for n-1).</p>
+      <p>Once I did that, trees and graphs opened up.</p>
 
-      <p>Linked lists showed me how memory flows. Stacks made undo and backtracking clear. Queues showed how tasks move through a system.</p>
+      <!-- Recursion Visual -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Stack of Trust</h4>
+        
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 8px;">
+          
+          <div style="width: 200px; padding: 12px; border: 2px solid #52525b; border-radius: 8px; text-align: center; font-weight: 600; background: white; box-shadow: 0 4px 0 #52525b;">
+             solve(Problem)
+          </div>
+          
+          <div style="font-size: 1.5rem; color: #52525b; line-height: 0.8;">↓</div>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Bit Manipulation and DP</h3>
+          <div style="width: 180px; padding: 10px; border: 2px solid #71717a; border-radius: 8px; text-align: center; color: #52525b; background: white; box-shadow: 0 4px 0 #71717a;">
+             solve(Sub-problem)
+          </div>
 
-      <p>Then came bit manipulation. Earlier, I ignored it. It felt unnecessary. It wasn’t.</p>
+          <div style="font-size: 1.5rem; color: #52525b; line-height: 0.8;">↓</div>
 
-      <p>Bits taught me efficiency. They taught me how close code can be to hardware.</p>
+          <div style="width: 160px; padding: 8px; border: 2px solid #a1a1aa; border-radius: 8px; text-align: center; color: #71717a; background: white; box-shadow: 0 4px 0 #a1a1aa;">
+             solve(...)
+          </div>
 
-      <p>Then came Dynamic Programming. This is where I struggled the most. I tried to memorise patterns. Nothing stuck. So I stopped.</p>
+          <div style="font-size: 1.5rem; color: #10b981; line-height: 0.8;">↓</div>
 
-      <p>I asked one question: What is repeating here?</p>
+          <div style="width: 140px; padding: 8px; background: #10b981; color: white; border-radius: 8px; text-align: center; font-weight: 700;">
+             BASE CASE
+          </div>
 
-      <p>Once I started thinking in states and transitions, things changed. Recursion with memoization. Then tabulation. Dynamic Programming started making sense.</p>
+        </div>
+        <p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          You don't need to see the bottom. You just need to trust the fall.
+        </p>
+      </div>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Advanced Structures</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">From Memorizing to Thinking</h3>
 
-      <p>Greedy algorithms followed. I learned when greed works. I learned when it fails.</p>
+      <p>I moved from stacks to queues, from trees to graphs.</p>
+      <p>Earlier, I memorized patterns. "If question says shortest path, use BFS."</p>
 
-      <p>Trees and graphs pushed my thinking further. Binary trees strengthened recursion. BSTs taught ordering. Heaps taught prioritisation.</p>
+      <p>And now?</p>
 
-      <p>Graphs—DFS, BFS, shortest paths—showed structure and flow.</p>
+      <p>Now I ask: "How does the datal flow?"</p>
+      <p>Linked lists showed me memory is a chain. Stacks taught me backtracking. Trees taught me hierarchy.</p>
+      <p>It’s not about passing an interview anymore.</p>
 
-      <p>I also touched tries and segment trees. Earlier, they felt advanced. Now, they feel like extensions of basics done right.</p>
+      <p>It’s about fluency.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Process</h3>
+      <p>Exactly. Fluency in the language of logic.</p>
 
-      <p>This is where problem solving mattered most. I spend a lot of time on CodeChef and Codeforces.</p>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The CodeChef Loop</h3>
 
-      <p>Not just submitting. Not just chasing green ticks.</p>
+      <p>This is where the real work happens. CodeChef. Codeforces.</p>
+      <p>You’re grinding ranks?</p>
 
-      <p>I read problems slowly. I try multiple approaches. I fail. I debug. I try again.</p>
+      <p>No. I’m grinding understanding.</p>
+      <p>I solve. I fail. I debug. I retry.</p>
+      <p>That failing part? That’s the most important part. When you fail, you learn a boundary case you didn’t see. You learn a limitation of your thinking.</p>
 
-      <p>CodeChef keeps me consistent. Codeforces sharpens my thinking.</p>
+      <p>So, the pause was worth it?</p>
 
-      <p>That loop—solve, fail, understand, retry—that’s where learning actually happens.</p>
-
-      <p>I’m still learning. I still get stuck.</p>
-
-      <p>But now, when I see a problem, I don’t rush. I pause. I break it down. I think. Then I code.</p>
-
-      <p>Pausing web development wasn’t stepping back. It was stepping deeper.</p>
-
-      <p class="story-punchline">That’s what learning Data Structures and Algorithms means to me right now.</p>
+      <p>100%.</p>
+      <p>Pausing web development wasn’t stepping back.</p>
+      <p>It was stepping deeper.</p>
     `
-  }
+  },
 ];
