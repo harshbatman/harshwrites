@@ -414,6 +414,57 @@ export const articles = [
       <p>No grand roadmap.</p>
       <p>Just evolution—transistors compounding, workloads changing, and the industry adapting around the quiet promise that started it all.</p>
 
+      <!-- Moore's Law Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Exponential Rise (Transistor Count)</h4>
+        
+        <div style="display: flex; align-items: flex-end; justify-content: space-between; height: 200px; padding-bottom: 0.5rem; border-bottom: 2px solid #e5e7eb; gap: 8px;">
+          
+          <!-- Bar 1: 1971 -->
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+            <div style="width: 100%; height: 2%; background: #a1a1aa; border-radius: 4px 4px 0 0; transition: height 1s; min-height: 4px;"></div>
+            <span style="font-size: 0.75rem; color: #52525b; margin-top: 8px;">1971</span>
+          </div>
+
+          <!-- Bar 2: 1980 -->
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+            <div style="width: 100%; height: 5%; background: #a1a1aa; border-radius: 4px 4px 0 0;"></div>
+            <span style="font-size: 0.75rem; color: #52525b; margin-top: 8px;">1980</span>
+          </div>
+
+          <!-- Bar 3: 1990 -->
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+            <div style="width: 100%; height: 10%; background: #71717a; border-radius: 4px 4px 0 0;"></div>
+            <span style="font-size: 0.75rem; color: #52525b; margin-top: 8px;">1990</span>
+          </div>
+
+          <!-- Bar 4: 2000 -->
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+            <div style="width: 100%; height: 20%; background: #52525b; border-radius: 4px 4px 0 0;"></div>
+            <span style="font-size: 0.75rem; color: #52525b; margin-top: 8px;">2000</span>
+          </div>
+
+          <!-- Bar 5: 2010 -->
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+            <div style="width: 100%; height: 40%; background: #3f3f46; border-radius: 4px 4px 0 0;"></div>
+            <span style="font-size: 0.75rem; color: #52525b; margin-top: 8px;">2010</span>
+          </div>
+
+          <!-- Bar 6: 2020+ -->
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+            <div style="width: 100%; height: 85%; background: #18181b; border-radius: 4px 4px 0 0; position: relative;">
+               <div style="position: absolute; top: -30px; left: 50%; transform: translateX(-50%); background: #18181b; color: white; padding: 4px 8px; border-radius: 4px; font-size: 0.7rem; font-weight: 600; white-space: nowrap;">50 Billion+</div>
+            </div>
+            <span style="font-size: 0.75rem; color: #18181b; font-weight: 600; margin-top: 8px;">2024</span>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          From thousands to billions—Moore’s Law in action.
+        </p>
+      </div>
+
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Who Controls The Power?</h3>
 
       <p>But hardware alone means nothing without control. That’s where operating systems came in.</p>
@@ -471,6 +522,59 @@ export const articles = [
       <p>We didn’t pay with money.</p>
       <p>We paid with <strong>attention</strong>.</p>
       <p>And attention turned out to be the most valuable currency ever discovered.</p>
+
+      <!-- Internet vs AI Adoption Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 1.5rem; text-align: center;">Years to Reach 100 Million Users</h4>
+        
+        <div style="display: flex; flex-direction: column; gap: 1rem; max-width: 600px; margin: 0 auto;">
+          
+          <!-- Mobile Phones -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+             <span style="width: 100px; font-size: 0.85rem; font-weight: 500; text-align: right; color: #52525b;">Mobile Phone</span>
+             <div style="flex: 1; height: 24px; background: #e4e4e7; border-radius: 4px; position: relative; width: 100%;">
+                <div style="width: 80%; height: 100%; background: #d4d4d8; border-radius: 4px; display: flex; align-items: center; padding-right: 8px; justify-content: flex-end;">
+                  <span style="font-size: 0.75rem; color: #52525b; font-weight: 600;">16 Years</span>
+                </div>
+             </div>
+          </div>
+
+          <!-- Internet -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+             <span style="width: 100px; font-size: 0.85rem; font-weight: 500; text-align: right; color: #52525b;">Internet</span>
+             <div style="flex: 1; height: 24px; background: #e4e4e7; border-radius: 4px; position: relative; width: 100%;">
+                <div style="width: 45%; height: 100%; background: #a1a1aa; border-radius: 4px; display: flex; align-items: center; padding-right: 8px; justify-content: flex-end;">
+                  <span style="font-size: 0.75rem; color: white; font-weight: 600;">7 Years</span>
+                </div>
+             </div>
+          </div>
+
+          <!-- Facebook -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+             <span style="width: 100px; font-size: 0.85rem; font-weight: 500; text-align: right; color: #52525b;">Facebook</span>
+             <div style="flex: 1; height: 24px; background: #e4e4e7; border-radius: 4px; position: relative; width: 100%;">
+                <div style="width: 30%; height: 100%; background: #71717a; border-radius: 4px; display: flex; align-items: center; padding-right: 8px; justify-content: flex-end;">
+                  <span style="font-size: 0.75rem; color: white; font-weight: 600;">4.5 Years</span>
+                </div>
+             </div>
+          </div>
+
+           <!-- ChatGPT -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+             <span style="width: 100px; font-size: 0.85rem; font-weight: 500; text-align: right; color: #18181b;">ChatGPT</span>
+             <div style="flex: 1; height: 24px; background: #e4e4e7; border-radius: 4px; position: relative; width: 100%;">
+                <div style="width: 8%; height: 100%; background: #18181b; border-radius: 4px; display: flex; align-items: center; justify-content: flex-start; padding-left: 8px;">
+                   <!-- Label outside if too small -->
+                </div>
+                 <span style="position: absolute; left: 10%; top: 50%; transform: translateY(-50%); font-size: 0.75rem; color: #18181b; font-weight: 700; padding-left: 8px;">2 Months</span>
+             </div>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          The speed of adoption is accelerating.
+        </p>
+      </div>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Generative Shift</h3>
 
