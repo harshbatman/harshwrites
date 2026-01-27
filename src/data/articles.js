@@ -342,7 +342,7 @@ export const articles = [
     category: "Technology & History",
     date: "January 2026",
     image: "/transistors-to-ai.jpg",
-    excerpt: "Our modern digital world didn’t arrive in one big bang. It crept in, layer by layer. Most of the people building it had no idea what they were actually setting in motion.",
+    excerpt: "I was on a recent trip to Delhi. Metro ride, peak hours. Earbuds in my ears, music on, mind somewhere else. And right in front of my seat, there’s this little boy—barely three, maybe four—crying ridiculously loud.",
     content: `
       <p>I was on a recent trip to Delhi. Metro ride, peak hours. Earbuds in my ears, music on, mind somewhere else. And right in front of my seat, there’s this little boy—barely three, maybe four—crying ridiculously loud. Angry crying. The kind where you know it’s not hunger or sleep, it’s pure protest.</p> 
 
