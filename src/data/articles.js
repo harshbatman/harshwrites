@@ -3507,6 +3507,34 @@ export const articles = [
 
       <p>That’s the part people forget. You might think wars are only about guns and borders. But for us, the bigger fear was: Can we survive this economically? Can we feed ourselves?</p>
 
+      <!-- The Dual Crisis Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Dual Crisis (1965)</h4>
+        
+        <div style="display: flex; justify-content: space-around; align-items: flex-end; height: 180px; max-width: 500px; margin: 0 auto; padding-bottom: 20px; border-bottom: 2px solid #e5e7eb;">
+          
+          <!-- Defence Pressure -->
+          <div style="text-align: center; width: 100px;">
+             <div style="height: 140px; width: 40px; background: #ef4444; margin: 0 auto; border-radius: 4px 4px 0 0; position: relative;">
+                <div style="position: absolute; top: -30px; left: 50%; transform: translateX(-50%); font-weight: 700; color: #ef4444; white-space: nowrap;">Critical</div>
+             </div>
+             <span style="display: block; margin-top: 10px; font-size: 0.8rem; font-weight: 600; color: #18181b;">Border Threat</span>
+          </div>
+
+          <!-- Food Stocks -->
+          <div style="text-align: center; width: 100px;">
+             <div style="height: 30px; width: 40px; background: #f59e0b; margin: 0 auto; border-radius: 4px 4px 0 0; position: relative;">
+                <div style="position: absolute; top: -30px; left: 50%; transform: translateX(-50%); font-weight: 700; color: #f59e0b; white-space: nowrap;">Empty</div>
+             </div>
+             <span style="display: block; margin-top: 10px; font-size: 0.8rem; font-weight: 600; color: #18181b;">Food Stocks</span>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          Fighting a war while facing a famine.
+        </p>
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Birth of a Slogan</h3>
 
       <p>This is where the slogan was born. Not in a studio. Not in a marketing meeting. But in crisis. Shastri looked at the nation and said—our strength rests on two pillars:</p>
@@ -3528,6 +3556,31 @@ export const articles = [
       <p>After him came Indira Gandhi, who inherited not just power, but pressure. She took this slogan forward—not just in words, but in policy.</p>
 
       <p>Under her, we saw the Green Revolution. High-yield seeds, irrigation, procurement systems. The farmer became central to national planning. Food self-sufficiency became strategy, not charity.</p>
+
+      <!-- From Import to Surplus Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">From Import to Surplus (Green Revolution)</h4>
+        
+        <div style="position: relative; height: 200px; border-left: 2px solid #52525b; border-bottom: 2px solid #52525b; max-width: 500px; margin: 0 auto;">
+           
+           <!-- 'Ship-to-Mouth' Phase -->
+           <div style="position: absolute; left: 10%; bottom: 20%; width: 20px; height: 20px; background: #ef4444; border-radius: 50%; border: 3px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.1);"></div>
+           <div style="position: absolute; left: 10%; bottom: 20px; font-size: 0.7rem; color: #ef4444; font-weight: 600;">1960s (Shortage)</div>
+
+           <!-- 'Self-Sufficiency' Phase -->
+           <div style="position: absolute; right: 10%; bottom: 85%; width: 20px; height: 20px; background: #10b981; border-radius: 50%; border: 3px solid white; box-shadow: 0 2px 4px rgba(0,0,0,0.1);"></div>
+           <div style="position: absolute; right: 5%; bottom: 20px; font-size: 0.7rem; color: #10b981; font-weight: 600;">1980s (Surplus)</div>
+
+           <!-- The Line -->
+           <svg style="position: absolute; bottom: 0; left: 0; width: 100%; height: 100%;" viewBox="0 0 100 100" preserveAspectRatio="none">
+             <path d="M10,80 Q40,75 50,50 T90,15" fill="none" stroke="#10b981" stroke-width="3" stroke-dasharray="0" />
+           </svg>
+
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          Independence isn't just flags. It's food.
+        </p>
+      </div>
 
       <p>So when we say “Jai Jawan, Jai Kisan” today, we’re not just repeating history—we’re remembering a moment when our survival depended equally on rifles and ploughs.</p>
 
