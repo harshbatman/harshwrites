@@ -3474,8 +3474,8 @@ export const articles = [
   },
   {
     id: "two-women-two-nations-one-frame",
-    views: 3200,
-    publishDate: "2026-01-15",
+    views: 3250,
+    publishDate: "2026-01-28",
     title: "Two Women, Two Nations, One Frame",
     author: "Harsh Mahto",
     category: "History & Leadership",
@@ -3483,43 +3483,84 @@ export const articles = [
     image: "/indira-thatcher.jpg",
     excerpt: "I was randomly scrolling the internet the other day — nothing specific, just the usual wandering we all do — when I suddenly stopped. Not because something was loud or sensational, but because something felt quietly important.",
     content: `
-      <p>I was randomly scrolling the internet the other day — nothing specific, just the usual wandering we all do — when I suddenly stopped. Not because something was loud or sensational, but because something felt quietly important. It was this photograph.</p>
-
-
-
+      <p>I was randomly scrolling the internet the other day—nothing specific, just the usual wandering we all do—when I suddenly stopped.</p>
+      
+      <p>Why? What did you see?</p>
+      
+      <p>Not something loud or sensational. But something that felt quietly important. A photograph.</p>
+      
       <p>Just two women sitting on a sofa. Smiling. Relaxed. Almost ordinary.</p>
 
-      <p>Now you might say, "Ordinary? Come on. You don’t sit like that when you’re carrying half the world’s power on your shoulders."</p>
+      <p>Ordinary? Come on. You don’t sit like that when you’re carrying half the world’s power on your shoulders.</p>
 
-      <p>Exactly. That’s why this image matters. This is Indira Gandhi with Margaret Thatcher — and you know what makes it rare?</p>
+      <p>Exactly. That’s why this image matters. This is <strong>Indira Gandhi</strong> with <strong>Margaret Thatcher</strong>.</p>
+      
+      <p>And you know what makes it rare?</p>
 
       <p>Let me guess. Two heads of government. Both women. Same frame?</p>
 
-      <p>In the 20th century, no less. When global power was almost entirely a men’s club — suits, cigars, war rooms — here are two women leading nations that once stood on opposite sides of empire and history.</p>
+      <p>More than that. In the 20th century, global power was a men’s club. Suits, cigars, war rooms. And yet, here are two women leading nations that once stood on opposite sides of empire and history.</p>
 
       <p>And they’re not posturing. They’re comfortable.</p>
 
-      <p>Now you might think this is just diplomacy…</p>
+      <p>Most people will say, “Just another state visit photo.”</p>
+      
+      <p>But pause for a second. Look at the timing.</p>
 
-      <p>Yeah, most people will say, "Just another state visit photo."</p>
+      <!-- Timeline of Power Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Overlap of Iron (1980-1984)</h4>
+        
+        <div style="position: relative; max-width: 600px; margin: 0 auto; height: 180px;">
+          
+          <!-- Mid Line -->
+          <div style="position: absolute; top: 50%; left: 0; width: 100%; height: 2px; background: #e5e7eb; z-index: 0;"></div>
 
-      <p>But pause for a second. This meeting happened in October 1984, during Indira Gandhi’s visit to the UK — days before her assassination.</p>
+          <!-- Indira Gandhi Bar -->
+          <div style="position: absolute; top: 30px; left: 10%; width: 40%; height: 40px; background: #f97316; border-radius: 4px; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(249, 115, 22, 0.2);">
+             <span style="color: white; font-weight: 600; font-size: 0.85rem;">Indira Gandhi</span>
+          </div>
+          <div style="position: absolute; top: 75px; left: 10%; font-size: 0.75rem; color: #f97316; font-weight: 700;">1966-77</div>
+          
+           <!-- Indira Gandhi Bar 2 -->
+          <div style="position: absolute; top: 30px; left: 55%; width: 15%; height: 40px; background: #f97316; border-radius: 4px; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(249, 115, 22, 0.2);">
+             <span style="color: white; font-weight: 600; font-size: 0.85rem;">IG</span>
+          </div>
+          <div style="position: absolute; top: 75px; left: 55%; font-size: 0.75rem; color: #f97316; font-weight: 700;">1980-84</div>
 
+          <!-- Margaret Thatcher Bar -->
+          <div style="position: absolute; bottom: 30px; left: 52%; width: 40%; height: 40px; background: #1e40af; border-radius: 4px; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(30, 64, 175, 0.2);">
+             <span style="color: white; font-weight: 600; font-size: 0.85rem;">Margaret Thatcher</span>
+          </div>
+          <div style="position: absolute; bottom: 75px; left: 52%; font-size: 0.75rem; color: #1e40af; font-weight: 700;">1979-1990</div>
+
+          <!-- The Overlap Highlight -->
+          <div style="position: absolute; top: 20px; bottom: 20px; left: 55%; width: 15%; border: 2px dashed #52525b; border-radius: 8px; z-index: -1; background: rgba(0,0,0,0.02);"></div>
+          <div style="position: absolute; top: -10px; left: 62.5%; transform: translateX(-50%); font-size: 0.7rem; font-weight: 700; color: #52525b; background: white; padding: 0 4px;">THE RARE ERA</div>
+
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          Two powerful women. One specific window of history.
+        </p>
+      </div>
+
+      <p>This meeting happened in October 1984. Days before her assassination.</p>
+      
       <p>This is among her last calm, unguarded moments on the world stage.</p>
 
       <p>That adds weight. A lot of weight.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Two Very Different Women — And Yet…</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Two Very Different Women</h3>
 
-      <p>You might think Indira and Thatcher were opposites.</p>
-
+      <p>You might think they were opposites.</p>
+      
       <p>One came from a freedom movement legacy. The other from conservative British politics. One led us, a post-colonial nation. The other led the former empire.</p>
 
-      <p>But here’s the thing — they understood each other.</p>
+      <p>But here’s the thing—they understood each other.</p>
 
       <p>Because power recognises power.</p>
 
-      <p>Exactly. Thatcher once wrote about Indira Gandhi in her memoir <em>The Downing Street Years</em>, calling her:</p>
+      <p>Exactly. Thatcher once wrote about Indira Gandhi in her memoir <em>The Downing Street Years</em>:</p>
 
       <blockquote style="border-left: 4px solid #e5e7eb; padding-left: 1rem; font-style: italic; margin: 1.5rem 0; color: #4b5563;">
         “A woman of extraordinary authority, courage, and presence.”
@@ -3531,13 +3572,13 @@ export const articles = [
 
       <p>Was it really friendship though? Or just respect?</p>
 
-      <p>A rare kind of friendship — the kind that doesn’t need validation. They disagreed on many things: Cold War alignments, economic philosophy, the role of the state.</p>
+      <p>A rare kind of friendship—the kind that doesn’t need validation. They disagreed on many things: Cold War alignments, economic philosophy.</p>
 
-      <p>Yet Thatcher admired Indira’s command over her cabinet and country. Indira, in turn, respected Thatcher’s clarity and decisiveness.</p>
+      <p>Yet Thatcher admired Indira’s command over her cabinet. Indira respected Thatcher’s clarity.</p>
 
       <p>No small talk. No fake warmth. Just two leaders who didn’t need permission to lead.</p>
 
-      <p>You think leadership looks loud — speeches, slogans, chest-thumping. But look at this photo again.</p>
+      <p>You think leadership looks loud—speeches, slogans, chest-thumping. But look at this photo again.</p>
 
       <p>No theatrics. No body language of insecurity. No attempt to dominate the frame.</p>
 
@@ -3551,13 +3592,13 @@ export const articles = [
 
       <p>That line explains her posture here better than any analysis.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Assassination — And Thatcher’s Words</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The End of an Era</h3>
 
       <p>And then, just days later… everything ended.</p>
 
-      <p>31 October 1984. Indira Gandhi was assassinated. Margaret Thatcher was deeply shaken.</p>
+      <p>31 October 1984.</p>
 
-      <p>In her official statement, she said:</p>
+      <p>Margaret Thatcher was deeply shaken. In her official statement, she said:</p>
 
       <blockquote style="border-left: 4px solid #e5e7eb; padding-left: 1rem; font-style: italic; margin: 1.5rem 0; color: #4b5563;">
         “Mrs Gandhi was a towering figure on the world stage… her death is a tragedy not only for India, but for all who value courage in leadership.”
@@ -3569,27 +3610,17 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Why This Image Is Iconic For Us</h3>
 
-      <p>For us, this photo is more than history. It reminds us that we didn’t borrow authority — we earned it. Our leadership didn’t need approval from the West. A woman from our soil could sit as an equal with any world leader.</p>
+      <p>For us, this photo is more than history.</p>
+      
+      <p>It reminds us that we didn’t borrow authority—we earned it. Our leadership didn’t need approval from the West. A woman from our soil could sit as an equal with any world leader.</p>
 
       <p>And do it without raising her voice.</p>
 
       <p>Exactly. In a century where women leaders were treated as exceptions, this image says: We were already there.</p>
 
-      <p>Yeah, I also feel something strange looking at it…</p>
-
-      <p>Me too. It feels calm — but heavy. Because we know what’s coming next. History gives this photo its silence.</p>
+      <p>It feels calm—but heavy. Because we know what’s coming next.</p>
 
       <p>Two women. Two nations. One moment before everything changed.</p>
-
-      <p>And that’s why this photograph isn’t just rare — it’s one of the most iconic images of 20th-century leadership.</p>
-
-      <p class="story-punchline">Not because of tragedy alone. But because it shows us what quiet, unapologetic power really looks like.</p>
-
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">An Image That History Keeps Returning To</h3>
-
-      <p>Maybe that’s why this photograph keeps resurfacing.</p>
-
-      <p>Exactly. Not because of what is happening in it, but because of what we know happened soon after. It freezes a moment before history turned, before tragedy reshaped everything. And in doing so, it becomes one of the most iconic images of 20th-century leadership, not just because two women are present, but because both understood power deeply — its necessity, its cost, and its loneliness.</p>
 
       <p class="story-punchline">This photograph does not shout. It endures. And sometimes, that is the most powerful kind of history.</p>
     `
