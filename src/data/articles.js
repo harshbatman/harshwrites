@@ -488,6 +488,74 @@ export const articles = [
 
       <p>It’s the <strong>intelligence layer</strong> that sits above all of them.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">India’s Moment — Talent, Scale, and the Real Constraints</h3>
+
+      <p>So if we zoom out and talk only about us—where does India actually stand in this whole AI-driven digital world?</p>
+
+      <p>First, let’s get one thing straight.</p>
+      <p>Talent has never been the problem.</p>
+
+      <p>Exactly.</p>
+      <p>We’ve got engineers everywhere—startups, Big Tech, open source, Silicon Valley, Europe.</p>
+      <p>Our people aren’t missing from the AI revolution. They’re helping <strong>build it</strong>.</p>
+
+      <p>The second advantage is <strong>scale</strong>.</p>
+      <p>Few countries have users like us—hundreds of millions, digital-first, mobile-native.</p>
+
+      <p>When Jio dropped data prices, it created one of the largest connected populations on Earth—almost overnight.</p>
+
+      <p>And when <strong>UPI</strong> went mainstream, we proved something important.</p>
+
+      <p>That <strong>population-scale digital infrastructure</strong> can be built publicly, not just by private monopolies.</p>
+
+      <p>That’s rare.</p>
+      <p>And powerful.</p>
+
+      <p>But now comes the uncomfortable part—the <strong>constraints</strong>.</p>
+
+      <p><strong>Compute</strong>.</p>
+      <p><strong>Energy</strong>.</p>
+      <p><strong>Capital</strong> at the foundation layer.</p>
+
+      <p>Training large AI models isn’t about talent alone.</p>
+      <p>It’s about access to advanced chips, massive cloud credits, and stable power.</p>
+
+      <p>Right now, most of that sits outside our borders.</p>
+
+      <p>Which means we risk becoming brilliant application builders on top of intelligence built elsewhere.</p>
+
+      <p>That’s not failure—but it is <strong>dependency</strong>.</p>
+
+      <p>And history shows something important.</p>
+      <p>Countries that control infrastructure layers shape outcomes.</p>
+      <p>Countries that only build on top adjust later.</p>
+
+      <p>So India’s real AI question isn’t, “Do we have smart people?”</p>
+
+      <p>It’s:</p>
+      <p>Can we scale compute?</p>
+      <p>Can we align energy policy with data centers?</p>
+      <p>Can we treat AI infrastructure like roads and railways—not just startups?</p>
+
+      <p>Because our advantage is mass adoption.</p>
+      <p>Our risk is delayed foundations.</p>
+
+      <p>If we get this right, India doesn’t just consume AI.</p>
+
+      <p>We shape how AI works for languages, cultures, and populations the West never optimized for.</p>
+
+      <p>And if we get it wrong—</p>
+
+      <p>—we’ll still grow, but on someone else’s terms.</p>
+
+      <p>That’s the fork in the road.</p>
+
+      <p>Not hype versus fear.</p>
+
+      <p><strong>Infrastructure versus dependency</strong>.</p>
+
+      <p>And this time, the window won’t stay open forever.</p>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">AI vs Internet vs Smartphone</h3>
 
       <p>So now let’s step back. We’ve talked about layers, infrastructure, chips, energy, data. But the real question is simple:</p>
