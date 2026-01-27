@@ -743,6 +743,64 @@ export const articles = [
       <p>And this time, the bottleneck isn’t imagination—</p>
       <p>—it’s infrastructure.</p>
 
+      <!-- The AI Infrastructure Stack Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The AI Infrastructure Stack</h4>
+        
+        <div style="display: flex; flex-direction: column; gap: 4px; max-width: 500px; margin: 0 auto;">
+          
+          <!-- Layer 1: Application -->
+          <div style="background: #18181b; color: white; padding: 12px; text-align: center; border-radius: 6px; font-size: 0.9rem; font-weight: 500;">
+            Applications (ChatGPT, Copilot, Midjourney)
+          </div>
+
+          <!-- Connector -->
+          <div style="height: 10px; border-left: 2px dashed #d4d4d8; margin: 0 auto;"></div>
+
+          <!-- Layer 2: Models -->
+          <div style="background: #3f3f46; color: white; padding: 12px; text-align: center; border-radius: 6px; font-size: 0.9rem; font-weight: 500;">
+            LLM Models (GPT-4, Claude, Llama)
+          </div>
+
+          <!-- Connector -->
+          <div style="height: 10px; border-left: 2px dashed #d4d4d8; margin: 0 auto;"></div>
+
+          <!-- Layer 3: Data -->
+          <div style="background: #52525b; color: white; padding: 12px; text-align: center; border-radius: 6px; font-size: 0.9rem; font-weight: 500;">
+            Data Layer (Global Knowledge, Code, Media)
+          </div>
+
+          <!-- Connector -->
+          <div style="height: 10px; border-left: 2px dashed #d4d4d8; margin: 0 auto;"></div>
+
+          <!-- Layer 4: Compute/Chips -->
+          <div style="background: #71717a; color: white; padding: 12px; text-align: center; border-radius: 6px; font-size: 0.9rem; font-weight: 500;">
+            Chips & Compute (NVIDIA H100s, TPUs)
+          </div>
+
+          <!-- Connector -->
+          <div style="height: 10px; border-left: 2px dashed #d4d4d8; margin: 0 auto;"></div>
+
+           <!-- Layer 5: Cloud -->
+          <div style="background: #a1a1aa; color: white; padding: 12px; text-align: center; border-radius: 6px; font-size: 0.9rem; font-weight: 500;">
+            Cloud Infrastructure (AWS, Azure, GCP)
+          </div>
+
+          <!-- Connector -->
+          <div style="height: 10px; border-left: 2px dashed #d4d4d8; margin: 0 auto;"></div>
+
+          <!-- Layer 6: Energy -->
+          <div style="background: #e4e4e7; color: #18181b; padding: 12px; text-align: center; border-radius: 6px; font-size: 0.9rem; font-weight: 600; border: 1px solid #d4d4d8;">
+            Energy (Power Grids, Renewables, Cooling)
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          If the bottom layers fail, the top layers stop working.
+        </p>
+      </div>
+
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Search War & Browser War — Who Controls the Doorway</h3>
 
       <p>Before AI, before social media dominance, there was another quiet battle most of us didn’t notice at the time—the search war and the browser war.</p>
@@ -891,6 +949,57 @@ export const articles = [
 
       <p>This wasn’t just a telecom event.</p>
       <p>It was an <strong>infrastructure shock</strong>.</p>
+
+      <!-- The Jio Effect Graph -->
+       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Jio Effect: Data Adoption in India</h4>
+        
+        <div style="display: flex; align-items: flex-end; justify-content: space-between; height: 200px; padding-bottom: 0.5rem; border-bottom: 2px solid #e5e7eb; gap: 12px;">
+          
+          <!-- Bar 1: 2014 -->
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+            <div style="width: 100%; height: 5%; background: #d4d4d8; border-radius: 4px 4px 0 0;"></div>
+            <span style="font-size: 0.75rem; color: #52525b; margin-top: 8px;">2014</span>
+          </div>
+
+           <!-- Bar 2: 2015 -->
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+            <div style="width: 100%; height: 6%; background: #d4d4d8; border-radius: 4px 4px 0 0;"></div>
+             <span style="font-size: 0.75rem; color: #52525b; margin-top: 8px;">2015</span>
+          </div>
+
+          <!-- Bar 3: 2016 (Jio Launch) -->
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+            <div style="width: 100%; height: 15%; background: #2563eb; opacity: 0.6; border-radius: 4px 4px 0 0;"></div>
+            <span style="font-size: 0.75rem; color: #2563eb; font-weight: 600; margin-top: 8px;">2016</span>
+          </div>
+
+          <!-- Bar 4: 2017 -->
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+             <div style="width: 100%; height: 35%; background: #2563eb; opacity: 0.8; border-radius: 4px 4px 0 0;"></div>
+             <span style="font-size: 0.75rem; color: #52525b; margin-top: 8px;">2017</span>
+          </div>
+
+          <!-- Bar 5: 2020 -->
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+             <div style="width: 100%; height: 75%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
+             <span style="font-size: 0.75rem; color: #52525b; margin-top: 8px;">2020</span>
+          </div>
+
+           <!-- Bar 6: 2024 -->
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+             <div style="width: 100%; height: 95%; background: #1e40af; border-radius: 4px 4px 0 0; position: relative;">
+                 <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); color: #1e40af; font-size: 0.7rem; font-weight: 700; white-space: nowrap;">20 GB/Month</div>
+             </div>
+             <span style="font-size: 0.75rem; color: #18181b; font-weight: 600; margin-top: 8px;">2024</span>
+          </div>
+
+        </div>
+         <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          Before Jio vs. After Jio (Average Data Usage)
+        </p>
+      </div>
+
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Commerce Layer — From Browsing to Ordering</h3>
 
