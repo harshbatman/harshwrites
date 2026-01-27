@@ -1918,6 +1918,48 @@ export const articles = [
         <li>ecosystem thinking</li>
       </ul>
 
+      <!-- The Learning Loop Diagram -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Learning Loop</h4>
+        
+        <div style="display: flex; gap: 1rem; justify-content: center; flex-wrap: wrap; max-width: 600px; margin: 0 auto;">
+          
+          <!-- Phase 1 -->
+          <div style="flex: 1; min-width: 120px; text-align: center; position: relative;">
+            <div style="width: 50px; height: 50px; border-radius: 50%; background: #f4f4f5; border: 2px solid #a1a1aa; color: #52525b; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px; font-weight: 600;">1</div>
+            <div style="font-size: 0.9rem; font-weight: 600; color: #3f3f46;">Assemble</div>
+            <div style="font-size: 0.75rem; color: #71717a;">"Just build it"</div>
+             <!-- Arrow -->
+             <div style="position: absolute; top: 25px; right: -20px; color: #d4d4d8; font-size: 1.2rem; transform: translateX(-50%); display: none;">b</div>
+          </div>
+
+          <!-- Arrow Visual -->
+          <div style="display: flex; align-items: center; color: #d4d4d8;">➔</div>
+
+           <!-- Phase 2 -->
+          <div style="flex: 1; min-width: 120px; text-align: center;">
+            <div style="width: 50px; height: 50px; border-radius: 50%; background: #fee2e2; border: 2px solid #ef4444; color: #ef4444; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px; font-weight: 600;">2</div>
+            <div style="font-size: 0.9rem; font-weight: 600; color: #ef4444;">Reverse Engineer</div>
+            <div style="font-size: 0.75rem; color: #71717a;">"How does it work?"</div>
+          </div>
+
+          <!-- Arrow Visual -->
+          <div style="display: flex; align-items: center; color: #d4d4d8;">➔</div>
+
+           <!-- Phase 3 -->
+          <div style="flex: 1; min-width: 120px; text-align: center;">
+            <div style="width: 50px; height: 50px; border-radius: 50%; background: #dcfce7; border: 2px solid #16a34a; color: #16a34a; display: flex; align-items: center; justify-content: center; margin: 0 auto 10px; font-weight: 600;">3</div>
+            <div style="font-size: 0.9rem; font-weight: 600; color: #16a34a;">Optimise & Own</div>
+            <div style="font-size: 0.75rem; color: #71717a;">"Build it better/cheaper"</div>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          Assembly was just tuition fee for the masterclass.
+        </p>
+      </div>
+
+
       <p>And then something predictable happened.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Copy → Improve → Outnumber</h3>
@@ -1963,6 +2005,46 @@ export const articles = [
       <p>They competed with each other brutally. Margins were sacrificed. Speed was everything.</p>
 
       <p>That internal competition did what no regulation ever could — it forced excellence.</p>
+
+      <!-- The Market Shift Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Volume Shift</h4>
+        
+        <div style="display: flex; align-items: center; justify-content: center; gap: 3rem; flex-wrap: wrap;">
+          
+          <!-- US Model -->
+          <div style="text-align: center;">
+             <div style="display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 150px; width: 100px; margin: 0 auto;">
+                <div style="width: 60px; height: 40px; background: #3f3f46; border-radius: 4px; box-shadow: 0 4px 10px rgba(0,0,0,0.1);"></div>
+             </div>
+             <div style="font-weight: 600; margin-top: 10px; color: #18181b;">US Strategy</div>
+             <div style="font-size: 0.8rem; color: #71717a;">Low Vol / High Price</div>
+          </div>
+
+          <div style="font-size: 2rem; color: #d4d4d8;">vs</div>
+
+          <!-- China Model -->
+          <div style="text-align: center;">
+             <div style="display: flex; flex-wrap: wrap; align-items: flex-end; justify-content: center; height: 150px; width: 140px; gap: 4px; padding-bottom: 0;">
+                <div style="width: 25px; height: 40px; background: #ef4444; border-radius: 2px; opacity: 0.6;"></div>
+                <div style="width: 25px; height: 40px; background: #ef4444; border-radius: 2px; opacity: 0.7;"></div>
+                <div style="width: 25px; height: 40px; background: #ef4444; border-radius: 2px; opacity: 0.8;"></div>
+                <div style="width: 25px; height: 40px; background: #ef4444; border-radius: 2px; opacity: 0.9;"></div>
+                <div style="width: 25px; height: 40px; background: #ef4444; border-radius: 2px; opacity: 0.7;"></div>
+                <div style="width: 25px; height: 40px; background: #ef4444; border-radius: 2px; opacity: 0.8;"></div>
+                <div style="width: 25px; height: 40px; background: #ef4444; border-radius: 2px; opacity: 0.6;"></div>
+                <div style="width: 25px; height: 40px; background: #ef4444; border-radius: 2px; opacity: 0.9;"></div>
+             </div>
+             <div style="font-weight: 600; margin-top: 10px; color: #18181b;">China Strategy</div>
+             <div style="font-size: 0.8rem; color: #71717a;">Massive Vol / Low Price</div>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          Quantity has a quality all its own.
+        </p>
+      </div>
+
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">And Look Around Us</h3>
 
