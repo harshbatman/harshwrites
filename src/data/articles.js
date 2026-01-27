@@ -2462,6 +2462,43 @@ export const articles = [
 
       <p>Exactly. Before Facebook, we already had platforms like Friendster and MySpace. People were already adding friends, posting photos, even customising profiles with loud music and glitter backgrounds.</p>
 
+      <!-- Social Media Evolution Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Social Media Evolution</h4>
+        
+        <div style="position: relative; max-width: 600px; margin: 0 auto; height: 180px; display: flex; align-items: center; justify-content: space-between;">
+          
+          <!-- Timeline Line -->
+          <div style="position: absolute; top: 50%; left: 0; width: 100%; height: 4px; background: #e5e7eb; transform: translateY(-50%); z-index: 0;"></div>
+
+          <!-- Friendster -->
+          <div style="position: relative; z-index: 1; text-align: center; width: 33%;">
+             <div style="width: 20px; height: 20px; background: #9ca3af; border-radius: 50%; margin: 0 auto 10px; border: 4px solid #fafafa;"></div>
+             <div style="font-weight: 600; color: #9ca3af; font-size: 0.9rem;">Friendster</div>
+             <div style="font-size: 0.8rem; color: #a1a1aa;">2002</div>
+          </div>
+
+          <!-- MySpace -->
+          <div style="position: relative; z-index: 1; text-align: center; width: 33%;">
+             <div style="width: 30px; height: 30px; background: #9ca3af; border-radius: 50%; margin: 0 auto 10px; border: 4px solid #fafafa;"></div>
+             <div style="font-weight: 600; color: #9ca3af; font-size: 0.9rem;">MySpace</div>
+             <div style="font-size: 0.8rem; color: #a1a1aa;">2003</div>
+          </div>
+
+          <!-- Facebook -->
+          <div style="position: relative; z-index: 1; text-align: center; width: 33%;">
+             <div style="width: 50px; height: 50px; background: #1877f2; border-radius: 50%; margin: 0 auto 10px; border: 4px solid #fafafa; box-shadow: 0 4px 10px rgba(24, 119, 242, 0.3); display: flex; align-items: center; justify-content: center; color: white; font-weight: 700; font-size: 1.5rem;">f</div>
+             <div style="font-weight: 700; color: #1877f2; font-size: 1rem;">Facebook</div>
+             <div style="font-size: 0.8rem; color: #2563eb; font-weight: 600;">2004</div>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 1rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          Others were first. Facebook was distinct.
+        </p>
+      </div>
+
+
       <p>But those platforms had one big flaw. They never figured out who you really were. Fake names, random usernames, anonymous vibes. Fun? Yes. Trustworthy? Not really.</p>
 
       <p>And that’s where Facebook quietly changed the game. Real names. Real colleges. Real people. Suddenly, our online identity matched our offline life.</p>
@@ -2513,6 +2550,41 @@ export const articles = [
       <p>You refresh the feed. Sometimes it’s boring. Sometimes there’s a like, a comment, a message. That unpredictability releases dopamine.</p>
 
       <p>We don’t scroll because we’re bored. We scroll because our brain is hoping.</p>
+
+      <!-- The Dopamine Loop Diagram -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Dopamine Loop</h4>
+        
+        <div style="display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; max-width: 600px; margin: 0 auto; align-items: center;">
+          
+          <!-- Step 1 -->
+          <div style="text-align: center;">
+             <div style="width: 80px; height: 80px; border-radius: 50%; border: 3px solid #e5e7eb; display: flex; align-items: center; justify-content: center; font-weight: 600; color: #52525b; margin: 0 auto 0.5rem;">Action</div>
+             <span style="font-size: 0.8rem; color: #71717a;">Pull to Refresh</span>
+          </div>
+
+          <div style="color: #a1a1aa; font-size: 1.5rem;">➔</div>
+
+          <!-- Step 2 -->
+          <div style="text-align: center;">
+             <div style="width: 90px; height: 90px; border-radius: 50%; background: #1877f2; color: white; display: flex; align-items: center; justify-content: center; font-weight: 700; margin: 0 auto 0.5rem; box-shadow: 0 4px 12px rgba(24, 119, 242, 0.2);">Reward?</div>
+             <span style="font-size: 0.8rem; color: #1877f2; font-weight: 600;">Unpredictable</span>
+          </div>
+
+          <div style="color: #a1a1aa; font-size: 1.5rem;">➔</div>
+
+          <!-- Step 3 -->
+          <div style="text-align: center;">
+             <div style="width: 80px; height: 80px; border-radius: 50%; border: 3px solid #e5e7eb; display: flex; align-items: center; justify-content: center; font-weight: 600; color: #52525b; margin: 0 auto 0.5rem;">Hook</div>
+             <span style="font-size: 0.8rem; color: #71717a;">Dopamine Hit</span>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          The exact same mechanism used in slot machines.
+        </p>
+      </div>
+
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Sean Parker’s Warning (From the Inside)</h3>
 
