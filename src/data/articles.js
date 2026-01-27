@@ -18,6 +18,8 @@ export const articles = [
 
       <p>That’s what I thought also. Looks like she doesn’t belong there… but at the same time, she clearly does.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Name That Stops You</h3>
+
       <p>Right. And that’s when I read the name—<strong>Marie Curie</strong>. Madam Curie. And trust me, after that, I stopped scrolling.</p>
 
       <p>Everyone knows her name. <strong>Nobel Prize</strong>, radiation, all that. But we never really stop and think.</p>
@@ -26,19 +28,27 @@ export const articles = [
 
       <p>And she wasn’t just present… she dominated.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Two Sciences. One Woman.</h3>
+
       <p>That’s the thing. She didn’t win one Nobel Prize. She won two. In two different sciences. <strong>Physics</strong> and <strong>Chemistry</strong>. No shortcuts. No backing. Just work.</p>
 
       <p>That hits different. Even today, that sounds impossible.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">She Refused The Money</h3>
+
       <p>You know what shocked me most? She could’ve made insane money. Patents, fame, control over <strong>radium</strong>. But she said no. She believed science belongs to all of us, not a few people with power.</p>
 
       <p>That’s rare. Especially now.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Deadly Glow</h3>
 
       <p>And here’s the darker part. She worked with radiation before safety rules existed. No gloves. No warnings. She gave her life to knowledge—literally. Her notebooks are still radioactive today.</p>
 
       <p>So the glow everyone admired… slowly killed her.</p>
 
       <p>Yes. And yet, she never complained. Never played victim. Just kept working. That’s why that photo stayed with me. One woman. Surrounded by men. Not louder. Not aggressive. Just <strong>undeniable</strong>.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">A New Definition of Greatness</h3>
 
       <p>Makes you rethink greatness.</p>
 
