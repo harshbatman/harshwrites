@@ -273,7 +273,7 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Name That Stops You</h3>
 
-      <p>Right. And that’s when I read the name—<strong>Marie Curie</strong>. Madam Curie. And trust me, after that, I stopped scrolling.</p>
+      <p>Right. And that’s when I read the name—<strong>Madam Marie Curie</strong>. Madam Curie. And trust me, after that, I stopped scrolling.</p>
 
       <p>Everyone knows her name. <strong>Nobel Prize</strong>, radiation, all that. But we never really stop and think.</p>
 
@@ -283,7 +283,7 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Two Sciences. One Woman.</h3>
 
-      <p>Let me tell you something. Everyone talks about Nobel Prizes when it comes to Marie Curie, but hardly anyone talks about what she actually discovered.</p>
+      <p>Let me tell you something. Everyone talks about Nobel Prizes when it comes to Madam Marie Curie, but hardly anyone talks about what she actually discovered.</p>
 
       <p>Yeah, that’s true. We hear “two Nobel Prizes” and stop there.</p>
 
