@@ -383,9 +383,20 @@ export const articles = [
           
           <!-- Large Computer (Mainframe) -->
           <div style="display: flex; flex-direction: column; align-items: center; min-width: 60px;">
-             <div style="width: 60px; height: 80px; background: #52525b; border-radius: 4px; margin-bottom: 12px; position: relative;">
-               <div style="position: absolute; top:4px; left:4px; right:4px; bottom: 20px; background: #3f3f46; border-radius: 2px;"></div>
-               <div style="position: absolute; bottom: 6px; left: 50%; transform: translateX(-50%); width: 4px; height: 4px; background: #10b981; border-radius: 50%;"></div>
+             <div style="width: 50px; height: 75px; background: #27272a; border: 2px solid #52525b; border-radius: 2px; margin-bottom: 12px; position: relative; display: flex; flex-direction: column; justify-content: space-evenly; padding: 3px;">
+               <!-- Rows of lights/units -->
+               <div style="height: 6px; background: #3f3f46; border-radius: 1px; width: 100%;"></div>
+               <div style="height: 6px; background: #3f3f46; border-radius: 1px; width: 100%; display: flex; gap: 2px; align-items: center; justify-content: center;">
+                 <div style="width: 3px; height: 3px; background: #ef4444; border-radius: 50%;"></div>
+                 <div style="width: 3px; height: 3px; background: #10b981; border-radius: 50%;"></div>
+               </div>
+               <div style="height: 6px; background: #3f3f46; border-radius: 1px; width: 100%;"></div>
+               <div style="height: 6px; background: #3f3f46; border-radius: 1px; width: 100%; display: flex; gap: 2px; align-items: center; justify-content: center;">
+                 <div style="width: 3px; height: 3px; background: #10b981; border-radius: 50%;"></div>
+                 <div style="width: 3px; height: 3px; background: #10b981; border-radius: 50%;"></div>
+               </div>
+                <div style="height: 6px; background: #3f3f46; border-radius: 1px; width: 100%;"></div>
+                <div style="height: 6px; background: #3f3f46; border-radius: 1px; width: 100%;"></div>
              </div>
              <span style="font-size: 0.75rem; color: #52525b; text-align: center;">Room<br/>Size</span>
           </div>
