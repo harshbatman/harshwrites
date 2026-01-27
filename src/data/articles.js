@@ -79,7 +79,7 @@ export const articles = [
       <p>The “just” part.</p>
       <p>Whenever someone says “just do this,” that’s where problems usually hide.</p>
 
-      <p>True 😄</p>
+      <p>True</p>
 
       <p>So I started digging deeper.</p>
       <p>React Native uses JavaScript and connects to native components through a bridge. That bridge is impressive, but it’s also a dependency.</p>
@@ -135,7 +135,7 @@ export const articles = [
 
       <p>And all of this thinking happened… lying in bed?</p>
 
-      <p>Yes 😂</p>
+      <p>Yes</p>
       <p>No phone. No distractions. Just thoughts.</p>
       <p>That night, I didn’t suddenly become an expert. But I made a decision.</p>
 
