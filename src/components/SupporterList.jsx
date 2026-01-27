@@ -168,7 +168,7 @@ const SupporterList = () => {
                 letterSpacing: '0.04em', // More premium letter spacing
                 fontFamily: '-apple-system, BlinkMacSystemFont, sans-serif'
             }}>
-                Shout-out to Our Supporters ❤️
+                Shout-out to Our Supporters <span className="beating-heart">❤️</span>
             </h3>
 
             {/* Scroll Area */}

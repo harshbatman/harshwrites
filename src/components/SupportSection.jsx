@@ -58,7 +58,7 @@ const SupportSection = () => {
                 <br />
                 Supporters are acknowledged on the website.
                 <br /><br />
-                Thanks for being here ❤️
+                Thanks for being here <span className="beating-heart">❤️</span>
             </p>
 
             {/* PhonePe Style Card */}
