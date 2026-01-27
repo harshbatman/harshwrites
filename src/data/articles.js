@@ -362,7 +362,7 @@ export const articles = [
 
       <p>And the funny part? Most of the people building it had no idea what they were actually setting in motion.</p>
 
-      <p>Now you might think everything started with smartphones. Or maybe with Facebook, Instagram, or the internet boom. Yeh hum sab bhi sochte hain. But if we’re being honest, the real starting point was far more boring—and far more dangerous in impact.</p>
+      <p>Now you might think everything started with smartphones. Or maybe with Facebook, Instagram, or the internet boom. But if we’re being honest, the real starting point was far more boring—and far more dangerous in impact.</p>
 
       <p>The transistor.</p>
 
