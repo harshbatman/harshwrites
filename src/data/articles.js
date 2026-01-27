@@ -1,5 +1,109 @@
 export const articles = [
   {
+    id: "flutter-vs-react-native",
+    views: 200,
+    publishDate: "2026-01-27",
+    title: "Why Flutter and Not React Native?",
+    author: "Harsh Mahto",
+    category: "Development & Career",
+    date: "January 2026",
+    image: "/flutter-vs-react-native.jpg",
+    excerpt: "Let me tell you something. A few weeks ago, when I went to bed… you know how it is. We don’t easily fall asleep. I forgot to switch off the light.",
+    content: `
+      <p>Let me tell you something. A few weeks ago, when I went to bed… you know how it is. We don’t easily fall asleep. I forgot to switch off the light.</p>
+      
+      <p>So I woke up, switched it off, came back to bed… and sleep? Nah, nowhere to be found.</p>
+
+      <p>Yeah, yeah. That phase where your brain suddenly becomes a startup incubator at 2 AM.</p>
+
+      <p>Exactly. And I couldn’t even use my mobile to watch YouTube because my phone was on charging. That’s the only reason I went to bed early in the first place.</p>
+      
+      <p>So I’m just lying there, staring at the ceiling, thinking… what have I done till now?</p>
+
+      <p>Dangerous question at night, bro. Very dangerous.</p>
+
+      <p>I know. But still. I thought—okay, we’ve done web development. Built a few projects. Doing DSA… not finished yet, but it’s a journey. It will get better with consistency.</p>
+      
+      <p>Then one thought hits me: why not start app development now?</p>
+
+      <p>Ah, that midnight motivation. So where did you start?</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Confusion: Flutter vs React Native</h3>
+
+      <p>Initially, I went the obvious route—Kotlin. Native Android. Solid, powerful, proper.</p>
+      
+      <p>But then I got to know about cross-platform development. One codebase. Both platforms. Android and iOS.</p>
+
+      <p>That’s when Flutter and React Native enter the chat.</p>
+
+      <p>Exactly. And that’s where the real confusion started.</p>
+      
+      <p>Everyone around us is like, “React Native bro, JavaScript, easy, popular.”</p>
+      
+      <p>And I’m like… hmm, sounds good. But let’s actually think.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">So why Flutter then? Why not React Native?</h3>
+
+      <p>See, let me explain the way my sleepy brain understood it.</p>
+      
+      <p>Flutter feels… complete. It doesn’t depend heavily on platform components. It brings its own rendering engine. What you design is what you get—same UI everywhere.</p>
+
+      <p>While React Native is more like… glue?</p>
+
+      <p>Exactly! React Native bridges JavaScript with native components. That bridge is powerful, but it’s also a point of pain sometimes—performance issues, third-party dependency drama, random things breaking after updates.</p>
+
+      <p>Hmm. Makes sense.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Engineering View: Dart vs JS</h3>
+
+      <p>And then there’s Dart. People complain about it, but honestly? It’s clean. Structured. Predictable.</p>
+      
+      <p>Coming from web and DSA, I actually liked how Flutter forces you to think in widgets. Everything is a widget. UI, logic, spacing—everything.</p>
+
+      <p>So it felt more… engineering-driven?</p>
+
+      <p>Yes! React Native feels very JavaScript-ish—flexible, fast to start, but sometimes messy if you’re not disciplined.</p>
+      
+      <p>Flutter feels opinionated. It pushes us into a system. That helps when we’re learning.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Performance: The Real Deal Breaker</h3>
+
+      <p>What about performance though?</p>
+
+      <p>That sealed the deal for me. Flutter compiles directly to native code. Animations are smooth. UI feels consistent.</p>
+      
+      <p>For someone like us, who wants to build real products—not just demos—that matters.</p>
+
+      <p>So the decision wasn’t about hype. It was about clarity.</p>
+
+      <p>Exactly. We already did web. React, JavaScript—those concepts aren’t going anywhere.</p>
+      
+      <p>Flutter felt like adding a new skill, not just extending the old one.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Verdict</h3>
+
+      <p>And all this… because you couldn’t sleep and your phone was charging?</p>
+
+      <p>Life-changing decisions happen at weird times, my friend.</p>
+      
+      <p>That night I decided—okay, let’s commit. Flutter it is.</p>
+      
+      <p>One codebase. Two platforms. Long-term thinking.</p>
+
+      <p>Fair enough. So what’s the takeaway?</p>
+
+      <p>Simple.</p>
+      
+      <p>React Native is great. No doubt.</p>
+      
+      <p>But for us—for our journey, our mindset, our way of learning—Flutter made more sense.</p>
+
+      <p>Not because it’s better for everyone…</p>
+
+      <p>…but because it’s better for us.</p>
+    `
+  },
+  {
     id: "how-not-to-invade-country",
     views: 500,
     publishDate: "2026-01-27",
