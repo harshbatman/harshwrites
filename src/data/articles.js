@@ -375,6 +375,66 @@ export const articles = [
       <p>They could run longer, cooler, and more reliably.</p>
       <p>That single change quietly made personal computing possible.</p>
 
+      <!-- The Shrinking Machine Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Shrinking Machine (Power vs. Size)</h4>
+        
+        <div style="display: flex; align-items: center; justify-content: space-between; gap: 8px; flex-wrap: nowrap; overflow-x: auto; padding-bottom: 1rem;">
+          
+          <!-- Large Computer (Mainframe) -->
+          <div style="display: flex; flex-direction: column; align-items: center; min-width: 60px;">
+             <div style="width: 60px; height: 80px; background: #52525b; border-radius: 4px; margin-bottom: 12px; position: relative;">
+               <div style="position: absolute; top:4px; left:4px; right:4px; bottom: 20px; background: #3f3f46; border-radius: 2px;"></div>
+               <div style="position: absolute; bottom: 6px; left: 50%; transform: translateX(-50%); width: 4px; height: 4px; background: #10b981; border-radius: 50%;"></div>
+             </div>
+             <span style="font-size: 0.75rem; color: #52525b; text-align: center;">Room<br/>Size</span>
+          </div>
+
+          <div style="font-size: 1.2rem; color: #d4d4d8;">→</div>
+
+          <!-- Desktop -->
+          <div style="display: flex; flex-direction: column; align-items: center; min-width: 50px;">
+             <div style="width: 50px; height: 40px; background: #71717a; border-radius: 4px; margin-bottom: 4px; margin-top: 40px;"></div>
+             <div style="width: 30px; height: 4px; background: #52525b; border-radius: 2px; margin-bottom: 8px;"></div>
+             <span style="font-size: 0.75rem; color: #52525b; text-align: center;">Desktop</span>
+          </div>
+
+          <div style="font-size: 1.2rem; color: #d4d4d8;">→</div>
+
+          <!-- Laptop -->
+          <div style="display: flex; flex-direction: column; align-items: center; min-width: 50px;">
+             <div style="width: 45px; height: 30px; border-bottom: 3px solid #3f3f46; border-radius: 2px; margin-bottom: 12px; position: relative; margin-top: 50px;">
+                <div style="position: absolute; bottom: 0; left: 0; width: 100%; height: 2px; background: #3f3f46;"></div>
+                <div style="width: 100%; height: 25px; background: #a1a1aa; transform: perspective(100px) rotateX(10deg); transform-origin: bottom;"></div>
+             </div>
+             <span style="font-size: 0.75rem; color: #52525b; text-align: center;">Laptop</span>
+          </div>
+
+          <div style="font-size: 1.2rem; color: #d4d4d8;">→</div>
+
+          <!-- Mobile -->
+          <div style="display: flex; flex-direction: column; align-items: center; min-width: 40px;">
+             <div style="width: 20px; height: 35px; background: #18181b; border-radius: 4px; margin-bottom: 12px; margin-top: 45px;"></div>
+             <span style="font-size: 0.75rem; color: #52525b; text-align: center;">Phone</span>
+          </div>
+
+          <div style="font-size: 1.2rem; color: #d4d4d8;">→</div>
+
+          <!-- AR/VR (Spatial) -->
+          <div style="display: flex; flex-direction: column; align-items: center; min-width: 50px;">
+             <div style="width: 40px; height: 20px; background: #18181b; border-radius: 10px; margin-bottom: 12px; margin-top: 60px; border: 2px solid #52525b; position: relative;">
+                <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); width: 30px; height: 2px; background: #2563eb; opacity: 0.8; box-shadow: 0 0 8px #2563eb;"></div>
+             </div>
+             <span style="font-size: 0.75rem; color: #18181b; font-weight: 600; text-align: center;">Spatial</span>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          Machines shrink. Intelligence grows.
+        </p>
+      </div>
+
+
       <p>And nobody at that time was thinking, “One day a toddler in a Delhi Metro will cry because his phone got taken away.” They were just trying to make machines smaller and better.</p>
 
       <p>That’s the scary part about technology, you know. Every layer feels harmless when it’s built. But stack enough layers together, and suddenly you’ve changed how humans behave, think, and even raise children.</p>
