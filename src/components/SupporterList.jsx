@@ -47,7 +47,21 @@ const SupporterList = () => {
             "Manjeet singh": 1,
             "Sammer": 2,
             "Aesha": 3,
-            "Akash Sharma": 99
+            "Akash Sharma": 99,
+
+            // 1000 Tier - Alternating Boy/Girl Order
+            "Prakash Singh": 101,          // Boy
+            "Priyanka Bhattacharya": 102, // Girl
+            "Vijay Srivastav": 103,       // Boy
+            "Kusum": 104,                 // Girl
+            "Kabir": 105,                 // Boy
+            "Bhavya": 106,                // Girl
+            "Vijay Prasad": 107,          // Boy
+            "Neha": 108,                  // Girl
+            "Satyam Tripathi": 109,       // Boy
+            "Sneha Srinivas": 110,        // Girl
+            "Vikas yadav": 111,           // Boy
+            "Mohit Kushwaha": 112         // Boy
         };
 
         return rawSupporters.map(s => ({
