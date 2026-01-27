@@ -281,6 +281,51 @@ export const articles = [
       
       <p>And she wasn’t just present… she dominated.</p>
 
+      <!-- The Solvay Conference Ratio Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Solvay Conference (1911) Ratio</h4>
+        
+        <div style="display: flex; flex-wrap: wrap; gap: 4px; justify-content: center; max-width: 400px; margin: 0 auto;">
+          <!-- 28 Men represented as dots -->
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          <div style="width: 12px; height: 12px; background: #d4d4d8; border-radius: 50%;" title="Man"></div>
+          
+          <!-- 1 Woman distinctive dot -->
+          <div style="width: 12px; height: 12px; background: #be185d; border-radius: 50%; box-shadow: 0 0 0 2px rgba(190, 24, 93, 0.2);" title="Marie Curie"></div>
+
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          One woman in the room. History didn't give her a chair; she took it.
+        </p>
+      </div>
+
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Two Sciences. One Woman.</h3>
 
       <p>Let me tell you something. Everyone talks about Nobel Prizes when it comes to Madam Marie Curie, but hardly anyone talks about what she actually discovered.</p>
@@ -316,6 +361,47 @@ export const articles = [
       <p>So when people say “she won two Nobels”…</p>
 
       <p>…they’re missing the point. She didn’t chase prizes. She changed how we understand matter itself. She discovered that the invisible has power—and that power could heal or destroy.</p>
+
+      <!-- Timeline of Defiance Graph -->
+       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Timeline of Defiance</h4>
+        
+        <div style="position: relative; max-width: 500px; margin: 0 auto; padding-left: 20px; border-left: 2px solid #e5e7eb;">
+          
+          <!-- Event 1 -->
+          <div style="position: relative; margin-bottom: 2rem;">
+            <div style="position: absolute; left: -26px; top: 0; width: 10px; height: 10px; background: #52525b; border-radius: 50%; border: 2px solid #fafafa;"></div>
+            <div style="font-weight: 700; color: #18181b; font-size: 0.9rem;">1898</div>
+            <div style="color: #52525b; font-size: 0.9rem;">Discovers Polonium & Radium</div>
+          </div>
+
+          <!-- Event 2 -->
+          <div style="position: relative; margin-bottom: 2rem;">
+            <div style="position: absolute; left: -26px; top: 0; width: 10px; height: 10px; background: #be185d; border-radius: 50%; border: 2px solid #fafafa;"></div>
+            <div style="font-weight: 700; color: #be185d; font-size: 0.9rem;">1903 (First Nobel)</div>
+            <div style="color: #52525b; font-size: 0.9rem;">Nobel Prize in Physics (Shared)</div>
+          </div>
+
+           <!-- Event 3 -->
+          <div style="position: relative; margin-bottom: 2rem;">
+            <div style="position: absolute; left: -26px; top: 0; width: 10px; height: 10px; background: #52525b; border-radius: 50%; border: 2px solid #fafafa;"></div>
+            <div style="font-weight: 700; color: #18181b; font-size: 0.9rem;">1906</div>
+            <div style="color: #52525b; font-size: 0.9rem;">Becomes First Female Professor at Sorbonne</div>
+          </div>
+
+          <!-- Event 4 -->
+          <div style="position: relative;">
+            <div style="position: absolute; left: -26px; top: 0; width: 10px; height: 10px; background: #be185d; border-radius: 50%; border: 2px solid #fafafa;"></div>
+            <div style="font-weight: 700; color: #be185d; font-size: 0.9rem;">1911 (Second Nobel)</div>
+            <div style="color: #52525b; font-size: 0.9rem;">Nobel Prize in Chemistry (Solo)</div>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          Two sciences. Two prizes. One lifetime.
+        </p>
+      </div>
+
       
       <p>That makes her story heavier.</p>
 
