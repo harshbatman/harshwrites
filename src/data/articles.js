@@ -830,6 +830,42 @@ export const articles = [
       <p>That flipped the browser war.</p>
       <p>The browser stopped being software—it became a <strong>data collection layer</strong>.</p>
 
+      <!-- The Browser War Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Browser War (Market Share Shift)</h4>
+        
+        <div style="position: relative; height: 200px; border-bottom: 2px solid #e5e7eb; border-left: 2px solid #e5e7eb; max-width: 600px; margin: 0 auto;">
+          
+          <!-- Y-Axis Labels -->
+          <span style="position: absolute; left: -30px; top: 0; font-size: 0.7rem; color: #a1a1aa;">100%</span>
+          <span style="position: absolute; left: -30px; top: 50%; font-size: 0.7rem; color: #a1a1aa;">50%</span>
+          <span style="position: absolute; left: -30px; bottom: 0; font-size: 0.7rem; color: #a1a1aa;">0%</span>
+
+          <!-- Chrome Line (Rising) -->
+          <svg style="position: absolute; top:0; left:0; width:100%; height:100%; overflow:visible;">
+             <!-- IE Path (Falling) -->
+             <path d="M0,40 Q150,60 300,180 T600,195" fill="none" stroke="#9ca3af" stroke-width="3" stroke-dasharray="5,5" />
+             <text x="10" y="30" fill="#9ca3af" font-size="12" font-weight="600">Internet Explorer</text>
+
+             <!-- Chrome Path (Rising) -->
+             <path d="M0,190 Q200,150 400,60 T600,40" fill="none" stroke="#ea4335" stroke-width="4" />
+             <text x="500" y="30" fill="#ea4335" font-size="12" font-weight="600">Chrome</text>
+          </svg>
+          
+          <!-- X-Axis Labels -->
+           <div style="position: absolute; bottom: -25px; left: 0; width: 100%; display: flex; justify-content: space-between; font-size: 0.75rem; color: #52525b;">
+             <span>2008</span>
+             <span>2012</span>
+             <span>2016</span>
+             <span>2020</span>
+             <span>2024</span>
+           </div>
+        </div>
+        <p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          Chrome didn’t just win. It erased the competition.
+        </p>
+      </div>
+
       <p>Every click, every query, every page load fed the search engine.</p>
       <p>Better data → better search → more users → even more data.</p>
 
@@ -848,6 +884,47 @@ export const articles = [
 
       <p>That’s why <strong>search is under threat</strong> for the first time in decades.</p>
       <p>If AI becomes the interface, traditional search results lose relevance.</p>
+
+      <!-- Search vs AI Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The New Search Paradigm</h4>
+        
+        <div style="display: flex; gap: 2rem; justify-content: center; align-items: center; flex-wrap: wrap;">
+          
+          <!-- Old Model -->
+          <div style="text-align: center; flex: 1; min-width: 200px;">
+             <div style="font-weight: 600; margin-bottom: 1rem; color: #52525b;">Traditional Search</div>
+             <div style="border: 2px solid #e5e7eb; padding: 1.5rem; border-radius: 8px; background: white;">
+                <div style="width: 100%; height: 8px; background: #2563eb; margin-bottom: 8px; border-radius: 4px;"></div>
+                <div style="width: 70%; height: 8px; background: #e5e7eb; margin-bottom: 16px; border-radius: 4px;"></div>
+                
+                <div style="width: 100%; height: 8px; background: #2563eb; margin-bottom: 8px; border-radius: 4px;"></div>
+                <div style="width: 60%; height: 8px; background: #e5e7eb; margin-bottom: 16px; border-radius: 4px;"></div>
+
+                <div style="width: 100%; height: 8px; background: #2563eb; margin-bottom: 8px; border-radius: 4px;"></div>
+                <div style="font-size: 0.7rem; color: #71717a; margin-top: 1rem;">10 Blue Links</div>
+             </div>
+          </div>
+
+          <!-- Arrow -->
+          <div style="color: #a1a1aa; font-size: 1.5rem;">➝</div>
+
+          <!-- New Model -->
+          <div style="text-align: center; flex: 1; min-width: 200px;">
+             <div style="font-weight: 600; margin-bottom: 1rem; color: #18181b;">Generative Answer</div>
+             <div style="border: 2px solid #18181b; padding: 1.5rem; border-radius: 8px; background: #f4f4f5;">
+                <div style="width: 90%; height: 12px; background: #18181b; margin-bottom: 8px; border-radius: 4px; margin-left: auto; margin-right: auto;"></div>
+                <div style="width: 80%; height: 12px; background: #52525b; margin-bottom: 8px; border-radius: 4px; margin-left: auto; margin-right: auto;"></div>
+                <div style="width: 60%; height: 12px; background: #71717a; margin-bottom: 8px; border-radius: 4px; margin-left: auto; margin-right: auto;"></div>
+                <div style="font-size: 0.7rem; color: #18181b; margin-top: 1rem; font-weight: 600;">Zero-Click Answer</div>
+             </div>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          From searching for links to getting the answer.
+        </p>
+      </div>
 
       <p>Which means this isn’t just an AI race.</p>
       <p>It’s a new search war—who becomes the <strong>default intelligence layer</strong>?</p>
