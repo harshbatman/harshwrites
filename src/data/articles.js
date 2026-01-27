@@ -26,7 +26,7 @@ export const articles = [
       <p>True. And usually, at that point, I’d just pick up my phone and start watching YouTube. Some random tech video, some podcast, anything.</p>
       <p>But that day, my phone was on charging. And I didn’t want to unplug it. That’s literally the only reason I went to sleep early.</p>
 
-      <p>So no YouTube, no Instagram, no distractions.</p>
+      <p>So no YouTube, no distractions.</p>
 
       <p>Exactly. Just me, the ceiling fan, and my thoughts. Dangerous combo.</p>
       <p>And that’s when I started thinking—what am I doing these days?</p>
