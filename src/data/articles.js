@@ -556,6 +556,18 @@ export const articles = [
 
       <p>And this time, the window won’t stay open forever.</p>
 
+      <p>India’s AI moment won’t be decided by demos or headlines, but by whether we treat <strong>intelligence like infrastructure</strong>.</p>
+      
+      <p>We already proved, with cheap data and UPI, that population-scale systems can be built for hundreds of millions, not just elites.</p>
+      
+      <p>Our talent is unquestioned and our market is unmatched—but talent without compute, energy, and capital at the foundation layer turns into <strong>dependency</strong>.</p>
+      
+      <p>The real choice in front of us isn’t whether AI will arrive—it already has.</p>
+      
+      <p>The choice is whether India becomes a nation that merely uses intelligence built elsewhere, or one that shapes how intelligence works for scale, language, and reality.</p>
+      
+      <p>This window won’t stay open forever, and history is clear: countries that <strong>build the base</strong> decide the future; the rest adapt to it.</p>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">AI vs Internet vs Smartphone</h3>
 
       <p>So now let’s step back. We’ve talked about layers, infrastructure, chips, energy, data. But the real question is simple:</p>
