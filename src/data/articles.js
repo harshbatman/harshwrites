@@ -344,11 +344,45 @@ export const articles = [
     image: "/transistors-to-ai.jpg",
     excerpt: "Let me tell you something. Our modern digital world didn’t arrive in one big bang. It crept in, layer by layer. And the funny part? Most of the people building it had no idea what they were actually setting in motion.",
     content: `
-      <p>Let me tell you something. Our modern digital world didn’t arrive in one big bang. It crept in, layer by layer. And the funny part? Most of the people building it had no idea what they were actually setting in motion.</p>
+      <p>I was on a recent trip to Delhi. Metro ride, peak hours. Earbuds in my ears, music on, mind somewhere else. And right in front of my seat, there’s this little boy—barely three, maybe four—crying ridiculously loud. Angry crying. The kind where you know it’s not hunger or sleep, it’s pure protest.</p> 
 
-      <p>Now you might think, that everything started with smartphones or social media. But if we’re being honest, the real starting point was far more boring and far more dangerous in impact: the <strong>transistor</strong>.</p>
+      <p>Now you might think something serious happened.</p>
+      <p>Nope.</p>
+      <p>His mother had taken her phone away.</p>
 
-      <p>Yeah. No flashy UI, no apps, no internet hype. Just a tiny electronic switch. But once we replaced vacuum tubes with transistors, suddenly machines could shrink, consume less power, and become reliable. That single change made personal computing possible.</p>
+      <p>The kid is trying to jump down from his mother’s lap, stretching his tiny hands, screaming like the world just ended. And I’m sitting there thinking—he’s so small, what does he even understand about a phone? The phone doesn’t even fit properly in his hand. Yet there he is, completely losing it.</p>
+
+      <p>And that’s when it hit me.</p>
+
+      <p>These machines… they’ve become faster, smaller, and more powerful with time. So much so that even someone who can’t form full sentences yet feels entitled to them. We’re watching a generation grow up touching glass before touching grass.</p>
+
+      <p>Let me tell you something.</p>
+      <p>Our modern digital world didn’t arrive in one big bang.</p>
+      <p>It didn’t suddenly explode with smartphones, social media, or apps shouting for our attention. It crept in. Slowly. Layer by layer. Quietly.</p>
+
+      <p>And the funny part? Most of the people building it had no idea what they were actually setting in motion.</p>
+
+      <p>Now you might think everything started with smartphones. Or maybe with Facebook, Instagram, or the internet boom. Yeh hum sab bhi sochte hain. But if we’re being honest, the real starting point was far more boring—and far more dangerous in impact.</p>
+
+      <p>The transistor.</p>
+
+      <p>Yeah, I know. No flashy UI. No apps. No Wi-Fi. Just a tiny electronic switch.</p>
+      <p>Before that, computers were monsters. Full rooms. Vacuum tubes everywhere. Massive power consumption. One wrong move and the whole thing overheats or fails. These weren’t personal machines. These were government machines. Military machines. Machines you feared.</p>
+
+      <p>But once vacuum tubes were replaced by transistors, everything changed.</p>
+      <p>Machines could shrink.</p>
+      <p>They could consume less power.</p>
+      <p>They could run longer, cooler, and more reliably.</p>
+      <p>That single change quietly made personal computing possible.</p>
+
+      <p>And nobody at that time was thinking, “One day a toddler in a Delhi Metro will cry because his phone got taken away.” They were just trying to make machines smaller and better.</p>
+
+      <p>That’s the scary part about technology, you know. Every layer feels harmless when it’s built. But stack enough layers together, and suddenly you’ve changed how humans behave, think, and even raise children.</p>
+
+      <p>So when I looked at that kid, I didn’t just see a child crying for a phone. I saw the end result of decades of engineering decisions—decisions made by people who probably never imagined their inventions would sit in the hands of a three-year-old.</p>
+
+      <p>And honestly? That’s when you realise: technology doesn’t just evolve machines.</p>
+      <p>It slowly rewires us.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Obsession With Speed</h3>
 
