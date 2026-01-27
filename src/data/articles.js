@@ -2989,6 +2989,43 @@ export const articles = [
 
       <p>Exactly. We became the world’s back office, not its factory floor. Brilliant engineers from here went abroad and built chips for other countries, while we imported the final product back.</p>
 
+      <!-- Software vs Hardware Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Great Imbalance (Exports vs. Imports)</h4>
+        
+        <div style="display: flex; gap: 2rem; justify-content: center; align-items: flex-end; height: 200px; padding-bottom: 1rem; border-bottom: 2px solid #e5e7eb;">
+          
+          <!-- Software Exports -->
+          <div style="flex: 1; max-width: 150px; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+             <div style="width: 100%; height: 85%; background: #10b981; border-radius: 4px 4px 0 0; position: relative;">
+                <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); font-weight: 700; color: #10b981;">High</div>
+             </div>
+             <span style="font-size: 0.8rem; color: #18181b; font-weight: 600; margin-top: 10px; text-align: center;">Software Exports</span>
+          </div>
+
+          <!-- Hardware Production -->
+          <div style="flex: 1; max-width: 150px; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+             <div style="width: 100%; height: 15%; background: #ef4444; border-radius: 4px 4px 0 0; position: relative;">
+                <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); font-weight: 700; color: #ef4444;">Low</div>
+             </div>
+             <span style="font-size: 0.8rem; color: #18181b; font-weight: 600; margin-top: 10px; text-align: center;">Chip Fabrication</span>
+          </div>
+
+          <!-- Electronic Imports -->
+          <div style="flex: 1; max-width: 150px; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+             <div style="width: 100%; height: 90%; background: #f59e0b; border-radius: 4px 4px 0 0; position: relative;">
+                <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); font-weight: 700; color: #f59e0b;">Massive</div>
+             </div>
+             <span style="font-size: 0.8rem; color: #18181b; font-weight: 600; margin-top: 10px; text-align: center;">Electronic Imports</span>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          We export code. We import silicon.
+        </p>
+      </div>
+
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Wake-Up Call</h3>
 
       <p>And then the global chip shortage happened…</p>
@@ -3002,6 +3039,37 @@ export const articles = [
       <p>But can we realistically catch up? Others are decades ahead.</p>
 
       <p>We don’t need to beat everyone at the cutting edge on day one. That’s the key mindset shift. Even older-node chips power cars, appliances, power grids, and defense equipment. Owning any part of the supply chain is better than owning none.</p>
+
+       <!-- Semiconductor Value Chain Graph -->
+       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Value Chain Pyramid</h4>
+        
+        <div style="display: flex; flex-direction: column; align-items: center; gap: 8px;">
+          
+          <!-- Top Layer -->
+          <div style="width: 40%; background: #18181b; color: white; padding: 12px; text-align: center; border-radius: 4px; font-weight: 600; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+            IP & Design (High Value)
+            <div style="font-size: 0.75rem; font-weight: 400; color: #a1a1aa; margin-top: 4px;">NVIDIA, ARM, Qualcomm</div>
+          </div>
+
+          <!-- Middle Layer -->
+          <div style="width: 65%; background: #3f3f46; color: white; padding: 12px; text-align: center; border-radius: 4px; font-weight: 600; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+            Fabrication (High Difficulty)
+            <div style="font-size: 0.75rem; font-weight: 400; color: #d4d4d8; margin-top: 4px;">TSMC, Samsung, Intel</div>
+          </div>
+
+          <!-- Base Layer -->
+          <div style="width: 90%; background: #52525b; color: white; padding: 12px; text-align: center; border-radius: 4px; font-weight: 600; box-shadow: 0 4px 10px rgba(0,0,0,0.1);">
+            Assembly, Testing & Packaging (Entry Point)
+            <div style="font-size: 0.75rem; font-weight: 400; color: #e4e4e7; margin-top: 4px;">Foxconn, Tata Electronics, Micron</div>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          India is starting at the base to climb to the peak.
+        </p>
+      </div>
+
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">A New Beginning?</h3>
 
