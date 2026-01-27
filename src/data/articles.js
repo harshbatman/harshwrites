@@ -387,13 +387,32 @@ export const articles = [
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Obsession With Speed</h3>
 
       <p>And then came a prediction that quietly ruled our lives for decades—<strong>Moore’s Law</strong>.</p>
-      <p>The idea that computing power would double every couple of years. Not a law of physics. Just an observation. But the entire tech industry treated it like destiny.</p>
+      
+      <p>The idea was simple: the number of transistors on a chip would roughly double every couple of years. Not a law of physics. Not a guarantee. Just an observation made early in the semiconductor age. But the entire tech industry treated it like destiny.</p>
 
-      <p>That expectation forced companies to race nonstop.</p>
-      <p>Chipmakers like Intel and AMD kept pushing CPUs faster and cheaper.</p>
-      <p>Later NVIDIA realized something even bigger—that parallel computing and GPUs would matter more than raw CPU speed.</p>
+      <p>That single expectation shaped everything.</p>
+      <p>Software got bloated because hardware would catch up.</p>
+      <p>Startups assumed compute would always get cheaper.</p>
+      <p>Ambition scaled because limitations kept moving away.</p>
 
-      <p>Which is why today, the same company that once made gaming cards is now at the center of AI power. This wasn’t planned. This was evolution.</p>
+      <p>Moore’s Law wasn’t just about speed—it was about confidence. The confidence that tomorrow’s chip would fix today’s constraints.</p>
+
+      <p>That belief forced companies into a nonstop race.</p>
+      <p>Chipmakers like Intel and AMD kept pushing CPUs faster, smaller, cheaper—packing more transistors, shrinking nodes, squeezing performance out of physics itself.</p>
+
+      <p>For decades, that was enough. Raw CPU power carried the world forward.</p>
+
+      <p>Then something changed.</p>
+
+      <p>Workloads stopped being sequential. Graphics, simulations, machine learning—these problems didn’t need one fast brain. They needed many brains working in parallel.</p>
+
+      <p>That’s when NVIDIA saw what others didn’t. GPUs weren’t just for gaming. They were transistor-dense, massively parallel machines—perfect for the next phase of computing.</p>
+
+      <p>Which is why today, the same company that once made graphics cards for gamers sits at the center of AI power. Training modern models isn’t about clock speed anymore. It’s about how many operations you can run at once, how efficiently you can move data, and how far you can still stretch Moore’s Law.</p>
+
+      <p>This wasn’t planned.</p>
+      <p>No grand roadmap.</p>
+      <p>Just evolution—transistors compounding, workloads changing, and the industry adapting around the quiet promise that started it all.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Who Controls The Power?</h3>
 
