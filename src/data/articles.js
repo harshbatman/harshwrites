@@ -7,7 +7,7 @@ export const articles = [
     author: "Harsh Mahto",
     category: "Development & Career",
     date: "January 2026",
-    image: "/flutter-vs-react-native.jpg",
+    image: "/flutter-vs-react-native.png",
     excerpt: "Let me tell you something. A few weeks ago, when I went to bed… you know how it is. We don’t easily fall asleep. I forgot to switch off the light.",
     content: `
       <p>Let me tell you something. A few weeks ago, when I went to bed… you know how it is. We don’t easily fall asleep. I forgot to switch off the light.</p>
