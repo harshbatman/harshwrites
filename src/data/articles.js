@@ -10,152 +10,156 @@ export const articles = [
     image: "/flutter-vs-react-native.png",
     excerpt: "Let me tell you something. A few weeks ago, when I went to bed… you know how it is. We don’t easily fall asleep. I forgot to switch off the light.",
     content: `
-      <p>Let me tell you something. A few weeks ago, when I went to bed… I mean actually went to bed with the intention of sleeping.</p>
-      <p>You know how it is with us—we don’t sleep easily. Body is tired, mind is fully awake.</p>
+      <p>Let me tell you something. A few weeks ago, I went to bed. I mean, I <em>actually</em> went to bed with the intention of sleeping.</p>
+      <p>You know how it is. Body is tired, but the mind? Fully awake.</p>
 
-      <p>Yeah, that time when your brain suddenly decides to replay your entire life decisions.</p>
+      <p>Oh yeah. That specific hour when your brain decides to replay every life decision you've ever made. In ultra-high definition.</p>
 
-      <p>Exactly that. And on top of it, I forgot to switch off the light.</p>
-      <p>So I wake up, switch it off, come back, lie down again. Eyes closed.</p>
+      <p>Exactly. And on top of it, I forgot to switch off the light.</p>
+      <p>So I wake up, switch it off, stumble back, lie down again. Eyes closed.</p>
       <p>Five minutes later—nothing. No sleep.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Midnight Self-Audit</h3>
 
-      <p>Classic mistake. Once you wake up properly, sleep just runs away.</p>
+      <p>Classic mistake. Once you wake up properly, the sleep train has left the station.</p>
 
-      <p>True. And usually, at that point, I’d just pick up my phone and start watching YouTube. Some random tech video, some podcast, anything.</p>
-      <p>But that day, my phone was on charging. And I didn’t want to unplug it. That’s literally the only reason I went to sleep early.</p>
+      <p>True. And usually, at that point, I’d just pick up my phone. Watch some random tech review, doom-scroll Twitter, anything.</p>
+      <p>But that night… my phone was charging across the room. And I was too lazy to get it.</p>
 
       <p>So no YouTube, no distractions.</p>
 
-      <p>Exactly. Just me, the ceiling fan, and my thoughts. Dangerous combo.</p>
-      <p>And that’s when I started thinking—what am I doing these days?</p>
-
-      <p>Ah, the midnight self-audit.</p>
+      <p>Exactly. Just me, the rhythmic sound of the ceiling fan, and my thoughts. A dangerous combination.</p>
+      <p>And that’s when it started. The self-audit.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Why App Development?</h3>
 
-      <p>Yeah. I thought—okay, we’ve done web development. Learned HTML, CSS, JavaScript. Built a few projects. Nothing huge, but enough to understand how things work.</p>
-      <p>Then DSA… still doing it. Not finished. Honestly, sometimes it feels never-ending.</p>
+      <p>I started thinking—okay, we’ve done web development. We know HTML, CSS, JavaScript. We’ve built projects. We understand the browser.</p>
+      <p>Then DSA… still doing it. It’s a grind, but necessary.</p>
 
-      <p>But it’s part of the journey.</p>
+      <p>It’s part of the journey.</p>
 
-      <p>Exactly. That’s what I told myself. It’s a journey. With consistency, it’ll get better.</p>
-      <p>But then another thought came—what next?</p>
-      <p>Why am I limiting myself to just web?</p>
+      <p>Right. But then a new thought crept in—what next?</p>
+      <p>Why am I limiting myself to just the browser?</p>
 
-      <p>And that’s where app development entered your mind.</p>
+      <p>And that’s where the idea of building apps entered the chat.</p>
 
-      <p>Yes. I suddenly thought—everywhere we look, people are on apps. Banking apps, food apps, travel apps, everything.</p>
-      <p>So why not start learning app development as well?</p>
+      <p>Yes. I looked around (mentally). Everyone is on apps. Banking, food, travel, social media. The browser is great, but the phone… the phone is personal. It’s always with you.</p>
+      <p>So why not learn to build for it?</p>
 
-      <p>Makes sense. So what was the first step?</p>
+      <p>Makes sense. But building apps isn’t simple.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Cross-Platform Dilemma</h3>
 
-      <p>Naturally, I thought of native development. Kotlin for Android. Swift for iOS.</p>
-      <p>I actually started with Kotlin. Clean language, strong ecosystem, proper Android way.</p>
+      <p>Naturally, my first instinct was native development. Kotlin for Android. Swift for iOS.</p>
+      <p>I even started with Kotlin. It’s a beautiful language. Strict, clean, strong ecosystem.</p>
 
-      <p>But then comes the reality check.</p>
+      <p>But then reality hit.</p>
 
-      <p>Exactly. Two platforms. Two languages. Two different codebases.</p>
-      <p>For someone who’s still learning, still experimenting, it felt… heavy.</p>
+      <p>Exactly. To build for everyone, I’d need to learn two completely different languages. maintain two codebases. Fix bugs twice.</p>
+      <p>For a solo developer, or a small team, that felt like… heavy lifting. Maybe too heavy.</p>
 
-      <p>And then you heard about cross-platform.</p>
+      <p>So you looked at cross-platform.</p>
 
-      <p>Yes. One codebase. Android and iOS both.</p>
-      <p>That idea itself felt powerful. Efficient. Time-saving.</p>
+      <p>Yes. The dream: Write once, run everywhere.</p>
+      <p>That promise is intoxicating. Efficient. Smart.</p>
 
-      <p>And that’s where React Native and Flutter show up.</p>
+      <p>And that’s the fork in the road: React Native vs. Flutter.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">React Native: The 'Just' Trap</h3>
 
-      <p>Right. And let me be honest—initially, React Native sounded like the obvious choice.</p>
-      <p>JavaScript. React. Familiar territory.</p>
-      <p>Everyone around us is like, “Bro, React Native is easy. Just use what you already know.”</p>
+      <p>Now, let me be honest. On paper, React Native should have been the winner.</p>
+      <p>I already knew JavaScript. I knew React. It felt safe.</p>
+      <p>Everyone said, “Bro, just use React Native. It’s just React + Native.”</p>
 
-      <p>So what made you pause?</p>
+      <p>But the “just” gave you pause.</p>
 
-      <p>The “just” part.</p>
-      <p>Whenever someone says “just do this,” that’s where problems usually hide.</p>
+      <p>Always beware of the word “just” in engineering. “Just migrate the database.” “Just add this feature.” Nothing is ever “just” anything.</p>
 
-      <p>True</p>
-
-      <p>So I started digging deeper.</p>
-      <p>React Native uses JavaScript and connects to native components through a bridge. That bridge is impressive, but it’s also a dependency.</p>
-      <p>Performance issues, third-party libraries breaking, version mismatches—it all depends on that ecosystem staying stable.</p>
-
-      <p>And Flutter?</p>
+      <p>So I dug deeper.</p>
+      <p>React Native relies on a bridge. Your JavaScript code sends messages to the Native thread. JSON goes back and forth. It’s clever, but it’s a middleman.</p>
+      <p>And in performance, the middleman is where the bottleneck lives.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Why Flutter Feels Different</h3>
 
-      <p>Flutter felt different.</p>
-      <p>It doesn’t rely heavily on native UI components. It brings its own rendering engine.</p>
-      <p>What you design in Flutter is what you see—almost pixel-perfect across platforms.</p>
+      <p>Then I looked at Flutter.</p>
+      <p>Flutter doesn’t send messages to native components. It simply... draws them.</p>
+      <p>It takes control of the pixels. A blank canvas. And it paints every single frame itself.</p>
 
-      <p>So more control.</p>
+      <p>That sounds cleaner.</p>
 
-      <p>Exactly. And consistency.</p>
-      <p>For us, that matters. Especially when we don’t want surprises like “this looks fine on Android but weird on iOS.”</p>
+      <p>It is. No bridge. No translation layer. Just code and pixels.</p>
 
-      <p>What about Dart though? Everyone complains about Dart.</p>
+      <!-- The Rendering Gap Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Architecture Difference</h4>
+        
+        <div style="display: flex; flex-direction: column; gap: 2.5rem; max-width: 500px; margin: 0 auto;">
+          
+          <!-- React Native -->
+          <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+              <span style="font-weight: 600; font-size: 0.9rem; color: #52525b;">React Native (The Bridge Model)</span>
+              <div style="display: flex; align-items: center; gap: 8px;">
+                  <div style="flex: 1; padding: 12px; background: #e4e4e7; border-radius: 8px; text-align: center; font-size: 0.8rem; color: #18181b; font-weight: 500;">JS Code</div>
+                  <div style="color: #ef4444; font-weight: bold; font-size: 1.2rem;">↔</div>
+                  <div style="flex: 1; padding: 12px; border: 2px dashed #ef4444; border-radius: 8px; text-align: center; font-size: 0.8rem; color: #ef4444; font-weight: 700; background: #fef2f2;">The Bridge</div>
+                  <div style="color: #ef4444; font-weight: bold; font-size: 1.2rem;">↔</div>
+                  <div style="flex: 1; padding: 12px; background: #e4e4e7; border-radius: 8px; text-align: center; font-size: 0.8rem; color: #18181b; font-weight: 500;">Native UI</div>
+              </div>
+              <div style="font-size: 0.75rem; color: #ef4444; text-align: center;">Async Communication (Can be slow)</div>
+          </div>
 
-      <p>Honestly? That complaint felt exaggerated.</p>
-      <p>Dart is simple. Structured. Predictable.</p>
-      <p>After dealing with JavaScript’s weird quirks, Dart actually felt… calm.</p>
+          <!-- Flutter -->
+          <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+              <span style="font-weight: 600; font-size: 0.9rem; color: #52525b;">Flutter (The Canvas Model)</span>
+              <div style="display: flex; align-items: center; gap: 8px;">
+                  <div style="flex: 1; padding: 12px; background: #e4e4e7; border-radius: 8px; text-align: center; font-size: 0.8rem; color: #18181b; font-weight: 500;">Dart Code</div>
+                  <div style="color: #10b981; font-weight: bold; font-size: 1.2rem;">→</div>
+                  <div style="flex: 2; padding: 12px; background: #10b981; border-radius: 8px; text-align: center; font-size: 0.9rem; color: white; font-weight: 700; box-shadow: 0 4px 6px -1px rgba(16, 185, 129, 0.3);">Engine (Skia/Impeller)</div>
+                  <div style="color: #10b981; font-weight: bold; font-size: 1.2rem;">→</div>
+                   <div style="flex: 1; padding: 12px; background: #e4e4e7; border-radius: 8px; text-align: center; font-size: 0.8rem; color: #18181b; font-weight: 500;">Pixels</div>
+              </div>
+              <div style="font-size: 0.75rem; color: #10b981; text-align: center;">Compiled & Direct (Always fast)</div>
+          </div>
 
-      <p>That’s an interesting way to put it.</p>
+        </div>
+        <p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          No translation. Just execution.
+        </p>
+      </div>
 
-      <p>And Flutter’s widget system—everything being a widget—at first it feels strange.</p>
-      <p>But then you realize, it forces you to think clearly. UI, layout, logic—everything is explicit.</p>
+      <p>This approach gives you consistency. What you see on Android is exactly what you see on iOS.</p>
+      <p>No “platform quirks.” No fighting with CSS differences.</p>
+
+      <p>But wait—everyone complains about Dart.</p>
+
+      <p>I know. “Why learn a new language?”</p>
+      <p>But honestly? The complaint is exaggerated.</p>
+      <p>Dart is simple. It’s structured. It’s strictly typed (but smart about it). After dealing with JavaScript’s “undefined is not a function” chaos, Dart felt… calm. Predictable.</p>
+
+      <p>And the widget system?</p>
+
+      <p>At first, it’s weird. “Everything is a widget?” Yes using code to build UI feels wrong initially.</p>
+      <p>But then you click. You realize it forces you to think in components. In trees. It makes the logic visual.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Verdict</h3>
 
-      <p>So it shapes how we think as developers.</p>
+      <p>React Native gives you flexibility. It’s the wild west. You can do anything, but you have to assemble the gun yourself.</p>
+      <p>Flutter is opinionated. It gives you the gun, the bullets, and a target range. It guides you.</p>
 
-      <p>Exactly. React Native gives flexibility, but that flexibility can turn into chaos if we’re not careful.</p>
-      <p>Flutter is opinionated. It guides us. Especially helpful when we’re still learning.</p>
+      <p>And for someone learning? Guidance is better than raw freedom.</p>
 
-      <p>What about performance and real-world apps?</p>
+      <p>Exactly.</p>
+      <p>React Native is fantastic. Massive apps use it. But for me, for this stage of my journey, Flutter felt like a better long-term investment.</p>
+      <p>It didn’t feel like I was just “porting” my web skills. It felt like I was learning a new craft.</p>
 
-      <p>That’s where Flutter really convinced me.</p>
-      <p>It compiles directly to native code. Animations are smooth. Scrolling feels natural.</p>
-      <p>For apps that need good UI and performance, Flutter just feels solid.</p>
+      <p>And all this clarity came from a sleepless night?</p>
 
-      <p>So this wasn’t about trends or hype.</p>
+      <p>Yes. Sometimes the best technical decisions aren’t made in front of a computer.</p>
+      <p>They’re made when you switch off the screens, stare at the ceiling, and let your brain actually process what you’ve learned.</p>
+      
+      <p>So, Flutter it is?</p>
 
-      <p>Not at all.</p>
-      <p>React Native is great. No disrespect. Many big apps use it successfully.</p>
-      <p>But for us, for our stage, Flutter felt like a better long-term investment.</p>
-
-      <p>Because it adds a new dimension, not just an extension.</p>
-
-      <p>Exactly. We already have web and JavaScript. React isn’t going anywhere.</p>
-      <p>Flutter felt like learning something new—new language, new framework, new way of thinking.</p>
-
-      <p>And all of this thinking happened… lying in bed?</p>
-
-      <p>Yes</p>
-      <p>No phone. No distractions. Just thoughts.</p>
-      <p>That night, I didn’t suddenly become an expert. But I made a decision.</p>
-
-      <p>And decisions matter.</p>
-
-      <p>They do.</p>
-      <p>I decided—okay, let’s start Flutter. Slowly. Consistently. No rush.</p>
-      <p>One codebase. Two platforms. Strong fundamentals.</p>
-
-      <p>So what’s the real takeaway here?</p>
-
-      <p>Simple.</p>
-      <p>There is no universal “best” framework.</p>
-      <p>React Native is great. Flutter is great. Native is great.</p>
-
-      <p>It depends on us.</p>
-
-      <p>Exactly. Our background. Our goals. Our learning style.</p>
-      <p>And sometimes, the best decisions come not from tutorials…</p>
-      <p>…but from a quiet night, a switched-off light, and a phone charging far away.</p>
+      <p>Flutter it is. Slowly. Consistently. One widget at a time.</p>
     `
   },
   {
