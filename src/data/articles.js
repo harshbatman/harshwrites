@@ -1,6 +1,8 @@
 export const articles = [
   {
     id: "transistors-to-ai",
+    views: 12500,
+    publishDate: "2026-01-28",
     title: "From Transistors to AI",
     author: "Harsh Mahto",
     category: "Technology & History",
@@ -666,6 +668,8 @@ export const articles = [
   },
   {
     id: "yuri-bezmenov-modern-politics",
+    views: 8900,
+    publishDate: "2026-01-26",
     title: "A Simple Guide to Understanding Modern Politics",
     author: "Harsh Mahto",
     category: "Politics & Society",
@@ -794,6 +798,8 @@ export const articles = [
   },
   {
     id: "netflix-zhukov-republic-day",
+    views: 4500,
+    publishDate: "2026-01-25",
     title: "I Didn’t Expect Netflix to Lead Me to Republic Day 1957",
     author: "Harsh Mahto",
     category: "History & Culture",
@@ -860,6 +866,8 @@ export const articles = [
 
   {
     id: "globalisation-tech-power",
+    views: 15000,
+    publishDate: "2023-10-01",
     title: "They Designed It. China Copied It. We Bought It.",
     author: "Harsh Mahto",
     category: "Technology & Geopolitics",
@@ -1220,6 +1228,8 @@ export const articles = [
   },
   {
     id: "manufacturing-vs-services",
+    views: 6700,
+    publishDate: "2026-01-20",
     title: "Manufacturing or Services? The Great Indian Debate",
     author: "Harsh Mahto",
     category: "Economics & Policy",
@@ -1458,6 +1468,8 @@ export const articles = [
   },
   {
     id: "how-facebook-took-over-the-world",
+    views: 9200,
+    publishDate: "2026-02-01",
     title: "How Facebook Took Over the World",
     author: "Harsh Mahto",
     category: "Technology & Culture",
@@ -1885,6 +1897,8 @@ export const articles = [
   },
   {
     id: "how-android-took-over-the-world",
+    views: 8100,
+    publishDate: "2026-03-01",
     title: "How Android Took Over the World",
     author: "Harsh Mahto",
     category: "Technology & Business",
@@ -2100,6 +2114,8 @@ export const articles = [
   },
   {
     id: "semiconductor-story-india",
+    views: 5400,
+    publishDate: "2026-04-01",
     title: "A Nation That Codes, But Doesn’t Fabricate",
     author: "Harsh Mahto",
     category: "Technology & Manufacturing",
@@ -2176,6 +2192,8 @@ export const articles = [
   },
   {
     id: "two-women-two-nations-one-frame",
+    views: 3200,
+    publishDate: "2026-01-15",
     title: "Two Women, Two Nations, One Frame",
     author: "Harsh Mahto",
     category: "History & Leadership",
@@ -2296,6 +2314,8 @@ export const articles = [
   },
   {
     id: "our-nuclear-journey-science-sanctions-self-respect",
+    views: 7800,
+    publishDate: "2026-01-24",
     title: "Our Nuclear Journey: Science, Sanctions, and Self-Respect",
     author: "Harsh Mahto",
     category: "Science & Geopolitics",
@@ -2407,6 +2427,8 @@ export const articles = [
   },
   {
     id: "story-behind-jai-jawan-jai-kisan",
+    views: 4100,
+    publishDate: "2026-01-10",
     title: "The Story Behind Jai Jawan, Jai Kisan",
     author: "Harsh Mahto",
     category: "History & Policy",
@@ -2475,6 +2497,8 @@ export const articles = [
   },
   {
     id: "data-structures-and-algorithms",
+    views: 2500,
+    publishDate: "2026-01-05",
     title: "Data Structures and Algorithms",
     author: "Harsh Mahto",
     category: "Software Engineering",

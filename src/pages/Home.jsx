@@ -1,20 +1,32 @@
 import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Search } from 'lucide-react';
+import { ArrowRight, Search, Calendar, TrendingUp, Clock } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { articles } from '../data/articles';
 
 function Home() {
     const [searchTerm, setSearchTerm] = useState('');
+    const [filter, setFilter] = useState('latest');
 
-    const filteredArticles = articles.filter(article => {
-        const searchLower = searchTerm.toLowerCase();
-        return (
-            article.title.toLowerCase().includes(searchLower) ||
-            article.excerpt.toLowerCase().includes(searchLower) ||
-            article.category.toLowerCase().includes(searchLower)
-        );
-    });
+    const filteredArticles = articles
+        .filter(article => {
+            const searchLower = searchTerm.toLowerCase();
+            return (
+                article.title.toLowerCase().includes(searchLower) ||
+                article.excerpt.toLowerCase().includes(searchLower) ||
+                article.category.toLowerCase().includes(searchLower)
+            );
+        })
+        .sort((a, b) => {
+            if (filter === 'latest') {
+                return new Date(b.publishDate) - new Date(a.publishDate);
+            } else if (filter === 'oldest') {
+                return new Date(a.publishDate) - new Date(b.publishDate);
+            } else if (filter === 'most-read') {
+                return b.views - a.views;
+            }
+            return 0;
+        });
 
     return (
         <div className="home-container">
@@ -55,6 +67,66 @@ function Home() {
                     </div>
                 </div>
             </header>
+
+            <div className="filter-tabs" style={{ display: 'flex', justifyContent: 'center', gap: '0.5rem', marginBottom: '2rem', flexWrap: 'wrap' }}>
+                <button
+                    onClick={() => setFilter('latest')}
+                    style={{
+                        padding: '0.5rem 1rem',
+                        borderRadius: 'var(--radius-FULL)',
+                        border: filter === 'latest' ? '1px solid var(--color-text-primary)' : '1px solid var(--color-border)',
+                        background: filter === 'latest' ? 'var(--color-text-primary)' : 'transparent',
+                        color: filter === 'latest' ? 'var(--color-bg)' : 'var(--color-text-secondary)',
+                        cursor: 'pointer',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '0.4rem',
+                        fontSize: '0.9rem',
+                        transition: 'all 0.2s ease',
+                        fontWeight: filter === 'latest' ? 600 : 400
+                    }}
+                >
+                    <Calendar size={14} /> Latest
+                </button>
+                <button
+                    onClick={() => setFilter('most-read')}
+                    style={{
+                        padding: '0.5rem 1rem',
+                        borderRadius: 'var(--radius-FULL)',
+                        border: filter === 'most-read' ? '1px solid var(--color-text-primary)' : '1px solid var(--color-border)',
+                        background: filter === 'most-read' ? 'var(--color-text-primary)' : 'transparent',
+                        color: filter === 'most-read' ? 'var(--color-bg)' : 'var(--color-text-secondary)',
+                        cursor: 'pointer',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '0.4rem',
+                        fontSize: '0.9rem',
+                        transition: 'all 0.2s ease',
+                        fontWeight: filter === 'most-read' ? 600 : 400
+                    }}
+                >
+                    <TrendingUp size={14} /> Most Read
+                </button>
+                <button
+                    onClick={() => setFilter('oldest')}
+                    style={{
+                        padding: '0.5rem 1rem',
+                        borderRadius: 'var(--radius-FULL)',
+                        border: filter === 'oldest' ? '1px solid var(--color-text-primary)' : '1px solid var(--color-border)',
+                        background: filter === 'oldest' ? 'var(--color-text-primary)' : 'transparent',
+                        color: filter === 'oldest' ? 'var(--color-bg)' : 'var(--color-text-secondary)',
+                        cursor: 'pointer',
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '0.4rem',
+                        fontSize: '0.9rem',
+                        transition: 'all 0.2s ease',
+                        fontWeight: filter === 'oldest' ? 600 : 400
+                    }}
+                >
+                    <Clock size={14} /> Oldest
+                </button>
+            </div>
 
             <div className="articles-grid">
                 {filteredArticles.map((article, index) => (
