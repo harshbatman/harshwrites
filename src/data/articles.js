@@ -382,6 +382,112 @@ export const articles = [
 
       <p>It makes it <strong>powerful</strong>.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">When Infrastructure Hit Real Life — Jio, Apps, and the Everyday Internet</h3>
+
+      <p>Now all of this—chips, cloud, AI, capital—sounds abstract until it hits real life.</p>
+
+      <p>Exactly. And for us, that turning point wasn’t some Silicon Valley product launch.</p>
+      <p>It was cheap data.</p>
+
+      <p>The day <strong>Jio</strong> launched, the internet stopped being a luxury and became default.</p>
+
+      <p>Unlimited data changed behavior overnight.</p>
+      <p>Video replaced text.</p>
+      <p>Apps replaced websites.</p>
+      <p>Usage exploded—not slowly, but violently.</p>
+
+      <p>This wasn’t just a telecom event.</p>
+      <p>It was an <strong>infrastructure shock</strong>.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Commerce Layer — From Browsing to Ordering</h3>
+
+      <p>Once connectivity was cheap, platforms rushed in.</p>
+
+      <p><strong>Amazon</strong> and <strong>Flipkart</strong> didn’t just sell products.</p>
+      <p>They rewired expectations—selection, speed, returns, trust.</p>
+
+      <p>Logistics became as important as software.</p>
+      <p>Warehouses, delivery partners, last-mile optimization.</p>
+
+      <p>Commerce stopped being about shops.</p>
+      <p>It became about <strong>systems</strong>.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Mobility Layer — Software Eats Transport</h3>
+
+      <p>Then came mobility.</p>
+      <p>Cars didn’t change—coordination did.</p>
+
+      <p><strong>Uber</strong> and <strong>Ola</strong> turned idle vehicles into networks.</p>
+
+      <p>Pricing became dynamic.</p>
+      <p>Drivers became supply.</p>
+      <p>Cities became data problems.</p>
+
+      <p>And again—VC money subsidized behavior change until habits locked in.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Payments Layer — Money Became Software</h3>
+
+      <p>Now here’s the most important layer—payments.</p>
+
+      <p>Because once money moves digitally, everything accelerates.</p>
+
+      <p>Globally, companies like <strong>PayPal</strong>, <strong>Square</strong>, <strong>Venmo</strong>, and <strong>Cash App</strong> normalized digital transfers.</p>
+
+      <p>On the infrastructure side, <strong>Stripe</strong> made it absurdly easy for developers to accept money.</p>
+
+      <p>And for us, <strong>Razorpay</strong> played a similar role—APIs instead of paperwork.</p>
+
+      <p>Then came the real shift.</p>
+      <p><strong>Paytm</strong>, <strong>PhonePe</strong>, and <strong>Google Pay</strong> rode on <strong>UPI</strong> and turned phones into wallets.</p>
+
+      <p>Cash didn’t disappear—but friction did.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Delivery & Instant Economy — Speed Becomes the Product</h3>
+
+      <p>Once payments and logistics were solved, the next war was time.</p>
+
+      <p>In the US, <strong>DoorDash</strong> and <strong>Instacart</strong> proved people would pay for convenience.</p>
+
+      <p>For us, food delivery platforms like <strong>Zomato</strong> and <strong>Swiggy</strong> became daily utilities.</p>
+
+      <p>Then speed went insane.</p>
+
+      <p>Quick commerce arrived.</p>
+      <p><strong>Zepto</strong>, <strong>Blinkit</strong>, <strong>Flipkart Minutes</strong>, and <strong>Swiggy Instamart</strong> made “30 minutes” feel slow.</p>
+
+      <p>This isn’t about groceries.</p>
+      <p>It’s about <strong>supply chain compression</strong>.</p>
+
+      <p>Warehouses moved closer.</p>
+      <p>Inventory became predictive.</p>
+      <p>Data decided what sits where.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Pattern Becomes Clear</h3>
+
+      <p>Look at all of this together—Jio, ecommerce, mobility, payments, delivery.</p>
+
+      <p>Same pattern every time.</p>
+
+      <p>Infrastructure first.</p>
+      <p>Then platforms.</p>
+      <p>Then habits.</p>
+
+      <p>And now AI is entering this exact system.</p>
+
+      <p>Not replacing it—but <strong>optimizing every layer</strong>.</p>
+
+      <p>Smarter pricing.</p>
+      <p>Better demand prediction.</p>
+      <p>Automated support.</p>
+      <p>AI-driven logistics.</p>
+      <p>AI-written code running the apps.</p>
+
+      <p>So when people say “AI is just another app,” they’re missing the point.</p>
+
+      <p>AI isn’t the next Zomato or Uber.</p>
+
+      <p>It’s the <strong>intelligence layer</strong> that sits above all of them.</p>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">AI vs Internet vs Smartphone</h3>
 
       <p>So now let’s step back. We’ve talked about layers, infrastructure, chips, energy, data. But the real question is simple:</p>
