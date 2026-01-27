@@ -278,33 +278,56 @@ export const articles = [
       <p>Everyone knows her name. <strong>Nobel Prize</strong>, radiation, all that. But we never really stop and think.</p>
 
       <p>Exactly. We hear “Nobel Prize” and move on. But let me tell you—this wasn’t just achievement. This was <strong>defiance</strong>. Imagine a time when science rooms were not meant for women. And still, there she was, not asking for permission.</p>
-
+      
       <p>And she wasn’t just present… she dominated.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Two Sciences. One Woman.</h3>
 
-      <p>That’s the thing. She didn’t win one Nobel Prize. She won two. In two different sciences. <strong>Physics</strong> and <strong>Chemistry</strong>. No shortcuts. No backing. Just work.</p>
+      <p>Let me tell you something. Everyone talks about Nobel Prizes when it comes to Marie Curie, but hardly anyone talks about what she actually discovered.</p>
 
-      <p>That hits different. Even today, that sounds impossible.</p>
+      <p>Yeah, that’s true. We hear “two Nobel Prizes” and stop there.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">She Refused The Money</h3>
+      <p>Exactly. But her real achievement was this—she proved that atoms are not stable. Before her, people believed atoms were solid, indivisible, done and dusted.</p>
 
-      <p>You know what shocked me most? She could’ve made insane money. Patents, fame, control over <strong>radium</strong>. But she said no. She believed science belongs to all of us, not a few people with power.</p>
+      <p>So she broke that idea?</p>
 
-      <p>That’s rare. Especially now.</p>
+      <p>Completely. While studying uranium, she noticed something strange. The radiation didn’t depend on chemical reactions. It came from the atom itself. That was revolutionary. She gave it a name—radioactivity. That word didn’t even exist before her.</p>
+
+      <p>So an entire field started from that one insight.</p>
+
+      <p>Yes. Nuclear physics, atomic theory, even cancer treatment—everything traces back to that moment.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Science Mixed with Identity</h3>
+
+      <p>But what about those elements she discovered?</p>
+
+      <p>That’s where it gets even crazier. She discovered polonium first. And she named it after Poland, her homeland, which didn’t even exist as a country at the time. Science mixed with identity.</p>
+
+      <p>That’s powerful. And radium?</p>
+
+      <p>Radium was on another level. It glowed. It released enormous energy. She isolated it by processing tons of ore by hand—no machines, no shortcuts. Radium later became essential for cancer therapy and medical science.</p>
+
+      <p>And she didn’t know it was dangerous?</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Deadly Glow</h3>
 
-      <p>And here’s the darker part. She worked with radiation before safety rules existed. No gloves. No warnings. She gave her life to knowledge—literally. Her notebooks are still radioactive today.</p>
+      <p>No one did. She carried radioactive test tubes in her pockets. No gloves. No protection. Her notebooks are still radioactive today. She paid for discovery with her health.</p>
 
-      <p>So the glow everyone admired… slowly killed her.</p>
+      <p>So when people say “she won two Nobels”…</p>
 
-      <p>Yes. And yet, she never complained. Never played victim. Just kept working. That’s why that photo stayed with me. One woman. Surrounded by men. Not louder. Not aggressive. Just <strong>undeniable</strong>.</p>
+      <p>…they’re missing the point. She didn’t chase prizes. She changed how we understand matter itself. She discovered that the invisible has power—and that power could heal or destroy.</p>
+      
+      <p>That makes her story heavier.</p>
+
+      <p>Exactly. One woman didn’t just add chapters to science—she rewrote the foundation. Everything we know about radiation today stands on her discoveries.</p>
+
+      <p>Makes you respect science more.</p>
+      
+      <p>And the people who paid the price so we, our, us could use it safely.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">A New Definition of Greatness</h3>
 
       <p>Makes you rethink greatness.</p>
-
       <p>Exactly. From a random YouTube scroll to a full stop moment. Some people don’t just change science—they change what we believe is possible for us, for our future.</p>
 
       <p>And maybe that’s the real Nobel Prize.</p>
