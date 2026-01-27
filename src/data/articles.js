@@ -1,5 +1,99 @@
 export const articles = [
   {
+    id: "how-not-to-invade-country",
+    views: 500,
+    publishDate: "2026-01-27",
+    title: "How Not to Invade a Country",
+    author: "Harsh Mahto",
+    category: "History & Strategy",
+    date: "January 2026",
+    image: "/how-not-to-invade.jpg",
+    excerpt: "Let me tell you something. Last week I was just working, normal day. I open Google search, and boom—headline pops up. “USA may put sanctions on us for buying Russian crude oil. They say we are funding the war.”",
+    content: `
+      <p>Let me tell you something. Last week I was just working, normal day. I open Google search, and boom—headline pops up.</p>
+      <p>“USA may put sanctions on us for buying Russian crude oil. They say we are funding the war.”</p>
+
+      <p>Yeah, I saw that too. And now you might think, yeah me as well, same old global pressure drama.</p>
+
+      <p>Exactly. But that headline made me pause. Not about oil. About the war itself. About how wars are actually fought—and how not to fight one.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">War is war, not a press conference</h3>
+
+      <p>People talk about morality a lot in wars.</p>
+
+      <p>Which is funny, because war is not about announcing what flag will stand on whose soil.</p>
+      <p>War is war. It’s about winning. Period.</p>
+
+      <p>Yeah, no one gives bonus points for good intentions.</p>
+
+      <p>They say everything is fair in love and war. And history proves it. If you conquer it, you conquer it. The world adjusts later.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Look at Germany, not through emotions—through results</h3>
+
+      <p>You’re going to bring Germany into this, aren’t you?</p>
+
+      <p>Of course. Look at Nazi Germany—not morally, but militarily.</p>
+      <p>The Blitzkrieg strategy. Speed. Shock. No confusion about objectives.</p>
+
+      <p>And no one today debates how Germany did it.</p>
+
+      <p>Exactly. Today we remember one fact: at one point, Germany conquered almost all of Europe.</p>
+      <p>France fell in weeks. Eastern Europe collapsed fast. That’s what decisive war looks like.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Now compare that with Russia–Ukraine</h3>
+
+      <p>So where does the Russia–Ukraine War fit into this?</p>
+
+      <p>This is where the lesson begins.</p>
+      <p>A slow invasion. Confused objectives. Long supply lines. Mixed messaging.</p>
+
+      <p>Not Blitzkrieg. More like… grindkrieg.</p>
+
+      <p>Exactly. And that’s deadly. Because prolonged wars bleed money, manpower, and defence equipment.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Putin had history books. Did he read them fully?</h3>
+
+      <p>So what lesson should Vladimir Putin have taken?</p>
+
+      <p>From Germany’s Eastern Europe operations—clarity and speed.</p>
+      <p>From France—shock and decisiveness.</p>
+      <p>From history—end wars fast, or wars end you slowly.</p>
+
+      <p>Instead, this turned into attrition.</p>
+
+      <p>And attrition favors those with global backing, deeper pockets, and time. Not those facing sanctions, isolation, and economic pressure.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Wars aren’t fought in headlines—but they’re lost there</h3>
+
+      <p>And now oil sanctions, global pressure, narratives…</p>
+
+      <p>Exactly. Modern wars are fought on battlefields but lost in economics and perception.</p>
+      <p>When others control the story, they slowly control the outcome.</p>
+
+      <p>Meanwhile, equipment gets destroyed. Soldiers get exhausted.</p>
+
+      <p>And every extra month costs billions. Tanks don’t regenerate. Trained soldiers aren’t replaceable overnight.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">So what’s the brutal truth?</h3>
+
+      <p>So what’s the real takeaway?</p>
+
+      <p>If you invade, you either do it decisively—or you don’t do it at all.</p>
+      <p>Half-measures create endless wars. Endless wars drain nations.</p>
+
+      <p>History doesn’t remember intentions.</p>
+
+      <p>History remembers results.</p>
+      <p>Germany is remembered for how fast it moved.</p>
+      <p>And today, this war is being remembered for how long it’s dragging.</p>
+
+      <p>Heavy lesson.</p>
+
+      <p>Yeah. And the cost isn’t paid in words.</p>
+      <p>It’s paid in money, manpower, and machines—every single day.</p>
+    `
+  },
+  {
     id: "marie-curie-nobel",
     views: 1200,
     publishDate: "2026-01-27",
