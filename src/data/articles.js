@@ -1605,6 +1605,46 @@ export const articles = [
       
       <p>New players don't have that baggage. They can disrupt because they have nothing to lose.</p>
 
+      <!-- AI Search War Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The New Walled Gardens (AI Search War)</h4>
+        
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem;">
+          
+          <!-- ChatGPT -->
+          <div style="background: white; padding: 1.5rem; border-radius: 8px; border: 1px solid #e5e7eb; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+             <div style="font-weight: 700; color: #10a37f; margin-bottom: 0.5rem; font-size: 1.1rem;">ChatGPT</div>
+             <div style="font-size: 0.75rem; font-weight: 600; color: #52525b; margin-bottom: 1rem;">OpenAI</div>
+             <p style="font-size: 0.85rem; color: #71717a; line-height: 1.4;">"The First Mover"</p>
+          </div>
+
+          <!-- Gemini -->
+          <div style="background: white; padding: 1.5rem; border-radius: 8px; border: 1px solid #e5e7eb; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+             <div style="font-weight: 700; color: #2563eb; margin-bottom: 0.5rem; font-size: 1.1rem;">Gemini</div>
+             <div style="font-size: 0.75rem; font-weight: 600; color: #52525b; margin-bottom: 1rem;">Google</div>
+             <p style="font-size: 0.85rem; color: #71717a; line-height: 1.4;">"The Empire Strikes Back"</p>
+          </div>
+
+          <!-- Perplexity -->
+          <div style="background: white; padding: 1.5rem; border-radius: 8px; border: 1px solid #e5e7eb; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+             <div style="font-weight: 700; color: #0891b2; margin-bottom: 0.5rem; font-size: 1.1rem;">Perplexity</div>
+             <div style="font-size: 0.75rem; font-weight: 600; color: #52525b; margin-bottom: 1rem;">Perplexity AI</div>
+             <p style="font-size: 0.85rem; color: #71717a; line-height: 1.4;">"The Knowledge Engine"</p>
+          </div>
+
+          <!-- Claude -->
+          <div style="background: white; padding: 1.5rem; border-radius: 8px; border: 1px solid #e5e7eb; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+             <div style="font-weight: 700; color: #d97706; margin-bottom: 0.5rem; font-size: 1.1rem;">Claude</div>
+             <div style="font-size: 0.75rem; font-weight: 600; color: #52525b; margin-bottom: 1rem;">Anthropic</div>
+             <p style="font-size: 0.85rem; color: #71717a; line-height: 1.4;">"The Human Touch"</p>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          Everyone wants to be your default interface.
+        </p>
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Real Story: The AI Stack</h3>
 
       <p>Let me tell you something. When people talk about AI, most of us only see the surface—chatbots, image generators, code assistants. But that’s just the application layer. The real story is much deeper.</p>
