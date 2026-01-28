@@ -18,11 +18,19 @@ export const articles = [
 
       <p>So let's rewind. Early 2000s. Climate change anxiety rising. Europe leading green energy. And Germany—very German about it—decides: "We'll engineer our way out of fossil fuels."</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Act 1: Germany Builds the Solar Dream</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Act 1: When Germany Was the Solar Superpower</h3>
+
+      <p>People forget this, but in the early 2000s, the biggest solar companies on Earth were German. Not Chinese. Not American. <strong>German</strong>.</p>
+
+      <p>Names like <strong>Q-Cells</strong>, <strong>SolarWorld</strong>, <strong>Conergy</strong>, <strong>Centrotherm</strong>.</p>
+
+      <p>Q-Cells was once the largest solar cell maker in the world. Germany wasn't experimenting — it was leading.</p>
 
       <p>Germany didn't just talk about solar. They paid for it. Heavy subsidies. Feed-in tariffs. You install solar, the government guarantees to buy your electricity at a premium.</p>
 
       <p>Which meant startups exploded. Labs turned into factories. Universities into innovation hubs. German companies became kings of solar technology, not just installation.</p>
+
+      <p>Their edge was technology: higher efficiency, better processes, world-class machines.</p>
 
       <p>Back then, "Made in Germany" on a solar panel meant efficiency, reliability, prestige. Countries copied German policy models. The world looked at Germany like, "This is the future."</p>
 
@@ -46,6 +54,30 @@ export const articles = [
 
       <p>Germany was optimizing technology. China decided to optimize scale.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Act 2.5: China Enters — With a Shopping List</h3>
+
+      <p>China didn't begin by inventing everything. They began by buying.</p>
+
+      <p>German manufacturing machines. Swiss tools. Japanese precision equipment.</p>
+
+      <p>Solar production lines from companies like <strong>Centrotherm</strong> and <strong>Manz AG</strong> were shipped straight to China.</p>
+
+      <p>And then came the uncomfortable part.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Open Secret: Reverse Engineering</h3>
+
+      <p>Chinese firms didn't just run those machines. They took them apart.</p>
+
+      <p>Every motor. Every sensor. Every software logic.</p>
+
+      <p>Local equipment makers learned fast. Improved fast. Simplified fast.</p>
+
+      <p>Within a few years, China wasn't importing solar machines anymore. They were building their own — cheaper.</p>
+
+      <p>That's how companies like <strong>Jiangsu Zhongneng</strong> and <strong>Autowell</strong> emerged.</p>
+
+      <p>Same output. Lower cost. No royalties.</p>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Act 3: The Manufacturing Avalanche</h3>
 
       <p>China poured money into factories like there was no tomorrow. Not small ones. Mega-factories.</p>
@@ -68,15 +100,40 @@ export const articles = [
 
       <p>Amazing for the planet. Terrible for German manufacturers.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Act 4: Germany Loses Its Own Game</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Rise of Chinese Solar Giants</h3>
+
+      <p>Now comes the wave everyone recognizes. Chinese manufacturers scaling like crazy:</p>
+
+      <ul style="margin: 1rem 0; padding-left: 2rem; color: #374151; line-height: 1.8;">
+        <li><strong>LONGi Green Energy</strong> – wafers king</li>
+        <li><strong>JinkoSolar</strong> – global shipments leader</li>
+        <li><strong>Trina Solar</strong></li>
+        <li><strong>JA Solar</strong></li>
+        <li><strong>Canadian Solar</strong> (ironically, mostly Chinese manufacturing)</li>
+      </ul>
+
+      <p>Vertical integration was the cheat code.</p>
+      <p>Polysilicon → wafer → cell → module → logistics.</p>
+
+      <p>Germany had good companies. China built an ecosystem.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Act 4: Germany After the Collapse — What Really Happened</h3>
+
+      <p>This part hurts.</p>
 
       <p>Here's the irony. Germany's subsidies created global demand… but China captured global supply.</p>
 
       <p>German companies couldn't compete on price. Their costs were higher. Labor expensive. Regulations strict. Scaling slower.</p>
 
-      <p>Many went bankrupt. Others got acquired. Some just shut down quietly.</p>
+      <p><strong>Q-Cells?</strong> Bankrupt. Assets bought by Hanwha (South Korea).</p>
 
-      <p>Germany still used solar—but no longer made it.</p>
+      <p><strong>SolarWorld?</strong> Collapsed. Factories shut. Thousands of jobs gone.</p>
+
+      <p><strong>Conergy?</strong> Insolvent.</p>
+
+      <p>Germany didn't lose solar usage. It lost solar manufacturing sovereignty.</p>
+
+      <p>From exporter to importer.</p>
 
       <p>Like inventing the smartphone… and then importing it from someone else.</p>
 
@@ -132,6 +189,46 @@ export const articles = [
         </p>
       </div>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">What About America, Japan, and Korea?</h3>
+
+      <p><strong>🇺🇸 United States</strong></p>
+
+      <p>America actually invested heavily in Chinese solar. Wall Street money. Private equity. Venture capital.</p>
+
+      <p>US funds helped Chinese firms scale factories faster than any German company ever could.</p>
+
+      <p>Meanwhile, American solar manufacturers like <strong>First Solar</strong> focused on niche tech, not mass silicon panels.</p>
+
+      <p>And later… America realized it had funded its own competitor.</p>
+
+      <p><strong>🇯🇵 Japan</strong></p>
+
+      <p>Japan had early leaders too. Companies like <strong>Sharp</strong> and <strong>Panasonic</strong>.</p>
+
+      <p>High quality. High cost. Slow scaling.</p>
+
+      <p>They lost on price.</p>
+
+      <p><strong>🇰🇷 South Korea</strong></p>
+
+      <p>Korea tried with <strong>Hanwha Q CELLS</strong> (after acquiring the German Q-Cells).</p>
+
+      <p>Smart move: manufacturing in Asia, branding in the West.</p>
+
+      <p>But even they rely heavily on Chinese supply chains.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Anti-Dumping — Too Little, Too Late</h3>
+
+      <p>Europe and the US eventually reacted. Anti-dumping duties. Tariffs. Import restrictions.</p>
+
+      <p>The argument: China was selling below cost using state subsidies.</p>
+
+      <p>Which was… true.</p>
+
+      <p>But by then, the damage was done. Factories were gone. Skills lost. Supply chains broken.</p>
+
+      <p>Tariffs don't rebuild ecosystems overnight.</p>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Act 6: Strategic Thinking (This Is the Real Lesson)</h3>
 
       <p>Germany thought like engineers.</p>
@@ -161,13 +258,30 @@ export const articles = [
       <p>Germany proved solar works.<br/>
       China proved solar wins.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Final Thought</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Brutal Reality</h3>
 
-      <p>So yeah, China didn't just beat Germany.</p>
-      <p>They beat Germany using German demand.</p>
+      <p>Germany innovated.</p>
+      <p>China industrialized.</p>
+      <p>America financed.</p>
+      <p>Japan perfected.</p>
+      <p>Korea adapted.</p>
+      <p><strong>But China owned.</strong></p>
 
-      <p>They didn't disrupt the solar industry overnight.</p>
-      <p>They absorbed it. Piece by piece. Factory by factory.</p>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Final Thought (This Is the Warning)</h3>
+
+      <p>Solar wasn't lost because Germany failed.</p>
+
+      <p>It was lost because China played a longer, colder, more systemic game.</p>
+
+      <p>This isn't just a solar story.</p>
+
+      <p><strong>It's a preview of batteries, EVs, semiconductors, AI hardware.</strong></p>
+
+      <p>If you only innovate… and don't scale… someone else will industrialize your future.</p>
+
+      <p>China didn't just beat Germany. They beat Germany using German demand.</p>
+
+      <p>They didn't disrupt the solar industry overnight. They absorbed it. Piece by piece. Factory by factory.</p>
 
       <p>And today, when the world installs solar…</p>
       <p>Chances are, it's powered by sunlight—</p>
