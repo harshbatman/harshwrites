@@ -437,58 +437,6 @@ export const articles = [
     `
   },
   {
-    id: "fat-to-fit",
-    views: 50,
-    publishDate: "2026-01-28",
-    title: "Fat to Fit",
-    author: "Harsh Mahto",
-    category: "Personal Growth",
-    date: "January 2026",
-    image: "/fat-to-fit.jpg",
-    excerpt: "For the last three months, I have been waking up at 4 a.m. every day and going to the ground to run. It didn't start as motivation. It started because I was tired of feeling heavy all the time.",
-    content: `
-      <p>For the last three months, I have been waking up at 4 a.m. every day and going to the ground to run. It didn't start as motivation. It started because I was tired of feeling heavy all the time.</p>
-
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The COVID Weight Gain</h3>
-
-      <p>I joined the hostel for my BTech after COVID. But I didn't gain weight here. I got fat during the COVID lockdown. There was nothing to do—no college, no movement, no routine. Just eating, sitting, using the phone, and sleeping. Slowly, the weight came on.</p>
-
-      <p>When COVID ended and college started, I joined the hostel with that same body. New place, new life, but the damage was already done.</p>
-
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Choosing My Priorities</h3>
-
-      <p>I'll be honest—I don't attend classes regularly. During this time, I decided to focus on two things only: losing weight and improving my programming skills. I felt those mattered more to me right now.</p>
-
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Gym Experiment</h3>
-
-      <p>At first, I joined a gym because that's what everyone suggests. The first few days were terrible. My muscles hurt a lot. Even normal walking felt painful.</p>
-
-      <p>Then I realized I wasn't there to build a big body. I didn't want to look like a bouncer standing outside a nightclub. I just wanted to lose weight and feel good about how I look.</p>
-
-      <p>So I quit the gym even though my membership wasn't over. It was for three months. I went exactly 24 days. I remember the number clearly.</p>
-
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Finding My Routine</h3>
-
-      <p>After that, I started running. There is a big ground in MDU, just beside the running track. It's quiet in the morning. I stay in the hostel, so I wake up silently, put my earbuds in, turn the music on, and leave before anyone notices.</p>
-
-      <p>Some days I run properly. Some days I just walk. But I show up every day. That was more important than speed or distance.</p>
-
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Results</h3>
-
-      <p>After three months, I am now seeing changes. I lost a lot of face fat and fat from all over my body. I feel much lighter now.</p>
-
-      <p>When I wear clothes, they feel better. I feel more confident wearing them. Small things, but they matter.</p>
-
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Dual Focus</h3>
-
-      <p>In the mornings, I work on my body. During the day, I work on my programming. I may not be regular in classes, but I am consistent with these two things.</p>
-
-      <p>Obesity didn't come in one day, and it won't go in one day either. But this routine—running, music, discipline—is helping me move forward.</p>
-
-      <p>That's how it started. Nothing dramatic. Just a decision to focus.</p>
-    `
-  },
-  {
     id: "flutter-vs-react-native",
     views: 200,
     publishDate: "2026-01-27",
