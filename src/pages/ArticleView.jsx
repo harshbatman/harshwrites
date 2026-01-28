@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowLeft, User, Calendar, Share2 } from 'lucide-react';
+import { ArrowLeft, User, Calendar, Share2, Eye } from 'lucide-react';
 import { articles } from '../data/articles';
 import SupportSection from '../components/SupportSection';
 import SupporterList from '../components/SupporterList';
@@ -31,6 +31,14 @@ function ArticleView() {
         );
     }
 
+    // Format views count for display
+    const formatViews = (views) => {
+        if (views >= 1000) {
+            return `${Math.floor(views / 1000)}K+`;
+        }
+        return `${views}+`;
+    };
+
     const handleShare = async () => {
         try {
             await navigator.clipboard.writeText(window.location.href);
@@ -58,7 +66,7 @@ function ArticleView() {
                 >
                     <div className="story-meta">{article.category}</div>
                     <h1 className="story-title">{article.title}</h1>
-                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1.5rem', color: '#6b7280', fontSize: '0.95rem' }}>
+                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1.5rem', color: '#6b7280', fontSize: '0.95rem', flexWrap: 'wrap' }}>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                             <img
                                 src="/harsh-mahto.jpg"
@@ -75,6 +83,9 @@ function ArticleView() {
                         </div>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                             <Calendar size={16} /> <span>{article.date}</span>
+                        </div>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                            <Eye size={16} /> <span>{formatViews(article.views)} reads</span>
                         </div>
                     </div>
                 </motion.header>

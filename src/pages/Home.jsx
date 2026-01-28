@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
-import { ArrowRight, Search, Calendar, TrendingUp, Clock } from 'lucide-react';
+import { ArrowRight, Search, Calendar, TrendingUp, Clock, Eye } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { articles } from '../data/articles';
 
@@ -12,6 +12,14 @@ function Home() {
     useEffect(() => {
         window.scrollTo(0, 0);
     }, []);
+
+    // Format views count for display
+    const formatViews = (views) => {
+        if (views >= 1000) {
+            return `${Math.floor(views / 1000)}K+`;
+        }
+        return `${views}+`;
+    };
 
     // Filter articles based on search term
     const filteredArticles = articles
@@ -163,6 +171,11 @@ function Home() {
                             <p className="card-excerpt">
                                 {article.excerpt}
                             </p>
+
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: 'var(--color-text-secondary)', fontSize: '0.85rem', marginTop: '0.75rem' }}>
+                                <Eye size={16} />
+                                <span>{formatViews(article.views)} reads</span>
+                            </div>
 
                             <Link to={`/article/${article.id}`} style={{ textDecoration: 'none', marginTop: 'auto' }}>
                                 <button className="btn" style={{ padding: '0.6rem 1.2rem', fontSize: '0.85rem' }}>
