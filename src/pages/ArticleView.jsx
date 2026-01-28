@@ -9,7 +9,32 @@ import SupporterList from '../components/SupporterList';
 function ArticleView() {
     const { id } = useParams();
     const article = articles.find(a => a.id === id);
-    // ... (rest of logic)
+    const [copied, setCopied] = useState(false);
+
+    // If article not found, show error
+    if (!article) {
+        return (
+            <div className="container" style={{ textAlign: 'center', padding: '4rem 2rem' }}>
+                <h1 style={{ fontSize: '2rem', marginBottom: '1rem' }}>Article Not Found</h1>
+                <p style={{ color: '#6b7280', marginBottom: '2rem' }}>The article you're looking for doesn't exist.</p>
+                <Link to="/" style={{ textDecoration: 'none' }}>
+                    <button className="btn">
+                        <ArrowLeft size={16} /> Back to Home
+                    </button>
+                </Link>
+            </div>
+        );
+    }
+
+    const handleShare = async () => {
+        try {
+            await navigator.clipboard.writeText(window.location.href);
+            setCopied(true);
+            setTimeout(() => setCopied(false), 2000);
+        } catch (err) {
+            console.error('Failed to copy:', err);
+        }
+    };
 
     return (
         <article className="article-view">
