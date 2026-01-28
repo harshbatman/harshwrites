@@ -1864,7 +1864,10 @@ export const articles = [
             <div style="position: absolute; left: -27px; top: 5px; width: 18px; height: 18px; background: #3b82f6; border-radius: 50%; border: 4px solid #fafafa; box-shadow: 0 0 0 2px #3b82f6;"></div>
             <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #3b82f6; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
-                <span style="font-weight: 700; color: #3b82f6; font-size: 0.95rem;">Flipkart</span>
+                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                  <span style="font-size: 1.3rem;">🛒</span>
+                  <span style="font-weight: 700; color: #3b82f6; font-size: 0.95rem;">Flipkart</span>
+                </div>
                 <span style="font-size: 0.75rem; color: #6b7280; font-weight: 600;">2007</span>
               </div>
               <div style="font-size: 0.8rem; color: #6b7280;">E-commerce • Revolutionized online shopping in India</div>
@@ -1876,7 +1879,10 @@ export const articles = [
             <div style="position: absolute; left: -27px; top: 5px; width: 18px; height: 18px; background: #10b981; border-radius: 50%; border: 4px solid #fafafa; box-shadow: 0 0 0 2px #10b981;"></div>
             <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #10b981; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
-                <span style="font-weight: 700; color: #10b981; font-size: 0.95rem;">Ola</span>
+                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                  <span style="font-size: 1.3rem;">🚕</span>
+                  <span style="font-weight: 700; color: #10b981; font-size: 0.95rem;">Ola</span>
+                </div>
                 <span style="font-size: 0.75rem; color: #6b7280; font-weight: 600;">2010</span>
               </div>
               <div style="font-size: 0.8rem; color: #6b7280;">Ride-hailing • Made cabs accessible to millions</div>
@@ -1888,7 +1894,10 @@ export const articles = [
             <div style="position: absolute; left: -27px; top: 5px; width: 18px; height: 18px; background: #0ea5e9; border-radius: 50%; border: 4px solid #fafafa; box-shadow: 0 0 0 2px #0ea5e9;"></div>
             <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #0ea5e9; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
-                <span style="font-weight: 700; color: #0ea5e9; font-size: 0.95rem;">Paytm</span>
+                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                  <span style="font-size: 1.3rem;">💳</span>
+                  <span style="font-weight: 700; color: #0ea5e9; font-size: 0.95rem;">Paytm</span>
+                </div>
                 <span style="font-size: 0.75rem; color: #6b7280; font-weight: 600;">2010</span>
               </div>
               <div style="font-size: 0.8rem; color: #6b7280;">Digital Payments • Pioneered mobile wallets</div>
@@ -1900,7 +1909,10 @@ export const articles = [
             <div style="position: absolute; left: -27px; top: 5px; width: 18px; height: 18px; background: #f97316; border-radius: 50%; border: 4px solid #fafafa; box-shadow: 0 0 0 2px #f97316;"></div>
             <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #f97316; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
-                <span style="font-weight: 700; color: #f97316; font-size: 0.95rem;">Swiggy</span>
+                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                  <span style="font-size: 1.3rem;">🍔</span>
+                  <span style="font-weight: 700; color: #f97316; font-size: 0.95rem;">Swiggy</span>
+                </div>
                 <span style="font-size: 0.75rem; color: #6b7280; font-weight: 600;">2014</span>
               </div>
               <div style="font-size: 0.8rem; color: #6b7280;">Food Delivery • Changed how India eats</div>
@@ -1912,7 +1924,10 @@ export const articles = [
             <div style="position: absolute; left: -27px; top: 5px; width: 18px; height: 18px; background: #8b5cf6; border-radius: 50%; border: 4px solid #fafafa; box-shadow: 0 0 0 2px #8b5cf6;"></div>
             <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #8b5cf6; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
-                <span style="font-weight: 700; color: #8b5cf6; font-size: 0.95rem;">PhonePe</span>
+                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                  <span style="font-size: 1.3rem;">📱</span>
+                  <span style="font-weight: 700; color: #8b5cf6; font-size: 0.95rem;">PhonePe</span>
+                </div>
                 <span style="font-size: 0.75rem; color: #6b7280; font-weight: 600;">2015</span>
               </div>
               <div style="font-size: 0.8rem; color: #6b7280;">UPI Payments • Made digital payments ubiquitous</div>
@@ -1924,7 +1939,10 @@ export const articles = [
             <div style="position: absolute; left: -27px; top: 5px; width: 18px; height: 18px; background: #6366f1; border-radius: 50%; border: 4px solid #fafafa; box-shadow: 0 0 0 2px #6366f1;"></div>
             <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #6366f1; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
-                <span style="font-weight: 700; color: #6366f1; font-size: 0.95rem;">Razorpay</span>
+                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                  <span style="font-size: 1.3rem;">⚡</span>
+                  <span style="font-weight: 700; color: #6366f1; font-size: 0.95rem;">Razorpay</span>
+                </div>
                 <span style="font-size: 0.75rem; color: #6b7280; font-weight: 600;">2014</span>
               </div>
               <div style="font-size: 0.8rem; color: #6b7280;">Payment Gateway • Enabled online businesses</div>
@@ -1936,7 +1954,10 @@ export const articles = [
             <div style="position: absolute; left: -27px; top: 5px; width: 18px; height: 18px; background: #ef4444; border-radius: 50%; border: 4px solid #fafafa; box-shadow: 0 0 0 2px #ef4444;"></div>
             <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #ef4444; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
-                <span style="font-weight: 700; color: #ef4444; font-size: 0.95rem;">Zomato</span>
+                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                  <span style="font-size: 1.3rem;">🍽️</span>
+                  <span style="font-weight: 700; color: #ef4444; font-size: 0.95rem;">Zomato</span>
+                </div>
                 <span style="font-size: 0.75rem; color: #6b7280; font-weight: 600;">2008</span>
               </div>
               <div style="font-size: 0.8rem; color: #6b7280;">Food Tech • Restaurant discovery to delivery</div>
@@ -1948,7 +1969,10 @@ export const articles = [
             <div style="position: absolute; left: -27px; top: 5px; width: 18px; height: 18px; background: #18181b; border-radius: 50%; border: 4px solid #fafafa; box-shadow: 0 0 0 2px #18181b;"></div>
             <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #18181b; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
-                <span style="font-weight: 700; color: #18181b; font-size: 0.95rem;">CRED</span>
+                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                  <span style="font-size: 1.3rem;">💎</span>
+                  <span style="font-weight: 700; color: #18181b; font-size: 0.95rem;">CRED</span>
+                </div>
                 <span style="font-size: 0.75rem; color: #6b7280; font-weight: 600;">2018</span>
               </div>
               <div style="font-size: 0.8rem; color: #6b7280;">Fintech • Rewarding credit card payments</div>
@@ -1960,7 +1984,10 @@ export const articles = [
             <div style="position: absolute; left: -27px; top: 5px; width: 18px; height: 18px; background: #ec4899; border-radius: 50%; border: 4px solid #fafafa; box-shadow: 0 0 0 2px #ec4899;"></div>
             <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #ec4899; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
-                <span style="font-weight: 700; color: #ec4899; font-size: 0.95rem;">Zepto</span>
+                <div style="display: flex; align-items: center; gap: 0.5rem;">
+                  <span style="font-size: 1.3rem;">⚡</span>
+                  <span style="font-weight: 700; color: #ec4899; font-size: 0.95rem;">Zepto</span>
+                </div>
                 <span style="font-size: 0.75rem; color: #6b7280; font-weight: 600;">2021</span>
               </div>
               <div style="font-size: 0.8rem; color: #6b7280;">Quick Commerce • 10-minute grocery delivery</div>
