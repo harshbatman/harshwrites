@@ -1645,6 +1645,48 @@ export const articles = [
         </p>
       </div>
 
+      <!-- AI Market Share Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">AI Model Usage (Global Estimated Share)</h4>
+        
+        <div style="display: flex; flex-direction: column; gap: 1rem; max-width: 600px; margin: 0 auto;">
+          
+          <!-- ChatGPT -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+             <div style="width: 80px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem;">ChatGPT</div>
+             <div style="flex: 1; background: #f4f4f5; height: 24px; border-radius: 4px; overflow: hidden; position: relative;">
+                <div style="width: 75%; height: 100%; background: #10a37f; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px;">
+                   <span style="color: white; font-size: 0.75rem; font-weight: 700;">75%</span>
+                </div>
+             </div>
+          </div>
+
+          <!-- Gemini -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+             <div style="width: 80px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem;">Gemini</div>
+             <div style="flex: 1; background: #f4f4f5; height: 24px; border-radius: 4px; overflow: hidden; position: relative;">
+                <div style="width: 15%; height: 100%; background: #2563eb; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px;">
+                   <span style="color: white; font-size: 0.75rem; font-weight: 700;">15%</span>
+                </div>
+             </div>
+          </div>
+
+          <!-- Others -->
+           <div style="display: flex; align-items: center; gap: 1rem;">
+             <div style="width: 80px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem;">Others</div>
+             <div style="flex: 1; background: #f4f4f5; height: 24px; border-radius: 4px; overflow: hidden; position: relative;">
+                <div style="width: 10%; height: 100%; background: #71717a; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px;">
+                   <span style="color: white; font-size: 0.75rem; font-weight: 700;">10%</span>
+                </div>
+             </div>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          The market is crowded, but ChatGPT is the Google of this era.
+        </p>
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Real Story: The AI Stack</h3>
 
       <p>Let me tell you something. When people talk about AI, most of us only see the surface—chatbots, image generators, code assistants. But that’s just the application layer. The real story is much deeper.</p>
