@@ -2642,126 +2642,119 @@ export const articles = [
       <div class="market-share-chart" style="margin: 3rem 0; padding: 2rem; background: #f9fafb; border-radius: 16px; border: 1px solid #e5e7eb;">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; color: #111827; letter-spacing: -0.01em;">India Smartphone Market Share</h4>
         
-        <!-- Vivo -->
-        <div style="margin-bottom: 1.25rem;">
-          <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
-            <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
-              <img src="https://www.google.com/s2/favicons?domain=vivo.com&sz=128" alt="Vivo" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
-              Vivo
+        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+          
+          <!-- Vivo -->
+          <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #ef4444; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.5rem;">
+              <img src="https://www.google.com/s2/favicons?domain=vivo.com&sz=128" alt="Vivo" style="width: 24px; height: 24px; object-fit: contain; border-radius: 4px;">
+              <span style="font-weight: 700; color: #111827; font-size: 0.9rem;">Vivo</span>
               <span style="font-size: 1.1em; opacity: 0.9;" title="China">🇨🇳</span>
-            </span>
-            <span style="font-weight: 600; color: #111827;">19.1%</span>
+            </div>
+            <div style="font-size: 1.5rem; font-weight: 700; color: #ef4444; text-align: center; margin: 0.5rem 0;">19.1%</div>
+            <div style="width: 100%; height: 6px; background: #fee2e2; border-radius: 99px; overflow: hidden;">
+              <div style="width: 95.5%; height: 100%; background: #ef4444; border-radius: 99px;"></div>
+            </div>
           </div>
-          <div style="width: 100%; height: 10px; background: #e5e7eb; border-radius: 99px; overflow: hidden;">
-            <div style="width: 19.1%; height: 100%; background: #ef4444; border-radius: 99px;"></div>
-          </div>
-        </div>
 
-        <!-- Xiaomi -->
-        <div style="margin-bottom: 1.25rem;">
-          <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
-            <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
-              <img src="https://www.google.com/s2/favicons?domain=mi.com&sz=128" alt="Xiaomi" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
-              Xiaomi
+          <!-- Xiaomi -->
+          <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #ef4444; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.5rem;">
+              <img src="https://www.google.com/s2/favicons?domain=mi.com&sz=128" alt="Xiaomi" style="width: 24px; height: 24px; object-fit: contain; border-radius: 4px;">
+              <span style="font-weight: 700; color: #111827; font-size: 0.9rem;">Xiaomi</span>
               <span style="font-size: 1.1em; opacity: 0.9;" title="China">🇨🇳</span>
-            </span>
-            <span style="font-weight: 600; color: #111827;">17.0%</span>
+            </div>
+            <div style="font-size: 1.5rem; font-weight: 700; color: #ef4444; text-align: center; margin: 0.5rem 0;">17.0%</div>
+            <div style="width: 100%; height: 6px; background: #fee2e2; border-radius: 99px; overflow: hidden;">
+              <div style="width: 85%; height: 100%; background: #ef4444; border-radius: 99px;"></div>
+            </div>
           </div>
-          <div style="width: 100%; height: 10px; background: #e5e7eb; border-radius: 99px; overflow: hidden;">
-            <div style="width: 17.0%; height: 100%; background: #ef4444; border-radius: 99px;"></div>
-          </div>
-        </div>
 
-         <!-- Realme -->
-        <div style="margin-bottom: 1.25rem;">
-          <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
-            <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
-              <img src="https://www.google.com/s2/favicons?domain=realme.com&sz=128" alt="Realme" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
-              Realme
+          <!-- Realme -->
+          <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #ef4444; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.5rem;">
+              <img src="https://www.google.com/s2/favicons?domain=realme.com&sz=128" alt="Realme" style="width: 24px; height: 24px; object-fit: contain; border-radius: 4px;">
+              <span style="font-weight: 700; color: #111827; font-size: 0.9rem;">Realme</span>
               <span style="font-size: 1.1em; opacity: 0.9;" title="China">🇨🇳</span>
-            </span>
-            <span style="font-weight: 600; color: #111827;">13.5%</span>
+            </div>
+            <div style="font-size: 1.5rem; font-weight: 700; color: #ef4444; text-align: center; margin: 0.5rem 0;">13.5%</div>
+            <div style="width: 100%; height: 6px; background: #fee2e2; border-radius: 99px; overflow: hidden;">
+              <div style="width: 67.5%; height: 100%; background: #ef4444; border-radius: 99px;"></div>
+            </div>
           </div>
-          <div style="width: 100%; height: 10px; background: #e5e7eb; border-radius: 99px; overflow: hidden;">
-            <div style="width: 13.5%; height: 100%; background: #ef4444; border-radius: 99px;"></div>
-          </div>
-        </div>
 
-         <!-- Oppo -->
-        <div style="margin-bottom: 1.25rem;">
-          <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
-            <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
-              <img src="https://www.google.com/s2/favicons?domain=oppo.com&sz=128" alt="Oppo" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
-              Oppo
+          <!-- Oppo -->
+          <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #ef4444; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.5rem;">
+              <img src="https://www.google.com/s2/favicons?domain=oppo.com&sz=128" alt="Oppo" style="width: 24px; height: 24px; object-fit: contain; border-radius: 4px;">
+              <span style="font-weight: 700; color: #111827; font-size: 0.9rem;">Oppo</span>
               <span style="font-size: 1.1em; opacity: 0.9;" title="China">🇨🇳</span>
-            </span>
-            <span style="font-weight: 600; color: #111827;">12.5%</span>
+            </div>
+            <div style="font-size: 1.5rem; font-weight: 700; color: #ef4444; text-align: center; margin: 0.5rem 0;">12.5%</div>
+            <div style="width: 100%; height: 6px; background: #fee2e2; border-radius: 99px; overflow: hidden;">
+              <div style="width: 62.5%; height: 100%; background: #ef4444; border-radius: 99px;"></div>
+            </div>
           </div>
-          <div style="width: 100%; height: 10px; background: #e5e7eb; border-radius: 99px; overflow: hidden;">
-            <div style="width: 12.5%; height: 100%; background: #ef4444; border-radius: 99px;"></div>
-          </div>
-        </div>
 
-        <!-- Samsung -->
-        <div style="margin-bottom: 1.25rem;">
-          <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
-            <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
-              <img src="https://www.google.com/s2/favicons?domain=samsung.com&sz=128" alt="Samsung" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
-              Samsung
+          <!-- Samsung -->
+          <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #3b82f6; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.5rem;">
+              <img src="https://www.google.com/s2/favicons?domain=samsung.com&sz=128" alt="Samsung" style="width: 24px; height: 24px; object-fit: contain; border-radius: 4px;">
+              <span style="font-weight: 700; color: #111827; font-size: 0.9rem;">Samsung</span>
               <span style="font-size: 1.1em; opacity: 0.9;" title="South Korea">🇰🇷</span>
-            </span>
-            <span style="font-weight: 600; color: #111827;">11.4%</span>
+            </div>
+            <div style="font-size: 1.5rem; font-weight: 700; color: #3b82f6; text-align: center; margin: 0.5rem 0;">11.4%</div>
+            <div style="width: 100%; height: 6px; background: #dbeafe; border-radius: 99px; overflow: hidden;">
+              <div style="width: 57%; height: 100%; background: #3b82f6; border-radius: 99px;"></div>
+            </div>
           </div>
-          <div style="width: 100%; height: 10px; background: #e5e7eb; border-radius: 99px; overflow: hidden;">
-            <div style="width: 11.4%; height: 100%; background: #3b82f6; border-radius: 99px;"></div>
-          </div>
-        </div>
 
-          <!-- Lava/Others -->
-        <div style="margin-bottom: 1.25rem;">
-          <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
-            <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
-               <img src="https://www.google.com/s2/favicons?domain=lavamobiles.com&sz=128" alt="Lava" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
-              Lava & Others
+          <!-- Lava & Others -->
+          <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #10b981; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.5rem;">
+              <img src="https://www.google.com/s2/favicons?domain=lavamobiles.com&sz=128" alt="Lava" style="width: 24px; height: 24px; object-fit: contain; border-radius: 4px;">
+              <span style="font-weight: 700; color: #111827; font-size: 0.9rem;">Lava & Others</span>
               <span style="font-size: 1.1em; opacity: 0.9;" title="India">🇮🇳</span>
-            </span>
-            <span style="font-weight: 600; color: #111827;">10.3%</span>
+            </div>
+            <div style="font-size: 1.5rem; font-weight: 700; color: #10b981; text-align: center; margin: 0.5rem 0;">10.3%</div>
+            <div style="width: 100%; height: 6px; background: #d1fae5; border-radius: 99px; overflow: hidden;">
+              <div style="width: 51.5%; height: 100%; background: #10b981; border-radius: 99px;"></div>
+            </div>
           </div>
-          <div style="width: 100%; height: 10px; background: #e5e7eb; border-radius: 99px; overflow: hidden;">
-            <div style="width: 10.3%; height: 100%; background: #10b981; border-radius: 99px;"></div>
-          </div>
-        </div>
 
           <!-- Apple -->
-        <div style="margin-bottom: 1.25rem;">
-          <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
-            <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
-              <img src="https://www.google.com/s2/favicons?domain=apple.com&sz=128" alt="Apple" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
-              Apple
+          <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #6b7280; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.5rem;">
+              <img src="https://www.google.com/s2/favicons?domain=apple.com&sz=128" alt="Apple" style="width: 24px; height: 24px; object-fit: contain; border-radius: 4px;">
+              <span style="font-weight: 700; color: #111827; font-size: 0.9rem;">Apple</span>
               <span style="font-size: 1.1em; opacity: 0.9;" title="USA">🇺🇸</span>
-            </span>
-            <span style="font-weight: 600; color: #111827;">10.0%</span>
+            </div>
+            <div style="font-size: 1.5rem; font-weight: 700; color: #6b7280; text-align: center; margin: 0.5rem 0;">10.0%</div>
+            <div style="width: 100%; height: 6px; background: #e5e7eb; border-radius: 99px; overflow: hidden;">
+              <div style="width: 50%; height: 100%; background: #6b7280; border-radius: 99px;"></div>
+            </div>
           </div>
-          <div style="width: 100%; height: 10px; background: #e5e7eb; border-radius: 99px; overflow: hidden;">
-            <div style="width: 10.0%; height: 100%; background: #6b7280; border-radius: 99px;"></div>
-          </div>
-        </div>
 
-            <!-- Motorola -->
-        <div style="margin-bottom: 0;">
-          <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.95rem;">
-            <span style="font-weight: 600; display: flex; align-items: center; gap: 8px; color: #374151;">
-              <img src="https://www.google.com/s2/favicons?domain=motorola.com&sz=128" alt="Motorola" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
-              Motorola (Lenovo)
+          <!-- Motorola -->
+          <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #ef4444; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.5rem;">
+              <img src="https://www.google.com/s2/favicons?domain=motorola.com&sz=128" alt="Motorola" style="width: 24px; height: 24px; object-fit: contain; border-radius: 4px;">
+              <span style="font-weight: 700; color: #111827; font-size: 0.9rem;">Motorola</span>
               <span style="font-size: 1.1em; opacity: 0.9;" title="China">🇨🇳</span>
-            </span>
-            <span style="font-weight: 600; color: #111827;">6.2%</span>
+            </div>
+            <div style="font-size: 1.5rem; font-weight: 700; color: #ef4444; text-align: center; margin: 0.5rem 0;">6.2%</div>
+            <div style="width: 100%; height: 6px; background: #fee2e2; border-radius: 99px; overflow: hidden;">
+              <div style="width: 31%; height: 100%; background: #ef4444; border-radius: 99px;"></div>
+            </div>
           </div>
-          <div style="width: 100%; height: 10px; background: #e5e7eb; border-radius: 99px; overflow: hidden;">
-            <div style="width: 6.2%; height: 100%; background: #ef4444; border-radius: 99px;"></div>
-          </div>
+
         </div>
 
+        <div style="margin-top: 1.5rem; padding: 1rem; background: #fff3cd; border-left: 4px solid #ffc107; border-radius: 4px;">
+          <p style="margin: 0; font-size: 0.85rem; color: #856404; line-height: 1.6;">
+            <strong>Chinese brands dominate:</strong> 68.3% combined market share (Vivo, Xiaomi, Realme, Oppo, Motorola)
+          </p>
+        </div>
       </div>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Semiconductors: Same Story, Higher Stakes</h3>
