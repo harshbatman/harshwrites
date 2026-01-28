@@ -1120,9 +1120,24 @@ export const articles = [
 
         </div>
         <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
-          From thousands to billions—Moore’s Law in action.
+          <p>From thousands to billions—Moore’s Law in action.</p>
         </p>
       </div>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Personal Computer Revolution</h3>
+
+      <p>Once chips became small enough and cheap enough, they stopped being just for labs. They entered our homes.</p>
+
+      <p>This was the birth of the <strong>Personal Computer</strong>.</p>
+
+      <p><strong>IBM</strong> set the standard. They built the machine that businesses trusted. "Big Blue" made computing serious.</p>
+
+      <p>Then came a different kind of company—<strong>Apple</strong>.</p>
+      <p>Steve Jobs didn't care about enterprise servers. He cared about the person sitting in front of the screen. The Macintosh wasn't just a computer; it was a bicycle for the mind.</p>
+
+      <p>And later, <strong>Dell</strong> changed the game again—not by inventing new tech, but by reinventing how we buy it. Direct to consumer. Custom built. Efficiency became the product.</p>
+
+      <p>Suddenly, the world went from having zero computers to having a computer on every desk.</p>
 
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Who Controls The Power?</h3>
