@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { ArrowRight, Search, Calendar, TrendingUp, Clock } from 'lucide-react';
 import { Link } from 'react-router-dom';
@@ -7,6 +7,11 @@ import { articles } from '../data/articles';
 function Home() {
     const [searchTerm, setSearchTerm] = useState('');
     const [filter, setFilter] = useState('latest');
+
+    // Scroll to top when home page loads
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, []);
 
     // Filter articles based on search term
     const filteredArticles = articles

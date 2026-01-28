@@ -11,6 +11,11 @@ function ArticleView() {
     const article = articles.find(a => a.id === id);
     const [copied, setCopied] = useState(false);
 
+    // Scroll to top when article loads or changes
+    useEffect(() => {
+        window.scrollTo(0, 0);
+    }, [id]);
+
     // If article not found, show error
     if (!article) {
         return (
