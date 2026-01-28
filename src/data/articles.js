@@ -1201,6 +1201,52 @@ export const articles = [
       <p>That speed and accuracy won.</p>
       <p>Google didn't just win the search war. It became the internet's front page.</p>
 
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Takeover (Market Share Flip)</h4>
+        
+        <div style="display: flex; gap: 2rem; justify-content: center; max-width: 600px; margin: 0 auto;">
+          
+          <!-- 2000 Era -->
+          <div style="flex: 1; text-align: center;">
+             <div style="margin-bottom: 1rem; font-weight: 700; color: #52525b;">Year 2000</div>
+             <div style="height: 150px; display: flex; align-items: flex-end; justify-content: center; gap: 8px;">
+                <!-- Yahoo -->
+                <div style="width: 40px; height: 80%; background: #7e22ce; border-radius: 4px 4px 0 0; position: relative;" title="Yahoo">
+                   <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); color: #7e22ce; font-weight: 700; font-size: 0.8rem;">Yahoo</div>
+                </div>
+                <!-- Google -->
+                <div style="width: 40px; height: 10%; background: #2563eb; border-radius: 4px 4px 0 0; position: relative;" title="Google">
+                  <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); color: #2563eb; font-weight: 700; font-size: 0.8rem;">Google</div>
+                </div>
+             </div>
+             <div style="font-size: 0.8rem; color: #71717a; margin-top: 10px;">The Directory Era</div>
+          </div>
+
+          <!-- Divider -->
+          <div style="width: 1px; height: 180px; background: #e5e7eb;"></div>
+
+          <!-- 2010 Era -->
+           <div style="flex: 1; text-align: center;">
+             <div style="margin-bottom: 1rem; font-weight: 700; color: #52525b;">Year 2010</div>
+             <div style="height: 150px; display: flex; align-items: flex-end; justify-content: center; gap: 8px;">
+                <!-- Yahoo -->
+                <div style="width: 40px; height: 15%; background: #7e22ce; border-radius: 4px 4px 0 0; position: relative;" title="Yahoo">
+                    <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); color: #7e22ce; font-weight: 700; font-size: 0.8rem;">Yahoo</div>
+                </div>
+                <!-- Google -->
+                <div style="width: 40px; height: 90%; background: #2563eb; border-radius: 4px 4px 0 0; position: relative;" title="Google">
+                    <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); color: #2563eb; font-weight: 700; font-size: 0.8rem;">Google</div>
+                </div>
+             </div>
+             <div style="font-size: 0.8rem; color: #71717a; margin-top: 10px;">The Algorithm Era</div>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          Algorithms scale. Humans don't.
+        </p>
+      </div>
+
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Web 2.0: We Became The Product</h3>
 
