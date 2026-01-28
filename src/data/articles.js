@@ -1179,6 +1179,42 @@ export const articles = [
       
       <p>Microsoft won the first Browser War. But in doing so, they focused so hard on killing Netscape that they missed the next big thing rising quietly in the background.</p>
 
+      <!-- The Browser War Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Browser War (Market Share Shift)</h4>
+        
+        <div style="position: relative; height: 200px; border-bottom: 2px solid #e5e7eb; border-left: 2px solid #e5e7eb; max-width: 600px; margin: 0 auto;">
+          
+          <!-- Y-Axis Labels -->
+          <span style="position: absolute; left: -30px; top: 0; font-size: 0.7rem; color: #a1a1aa;">100%</span>
+          <span style="position: absolute; left: -30px; top: 50%; font-size: 0.7rem; color: #a1a1aa;">50%</span>
+          <span style="position: absolute; left: -30px; bottom: 0; font-size: 0.7rem; color: #a1a1aa;">0%</span>
+
+          <!-- Chrome Line (Rising) -->
+          <svg style="position: absolute; top:0; left:0; width:100%; height:100%; overflow:visible;">
+             <!-- IE Path (Falling) -->
+             <path d="M0,40 Q150,60 300,180 T600,195" fill="none" stroke="#9ca3af" stroke-width="3" stroke-dasharray="5,5" />
+             <text x="10" y="30" fill="#9ca3af" font-size="12" font-weight="600">Internet Explorer</text>
+
+             <!-- Chrome Path (Rising) -->
+             <path d="M0,190 Q200,150 400,60 T600,40" fill="none" stroke="#ea4335" stroke-width="4" />
+             <text x="500" y="30" fill="#ea4335" font-size="12" font-weight="600">Chrome</text>
+          </svg>
+          
+          <!-- X-Axis Labels -->
+           <div style="position: absolute; bottom: -25px; left: 0; width: 100%; display: flex; justify-content: space-between; font-size: 0.75rem; color: #52525b;">
+             <span>2008</span>
+             <span>2012</span>
+             <span>2016</span>
+             <span>2020</span>
+             <span>2024</span>
+           </div>
+        </div>
+        <p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          Chrome didn’t just win. It erased the competition.
+        </p>
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Search Engine Wars: Yahoo vs. Google</h3>
 
       <p>While Microsoft was fighting for the <em>software</em> to browse the web, others were fighting for how to <em>find</em> things on it.</p>
@@ -1602,141 +1638,7 @@ export const articles = [
       </div>
 
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Search War & Browser War — Who Controls the Doorway</h3>
 
-      <p>Before AI, before social media dominance, there was another quiet battle most of us didn’t notice at the time—the search war and the browser war.</p>
-
-      <p>Yeah, now you might think—<em>browser matlab bas software hi toh hai</em>.</p>
-      <p>But browsers and search engines aren’t tools. They’re <strong>gatekeepers</strong>.</p>
-
-      <p>Whoever controls the browser controls the default path to the internet.</p>
-      <p>And whoever controls search controls what gets discovered and what stays invisible.</p>
-
-      <p>Back in the day, the browser war looked simple.</p>
-      <p><strong>Microsoft</strong> pushed Internet Explorer with Windows. It was everywhere because Windows was everywhere.</p>
-
-      <p>Distribution beat quality.</p>
-      <p>Most people didn’t choose a browser. It came pre-installed.</p>
-
-      <p>But then came <strong>Google</strong> with a different playbook.</p>
-      <p>They didn’t start with a browser. They started with search.</p>
-
-      <p>And that was genius.</p>
-      <p>Search wasn’t about control—it was about usefulness.</p>
-      <p>Type a question, get a clean answer. No clutter.</p>
-
-      <p>Once search became habit, Google launched <strong>Chrome</strong>.</p>
-      <p>Fast. Minimal. Tied directly to search and data.</p>
-
-      <p>That flipped the browser war.</p>
-      <p>The browser stopped being software—it became a <strong>data collection layer</strong>.</p>
-
-      <!-- The Browser War Graph -->
-      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
-        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Browser War (Market Share Shift)</h4>
-        
-        <div style="position: relative; height: 200px; border-bottom: 2px solid #e5e7eb; border-left: 2px solid #e5e7eb; max-width: 600px; margin: 0 auto;">
-          
-          <!-- Y-Axis Labels -->
-          <span style="position: absolute; left: -30px; top: 0; font-size: 0.7rem; color: #a1a1aa;">100%</span>
-          <span style="position: absolute; left: -30px; top: 50%; font-size: 0.7rem; color: #a1a1aa;">50%</span>
-          <span style="position: absolute; left: -30px; bottom: 0; font-size: 0.7rem; color: #a1a1aa;">0%</span>
-
-          <!-- Chrome Line (Rising) -->
-          <svg style="position: absolute; top:0; left:0; width:100%; height:100%; overflow:visible;">
-             <!-- IE Path (Falling) -->
-             <path d="M0,40 Q150,60 300,180 T600,195" fill="none" stroke="#9ca3af" stroke-width="3" stroke-dasharray="5,5" />
-             <text x="10" y="30" fill="#9ca3af" font-size="12" font-weight="600">Internet Explorer</text>
-
-             <!-- Chrome Path (Rising) -->
-             <path d="M0,190 Q200,150 400,60 T600,40" fill="none" stroke="#ea4335" stroke-width="4" />
-             <text x="500" y="30" fill="#ea4335" font-size="12" font-weight="600">Chrome</text>
-          </svg>
-          
-          <!-- X-Axis Labels -->
-           <div style="position: absolute; bottom: -25px; left: 0; width: 100%; display: flex; justify-content: space-between; font-size: 0.75rem; color: #52525b;">
-             <span>2008</span>
-             <span>2012</span>
-             <span>2016</span>
-             <span>2020</span>
-             <span>2024</span>
-           </div>
-        </div>
-        <p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
-          Chrome didn’t just win. It erased the competition.
-        </p>
-      </div>
-
-      <p>Every click, every query, every page load fed the search engine.</p>
-      <p>Better data → better search → more users → even more data.</p>
-
-      <p>A perfect loop.</p>
-      <p>This wasn’t about winning users once. It was about <strong>locking in behavior</strong>.</p>
-
-      <p>And this matters because AI didn’t arrive on neutral ground.</p>
-      <p>It arrived on top of search dominance and browser dominance.</p>
-
-      <p>Exactly.</p>
-      <p>Search trained us to ask questions.</p>
-      <p>AI now answers them directly.</p>
-
-      <p>Earlier, we clicked links.</p>
-      <p>Now we might not click anything at all.</p>
-
-      <p>That’s why <strong>search is under threat</strong> for the first time in decades.</p>
-      <p>If AI becomes the interface, traditional search results lose relevance.</p>
-
-      <!-- Search vs AI Graph -->
-      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
-        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The New Search Paradigm</h4>
-        
-        <div style="display: flex; gap: 2rem; justify-content: center; align-items: center; flex-wrap: wrap;">
-          
-          <!-- Old Model -->
-          <div style="text-align: center; flex: 1; min-width: 200px;">
-             <div style="font-weight: 600; margin-bottom: 1rem; color: #52525b;">Traditional Search</div>
-             <div style="border: 2px solid #e5e7eb; padding: 1.5rem; border-radius: 8px; background: white;">
-                <div style="width: 100%; height: 8px; background: #2563eb; margin-bottom: 8px; border-radius: 4px;"></div>
-                <div style="width: 70%; height: 8px; background: #e5e7eb; margin-bottom: 16px; border-radius: 4px;"></div>
-                
-                <div style="width: 100%; height: 8px; background: #2563eb; margin-bottom: 8px; border-radius: 4px;"></div>
-                <div style="width: 60%; height: 8px; background: #e5e7eb; margin-bottom: 16px; border-radius: 4px;"></div>
-
-                <div style="width: 100%; height: 8px; background: #2563eb; margin-bottom: 8px; border-radius: 4px;"></div>
-                <div style="font-size: 0.7rem; color: #71717a; margin-top: 1rem;">10 Blue Links</div>
-             </div>
-          </div>
-
-          <!-- Arrow -->
-          <div style="color: #a1a1aa; font-size: 1.5rem;">➝</div>
-
-          <!-- New Model -->
-          <div style="text-align: center; flex: 1; min-width: 200px;">
-             <div style="font-weight: 600; margin-bottom: 1rem; color: #18181b;">Generative Answer</div>
-             <div style="border: 2px solid #18181b; padding: 1.5rem; border-radius: 8px; background: #f4f4f5;">
-                <div style="width: 90%; height: 12px; background: #18181b; margin-bottom: 8px; border-radius: 4px; margin-left: auto; margin-right: auto;"></div>
-                <div style="width: 80%; height: 12px; background: #52525b; margin-bottom: 8px; border-radius: 4px; margin-left: auto; margin-right: auto;"></div>
-                <div style="width: 60%; height: 12px; background: #71717a; margin-bottom: 8px; border-radius: 4px; margin-left: auto; margin-right: auto;"></div>
-                <div style="font-size: 0.7rem; color: #18181b; margin-top: 1rem; font-weight: 600;">Zero-Click Answer</div>
-             </div>
-          </div>
-
-        </div>
-        <p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
-          From searching for links to getting the answer.
-        </p>
-      </div>
-
-      <p>Which means this isn’t just an AI race.</p>
-      <p>It’s a new search war—who becomes the <strong>default intelligence layer</strong>?</p>
-
-      <p>Browsers, operating systems, AI assistants—</p>
-      <p>They’re all fighting to be the first place we ask.</p>
-
-      <p>Because history shows one thing clearly:</p>
-      <p>Whoever owns the doorway doesn’t just shape traffic—</p>
-
-      <p>—they shape reality.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Venture Capital Layer — Fueling Speed, Not Certainty</h3>
 
