@@ -1163,6 +1163,45 @@ export const articles = [
       <p>The dot-com bubble burst.</p>
       <p>Startups died. Jobs vanished. Investors learned the hard way that technology doesn’t erase economics.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Browser Wars: The Window to the Web</h3>
+
+      <p>But before the crash, there was another war. The war for the "window".</p>
+      
+      <p>You see, the internet needs a viewer. We call it a <strong>browser</strong>.</p>
+      
+      <p>In the mid-90s, <strong>Netscape Navigator</strong> was the king. It was <em>the</em> way people went online. It controlled the experience.</p>
+      
+      <p>Microsoft saw this and panicked. If Netscape becomes the platform, Windows becomes irrelevant.</p>
+      
+      <p>So Bill Gates did something ruthless. He created <strong>Internet Explorer</strong> and bundled it with every copy of Windows. Free. Instant. Everywhere.</p>
+      
+      <p>Netscape couldn't compete with "free" and "already installed." They got crushed.</p>
+      
+      <p>Microsoft won the first Browser War. But in doing so, they focused so hard on killing Netscape that they missed the next big thing rising quietly in the background.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Search Engine Wars: Yahoo vs. Google</h3>
+
+      <p>While Microsoft was fighting for the <em>software</em> to browse the web, others were fighting for how to <em>find</em> things on it.</p>
+      
+      <p>At first, there was <strong>Yahoo!</strong>. It wasn't an algorithm. It was a directory. Humans sat in rooms and manually categorized websites. "Sports", "News", "Business". It worked when the web was small.</p>
+      
+      <p>Then came <strong>AltaVista</strong>. Spiders crawling the web automatically. But it was messy. You searched for "cars" and got spam, porn, and random junk.</p>
+      
+      <p>Then two PhD students at Stanford, Larry Page and Sergey Brin, had a different idea.</p>
+      
+      <p>What if links were votes?</p>
+      
+      <p>If Site A links to Site B, that's a vote of confidence. The more important Site A is, the more its vote counts.</p>
+      
+      <p>They called it <strong>PageRank</strong>.</p>
+      
+      <p>When Google launched in 1998, it looked different. No news. No weather. No clutter. Just a logo and a search box.</p>
+      <p>It didn't try to keep you on the site like Yahoo. It tried to get you <em>off</em> the site as fast as possible—to the right answer.</p>
+      
+      <p>That speed and accuracy won.</p>
+      <p>Google didn't just win the search war. It became the internet's front page.</p>
+
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Web 2.0: We Became The Product</h3>
 
       <p>And here’s the irony—people said the internet failed.</p>
