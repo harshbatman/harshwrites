@@ -1168,6 +1168,9 @@ export const articles = [
       <p>But before the crash, there was another war. The war for the "window".</p>
       
       <p>You see, the internet needs a viewer. We call it a <strong>browser</strong>.</p>
+
+      <p>Now you might think—<em>browser matlab bas software hi toh hai</em>.</p>
+      <p>But browsers aren’t tools. They’re <strong>gatekeepers</strong>. Whoever controls the browser controls the default path to the internet.</p>
       
       <p>In the mid-90s, <strong>Netscape Navigator</strong> was the king. It was <em>the</em> way people went online. It controlled the experience.</p>
       
@@ -1175,9 +1178,17 @@ export const articles = [
       
       <p>So Bill Gates did something ruthless. He created <strong>Internet Explorer</strong> and bundled it with every copy of Windows. Free. Instant. Everywhere.</p>
       
+      <p>Distribution beat quality.</p>
       <p>Netscape couldn't compete with "free" and "already installed." They got crushed.</p>
       
       <p>Microsoft won the first Browser War. But in doing so, they focused so hard on killing Netscape that they missed the next big thing rising quietly in the background.</p>
+
+      <p>Fast forward a few years, and <strong>Google</strong> entered with a different playbook.</p>
+      <p>They didn’t start with a browser. They started with search.</p>
+
+      <p>Once search became a habit, Google launched <strong>Chrome</strong>. Fast. Minimal. Tied directly to data.</p>
+      
+      <p>That flipped the browser war again. The browser stopped being just software—it became a <strong>data collection layer</strong>.</p>
 
       <!-- The Browser War Graph -->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
