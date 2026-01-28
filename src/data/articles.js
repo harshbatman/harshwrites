@@ -1,5 +1,180 @@
 export const articles = [
   {
+    id: "china-solar-dominance",
+    views: 100,
+    publishDate: "2026-01-28",
+    title: "How China Won Solar (And Germany Lost)",
+    author: "Harsh Mahto",
+    category: "Economics & Strategy",
+    date: "January 2026",
+    image: "/china-solar-dominance.jpg",
+    excerpt: "You know what still surprises me? Every time we talk about solar power today, the conversation somehow ends at one place—China.",
+    content: `
+      <p>You know what still surprises me? Every time we talk about solar power today, the conversation somehow ends at one place—China.</p>
+
+      <p>Yeah. Panels, cells, wafers, glass, even the machines that make the machines. China everywhere. But what's wild is—this wasn't always the case. Once upon a time, Germany owned solar like it was their backyard.</p>
+
+      <p>Exactly. If this were football, Germany invented the tactics, trained the players, wrote the rulebook… and then China came in and won the World Cup on German soil.</p>
+
+      <p>So let's rewind. Early 2000s. Climate change anxiety rising. Europe leading green energy. And Germany—very German about it—decides: "We'll engineer our way out of fossil fuels."</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Act 1: Germany Builds the Solar Dream</h3>
+
+      <p>Germany didn't just talk about solar. They paid for it. Heavy subsidies. Feed-in tariffs. You install solar, the government guarantees to buy your electricity at a premium.</p>
+
+      <p>Which meant startups exploded. Labs turned into factories. Universities into innovation hubs. German companies became kings of solar technology, not just installation.</p>
+
+      <p>Back then, "Made in Germany" on a solar panel meant efficiency, reliability, prestige. Countries copied German policy models. The world looked at Germany like, "This is the future."</p>
+
+      <p>And China? At that time?</p>
+
+      <p>Barely in the picture. Mostly assembling cheap electronics, exporting toys, clothes, basic manufacturing stuff.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Act 2: China Watches. Quietly.</h3>
+
+      <p>Here's where China plays its favorite game—long-term patience.</p>
+
+      <p>They didn't rush innovation first. They asked a simpler question: "If the world wants solar… who will make it cheapest?"</p>
+
+      <p>And China already had answers:</p>
+      <ul style="margin: 1rem 0; padding-left: 2rem; color: #374151; line-height: 1.8;">
+        <li>Cheap land</li>
+        <li>Massive labor force</li>
+        <li>Government that can move fast</li>
+        <li>And zero fear of thinking 20 years ahead</li>
+      </ul>
+
+      <p>Germany was optimizing technology. China decided to optimize scale.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Act 3: The Manufacturing Avalanche</h3>
+
+      <p>China poured money into factories like there was no tomorrow. Not small ones. Mega-factories.</p>
+
+      <p>And not just panels. Entire supply chain:</p>
+      <ul style="margin: 1rem 0; padding-left: 2rem; color: #374151; line-height: 1.8;">
+        <li>Polysilicon</li>
+        <li>Wafers</li>
+        <li>Cells</li>
+        <li>Glass</li>
+        <li>Frames</li>
+        <li>Inverters</li>
+      </ul>
+      <p>Everything under one roof. One country.</p>
+
+      <p>German firms were designing great panels. Chinese firms were producing millions of them—cheaper every year.</p>
+
+      <p>And the prices? Brutal.</p>
+      <p><strong>Solar panel prices dropped over 80% in a decade.</strong></p>
+
+      <p>Amazing for the planet. Terrible for German manufacturers.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Act 4: Germany Loses Its Own Game</h3>
+
+      <p>Here's the irony. Germany's subsidies created global demand… but China captured global supply.</p>
+
+      <p>German companies couldn't compete on price. Their costs were higher. Labor expensive. Regulations strict. Scaling slower.</p>
+
+      <p>Many went bankrupt. Others got acquired. Some just shut down quietly.</p>
+
+      <p>Germany still used solar—but no longer made it.</p>
+
+      <p>Like inventing the smartphone… and then importing it from someone else.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Act 5: China Goes From Cheap to Dominant</h3>
+
+      <p>And here's where people get it wrong. They think China only won because of cheap labor.</p>
+
+      <p>Nope. Cheap labor was just entry level.</p>
+
+      <p>China reinvested profits into:</p>
+      <ul style="margin: 1rem 0; padding-left: 2rem; color: #374151; line-height: 1.8;">
+        <li>R&D</li>
+        <li>Automation</li>
+        <li>Efficiency improvements</li>
+        <li>Vertical integration</li>
+      </ul>
+
+      <p>So now Chinese panels aren't just cheap—they're good.</p>
+
+      <p>Some of the world's most efficient solar cells today? Chinese.</p>
+
+      <p>And once you control 70–80% of global supply, you don't just sell products—you set prices, standards, timelines.</p>
+
+      <!-- Market Share Visualization -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Global Solar Manufacturing Share</h4>
+        
+        <div style="display: flex; flex-direction: column; gap: 1.5rem; max-width: 500px; margin: 0 auto;">
+          
+          <!-- China -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+             <span style="width: 80px; font-size: 0.9rem; font-weight: 600; text-align: right; color: #18181b;">China</span>
+             <div style="flex: 1; height: 32px; background: #e4e4e7; border-radius: 4px; position: relative; width: 100%;">
+                <div style="width: 80%; height: 100%; background: #ef4444; border-radius: 4px; display: flex; align-items: center; padding-right: 12px; justify-content: flex-end;">
+                  <span style="font-size: 0.85rem; color: white; font-weight: 700;">~80%</span>
+                </div>
+             </div>
+          </div>
+
+          <!-- Rest of World -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+             <span style="width: 80px; font-size: 0.9rem; font-weight: 500; text-align: right; color: #52525b;">Rest of World</span>
+             <div style="flex: 1; height: 32px; background: #e4e4e7; border-radius: 4px; position: relative; width: 100%;">
+                <div style="width: 20%; height: 100%; background: #71717a; border-radius: 4px; display: flex; align-items: center; padding-right: 8px; justify-content: flex-end;">
+                  <span style="font-size: 0.85rem; color: white; font-weight: 600;">~20%</span>
+                </div>
+             </div>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          Dominance isn't just market share—it's control.
+        </p>
+      </div>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Act 6: Strategic Thinking (This Is the Real Lesson)</h3>
+
+      <p>Germany thought like engineers.</p>
+      <p>China thought like system architects.</p>
+
+      <p>Germany asked: "How do we make the best solar panel?"<br/>
+      China asked: "How do we make sure everyone depends on us for solar?"</p>
+
+      <p>That's the difference between innovation leadership and industrial dominance.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Act 7: Why This Matters to "Us"</h3>
+
+      <p>Now here's where it hits close to home—for us.</p>
+
+      <p>We talk about renewable energy, manufacturing, self-reliance, future industries…</p>
+
+      <p>China shows that winning isn't just about inventing first.</p>
+
+      <p>It's about:</p>
+      <ul style="margin: 1rem 0; padding-left: 2rem; color: #374151; line-height: 1.8;">
+        <li>Scaling faster</li>
+        <li>Controlling supply chains</li>
+        <li>Supporting industry consistently</li>
+        <li>Thinking decades ahead</li>
+      </ul>
+
+      <p>Germany proved solar works.<br/>
+      China proved solar wins.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Final Thought</h3>
+
+      <p>So yeah, China didn't just beat Germany.</p>
+      <p>They beat Germany using German demand.</p>
+
+      <p>They didn't disrupt the solar industry overnight.</p>
+      <p>They absorbed it. Piece by piece. Factory by factory.</p>
+
+      <p>And today, when the world installs solar…</p>
+      <p>Chances are, it's powered by sunlight—</p>
+      <p><strong>…but built in China.</strong></p>
+    `
+  },
+  {
     id: "fat-to-fit",
     views: 50,
     publishDate: "2026-01-28",
