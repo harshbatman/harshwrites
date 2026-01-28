@@ -1851,6 +1851,131 @@ export const articles = [
       <p>That’s rare.</p>
       <p>And powerful.</p>
 
+      <!-- Indian Startup Timeline Visualization -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Rise of Indian Startups</h4>
+        
+        <div style="position: relative; max-width: 700px; margin: 0 auto; padding-left: 40px;">
+          <!-- Timeline Line -->
+          <div style="position: absolute; left: 20px; top: 0; bottom: 0; width: 4px; background: linear-gradient(180deg, #3b82f6 0%, #8b5cf6 50%, #ec4899 100%);"></div>
+          
+          <!-- 2007: Flipkart -->
+          <div style="position: relative; margin-bottom: 2rem;">
+            <div style="position: absolute; left: -27px; top: 5px; width: 18px; height: 18px; background: #3b82f6; border-radius: 50%; border: 4px solid #fafafa; box-shadow: 0 0 0 2px #3b82f6;"></div>
+            <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #3b82f6; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
+                <span style="font-weight: 700; color: #3b82f6; font-size: 0.95rem;">Flipkart</span>
+                <span style="font-size: 0.75rem; color: #6b7280; font-weight: 600;">2007</span>
+              </div>
+              <div style="font-size: 0.8rem; color: #6b7280;">E-commerce • Revolutionized online shopping in India</div>
+            </div>
+          </div>
+
+          <!-- 2010: Ola -->
+          <div style="position: relative; margin-bottom: 2rem;">
+            <div style="position: absolute; left: -27px; top: 5px; width: 18px; height: 18px; background: #10b981; border-radius: 50%; border: 4px solid #fafafa; box-shadow: 0 0 0 2px #10b981;"></div>
+            <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #10b981; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
+                <span style="font-weight: 700; color: #10b981; font-size: 0.95rem;">Ola</span>
+                <span style="font-size: 0.75rem; color: #6b7280; font-weight: 600;">2010</span>
+              </div>
+              <div style="font-size: 0.8rem; color: #6b7280;">Ride-hailing • Made cabs accessible to millions</div>
+            </div>
+          </div>
+
+          <!-- 2010: Paytm -->
+          <div style="position: relative; margin-bottom: 2rem;">
+            <div style="position: absolute; left: -27px; top: 5px; width: 18px; height: 18px; background: #0ea5e9; border-radius: 50%; border: 4px solid #fafafa; box-shadow: 0 0 0 2px #0ea5e9;"></div>
+            <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #0ea5e9; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
+                <span style="font-weight: 700; color: #0ea5e9; font-size: 0.95rem;">Paytm</span>
+                <span style="font-size: 0.75rem; color: #6b7280; font-weight: 600;">2010</span>
+              </div>
+              <div style="font-size: 0.8rem; color: #6b7280;">Digital Payments • Pioneered mobile wallets</div>
+            </div>
+          </div>
+
+          <!-- 2014: Swiggy -->
+          <div style="position: relative; margin-bottom: 2rem;">
+            <div style="position: absolute; left: -27px; top: 5px; width: 18px; height: 18px; background: #f97316; border-radius: 50%; border: 4px solid #fafafa; box-shadow: 0 0 0 2px #f97316;"></div>
+            <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #f97316; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
+                <span style="font-weight: 700; color: #f97316; font-size: 0.95rem;">Swiggy</span>
+                <span style="font-size: 0.75rem; color: #6b7280; font-weight: 600;">2014</span>
+              </div>
+              <div style="font-size: 0.8rem; color: #6b7280;">Food Delivery • Changed how India eats</div>
+            </div>
+          </div>
+
+          <!-- 2015: PhonePe -->
+          <div style="position: relative; margin-bottom: 2rem;">
+            <div style="position: absolute; left: -27px; top: 5px; width: 18px; height: 18px; background: #8b5cf6; border-radius: 50%; border: 4px solid #fafafa; box-shadow: 0 0 0 2px #8b5cf6;"></div>
+            <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #8b5cf6; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
+                <span style="font-weight: 700; color: #8b5cf6; font-size: 0.95rem;">PhonePe</span>
+                <span style="font-size: 0.75rem; color: #6b7280; font-weight: 600;">2015</span>
+              </div>
+              <div style="font-size: 0.8rem; color: #6b7280;">UPI Payments • Made digital payments ubiquitous</div>
+            </div>
+          </div>
+
+          <!-- 2014: Razorpay -->
+          <div style="position: relative; margin-bottom: 2rem;">
+            <div style="position: absolute; left: -27px; top: 5px; width: 18px; height: 18px; background: #6366f1; border-radius: 50%; border: 4px solid #fafafa; box-shadow: 0 0 0 2px #6366f1;"></div>
+            <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #6366f1; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
+                <span style="font-weight: 700; color: #6366f1; font-size: 0.95rem;">Razorpay</span>
+                <span style="font-size: 0.75rem; color: #6b7280; font-weight: 600;">2014</span>
+              </div>
+              <div style="font-size: 0.8rem; color: #6b7280;">Payment Gateway • Enabled online businesses</div>
+            </div>
+          </div>
+
+          <!-- 2008: Zomato -->
+          <div style="position: relative; margin-bottom: 2rem;">
+            <div style="position: absolute; left: -27px; top: 5px; width: 18px; height: 18px; background: #ef4444; border-radius: 50%; border: 4px solid #fafafa; box-shadow: 0 0 0 2px #ef4444;"></div>
+            <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #ef4444; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
+                <span style="font-weight: 700; color: #ef4444; font-size: 0.95rem;">Zomato</span>
+                <span style="font-size: 0.75rem; color: #6b7280; font-weight: 600;">2008</span>
+              </div>
+              <div style="font-size: 0.8rem; color: #6b7280;">Food Tech • Restaurant discovery to delivery</div>
+            </div>
+          </div>
+
+          <!-- 2018: CRED -->
+          <div style="position: relative; margin-bottom: 2rem;">
+            <div style="position: absolute; left: -27px; top: 5px; width: 18px; height: 18px; background: #18181b; border-radius: 50%; border: 4px solid #fafafa; box-shadow: 0 0 0 2px #18181b;"></div>
+            <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #18181b; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
+                <span style="font-weight: 700; color: #18181b; font-size: 0.95rem;">CRED</span>
+                <span style="font-size: 0.75rem; color: #6b7280; font-weight: 600;">2018</span>
+              </div>
+              <div style="font-size: 0.8rem; color: #6b7280;">Fintech • Rewarding credit card payments</div>
+            </div>
+          </div>
+
+          <!-- 2021: Zepto -->
+          <div style="position: relative; margin-bottom: 0;">
+            <div style="position: absolute; left: -27px; top: 5px; width: 18px; height: 18px; background: #ec4899; border-radius: 50%; border: 4px solid #fafafa; box-shadow: 0 0 0 2px #ec4899;"></div>
+            <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #ec4899; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+              <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
+                <span style="font-weight: 700; color: #ec4899; font-size: 0.95rem;">Zepto</span>
+                <span style="font-size: 0.75rem; color: #6b7280; font-weight: 600;">2021</span>
+              </div>
+              <div style="font-size: 0.8rem; color: #6b7280;">Quick Commerce • 10-minute grocery delivery</div>
+            </div>
+          </div>
+
+        </div>
+
+        <div style="margin-top: 2rem; padding: 1rem; background: #fff; border-left: 4px solid #8b5cf6; border-radius: 4px;">
+          <p style="margin: 0; font-size: 0.85rem; color: #374151; line-height: 1.6;">
+            <strong>From 2007 to today:</strong> Indian startups went from solving basic problems to building infrastructure that hundreds of millions depend on daily.
+          </p>
+        </div>
+      </div>
+
       <p>But now comes the uncomfortable part—the <strong>constraints</strong>.</p>
 
       <p><strong>Compute</strong>.</p>
