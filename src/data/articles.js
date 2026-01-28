@@ -1859,9 +1859,9 @@ export const articles = [
           <!-- Companies Container -->
           <div style="position: relative; display: flex; gap: 1.5rem; min-width: max-content; padding: 0 1rem;">
              <!-- Timeline Line -->
-             <div style="position: absolute; top: 18px; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #F5BE18 0%, #10b981 20%, #0ea5e9 30%, #f97316 45%, #8b5cf6 55%, #6366f1 65%, #ef4444 75%, #18181b 85%, #ec4899 100%);"></div>
+             <div style="position: absolute; top: 18px; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #F5BE18 0%, #ec4899 10%, #ef4444 20%, #10b981 30%, #0ea5e9 40%, #facc15 50%, #6366f1 60%, #f97316 70%, #8b5cf6 80%, #18181b 90%, #ec4899 100%);"></div>
             
-            <!-- Flipkart 2007 -->
+            <!-- Flipkart 2007 (Existing) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #F5BE18; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
                 <img src="/logos/flipkart.svg" alt="Flipkart" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem;" />
@@ -1872,7 +1872,18 @@ export const articles = [
               <div style="font-size: 0.75rem; font-weight: 600; color: #F5BE18;">2007</div>
             </div>
 
-            <!-- Zomato 2008 -->
+            <!-- Myntra 2007 (New) -->
+            <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
+              <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #ec4899; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
+                <img src="https://www.google.com/s2/favicons?domain=myntra.com&sz=128" alt="Myntra" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
+                <div style="font-weight: 700; color: #ec4899; font-size: 0.9rem; margin-bottom: 0.25rem;">Myntra</div>
+                <div style="font-size: 0.7rem; color: #6b7280;">Fashion</div>
+              </div>
+              <div style="width: 12px; height: 12px; background: #ec4899; border-radius: 50%; border: 3px solid #fafafa; box-shadow: 0 0 0 2px #ec4899; margin-bottom: 0.5rem;"></div>
+              <div style="font-size: 0.75rem; font-weight: 600; color: #ec4899;">2007</div>
+            </div>
+
+            <!-- Zomato 2008 (Existing) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #ef4444; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
                 <img src="/logos/zomato.svg" alt="Zomato" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem;" />
@@ -1883,7 +1894,7 @@ export const articles = [
               <div style="font-size: 0.75rem; font-weight: 600; color: #ef4444;">2008</div>
             </div>
 
-            <!-- Ola 2010 -->
+            <!-- Ola 2010 (Existing) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #10b981; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
                 <img src="/logos/ola.svg" alt="Ola" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem;" />
@@ -1894,7 +1905,7 @@ export const articles = [
               <div style="font-size: 0.75rem; font-weight: 600; color: #10b981;">2010</div>
             </div>
 
-            <!-- Paytm 2010 -->
+            <!-- Paytm 2010 (Existing) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #0ea5e9; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
                 <img src="/logos/paytm.svg" alt="Paytm" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem;" />
@@ -1905,7 +1916,18 @@ export const articles = [
               <div style="font-size: 0.75rem; font-weight: 600; color: #0ea5e9;">2010</div>
             </div>
 
-            <!-- Razorpay 2014 -->
+            <!-- Blinkit 2013 (New) -->
+            <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
+              <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #facc15; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
+                <img src="https://www.google.com/s2/favicons?domain=blinkit.com&sz=128" alt="Blinkit" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
+                <div style="font-weight: 700; color: #facc15; font-size: 0.9rem; margin-bottom: 0.25rem;">Blinkit</div>
+                <div style="font-size: 0.7rem; color: #6b7280;">Quick Comm.</div>
+              </div>
+              <div style="width: 12px; height: 12px; background: #facc15; border-radius: 50%; border: 3px solid #fafafa; box-shadow: 0 0 0 2px #facc15; margin-bottom: 0.5rem;"></div>
+              <div style="font-size: 0.75rem; font-weight: 600; color: #facc15;">2013</div>
+            </div>
+
+            <!-- Razorpay 2014 (Existing) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #6366f1; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
                 <img src="/logos/razorpay.svg" alt="Razorpay" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem;" />
@@ -1916,7 +1938,7 @@ export const articles = [
               <div style="font-size: 0.75rem; font-weight: 600; color: #6366f1;">2014</div>
             </div>
 
-            <!-- Swiggy 2014 -->
+            <!-- Swiggy 2014 (Existing) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #f97316; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
                 <img src="/logos/swiggy.svg" alt="Swiggy" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem;" />
@@ -1927,7 +1949,7 @@ export const articles = [
               <div style="font-size: 0.75rem; font-weight: 600; color: #f97316;">2014</div>
             </div>
 
-            <!-- PhonePe 2015 -->
+            <!-- PhonePe 2015 (Existing) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #8b5cf6; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
                 <img src="/logos/phonepe.svg" alt="PhonePe" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem;" />
@@ -1938,7 +1960,51 @@ export const articles = [
               <div style="font-size: 0.75rem; font-weight: 600; color: #8b5cf6;">2015</div>
             </div>
 
-            <!-- CRED 2018 -->
+            <!-- Rapido 2015 (New) -->
+            <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
+              <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #ca8a04; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
+                <img src="https://www.google.com/s2/favicons?domain=rapido.bike&sz=128" alt="Rapido" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
+                <div style="font-weight: 700; color: #ca8a04; font-size: 0.9rem; margin-bottom: 0.25rem;">Rapido</div>
+                <div style="font-size: 0.7rem; color: #6b7280;">Bike Taxi</div>
+              </div>
+              <div style="width: 12px; height: 12px; background: #ca8a04; border-radius: 50%; border: 3px solid #fafafa; box-shadow: 0 0 0 2px #ca8a04; margin-bottom: 0.5rem;"></div>
+              <div style="font-size: 0.75rem; font-weight: 600; color: #ca8a04;">2015</div>
+            </div>
+
+            <!-- Meesho 2015 (New) -->
+            <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
+              <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #db2777; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
+                <img src="https://www.google.com/s2/favicons?domain=meesho.com&sz=128" alt="Meesho" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
+                <div style="font-weight: 700; color: #db2777; font-size: 0.9rem; margin-bottom: 0.25rem;">Meesho</div>
+                <div style="font-size: 0.7rem; color: #6b7280;">Social Comm.</div>
+              </div>
+              <div style="width: 12px; height: 12px; background: #db2777; border-radius: 50%; border: 3px solid #fafafa; box-shadow: 0 0 0 2px #db2777; margin-bottom: 0.5rem;"></div>
+              <div style="font-size: 0.75rem; font-weight: 600; color: #db2777;">2015</div>
+            </div>
+
+            <!-- Udaan 2016 (New) -->
+            <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
+              <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #3b82f6; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
+                <img src="https://www.google.com/s2/favicons?domain=udaan.com&sz=128" alt="Udaan" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
+                <div style="font-weight: 700; color: #3b82f6; font-size: 0.9rem; margin-bottom: 0.25rem;">Udaan</div>
+                <div style="font-size: 0.7rem; color: #6b7280;">B2B Trade</div>
+              </div>
+              <div style="width: 12px; height: 12px; background: #3b82f6; border-radius: 50%; border: 3px solid #fafafa; box-shadow: 0 0 0 2px #3b82f6; margin-bottom: 0.5rem;"></div>
+              <div style="font-size: 0.75rem; font-weight: 600; color: #3b82f6;">2016</div>
+            </div>
+
+            <!-- Groww 2016 (New) -->
+            <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
+              <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #059669; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
+                <img src="https://www.google.com/s2/favicons?domain=groww.in&sz=128" alt="Groww" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
+                <div style="font-weight: 700; color: #059669; font-size: 0.9rem; margin-bottom: 0.25rem;">Groww</div>
+                <div style="font-size: 0.7rem; color: #6b7280;">Investing</div>
+              </div>
+              <div style="width: 12px; height: 12px; background: #059669; border-radius: 50%; border: 3px solid #fafafa; box-shadow: 0 0 0 2px #059669; margin-bottom: 0.5rem;"></div>
+              <div style="font-size: 0.75rem; font-weight: 600; color: #059669;">2016</div>
+            </div>
+
+            <!-- CRED 2018 (Existing) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #18181b; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
                 <img src="/logos/cred.svg" alt="CRED" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem;" />
@@ -1949,12 +2015,23 @@ export const articles = [
               <div style="font-size: 0.75rem; font-weight: 600; color: #18181b;">2018</div>
             </div>
 
-            <!-- Zepto 2021 -->
+            <!-- BharatPe 2018 (New) -->
+            <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
+              <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #06b6d4; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
+                <img src="https://www.google.com/s2/favicons?domain=bharatpe.com&sz=128" alt="BharatPe" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
+                <div style="font-weight: 700; color: #06b6d4; font-size: 0.9rem; margin-bottom: 0.25rem;">BharatPe</div>
+                <div style="font-size: 0.7rem; color: #6b7280;">Fintech</div>
+              </div>
+              <div style="width: 12px; height: 12px; background: #06b6d4; border-radius: 50%; border: 3px solid #fafafa; box-shadow: 0 0 0 2px #06b6d4; margin-bottom: 0.5rem;"></div>
+              <div style="font-size: 0.75rem; font-weight: 600; color: #06b6d4;">2018</div>
+            </div>
+
+            <!-- Zepto 2021 (Existing) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #ec4899; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
                 <img src="/logos/zepto.svg" alt="Zepto" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem;" />
                 <div style="font-weight: 700; color: #ec4899; font-size: 0.9rem; margin-bottom: 0.25rem;">Zepto</div>
-                <div style="font-size: 0.7rem; color: #6b7280;">Quick Commerce</div>
+                <div style="font-size: 0.7rem; color: #6b7280;">Quick Comm.</div>
               </div>
               <div style="width: 12px; height: 12px; background: #ec4899; border-radius: 50%; border: 3px solid #fafafa; box-shadow: 0 0 0 2px #ec4899; margin-bottom: 0.5rem;"></div>
               <div style="font-size: 0.75rem; font-weight: 600; color: #ec4899;">2021</div>
