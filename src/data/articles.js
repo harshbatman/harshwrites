@@ -1858,20 +1858,20 @@ export const articles = [
         <!-- Horizontal Timeline Container -->
         <div style="position: relative; overflow-x: auto; padding: 2rem 0;">
           <!-- Timeline Line -->
-          <div style="position: absolute; top: 50px; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #3b82f6 0%, #10b981 20%, #0ea5e9 30%, #f97316 45%, #8b5cf6 55%, #6366f1 65%, #ef4444 75%, #18181b 85%, #ec4899 100%);"></div>
+          <div style="position: absolute; top: 50px; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #F5BE18 0%, #10b981 20%, #0ea5e9 30%, #f97316 45%, #8b5cf6 55%, #6366f1 65%, #ef4444 75%, #18181b 85%, #ec4899 100%);"></div>
           
           <!-- Companies Container -->
           <div style="display: flex; gap: 1.5rem; min-width: max-content; padding: 0 1rem;">
             
             <!-- Flipkart 2007 -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
-              <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #3b82f6; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
+              <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #F5BE18; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
                 <img src="/logos/flipkart.svg" alt="Flipkart" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem;" />
-                <div style="font-weight: 700; color: #3b82f6; font-size: 0.9rem; margin-bottom: 0.25rem;">Flipkart</div>
+                <div style="font-weight: 700; color: #F5BE18; font-size: 0.9rem; margin-bottom: 0.25rem;">Flipkart</div>
                 <div style="font-size: 0.7rem; color: #6b7280;">E-commerce</div>
               </div>
-              <div style="width: 12px; height: 12px; background: #3b82f6; border-radius: 50%; border: 3px solid #fafafa; box-shadow: 0 0 0 2px #3b82f6; margin-bottom: 0.5rem;"></div>
-              <div style="font-size: 0.75rem; font-weight: 600; color: #3b82f6;">2007</div>
+              <div style="width: 12px; height: 12px; background: #F5BE18; border-radius: 50%; border: 3px solid #fafafa; box-shadow: 0 0 0 2px #F5BE18; margin-bottom: 0.5rem;"></div>
+              <div style="font-size: 0.75rem; font-weight: 600; color: #F5BE18;">2007</div>
             </div>
 
             <!-- Zomato 2008 -->
