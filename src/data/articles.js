@@ -1865,7 +1865,7 @@ export const articles = [
             <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #3b82f6; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
                 <div style="display: flex; align-items: center; gap: 0.5rem;">
-                  <img src="/logos/flipkart.png" alt="Flipkart" style="width: 24px; height: 24px; object-fit: contain;" />
+                  <img src="/logos/flipkart.svg" alt="Flipkart" style="width: 24px; height: 24px; object-fit: contain;" />
                   <span style="font-weight: 700; color: #3b82f6; font-size: 0.95rem;">Flipkart</span>
                 </div>
                 <span style="font-size: 0.75rem; color: #6b7280; font-weight: 600;">2007</span>
@@ -1880,7 +1880,7 @@ export const articles = [
             <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #10b981; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
                 <div style="display: flex; align-items: center; gap: 0.5rem;">
-                  <img src="/logos/ola.png" alt="Ola" style="width: 24px; height: 24px; object-fit: contain;" />
+                  <img src="/logos/ola.svg" alt="Ola" style="width: 24px; height: 24px; object-fit: contain;" />
                   <span style="font-weight: 700; color: #10b981; font-size: 0.95rem;">Ola</span>
                 </div>
                 <span style="font-size: 0.75rem; color: #6b7280; font-weight: 600;">2010</span>
@@ -1895,7 +1895,7 @@ export const articles = [
             <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #0ea5e9; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
                 <div style="display: flex; align-items: center; gap: 0.5rem;">
-                  <img src="/logos/paytm.png" alt="Paytm" style="width: 24px; height: 24px; object-fit: contain;" />
+                  <img src="/logos/paytm.svg" alt="Paytm" style="width: 24px; height: 24px; object-fit: contain;" />
                   <span style="font-weight: 700; color: #0ea5e9; font-size: 0.95rem;">Paytm</span>
                 </div>
                 <span style="font-size: 0.75rem; color: #6b7280; font-weight: 600;">2010</span>
@@ -1910,7 +1910,7 @@ export const articles = [
             <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #f97316; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
                 <div style="display: flex; align-items: center; gap: 0.5rem;">
-                  <img src="/logos/swiggy.png" alt="Swiggy" style="width: 24px; height: 24px; object-fit: contain;" />
+                  <img src="/logos/swiggy.svg" alt="Swiggy" style="width: 24px; height: 24px; object-fit: contain;" />
                   <span style="font-weight: 700; color: #f97316; font-size: 0.95rem;">Swiggy</span>
                 </div>
                 <span style="font-size: 0.75rem; color: #6b7280; font-weight: 600;">2014</span>
@@ -1925,7 +1925,7 @@ export const articles = [
             <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #8b5cf6; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
                 <div style="display: flex; align-items: center; gap: 0.5rem;">
-                  <img src="/logos/phonepe.png" alt="PhonePe" style="width: 24px; height: 24px; object-fit: contain;" />
+                  <img src="/logos/phonepe.svg" alt="PhonePe" style="width: 24px; height: 24px; object-fit: contain;" />
                   <span style="font-weight: 700; color: #8b5cf6; font-size: 0.95rem;">PhonePe</span>
                 </div>
                 <span style="font-size: 0.75rem; color: #6b7280; font-weight: 600;">2015</span>
@@ -1955,7 +1955,7 @@ export const articles = [
             <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #ef4444; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
                 <div style="display: flex; align-items: center; gap: 0.5rem;">
-                  <img src="/logos/zomato.png" alt="Zomato" style="width: 24px; height: 24px; object-fit: contain;" />
+                  <img src="/logos/zomato.svg" alt="Zomato" style="width: 24px; height: 24px; object-fit: contain;" />
                   <span style="font-weight: 700; color: #ef4444; font-size: 0.95rem;">Zomato</span>
                 </div>
                 <span style="font-size: 0.75rem; color: #6b7280; font-weight: 600;">2008</span>
@@ -1970,7 +1970,7 @@ export const articles = [
             <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #18181b; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
                 <div style="display: flex; align-items: center; gap: 0.5rem;">
-                  <img src="/logos/cred.png" alt="CRED" style="width: 24px; height: 24px; object-fit: contain;" />
+                  <img src="/logos/cred.svg" alt="CRED" style="width: 24px; height: 24px; object-fit: contain;" />
                   <span style="font-weight: 700; color: #18181b; font-size: 0.95rem;">CRED</span>
                 </div>
                 <span style="font-size: 0.75rem; color: #6b7280; font-weight: 600;">2018</span>
@@ -1985,7 +1985,7 @@ export const articles = [
             <div style="background: white; padding: 1rem; border-radius: 8px; border-left: 3px solid #ec4899; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
               <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.25rem;">
                 <div style="display: flex; align-items: center; gap: 0.5rem;">
-                  <span style="font-size: 1.3rem;">⚡</span>
+                  <img src="/logos/zepto.svg" alt="Zepto" style="width: 24px; height: 24px; object-fit: contain;" />
                   <span style="font-weight: 700; color: #ec4899; font-size: 0.95rem;">Zepto</span>
                 </div>
                 <span style="font-size: 0.75rem; color: #6b7280; font-weight: 600;">2021</span>
