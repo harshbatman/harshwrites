@@ -24,6 +24,10 @@ function Home() {
             if (filter === 'latest') {
                 return new Date(b.publishDate) - new Date(a.publishDate);
             } else if (filter === 'most-read') {
+                // Always put "From Transistors to AI" first
+                if (a.id === 'transistors-to-ai') return -1;
+                if (b.id === 'transistors-to-ai') return 1;
+                // Then sort the rest by views
                 return b.views - a.views;
             } else if (filter === 'oldest') {
                 return new Date(a.publishDate) - new Date(b.publishDate);
