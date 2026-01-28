@@ -153,44 +153,41 @@ export const articles = [
 
       <!-- Solar Panel Price Collapse Visualization -->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
-        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Price Collapse (2008-2018)</h4>
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; color: #111827; letter-spacing: -0.01em;">The Price Collapse (2008-2018)</h4>
         
-        <div style="display: flex; align-items: flex-end; justify-content: space-around; height: 250px; padding: 0 1rem; max-width: 600px; margin: 0 auto;">
+        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
           
-          <!-- 2008 Bar -->
-          <div style="display: flex; flex-direction: column; align-items: center; flex: 1; max-width: 100px;">
-            <div style="position: relative; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: flex-end;">
-              <div style="background: linear-gradient(180deg, #1f2937 0%, #374151 100%); width: 100%; height: 100%; border-radius: 8px 8px 0 0; position: relative; box-shadow: 0 -4px 6px rgba(0,0,0,0.1);">
-                <div style="position: absolute; top: -35px; left: 50%; transform: translateX(-50%); background: #1f2937; color: white; padding: 4px 10px; border-radius: 6px; font-weight: 700; font-size: 0.85rem; white-space: nowrap; z-index: 10;">$4.00/W</div>
+          <!-- 2008 -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <div style="width: 100px; text-align: right; flex-shrink: 0;">
+                <div style="font-weight: 700; color: #1f2937;">2008</div>
+                <div style="font-size: 0.75rem; color: #6b7280;">German Era 🇩🇪</div>
+            </div>
+            <div style="flex: 1; height: 38px; background: #f3f4f6; border-radius: 6px; overflow: hidden; position: relative;">
+              <div style="width: 100%; height: 100%; background: #374151; border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 12px;">
+                   <span style="color: white; font-weight: 700; font-size: 0.9rem;">$4.00/W</span>
               </div>
             </div>
-            <div style="margin-top: 0.75rem; font-size: 1.5rem;">🇩🇪</div>
-            <div style="margin-top: 0.25rem; font-weight: 600; font-size: 0.9rem; color: #374151;">2008</div>
-            <div style="font-size: 0.75rem; color: #6b7280;">German Era</div>
           </div>
 
-          <!-- Arrow Down -->
-          <div style="display: flex; flex-direction: column; align-items: center; padding-bottom: 40px;">
-            <div style="font-size: 2rem; color: #ef4444; font-weight: bold;">↓</div>
-            <div style="font-size: 0.75rem; color: #ef4444; font-weight: 600; margin-top: 0.25rem;">-80%</div>
-          </div>
-
-          <!-- 2018 Bar -->
-          <div style="display: flex; flex-direction: column; align-items: center; flex: 1; max-width: 100px;">
-            <div style="position: relative; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: flex-end;">
-              <div style="background: linear-gradient(180deg, #dc2626 0%, #ef4444 100%); width: 100%; height: 20%; border-radius: 8px 8px 0 0; position: relative; box-shadow: 0 -4px 6px rgba(239, 68, 68, 0.3);">
-                <div style="position: absolute; top: -35px; left: 50%; transform: translateX(-50%); background: #ef4444; color: white; padding: 4px 10px; border-radius: 6px; font-weight: 700; font-size: 0.85rem; white-space: nowrap; z-index: 10;">$0.80/W</div>
-              </div>
+          <!-- 2018 -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <div style="width: 100px; text-align: right; flex-shrink: 0;">
+                <div style="font-weight: 700; color: #1f2937;">2018</div>
+                <div style="font-size: 0.75rem; color: #6b7280;">Chinese Era 🇨🇳</div>
             </div>
-            <div style="margin-top: 0.75rem; font-size: 1.5rem;">🇨🇳</div>
-            <div style="margin-top: 0.25rem; font-weight: 600; font-size: 0.9rem; color: #374151;">2018</div>
-            <div style="font-size: 0.75rem; color: #6b7280;">Chinese Era</div>
+            <div style="flex: 1; height: 38px; background: #f3f4f6; border-radius: 6px; overflow: visible; position: relative;">
+               <div style="width: 20%; height: 100%; background: #ef4444; border-radius: 6px;"></div>
+               <div style="position: absolute; left: 22%; top: 50%; transform: translateY(-50%); color: #ef4444; font-weight: 700; font-size: 0.9rem; white-space: nowrap;">
+                  $0.80/W <span style="font-size: 0.75rem; opacity: 0.8; margin-left: 4px;">(-80%)</span>
+               </div>
+            </div>
           </div>
 
         </div>
 
-        <div style="margin-top: 2.5rem; padding: 1rem; background: #fff; border-left: 4px solid #10b981; border-radius: 4px;">
-          <p style="margin: 0; font-size: 0.85rem; color: #374151; line-height: 1.6;">
+        <div style="margin-top: 1.5rem; padding: 1rem; background: #ecfdf5; border-left: 4px solid #10b981; border-radius: 4px;">
+          <p style="margin: 0; font-size: 0.85rem; color: #065f46; line-height: 1.6;">
             <strong>The Paradox:</strong> Lower prices made solar accessible to billions. But it destroyed the industry that pioneered it.
           </p>
         </div>
@@ -653,36 +650,37 @@ export const articles = [
 
       <!-- Blitzkrieg vs Grindkrieg Graph -->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
-        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Speed vs. Duration</h4>
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; color: #111827; letter-spacing: -0.01em;">Speed vs. Duration</h4>
         
-        <div style="display: flex; gap: 2rem; align-items: center; justify-content: center; max-width: 600px; margin: 0 auto;">
+        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
           
           <!-- Blitzkrieg -->
-          <div style="flex: 1; text-align: center;">
-            <div style="height: 150px; display: flex; align-items: flex-end; justify-content: center; margin-bottom: 1rem;">
-               <div style="width: 60px; height: 30px; background: #10b981; border-radius: 4px; position: relative;">
-                 <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); font-weight: 700; color: #10b981;">Weeks</div>
-               </div>
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <div style="width: 100px; text-align: right; flex-shrink: 0;">
+                <div style="font-weight: 700; color: #1f2937;">Blitzkrieg</div>
+                <div style="font-size: 0.75rem; color: #6b7280; white-space: nowrap;">High Intensity</div>
             </div>
-            <div style="font-weight: 600; color: #18181b;">Blitzkrieg</div>
-            <div style="font-size: 0.8rem; color: #71717a;">High Intensity, Short Time</div>
+            <div style="flex: 1; height: 38px; background: #f3f4f6; border-radius: 6px; overflow: visible; position: relative;">
+              <div style="width: 20%; height: 100%; background: #10b981; border-radius: 6px;"></div>
+              <div style="position: absolute; left: 22%; top: 50%; transform: translateY(-50%); color: #10b981; font-weight: 700; font-size: 0.9rem;">Weeks</div>
+            </div>
           </div>
 
-          <!-- Divider -->
-          <div style="height: 100px; width: 2px; background: #e5e7eb;"></div>
-
           <!-- Grindkrieg -->
-           <div style="flex: 1; text-align: center;">
-            <div style="height: 150px; display: flex; align-items: flex-end; justify-content: center; margin-bottom: 1rem;">
-               <div style="width: 60px; height: 140px; background: #ef4444; border-radius: 4px; position: relative;">
-                 <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); font-weight: 700; color: #ef4444;">Years</div>
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <div style="width: 100px; text-align: right; flex-shrink: 0;">
+                <div style="font-weight: 700; color: #1f2937;">Grindkrieg</div>
+                <div style="font-size: 0.75rem; color: #6b7280; white-space: nowrap;">Attrition</div>
+            </div>
+            <div style="flex: 1; height: 38px; background: #f3f4f6; border-radius: 6px; overflow: hidden; position: relative;">
+               <div style="width: 90%; height: 100%; background: #ef4444; border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 12px;">
+                   <span style="color: white; font-weight: 700; font-size: 0.9rem;">Years</span>
                </div>
             </div>
-            <div style="font-weight: 600; color: #18181b;">Grindkrieg</div>
-            <div style="font-size: 0.8rem; color: #71717a;">Attrition, Endless Drain</div>
           </div>
 
         </div>
+
         <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
           History favors the fast.
         </p>
@@ -2639,118 +2637,126 @@ export const articles = [
 
       <p>Globalisation gave them access. They converted access into advantage.</p>
 
-      <div class="market-share-chart" style="margin: 3rem 0; padding: 2rem; background: #f9fafb; border-radius: 16px; border: 1px solid #e5e7eb;">
+      <div class="market-share-chart" style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; color: #111827; letter-spacing: -0.01em;">India Smartphone Market Share</h4>
         
-        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem;">
+        <div style="display: flex; flex-direction: column; gap: 1rem;">
           
           <!-- Vivo -->
-          <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #ef4444; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.5rem;">
-              <img src="https://www.google.com/s2/favicons?domain=vivo.com&sz=128" alt="Vivo" style="width: 24px; height: 24px; object-fit: contain; border-radius: 4px;">
-              <span style="font-weight: 700; color: #111827; font-size: 0.9rem;">Vivo</span>
-              <span style="font-size: 1.1em; opacity: 0.9;" title="China">🇨🇳</span>
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <div style="width: 140px; display: flex; align-items: center; gap: 10px; flex-shrink: 0;">
+              <img src="https://www.google.com/s2/favicons?domain=vivo.com&sz=128" alt="Vivo" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
+              <span style="font-weight: 600; color: #1f2937; font-size: 0.9rem;">Vivo</span>
+              <span style="font-size: 1em; opacity: 0.8;" title="China">🇨🇳</span>
             </div>
-            <div style="font-size: 1.5rem; font-weight: 700; color: #ef4444; text-align: center; margin: 0.5rem 0;">19.1%</div>
-            <div style="width: 100%; height: 6px; background: #fee2e2; border-radius: 99px; overflow: hidden;">
-              <div style="width: 95.5%; height: 100%; background: #ef4444; border-radius: 99px;"></div>
+            <div style="flex: 1; height: 32px; background: #fee2e2; border-radius: 6px; overflow: hidden; position: relative;">
+              <div style="width: 95.5%; height: 100%; background: #ef4444; border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 12px;">
+                   <span style="color: white; font-weight: 700; font-size: 0.85rem;">19.1%</span>
+              </div>
             </div>
           </div>
 
           <!-- Xiaomi -->
-          <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #ef4444; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.5rem;">
-              <img src="https://www.google.com/s2/favicons?domain=mi.com&sz=128" alt="Xiaomi" style="width: 24px; height: 24px; object-fit: contain; border-radius: 4px;">
-              <span style="font-weight: 700; color: #111827; font-size: 0.9rem;">Xiaomi</span>
-              <span style="font-size: 1.1em; opacity: 0.9;" title="China">🇨🇳</span>
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <div style="width: 140px; display: flex; align-items: center; gap: 10px; flex-shrink: 0;">
+              <img src="https://www.google.com/s2/favicons?domain=mi.com&sz=128" alt="Xiaomi" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
+              <span style="font-weight: 600; color: #1f2937; font-size: 0.9rem;">Xiaomi</span>
+              <span style="font-size: 1em; opacity: 0.8;" title="China">🇨🇳</span>
             </div>
-            <div style="font-size: 1.5rem; font-weight: 700; color: #ef4444; text-align: center; margin: 0.5rem 0;">17.0%</div>
-            <div style="width: 100%; height: 6px; background: #fee2e2; border-radius: 99px; overflow: hidden;">
-              <div style="width: 85%; height: 100%; background: #ef4444; border-radius: 99px;"></div>
+            <div style="flex: 1; height: 32px; background: #fee2e2; border-radius: 6px; overflow: hidden; position: relative;">
+              <div style="width: 85%; height: 100%; background: #ef4444; border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 12px;">
+                   <span style="color: white; font-weight: 700; font-size: 0.85rem;">17.0%</span>
+              </div>
             </div>
           </div>
 
           <!-- Realme -->
-          <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #ef4444; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.5rem;">
-              <img src="https://www.google.com/s2/favicons?domain=realme.com&sz=128" alt="Realme" style="width: 24px; height: 24px; object-fit: contain; border-radius: 4px;">
-              <span style="font-weight: 700; color: #111827; font-size: 0.9rem;">Realme</span>
-              <span style="font-size: 1.1em; opacity: 0.9;" title="China">🇨🇳</span>
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <div style="width: 140px; display: flex; align-items: center; gap: 10px; flex-shrink: 0;">
+              <img src="https://www.google.com/s2/favicons?domain=realme.com&sz=128" alt="Realme" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
+              <span style="font-weight: 600; color: #1f2937; font-size: 0.9rem;">Realme</span>
+              <span style="font-size: 1em; opacity: 0.8;" title="China">🇨🇳</span>
             </div>
-            <div style="font-size: 1.5rem; font-weight: 700; color: #ef4444; text-align: center; margin: 0.5rem 0;">13.5%</div>
-            <div style="width: 100%; height: 6px; background: #fee2e2; border-radius: 99px; overflow: hidden;">
-              <div style="width: 67.5%; height: 100%; background: #ef4444; border-radius: 99px;"></div>
+            <div style="flex: 1; height: 32px; background: #fee2e2; border-radius: 6px; overflow: hidden; position: relative;">
+              <div style="width: 67.5%; height: 100%; background: #ef4444; border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 12px;">
+                   <span style="color: white; font-weight: 700; font-size: 0.85rem;">13.5%</span>
+              </div>
             </div>
           </div>
 
           <!-- Oppo -->
-          <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #ef4444; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.5rem;">
-              <img src="https://www.google.com/s2/favicons?domain=oppo.com&sz=128" alt="Oppo" style="width: 24px; height: 24px; object-fit: contain; border-radius: 4px;">
-              <span style="font-weight: 700; color: #111827; font-size: 0.9rem;">Oppo</span>
-              <span style="font-size: 1.1em; opacity: 0.9;" title="China">🇨🇳</span>
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <div style="width: 140px; display: flex; align-items: center; gap: 10px; flex-shrink: 0;">
+              <img src="https://www.google.com/s2/favicons?domain=oppo.com&sz=128" alt="Oppo" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
+              <span style="font-weight: 600; color: #1f2937; font-size: 0.9rem;">Oppo</span>
+              <span style="font-size: 1em; opacity: 0.8;" title="China">🇨🇳</span>
             </div>
-            <div style="font-size: 1.5rem; font-weight: 700; color: #ef4444; text-align: center; margin: 0.5rem 0;">12.5%</div>
-            <div style="width: 100%; height: 6px; background: #fee2e2; border-radius: 99px; overflow: hidden;">
-              <div style="width: 62.5%; height: 100%; background: #ef4444; border-radius: 99px;"></div>
+            <div style="flex: 1; height: 32px; background: #fee2e2; border-radius: 6px; overflow: hidden; position: relative;">
+              <div style="width: 62.5%; height: 100%; background: #ef4444; border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 12px;">
+                   <span style="color: white; font-weight: 700; font-size: 0.85rem;">12.5%</span>
+              </div>
             </div>
           </div>
 
           <!-- Samsung -->
-          <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #3b82f6; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.5rem;">
-              <img src="https://www.google.com/s2/favicons?domain=samsung.com&sz=128" alt="Samsung" style="width: 24px; height: 24px; object-fit: contain; border-radius: 4px;">
-              <span style="font-weight: 700; color: #111827; font-size: 0.9rem;">Samsung</span>
-              <span style="font-size: 1.1em; opacity: 0.9;" title="South Korea">🇰🇷</span>
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <div style="width: 140px; display: flex; align-items: center; gap: 10px; flex-shrink: 0;">
+              <img src="https://www.google.com/s2/favicons?domain=samsung.com&sz=128" alt="Samsung" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
+              <span style="font-weight: 600; color: #1f2937; font-size: 0.9rem;">Samsung</span>
+              <span style="font-size: 1em; opacity: 0.8;" title="South Korea">🇰🇷</span>
             </div>
-            <div style="font-size: 1.5rem; font-weight: 700; color: #3b82f6; text-align: center; margin: 0.5rem 0;">11.4%</div>
-            <div style="width: 100%; height: 6px; background: #dbeafe; border-radius: 99px; overflow: hidden;">
-              <div style="width: 57%; height: 100%; background: #3b82f6; border-radius: 99px;"></div>
+            <div style="flex: 1; height: 32px; background: #dbeafe; border-radius: 6px; overflow: hidden; position: relative;">
+              <div style="width: 57%; height: 100%; background: #3b82f6; border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 12px;">
+                   <span style="color: white; font-weight: 700; font-size: 0.85rem;">11.4%</span>
+              </div>
             </div>
           </div>
 
           <!-- Lava & Others -->
-          <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #10b981; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.5rem;">
-              <img src="https://www.google.com/s2/favicons?domain=lavamobiles.com&sz=128" alt="Lava" style="width: 24px; height: 24px; object-fit: contain; border-radius: 4px;">
-              <span style="font-weight: 700; color: #111827; font-size: 0.9rem;">Lava & Others</span>
-              <span style="font-size: 1.1em; opacity: 0.9;" title="India">🇮🇳</span>
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <div style="width: 140px; display: flex; align-items: center; gap: 10px; flex-shrink: 0;">
+              <img src="https://www.google.com/s2/favicons?domain=lavamobiles.com&sz=128" alt="Lava" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
+              <span style="font-weight: 600; color: #1f2937; font-size: 0.9rem;">Lava</span>
+              <span style="font-size: 1em; opacity: 0.8;" title="India">🇮🇳</span>
             </div>
-            <div style="font-size: 1.5rem; font-weight: 700; color: #10b981; text-align: center; margin: 0.5rem 0;">10.3%</div>
-            <div style="width: 100%; height: 6px; background: #d1fae5; border-radius: 99px; overflow: hidden;">
-              <div style="width: 51.5%; height: 100%; background: #10b981; border-radius: 99px;"></div>
+            <div style="flex: 1; height: 32px; background: #d1fae5; border-radius: 6px; overflow: hidden; position: relative;">
+              <div style="width: 51.5%; height: 100%; background: #10b981; border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 12px;">
+                   <span style="color: white; font-weight: 700; font-size: 0.85rem;">10.3%</span>
+              </div>
             </div>
           </div>
 
           <!-- Apple -->
-          <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #6b7280; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.5rem;">
-              <img src="https://www.google.com/s2/favicons?domain=apple.com&sz=128" alt="Apple" style="width: 24px; height: 24px; object-fit: contain; border-radius: 4px;">
-              <span style="font-weight: 700; color: #111827; font-size: 0.9rem;">Apple</span>
-              <span style="font-size: 1.1em; opacity: 0.9;" title="USA">🇺🇸</span>
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <div style="width: 140px; display: flex; align-items: center; gap: 10px; flex-shrink: 0;">
+              <img src="https://www.google.com/s2/favicons?domain=apple.com&sz=128" alt="Apple" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
+              <span style="font-weight: 600; color: #1f2937; font-size: 0.9rem;">Apple</span>
+              <span style="font-size: 1em; opacity: 0.8;" title="USA">🇺🇸</span>
             </div>
-            <div style="font-size: 1.5rem; font-weight: 700; color: #6b7280; text-align: center; margin: 0.5rem 0;">10.0%</div>
-            <div style="width: 100%; height: 6px; background: #e5e7eb; border-radius: 99px; overflow: hidden;">
-              <div style="width: 50%; height: 100%; background: #6b7280; border-radius: 99px;"></div>
+            <div style="flex: 1; height: 32px; background: #f3f4f6; border-radius: 6px; overflow: hidden; position: relative;">
+              <div style="width: 50%; height: 100%; background: #6b7280; border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 12px;">
+                   <span style="color: white; font-weight: 700; font-size: 0.85rem;">10.0%</span>
+              </div>
             </div>
           </div>
 
           <!-- Motorola -->
-          <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #ef4444; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-            <div style="display: flex; align-items: center; gap: 8px; margin-bottom: 0.5rem;">
-              <img src="https://www.google.com/s2/favicons?domain=motorola.com&sz=128" alt="Motorola" style="width: 24px; height: 24px; object-fit: contain; border-radius: 4px;">
-              <span style="font-weight: 700; color: #111827; font-size: 0.9rem;">Motorola</span>
-              <span style="font-size: 1.1em; opacity: 0.9;" title="China">🇨🇳</span>
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <div style="width: 140px; display: flex; align-items: center; gap: 10px; flex-shrink: 0;">
+              <img src="https://www.google.com/s2/favicons?domain=motorola.com&sz=128" alt="Motorola" style="width: 20px; height: 20px; object-fit: contain; border-radius: 4px;">
+              <span style="font-weight: 600; color: #1f2937; font-size: 0.9rem;">Motorola</span>
+              <span style="font-size: 1em; opacity: 0.8;" title="China">🇨🇳</span>
             </div>
-            <div style="font-size: 1.5rem; font-weight: 700; color: #ef4444; text-align: center; margin: 0.5rem 0;">6.2%</div>
-            <div style="width: 100%; height: 6px; background: #fee2e2; border-radius: 99px; overflow: hidden;">
-              <div style="width: 31%; height: 100%; background: #ef4444; border-radius: 99px;"></div>
+            <div style="flex: 1; height: 32px; background: #fee2e2; border-radius: 6px; overflow: hidden; position: relative;">
+              <div style="width: 31%; height: 100%; background: #ef4444; border-radius: 6px; display: flex; align-items: center; justify-content: flex-end; padding-right: 12px;">
+                   <span style="color: white; font-weight: 700; font-size: 0.85rem;">6.2%</span>
+              </div>
             </div>
           </div>
 
         </div>
 
-        <div style="margin-top: 1.5rem; padding: 1rem; background: #fff3cd; border-left: 4px solid #ffc107; border-radius: 4px;">
+        <div style="margin-top: 2rem; padding: 1rem; background: #fff3cd; border-left: 4px solid #ffc107; border-radius: 4px;">
           <p style="margin: 0; font-size: 0.85rem; color: #856404; line-height: 1.6;">
             <strong>Chinese brands dominate:</strong> 68.3% combined market share (Vivo, Xiaomi, Realme, Oppo, Motorola)
           </p>
