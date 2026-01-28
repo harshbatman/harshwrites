@@ -78,6 +78,57 @@ export const articles = [
 
       <p>Same output. Lower cost. No royalties.</p>
 
+      <!-- Reverse Engineering Flow Visualization -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Reverse Engineering Pipeline</h4>
+        
+        <div style="display: flex; align-items: center; justify-content: center; gap: 1rem; flex-wrap: wrap; max-width: 700px; margin: 0 auto;">
+          
+          <!-- Step 1: German Machine -->
+          <div style="flex: 0 0 140px; text-align: center;">
+            <div style="background: linear-gradient(135deg, #1f2937 0%, #374151 100%); padding: 1.5rem 1rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); position: relative;">
+              <div style="position: absolute; top: -10px; right: -10px; background: #ef4444; color: white; font-size: 0.7rem; padding: 2px 6px; border-radius: 4px; font-weight: 600;">🇩🇪</div>
+              <div style="font-size: 2rem; margin-bottom: 0.5rem;">⚙️</div>
+              <div style="color: white; font-weight: 600; font-size: 0.85rem;">German Machine</div>
+              <div style="color: #d1d5db; font-size: 0.7rem; margin-top: 0.25rem;">Centrotherm</div>
+            </div>
+          </div>
+
+          <!-- Arrow -->
+          <div style="font-size: 1.5rem; color: #ef4444; font-weight: bold;">→</div>
+
+          <!-- Step 2: Disassembly -->
+          <div style="flex: 0 0 140px; text-align: center;">
+            <div style="background: linear-gradient(135deg, #dc2626 0%, #ef4444 100%); padding: 1.5rem 1rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); position: relative;">
+              <div style="position: absolute; top: -10px; right: -10px; background: #18181b; color: white; font-size: 0.7rem; padding: 2px 6px; border-radius: 4px; font-weight: 600;">🇨🇳</div>
+              <div style="font-size: 2rem; margin-bottom: 0.5rem;">🔧</div>
+              <div style="color: white; font-weight: 600; font-size: 0.85rem;">Disassemble</div>
+              <div style="color: #fecaca; font-size: 0.7rem; margin-top: 0.25rem;">Study & Copy</div>
+            </div>
+          </div>
+
+          <!-- Arrow -->
+          <div style="font-size: 1.5rem; color: #10b981; font-weight: bold;">→</div>
+
+          <!-- Step 3: Chinese Copy -->
+          <div style="flex: 0 0 140px; text-align: center;">
+            <div style="background: linear-gradient(135deg, #059669 0%, #10b981 100%); padding: 1.5rem 1rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); position: relative;">
+              <div style="position: absolute; top: -10px; right: -10px; background: #18181b; color: white; font-size: 0.7rem; padding: 2px 6px; border-radius: 4px; font-weight: 600;">🇨🇳</div>
+              <div style="font-size: 2rem; margin-bottom: 0.5rem;">⚙️</div>
+              <div style="color: white; font-weight: 600; font-size: 0.85rem;">Chinese Copy</div>
+              <div style="color: #d1fae5; font-size: 0.7rem; margin-top: 0.25rem;">-60% cost</div>
+            </div>
+          </div>
+
+        </div>
+
+        <div style="margin-top: 2rem; padding: 1rem; background: #fff; border-left: 4px solid #ef4444; border-radius: 4px;">
+          <p style="margin: 0; font-size: 0.85rem; color: #374151; line-height: 1.6;">
+            <strong>The Pattern:</strong> Buy German precision → Reverse engineer → Build domestic alternative → Undercut original price → Dominate market
+          </p>
+        </div>
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Act 3: The Manufacturing Avalanche</h3>
 
       <p>China poured money into factories like there was no tomorrow. Not small ones. Mega-factories.</p>
@@ -99,6 +150,51 @@ export const articles = [
       <p><strong>Solar panel prices dropped over 80% in a decade.</strong></p>
 
       <p>Amazing for the planet. Terrible for German manufacturers.</p>
+
+      <!-- Solar Panel Price Collapse Visualization -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Price Collapse (2008-2018)</h4>
+        
+        <div style="display: flex; align-items: flex-end; justify-content: space-around; height: 250px; padding: 0 1rem; max-width: 600px; margin: 0 auto;">
+          
+          <!-- 2008 Bar -->
+          <div style="display: flex; flex-direction: column; align-items: center; flex: 1; max-width: 100px;">
+            <div style="position: relative; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: flex-end;">
+              <div style="background: linear-gradient(180deg, #1f2937 0%, #374151 100%); width: 100%; height: 100%; border-radius: 8px 8px 0 0; position: relative; box-shadow: 0 -4px 6px rgba(0,0,0,0.1);">
+                <div style="position: absolute; top: -35px; left: 50%; transform: translateX(-50%); background: #1f2937; color: white; padding: 4px 10px; border-radius: 6px; font-weight: 700; font-size: 0.85rem; white-space: nowrap;">$4.00/W</div>
+                <div style="position: absolute; top: 10px; left: 50%; transform: translateX(-50%); color: white; font-size: 1.5rem;">🇩🇪</div>
+              </div>
+            </div>
+            <div style="margin-top: 0.75rem; font-weight: 600; font-size: 0.9rem; color: #374151;">2008</div>
+            <div style="font-size: 0.75rem; color: #6b7280;">German Era</div>
+          </div>
+
+          <!-- Arrow Down -->
+          <div style="display: flex; flex-direction: column; align-items: center; padding-bottom: 40px;">
+            <div style="font-size: 2rem; color: #ef4444; font-weight: bold;">↓</div>
+            <div style="font-size: 0.75rem; color: #ef4444; font-weight: 600; margin-top: 0.25rem;">-80%</div>
+          </div>
+
+          <!-- 2018 Bar -->
+          <div style="display: flex; flex-direction: column; align-items: center; flex: 1; max-width: 100px;">
+            <div style="position: relative; width: 100%; height: 100%; display: flex; flex-direction: column; justify-content: flex-end;">
+              <div style="background: linear-gradient(180deg, #dc2626 0%, #ef4444 100%); width: 100%; height: 20%; border-radius: 8px 8px 0 0; position: relative; box-shadow: 0 -4px 6px rgba(239, 68, 68, 0.3);">
+                <div style="position: absolute; top: -35px; left: 50%; transform: translateX(-50%); background: #ef4444; color: white; padding: 4px 10px; border-radius: 6px; font-weight: 700; font-size: 0.85rem; white-space: nowrap;">$0.80/W</div>
+                <div style="position: absolute; top: 2px; left: 50%; transform: translateX(-50%); color: white; font-size: 1.2rem;">🇨🇳</div>
+              </div>
+            </div>
+            <div style="margin-top: 0.75rem; font-weight: 600; font-size: 0.9rem; color: #374151;">2018</div>
+            <div style="font-size: 0.75rem; color: #6b7280;">Chinese Era</div>
+          </div>
+
+        </div>
+
+        <div style="margin-top: 2.5rem; padding: 1rem; background: #fff; border-left: 4px solid #10b981; border-radius: 4px;">
+          <p style="margin: 0; font-size: 0.85rem; color: #374151; line-height: 1.6;">
+            <strong>The Paradox:</strong> Lower prices made solar accessible to billions. But it destroyed the industry that pioneered it.
+          </p>
+        </div>
+      </div>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Rise of Chinese Solar Giants</h3>
 
@@ -136,6 +232,58 @@ export const articles = [
       <p>From exporter to importer.</p>
 
       <p>Like inventing the smartphone… and then importing it from someone else.</p>
+
+      <!-- German Solar Companies Collapse Timeline -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Fall of German Solar Giants</h4>
+        
+        <div style="position: relative; max-width: 600px; margin: 0 auto; padding-left: 30px;">
+          <!-- Timeline Line -->
+          <div style="position: absolute; left: 15px; top: 0; bottom: 0; width: 3px; background: linear-gradient(180deg, #10b981 0%, #ef4444 100%);"></div>
+          
+          <!-- 2005-2008: Peak Era -->
+          <div style="position: relative; margin-bottom: 2.5rem;">
+            <div style="position: absolute; left: -22px; top: 5px; width: 16px; height: 16px; background: #10b981; border-radius: 50%; border: 3px solid #fafafa; box-shadow: 0 0 0 2px #10b981;"></div>
+            <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #10b981; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+              <div style="font-weight: 700; color: #10b981; font-size: 0.9rem; margin-bottom: 0.25rem;">2005-2008: Peak Era</div>
+              <div style="font-size: 0.85rem; color: #374151;">Q-Cells becomes world's largest solar cell maker. German solar exports boom.</div>
+            </div>
+          </div>
+
+          <!-- 2012: First Casualties -->
+          <div style="position: relative; margin-bottom: 2.5rem;">
+            <div style="position: absolute; left: -22px; top: 5px; width: 16px; height: 16px; background: #f59e0b; border-radius: 50%; border: 3px solid #fafafa; box-shadow: 0 0 0 2px #f59e0b;"></div>
+            <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #f59e0b; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+              <div style="font-weight: 700; color: #f59e0b; font-size: 0.9rem; margin-bottom: 0.25rem;">2012: First Casualties</div>
+              <div style="font-size: 0.85rem; color: #374151;"><strong>Q-Cells</strong> files for insolvency. <strong>Solon</strong> bankrupt.</div>
+            </div>
+          </div>
+
+          <!-- 2013-2014: Collapse Accelerates -->
+          <div style="position: relative; margin-bottom: 2.5rem;">
+            <div style="position: absolute; left: -22px; top: 5px; width: 16px; height: 16px; background: #ef4444; border-radius: 50%; border: 3px solid #fafafa; box-shadow: 0 0 0 2px #ef4444;"></div>
+            <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #ef4444; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+              <div style="font-weight: 700; color: #ef4444; font-size: 0.9rem; margin-bottom: 0.25rem;">2013-2014: Collapse Accelerates</div>
+              <div style="font-size: 0.85rem; color: #374151;"><strong>Conergy</strong> insolvent. <strong>SolarWorld</strong> restructures (first time).</div>
+            </div>
+          </div>
+
+          <!-- 2017: Final Blow -->
+          <div style="position: relative; margin-bottom: 0;">
+            <div style="position: absolute; left: -22px; top: 5px; width: 16px; height: 16px; background: #7f1d1d; border-radius: 50%; border: 3px solid #fafafa; box-shadow: 0 0 0 2px #7f1d1d;"></div>
+            <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #7f1d1d; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
+              <div style="font-weight: 700; color: #7f1d1d; font-size: 0.9rem; margin-bottom: 0.25rem;">2017: Final Blow</div>
+              <div style="font-size: 0.85rem; color: #374151;"><strong>SolarWorld</strong> files for insolvency. Germany's solar manufacturing era ends.</div>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top: 2rem; padding: 1rem; background: #fef2f2; border-left: 4px solid #7f1d1d; border-radius: 4px;">
+          <p style="margin: 0; font-size: 0.85rem; color: #374151; line-height: 1.6;">
+            <strong>The Cost:</strong> Tens of thousands of jobs lost. Billions in investment wiped out. An entire industry ecosystem dismantled in less than a decade.
+          </p>
+        </div>
+      </div>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Act 5: China Goes From Cheap to Dominant</h3>
 
