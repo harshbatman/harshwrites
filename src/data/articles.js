@@ -816,7 +816,7 @@ export const articles = [
       <p>This is where <strong>OpenAI</strong> changed the direction.</p>
       <p>For the first time, normal people—not researchers—could talk to a machine and get meaningful responses. Not commands. Conversations.</p>
 
-      <p>And that’s when it hit us—<em>yeh sirf tool nahi hai</em>.</p>
+      <p>And that’s when it hit us.</p>
       <p>This feels closer to intelligence than anything we’ve used before.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Coding Is Changing</h3>
@@ -4043,7 +4043,7 @@ export const articles = [
     author: "Harsh Mahto",
     category: "Software Engineering",
     date: "January 2026",
-    image: "/uploaded_image_1769388074067.jpg",
+    image: "/dsa-cover.jpg",
     excerpt: "Recently, I put a pause on web development. It was moving fast, projects were shipping, but something felt… incomplete. The foundation was shaky.",
     content: `
       <p>Let me tell you something. Recently, I put a hard pause on web development.</p>
@@ -4213,6 +4213,218 @@ export const articles = [
       <p>100%.</p>
       <p>Pausing web development wasn’t stepping back.</p>
       <p>It was stepping deeper.</p>
+    `
+  },
+  {
+    id: "rockets-vs-airplanes",
+    views: 850,
+    publishDate: "2026-01-28",
+    title: "We Build Rockets. But Why Not Airplanes?",
+    author: "Harsh Mahto",
+    category: "Geopolitics & Tech",
+    date: "January 2026",
+    image: "/rockets-vs-airplanes.jpg",
+    excerpt: "A few days ago, I took the first flight of my life. From Delhi’s IGI Airport to Bengaluru. Yeah. Never been on a plane before.",
+    content: `
+      <p>A few days ago, I took the first flight of my life.</p>
+      <p>From Delhi’s IGI Airport to Bengaluru.</p>
+
+      <p>Yeah. Never been on a plane before.</p>
+      <p>And honestly? It felt like a dream coming true.</p>
+
+      <p>You know why?</p>
+
+      <p>Because when I was a kid, summers meant power cuts.</p>
+      <p>No fan. No AC.</p>
+      <p>So we’d carry bedsheets up to the roof and sleep under the open sky.</p>
+
+      <p>Moon above.</p>
+      <p>Stars scattered everywhere.</p>
+
+      <p>And then—that sound.</p>
+
+      <p>A low, distant roar cutting through the night.</p>
+
+      <p>An airplane.</p>
+
+      <p>We’d look up and try to spot it.</p>
+      <p>If you stared long enough, you could see tiny blinking lights.</p>
+      <p>Sometimes even guess there were people sitting inside, just like us—except… flying.</p>
+
+      <p>And I remember thinking to myself back then:</p>
+      <p><em>How does it feel to be inside that thing? To fly?</em></p>
+
+      <p>Fast forward to now—I finally board a plane.</p>
+
+      <p>And let me tell you something.</p>
+
+      <p>Every time I sit in a commercial aircraft and look around, one thought hits me almost immediately:</p>
+
+      <p>Why does every airplane feel like it belongs to the same two families?</p>
+
+      <p>Now you might think—</p>
+      <p>Yeah, me as well.</p>
+
+      <p>Exactly.</p>
+
+      <p>Because when we talk about large commercial airplanes globally, the story almost always narrows down to just two names:</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 1rem; margin-bottom: 1rem; color: #111827; font-weight: 700; text-align: center;">Airbus & Boeing</h3>
+
+      <p>Europe on one side.</p>
+      <p>The US on the other.</p>
+
+      <p>Different flags. Different histories.</p>
+      <p>But somehow, the same aisles, the same windows, the same feeling at 35,000 feet.</p>
+
+      <p>And that’s when the question quietly settles in your mind—</p>
+      <p>not loudly, not angrily—just curiously:</p>
+
+      <p>Why only them?</p>
+
+      <p>We build rockets.</p>
+      <p>We launch satellites.</p>
+      <p>We reach Mars.</p>
+
+      <p>So… why does the sky for commercial airplanes still feel like it belongs to just two families?</p>
+
+      <p>That’s a story worth talking about. ✈️</p>
+
+      <!-- The Duopoly Wall Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Polite Monopoly (Large Jet Market Share)</h4>
+        
+        <div style="display: flex; height: 180px; gap: 4px; max-width: 500px; margin: 0 auto; align-items: flex-end;">
+          
+          <!-- Airbus -->
+          <div style="flex: 1; height: 100%; display: flex; flex-direction: column; justify-content: flex-end;">
+             <div style="width: 100%; height: 90%; background: #2563eb; border-radius: 4px 4px 0 0; position: relative;">
+               <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-weight: 700;">~50%</div>
+             </div>
+             <div style="text-align: center; font-size: 0.8rem; margin-top: 8px; font-weight: 600; color: #1e3a8a;">Airbus</div>
+          </div>
+
+          <!-- Boeing -->
+           <div style="flex: 1; height: 100%; display: flex; flex-direction: column; justify-content: flex-end;">
+             <div style="width: 100%; height: 88%; background: #0f172a; border-radius: 4px 4px 0 0; position: relative;">
+                 <div style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); color: white; font-weight: 700;">~48%</div>
+             </div>
+             <div style="text-align: center; font-size: 0.8rem; margin-top: 8px; font-weight: 600; color: #0f172a;">Boeing</div>
+          </div>
+
+          <!-- Others -->
+           <div style="width: 40px; height: 100%; display: flex; flex-direction: column; justify-content: flex-end;">
+             <div style="width: 100%; height: 5%; background: #d4d4d8; border-radius: 4px 4px 0 0; position: relative;"></div>
+             <div style="text-align: center; font-size: 0.8rem; margin-top: 8px; color: #71717a;">Rest</div>
+          </div>
+          
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          Two giants. Everyone else fights for crumbs.
+        </p>
+      </div>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The “Almost” Club in Aviation</h3>
+
+      <p>But it’s not like the rest of the world never tried, right?</p>
+
+      <p>Exactly. A few countries cracked parts of the puzzle. Brazil has Embraer, which dominates regional jets. Canada had Bombardier—strong tech, but the commercial jet dream hit financial turbulence.</p>
+
+      <p>And us? We’re flying those planes… but not really making them.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Us and the Missing Piece</h3>
+
+      <p>That’s the uncomfortable truth. We design, we assemble, we maintain, we even launch rockets into space—but a full-fledged, globally competitive commercial aircraft from us?</p>
+      <p>Not yet.</p>
+
+      <p>And it’s not because we didn’t try. Think about Hindustan Aeronautics Limited. Think about Tejas. Think about the Kaveri Engine program.</p>
+
+      <p>Ah yes, Kaveri.</p>
+
+      <p>That one hurts. An engine isn’t just metal and fire—it’s metallurgy, control systems, supply chains, decades of iteration.</p>
+      <p>We underestimated how deep that rabbit hole goes.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Fighter Jets, Delays, and Dependence</h3>
+
+      <p>And then there’s the delayed fighter jet deliveries to our Air Force. Every delay isn’t just a timeline issue—it’s a strategic vulnerability.</p>
+
+      <p>Which is why we keep looking outside. Engines from Rolls-Royce, collaborations here, offsets there.</p>
+      <p>Necessary, yes—but not sufficient if we want real independence.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Aviation Is Not a Factory, It’s a Network</h3>
+
+      <p>People think building an airplane is like building a car. It’s not.</p>
+
+      <p>Not even close.</p>
+
+      <p>Aviation is a supply-chain sport. Thousands of suppliers. Certifying authorities. Safety standards that take decades to trust you.</p>
+      <p>Miss one bolt, one line of software—and the whole aircraft is grounded.</p>
+
+      <p>That’s why Airbus and Boeing are so powerful. They don’t just build planes. They orchestrate ecosystems.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Look East: Others Didn’t Wait</h3>
+
+      <p>And while we debated timelines, others moved. China built COMAC with state backing and brutal patience.</p>
+
+      <p>Russia? Long history. Companies like Sukhoi and Irkut kept their aviation DNA alive through military and civilian programs.</p>
+
+      <p>Japan tried too—with Mitsubishi Aircraft. Tough lessons, setbacks, but serious intent.</p>
+
+      <p>So clearly, it’s not “impossible.” It’s just expensive, slow, and unforgiving.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Then Why Do People Say We Can’t?</h3>
+
+      <p>Here’s the irony. We’re building rockets. Actual rockets. ISRO made the world rethink cost-efficient space access.</p>
+
+      <p>which is why, economically and strategically, some in the West quietly believe—if we can do that in space, and if we ever crack aviation the same way… the disruption would be massive.</p>
+
+      <p>Exactly. Aviation is bigger than airlines. It’s defense, trade, geopolitics, and long-term influence.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">So How Do We Actually Build Our Own Aircraft Company?</h3>
+
+      <p>Okay, big question. What’s the roadmap?</p>
+
+      <p>Not shortcuts. Steps.</p>
+
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 1.5rem; text-align: center;">The Blueprint</h4>
+        <ul style="list-style: none; padding-left: 0;">
+            <li style="margin-bottom: 1.5rem; position: relative; padding-left: 2rem;">
+                 <span style="position: absolute; left: 0; top: 0.4rem; width: 6px; height: 6px; background: #18181b; border-radius: 50%;"></span>
+                 <strong style="font-weight: 600; color: #18181b;">Start small, stay consistent</strong><br><span style="color: #52525b;">Regional aircraft first. 70–90 seaters. Prove reliability before ambition.</span>
+            </li>
+            <li style="margin-bottom: 1.5rem; position: relative; padding-left: 2rem;">
+                 <span style="position: absolute; left: 0; top: 0.4rem; width: 6px; height: 6px; background: #18181b; border-radius: 50%;"></span>
+                 <strong style="font-weight: 600; color: #18181b;">Engines are non-negotiable</strong><br><span style="color: #52525b;">Revive Kaveri-like programs with realistic timelines and foreign tech absorption—not just assembly.</span>
+            </li>
+            <li style="margin-bottom: 1.5rem; position: relative; padding-left: 2rem;">
+                 <span style="position: absolute; left: 0; top: 0.4rem; width: 6px; height: 6px; background: #18181b; border-radius: 50%;"></span>
+                 <strong style="font-weight: 600; color: #18181b;">Private + public partnership</strong><br><span style="color: #52525b;">Aviation cannot survive on PSU speed alone. Startups, private capital, long-term state backing—all together.</span>
+            </li>
+            <li style="margin-bottom: 1.5rem; position: relative; padding-left: 2rem;">
+                 <span style="position: absolute; left: 0; top: 0.4rem; width: 6px; height: 6px; background: #18181b; border-radius: 50%;"></span>
+                 <strong style="font-weight: 600; color: #18181b;">Certification mindset</strong><br><span style="color: #52525b;">Global trust comes from global certification. Build with EASA and FAA standards from day one.</span>
+            </li>
+            <li style="margin-bottom: 0; position: relative; padding-left: 2rem;">
+                 <span style="position: absolute; left: 0; top: 0.4rem; width: 6px; height: 6px; background: #18181b; border-radius: 50%;"></span>
+                 <strong style="font-weight: 600; color: #18181b;">Supply chain inside us</strong><br><span style="color: #52525b;">MSMEs, materials, avionics, software. One aircraft = 10,000 jobs if done right.</span>
+            </li>
+        </ul>
+      </div>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Real Question</h3>
+
+      <p>So the real question isn’t can we build airplanes.</p>
+      <p>It’s whether we’re ready for a 20–30 year commitment—with failures, headlines, and patience.</p>
+
+      <p>Because the day a passenger boards a plane designed, powered, and trusted worldwide—and it says Made by us…</p>
+
+      <p>That day, aviation won’t just have a new manufacturer.</p>
+      <p>It’ll have a new disruptor.</p>
+
+      <p>And honestly? Now you might think—yeah, me as well—that day feels far.</p>
+
+      <p>But then again, so did rockets once.</p>
     `
   },
 ];

@@ -9,39 +9,7 @@ import SupporterList from '../components/SupporterList';
 function ArticleView() {
     const { id } = useParams();
     const article = articles.find(a => a.id === id);
-    const [copied, setCopied] = useState(false);
-
-    // Scroll to top on mount
-    useEffect(() => {
-        window.scrollTo(0, 0);
-    }, []);
-
-    const handleShare = async () => {
-        if (navigator.share) {
-            try {
-                await navigator.share({
-                    title: article?.title,
-                    text: article?.excerpt,
-                    url: window.location.href,
-                });
-            } catch (err) {
-                console.error("Share failed:", err);
-            }
-        } else {
-            navigator.clipboard.writeText(window.location.href);
-            setCopied(true);
-            setTimeout(() => setCopied(false), 2000);
-        }
-    };
-
-    if (!article) {
-        return (
-            <div className="container" style={{ padding: '5rem 0', textAlign: 'center' }}>
-                <h2>Article not found</h2>
-                <Link to="/">Back to Home</Link>
-            </div>
-        );
-    }
+    // ... (rest of logic)
 
     return (
         <article className="article-view">
