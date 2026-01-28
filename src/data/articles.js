@@ -1,77 +1,5 @@
 export const articles = [
-  {
-    id: "search-wars",
-    views: 12000,
-    publishDate: "2026-01-29",
-    title: "Search Wars: The Battle for the Future of Information",
-    author: "Harsh Mahto",
-    category: "Technology & Business",
-    date: "January 2026",
-    image: "/search-wars.jpg",
-    excerpt: "For two decades, 'Googling' was synonymous with searching. But now, with ChatGPT, Perplexity, and new AI models, the monopoly is under siege.",
-    content: `
-      <p>For two decades, 'Googling' was synonymous with searching. It wasn't just a product; it was a verb.</p>
 
-      <p>But now, the monopoly is under siege.</p>
-      
-      <p>ChatGPT. Perplexity. Claude. Bing AI.</p>
-      
-      <p>The question isn't just "who has the best blue links" anymore. It's "who can give me the best answer."</p>
-
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Paradigm Shift</h3>
-      
-      <p>Understanding user intent is the new battlefield. We moved from keywords to context.</p>
-      
-      <p>Google organized the world's information. AI synthesizes it.</p>
-      
-      <p>When you search for "best budget headphones," do you want 10 links to SEO-optimized blogs, or do you want a summary of the top 3 with pros and cons?</p>
-
-      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
-        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Search vs. Answer Engines</h4>
-        
-        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
-          
-          <!-- Traditional Search -->
-          <div style="display: flex; align-items: center; gap: 1rem;">
-            <div style="width: 120px; text-align: right; flex-shrink: 0;">
-                <div style="font-weight: 700; color: #1f2937;">Google</div>
-                <div style="font-size: 0.75rem; color: #6b7280;">Traditional Search</div>
-            </div>
-            <div style="flex: 1; height: 38px; background: #f3f4f6; border-radius: 6px; overflow: hidden; position: relative; border: 1px solid #e5e7eb;">
-               <div style="width: 100%; height: 100%; display: flex; align-items: center; padding-left: 12px; color: #374151; font-family: monospace; font-size: 0.85rem;">
-                  <span style="color: #2563eb;">blue_link_1.com</span>, <span style="color: #2563eb;">blue_link_2.com</span>...
-               </div>
-            </div>
-          </div>
-
-          <!-- AI Answer -->
-          <div style="display: flex; align-items: center; gap: 1rem;">
-            <div style="width: 120px; text-align: right; flex-shrink: 0;">
-                <div style="font-weight: 700; color: #1f2937;">Perplexity/GPT</div>
-                <div style="font-size: 0.75rem; color: #6b7280;">AI Synthesis</div>
-            </div>
-            <div style="flex: 1; padding: 10px; background: #f0fdf4; border-radius: 6px; border: 1px solid #bbf7d0;">
-               <div style="color: #15803d; font-size: 0.85rem; line-height: 1.4;">
-                  "The best budget headphones are <strong>Sony WH-CH520</strong> for battery life and <strong>EarFun Air Pro 3</strong> for noise cancelling..."
-               </div>
-            </div>
-          </div>
-
-        </div>
-        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
-          Users want answers, not homework.
-        </p>
-      </div>
-
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Innovator's Dilemma</h3>
-      
-      <p>Google has the data. It has the AI (Gemini). But it also has a business model (Ads) that depends on you clicking links.</p>
-      
-      <p>If the AI gives you the answer directly, you don't click. If you don't click, Google doesn't lose just traffic—it loses revenue.</p>
-      
-      <p>Perplexity and OpenAI don't have that baggage yet. They can disrupt because they have nothing to lose.</p>
-    `
-  },
   {
     id: "china-solar-dominance",
     views: 5000,
@@ -1370,6 +1298,62 @@ export const articles = [
       <p>Not at the end of the AI story—</p>
 
       <p>—but right at the beginning.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Search Wars: The Innovator's Dilemma</h3>
+
+      <p>And nowhere is this beginning felt more than in the most fundamental habit of the internet—<strong>Search</strong>.</p>
+      
+      <p>For two decades, 'Googling' was synonymous with searching. It wasn't just a product; it was a verb. Google organized the world's information. We searched for keywords, and Google gave us blue links.</p>
+
+      <p>But now, the monopoly is under siege.</p>
+      <p>ChatGPT. Perplexity. Claude. Bing AI.</p>
+      
+      <p>The question isn't just "who has the best blue links" anymore. It's "who can give me the best answer."</p>
+
+      <p>When you search for "best budget headphones," do you want 10 links to SEO-optimized blogs, or do you want a summary of the top 3 with pros and cons?</p>
+
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Search vs. Answer Engines</h4>
+        
+        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+          
+          <!-- Traditional Search -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <div style="width: 120px; text-align: right; flex-shrink: 0;">
+                <div style="font-weight: 700; color: #1f2937;">Google</div>
+                <div style="font-size: 0.75rem; color: #6b7280;">Traditional Search</div>
+            </div>
+            <div style="flex: 1; height: 38px; background: #f3f4f6; border-radius: 6px; overflow: hidden; position: relative; border: 1px solid #e5e7eb;">
+               <div style="width: 100%; height: 100%; display: flex; align-items: center; padding-left: 12px; color: #374151; font-family: monospace; font-size: 0.85rem;">
+                  <span style="color: #2563eb;">blue_link_1.com</span>, <span style="color: #2563eb;">blue_link_2.com</span>...
+               </div>
+            </div>
+          </div>
+
+          <!-- AI Answer -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <div style="width: 120px; text-align: right; flex-shrink: 0;">
+                <div style="font-weight: 700; color: #1f2937;">Perplexity/GPT</div>
+                <div style="font-size: 0.75rem; color: #6b7280;">AI Synthesis</div>
+            </div>
+            <div style="flex: 1; padding: 10px; background: #f0fdf4; border-radius: 6px; border: 1px solid #bbf7d0;">
+               <div style="color: #15803d; font-size: 0.85rem; line-height: 1.4;">
+                  "The best budget headphones are <strong>Sony WH-CH520</strong> for battery life..."
+               </div>
+            </div>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          Users want answers, not homework.
+        </p>
+      </div>
+
+      <p>And here lies Google’s dilemma.</p>
+      
+      <p>Google has the data. It has the AI. But it also has a business model (Ads) that depends on you clicking links. If the AI answers you directly, you don't click. If you don't click, Google loses revenue.</p>
+      
+      <p>New players don't have that baggage. They can disrupt because they have nothing to lose.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Real Story: The AI Stack</h3>
 
