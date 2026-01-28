@@ -1419,6 +1419,73 @@ export const articles = [
         </p>
       </div>
 
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Current Landscape (2024 Market Dominance)</h4>
+        
+        <div style="display: flex; gap: 2rem; flex-wrap: wrap;">
+          
+          <!-- Browser Share -->
+          <div style="flex: 1; min-width: 280px;">
+             <div style="font-weight: 600; margin-bottom: 1rem; color: #52525b; text-align: center;">Global Browser Share</div>
+             <div style="display: flex; flex-direction: column; gap: 8px;">
+                <div style="display: flex; align-items: center; font-size: 0.8rem;">
+                   <div style="width: 70px;">Chrome</div>
+                   <div style="flex: 1; background: #f4f4f5; height: 16px; border-radius: 4px; overflow: hidden;">
+                      <div style="width: 65%; height: 100%; background: #ea4335;"></div>
+                   </div>
+                   <div style="width: 40px; text-align: right; font-weight: 600;">65%</div>
+                </div>
+                <div style="display: flex; align-items: center; font-size: 0.8rem;">
+                   <div style="width: 70px;">Safari</div>
+                   <div style="flex: 1; background: #f4f4f5; height: 16px; border-radius: 4px; overflow: hidden;">
+                      <div style="width: 18%; height: 100%; background: #2563eb;"></div>
+                   </div>
+                   <div style="width: 40px; text-align: right; font-weight: 600;">18%</div>
+                </div>
+                <div style="display: flex; align-items: center; font-size: 0.8rem;">
+                   <div style="width: 70px;">Edge</div>
+                   <div style="flex: 1; background: #f4f4f5; height: 16px; border-radius: 4px; overflow: hidden;">
+                      <div style="width: 5%; height: 100%; background: #059669;"></div>
+                   </div>
+                   <div style="width: 40px; text-align: right; font-weight: 600;">5%</div>
+                </div>
+             </div>
+          </div>
+
+          <!-- Search Share -->
+          <div style="flex: 1; min-width: 280px;">
+             <div style="font-weight: 600; margin-bottom: 1rem; color: #52525b; text-align: center;">Global Search Engine Share</div>
+             <div style="display: flex; flex-direction: column; gap: 8px;">
+                <div style="display: flex; align-items: center; font-size: 0.8rem;">
+                   <div style="width: 70px;">Google</div>
+                   <div style="flex: 1; background: #f4f4f5; height: 16px; border-radius: 4px; overflow: hidden;">
+                      <div style="width: 91%; height: 100%; background: #ea4335;"></div>
+                   </div>
+                   <div style="width: 40px; text-align: right; font-weight: 600;">91%</div>
+                </div>
+                <div style="display: flex; align-items: center; font-size: 0.8rem;">
+                   <div style="width: 70px;">Bing</div>
+                   <div style="flex: 1; background: #f4f4f5; height: 16px; border-radius: 4px; overflow: hidden;">
+                      <div style="width: 3%; height: 100%; background: #2563eb;"></div>
+                   </div>
+                   <div style="width: 40px; text-align: right; font-weight: 600;">3%</div>
+                </div>
+                <div style="display: flex; align-items: center; font-size: 0.8rem;">
+                   <div style="width: 70px;">Others</div>
+                   <div style="flex: 1; background: #f4f4f5; height: 16px; border-radius: 4px; overflow: hidden;">
+                      <div style="width: 6%; height: 100%; background: #71717a;"></div>
+                   </div>
+                   <div style="width: 40px; text-align: right; font-weight: 600;">6%</div>
+                </div>
+             </div>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          Before AI disrupts it, this is what dominance looks like.
+        </p>
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Generative Shift</h3>
 
       <p>Now you might think the story ends with social media. That after Facebook, Instagram, and endless scrolling, we’d reached the peak of the digital world.</p>
