@@ -7,7 +7,24 @@ import { articles } from '../data/articles';
 function Home() {
     const [searchTerm, setSearchTerm] = useState('');
     const [filter, setFilter] = useState('latest');
-    // ... (rest of the logic remains the same)
+
+    // Filter articles based on search term
+    const filteredArticles = articles
+        .filter(article =>
+            article.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            article.excerpt.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            article.category.toLowerCase().includes(searchTerm.toLowerCase())
+        )
+        .sort((a, b) => {
+            if (filter === 'latest') {
+                return new Date(b.publishDate) - new Date(a.publishDate);
+            } else if (filter === 'most-read') {
+                return b.views - a.views;
+            } else if (filter === 'oldest') {
+                return new Date(a.publishDate) - new Date(b.publishDate);
+            }
+            return 0;
+        });
 
     return (
         <div className="home-container">
