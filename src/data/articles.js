@@ -1854,12 +1854,12 @@ export const articles = [
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Rise of Indian Startups</h4>
         
         <!-- Horizontal Timeline Container -->
-        <div style="position: relative; overflow-x: auto; padding: 2rem 0;">
-          <!-- Timeline Line -->
-          <div style="position: absolute; top: 50px; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #F5BE18 0%, #10b981 20%, #0ea5e9 30%, #f97316 45%, #8b5cf6 55%, #6366f1 65%, #ef4444 75%, #18181b 85%, #ec4899 100%);"></div>
+        <div style="overflow-x: auto; padding: 2rem 0;">
           
           <!-- Companies Container -->
-          <div style="display: flex; gap: 1.5rem; min-width: max-content; padding: 0 1rem;">
+          <div style="position: relative; display: flex; gap: 1.5rem; min-width: max-content; padding: 0 1rem;">
+             <!-- Timeline Line -->
+             <div style="position: absolute; top: 18px; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, #F5BE18 0%, #10b981 20%, #0ea5e9 30%, #f97316 45%, #8b5cf6 55%, #6366f1 65%, #ef4444 75%, #18181b 85%, #ec4899 100%);"></div>
             
             <!-- Flipkart 2007 -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
