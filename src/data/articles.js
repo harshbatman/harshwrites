@@ -1474,25 +1474,97 @@ export const articles = [
 
 
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Web 2.0: We Became The Product</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Web 2.0: The Social Internet</h3>
+      
+      <p>And here’s the irony—people said the internet failed. In reality, weak ideas failed. The internet was just warming up.</p>
 
-      <p>And here’s the irony—people said the internet failed.</p>
-      <p>In reality, weak ideas failed. The internet was just warming up.</p>
+      <p>This was <strong>Web 2.0</strong>. The shift from reading to writing. From consuming to participating.</p>
+      
+      <p>It started innocently enough.</p>
+      <p><strong>Friendster</strong> and <strong>MySpace</strong> gave us digital bedrooms. We decorated profiles and chose top friends.</p>
+      
+      <p>Then <strong>LinkedIn</strong> turned our resumes into a network.</p>
+      
+      <p>But <strong>Facebook</strong> changed the physics. It didn't just connect us; it mapped us. The "Social Graph." It proved that if you give people a stage, they will perform.</p>
 
-      <p>That warm-up became <strong>Web 2.0</strong>.</p>
-      <p>The shift from pages to platforms.</p>
-      <p>From consuming to participating.</p>
+      <p>Then the form factor shattered.</p>
+      <p><strong>Twitter</strong> made us think in headlines.</p>
+      <p><strong>Instagram</strong> and <strong>Snapchat</strong> killed text and made the internet visual.</p>
+      <p><strong>Telegram</strong> and <strong>WhatsApp</strong> took the noise private.</p>
 
-      <p>And this is where everything got psychological.</p>
-      <p>Facebook didn’t just connect friends. It mapped social relationships. It learned what made us angry, happy, tribal, insecure.</p>
+      <p>We didn’t pay with money. We paid with <strong>attention</strong>. And attention turned out to be the most valuable currency ever discovered.</p>
 
-      <p>Likes became validation.</p>
-      <p>Shares became identity.</p>
-      <p>Algorithms became invisible editors of truth.</p>
+      <!-- Social Media Growth Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 1.5rem; text-align: center;">The Rise of Social Media (Monthly Active Users)</h4>
+        
+        <div style="display: flex; flex-direction: column; gap: 1rem; max-width: 600px; margin: 0 auto;">
+          
+          <!-- Facebook -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+             <div style="width: 100px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem;">Facebook</div>
+             <div style="flex: 1; background: #f4f4f5; height: 24px; border-radius: 4px; overflow: hidden; position: relative;">
+                <div style="width: 90%; height: 100%; background: #1877f2; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px;">
+                   <span style="color: white; font-size: 0.75rem; font-weight: 700;">3 Billion</span>
+                </div>
+             </div>
+          </div>
 
-      <p>We didn’t pay with money.</p>
-      <p>We paid with <strong>attention</strong>.</p>
-      <p>And attention turned out to be the most valuable currency ever discovered.</p>
+          <!-- YouTube -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+             <div style="width: 100px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem;">YouTube</div>
+             <div style="flex: 1; background: #f4f4f5; height: 24px; border-radius: 4px; overflow: hidden; position: relative;">
+                <div style="width: 75%; height: 100%; background: #ff0000; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px;">
+                   <span style="color: white; font-size: 0.75rem; font-weight: 700;">2.5 Billion</span>
+                </div>
+             </div>
+          </div>
+
+          <!-- Instagram -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+             <div style="width: 100px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem;">Instagram</div>
+             <div style="flex: 1; background: #f4f4f5; height: 24px; border-radius: 4px; overflow: hidden; position: relative;">
+                <div style="width: 60%; height: 100%; background: #e1306c; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px;">
+                   <span style="color: white; font-size: 0.75rem; font-weight: 700;">2 Billion</span>
+                </div>
+             </div>
+          </div>
+
+           <!-- TikTok -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+             <div style="width: 100px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem;">TikTok</div>
+             <div style="flex: 1; background: #f4f4f5; height: 24px; border-radius: 4px; overflow: hidden; position: relative;">
+                <div style="width: 45%; height: 100%; background: #000000; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px;">
+                   <span style="color: white; font-size: 0.75rem; font-weight: 700;">1.5 Billion</span>
+                </div>
+             </div>
+          </div>
+
+           <!-- LinkedIn -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+             <div style="width: 100px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem;">LinkedIn</div>
+             <div style="flex: 1; background: #f4f4f5; height: 24px; border-radius: 4px; overflow: hidden; position: relative;">
+                <div style="width: 27%; height: 100%; background: #0077b5; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px;">
+                   <span style="color: white; font-size: 0.75rem; font-weight: 700;">900M</span>
+                </div>
+             </div>
+          </div>
+
+           <!-- Twitter -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+             <div style="width: 100px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem;">Twitter / X</div>
+             <div style="flex: 1; background: #f4f4f5; height: 24px; border-radius: 4px; overflow: hidden; position: relative;">
+                <div style="width: 18%; height: 100%; background: #000000; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px;">
+                   <span style="color: white; font-size: 0.75rem; font-weight: 700;">600M</span>
+                </div>
+             </div>
+          </div>
+          
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          We donated our lives to the feed.
+        </p>
+      </div>
 
       <!-- Internet vs AI Adoption Graph -->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
