@@ -9,7 +9,7 @@ const rawSupporters = [
     { name: "Viraj", amount: 1000 },
     { name: "Noor Khan", amount: 500 },
     { name: "Poonam", amount: 100 },
-    { name: "Aesha", amount: 2000 },
+    { name: "Aesha Singh", amount: 2000 },
     { name: "Prakash Tyagi", amount: 100 },
     { name: "Praveen", amount: 100 },
     { name: "Komal", amount: 100 },
@@ -49,7 +49,7 @@ const SupporterList = () => {
         const customRank = {
             "Manjeet singh": 1,
             "Sammer": 2,
-            "Aesha": 3,
+            "Aesha Singh": 3,
             "Akash Sharma": 99,
 
             // 1000 Tier - Alternating Boy/Girl Order
