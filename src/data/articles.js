@@ -2723,8 +2723,10 @@ export const articles = [
           <div style="display: flex; align-items: center; gap: 1rem;">
              <div style="width: 100px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem;">Internet</div>
              <div style="flex: 1; background: #f4f4f5; height: 32px; border-radius: 4px; overflow: visible; position: relative;">
-                <div style="width: 12%; height: 100%; background: #2563eb; border-radius: 4px; display: flex; align-items: center; justify-content: flex-end; padding-right: 12px;">
-                  <span style="color: white; font-size: 0.85rem; font-weight: 700;">7 Years</span>
+                <div style="width: 12%; height: 100%; background: #2563eb; border-radius: 4px; display: flex; align-items: center; justify-content: flex-start;">
+                </div>
+                <div style="position: absolute; left: 14%; top: 50%; transform: translateY(-50%); color: #2563eb; font-weight: 700; font-size: 0.9rem;">
+                  7 Years
                 </div>
              </div>
           </div>
