@@ -1987,6 +1987,60 @@ export const articles = [
       <p>And this time, the bottleneck isn’t imagination—</p>
       <p>—it’s infrastructure.</p>
 
+      <!-- Adoption Speed Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Time to Reach 100 Million Users</h4>
+        
+        <div style="display: flex; flex-direction: column; gap: 1.5rem; max-width: 500px; margin: 0 auto;">
+          
+          <!-- Telephone -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+             <div style="width: 100px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem;">Telephone</div>
+             <div style="flex: 1; background: #f4f4f5; height: 32px; border-radius: 4px; overflow: visible; position: relative;">
+                <div style="width: 100%; height: 100%; background: #52525b; border-radius: 4px; display: flex; align-items: center; justify-content: flex-end; padding-right: 12px;">
+                  <span style="color: white; font-size: 0.85rem; font-weight: 700;">75 Years</span>
+                </div>
+             </div>
+          </div>
+
+          <!-- Mobile Phone -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+             <div style="width: 100px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem;">Mobile Phone</div>
+             <div style="flex: 1; background: #f4f4f5; height: 32px; border-radius: 4px; overflow: visible; position: relative;">
+                <div style="width: 25%; height: 100%; background: #374151; border-radius: 4px; display: flex; align-items: center; justify-content: flex-end; padding-right: 12px;">
+                  <span style="color: white; font-size: 0.85rem; font-weight: 700;">16 Years</span>
+                </div>
+             </div>
+          </div>
+
+          <!-- Internet (Web) -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+             <div style="width: 100px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem;">Internet</div>
+             <div style="flex: 1; background: #f4f4f5; height: 32px; border-radius: 4px; overflow: visible; position: relative;">
+                <div style="width: 12%; height: 100%; background: #2563eb; border-radius: 4px; display: flex; align-items: center; justify-content: flex-end; padding-right: 12px;">
+                  <span style="color: white; font-size: 0.85rem; font-weight: 700;">7 Years</span>
+                </div>
+             </div>
+          </div>
+
+           <!-- ChatGPT / AI -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+             <div style="width: 100px; text-align: right; font-weight: 700; color: #7c3aed; font-size: 0.9rem;">AI (ChatGPT)</div>
+             <div style="flex: 1; background: #f4f4f5; height: 32px; border-radius: 4px; overflow: visible; position: relative;">
+                <div style="width: 2%; height: 100%; background: #7c3aed; border-radius: 4px; display: flex; align-items: center; justify-content: flex-start;">
+                </div>
+                <div style="position: absolute; left: 4%; top: 50%; transform: translateY(-50%); color: #7c3aed; font-weight: 700; font-size: 0.9rem;">
+                  2 Months
+                </div>
+             </div>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          Adoption cycles are collapsing.
+        </p>
+      </div>
+
       <!-- The AI Infrastructure Stack Graph -->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The AI Infrastructure Stack</h4>
