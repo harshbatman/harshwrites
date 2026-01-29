@@ -27,7 +27,7 @@ const SupportSection = () => {
                 lineHeight: '1.7',
                 color: '#374151',
                 marginBottom: '2rem',
-                maxWidth: '600px',
+                maxWidth: '800px',
                 marginLeft: 'auto',
                 marginRight: 'auto',
                 fontFamily: 'serif' // matching the likely article style or keeping it distinct
