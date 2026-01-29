@@ -2649,6 +2649,16 @@ export const articles = [
       <p>Not after the revolution.</p>
 
       <p class="story-punchline">Right in the middle of it.</p>
+
+      <div style="margin-top: 4rem; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; display: flex; flex-direction: column; align-items: center; text-align: center;">
+          <h3 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; color: #111827; margin-bottom: 1.5rem;">From the Inbox</h3>
+          
+          <img src="/aesha-singh-feedback.jpg" alt="Feedback from Aesha Singh" style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.1); border: 1px solid #e5e7eb; margin-bottom: 1rem;" />
+
+          <p style="font-size: 0.9rem; color: #6b7280; font-style: italic;">
+               Shared by Aesha Singh
+          </p>
+      </div>
     `
   },
   {
