@@ -158,6 +158,13 @@ function ArticleView() {
                                 style={{ height: '180px', width: 'auto', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e7eb', cursor: 'zoom-in', transition: 'transform 0.2s' }}
                                 onClick={() => setZoomedImage("/aesha.jpg")}
                             />
+                            <img
+                                src="/vijay.jpg"
+                                alt="Feedback from Vijay Prasad"
+                                title="Review from Vijay Prasad"
+                                style={{ height: '180px', width: 'auto', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e7eb', cursor: 'zoom-in', transition: 'transform 0.2s' }}
+                                onClick={() => setZoomedImage("/vijay.jpg")}
+                            />
                         </div>
 
                     </div>
