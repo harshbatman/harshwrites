@@ -145,30 +145,7 @@ function ArticleView() {
                     </p>
                 </div>
 
-                {/* Specific Appreciation Section for Transistors to AI */}
-                {article.id === 'transistors-to-ai' && (
-                    <div style={{ marginTop: '2rem', marginBottom: '4rem', padding: '2rem', background: '#fafafa', borderRadius: '12px', border: '1px solid #e5e7eb', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
-                        <h3 style={{ fontFamily: 'serif', fontSize: '1.25rem', fontWeight: 700, color: '#111827', marginBottom: '1.5rem' }}>From the Inbox</h3>
 
-                        <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
-                            <img
-                                src="/aesha.jpg"
-                                alt="Feedback from Aesha Singh"
-                                title="Review from Aesha Singh"
-                                style={{ height: '180px', width: 'auto', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e7eb', cursor: 'zoom-in', transition: 'transform 0.2s' }}
-                                onClick={() => setZoomedImage("/aesha.jpg")}
-                            />
-                            <img
-                                src="/vijay.jpg"
-                                alt="Feedback from Vijay Prasad"
-                                title="Review from Vijay Prasad"
-                                style={{ height: '180px', width: 'auto', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e7eb', cursor: 'zoom-in', transition: 'transform 0.2s' }}
-                                onClick={() => setZoomedImage("/vijay.jpg")}
-                            />
-                        </div>
-
-                    </div>
-                )}
 
                 <SupportSection />
                 <SupporterList />
