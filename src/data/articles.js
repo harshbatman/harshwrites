@@ -10,7 +10,7 @@ export const articles = [
     category: "Urban Economics",
     date: "January 2026",
     image: "/gurugram-housing.jpg",
-    excerpt: "We earn well. We climb the ladder. But the moment we try to buy a home near our office in Gurugram, we realize the city isn't designed for paychecks—it's designed for capital.",
+    excerpt: "A few days ago, I was in Gurugram. I’d heard so much about it that I’d been planning this trip for a long time. It wasn’t a sudden decision. It was one of those plans that quietly sits in your mind, growing stronger with every story you hear about the city.",
     content: `
       <p>A few days ago, I was in Gurugram. I’d heard so much about it that I’d been planning this trip for a long time. It wasn’t a sudden decision. It was one of those plans that quietly sits in your mind, growing stronger with every story you hear about the city.</p>
 

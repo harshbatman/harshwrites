@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { motion } from 'framer-motion';
+import { motion as Motion } from 'framer-motion';
 import { ArrowLeft, User, Calendar, Share2, Eye, X } from 'lucide-react';
 import { articles } from '../data/articles';
 import SupportSection from '../components/SupportSection';
@@ -87,7 +87,7 @@ function ArticleView() {
                     </Link>
                 </div>
 
-                <motion.header
+                <Motion.header
                     className="story-header"
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -161,18 +161,18 @@ function ArticleView() {
                             </div>
                         </div>
                     </div>
-                </motion.header>
+                </Motion.header>
 
-                <motion.div
+                <Motion.div
                     className="story-image-container"
                     initial={{ opacity: 0, scale: 0.98 }}
                     animate={{ opacity: 1, scale: 1 }}
                     transition={{ duration: 0.8, delay: 0.2 }}
                 >
                     <img src={article.image} alt={article.title} style={{ width: '100%', display: 'block' }} />
-                </motion.div>
+                </Motion.div>
 
-                <motion.div
+                <Motion.div
                     className="story-content"
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}

@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { motion } from 'framer-motion';
+import { motion as Motion } from 'framer-motion';
 import { ArrowRight, Search, Calendar, TrendingUp, Clock, Eye } from 'lucide-react';
 import { Link } from 'react-router-dom';
 import { articles } from '../data/articles';
@@ -145,7 +145,7 @@ function Home() {
 
             <div className="articles-grid">
                 {filteredArticles.map((article, index) => (
-                    <motion.div
+                    <Motion.div
                         key={article.id}
                         initial={{ opacity: 0, y: 20 }}
                         animate={{ opacity: 1, y: 0 }}
@@ -183,7 +183,7 @@ function Home() {
                                 </button>
                             </Link>
                         </div>
-                    </motion.div>
+                    </Motion.div>
                 ))}
             </div>
 
