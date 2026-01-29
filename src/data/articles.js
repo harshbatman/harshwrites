@@ -1,16 +1,59 @@
 export const articles = [
 
+
   {
-    id: "china-solar-dominance",
-    views: 5000,
-    publishDate: "2026-01-28",
-    title: "How China Won Solar (And Germany Lost)",
+    id: "gurugram-housing-crisis",
+    views: 1200,
+    publishDate: "2026-01-30",
+    title: "Gurugram: A City We Build, But Can’t Afford to Live In",
     author: "Harsh Mahto",
-    category: "Economics & Strategy",
+    category: "Urban Economics",
     date: "January 2026",
-    image: "/china-solar-dominance.jpg",
-    excerpt: "You know what still surprises me? Every time we talk about solar power today, the conversation somehow ends at one place—China.",
+    image: "/gurugram-housing.jpg",
+    excerpt: "We earn well. We climb the ladder. But the moment we try to buy a home near our office in Gurugram, we realize the city isn't designed for paychecks—it's designed for capital.",
     content: `
+      <p>Let me tell you something about the illusion of a "good salary" in this city. On paper, earning ₹20 lakh a year sounds solid. It sounds like comfort, security, maybe even a ticket to the upper middle class. But the moment you walk out of that office and try to buy a home near it in Gurugram, that number suddenly feels terrifyingly small.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Disconnect</h3>
+
+      <p>That’s the part that really messes with your head. You do everything right—study hard, climb the corporate ladder, switch jobs for better hikes. You don't expect a palace. You just want a basic 2-bedroom apartment within 10 to 15 kilometers of work. Somewhere you don’t have to spend three hours a day stuck in traffic. Somewhere your life isn’t just office, road, sleep, repeat.</p>
+
+      <p>And yet, it feels completely out of reach.</p>
+
+      <p>In areas close to the major office hubs—Cyber City, Golf Course Road—the rates are so high that even before you talk to a bank, you feel defeated. The math simply doesn’t work.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Real Math of Affordability</h3>
+
+      <p>People often say, "₹20 lakh is plenty, you just need to manage it better." But let’s actually look at the numbers. After taxes, the monthly take-home is much lower than the CTC suggests. Then subtract rent, groceries, fuel, insurance, and family responsibilities.</p>
+
+      <p>By the time the month ends, the "surplus" waiting to service a massive home loan is negligible. Banks might look at your salary slip and say, "Sure, you qualify." But qualifying and affording are two different things. A loan big enough to buy a house near work means an EMI that eats up more than half your monthly income.</p>
+
+      <p>That is scary. Life isn’t static. Jobs change, health issues happen. Locking yourself into a massive EMI just to cut your commute feels less like an investment and more like gambling with your future. Ideally, a high salary should provide a safety net; in Gurugram, it often feels like you are just one bad year away from a financial crisis.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The "Just Move Farther" Fallacy</h3>
+
+      <p>The common advice is simple: "Just move a little farther out." But 10 to 15 kilometers in Gurugram isn’t just distance on a map. It’s measured in traffic signals, bottlenecks, and unpredictable jams.</p>
+
+      <p>Ten kilometers can mean forty-five minutes on a good day and ninety minutes on a bad one. That is time taken straight out of your life—time that could be spent with family, acquiring new skills, or just resting. So you are stuck in a bind: stay close and pay insane prices, or move far and pay in lost time and mental health.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Designed for Capital, Not People</h3>
+
+      <p>The uncomfortable realization is that homes near offices aren't bought by the people who work there. They are bought by investors. For them, it’s an asset class. For us, it’s a place to live. We are competing with accumulated capital that doesn't depend on a monthly paycheck.</p>
+
+      <p>And salaries simply don't rise at the same speed as property prices. Your increment is linear; real estate appreciation is exponential. You plan for a year, and by the time you are ready, the goalpost has moved by another ₹20 lakhs.</p>
+
+      <p>The city isn't designed for salaried people to live near where they work. It keeps nudging us toward compromise—smaller homes, longer commutes, or higher debt.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Hollow Success</h3>
+
+      <p>We end up feeling successful and unsuccessful at the same time. Successful because of the salary. Unsuccessful because we can't translate that salary into stability where it matters most.</p>
+
+      <p>In the end, we aren't asking for luxury. We are asking for balance. A home near work, a manageable loan, and a life that doesn’t revolve around EMIs and traffic jams. Until that balance exists, we are left with a strange sentence echoing in our lives:</p>
+
+      <p><em>"We earn well… but we still can’t afford to live close to where we work."</em></p>
+    `
+  },
+  content: `
       <p>You know what still surprises me? Every time we talk about solar power today, the conversation somehow ends at one place—China.</p>
 
       <p>Yeah. Panels, cells, wafers, glass, even the machines that make the machines. China everywhere. But what's wild is—this wasn't always the case. Once upon a time, Germany owned solar like it was their backyard.</p>
@@ -437,17 +480,17 @@ export const articles = [
       <p><strong>…but built in China.</strong></p>
     `
   },
-  {
-    id: "flutter-vs-react-native",
+{
+  id: "flutter-vs-react-native",
     views: 5000,
-    publishDate: "2026-01-27",
-    title: "Why Flutter and Not React Native?",
-    author: "Harsh Mahto",
-    category: "Development & Career",
-    date: "January 2026",
-    image: "/flutter-vs-react-native.png",
-    excerpt: "Let me tell you something. A few weeks ago, when I went to bed… you know how it is. We don’t easily fall asleep. I forgot to switch off the light.",
-    content: `
+      publishDate: "2026-01-27",
+        title: "Why Flutter and Not React Native?",
+          author: "Harsh Mahto",
+            category: "Development & Career",
+              date: "January 2026",
+                image: "/flutter-vs-react-native.png",
+                  excerpt: "Let me tell you something. A few weeks ago, when I went to bed… you know how it is. We don’t easily fall asleep. I forgot to switch off the light.",
+                    content: `
       <p>Let me tell you something. A few weeks ago, I went to bed. I mean, I <em>actually</em> went to bed with the intention of sleeping.</p>
       <p>You know how it is. Body is tired, but the mind? Fully awake.</p>
 
@@ -599,18 +642,18 @@ export const articles = [
 
       <p>Flutter it is. Slowly. Consistently. One widget at a time.</p>
     `
-  },
-  {
-    id: "how-not-to-invade-country",
+},
+{
+  id: "how-not-to-invade-country",
     views: 5000,
-    publishDate: "2026-01-27",
-    title: "How Not to Invade a Country",
-    author: "Harsh Mahto",
-    category: "History & Strategy",
-    date: "January 2026",
-    image: "/how-not-to-invade.jpg",
-    excerpt: "Let me tell you something. Last week I was just working, normal day. I open Google search, and boom—headline pops up. “USA may put sanctions on us for buying Russian crude oil. They say we are funding the war.”",
-    content: `
+      publishDate: "2026-01-27",
+        title: "How Not to Invade a Country",
+          author: "Harsh Mahto",
+            category: "History & Strategy",
+              date: "January 2026",
+                image: "/how-not-to-invade.jpg",
+                  excerpt: "Let me tell you something. Last week I was just working, normal day. I open Google search, and boom—headline pops up. “USA may put sanctions on us for buying Russian crude oil. They say we are funding the war.”",
+                    content: `
       <p>Let me tell you something. Last week I was just working, normal day. I open Google search, and boom—headline pops up.</p>
       <p>“USA may put sanctions on us for buying Russian crude oil. They say we are funding the war.”</p>
 
@@ -757,18 +800,18 @@ export const articles = [
       <p>Yeah. And the cost isn’t paid in words.</p>
       <p>It’s paid in money, manpower, and machines—every single day.</p>
     `
-  },
-  {
-    id: "marie-curie-nobel",
+},
+{
+  id: "marie-curie-nobel",
     views: 5000,
-    publishDate: "2026-01-27",
-    title: "One Woman. Two Nobel Prizes. Two Sciences.",
-    author: "Harsh Mahto",
-    category: "History & Science",
-    date: "January 2026",
-    image: "/marie-curie-nobel.png",
-    excerpt: "I was just scrolling YouTube last night—no plan, no purpose. One video ended, another started… you know how it goes. And suddenly, this old black-and-white photo pops up.",
-    content: `
+      publishDate: "2026-01-27",
+        title: "One Woman. Two Nobel Prizes. Two Sciences.",
+          author: "Harsh Mahto",
+            category: "History & Science",
+              date: "January 2026",
+                image: "/marie-curie-nobel.png",
+                  excerpt: "I was just scrolling YouTube last night—no plan, no purpose. One video ended, another started… you know how it goes. And suddenly, this old black-and-white photo pops up.",
+                    content: `
       <p>I was just scrolling YouTube last night—no plan, no purpose. One video ended, another started… you know how it goes.</p>
 
       <p>Yeah, algorithm decides our life.</p>
@@ -925,18 +968,18 @@ export const articles = [
       <p>And maybe that’s the real Nobel Prize.</p>
     `,
   },
-  {
-    id: "transistors-to-ai",
+{
+  id: "transistors-to-ai",
     views: 15000,
-    publishDate: "2026-01-28",
-    title: "From Transistors to AI",
-    author: "Harsh Mahto",
-    category: "Technology & History",
-    date: "September 20, 2023",
-    lastUpdated: "May 16, 2025",
-    image: "/transistors-to-ai.jpg",
-    excerpt: "I was on a recent trip from Rohtak to Delhi. Metro ride, peak hours. Earbuds in my ears, music on, mind somewhere else. And right in front of my seat, there’s this little boy—barely three, maybe four—crying ridiculously loud.",
-    content: `
+      publishDate: "2026-01-28",
+        title: "From Transistors to AI",
+          author: "Harsh Mahto",
+            category: "Technology & History",
+              date: "September 20, 2023",
+                lastUpdated: "May 16, 2025",
+                  image: "/transistors-to-ai.jpg",
+                    excerpt: "I was on a recent trip from Rohtak to Delhi. Metro ride, peak hours. Earbuds in my ears, music on, mind somewhere else. And right in front of my seat, there’s this little boy—barely three, maybe four—crying ridiculously loud.",
+                      content: `
       <p>I was on a recent trip from Rohtak to Delhi. Metro ride, peak hours. Earbuds in my ears, music on, mind somewhere else. And right in front of my seat, there’s this little boy—barely three, maybe four—crying ridiculously loud. Angry crying. The kind where you know it’s not hunger or sleep, it’s pure protest.</p> 
 
       <p>Now you might think something serious happened.</p>
@@ -2909,18 +2952,18 @@ export const articles = [
 
 
     `
-  },
-  {
-    id: "yuri-bezmenov-modern-politics",
+},
+{
+  id: "yuri-bezmenov-modern-politics",
     views: 5000,
-    publishDate: "2026-01-26",
-    title: "A Simple Guide to Understanding Modern Politics",
-    author: "Harsh Mahto",
-    category: "Politics & Society",
-    date: "January 2026",
-    image: "/yuri-bezmenov.jpg",
-    excerpt: "Last week, late night, phone in hand, doing what we all do—random YouTube scrolling. One video leads to another. And suddenly this old clip pops up.",
-    content: `
+      publishDate: "2026-01-26",
+        title: "A Simple Guide to Understanding Modern Politics",
+          author: "Harsh Mahto",
+            category: "Politics & Society",
+              date: "January 2026",
+                image: "/yuri-bezmenov.jpg",
+                  excerpt: "Last week, late night, phone in hand, doing what we all do—random YouTube scrolling. One video leads to another. And suddenly this old clip pops up.",
+                    content: `
       <p>Last week, late night, phone in hand, doing what we all do—random YouTube scrolling. One video leads to another. And suddenly this old clip pops up.</p>
 
       <p>Let me guess—some Cold War guy?</p>
@@ -3121,18 +3164,18 @@ export const articles = [
 
       <p class="story-punchline">He was calmly describing our present.</p>
     `
-  },
-  {
-    id: "netflix-zhukov-republic-day",
+},
+{
+  id: "netflix-zhukov-republic-day",
     views: 5000,
-    publishDate: "2026-01-25",
-    title: "I Didn’t Expect Netflix to Lead Me to Republic Day 1957",
-    author: "Harsh Mahto",
-    category: "History & Culture",
-    date: "January 2026",
-    image: "/zhukov-republic-day.jpg",
-    excerpt: "Last week I was doing what we all do—Netflix and chill. Then I randomly hit play on The Death of Stalin. I watched it for the laughs, but honestly? One character hijacked my attention.",
-    content: `
+      publishDate: "2026-01-25",
+        title: "I Didn’t Expect Netflix to Lead Me to Republic Day 1957",
+          author: "Harsh Mahto",
+            category: "History & Culture",
+              date: "January 2026",
+                image: "/zhukov-republic-day.jpg",
+                  excerpt: "Last week I was doing what we all do—Netflix and chill. Then I randomly hit play on The Death of Stalin. I watched it for the laughs, but honestly? One character hijacked my attention.",
+                    content: `
       <p>Last week I was doing what we all do—Netflix and chill, nothing serious. Then I randomly hit play on The Death of Stalin. I watched it for the laughs, but honestly? One character hijacked my attention.</p>
 
       <p>Let me guess. Marshal Zhukov?</p>
@@ -3188,19 +3231,19 @@ export const articles = [
 
       <p>That’s what hit me the hardest. We study history in fragments—dates, wars, names—but sometimes a random Netflix night connects the dots better than textbooks ever did.</p>
     `
-  },
+},
 
-  {
-    id: "globalisation-tech-power",
+{
+  id: "globalisation-tech-power",
     views: 8000,
-    publishDate: "2023-10-01",
-    title: "They Designed It. China Copied It. We Bought It.",
-    author: "Harsh Mahto",
-    category: "Technology & Geopolitics",
-    date: "October 2023",
-    image: "/uploaded_image_1769301997332.png",
-    excerpt: "Every American president here believed globalisation would automatically keep America on top. But instead, it taught China how to beat them at their own game.",
-    content: `
+      publishDate: "2023-10-01",
+        title: "They Designed It. China Copied It. We Bought It.",
+          author: "Harsh Mahto",
+            category: "Technology & Geopolitics",
+              date: "October 2023",
+                image: "/uploaded_image_1769301997332.png",
+                  excerpt: "Every American president here believed globalisation would automatically keep America on top. But instead, it taught China how to beat them at their own game.",
+                    content: `
       <p>Every American president here believed globalisation would automatically keep America on top.</p>
 
       <p>But instead, it taught China how to beat them at their own game.</p>
@@ -3634,18 +3677,18 @@ export const articles = [
       <p class="story-punchline">America taught the world how to globalise. China learned how to dominate it. And the world — including us — buys from the one who delivers.</p>
     `
 
-  },
-  {
-    id: "manufacturing-vs-services",
+},
+{
+  id: "manufacturing-vs-services",
     views: 5000,
-    publishDate: "2026-01-20",
-    title: "Manufacturing or Services? The Great Indian Debate",
-    author: "Harsh Mahto",
-    category: "Economics & Policy",
-    date: "January 2026",
-    image: "/rajan-services-vs-manufacturing.jpg",
-    excerpt: "Every time someone talks about growth, it’s always the same story: 'Let’s build factories.' But Raghuram Rajan asks us to take a hard look at what we’re doing.",
-    content: `
+      publishDate: "2026-01-20",
+        title: "Manufacturing or Services? The Great Indian Debate",
+          author: "Harsh Mahto",
+            category: "Economics & Policy",
+              date: "January 2026",
+                image: "/rajan-services-vs-manufacturing.jpg",
+                  excerpt: "Every time someone talks about growth, it’s always the same story: 'Let’s build factories.' But Raghuram Rajan asks us to take a hard look at what we’re doing.",
+                    content: `
       <p>Every time someone talks about growth, it’s always the same story: “Let’s build factories. Let’s make things. Let’s attract big companies.”</p>
       
       <p>Now you will say, “Yeah, Make in India, PLI, incentives—you name it. And now Apple’s iPhone production sites and Foxconn get talked about like they’re the holy grail of jobs and development.”</p>
@@ -3959,18 +4002,18 @@ export const articles = [
 
       <p class="story-punchline">That’s the uncomfortable but important conversation Rajan is pushing us toward — and it’s one we need to have honestly.</p>
     `
-  },
-  {
-    id: "how-facebook-took-over-the-world",
+},
+{
+  id: "how-facebook-took-over-the-world",
     views: 5000,
-    publishDate: "2026-02-01",
-    title: "How Facebook Took Over the World",
-    author: "Harsh Mahto",
-    category: "Technology & Culture",
-    date: "February 2026",
-    image: "/facebook-world.jpg",
-    excerpt: "You know what’s funny? Everyone today talks like Facebook was always meant to rule the internet. But it wasn't even the first social media platform.",
-    content: `
+      publishDate: "2026-02-01",
+        title: "How Facebook Took Over the World",
+          author: "Harsh Mahto",
+            category: "Technology & Culture",
+              date: "February 2026",
+                image: "/facebook-world.jpg",
+                  excerpt: "You know what’s funny? Everyone today talks like Facebook was always meant to rule the internet. But it wasn't even the first social media platform.",
+                    content: `
       <p>You know what’s funny? Everyone today talks like Facebook was always meant to rule the internet.</p>
 
       <p>Now you might say, "Yeah, as if it fell from the sky fully formed. But the truth is — Facebook wasn’t even the first social media platform."</p>
@@ -4460,18 +4503,18 @@ export const articles = [
 
       <p class="story-punchline">It was learning how to keep us looking — and never letting us leave.</p>
     `
-  },
-  {
-    id: "how-android-took-over-the-world",
+},
+{
+  id: "how-android-took-over-the-world",
     views: 5000,
-    publishDate: "2026-03-01",
-    title: "How Android Took Over the World",
-    author: "Harsh Mahto",
-    category: "Technology & Business",
-    date: "March 2026",
-    image: "/android-vs-ios.jpg",
-    excerpt: "Have you ever thought about this—how the hell did Android end up everywhere? From a ₹10,000 phone in our hands to a flagship Samsung in the US.",
-    content: `
+      publishDate: "2026-03-01",
+        title: "How Android Took Over the World",
+          author: "Harsh Mahto",
+            category: "Technology & Business",
+              date: "March 2026",
+                image: "/android-vs-ios.jpg",
+                  excerpt: "Have you ever thought about this—how the hell did Android end up everywhere? From a ₹10,000 phone in our hands to a flagship Samsung in the US.",
+                    content: `
       <p>Have you ever thought about this—how the hell did Android end up everywhere? From a ₹10,000 phone in our hands to a flagship Samsung in the US.</p>
 
       <p>That’s the crazy part. Android didn’t just win. It flooded the planet. And the real twist? It wasn’t built to sell phones. It was built to protect something else.</p>
@@ -4754,18 +4797,18 @@ export const articles = [
       <p>And Apple?</p>
       <p class="story-punchline">Apple monetized loyalty better than anyone in history.</p>
     `
-  },
-  {
-    id: "semiconductor-story-india",
+},
+{
+  id: "semiconductor-story-india",
     views: 5000,
-    publishDate: "2026-04-01",
-    title: "A Nation That Codes, But Doesn’t Fabricate",
-    author: "Harsh Mahto",
-    category: "Technology & Manufacturing",
-    date: "April 2026",
-    image: "/semiconductor-india-chip.jpg",
-    excerpt: "Everywhere I look these days—phones, cars, even washing machines—everything runs on chips. And yet, when it comes to making them ourselves, it feels like we missed the bus.",
-    content: `
+      publishDate: "2026-04-01",
+        title: "A Nation That Codes, But Doesn’t Fabricate",
+          author: "Harsh Mahto",
+            category: "Technology & Manufacturing",
+              date: "April 2026",
+                image: "/semiconductor-india-chip.jpg",
+                  excerpt: "Everywhere I look these days—phones, cars, even washing machines—everything runs on chips. And yet, when it comes to making them ourselves, it feels like we missed the bus.",
+                    content: `
       <p>You know, everywhere I look these days—phones, cars, even washing machines—everything runs on chips. And yet, when it comes to making them ourselves, it feels like we missed the bus. Why did this happen to us?</p>
 
       <p>Yeah, that question hurts a little, doesn’t it? Let me tell you something—this didn’t happen overnight. Our semiconductor situation is the result of decades of small decisions, delays, and honestly… hesitation.</p>
@@ -4900,18 +4943,18 @@ export const articles = [
 
       <p class="story-punchline">That’s on all of us. Governments, industry, and society. Because this time, if we walk away again, the cost won’t just be economic—it’ll be strategic.</p>
     `
-  },
-  {
-    id: "two-women-two-nations-one-frame",
+},
+{
+  id: "two-women-two-nations-one-frame",
     views: 5000,
-    publishDate: "2026-01-28",
-    title: "Two Women, Two Nations, One Frame",
-    author: "Harsh Mahto",
-    category: "History & Leadership",
-    date: "January 2026",
-    image: "/indira-thatcher.jpg",
-    excerpt: "I was randomly scrolling the internet the other day — nothing specific, just the usual wandering we all do — when I suddenly stopped. Not because something was loud or sensational, but because something felt quietly important.",
-    content: `
+      publishDate: "2026-01-28",
+        title: "Two Women, Two Nations, One Frame",
+          author: "Harsh Mahto",
+            category: "History & Leadership",
+              date: "January 2026",
+                image: "/indira-thatcher.jpg",
+                  excerpt: "I was randomly scrolling the internet the other day — nothing specific, just the usual wandering we all do — when I suddenly stopped. Not because something was loud or sensational, but because something felt quietly important.",
+                    content: `
       <p>I was randomly scrolling the internet the other day—nothing specific, just the usual wandering we all do—when I suddenly stopped.</p>
       
       <p>Why? What did you see?</p>
@@ -5053,18 +5096,18 @@ export const articles = [
 
       <p class="story-punchline">This photograph does not shout. It endures. And sometimes, that is the most powerful kind of history.</p>
     `
-  },
-  {
-    id: "our-nuclear-journey-science-sanctions-self-respect",
+},
+{
+  id: "our-nuclear-journey-science-sanctions-self-respect",
     views: 5000,
-    publishDate: "2026-01-24",
-    title: "Our Nuclear Journey: Science, Sanctions, and Self-Respect",
-    author: "Harsh Mahto",
-    category: "Science & Geopolitics",
-    date: "January 2026",
-    image: "/india-nuclear-journey.jpg",
-    excerpt: "You know what? I was thinking the other day—when we talk about our energy future, solar comes up, wind comes up… but nuclear? We whisper about it. Almost like it’s a secret we’re not sure we should own.",
-    content: `
+      publishDate: "2026-01-24",
+        title: "Our Nuclear Journey: Science, Sanctions, and Self-Respect",
+          author: "Harsh Mahto",
+            category: "Science & Geopolitics",
+              date: "January 2026",
+                image: "/india-nuclear-journey.jpg",
+                  excerpt: "You know what? I was thinking the other day—when we talk about our energy future, solar comes up, wind comes up… but nuclear? We whisper about it. Almost like it’s a secret we’re not sure we should own.",
+                    content: `
       <p>You know what? I was thinking the other day—when we talk about our energy future, solar comes up, wind comes up… but nuclear? We whisper about it. Almost like it’s a secret we’re not sure we should own.</p>
 
       <p>Yeah, I feel that too. And it’s strange, right? Because nuclear isn’t new for us. It’s not something we borrowed yesterday. It’s something we started building when we were barely standing on our feet as a country.</p>
@@ -5255,18 +5298,18 @@ export const articles = [
 
       <p class="story-punchline">It sounds… very us.</p>
     `
-  },
-  {
-    id: "story-behind-jai-jawan-jai-kisan",
+},
+{
+  id: "story-behind-jai-jawan-jai-kisan",
     views: 5000,
-    publishDate: "2026-01-10",
-    title: "The Story Behind Jai Jawan, Jai Kisan",
-    author: "Harsh Mahto",
-    category: "History & Policy",
-    date: "January 2026",
-    image: "/jai-jawan-jai-kisan.jpg",
-    excerpt: "When I was in school, I used to shout slogans without thinking twice. Jai Jawan, Jai Kisan echoed during morning assemblies, Independence Day functions, and rallies. I raised my voice with everyone else—confident, patriotic—yet I never truly understood what those words meant.",
-    content: `
+      publishDate: "2026-01-10",
+        title: "The Story Behind Jai Jawan, Jai Kisan",
+          author: "Harsh Mahto",
+            category: "History & Policy",
+              date: "January 2026",
+                image: "/jai-jawan-jai-kisan.jpg",
+                  excerpt: "When I was in school, I used to shout slogans without thinking twice. Jai Jawan, Jai Kisan echoed during morning assemblies, Independence Day functions, and rallies. I raised my voice with everyone else—confident, patriotic—yet I never truly understood what those words meant.",
+                    content: `
       <p>When I was in school, I used to shout slogans without thinking twice. Jai Jawan, Jai Kisan echoed through morning assemblies, Independence Day functions, and rallies. I raised my voice with everyone else—confident, patriotic—yet I never truly understood what those words meant.</p>
 
       <p>Back then, it felt like just another line we were expected to memorise. I repeated it and moved on, unaware that this slogan wasn’t created for classrooms or ceremonies. It was born in a time of war, shortage, and uncertainty—when the nation was struggling to protect its borders and feed its people at the same time.</p>
@@ -5378,18 +5421,18 @@ export const articles = [
 
       <p class="story-punchline">It belongs to us.</p>
     `
-  },
-  {
-    id: "data-structures-and-algorithms",
+},
+{
+  id: "data-structures-and-algorithms",
     views: 5000,
-    publishDate: "2026-01-28",
-    title: "Data Structures and Algorithms",
-    author: "Harsh Mahto",
-    category: "Software Engineering",
-    date: "January 2026",
-    image: "/dsa-cover.jpg",
-    excerpt: "Recently, I put a pause on web development. It was moving fast, projects were shipping, but something felt… incomplete. The foundation was shaky.",
-    content: `
+      publishDate: "2026-01-28",
+        title: "Data Structures and Algorithms",
+          author: "Harsh Mahto",
+            category: "Software Engineering",
+              date: "January 2026",
+                image: "/dsa-cover.jpg",
+                  excerpt: "Recently, I put a pause on web development. It was moving fast, projects were shipping, but something felt… incomplete. The foundation was shaky.",
+                    content: `
       <p>Let me tell you something. Recently, I put a hard pause on web development.</p>
 
       <p>Wait, really? You were shipping projects. Things were moving fast.</p>
@@ -5558,18 +5601,18 @@ export const articles = [
       <p>Pausing web development wasn’t stepping back.</p>
       <p>It was stepping deeper.</p>
     `
-  },
-  {
-    id: "rockets-vs-airplanes",
+},
+{
+  id: "rockets-vs-airplanes",
     views: 5000,
-    publishDate: "2026-01-28",
-    title: "We Build Rockets. But Why Not Airplanes?",
-    author: "Harsh Mahto",
-    category: "Geopolitics & Tech",
-    date: "January 2026",
-    image: "/rockets-vs-airplanes.jpg",
-    excerpt: "A few days ago, I took the first flight of my life. From Delhi’s IGI Airport to Bengaluru. Yeah. Never been on a plane before.",
-    content: `
+      publishDate: "2026-01-28",
+        title: "We Build Rockets. But Why Not Airplanes?",
+          author: "Harsh Mahto",
+            category: "Geopolitics & Tech",
+              date: "January 2026",
+                image: "/rockets-vs-airplanes.jpg",
+                  excerpt: "A few days ago, I took the first flight of my life. From Delhi’s IGI Airport to Bengaluru. Yeah. Never been on a plane before.",
+                    content: `
       <p>A few days ago, I took the first flight of my life.</p>
       <p>From Delhi’s IGI Airport to Bengaluru.</p>
 
@@ -5770,5 +5813,5 @@ export const articles = [
 
       <p>But then again, so did rockets once.</p>
     `
-  },
+},
 ];
