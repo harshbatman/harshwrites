@@ -2259,6 +2259,50 @@ export const articles = [
 
       <p>Cash didn’t disappear—but friction did.</p>
 
+      <!-- The Death of Friction Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Death of Friction (Transaction Speed)</h4>
+        
+        <div style="display: flex; flex-direction: column; gap: 1.5rem; max-width: 500px; margin: 0 auto;">
+          
+          <!-- Physical Banking -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+             <div style="width: 100px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem;">Physical Bank</div>
+             <div style="flex: 1; background: #f4f4f5; height: 32px; border-radius: 4px; overflow: visible; position: relative;">
+                <div style="width: 100%; height: 100%; background: #ef4444; border-radius: 4px; display: flex; align-items: center; justify-content: flex-end; padding-right: 12px;">
+                  <span style="color: white; font-size: 0.85rem; font-weight: 700;">Hours / Days</span>
+                </div>
+             </div>
+          </div>
+
+          <!-- Cards / NetBanking -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+             <div style="width: 100px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem;">Cards / NEFT</div>
+             <div style="flex: 1; background: #f4f4f5; height: 32px; border-radius: 4px; overflow: visible; position: relative;">
+                <div style="width: 40%; height: 100%; background: #f59e0b; border-radius: 4px; display: flex; align-items: center; justify-content: flex-end; padding-right: 12px;">
+                  <span style="color: white; font-size: 0.85rem; font-weight: 700;">Minutes</span>
+                </div>
+             </div>
+          </div>
+
+          <!-- UPI / APIs -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+             <div style="width: 100px; text-align: right; font-weight: 700; color: #15803d; font-size: 0.9rem;">UPI / APIs</div>
+             <div style="flex: 1; background: #f4f4f5; height: 32px; border-radius: 4px; overflow: visible; position: relative;">
+                <div style="width: 5%; height: 100%; background: #22c55e; border-radius: 4px; display: flex; align-items: center; justify-content: flex-start;">
+                </div>
+                <div style="position: absolute; left: 7%; top: 50%; transform: translateY(-50%); color: #15803d; font-weight: 700; font-size: 0.9rem;">
+                  Seconds (Real-time)
+                </div>
+             </div>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          When money moves at the speed of software, velocity explodes.
+        </p>
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Delivery & Instant Economy — Speed Becomes the Product</h3>
 
       <p>Once payments and logistics were solved, the next war was time.</p>
