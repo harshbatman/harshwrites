@@ -1220,7 +1220,7 @@ export const articles = [
 
              <!-- IE Path (Rising) -->
              <path d="M0,195 Q200,160 300,100 T600,25" fill="none" stroke="#2563eb" stroke-width="4" />
-             <text x="500" y="40" fill="#2563eb" font-size="12" font-weight="700">Internet Explorer</text>
+             <text x="500" y="50" fill="#2563eb" font-size="12" font-weight="700">Internet Explorer</text>
           </svg>
           
           <!-- X-Axis Labels -->
