@@ -87,7 +87,7 @@ export const articles = [
           
           <!-- Step 1: German Machine -->
           <div style="flex: 0 0 140px; text-align: center;">
-            <div style="background: linear-gradient(135deg, #1f2937 0%, #374151 100%); height: 180px; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 1rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); position: relative;">
+            <div style="background: linear-gradient(135deg, #1f2937 0%, #374151 100%); height: 160px; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 1rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); position: relative;">
               <div style="font-size: 2rem; margin-bottom: 0.5rem;">⚙️</div>
               <div style="color: white; font-weight: 600; font-size: 0.85rem;">German Machine</div>
               <div style="color: #d1d5db; font-size: 0.7rem; margin-top: 0.25rem;">Centrotherm</div>
@@ -100,7 +100,7 @@ export const articles = [
 
           <!-- Step 2: Disassembly -->
           <div style="flex: 0 0 140px; text-align: center;">
-            <div style="background: linear-gradient(135deg, #dc2626 0%, #ef4444 100%); height: 180px; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 1rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); position: relative;">
+            <div style="background: linear-gradient(135deg, #dc2626 0%, #ef4444 100%); height: 160px; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 1rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); position: relative;">
               <div style="font-size: 2rem; margin-bottom: 0.5rem;">🔧</div>
               <div style="color: white; font-weight: 600; font-size: 0.85rem;">Disassemble</div>
               <div style="color: #fecaca; font-size: 0.7rem; margin-top: 0.25rem;">Study & Copy</div>
@@ -113,7 +113,7 @@ export const articles = [
 
           <!-- Step 3: Chinese Copy -->
           <div style="flex: 0 0 140px; text-align: center;">
-            <div style="background: linear-gradient(135deg, #059669 0%, #10b981 100%); height: 180px; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 1rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); position: relative;">
+            <div style="background: linear-gradient(135deg, #059669 0%, #10b981 100%); height: 160px; display: flex; flex-direction: column; justify-content: center; align-items: center; padding: 1rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); position: relative;">
               <div style="font-size: 2rem; margin-bottom: 0.5rem;">⚙️</div>
               <div style="color: white; font-weight: 600; font-size: 0.85rem;">Chinese Copy</div>
             </div>
