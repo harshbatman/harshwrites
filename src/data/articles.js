@@ -1248,6 +1248,11 @@ export const articles = [
         
         <div style="position: relative; height: 200px; border-bottom: 2px solid #e5e7eb; border-left: 2px solid #e5e7eb; max-width: 600px; margin: 0 auto;">
           
+          <!-- Y-Axis Title -->
+          <span style="position: absolute; left: -50px; top: 50%; transform: translateY(-50%) rotate(-90deg); font-size: 0.75rem; color: #52525b; font-weight: 600; white-space: nowrap;">
+              Global Browser Market Share (%)
+          </span>
+
           <!-- Y-Axis Labels -->
           <span style="position: absolute; left: -30px; top: 0; font-size: 0.7rem; color: #a1a1aa;">100%</span>
           <span style="position: absolute; left: -30px; top: 50%; font-size: 0.7rem; color: #a1a1aa;">50%</span>
