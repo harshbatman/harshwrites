@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion } from 'framer-motion';
-import { ArrowLeft, User, Calendar, Share2, Eye } from 'lucide-react';
+import { ArrowLeft, User, Calendar, Share2, Eye, X } from 'lucide-react';
 import { articles } from '../data/articles';
 import SupportSection from '../components/SupportSection';
 import SupporterList from '../components/SupporterList';
@@ -10,11 +10,40 @@ function ArticleView() {
     const { id } = useParams();
     const article = articles.find(a => a.id === id);
     const [copied, setCopied] = useState(false);
+    const [zoomedImage, setZoomedImage] = useState(null);
 
-    // Scroll to top when article loads or changes
+    // Initial Scroll
     useEffect(() => {
         window.scrollTo(0, 0);
     }, [id]);
+
+    // Handle Image Clicks for Lightbox
+    useEffect(() => {
+        // Wait for render
+        const timer = setTimeout(() => {
+            const contentDiv = document.querySelector('.story-content');
+            if (!contentDiv) return;
+
+            const handleImageClick = (e) => {
+                // If clicked element is an image
+                if (e.target.tagName === 'IMG') {
+                    // Check if parent is NOT a link (to avoid hijacking linked images if any)
+                    if (e.target.parentElement.tagName !== 'A') {
+                        setZoomedImage(e.target.src);
+                    }
+                }
+            };
+
+            contentDiv.addEventListener('click', handleImageClick);
+
+            // Cleanup
+            return () => {
+                contentDiv.removeEventListener('click', handleImageClick);
+            };
+        }, 500); // Small delay to ensure HTML is injected
+
+        return () => clearTimeout(timer);
+    }, [id, article]);
 
     // If article not found, show error
     if (!article) {
@@ -128,6 +157,62 @@ function ArticleView() {
                     </button>
                 </div>
             </div>
+
+            {/* Lightbox for zooming images */}
+            {zoomedImage && (
+                <div
+                    style={{
+                        position: 'fixed',
+                        top: 0,
+                        left: 0,
+                        width: '100%',
+                        height: '100%',
+                        background: 'rgba(0,0,0,0.95)',
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        zIndex: 9999,
+                        cursor: 'zoom-out',
+                        padding: '2rem'
+                    }}
+                    onClick={() => setZoomedImage(null)}
+                >
+                    <button
+                        onClick={() => setZoomedImage(null)}
+                        style={{
+                            position: 'absolute',
+                            top: '20px',
+                            right: '20px',
+                            background: 'rgba(255, 255, 255, 0.2)',
+                            color: 'white',
+                            border: 'none',
+                            borderRadius: '50%',
+                            width: '40px',
+                            height: '40px',
+                            display: 'flex',
+                            alignItems: 'center',
+                            justifyContent: 'center',
+                            cursor: 'pointer',
+                            backdropFilter: 'blur(4px)'
+                        }}
+                    >
+                        <X size={24} />
+                    </button>
+                    <img
+                        src={zoomedImage}
+                        alt="Zoomed"
+                        style={{
+                            maxWidth: '100%',
+                            maxHeight: '100%',
+                            objectFit: 'contain',
+                            borderRadius: '4px',
+                            boxShadow: '0 20px 50px rgba(0,0,0,0.5)',
+                            cursor: 'default'
+                        }}
+                        onClick={(e) => e.stopPropagation()}
+                    />
+                </div>
+            )}
         </article>
     );
 }
