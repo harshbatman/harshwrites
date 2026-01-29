@@ -83,7 +83,7 @@ export const articles = [
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Reverse Engineering Pipeline</h4>
         
-        <div style="display: flex; align-items: center; justify-content: center; gap: 1rem; flex-wrap: wrap; max-width: 700px; margin: 0 auto;">
+        <div style="display: flex; align-items: flex-start; justify-content: center; gap: 1rem; flex-wrap: wrap; max-width: 700px; margin: 0 auto;">
           
           <!-- Step 1: German Machine -->
           <div style="flex: 0 0 140px; text-align: center;">
@@ -93,10 +93,11 @@ export const articles = [
               <div style="color: #d1d5db; font-size: 0.7rem; margin-top: 0.25rem;">Centrotherm</div>
             </div>
             <div style="margin-top: 3.5rem; font-size: 1.5rem;">🇩🇪</div>
+            <div style="font-size: 0.8rem; margin-top: 0.25rem; visibility: hidden;">Spacer</div>
           </div>
 
           <!-- Arrow -->
-          <div style="font-size: 1.5rem; color: #ef4444; font-weight: bold;">→</div>
+          <div style="font-size: 1.5rem; color: #ef4444; font-weight: bold; margin-top: 70px;">→</div>
 
           <!-- Step 2: Disassembly -->
           <div style="flex: 0 0 140px; text-align: center;">
@@ -106,10 +107,11 @@ export const articles = [
               <div style="color: #fecaca; font-size: 0.7rem; margin-top: 0.25rem;">Study & Copy</div>
             </div>
             <div style="margin-top: 3.5rem; font-size: 1.5rem;">🇨🇳</div>
+             <div style="font-size: 0.8rem; margin-top: 0.25rem; visibility: hidden;">Spacer</div>
           </div>
 
           <!-- Arrow -->
-          <div style="font-size: 1.5rem; color: #10b981; font-weight: bold;">→</div>
+          <div style="font-size: 1.5rem; color: #10b981; font-weight: bold; margin-top: 70px;">→</div>
 
           <!-- Step 3: Chinese Copy -->
           <div style="flex: 0 0 140px; text-align: center;">
