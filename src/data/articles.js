@@ -1345,6 +1345,63 @@ export const articles = [
         </p>
       </div>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Mobile OS Wars: iOS vs. Android</h3>
+
+      <p>While Google was winning the web, another battle started—this time for the device in your pocket.</p>
+
+      <p>In 2007, Steve Jobs introduced the <strong>iPhone</strong>. It changed everything.</p>
+      
+      <p>But Apple played its classic game: A Walled Garden. Premium. Controlled. Expensive. You play by their rules, or you don't play at all.</p>
+
+      <p>Then Google bought <strong>Android</strong>.</p>
+      
+      <p>Their strategy? Opposites.</p>
+      <p>Open source. Free for manufacturers. Put it on everything—Samsung, Xiaomi, Pixel, OnePlus.</p>
+
+      <p>Apple won the profits. But Android won the world.</p>
+
+      <!-- Mobile OS Market Share Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Global Mobile OS Market Share</h4>
+        
+         <div style="display: flex; flex-direction: column; gap: 1rem; max-width: 600px; margin: 0 auto;">
+          
+          <!-- Android -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+             <div style="width: 80px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem;">Android</div>
+             <div style="flex: 1; background: #f4f4f5; height: 24px; border-radius: 4px; overflow: hidden; position: relative;">
+                <div style="width: 71%; height: 100%; background: #10b981; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px;">
+                   <span style="color: white; font-size: 0.75rem; font-weight: 700;">71%</span>
+                </div>
+             </div>
+          </div>
+
+          <!-- iOS -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+             <div style="width: 80px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem;">iOS</div>
+             <div style="flex: 1; background: #f4f4f5; height: 24px; border-radius: 4px; overflow: hidden; position: relative;">
+                <div style="width: 28%; height: 100%; background: #18181b; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px;">
+                   <span style="color: white; font-size: 0.75rem; font-weight: 700;">28%</span>
+                </div>
+             </div>
+          </div>
+
+          <!-- Others -->
+           <div style="display: flex; align-items: center; gap: 1rem;">
+             <div style="width: 80px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem;">Others</div>
+             <div style="flex: 1; background: #f4f4f5; height: 24px; border-radius: 4px; overflow: hidden; position: relative;">
+                <div style="width: 1%; height: 100%; background: #71717a; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px;">
+                </div>
+                <span style="position: absolute; left: 2%; top: 50%; transform: translateY(-50%); font-size: 0.75rem; color: #71717a; font-weight: 600;">1%</span>
+             </div>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          Apple profits. Android dominates volume.
+        </p>
+      </div>
+
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Web 2.0: We Became The Product</h3>
 
