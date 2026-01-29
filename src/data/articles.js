@@ -1832,12 +1832,7 @@ export const articles = [
              <p style="font-size: 0.85rem; color: #71717a; line-height: 1.4;">"The Knowledge Engine"</p>
           </div>
 
-          <!-- Claude -->
-          <div style="background: white; padding: 1.5rem; border-radius: 8px; border: 1px solid #e5e7eb; text-align: center; box-shadow: 0 2px 4px rgba(0,0,0,0.05);">
-             <div style="font-weight: 700; color: #d97706; margin-bottom: 0.5rem; font-size: 1.1rem;">Claude</div>
-             <div style="font-size: 0.75rem; font-weight: 600; color: #52525b; margin-bottom: 1rem;">Anthropic</div>
-             <p style="font-size: 0.85rem; color: #71717a; line-height: 1.4;">"The Human Touch"</p>
-          </div>
+
 
         </div>
         <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
