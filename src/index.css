@@ -446,3 +446,9 @@ ul.roadmap li::before {
     border-radius: 50%;
     background: var(--color-text-primary);
 }
+
+@media (max-width: 640px) {
+  .hidden-mobile {
+    display: none !important;
+  }
+}

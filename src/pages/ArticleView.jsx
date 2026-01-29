@@ -95,31 +95,70 @@ function ArticleView() {
                 >
                     <div className="story-meta">{article.category}</div>
                     <h1 className="story-title">{article.title}</h1>
-                    <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', gap: '1.5rem', color: '#6b7280', fontSize: '0.95rem', flexWrap: 'wrap' }}>
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
+                    <div style={{
+                        display: 'inline-flex',
+                        flexWrap: 'wrap',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        gap: '1.5rem',
+                        background: 'white',
+                        border: '1px solid #e5e7eb',
+                        borderRadius: '16px',
+                        padding: '1rem 2rem',
+                        boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.05)',
+                        marginTop: '1.5rem',
+                        maxWidth: '100%'
+                    }}>
+                        {/* Author */}
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
                             <img
                                 src="/harsh-mahto.jpg"
                                 alt={article.author}
                                 style={{
-                                    width: '32px',
-                                    height: '32px',
+                                    width: '40px',
+                                    height: '40px',
                                     borderRadius: '50%',
                                     objectFit: 'cover',
-                                    border: '1px solid #e5e7eb'
+                                    border: '2px solid #f3f4f6'
                                 }}
                             />
-                            <span>{article.author}</span>
-                        </div>
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                            <Calendar size={16} /> <span>Published {article.date}</span>
-                        </div>
-                        {article.lastUpdated && (
-                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#059669' }}>
-                                <Calendar size={16} /> <span>Updated {article.lastUpdated}</span>
+                            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', lineHeight: '1.2' }}>
+                                <span style={{ fontSize: '0.7rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Author</span>
+                                <span style={{ fontSize: '0.95rem', fontWeight: 600, color: '#111827' }}>{article.author}</span>
                             </div>
+                        </div>
+
+                        <div style={{ width: '1px', height: '24px', background: '#e5e7eb' }} className="hidden-mobile"></div>
+
+                        {/* Publish Date */}
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', lineHeight: '1.2' }}>
+                            <span style={{ fontSize: '0.7rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Published</span>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem', color: '#4b5563', fontSize: '0.9rem', fontWeight: 500 }}>
+                                <Calendar size={14} /> <span>{article.date}</span>
+                            </div>
+                        </div>
+
+                        {/* Last Updated */}
+                        {article.lastUpdated && (
+                            <>
+                                <div style={{ width: '1px', height: '24px', background: '#e5e7eb' }} className="hidden-mobile"></div>
+                                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', lineHeight: '1.2' }}>
+                                    <span style={{ fontSize: '0.7rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Updated</span>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem', color: '#059669', fontSize: '0.9rem', fontWeight: 600 }}>
+                                        <Calendar size={14} /> <span>{article.lastUpdated}</span>
+                                    </div>
+                                </div>
+                            </>
                         )}
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                            <Eye size={16} /> <span>{formatViews(article.views)} reads</span>
+
+                        <div style={{ width: '1px', height: '24px', background: '#e5e7eb' }} className="hidden-mobile"></div>
+
+                        {/* Reads */}
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', lineHeight: '1.2' }}>
+                            <span style={{ fontSize: '0.7rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Reads</span>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem', color: '#4b5563', fontSize: '0.9rem', fontWeight: 500 }}>
+                                <Eye size={14} /> <span>{formatViews(article.views)}</span>
+                            </div>
                         </div>
                     </div>
                 </motion.header>
