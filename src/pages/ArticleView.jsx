@@ -107,6 +107,15 @@ function ArticleView() {
                     dangerouslySetInnerHTML={{ __html: article.content }}
                 />
 
+                <div style={{ margin: '3rem 0', padding: '1.5rem', background: 'rgba(243, 244, 246, 0.5)', borderRadius: '12px', border: '1px solid #e5e7eb', textAlign: 'center' }}>
+                    <p style={{ margin: 0, color: '#4b5563', fontSize: '1.05rem', lineHeight: '1.6' }}>
+                        For any suggestions or feedback, feel free to connect at{' '}
+                        <a href="mailto:harshwrites2023@gmail.com" style={{ color: '#111827', fontWeight: '600', textDecoration: 'none', borderBottom: '1px dotted #9ca3af', transition: 'all 0.2s' }}>
+                            harshwrites2023@gmail.com
+                        </a>
+                    </p>
+                </div>
+
                 <SupportSection />
                 <SupporterList />
 
