@@ -12,7 +12,9 @@ export const articles = [
     image: "/gurugram-housing.jpg",
     excerpt: "We earn well. We climb the ladder. But the moment we try to buy a home near our office in Gurugram, we realize the city isn't designed for paychecks—it's designed for capital.",
     content: `
-      <p>A few days ago, I was in Gurugram. I’d heard so much about it that I’d been planning this trip for a long time. Finally, I went.</p>
+      <p>A few days ago, I was in Gurugram. I’d heard so much about it that I’d been planning this trip for a long time. It wasn’t a sudden decision. It was one of those plans that quietly sits in your mind, growing stronger with every story you hear about the city.</p>
+
+      <p>So I did what we all sometimes do. I skipped a boring class, put my earbuds in, turned the music up, and finally went. No grand preparation—just a simple decision to see the place for myself. Somewhere between the music in my ears and the road ahead, it felt less like a trip and more like a small promise to myself.</p>
       
       <p>Honestly, the city has this magnificent vibe that hits you almost immediately. You see the tall glass buildings, the massive corporate offices, the wide roads, and suddenly it feels like you’ve stepped into a different world. It looks global, polished, ambitious. In many ways, it really does look like the Singapore of India. Everything seems fast, modern, and full of promise. I was genuinely mesmerized.</p>
 
