@@ -1244,7 +1244,7 @@ export const articles = [
 
       <!-- The Browser War Graph -->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
-        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Browser War (Market Share Shift)</h4>
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Second Browser War (Market Share Shift)</h4>
         
         <div style="position: relative; height: 200px; border-bottom: 2px solid #e5e7eb; border-left: 2px solid #e5e7eb; max-width: 600px; margin: 0 auto;">
           
