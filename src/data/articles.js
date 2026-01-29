@@ -2107,11 +2107,11 @@ export const articles = [
            <svg style="position: absolute; bottom: 0; left: 0; width: 100%; height: 100%; overflow: visible;" viewBox="0 0 100 100" preserveAspectRatio="none">
              <!-- Dashed Line for Organic Growth -->
              <path d="M0,100 L100,20" fill="none" stroke="#9ca3af" stroke-width="2" stroke-dasharray="4" />
-             <text x="80" y="30" fill="#6b7280" font-size="3" font-weight="600">Organic Growth</text>
+             <text x="95" y="15" text-anchor="end" fill="#4b5563" font-size="5" font-weight="700" style="text-shadow: 2px 2px 0 #fafafa, -1px -1px 0 #fafafa, 1px -1px 0 #fafafa, -1px 1px 0 #fafafa, 1px 1px 0 #fafafa;">Organic Growth</text>
              
              <!-- Exponential Line for VC Backed -->
              <path d="M0,100 Q40,95 60,60 T100,0" fill="none" stroke="#ef4444" stroke-width="3" />
-             <text x="50" y="40" fill="#ef4444" font-size="3" font-weight="700">VC Fueled (loss making)</text>
+             <text x="5" y="40" fill="#ef4444" font-size="6" font-weight="800" style="text-shadow: 2px 2px 0 #fafafa, -1px -1px 0 #fafafa, 1px -1px 0 #fafafa, -1px 1px 0 #fafafa, 1px 1px 0 #fafafa;">VC Fueled (loss making)</text>
            </svg>
 
            <div style="position: absolute; bottom: -25px; left: 50%; transform: translateX(-50%); color: #52525b; font-size: 0.8rem;">Time →</div>
