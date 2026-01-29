@@ -55,7 +55,7 @@ const SupportSection = () => {
                     {copied ? <Check size={16} /> : <Copy size={16} />}
                 </button>
                 ) or by scanning the <span style={{ whiteSpace: 'nowrap' }}>QR code</span>.
-                <br />
+                <br /><br />
                 Supporters are acknowledged on the website.
                 <br /><br />
                 Thanks for being here <span className="beating-heart">❤️</span>
