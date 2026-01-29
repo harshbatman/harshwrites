@@ -5,7 +5,7 @@ export const articles = [
     id: "gurugram-housing-crisis",
     views: 1200,
     publishDate: "2026-01-30",
-    title: "Gurugram: A City We Build, But Can’t Afford to Live In",
+    title: "Gurugram: The City We Build, But Can’t Afford to Live In",
     author: "Harsh Mahto",
     category: "Urban Economics",
     date: "January 2026",
