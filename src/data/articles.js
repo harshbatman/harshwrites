@@ -1196,6 +1196,46 @@ export const articles = [
       
       <p>Distribution beat quality.</p>
       <p>Netscape couldn't compete with "free" and "already installed." They got crushed.</p>
+
+      <!-- The First Browser War Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The First Browser War (1995-2002)</h4>
+        
+        <div style="position: relative; height: 200px; border-bottom: 2px solid #e5e7eb; border-left: 2px solid #e5e7eb; max-width: 600px; margin: 0 auto;">
+          
+          <!-- Y-Axis Title -->
+          <span style="position: absolute; left: -45px; top: 50%; transform: translate(-50%, -50%) rotate(-90deg); font-size: 0.75rem; color: #52525b; font-weight: 600; white-space: nowrap;">
+              Global Browser Market Share (%)
+          </span>
+
+          <!-- Y-Axis Labels -->
+          <span style="position: absolute; left: -35px; top: 0; font-size: 0.7rem; color: #a1a1aa; text-align: right; width: 30px;">100%</span>
+          <span style="position: absolute; left: -35px; top: 50%; width: 30px; text-align: right; transform: translateY(-50%); font-size: 0.7rem; color: #a1a1aa;">50%</span>
+          <span style="position: absolute; left: -35px; bottom: 0; width: 30px; text-align: right; font-size: 0.7rem; color: #a1a1aa;">0%</span>
+
+          <svg style="position: absolute; top:0; left:0; width:100%; height:100%; overflow:visible;">
+             <!-- Netscape Path (Falling) -->
+             <path d="M0,20 Q250,50 350,150 Q450,190 600,198" fill="none" stroke="#00bfa5" stroke-width="4" />
+             <text x="10" y="20" fill="#00bfa5" font-size="12" font-weight="700">Netscape</text>
+
+             <!-- IE Path (Rising) -->
+             <path d="M0,195 Q200,160 300,100 T600,25" fill="none" stroke="#2563eb" stroke-width="4" />
+             <text x="500" y="40" fill="#2563eb" font-size="12" font-weight="700">Internet Explorer</text>
+          </svg>
+          
+          <!-- X-Axis Labels -->
+           <div style="position: absolute; bottom: -25px; left: 0; width: 100%; display: flex; justify-content: space-between; font-size: 0.75rem; color: #52525b;">
+             <span>1995</span>
+             <span>1997</span>
+             <span>1999</span>
+             <span>2001</span>
+             <span>2002</span>
+           </div>
+        </div>
+        <p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          Bundling beats product. IE crushed Netscape.
+        </p>
+      </div>
       
       <p>Microsoft won the first Browser War. But in doing so, they focused so hard on killing Netscape that they missed the next big thing rising quietly in the background.</p>
 
