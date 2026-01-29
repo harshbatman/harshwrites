@@ -930,7 +930,7 @@ export const articles = [
     author: "Harsh Mahto",
     category: "Technology & History",
     date: "September 20, 2023",
-    lastUpdated: "May 2025",
+    lastUpdated: "May 16, 2025",
     image: "/transistors-to-ai.jpg",
     excerpt: "I was on a recent trip from Rohtak to Delhi. Metro ride, peak hours. Earbuds in my ears, music on, mind somewhere else. And right in front of my seat, there’s this little boy—barely three, maybe four—crying ridiculously loud.",
     content: `

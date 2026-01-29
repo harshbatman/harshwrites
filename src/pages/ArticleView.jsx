@@ -113,6 +113,11 @@ function ArticleView() {
                         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                             <Calendar size={16} /> <span>{article.date}</span>
                         </div>
+                        {article.lastUpdated && (
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#059669' }}>
+                                <Calendar size={16} /> <span>Updated {article.lastUpdated}</span>
+                            </div>
+                        )}
                         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
                             <Eye size={16} /> <span>{formatViews(article.views)} reads</span>
                         </div>
