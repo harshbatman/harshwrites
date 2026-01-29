@@ -1709,7 +1709,7 @@ export const articles = [
       <p>We spent 50 years optimizing how to write code.</p>
       <p>Now, we are entering an era where we might not write it at all.</p>
 
-      <p>Tools like <strong>Cursor</strong> sit inside the editor itself—suggesting code, explaining bugs, even writing full functions.</p>
+      <p>Tools like <strong>Cursor</strong> and <strong>Claude by Anthropic</strong> sit inside the workflow—suggesting code, explaining bugs, even writing full functions.</p>
 
       <p>Earlier, software engineers told computers what to do.</p>
       <p>Now they tell AI what they want, and the AI figures out how.</p>
