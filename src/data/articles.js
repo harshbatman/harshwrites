@@ -1239,42 +1239,6 @@ export const articles = [
       
       <p>Microsoft won the first Browser War. But in doing so, they focused so hard on killing Netscape that they missed the next big thing rising quietly in the background.</p>
 
-      <!-- The First Browser War Graph -->
-      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
-        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The First Browser War (1995-2002)</h4>
-        
-        <div style="position: relative; height: 200px; border-bottom: 2px solid #e5e7eb; border-left: 2px solid #e5e7eb; max-width: 600px; margin: 0 auto;">
-          
-          <!-- Y-Axis Labels -->
-          <span style="position: absolute; left: -30px; top: 0; font-size: 0.7rem; color: #a1a1aa;">100%</span>
-          <span style="position: absolute; left: -30px; top: 50%; font-size: 0.7rem; color: #a1a1aa;">50%</span>
-          <span style="position: absolute; left: -30px; bottom: 0; font-size: 0.7rem; color: #a1a1aa;">0%</span>
-
-          <!-- Graph Lines -->
-          <svg style="position: absolute; top:0; left:0; width:100%; height:100%; overflow:visible;">
-             <!-- Netscape Path (Falling) -->
-             <path d="M0,20 Q150,20 300,100 T600,190" fill="none" stroke="#00b4b6" stroke-width="4" />
-             <text x="10" y="15" fill="#00b4b6" font-size="12" font-weight="600">Netscape</text>
-
-             <!-- IE Path (Rising) -->
-             <path d="M0,190 Q150,180 300,80 T600,10" fill="none" stroke="#2563eb" stroke-width="4" />
-             <text x="500" y="20" fill="#2563eb" font-size="12" font-weight="600">Internet Explorer</text>
-          </svg>
-          
-          <!-- X-Axis Labels -->
-           <div style="position: absolute; bottom: -25px; left: 0; width: 100%; display: flex; justify-content: space-between; font-size: 0.75rem; color: #52525b;">
-             <span>1995</span>
-             <span>1997</span>
-             <span>1999</span>
-             <span>2001</span>
-             <span>2002</span>
-           </div>
-        </div>
-        <p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
-          Bundling beats product. IE crushed Netscape.
-        </p>
-      </div>
-
       <p>Fast forward a few years, and <strong>Google</strong> entered with a different playbook.</p>
       <p>They didn’t start with a browser. They started with search.</p>
 
