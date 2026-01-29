@@ -2372,6 +2372,62 @@ export const articles = [
       <p>That’s rare.</p>
       <p>And powerful.</p>
 
+      <!-- UPI Growth Scale Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The UPI Scale (Annual Transactions)</h4>
+        
+        <div style="display: flex; align-items: flex-end; justify-content: space-between; height: 220px; padding-bottom: 0.5rem; border-bottom: 2px solid #e5e7eb; gap: 8px; max-width: 600px; margin: 0 auto;">
+          
+          <!-- 2018 -->
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+            <div style="width: 100%; height: 2%; background: #d4d4d8; border-radius: 4px 4px 0 0;"></div>
+            <span style="font-size: 0.7rem; color: #71717a; margin-top: 8px;">2018</span>
+          </div>
+
+          <!-- 2019 -->
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+            <div style="width: 100%; height: 8%; background: #d4d4d8; border-radius: 4px 4px 0 0;"></div>
+             <span style="font-size: 0.7rem; color: #71717a; margin-top: 8px;">2019</span>
+          </div>
+
+          <!-- 2020 -->
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+            <div style="width: 100%; height: 15%; background: #a1a1aa; border-radius: 4px 4px 0 0;"></div>
+            <span style="font-size: 0.7rem; color: #71717a; margin-top: 8px;">2020</span>
+          </div>
+
+          <!-- 2021 -->
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+             <div style="width: 100%; height: 30%; background: #15803d; opacity: 0.6; border-radius: 4px 4px 0 0;"></div>
+             <span style="font-size: 0.7rem; color: #71717a; margin-top: 8px;">2021</span>
+          </div>
+
+          <!-- 2022 -->
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+             <div style="width: 100%; height: 55%; background: #15803d; opacity: 0.8; border-radius: 4px 4px 0 0;"></div>
+             <span style="font-size: 0.7rem; color: #71717a; margin-top: 8px;">2022</span>
+          </div>
+
+           <!-- 2023 -->
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+             <div style="width: 100%; height: 75%; background: #15803d; border-radius: 4px 4px 0 0;"></div>
+             <span style="font-size: 0.7rem; color: #71717a; margin-top: 8px;">2023</span>
+          </div>
+
+           <!-- 2024 -->
+          <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
+             <div style="width: 100%; height: 95%; background: #166534; border-radius: 4px 4px 0 0; position: relative;">
+                 <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); color: #166534; font-size: 0.7rem; font-weight: 700; white-space: nowrap;">~150B</div>
+             </div>
+             <span style="font-size: 0.75rem; color: #18181b; font-weight: 700; margin-top: 8px;">2024</span>
+          </div>
+
+        </div>
+         <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          From 0 to 150 Billion transactions in less than a decade.
+        </p>
+      </div>
+
       <!-- Indian Startup Timeline Visualization -->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Rise of Indian Startups</h4>
