@@ -1249,14 +1249,14 @@ export const articles = [
         <div style="position: relative; height: 200px; border-bottom: 2px solid #e5e7eb; border-left: 2px solid #e5e7eb; max-width: 600px; margin: 0 auto;">
           
           <!-- Y-Axis Title -->
-          <span style="position: absolute; left: -50px; top: 50%; transform: translateY(-50%) rotate(-90deg); font-size: 0.75rem; color: #52525b; font-weight: 600; white-space: nowrap;">
+          <span style="position: absolute; left: -60px; top: 50%; transform: translateX(-100%) rotate(-90deg); transform-origin: right center; font-size: 0.75rem; color: #52525b; font-weight: 600; white-space: nowrap;">
               Global Browser Market Share (%)
           </span>
 
           <!-- Y-Axis Labels -->
-          <span style="position: absolute; left: -30px; top: 0; font-size: 0.7rem; color: #a1a1aa;">100%</span>
-          <span style="position: absolute; left: -30px; top: 50%; font-size: 0.7rem; color: #a1a1aa;">50%</span>
-          <span style="position: absolute; left: -30px; bottom: 0; font-size: 0.7rem; color: #a1a1aa;">0%</span>
+          <span style="position: absolute; left: -35px; top: 0; font-size: 0.7rem; color: #a1a1aa; text-align: right; width: 30px;">100%</span>
+          <span style="position: absolute; left: -35px; top: 50%; width: 30px; text-align: right; transform: translateY(-50%); font-size: 0.7rem; color: #a1a1aa;">50%</span>
+          <span style="position: absolute; left: -35px; bottom: 0; width: 30px; text-align: right; font-size: 0.7rem; color: #a1a1aa;">0%</span>
 
           <!-- Chrome Line (Rising) -->
           <svg style="position: absolute; top:0; left:0; width:100%; height:100%; overflow:visible;">
