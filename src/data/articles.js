@@ -116,6 +116,7 @@ export const articles = [
             <div style="background: linear-gradient(135deg, #059669 0%, #10b981 100%); padding: 1.5rem 1rem; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); position: relative;">
               <div style="font-size: 2rem; margin-bottom: 0.5rem;">⚙️</div>
               <div style="color: white; font-weight: 600; font-size: 0.85rem;">Chinese Copy</div>
+              <div style="visibility: hidden; font-size: 0.7rem; margin-top: 0.25rem;">Placeholder</div>
             </div>
             <div style="margin-top: 0.5rem; font-size: 1.5rem;">🇨🇳</div>
             <div style="font-size: 0.8rem; color: #059669; font-weight: 700; margin-top: 0.25rem;">Reduced cost by 60%</div>
