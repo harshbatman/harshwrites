@@ -2096,6 +2096,34 @@ export const articles = [
 
       <p>So venture capital is no longer just picking startups.</p>
       <p>It’s picking which intelligence stacks get built.</p>
+      
+      <!-- VC Capital vs Time Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The "Blitzscaling" Curve</h4>
+        
+        <div style="position: relative; height: 220px; border-left: 2px solid #52525b; border-bottom: 2px solid #52525b; max-width: 500px; margin: 0 auto;">
+           
+           <!-- Traditional Growth Line (Linear) -->
+           <svg style="position: absolute; bottom: 0; left: 0; width: 100%; height: 100%; overflow: visible;" viewBox="0 0 100 100" preserveAspectRatio="none">
+             <!-- Dashed Line for Organic Growth -->
+             <path d="M0,100 L100,20" fill="none" stroke="#9ca3af" stroke-width="2" stroke-dasharray="4" />
+             <text x="80" y="30" fill="#6b7280" font-size="3" font-weight="600">Organic Growth</text>
+             
+             <!-- Exponential Line for VC Backed -->
+             <path d="M0,100 Q40,95 60,60 T100,0" fill="none" stroke="#ef4444" stroke-width="3" />
+             <text x="50" y="40" fill="#ef4444" font-size="3" font-weight="700">VC Fueled (loss making)</text>
+           </svg>
+
+           <div style="position: absolute; bottom: -25px; left: 50%; transform: translateX(-50%); color: #52525b; font-size: 0.8rem;">Time →</div>
+           <div style="position: absolute; left: -30px; top: 50%; transform: rotate(-90deg); color: #52525b; font-size: 0.8rem;">Scale (Users/Revenue)</div>
+        </div>
+        
+        <div style="margin-top: 2rem; padding: 1rem; background: #fef2f2; border-left: 4px solid #ef4444; border-radius: 4px;">
+          <p style="margin: 0; font-size: 0.85rem; color: #7f1d1d; line-height: 1.6;">
+            <strong>The Strategy:</strong> Burn cash to buy speed. Capture the market before unit economics even matter.
+          </p>
+        </div>
+      </div>
 
       <p>And this also explains why so many AI startups look similar on the surface.</p>
 
