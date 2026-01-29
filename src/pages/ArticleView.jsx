@@ -111,7 +111,7 @@ function ArticleView() {
                             <span>{article.author}</span>
                         </div>
                         <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem' }}>
-                            <Calendar size={16} /> <span>{article.date}</span>
+                            <Calendar size={16} /> <span>Published {article.date}</span>
                         </div>
                         {article.lastUpdated && (
                             <div style={{ display: 'flex', alignItems: 'center', gap: '0.5rem', color: '#059669' }}>
@@ -153,29 +153,31 @@ function ArticleView() {
 
 
                 {/* Specific Appreciation Section for Transistors to AI */}
-                {article.id === 'transistors-to-ai' && (
-                    <div style={{ marginTop: '2rem', marginBottom: '4rem', padding: '2rem', background: '#fafafa', borderRadius: '12px', border: '1px solid #e5e7eb', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
-                        <h3 style={{ fontFamily: 'serif', fontSize: '1.25rem', fontWeight: 700, color: '#111827', marginBottom: '1.5rem' }}>From the Inbox</h3>
+                {
+                    article.id === 'transistors-to-ai' && (
+                        <div style={{ marginTop: '2rem', marginBottom: '4rem', padding: '2rem', background: '#fafafa', borderRadius: '12px', border: '1px solid #e5e7eb', display: 'flex', flexDirection: 'column', alignItems: 'center', textAlign: 'center' }}>
+                            <h3 style={{ fontFamily: 'serif', fontSize: '1.25rem', fontWeight: 700, color: '#111827', marginBottom: '1.5rem' }}>From the Inbox</h3>
 
-                        <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
-                            <img
-                                src="/aesha.jpg"
-                                alt="Feedback from Aesha Singh"
-                                title="Review from Aesha Singh"
-                                style={{ height: '180px', width: 'auto', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e7eb', cursor: 'zoom-in', transition: 'transform 0.2s' }}
-                                onClick={() => setZoomedImage("/aesha.jpg")}
-                            />
-                            <img
-                                src="/vijay.jpg"
-                                alt="Feedback from Vijay Prasad"
-                                title="Review from Vijay Prasad"
-                                style={{ height: '180px', width: 'auto', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e7eb', cursor: 'zoom-in', transition: 'transform 0.2s' }}
-                                onClick={() => setZoomedImage("/vijay.jpg")}
-                            />
+                            <div style={{ display: 'flex', gap: '1rem', justifyContent: 'center', flexWrap: 'wrap' }}>
+                                <img
+                                    src="/aesha.jpg"
+                                    alt="Feedback from Aesha Singh"
+                                    title="Review from Aesha Singh"
+                                    style={{ height: '180px', width: 'auto', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e7eb', cursor: 'zoom-in', transition: 'transform 0.2s' }}
+                                    onClick={() => setZoomedImage("/aesha.jpg")}
+                                />
+                                <img
+                                    src="/vijay.jpg"
+                                    alt="Feedback from Vijay Prasad"
+                                    title="Review from Vijay Prasad"
+                                    style={{ height: '180px', width: 'auto', borderRadius: '8px', boxShadow: '0 2px 4px rgba(0,0,0,0.1)', border: '1px solid #e5e7eb', cursor: 'zoom-in', transition: 'transform 0.2s' }}
+                                    onClick={() => setZoomedImage("/vijay.jpg")}
+                                />
+                            </div>
+
                         </div>
-
-                    </div>
-                )}
+                    )
+                }
 
                 <SupportSection />
                 <SupporterList />
@@ -188,64 +190,66 @@ function ArticleView() {
                         <Share2 size={18} /> {copied ? 'Link Copied!' : 'Share this story'}
                     </button>
                 </div>
-            </div>
+            </div >
 
             {/* Lightbox for zooming images */}
-            {zoomedImage && (
-                <div
-                    style={{
-                        position: 'fixed',
-                        top: 0,
-                        left: 0,
-                        width: '100%',
-                        height: '100%',
-                        background: 'rgba(0,0,0,0.95)',
-                        display: 'flex',
-                        alignItems: 'center',
-                        justifyContent: 'center',
-                        zIndex: 9999,
-                        cursor: 'zoom-out',
-                        padding: '2rem'
-                    }}
-                    onClick={() => setZoomedImage(null)}
-                >
-                    <button
-                        onClick={() => setZoomedImage(null)}
+            {
+                zoomedImage && (
+                    <div
                         style={{
-                            position: 'absolute',
-                            top: '20px',
-                            right: '20px',
-                            background: 'rgba(255, 255, 255, 0.2)',
-                            color: 'white',
-                            border: 'none',
-                            borderRadius: '50%',
-                            width: '40px',
-                            height: '40px',
+                            position: 'fixed',
+                            top: 0,
+                            left: 0,
+                            width: '100%',
+                            height: '100%',
+                            background: 'rgba(0,0,0,0.95)',
                             display: 'flex',
                             alignItems: 'center',
                             justifyContent: 'center',
-                            cursor: 'pointer',
-                            backdropFilter: 'blur(4px)'
+                            zIndex: 9999,
+                            cursor: 'zoom-out',
+                            padding: '2rem'
                         }}
+                        onClick={() => setZoomedImage(null)}
                     >
-                        <X size={24} />
-                    </button>
-                    <img
-                        src={zoomedImage}
-                        alt="Zoomed"
-                        style={{
-                            maxWidth: '100%',
-                            maxHeight: '100%',
-                            objectFit: 'contain',
-                            borderRadius: '4px',
-                            boxShadow: '0 20px 50px rgba(0,0,0,0.5)',
-                            cursor: 'default'
-                        }}
-                        onClick={(e) => e.stopPropagation()}
-                    />
-                </div>
-            )}
-        </article>
+                        <button
+                            onClick={() => setZoomedImage(null)}
+                            style={{
+                                position: 'absolute',
+                                top: '20px',
+                                right: '20px',
+                                background: 'rgba(255, 255, 255, 0.2)',
+                                color: 'white',
+                                border: 'none',
+                                borderRadius: '50%',
+                                width: '40px',
+                                height: '40px',
+                                display: 'flex',
+                                alignItems: 'center',
+                                justifyContent: 'center',
+                                cursor: 'pointer',
+                                backdropFilter: 'blur(4px)'
+                            }}
+                        >
+                            <X size={24} />
+                        </button>
+                        <img
+                            src={zoomedImage}
+                            alt="Zoomed"
+                            style={{
+                                maxWidth: '100%',
+                                maxHeight: '100%',
+                                objectFit: 'contain',
+                                borderRadius: '4px',
+                                boxShadow: '0 20px 50px rgba(0,0,0,0.5)',
+                                cursor: 'default'
+                            }}
+                            onClick={(e) => e.stopPropagation()}
+                        />
+                    </div>
+                )
+            }
+        </article >
     );
 }
 
