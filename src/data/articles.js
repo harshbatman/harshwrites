@@ -2107,7 +2107,7 @@ export const articles = [
            <svg style="position: absolute; bottom: 0; left: 0; width: 100%; height: 100%; overflow: visible;" viewBox="0 0 100 100" preserveAspectRatio="none">
              <!-- Dashed Line for Organic Growth -->
              <path d="M0,100 L100,20" fill="none" stroke="#9ca3af" stroke-width="2" stroke-dasharray="4" />
-             <text x="95" y="35" text-anchor="end" fill="#1f2937" font-size="5" font-weight="700" style="text-shadow: 2px 2px 0 #fafafa, -1px -1px 0 #fafafa, 1px -1px 0 #fafafa, -1px 1px 0 #fafafa, 1px 1px 0 #fafafa;">Organic Growth</text>
+             <text x="95" y="75" text-anchor="end" fill="#1f2937" font-size="5" font-weight="700" style="text-shadow: 2px 2px 0 #fafafa, -1px -1px 0 #fafafa, 1px -1px 0 #fafafa, -1px 1px 0 #fafafa, 1px 1px 0 #fafafa;">Organic Growth</text>
              
              <!-- Exponential Line for VC Backed -->
              <path d="M0,100 Q40,95 60,60 T100,0" fill="none" stroke="#ef4444" stroke-width="3" />
