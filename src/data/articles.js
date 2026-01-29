@@ -1249,7 +1249,7 @@ export const articles = [
         <div style="position: relative; height: 200px; border-bottom: 2px solid #e5e7eb; border-left: 2px solid #e5e7eb; max-width: 600px; margin: 0 auto;">
           
           <!-- Y-Axis Title -->
-          <span style="position: absolute; left: -60px; top: 50%; transform: translateX(-100%) rotate(-90deg); transform-origin: right center; font-size: 0.75rem; color: #52525b; font-weight: 600; white-space: nowrap;">
+          <span style="position: absolute; left: -75px; top: 50%; transform: translate(-50%, -50%) rotate(-90deg); font-size: 0.75rem; color: #52525b; font-weight: 600; white-space: nowrap;">
               Global Browser Market Share (%)
           </span>
 
