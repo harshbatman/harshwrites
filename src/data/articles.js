@@ -1641,6 +1641,43 @@ export const articles = [
       <p>And that’s when it hit us.</p>
       <p>This feels closer to intelligence than anything we’ve used before.</p>
 
+      <!-- Old Search vs. New Search Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Old Search vs. New Search</h4>
+        
+        <div style="display: flex; flex-direction: column; gap: 1.5rem; max-width: 600px; margin: 0 auto;">
+          
+          <!-- Old Search -->
+          <div style="display: flex; align-items: flex-start; gap: 1rem;">
+             <div style="width: 100px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem; padding-top: 4px;">Old Search</div>
+             <div style="flex: 1; background: white; border: 1px solid #e5e7eb; border-radius: 8px; padding: 1rem;">
+                <div style="display: flex; flex-direction: column; gap: 8px;">
+                   <div style="width: 60%; height: 8px; background: #2563eb; border-radius: 2px;"></div>
+                   <div style="width: 90%; height: 6px; background: #e5e7eb; border-radius: 2px;"></div>
+                   <div style="width: 80%; height: 6px; background: #e5e7eb; border-radius: 2px; margin-bottom: 8px;"></div>
+                   
+                   <div style="width: 50%; height: 8px; background: #2563eb; border-radius: 2px;"></div>
+                   <div style="width: 90%; height: 6px; background: #e5e7eb; border-radius: 2px;"></div>
+                </div>
+                <div style="margin-top: 8px; color: #71717a; font-size: 0.75rem; font-style: italic;">You do the work (Navigation)</div>
+             </div>
+          </div>
+
+          <!-- New Search -->
+          <div style="display: flex; align-items: flex-start; gap: 1rem;">
+             <div style="width: 100px; text-align: right; font-weight: 700; color: #7c3aed; font-size: 0.9rem; padding-top: 4px;">New Search</div>
+             <div style="flex: 1; background: #f5f3ff; border: 1px solid #ddd6fe; border-radius: 8px; padding: 1rem;">
+                <div style="color: #4c1d95; font-size: 0.9rem; font-weight: 600; margin-bottom: 4px;">Here is the answer:</div>
+                <div style="color: #5b21b6; font-size: 0.85rem; line-height: 1.5;">
+                   AI reads the links, synthesizes the facts, and writes a direct summary for you.
+                </div>
+                <div style="margin-top: 8px; color: #7c3aed; font-size: 0.75rem; font-weight: 600;">AI does the work (Generation)</div>
+             </div>
+          </div>
+
+        </div>
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Evolution of Code: From Logic to Language</h3>
 
       <p>Now, parallel to all this history—browsers, phones, social media—the language of building was changing too.</p>
