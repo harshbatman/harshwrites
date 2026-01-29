@@ -3180,7 +3180,7 @@ export const articles = [
 
   {
     id: "globalisation-tech-power",
-    views: 15000,
+    views: 8000,
     publishDate: "2023-10-01",
     title: "They Designed It. China Copied It. We Bought It.",
     author: "Harsh Mahto",
