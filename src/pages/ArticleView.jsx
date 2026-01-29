@@ -160,9 +160,6 @@ function ArticleView() {
                             />
                         </div>
 
-                        <p style={{ fontSize: '0.9rem', color: '#6b7280', fontStyle: 'italic', marginTop: '1rem' }}>
-                            Shared by Aesha Singh
-                        </p>
                     </div>
                 )}
 
