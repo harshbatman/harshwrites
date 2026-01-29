@@ -12,6 +12,18 @@ export const articles = [
     image: "/gurugram-housing.jpg",
     excerpt: "We earn well. We climb the ladder. But the moment we try to buy a home near our office in Gurugram, we realize the city isn't designed for paychecks—it's designed for capital.",
     content: `
+      <p>A few days ago, I was in Gurugram. I’d heard so much about it that I’d been planning this trip for a long time. Finally, I went.</p>
+      
+      <p>Honestly, the city has this magnificent vibe that hits you almost immediately. You see the tall glass buildings, the massive corporate offices, the wide roads, and suddenly it feels like you’ve stepped into a different world. It looks global, polished, ambitious. In many ways, it really does look like the Singapore of India. Everything seems fast, modern, and full of promise. I was genuinely mesmerized.</p>
+
+      <p>But once the initial excitement settled, curiosity kicked in. I started reading more about the city—digging into articles, listening to conversations, understanding the experiences of people actually living and working there.</p>
+
+      <p>That’s when the picture changed. Behind all that shine, there’s a quiet tension. People working in those very offices, earning what most would call a strong salary, still can’t afford a house in the city they build.</p>
+
+      <p>It felt contradictory. Gurugram represents growth and success, yet the people driving that success struggle to put down roots. The city looks welcoming from the outside, but living there long-term—especially near where you work—is a different financial reality. That contrast between the dream-like skyline and the everyday stress of residents really stayed with me.</p>
+
+      <div style="width: 100%; height: 1px; background-color: #e5e7eb; margin: 2rem 0;"></div>
+
       <p>Let me tell you something about the illusion of a "good salary" in this city. On paper, earning ₹20 lakh a year sounds solid. It sounds like comfort, security, maybe even a ticket to the upper middle class. But the moment you walk out of that office and try to buy a home near it in Gurugram, that number suddenly feels terrifyingly small.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Disconnect</h3>
