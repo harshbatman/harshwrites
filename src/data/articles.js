@@ -289,6 +289,73 @@ export const articles = [
         <li>Outnumbered and surrounded</li>
       </ul>
 
+      <!-- Speed of Victory Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; color: #111827;">Lightning Fast: Time Taken to Capture Capital</h4>
+        
+        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+          
+          <!-- 1971 War -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <div style="width: 140px; text-align: right; flex-shrink: 0;">
+                <div style="font-weight: 700; color: #15803d;">1971 War</div>
+                <div style="font-size: 0.75rem; color: #6b7280;">Dhaka 🇧🇩</div>
+            </div>
+            <div style="flex: 1; height: 38px; background: #f3f4f6; border-radius: 6px; overflow: hidden; position: relative;">
+               <div style="width: 13%; height: 100%; background: #22c55e; border-radius: 6px; display: flex; align-items: center; padding-right: 12px; justify-content: flex-end; min-width: 80px;">
+                   <span style="color: white; font-weight: 700; font-size: 0.9rem;">13 Days</span>
+               </div>
+            </div>
+          </div>
+
+          <!-- 2003 Iraq War -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <div style="width: 140px; text-align: right; flex-shrink: 0;">
+                <div style="font-weight: 700; color: #1f2937;">Iraq War (2003)</div>
+                <div style="font-size: 0.75rem; color: #6b7280;">Baghdad 🇮🇶</div>
+            </div>
+            <div style="flex: 1; height: 38px; background: #f3f4f6; border-radius: 6px; overflow: hidden; position: relative;">
+               <div style="width: 21%; height: 100%; background: #9ca3af; border-radius: 6px; display: flex; align-items: center; padding-right: 12px; justify-content: flex-end; min-width: 80px;">
+                    <span style="color: white; font-weight: 600; font-size: 0.9rem;">21 Days</span>
+               </div>
+            </div>
+          </div>
+
+          <!-- 1939 Poland -->
+          <div style="display: flex; align-items: center; gap: 1rem;">
+            <div style="width: 140px; text-align: right; flex-shrink: 0;">
+                <div style="font-weight: 700; color: #1f2937;">WWII (1939)</div>
+                <div style="font-size: 0.75rem; color: #6b7280;">Warsaw 🇵🇱</div>
+            </div>
+            <div style="flex: 1; height: 38px; background: #f3f4f6; border-radius: 6px; overflow: hidden; position: relative;">
+               <div style="width: 28%; height: 100%; background: #9ca3af; border-radius: 6px; display: flex; align-items: center; padding-right: 12px; justify-content: flex-end; min-width: 80px;">
+                   <span style="color: white; font-weight: 600; font-size: 0.9rem;">28 Days</span>
+               </div>
+            </div>
+          </div>
+
+           <!-- 1940 France -->
+           <div style="display: flex; align-items: center; gap: 1rem;">
+            <div style="width: 140px; text-align: right; flex-shrink: 0;">
+                <div style="font-weight: 700; color: #1f2937;">WWII (1940)</div>
+                <div style="font-size: 0.75rem; color: #6b7280;">Paris 🇫🇷</div>
+            </div>
+            <div style="flex: 1; height: 38px; background: #f3f4f6; border-radius: 6px; overflow: hidden; position: relative;">
+               <div style="width: 35%; height: 100%; background: #9ca3af; border-radius: 6px; display: flex; align-items: center; padding-right: 12px; justify-content: flex-end; min-width: 80px;">
+                   <span style="color: white; font-weight: 600; font-size: 0.9rem;">35 Days</span>
+               </div>
+            </div>
+          </div>
+
+        </div>
+
+        <div style="margin-top: 1.5rem; padding: 1rem; background: #f0fdf4; border-left: 4px solid #22c55e; border-radius: 4px;">
+          <p style="margin: 0; font-size: 0.85rem; color: #14532d; line-height: 1.6;">
+            <strong>Context:</strong> The 1971 liberation of Dhaka is considered one of the fastest and most decisive military campaigns in modern history.
+          </p>
+        </div>
+      </div>
+
       <p>The result: 93,000 troops surrendered on 16 December 1971.</p>
 
       <div style="margin: 2rem 0; text-align: center;">
