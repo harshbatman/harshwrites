@@ -1254,6 +1254,9 @@ export const articles = [
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; text-align: center;">The Cost of Stagnation</h4>
         
         <div style="position: relative; height: 200px; border-left: 2px solid #52525b; border-bottom: 2px solid #52525b; max-width: 500px; margin: 0 auto;">
+           <!-- Y-Axis Label -->
+           <div style="position: absolute; top: 50%; left: -50px; transform: translateY(-50%) rotate(-90deg); font-size: 0.75rem; font-weight: 600; color: #52525b; white-space: nowrap;">Cost ($)</div>
+
            <!-- Area Graph Shape -->
            <svg style="position: absolute; bottom: 0; left: 0; width: 100%; height: 100%;" viewBox="0 0 100 100" preserveAspectRatio="none">
              <path d="M0,100 Q30,90 50,50 T100,0 V100 H0 Z" fill="rgba(239, 68, 68, 0.2)" />
@@ -1261,8 +1264,11 @@ export const articles = [
            </svg>
 
            <div style="position: absolute; bottom: 10px; right: 10px; font-weight: 700; color: #ef4444;">Bankruptcy / Collapse</div>
-           <div style="position: absolute; bottom: 10px; left: 10px; font-weight: 700; color: #10b981;">Initial Budget</div>
+           <!-- Adjusted Position -->
+           <div style="position: absolute; bottom: 35px; left: 15px; font-weight: 700; color: #10b981;">Initial Budget</div>
         </div>
+        
+        <div style="text-align: center; margin-bottom: 2px; font-size: 0.75rem; font-weight: 600; color: #52525b;">Time →</div>
         
         <div style="display: flex; justify-content: space-between; max-width: 500px; margin: 10px auto 0; font-size: 0.8rem; color: #52525b;">
           <span>Day 1</span>
