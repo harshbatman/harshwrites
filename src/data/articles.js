@@ -393,12 +393,67 @@ export const articles = [
 
       <p>If you look at the blueprint, it’s precise:</p>
 
-      <ul style="margin: 1rem 0; padding-left: 2rem; color: #374151; line-height: 1.8;">
-        <li><strong>Gather Intelligence:</strong> Know the enemy better than they know themselves.</li>
-        <li><strong>Set the Narrative:</strong> Show the world who the real aggressor is.</li>
-        <li><strong>Prepare the Military:</strong> Don’t rush. Wait until you are 100% ready for a Blitzkrieg.</li>
-        <li><strong>Execute with Speed:</strong> A quick, decisive win before the world can intervene.</li>
-      </ul>
+      <!-- Blueprint of Success Flowchart -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; color: #111827; text-align: center;">The Blueprint of Victory</h4>
+        
+        <div style="display: flex; flex-direction: column; gap: 0.5rem; position: relative; max-width: 500px; margin: 0 auto;">
+          
+          <!-- Step 1 -->
+          <div style="display: flex; gap: 1rem; align-items: center; background: white; padding: 1rem; border-radius: 8px; border: 1px solid #e5e7eb; box-shadow: 0 2px 4px rgba(0,0,0,0.05); position: relative; z-index: 10;">
+             <div style="width: 40px; height: 40px; background: #eff6ff; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.25rem; color: #2563eb; flex-shrink: 0;">
+               👁️
+             </div>
+             <div>
+               <div style="font-weight: 700; color: #1f2937; font-size: 0.95rem;">1. Intelligence & Strategy</div>
+               <div style="font-size: 0.85rem; color: #6b7280;">Know the terrain. Know the enemy. (RAW)</div>
+             </div>
+          </div>
+
+          <!-- Arrow down -->
+          <div style="align-self: center; color: #d1d5db; font-size: 1.5rem; line-height: 1;">↓</div>
+
+          <!-- Step 2 -->
+          <div style="display: flex; gap: 1rem; align-items: center; background: white; padding: 1rem; border-radius: 8px; border: 1px solid #e5e7eb; box-shadow: 0 2px 4px rgba(0,0,0,0.05); position: relative; z-index: 10;">
+             <div style="width: 40px; height: 40px; background: #fef3c7; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.25rem; color: #d97706; flex-shrink: 0;">
+               📢
+             </div>
+             <div>
+               <div style="font-weight: 700; color: #1f2937; font-size: 0.95rem;">2. Narrative & Diplomacy</div>
+               <div style="font-size: 0.85rem; color: #6b7280;">Isolate the enemy. Justify the cause.</div>
+             </div>
+          </div>
+
+          <!-- Arrow down -->
+          <div style="align-self: center; color: #d1d5db; font-size: 1.5rem; line-height: 1;">↓</div>
+
+          <!-- Step 3 -->
+          <div style="display: flex; gap: 1rem; align-items: center; background: white; padding: 1rem; border-radius: 8px; border: 1px solid #e5e7eb; box-shadow: 0 2px 4px rgba(0,0,0,0.05); position: relative; z-index: 10;">
+             <div style="width: 40px; height: 40px; background: #fce7f3; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.25rem; color: #db2777; flex-shrink: 0;">
+               ⏳
+             </div>
+             <div>
+               <div style="font-weight: 700; color: #1f2937; font-size: 0.95rem;">3. Patience & Preparation</div>
+               <div style="font-size: 0.85rem; color: #6b7280;">Wait for the perfect moment. (Winter)</div>
+             </div>
+          </div>
+
+          <!-- Arrow down -->
+          <div style="align-self: center; color: #d1d5db; font-size: 1.5rem; line-height: 1;">↓</div>
+
+          <!-- Step 4 -->
+          <div style="display: flex; gap: 1rem; align-items: center; background: #f0fdf4; padding: 1rem; border-radius: 8px; border: 1px solid #86efac; box-shadow: 0 4px 6px rgba(0,0,0,0.05); position: relative; z-index: 10;">
+             <div style="width: 40px; height: 40px; background: #22c55e; border-radius: 50%; display: flex; align-items: center; justify-content: center; font-size: 1.25rem; color: white; flex-shrink: 0;">
+               ⚡
+             </div>
+             <div>
+               <div style="font-weight: 700; color: #14532d; font-size: 0.95rem;">4. Execution (Blitzkrieg)</div>
+               <div style="font-size: 0.85rem; color: #166534;">Strike fast. 13 Days to Victory.</div>
+             </div>
+          </div>
+
+        </div>
+      </div>
 
       <p>It’s strategic maturity.</p>
 
