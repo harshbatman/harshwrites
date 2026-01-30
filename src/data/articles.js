@@ -1,5 +1,137 @@
 export const articles = [
   {
+    id: "one-home-too-many-contractors",
+    views: 120,
+    publishDate: "2026-01-30",
+    title: "One Home. Too Many Contractors",
+    author: "Harsh Mahto",
+    category: "Real Estate & Reality",
+    date: "January 2026",
+    image: "/contractor-chaos.jpg",
+    excerpt: "You know, every time someone says, “Let’s build our own house”, it sounds so simple. Like, buy land, build walls, move in. But the moment we actually start, reality hits us hard.",
+    content: `
+      <p>You know, every time someone says, “Let’s build our own house”, it sounds so simple. Like, buy land, build walls, move in. But the moment we actually start, reality hits us hard.</p>
+
+      <p>Exactly. On paper, it feels like one project. In real life, it’s not one project at all. It’s fifty small projects stitched together, and none of them talk to each other properly.</p>
+
+      <p>That’s the real problem, right? Fragmentation. The construction industry isn’t one industry. It’s a crowd.</p>
+
+      <p>A mela. A proper mela.<br/>
+      Think about it. The day we decide to build a house, what’s the first thing we need?</p>
+
+      <p>A worker? Or a contractor?</p>
+
+      <p>Before that—a person who knows a person.<br/>
+      We ask our friends, relatives, “Bhai, koi theek contractor jaanta hai kya?” That’s how it starts.</p>
+
+      <p>True. And then comes the civil contractor. He handles structure—foundation, pillars, slabs. But he doesn’t do everything.</p>
+
+      <p>Of course not. He says, “Yeh mera scope nahi hai.”<br/>
+      For steel, there’s a steel supplier. For cement, another dealer. For sand, someone else entirely—and don’t forget, sand availability changes every week.</p>
+
+      <p>And each one works on their own timeline.<br/>
+      The steel guy says material kal aayega. Contractor says workers parson aayenge. Cement truck gets delayed. One delay, and everything collapses like… well, bad concrete.</p>
+
+      <p>And this is just the beginning.<br/>
+      Once structure is done, suddenly we need a plumbing contractor.</p>
+
+      <p>Who says, “Electrician pehle aayega ya main?”</p>
+
+      <p>And the electrician says, “Plumber ne marking theek nahi ki.”<br/>
+      So we become the project manager—without salary, without training, and with full responsibility.</p>
+
+      <p>Exactly. In our own house, we are the CEO, site engineer, and dispute resolution manager.</p>
+
+      <p>And it doesn’t stop there. After plumbing and electrical, comes plaster work. Another set of workers. Another contractor. New negotiation.</p>
+
+      <p>Then comes flooring—tiles, marble, granite.<br/>
+      Tile contractor asks, “Material aap lenge ya hum?”</p>
+
+      <p>If we take material, he won’t take responsibility.<br/>
+      If he takes material, cost magically increases.</p>
+
+      <p>And while all this is happening, we’re also dealing with doors and windows.</p>
+
+      <p>Oh yes—wooden door guy, aluminium window guy, UPVC specialist, glass vendor. Everyone has different measurements, different timelines.</p>
+
+      <p>And if one measurement is off by half an inch, blame game starts.<br/>
+      “No, sir, site pe mistake hua hai.”<br/>
+      “No, bhai, tumne galat banaya hai.”</p>
+
+      <p>Then comes painting.<br/>
+      Paint contractor enters like, “Sir, putty pehle dry hone do.”<br/>
+      But plaster guy already left the site two weeks ago.</p>
+
+      <p>And paint selection itself becomes a project. Primer, putty, base coat, final coat. Asian, Berger, Dulux. Shade card dekhte dekhte hum thak jaate hain.</p>
+
+      <p>And just when we think the house is almost ready—boom—false ceiling contractor.</p>
+
+      <p>Who needs coordination with electrician again.<br/>
+      “Light points change karne padenge.”</p>
+
+      <p>Which means electrician comes back, charges extra, and says, “Yeh additional work hai.”</p>
+
+      <p>Then comes kitchen.<br/>
+      Modular kitchen guy. Granite slab vendor. Chimney and hob installation team. All different.</p>
+
+      <p>And none of them talk to each other.<br/>
+      Kitchen guy says slab height galat hai.<br/>
+      Granite guy says cabinet design late mila.</p>
+
+      <p>Bathrooms deserve their own chapter.<br/>
+      Sanitary fittings vendor. Bathroom accessory guy. Shower partition glass contractor.</p>
+
+      <p>One wrong slope, and water stagnates forever.<br/>
+      And then everyone disappears.</p>
+
+      <p>And after all this structural and interior chaos, someone asks,<br/>
+      “Garden ka kya plan hai?”</p>
+
+      <p>Ah yes—the gardener.<br/>
+      Landscaping contractor. Soil guy. Plant nursery. Drip irrigation person.</p>
+
+      <p>Gate lagana bhi baaki hai.<br/>
+      Gate contractor—iron gate, sliding gate, motorized gate.</p>
+
+      <p>Security system? CCTV guy. Doorbell guy. Internet wiring guy.</p>
+
+      <p>And every single one sends their own worker.<br/>
+      Different languages, different work ethics, different priorities.</p>
+
+      <p>Which brings us back to the core issue.<br/>
+      Construction in India is not one system. It’s fragments.</p>
+
+      <p>Each fragment is an expert in their tiny box, but no one owns the whole picture.</p>
+
+      <p>There’s no single throat to choke, as they say.<br/>
+      If something goes wrong, responsibility dissolves into thin air.</p>
+
+      <p>So we end up coordinating everything—<br/>
+      Calling ten people a day, visiting site twice daily, managing payments, tracking materials.</p>
+
+      <p>And the irony?<br/>
+      This is probably the largest investment of our lives, yet it’s managed through WhatsApp calls and verbal promises.</p>
+
+      <p>No unified planning.<br/>
+      No integrated timeline.<br/>
+      No accountability.</p>
+
+      <p>That’s fragmentation.<br/>
+      Not just many contractors—but many disconnected decisions.</p>
+
+      <p>And until this industry becomes more integrated—<br/>
+      Where design, material, labour, and execution talk to each other—</p>
+
+      <p>Building a home in India will remain what it is today:<br/>
+      A dream… plus stress… plus patience… multiplied by contractors.</p>
+
+      <p>Well said.<br/>
+      We don’t just build houses here.</p>
+
+      <p>We survive the process.</p>
+    `
+  },
+  {
     id: "how-to-invade-country",
     views: 100,
     publishDate: "2026-01-31",
