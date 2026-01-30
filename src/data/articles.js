@@ -457,6 +457,8 @@ export const articles = [
 
       <p>It’s strategic maturity.</p>
 
+      <p style="font-weight: 700; color: #111827;">Because war is about winning, not about fighting.</p>
+
       <p>We succeeded because intelligence, diplomacy, leadership, and military planning moved together—long before the first shot was fired.</p>
 
       <p>Which makes this the perfect counterpiece to our earlier article.</p>
