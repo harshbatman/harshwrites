@@ -7,7 +7,7 @@ export const articles = [
     author: "Harsh Mahto",
     category: "Icons & History",
     date: "February 2026",
-    image: "/milkha-singh.jpg",
+    image: "/milkha-singh-running.png",
     excerpt: "For us, Milkha Singh isn’t just an athlete; he is a lesson. A lesson in pain, perseverance, and purpose. When we say our sporting history, his story is one of its strongest pillars.",
     content: `
       <p>Absolutely. In fact, calling it “discipline” almost feels too small a word for what he practiced. For us, Milkha Singh isn’t just an athlete; he is a lesson. A lesson in pain, perseverance, and purpose. When we say our sporting history, his story is one of its strongest pillars.</p>
@@ -23,7 +23,7 @@ export const articles = [
       <p>And that hunger turned into discipline when he joined the Indian Army. That was a turning point. The Army gave him structure—fixed routines, early mornings, relentless drills.</p>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/milkha-singh.jpg" alt="Milkha Singh on the podium" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
+        <img src="/milkha-singh-running.png" alt="Milkha Singh on the podium" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
         <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">A moment of pride: Standing tall on the podium.</p>
       </div>
 
