@@ -322,7 +322,16 @@ export const articles = [
         <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">Prime Minister Indira Gandhi reviewing the guard of honour at Red Fort after the decisive 1971 victory.</p>
       </div>
 
-      <p>So the lesson of 1971 isn’t just military success.</p>
+      <p>So the lesson of 1971 is a masterclass in how to actually win a war.</p>
+
+      <p>If you look at the blueprint, it’s precise:</p>
+
+      <ul style="margin: 1rem 0; padding-left: 2rem; color: #374151; line-height: 1.8;">
+        <li><strong>Gather Intelligence:</strong> Know the enemy better than they know themselves.</li>
+        <li><strong>Set the Narrative:</strong> Show the world who the real aggressor is.</li>
+        <li><strong>Prepare the Military:</strong> Don’t rush. Wait until you are 100% ready for a Blitzkrieg.</li>
+        <li><strong>Execute with Speed:</strong> A quick, decisive win before the world can intervene.</li>
+      </ul>
 
       <p>It’s strategic maturity.</p>
 
