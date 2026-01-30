@@ -3503,6 +3503,11 @@ export const articles = [
 
       <p>Obviously. After the movie, I searched more about him. And then it hit me—this wasn’t just some cinematic character. This was the guy who led the Red Army into Berlin. The guy who accepted Nazi Germany’s surrender on the Western Front. Not a background general. The general.</p>
 
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/zhukov-surrender.jpg" alt="Marshal Zhukov accepting German surrender in Berlin, 1945" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
+        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">Marshal Zhukov accepting the German unconditional surrender in Berlin, 8 May 1945</p>
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The “Us” Connection</h3>
 
       <p>And that’s when the “us” connection comes in, right?</p>
