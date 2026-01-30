@@ -249,7 +249,7 @@ export const articles = [
       <p>When asked to act prematurely earlier in 1971, he refused—clearly and professionally.</p>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/indira-gandhi-sam-manekshaw-discussion.jpg" alt="Indira Gandhi and Sam Manekshaw discussing war preparations" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
+        <img src="/indira-gandhi-sam-manekshaw-discussion-v2.jpg" alt="Indira Gandhi and Sam Manekshaw discussing war preparations" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
         <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">Prime Minister Indira Gandhi discussing the strategic situation with Field Marshal Sam Manekshaw.</p>
       </div>
 
