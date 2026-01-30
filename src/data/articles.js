@@ -3792,11 +3792,11 @@ export const articles = [
   {
     id: "globalisation-tech-power",
     views: 8000,
-    publishDate: "2023-10-01",
+    publishDate: "2023-01-07",
     title: "They Designed It. China Copied It. We Bought It.",
     author: "Harsh Mahto",
     category: "Technology & Geopolitics",
-    date: "October 2023",
+    date: "7 Jan 2023",
     image: "/uploaded_image_1769301997332.png",
     excerpt: "Every American president here believed globalisation would automatically keep America on top. But instead, it taught China how to beat them at their own game.",
     content: `
