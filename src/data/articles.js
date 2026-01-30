@@ -3,7 +3,7 @@ export const articles = [
     id: "how-to-invade-country",
     views: 100,
     publishDate: "2026-01-31",
-    title: "How to Invade a Country (The 13-Day Lesson)",
+    title: "How to Invade a Country",
     author: "Harsh Mahto",
     category: "History & Strategy",
     date: "January 2026",
