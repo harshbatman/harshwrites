@@ -10,113 +10,147 @@ export const articles = [
     image: "/how-to-invade.jpg",
     excerpt: "Earlier, we wrote about how NOT to invade a country. But if there is a clear example of failure, is there also a perfect example of how an invasion actually works? 1971 says yes.",
     content: `
-      <p>Earlier, we wrote an article titled “How Not to Invade a Country”, using Russia and Ukraine as a case study. It focused on what happens when planning is weak, objectives are unclear, and the local population turns hostile.</p>
+      <p>Earlier, we wrote “How Not to Invade a Country”, using Russia and Ukraine as a modern example of what happens when planning, legitimacy, and timing fail.</p>
 
-      <p>Right. It was more like a checklist of mistakes than a history lesson.</p>
+      <p>And while writing that, we realised—history also gives us a textbook case of how a war actually succeeds.</p>
 
-      <p>Exactly. And while writing that piece, a simple thought came to us—<br/>
-      If there is a clear example of how <em>not</em> to invade a country, is there also an example of how an invasion actually works?</p>
+      <p>Yes. 1971.<br/>
+      When we entered East Pakistan and achieved complete military victory in just 13 days, from 3 December to 16 December 1971.</p>
 
-      <p>And that’s when 1971 came to mind.</p>
+      <p>But that story doesn’t start in December.</p>
 
-      <p>Yes. The 1971 war, when we entered East Pakistan and took complete control in just 13 days, from 3 December to 16 December 1971.</p>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">1. It really began on 25 March 1971</h3>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">1. We prepared long before the first shot was fired</h3>
+      <p>With Operation Searchlight.</p>
 
-      <p>Most people think the war started on 3rd December.</p>
+      <p>Exactly. On the night of 25 March 1971, the Pakistani military launched Operation Searchlight to crush Bengali political resistance in East Pakistan.</p>
 
-      <p>Militarily, yes. Strategically, no.<br/>
-      We had already begun months earlier—politically, diplomatically, and morally.</p>
-
+      <p>What followed was:</p>
       <ul style="margin: 1rem 0; padding-left: 2rem; color: #374151; line-height: 1.8;">
-        <li>Millions of refugees had crossed into our country</li>
-        <li>The humanitarian crisis was visible to the world</li>
-        <li>We ensured the narrative was clear: this was not aggression, it was responsibility</li>
+        <li>Mass killings</li>
+        <li>Targeted attacks on students, intellectuals, and minorities</li>
+        <li>Systematic violence that sent millions of refugees into India</li>
       </ul>
 
-      <p>By the time the war officially began, the world already understood why.</p>
+      <p>And that changed everything.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">2. We had the people on our side</h3>
+      <p>Yes. This wasn’t just an internal issue anymore.<br/>
+      The refugee crisis put enormous economic, social, and moral pressure on us—and it created moral clarity for the world.</p>
 
-      <p>This is where many modern invasions collapse.</p>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">2. Intelligence first: RAW and R. N. Kao</h3>
 
-      <p>Exactly. You can’t control a region if its people see you as occupiers.<br/>
-      In 1971, we weren’t fighting the people of East Pakistan—we were fighting <em>alongside</em> them.</p>
+      <p>Military action didn’t come immediately though.</p>
 
-      <p>The Mukti Bahini gave us:</p>
-      <ul style="margin: 1rem 0; padding-left: 2rem; color: #374151; line-height: 1.8;">
-        <li>Local intelligence</li>
-        <li>Ground-level support</li>
-        <li>Moral legitimacy</li>
-      </ul>
-
-      <p>When the population supports you, half the battle is already won.</p>
-
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">3. We knew exactly what we wanted</h3>
-
-      <p>No confusion. No vague slogans.</p>
-
-      <p>Our objective was simple and limited:<br/>
-      End the crisis in East Pakistan and force a military surrender</p>
-
-      <p>Our political goal and military strategy were aligned from day one.<br/>
-      There was no mission creep, no unnecessary expansion.</p>
-
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">4. We moved fast — and that was deliberate</h3>
-
-      <p>Thirteen days wasn’t an accident.</p>
-
-      <p>Speed was the strategy.</p>
-
-      <p>We attacked across land, air, and sea simultaneously.<br/>
-      The enemy had no time to reorganize, resupply, or regain morale.</p>
-
-      <p>Speed ensured:</p>
-      <ul style="margin: 1rem 0; padding-left: 2rem; color: #374151; line-height: 1.8;">
-        <li>Minimal prolonged suffering</li>
-        <li>Limited international interference</li>
-        <li>A decisive outcome</li>
-      </ul>
-
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">5. We fought diplomatically while advancing militarily</h3>
-
-      <p>This part rarely gets enough attention.</p>
-
-      <p>While our forces were moving forward, our diplomats were just as active.</p>
+      <p>Because before bullets, we invested in information.</p>
+      
+      <p>This was where RAW, under R. N. Kao, played a decisive role.</p>
 
       <ul style="margin: 1rem 0; padding-left: 2rem; color: #374151; line-height: 1.8;">
-        <li>Strategic understanding with the USSR</li>
-        <li>Careful handling of pressure from the US</li>
-        <li>Delaying international intervention at the UN</li>
+        <li>We had real-time intelligence from inside East Pakistan</li>
+        <li>We understood terrain, troop movements, and morale</li>
+        <li>We built contact with Bengali resistance leaders</li>
       </ul>
 
-      <p>We understood that modern wars are fought both on the battlefield and at the negotiating table.</p>
+      <p>RAW wasn’t just collecting data—it was shaping the battlefield.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">6. We knew when to stop</h3>
+      <p>Exactly.<br/>
+      Support to the Mukti Bahini, training camps, logistics, intelligence sharing—this meant that when we finally moved in, the ground was already prepared.</p>
 
-      <p>Probably the most important lesson.</p>
+      <p>This is something many modern invasions completely ignore.</p>
 
-      <p>Once Dhaka fell and 93,000 enemy soldiers surrendered, we stopped.<br/>
-      No annexation. No prolonged occupation.</p>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">3. Political leadership: Indira Gandhi’s calculated patience</h3>
 
-      <p>That restraint led to the birth of Bangladesh, not decades of instability.</p>
+      <p>This is where leadership matters.</p>
+
+      <p>Absolutely. Indira Gandhi faced enormous pressure to act immediately.</p>
+
+      <p>But instead of rushing into war, she waited.</p>
+
+      <ul style="margin: 1rem 0; padding-left: 2rem; color: #374151; line-height: 1.8;">
+        <li>She toured global capitals</li>
+        <li>She briefed world leaders about the humanitarian crisis</li>
+        <li>She ensured Pakistan appeared as the aggressor, not us</li>
+      </ul>
+
+      <p>And she bought time.</p>
+
+      <p>Time for:</p>
+      <ul style="margin: 1rem 0; padding-left: 2rem; color: #374151; line-height: 1.8;">
+        <li>Military preparation</li>
+        <li>Diplomatic positioning</li>
+        <li>Strategic alignment with the USSR</li>
+      </ul>
+
+      <p>When war finally came, we were politically justified and diplomatically shielded.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">4. Military clarity: Sam Manekshaw’s firm leadership</h3>
+
+      <p>And then there was Field Marshal Sam Manekshaw.</p>
+
+      <p>One of the most important figures of the war.</p>
+
+      <p>When asked to act prematurely earlier in 1971, he refused—clearly and professionally.</p>
+
+      <ul style="margin: 1rem 0; padding-left: 2rem; color: #374151; line-height: 1.8;">
+        <li>He demanded time to prepare</li>
+        <li>He ensured readiness across all fronts</li>
+        <li>He planned for a short, decisive war, not a prolonged conflict</li>
+      </ul>
+
+      <p>That decision alone probably saved thousands of lives.</p>
+
+      <p>Yes. When war began in December, our armed forces were fully ready—logistically, strategically, and mentally.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">5. The 13-day war: speed, coordination, and collapse</h3>
+
+      <p>Once Pakistan initiated hostilities on 3 December 1971, everything moved fast.</p>
+
+      <p>Land, air, and sea—simultaneously.</p>
+
+      <p>Exactly.</p>
+
+      <ul style="margin: 1rem 0; padding-left: 2rem; color: #374151; line-height: 1.8;">
+        <li>Eastern Command advanced rapidly</li>
+        <li>Air superiority was established early</li>
+        <li>Naval action in the Bay of Bengal cut off supplies</li>
+      </ul>
+
+      <p>Pakistani forces in East Pakistan were:</p>
+      <ul style="margin: 1rem 0; padding-left: 2rem; color: #374151; line-height: 1.8;">
+        <li>Isolated</li>
+        <li>Demoralised</li>
+        <li>Outnumbered and surrounded</li>
+      </ul>
+
+      <p>The result: 93,000 troops surrendered on 16 December 1971.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">6. Knowing when to stop</h3>
+
+      <p>This part still feels rare in history.</p>
+
+      <p>Once Dhaka fell, we stopped.</p>
+
+      <p>No annexation.<br/>
+      No occupation beyond necessity.<br/>
+      No attempt to redraw maps for ego.</p>
+
+      <p>That restraint allowed Bangladesh to emerge as an independent nation, not a long-term conflict zone.</p>
 
       <div style="width: 100%; height: 1px; background-color: #e5e7eb; margin: 2rem 0;"></div>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Closing Thought</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Closing Reflection</h3>
 
-      <p>So the real takeaway isn’t pride alone.</p>
+      <p>So the lesson of 1971 isn’t just military success.</p>
 
-      <p>It’s perspective.</p>
+      <p>It’s strategic maturity.</p>
 
-      <p>We didn’t succeed in 1971 because of brute force alone.<br/>
-      We succeeded because we planned carefully, moved decisively, respected local realities, and stopped at the right moment.</p>
+      <p>We succeeded because intelligence, diplomacy, leadership, and military planning moved together—long before the first shot was fired.</p>
 
-      <p>Which makes this a natural follow-up to our earlier article.</p>
+      <p>Which makes this the perfect counterpiece to our earlier article.</p>
 
-      <p>Exactly.<br/>
-      One explains how wars fail.<br/>
-      The other explains why, sometimes, 13 days are enough.</p>
+      <p>Yes.<br/>
+      One shows how wars fail when planning and legitimacy collapse.<br/>
+      The other shows why, when everything aligns, 13 days can be enough.</p>
     `
   },
 
