@@ -260,8 +260,8 @@ export const articles = [
       </ul>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/sam-manekshaw-soldiers.jpg" alt="Field Marshal Sam Manekshaw talking to Indian soldiers" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
-        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">Field Marshal Sam Manekshaw interacting with Indian troops before the conflict</p>
+        <img src="/sam-manekshaw-soldiers.jpg" alt="Field Marshal Sam Manekshaw interacting with Indian troops before the war" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
+        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">Field Marshal Sam Manekshaw interacting with Indian troops before the war</p>
       </div>
 
       <p>That decision alone probably saved thousands of lives.</p>
