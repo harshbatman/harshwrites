@@ -1255,7 +1255,7 @@ export const articles = [
         
         <div style="position: relative; height: 200px; border-left: 2px solid #52525b; border-bottom: 2px solid #52525b; max-width: 500px; margin: 0 auto;">
            <!-- Y-Axis Label -->
-           <div style="position: absolute; top: 50%; left: -50px; transform: translateY(-50%) rotate(-90deg); font-size: 0.75rem; font-weight: 600; color: #52525b; white-space: nowrap;">Cost ($)</div>
+           <div style="position: absolute; top: 50%; left: -50px; transform: translateY(-50%) rotate(-90deg); font-size: 0.75rem; font-weight: 600; color: #52525b; white-space: nowrap;">Cost</div>
 
            <!-- Area Graph Shape -->
            <svg style="position: absolute; bottom: 0; left: 0; width: 100%; height: 100%;" viewBox="0 0 100 100" preserveAspectRatio="none">
