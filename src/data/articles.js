@@ -164,6 +164,11 @@ export const articles = [
         <li>Systematic violence that sent millions of refugees into India</li>
       </ul>
 
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/1971-refugees.jpg" alt="Refugees fleeing East Pakistan to India in 1971" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
+        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">Millions of refugees fleeing atrocities in East Pakistan to find safety in India.</p>
+      </div>
+
       <p>And that changed everything.</p>
 
       <p>Yes. This wasn’t just an internal issue anymore.<br/>
