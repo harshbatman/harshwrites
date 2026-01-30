@@ -140,11 +140,11 @@ export const articles = [
     category: "History & Strategy",
     date: "January 2026",
     image: "/how-to-invade.jpg",
-    excerpt: "Earlier, we wrote about how NOT to invade a country. But if there is a clear example of failure, is there also a perfect example of how an invasion actually works? 1971 says yes.",
+    excerpt: "Earlier, I wrote about how NOT to invade a country. But if there is a clear example of failure, is there also a perfect example of how an invasion actually works? 1971 says yes.",
     content: `
-      <p>Earlier, we wrote “How Not to Invade a Country”, using Russia and Ukraine as a modern example of what happens when planning, legitimacy, and timing fail.</p>
+      <p>Earlier, I wrote “How Not to Invade a Country”, using Russia and Ukraine as a modern example of what happens when planning, legitimacy, and timing fail.</p>
 
-      <p>And while writing that, we realised—history also gives us a textbook case of how a war actually succeeds.</p>
+      <p>And while writing that, I realised—history also gives us a textbook case of how a war actually succeeds.</p>
 
       <p>Yes. 1971.<br/>
       When we entered East Pakistan and achieved complete military victory in just 13 days, from 3 December to 16 December 1971.</p>
