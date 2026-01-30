@@ -234,7 +234,7 @@ export const articles = [
       </div>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <iframe style="width: 100%; max-width: 400px; aspect-ratio: 9/16; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" src="https://www.youtube.com/embed/dR32iXh6KRQ" title="Prime Minister Indira Gandhi visit to USSR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe style="width: 100%; max-width: 400px; aspect-ratio: 9/16; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" src="https://drive.google.com/file/d/1SARVSUMr1LmoNeoxBYDfrWCpbfDwLrjx/preview" title="Prime Minister Indira Gandhi visit to USSR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">Watch: Rare footage of Prime Minister Indira Gandhi in the USSR.</p>
       </div>
 
