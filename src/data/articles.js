@@ -10,22 +10,22 @@ export const articles = [
     image: "/how-to-invade.jpg",
     excerpt: "Earlier, we wrote about how NOT to invade a country. But if there is a clear example of failure, is there also a perfect example of how an invasion actually works? 1971 says yes.",
     content: `
-      <p><strong>Person A:</strong> Earlier, we wrote an article titled “How Not to Invade a Country”, using Russia and Ukraine as a case study. It focused on what happens when planning is weak, objectives are unclear, and the local population turns hostile.</p>
+      <p>Earlier, we wrote an article titled “How Not to Invade a Country”, using Russia and Ukraine as a case study. It focused on what happens when planning is weak, objectives are unclear, and the local population turns hostile.</p>
 
-      <p><strong>Person B:</strong> Right. It was more like a checklist of mistakes than a history lesson.</p>
+      <p>Right. It was more like a checklist of mistakes than a history lesson.</p>
 
-      <p><strong>Person A:</strong> Exactly. And while writing that piece, a simple thought came to us—<br/>
+      <p>Exactly. And while writing that piece, a simple thought came to us—<br/>
       If there is a clear example of how <em>not</em> to invade a country, is there also an example of how an invasion actually works?</p>
 
-      <p><strong>Person B:</strong> And that’s when 1971 came to mind.</p>
+      <p>And that’s when 1971 came to mind.</p>
 
-      <p><strong>Person A:</strong> Yes. The 1971 war, when we entered East Pakistan and took complete control in just 13 days, from 3 December to 16 December 1971.</p>
+      <p>Yes. The 1971 war, when we entered East Pakistan and took complete control in just 13 days, from 3 December to 16 December 1971.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">1. We prepared long before the first shot was fired</h3>
 
-      <p><strong>Person B:</strong> Most people think the war started on 3rd December.</p>
+      <p>Most people think the war started on 3rd December.</p>
 
-      <p><strong>Person A:</strong> Militarily, yes. Strategically, no.<br/>
+      <p>Militarily, yes. Strategically, no.<br/>
       We had already begun months earlier—politically, diplomatically, and morally.</p>
 
       <ul style="margin: 1rem 0; padding-left: 2rem; color: #374151; line-height: 1.8;">
@@ -38,9 +38,9 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">2. We had the people on our side</h3>
 
-      <p><strong>Person B:</strong> This is where many modern invasions collapse.</p>
+      <p>This is where many modern invasions collapse.</p>
 
-      <p><strong>Person A:</strong> Exactly. You can’t control a region if its people see you as occupiers.<br/>
+      <p>Exactly. You can’t control a region if its people see you as occupiers.<br/>
       In 1971, we weren’t fighting the people of East Pakistan—we were fighting <em>alongside</em> them.</p>
 
       <p>The Mukti Bahini gave us:</p>
@@ -54,9 +54,9 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">3. We knew exactly what we wanted</h3>
 
-      <p><strong>Person B:</strong> No confusion. No vague slogans.</p>
+      <p>No confusion. No vague slogans.</p>
 
-      <p><strong>Person A:</strong> Our objective was simple and limited:<br/>
+      <p>Our objective was simple and limited:<br/>
       👉 End the crisis in East Pakistan and force a military surrender</p>
 
       <p>Our political goal and military strategy were aligned from day one.<br/>
@@ -64,11 +64,11 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">4. We moved fast — and that was deliberate</h3>
 
-      <p><strong>Person A:</strong> Thirteen days wasn’t an accident.</p>
+      <p>Thirteen days wasn’t an accident.</p>
 
-      <p><strong>Person B:</strong> Speed was the strategy.</p>
+      <p>Speed was the strategy.</p>
 
-      <p><strong>Person A:</strong> We attacked across land, air, and sea simultaneously.<br/>
+      <p>We attacked across land, air, and sea simultaneously.<br/>
       The enemy had no time to reorganize, resupply, or regain morale.</p>
 
       <p>Speed ensured:</p>
@@ -80,9 +80,9 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">5. We fought diplomatically while advancing militarily</h3>
 
-      <p><strong>Person B:</strong> This part rarely gets enough attention.</p>
+      <p>This part rarely gets enough attention.</p>
 
-      <p><strong>Person A:</strong> While our forces were moving forward, our diplomats were just as active.</p>
+      <p>While our forces were moving forward, our diplomats were just as active.</p>
 
       <ul style="margin: 1rem 0; padding-left: 2rem; color: #374151; line-height: 1.8;">
         <li>Strategic understanding with the USSR</li>
@@ -94,9 +94,9 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">6. We knew when to stop</h3>
 
-      <p><strong>Person B:</strong> Probably the most important lesson.</p>
+      <p>Probably the most important lesson.</p>
 
-      <p><strong>Person A:</strong> Once Dhaka fell and 93,000 enemy soldiers surrendered, we stopped.<br/>
+      <p>Once Dhaka fell and 93,000 enemy soldiers surrendered, we stopped.<br/>
       No annexation. No prolonged occupation.</p>
 
       <p>That restraint led to the birth of Bangladesh, not decades of instability.</p>
@@ -105,16 +105,16 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Closing Thought</h3>
 
-      <p><strong>Person B:</strong> So the real takeaway isn’t pride alone.</p>
+      <p>So the real takeaway isn’t pride alone.</p>
 
-      <p><strong>Person A:</strong> It’s perspective.</p>
+      <p>It’s perspective.</p>
 
       <p>We didn’t succeed in 1971 because of brute force alone.<br/>
       We succeeded because we planned carefully, moved decisively, respected local realities, and stopped at the right moment.</p>
 
-      <p><strong>Person B:</strong> Which makes this a natural follow-up to our earlier article.</p>
+      <p>Which makes this a natural follow-up to our earlier article.</p>
 
-      <p><strong>Person A:</strong> Exactly.<br/>
+      <p>Exactly.<br/>
       One explains how wars fail.<br/>
       The other explains why, sometimes, 13 days are enough.</p>
     `
