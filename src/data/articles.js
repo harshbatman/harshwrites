@@ -283,6 +283,11 @@ export const articles = [
 
       <p>That restraint allowed Bangladesh to emerge as an independent nation, not a long-term conflict zone.</p>
 
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/sam-manekshaw-dhaka.jpg" alt="Sam Manekshaw interacting with people in Dhaka" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
+        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">Field Marshal Sam Manekshaw interacting with people in Dhaka after the surrender.</p>
+      </div>
+
       <div style="width: 100%; height: 1px; background-color: #e5e7eb; margin: 2rem 0;"></div>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Closing Reflection</h3>
