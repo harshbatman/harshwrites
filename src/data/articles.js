@@ -5365,6 +5365,14 @@ export const articles = [
 
       <p>That’s not casual praise. Thatcher didn’t hand out compliments easily.</p>
 
+      <div style="margin: 3rem 0; text-align: center;">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; color: #111827;">Watch: Two Women, Two Nations</h4>
+        <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; border-radius: 12px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);">
+          <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="https://www.youtube.com/embed/-aKU4NvYgQw" title="Indira Gandhi and Margaret Thatcher" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">A glipmse of their interaction</p>
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Friendship Without Flattery</h3>
 
       <p>Was it really friendship though? Or just respect?</p>
