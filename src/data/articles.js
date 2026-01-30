@@ -233,6 +233,11 @@ export const articles = [
         <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">Prime Minister Indira Gandhi visit to USSR to sign the Treaty of Peace, Friendship and Cooperation, securing protection against external aggression.</p>
       </div>
 
+      <div style="margin: 2rem 0; text-align: center;">
+        <iframe style="width: 100%; max-width: 400px; aspect-ratio: 9/16; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" src="https://www.youtube.com/embed/dR32iXh6KRQ" title="Prime Minister Indira Gandhi visit to USSR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">Watch: Rare footage of Prime Minister Indira Gandhi in the USSR.</p>
+      </div>
+
       <p>When war finally came, we were politically justified and diplomatically shielded.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">4. Military clarity: Sam Manekshaw’s firm leadership</h3>
