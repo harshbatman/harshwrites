@@ -57,7 +57,7 @@ export const articles = [
       <p>No confusion. No vague slogans.</p>
 
       <p>Our objective was simple and limited:<br/>
-      👉 End the crisis in East Pakistan and force a military surrender</p>
+      End the crisis in East Pakistan and force a military surrender</p>
 
       <p>Our political goal and military strategy were aligned from day one.<br/>
       There was no mission creep, no unnecessary expansion.</p>
