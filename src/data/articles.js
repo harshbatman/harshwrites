@@ -1,5 +1,60 @@
 export const articles = [
   {
+    id: "the-flying-sikh",
+    views: 10,
+    publishDate: "2026-02-01",
+    title: "The Flying Sikh: A Lesson in Discipline",
+    author: "Harsh Mahto",
+    category: "Icons & History",
+    date: "February 2026",
+    image: "/milkha-singh.jpg",
+    excerpt: "For us, Milkha Singh isn’t just an athlete; he is a lesson. A lesson in pain, perseverance, and purpose. When we say our sporting history, his story is one of its strongest pillars.",
+    content: `
+      <p>Absolutely. In fact, calling it “discipline” almost feels too small a word for what he practiced. For us, Milkha Singh isn’t just an athlete; he is a lesson. A lesson in pain, perseverance, and purpose. When we say our sporting history, his story is one of its strongest pillars.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Born from Tragedy</h3>
+
+      <p>What strikes me most is where he came from. We often forget that his journey didn’t begin on a track. It began in tragedy. During Partition, he lost his parents and several family members. Imagine that kind of trauma, and then imagine channeling it into focus rather than anger.</p>
+
+      <p>Many of us complain about lack of facilities or support—and those are real issues—but Milkha Singh started with nothing. No shoes, no proper diet, no scientific training. What he had was hunger. Hunger to survive, hunger to prove himself, hunger to run away from pain—and later, to run towards excellence.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Army’s Gift: Structure</h3>
+
+      <p>And that hunger turned into discipline when he joined the Indian Army. That was a turning point. The Army gave him structure—fixed routines, early mornings, relentless drills.</p>
+
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/milkha-singh.jpg" alt="Milkha Singh on the podium" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
+        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">A moment of pride: Standing tall on the podium.</p>
+      </div>
+
+      <p>He used to run miles every day, not because someone forced him, but because he believed consistency builds character. Discipline wasn’t a one-time effort for him; it was a daily habit.</p>
+
+      <p>People often talk about his speed, but not enough about his routine. He trained even when others rested. He avoided distractions. While others socialised, he slept early. While others celebrated, he prepared for the next race.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">More Than One Race</h3>
+
+      <p>Discipline for Milkha Singh meant sacrifice. It meant choosing long-term goals over short-term comfort. In today’s world, where we want instant results, his life reminds us that greatness is slow, painful, and repetitive.</p>
+
+      <p>People often reduce his legacy to one missed medal—the 1960 Rome Olympics 400m final, where he finished fourth. But for us, that race was not failure. It was proof that an Indian athlete could compete with the world’s best on the biggest stage.</p>
+
+      <p>And remember, just two years earlier, he had already made history. At the 1958 Asian Games in Tokyo, he won gold in the 200m and 400m. Then at the 1958 Commonwealth Games in Cardiff, he won gold in the 440 yards—becoming the first Indian to win a Commonwealth gold in athletics.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Flying Sikh</h3>
+
+      <p>Then came the race in Pakistan—the one that earned him the title “Flying Sikh”.</p>
+
+      <p>That race was symbolic. Running in Pakistan, against Abdul Khaliq, in front of a charged crowd, carrying the weight of Partition memories—and still winning. When the President of Pakistan called him the “Flying Sikh,” it wasn’t just about speed. It was respect, reconciliation, and resilience all packed into one moment.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Legacy of Discipline</h3>
+
+      <p>What I admire is how he handled success. Many athletes peak and fade, but Milkha Singh stayed grounded. He devoted his life to training young athletes and speaking about fitness and national pride. He always said, “The day we stop working hard is the day we fall behind.”</p>
+
+      <p>For us as Indians, his story goes beyond sport. It’s about rebuilding life after loss. It’s about using pain as fuel.</p>
+
+      <p>In the end, medals shine for a moment, but discipline shines for a lifetime. Milkha Singh may have run his last race, but his footsteps are still on the track—reminding us that India doesn’t need miracles. We need discipline, dedication, and belief.</p>
+    `
+  },
+  {
     id: "fat-to-fit",
     views: 50,
     publishDate: "2023-10-10",
