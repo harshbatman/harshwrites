@@ -302,6 +302,11 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Closing Reflection</h3>
 
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/indira-gandhi-redfort-1971.jpg" alt="Indira Gandhi reviewing guard of honour at Red Fort" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
+        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">Prime Minister Indira Gandhi reviewing the guard of honour at Red Fort after the decisive 1971 victory.</p>
+      </div>
+
       <p>So the lesson of 1971 isn’t just military success.</p>
 
       <p>It’s strategic maturity.</p>
