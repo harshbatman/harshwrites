@@ -2,15 +2,15 @@ export const articles = [
   {
     id: "fat-to-fit",
     views: 50,
-    publishDate: "2026-01-28",
+    publishDate: "2023-10-10",
     title: "Fat to Fit",
     author: "Harsh Mahto",
     category: "Personal Growth",
     date: "January 2026",
     image: "/fat-to-fit.jpg",
-    excerpt: "For the last three months, I have been waking up at 4 a.m. every day and going to the ground to run. It didn't start as motivation. It started because I was tired of feeling heavy all the time.",
+    excerpt: "For the last seven months, I have been waking up at 4 a.m. every day and going to the ground to run. It didn't start as motivation. It started because I was tired of feeling heavy all the time.",
     content: `
-      <p>For the last three months, I have been waking up at 4 a.m. every day and going to the ground to run. It didn't start as motivation. It started because I was tired of feeling heavy all the time.</p>
+      <p>For the last seven months, I have been waking up at 4 a.m. every day and going to the ground to run. It didn't start as motivation. It started because I was tired of feeling heavy all the time.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The COVID Weight Gain</h3>
 
@@ -38,7 +38,7 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Results</h3>
 
-      <p>After three months, I am now seeing changes. I lost a lot of face fat and fat from all over my body. I feel much lighter now.</p>
+      <p>After seven months, I am now seeing changes. I lost a lot of face fat and fat from all over my body. I feel much lighter now.</p>
 
       <p>When I wear clothes, they feel better. I feel more confident wearing them. Small things, but they matter.</p>
 
