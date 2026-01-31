@@ -2120,14 +2120,12 @@ export const articles = [
              <!-- Chrome Path (Rising) -->
              <path d="M0,190 Q200,150 400,60 T600,40" fill="none" stroke="#15803d" stroke-width="4" />
              <!-- Inline Chrome Logo -->
-             <g transform="translate(500, 20) scale(0.045)">
-                <circle cx="256" cy="256" r="240" fill="#ea4335" />
-                <circle cx="256" cy="256" r="200" fill="white" />
-                <circle cx="256" cy="256" r="180" fill="#34a853" />
-                <circle cx="256" cy="256" r="140" fill="white" />
-                <circle cx="256" cy="256" r="100" fill="#2563eb" />
-                <circle cx="256" cy="256" r="80" fill="white" />
-                <circle cx="256" cy="256" r="70" fill="#15803d" />
+             <g transform="translate(500, 20) scale(0.5)">
+                <circle cx="24" cy="24" r="12" fill="white" />
+                <path d="M24,12H44.7812a23.9939,23.9939,0,0,0-41.5639.0029L13.6079,30l.0093-.0024A11.9852,11.9852,0,0,1,24,12Z" fill="#db4437" />
+                <path d="M13.6086,30.0031,3.218,12.006A23.994,23.994,0,0,0,24.0025,48L34.3931,30.0029l-.0067-.0068a11.9852,11.9852,0,0,1-20.7778.007Z" fill="#0f9d58" />
+                <path d="M34.3913,30.0029,24.0007,48A23.994,23.994,0,0,0,44.78,12.0031H23.9989l-.0025.0093A11.985,11.985,0,0,1,34.3913,30.0029Z" fill="#f4b400" />
+                <circle cx="24" cy="24" r="9.5" fill="#4285f4" />
              </g>
              <text x="525" y="35" fill="#15803d" font-size="12" font-weight="600">Chrome</text>
           </svg>
