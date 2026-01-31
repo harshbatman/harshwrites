@@ -2148,6 +2148,33 @@ export const articles = [
                    </div>
                    <div style="width: 40px; text-align: right; font-weight: 600;">5%</div>
                 </div>
+                <div style="display: flex; align-items: center; font-size: 0.8rem;">
+                   <div style="width: 90px; display: flex; align-items: center; gap: 8px;">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/a/a0/Firefox_logo%2C_2019.svg" alt="Firefox" style="width: 14px; height: 14px;"> Firefox
+                   </div>
+                   <div style="flex: 1; background: #f4f4f5; height: 16px; border-radius: 4px; overflow: hidden;">
+                      <div style="width: 3%; height: 100%; background: #e66000;"></div>
+                   </div>
+                   <div style="width: 40px; text-align: right; font-weight: 600;">3%</div>
+                </div>
+                <div style="display: flex; align-items: center; font-size: 0.8rem;">
+                   <div style="width: 90px; display: flex; align-items: center; gap: 8px;">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Opera_2015_icon.svg" alt="Opera" style="width: 14px; height: 14px;"> Opera
+                   </div>
+                   <div style="flex: 1; background: #f4f4f5; height: 16px; border-radius: 4px; overflow: hidden;">
+                      <div style="width: 3%; height: 100%; background: #ff1b2d;"></div>
+                   </div>
+                   <div style="width: 40px; text-align: right; font-weight: 600;">3%</div>
+                </div>
+                <div style="display: flex; align-items: center; font-size: 0.8rem;">
+                   <div style="width: 90px; display: flex; align-items: center; gap: 8px;">
+                      <span style="width: 14px; height: 14px; display: flex; align-items: center; justify-content: center; font-size: 10px;">🦁</span> Brave+
+                   </div>
+                   <div style="flex: 1; background: #f4f4f5; height: 16px; border-radius: 4px; overflow: hidden;">
+                      <div style="width: 6%; height: 100%; background: #fb542b;"></div>
+                   </div>
+                   <div style="width: 40px; text-align: right; font-weight: 600;">6%</div>
+                </div>
              </div>
           </div>
         <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
