@@ -6437,21 +6437,31 @@ export const articles = [
 
       <p>Exactly. When we see cities in Europe or the United States, there’s a clear symmetry. Wide roads, proper pedestrian walkways, planned housing blocks, parks, cycling lanes—everything has a place. You can tell that planners sat down and imagined how people would actually live there.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">It’s Not Just Looks, It’s Systems</h3>
+
       <p>And it’s not just about looks. It’s basic systems. They have proper sewage networks, underground water drainage, scientific garbage collection, recycling systems, and stormwater planning. When it rains there, roads don’t turn into rivers.</p>
 
       <p>That’s the biggest contrast with us. In India, one heavy rain and half the city is underwater. Waterlogging everywhere, traffic stuck for hours, houses flooded. In many cities, there’s either no drainage system or one that was never upgraded as the population exploded.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Governance vs. Responsibility</h3>
 
       <p>True. And what’s sad is that we do have municipal corporation elections. On paper, we have local governance. But in reality, governance doesn’t match the responsibility. Planning is weak, enforcement is weaker, and long-term thinking is almost missing.</p>
 
       <p>Most of our development has been reactive, not planned. A road gets built after people settle. Sewage lines come after colonies are already occupied—if they come at all. Illegal constructions get regularised instead of being stopped. That’s why people say nearly 90% of India’s urban development is unplanned.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Point of No Return</h3>
+
       <p>And once unplanned growth happens, fixing it becomes almost impossible. You can’t suddenly widen roads when buildings are already touching each other. You can’t lay proper drainage when there’s no space left underground.</p>
 
       <p>Compare that with Europe or the U.S., where zoning laws are strict. Residential, commercial, and industrial areas are clearly separated. Green spaces are protected. Pedestrians are given priority. Our cities, on the other hand, mix everything—homes, shops, factories—all in one congested mess.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Adjusting to Poor Life</h3>
+
       <p>The result? Poor quality of life. More pollution, more stress, more accidents, more disease. We end up spending our lives adjusting to bad infrastructure instead of infrastructure supporting our lives.</p>
 
       <p>At the end of the day, it’s not that we lack money or intelligence. We lack serious urban planning and accountability. Until we start planning cities for the next 50–100 years—and not just the next election—we’ll keep comparing ourselves with the West and asking the same question: Why are we still living in unplanned cities?</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Uncomfortable Answer</h3>
 
       <p>And maybe the real answer is uncomfortable—we chose short-term growth over long-term planning. Now, we’re paying the price.</p>
     `
