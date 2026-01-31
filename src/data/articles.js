@@ -165,7 +165,7 @@ export const articles = [
 
       <p>I’ll be honest—I haven’t been attending classes regularly. My attendance dropped significantly, and because of that, the college authorities contacted my parents. I was aware that this could even lead to being called to the director’s office.</p>
 
-      <p>During this period, I made a conscious decision to focus on just two things: improving my health by losing weight and strengthening my programming skills. At that time, these felt more important to me than anything else. I believed that working on my physical well-being and building practical technical skills would help me regain confidence and prepare better for my future.</p>
+      <p>During this period, I made a conscious decision to focus on just two things. First, improving my health by losing weight. Second, I focused on improving my programming skills, spending time learning and practicing consistently. I felt these two areas mattered the most to me at that point in my life, as they were directly connected to my long-term growth and future goals.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Gym Experiment</h3>
 
