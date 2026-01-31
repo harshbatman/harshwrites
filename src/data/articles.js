@@ -2159,7 +2159,7 @@ export const articles = [
                 </div>
                 <div style="display: flex; align-items: center; font-size: 0.8rem;">
                    <div style="width: 90px; display: flex; align-items: center; gap: 8px;">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/4/49/Opera_2015_logo.svg" alt="Opera" style="width: 14px; height: 14px;"> Opera
+                      <img src="/logos/opera.svg" alt="Opera" style="width: 14px; height: 14px;"> Opera
                    </div>
                    <div style="flex: 1; background: #f4f4f5; height: 16px; border-radius: 4px; overflow: hidden;">
                       <div style="width: 3%; height: 100%; background: #ff1b2d;"></div>
@@ -2168,7 +2168,7 @@ export const articles = [
                 </div>
                 <div style="display: flex; align-items: center; font-size: 0.8rem;">
                    <div style="width: 90px; display: flex; align-items: center; gap: 8px;">
-                      <img src="https://upload.wikimedia.org/wikipedia/commons/9/9d/Brave_lion_icon.svg" alt="Brave" style="width: 14px; height: 14px;"> Brave+
+                      <img src="/logos/brave.svg" alt="Brave" style="width: 14px; height: 14px;"> Brave+
                    </div>
                    <div style="flex: 1; background: #f4f4f5; height: 16px; border-radius: 4px; overflow: hidden;">
                       <div style="width: 6%; height: 100%; background: #fb542b;"></div>
