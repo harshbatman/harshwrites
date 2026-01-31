@@ -2055,12 +2055,12 @@ export const articles = [
              <!-- IE Path (Rising) -->
              <path d="M0,195 Q200,160 300,100 T600,25" fill="none" stroke="#2563eb" stroke-width="4" />
              <!-- Inline IE Logo -->
-             <g transform="translate(500, 35) scale(0.045)">
+             <g transform="translate(520, 20) scale(0.045)">
                 <circle cx="256" cy="256" r="230" fill="#2563eb" />
                 <path d="M420 256 H170 A90 90 0 1 1 350 340 L380 380 A140 140 0 1 0 460 256 Z" fill="white" />
-                <path d="M70 360 Q200 40 480 100" fill="none" stroke="#fbbf24" stroke-width="35" stroke-linecap="round" />
+                <path d="M70 360 Q200 40 480 100" fill="none" stroke="#fbbf24" stroke-width="60" stroke-linecap="round" />
              </g>
-             <text x="525" y="50" fill="#2563eb" font-size="12" font-weight="700">Internet Explorer</text>
+             <text x="545" y="35" fill="#2563eb" font-size="12" font-weight="700">Internet Explorer</text>
           </svg>
           
           <!-- X-Axis Labels -->
