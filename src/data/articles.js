@@ -4867,114 +4867,160 @@ export const articles = [
         </div>
 
         <div style="overflow-x: auto; padding-bottom: 1rem;">
-            <div style="display: flex; align-items: flex-end; gap: 1.5rem; height: 300px; min-width: 600px; padding: 0 1rem;">
+            <div style="display: flex; align-items: flex-end; gap: 1.5rem; height: 300px; min-width: 800px; padding: 0 1rem;">
                 
                 <!-- 2012 -->
                 <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; height: 100%; justify-content: flex-end;">
-                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 260px; width: 100%; justify-content: center;">
-                       <div style="width: 16px; height: 3.8%; background: #2563eb; border-radius: 4px 4px 0 0; position: relative; group: hover;">
-                           <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%); font-size: 0.7rem; color: #2563eb; font-weight: 600; opacity: 0; transition: opacity 0.2s;">$5.1</span>
+                   <div style="display: flex; align-items: flex-end; gap: 6px; height: 260px; width: 100%; justify-content: center;">
+                       <div style="width: 18px; height: 3.8%; min-height: 2px; background: #2563eb; border-radius: 4px 4px 0 0; position: relative;">
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%) rotate(-90deg); transform-origin: bottom center; margin-bottom: 8px; font-size: 0.7rem; color: #2563eb; font-weight: 600; white-space: nowrap;">$5.1B</span>
                        </div>
-                       <div style="width: 16px; height: 0.1%; background: #16a34a; border-radius: 4px 4px 0 0; position: relative;"></div>
+                       <div style="width: 18px; height: 0.1%; min-height: 2px; background: #16a34a; border-radius: 4px 4px 0 0; position: relative;">
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%) rotate(-90deg); transform-origin: bottom center; margin-bottom: 8px; font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$0.1B</span>
+                       </div>
                    </div>
                    <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2012</span>
                 </div>
 
                 <!-- 2013 -->
                 <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; height: 100%; justify-content: flex-end;">
-                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 260px; width: 100%; justify-content: center;">
-                       <div style="width: 16px; height: 5.8%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
-                       <div style="width: 16px; height: 1.1%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
+                   <div style="display: flex; align-items: flex-end; gap: 6px; height: 260px; width: 100%; justify-content: center;">
+                       <div style="width: 18px; height: 5.8%; min-height: 2px; background: #2563eb; border-radius: 4px 4px 0 0; position: relative;">
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%) rotate(-90deg); transform-origin: bottom center; margin-bottom: 8px; font-size: 0.7rem; color: #2563eb; font-weight: 600; white-space: nowrap;">$7.9B</span>
+                       </div>
+                       <div style="width: 18px; height: 1.1%; min-height: 2px; background: #16a34a; border-radius: 4px 4px 0 0; position: relative;">
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%) rotate(-90deg); transform-origin: bottom center; margin-bottom: 8px; font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$1.5B</span>
+                       </div>
                    </div>
                    <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2013</span>
                 </div>
 
                 <!-- 2014 -->
                 <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; height: 100%; justify-content: flex-end;">
-                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 260px; width: 100%; justify-content: center;">
-                       <div style="width: 16px; height: 9.2%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
-                       <div style="width: 16px; height: 2.1%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
+                   <div style="display: flex; align-items: flex-end; gap: 6px; height: 260px; width: 100%; justify-content: center;">
+                       <div style="width: 18px; height: 9.2%; min-height: 2px; background: #2563eb; border-radius: 4px 4px 0 0; position: relative;">
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%) rotate(-90deg); transform-origin: bottom center; margin-bottom: 8px; font-size: 0.7rem; color: #2563eb; font-weight: 600; white-space: nowrap;">$12.5B</span>
+                       </div>
+                       <div style="width: 18px; height: 2.1%; min-height: 2px; background: #16a34a; border-radius: 4px 4px 0 0; position: relative;">
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%) rotate(-90deg); transform-origin: bottom center; margin-bottom: 8px; font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$2.9B</span>
+                       </div>
                    </div>
                    <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2014</span>
                 </div>
 
                 <!-- 2015 -->
                 <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; height: 100%; justify-content: flex-end;">
-                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 260px; width: 100%; justify-content: center;">
-                       <div style="width: 16px; height: 13.2%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
-                       <div style="width: 16px; height: 2.7%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
+                   <div style="display: flex; align-items: flex-end; gap: 6px; height: 260px; width: 100%; justify-content: center;">
+                       <div style="width: 18px; height: 13.2%; min-height: 2px; background: #2563eb; border-radius: 4px 4px 0 0; position: relative;">
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%) rotate(-90deg); transform-origin: bottom center; margin-bottom: 8px; font-size: 0.7rem; color: #2563eb; font-weight: 600; white-space: nowrap;">$17.9B</span>
+                       </div>
+                       <div style="width: 18px; height: 2.7%; min-height: 2px; background: #16a34a; border-radius: 4px 4px 0 0; position: relative;">
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%) rotate(-90deg); transform-origin: bottom center; margin-bottom: 8px; font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$3.7B</span>
+                       </div>
                    </div>
                    <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2015</span>
                 </div>
 
                 <!-- 2016 -->
                 <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; height: 100%; justify-content: flex-end;">
-                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 260px; width: 100%; justify-content: center;">
-                       <div style="width: 16px; height: 20.4%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
-                       <div style="width: 16px; height: 7.5%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
+                   <div style="display: flex; align-items: flex-end; gap: 6px; height: 260px; width: 100%; justify-content: center;">
+                       <div style="width: 18px; height: 20.4%; min-height: 2px; background: #2563eb; border-radius: 4px 4px 0 0; position: relative;">
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%) rotate(-90deg); transform-origin: bottom center; margin-bottom: 8px; font-size: 0.7rem; color: #2563eb; font-weight: 600; white-space: nowrap;">$27.6B</span>
+                       </div>
+                       <div style="width: 18px; height: 7.5%; min-height: 2px; background: #16a34a; border-radius: 4px 4px 0 0; position: relative;">
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%) rotate(-90deg); transform-origin: bottom center; margin-bottom: 8px; font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$10.2B</span>
+                       </div>
                    </div>
                    <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2016</span>
                 </div>
 
                 <!-- 2017 -->
                 <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; height: 100%; justify-content: flex-end;">
-                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 260px; width: 100%; justify-content: center;">
-                       <div style="width: 16px; height: 30.1%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
-                       <div style="width: 16px; height: 11.8%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
+                   <div style="display: flex; align-items: flex-end; gap: 6px; height: 260px; width: 100%; justify-content: center;">
+                       <div style="width: 18px; height: 30.1%; min-height: 2px; background: #2563eb; border-radius: 4px 4px 0 0; position: relative;">
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%) rotate(-90deg); transform-origin: bottom center; margin-bottom: 8px; font-size: 0.7rem; color: #2563eb; font-weight: 600; white-space: nowrap;">$40.7B</span>
+                       </div>
+                       <div style="width: 18px; height: 11.8%; min-height: 2px; background: #16a34a; border-radius: 4px 4px 0 0; position: relative;">
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%) rotate(-90deg); transform-origin: bottom center; margin-bottom: 8px; font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$15.9B</span>
+                       </div>
                    </div>
                    <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2017</span>
                 </div>
 
                 <!-- 2018 -->
                 <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; height: 100%; justify-content: flex-end;">
-                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 260px; width: 100%; justify-content: center;">
-                       <div style="width: 16px; height: 41.3%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
-                       <div style="width: 16px; height: 16.3%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
+                   <div style="display: flex; align-items: flex-end; gap: 6px; height: 260px; width: 100%; justify-content: center;">
+                       <div style="width: 18px; height: 41.3%; min-height: 2px; background: #2563eb; border-radius: 4px 4px 0 0; position: relative;">
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%) rotate(-90deg); transform-origin: bottom center; margin-bottom: 8px; font-size: 0.7rem; color: #2563eb; font-weight: 600; white-space: nowrap;">$55.8B</span>
+                       </div>
+                       <div style="width: 18px; height: 16.3%; min-height: 2px; background: #16a34a; border-radius: 4px 4px 0 0; position: relative;">
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%) rotate(-90deg); transform-origin: bottom center; margin-bottom: 8px; font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$22.1B</span>
+                       </div>
                    </div>
                    <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2018</span>
                 </div>
 
                 <!-- 2019 -->
                 <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; height: 100%; justify-content: flex-end;">
-                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 260px; width: 100%; justify-content: center;">
-                       <div style="width: 16px; height: 52.3%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
-                       <div style="width: 16px; height: 13.6%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
+                   <div style="display: flex; align-items: flex-end; gap: 6px; height: 260px; width: 100%; justify-content: center;">
+                       <div style="width: 18px; height: 52.3%; min-height: 2px; background: #2563eb; border-radius: 4px 4px 0 0; position: relative;">
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%) rotate(-90deg); transform-origin: bottom center; margin-bottom: 8px; font-size: 0.7rem; color: #2563eb; font-weight: 600; white-space: nowrap;">$70.7B</span>
+                       </div>
+                       <div style="width: 18px; height: 13.6%; min-height: 2px; background: #16a34a; border-radius: 4px 4px 0 0; position: relative;">
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%) rotate(-90deg); transform-origin: bottom center; margin-bottom: 8px; font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$18.5B</span>
+                       </div>
                    </div>
                    <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2019</span>
                 </div>
 
                 <!-- 2020 -->
                 <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; height: 100%; justify-content: flex-end;">
-                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 260px; width: 100%; justify-content: center;">
-                       <div style="width: 16px; height: 63.6%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
-                       <div style="width: 16px; height: 21.5%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
+                   <div style="display: flex; align-items: flex-end; gap: 6px; height: 260px; width: 100%; justify-content: center;">
+                       <div style="width: 18px; height: 63.6%; min-height: 2px; background: #2563eb; border-radius: 4px 4px 0 0; position: relative;">
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%) rotate(-90deg); transform-origin: bottom center; margin-bottom: 8px; font-size: 0.7rem; color: #2563eb; font-weight: 600; white-space: nowrap;">$86.0B</span>
+                       </div>
+                       <div style="width: 18px; height: 21.5%; min-height: 2px; background: #16a34a; border-radius: 4px 4px 0 0; position: relative;">
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%) rotate(-90deg); transform-origin: bottom center; margin-bottom: 8px; font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$29.1B</span>
+                       </div>
                    </div>
                    <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2020</span>
                 </div>
 
                 <!-- 2021 -->
                 <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; height: 100%; justify-content: flex-end;">
-                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 260px; width: 100%; justify-content: center;">
-                       <div style="width: 16px; height: 87.3%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
-                       <div style="width: 16px; height: 29.1%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
+                   <div style="display: flex; align-items: flex-end; gap: 6px; height: 260px; width: 100%; justify-content: center;">
+                       <div style="width: 18px; height: 87.3%; min-height: 2px; background: #2563eb; border-radius: 4px 4px 0 0; position: relative;">
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%) rotate(-90deg); transform-origin: bottom center; margin-bottom: 8px; font-size: 0.7rem; color: #2563eb; font-weight: 600; white-space: nowrap;">$117.9B</span>
+                       </div>
+                       <div style="width: 18px; height: 29.1%; min-height: 2px; background: #16a34a; border-radius: 4px 4px 0 0; position: relative;">
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%) rotate(-90deg); transform-origin: bottom center; margin-bottom: 8px; font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$39.4B</span>
+                       </div>
                    </div>
                    <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2021</span>
                 </div>
 
                 <!-- 2022 -->
                 <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; height: 100%; justify-content: flex-end;">
-                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 260px; width: 100%; justify-content: center;">
-                       <div style="width: 16px; height: 86.3%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
-                       <div style="width: 16px; height: 17.1%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
+                   <div style="display: flex; align-items: flex-end; gap: 6px; height: 260px; width: 100%; justify-content: center;">
+                       <div style="width: 18px; height: 86.3%; min-height: 2px; background: #2563eb; border-radius: 4px 4px 0 0; position: relative;">
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%) rotate(-90deg); transform-origin: bottom center; margin-bottom: 8px; font-size: 0.7rem; color: #2563eb; font-weight: 600; white-space: nowrap;">$116.6B</span>
+                       </div>
+                       <div style="width: 18px; height: 17.1%; min-height: 2px; background: #16a34a; border-radius: 4px 4px 0 0; position: relative;">
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%) rotate(-90deg); transform-origin: bottom center; margin-bottom: 8px; font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$23.2B</span>
+                       </div>
                    </div>
                    <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2022</span>
                 </div>
 
                 <!-- 2023 -->
                 <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; height: 100%; justify-content: flex-end;">
-                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 260px; width: 100%; justify-content: center;">
-                       <div style="width: 16px; height: 99.9%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
-                       <div style="width: 16px; height: 28.9%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
+                   <div style="display: flex; align-items: flex-end; gap: 6px; height: 260px; width: 100%; justify-content: center;">
+                       <div style="width: 18px; height: 99.9%; min-height: 2px; background: #2563eb; border-radius: 4px 4px 0 0; position: relative;">
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%) rotate(-90deg); transform-origin: bottom center; margin-bottom: 8px; font-size: 0.7rem; color: #2563eb; font-weight: 600; white-space: nowrap;">$134.9B</span>
+                       </div>
+                       <div style="width: 18px; height: 28.9%; min-height: 2px; background: #16a34a; border-radius: 4px 4px 0 0; position: relative;">
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%) rotate(-90deg); transform-origin: bottom center; margin-bottom: 8px; font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$39.1B</span>
+                       </div>
                    </div>
                    <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2023</span>
                 </div>
