@@ -64,7 +64,7 @@ export const articles = [
     author: "Harsh Mahto",
     category: "Finance & Society",
     date: "February 2026",
-    image: "/home-loan-crisis.jpg",
+    image: "/home-loan-crisis.png",
     excerpt: "Have you noticed, the moment we start talking about buying a house, the conversation doesn’t feel hopeful anymore? It feels heavy. Like we already know what’s coming.",
     content: `
       <p>Have you noticed, the moment we start talking about buying a house, the conversation doesn’t feel hopeful anymore? It feels heavy. Like we already know what’s coming.</p>
