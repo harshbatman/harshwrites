@@ -1,5 +1,55 @@
 export const articles = [
   {
+    id: "rent-vs-buy",
+    views: 10,
+    publishDate: "2026-02-05",
+    title: "Rent vs Buy: The Wrong Debate",
+    author: "Harsh Mahto",
+    category: "Finance & Society",
+    date: "February 2026",
+    image: "/rent-vs-buy.jpg",
+    excerpt: "Everywhere we look, there’s this big debate going on—rent versus buy. People keep arguing like it’s some math problem. But I think the debate itself is wrong.",
+    content: `
+      <p>Everywhere we look, there’s this big debate going on—rent versus buy. People keep arguing like it’s some math problem.</p>
+
+      <p>Yeah, but the real issue isn’t rent or buy. The real issue is the price of houses. In a metro city, a normal house—not luxury—costs us around ₹1.5 crore to ₹2 crore.</p>
+
+      <p>Exactly. And to buy that, we take a home loan for 20 to 30 years. Let’s be honest—once we sign that loan, it feels like slavery for the rest of our working life.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The EMI Trap</h3>
+
+      <p>Monthly EMI, job pressure, fear of layoffs, no freedom to take risks. Our entire life starts revolving around one EMI. That’s why people are confused.</p>
+
+      <p>But I think the debate itself is wrong. It shouldn’t be rent versus buy. It should be rent <em>before</em> you buy.</p>
+
+      <p>True. Comparing rent and buy like enemies is dumb. A house is not a stock or a mutual fund. A house is a house.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Where Life Happens</h3>
+
+      <p>Exactly. A house is where life happens.<br/>
+      Bachchon ka bachpan bita hota hai wahan.<br/>
+      Kai yaadein judi hoti hain.<br/>
+      Rishte-naate bante hain ghar ke andar.</p>
+
+      <p>No one buys a house thinking, “I’ll sell it after five years.” A normal person buys a house so we and our family can live peacefully.</p>
+
+      <p>That’s why saying “rent is better financially” misses the emotional side. Yes, from an investment point of view, we should diversify our portfolio—some stocks, some gold, maybe some real estate.</p>
+
+      <p>Putting all our eggs in one bucket never makes sense. Locking ₹2 crore into one asset and calling it an “investment” is risky.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Stability and Balance</h3>
+
+      <p>But still, a house where we live is different. It’s not about returns. It’s about stability, dignity, and peace of mind.</p>
+
+      <p>So maybe the real answer is balance.<br/>
+      We rent when prices are crazy.<br/>
+      We buy when we are ready—financially and mentally.</p>
+
+      <p>Exactly. Not rent versus buy.<br/>
+      It’s rent first, understand life, then buy a home when it truly makes sense for us.</p>
+    `
+  },
+  {
     id: "the-flying-sikh",
     views: 10,
     publishDate: "2023-08-07",
