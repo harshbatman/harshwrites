@@ -10,43 +10,65 @@ export const articles = [
     image: "/rent-vs-buy.jpg",
     excerpt: "Everywhere we look, there’s this big debate going on—rent versus buy. People keep arguing like it’s some math problem. But I think the debate itself is wrong.",
     content: `
-      <p>Everywhere we look, there’s this big debate going on—rent versus buy. People keep arguing like it’s some math problem.</p>
+      <p>Everywhere we go—YouTube, Twitter, family dinners, office lunch breaks—there’s only one debate people seem obsessed with these days: rent versus buy.</p>
 
-      <p>Yeah, but the real issue isn’t rent or buy. The real issue is the price of houses. In a metro city, a normal house—not luxury—costs us around ₹1.5 crore to ₹2 crore.</p>
+      <p>It’s treated like a binary choice, as if we must pick one side and fight the other. But honestly, this debate itself feels incomplete.</p>
 
-      <p>Exactly. And to buy that, we take a home loan for 20 to 30 years. Let’s be honest—once we sign that loan, it feels like slavery for the rest of our working life.</p>
+      <p>Because the real problem isn’t rent or buy. The real problem is pricing. In a metro city today, a normal house—not luxury, not sea-facing, not premium—costs us around ₹1.5 crore to ₹2 crore.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The EMI Trap</h3>
+      <p>And the moment we talk about those numbers, we’re actually talking about home loans. Loans that run for 20 to 30 years. That’s not a small commitment—that’s almost an entire working life.</p>
 
-      <p>Monthly EMI, job pressure, fear of layoffs, no freedom to take risks. Our entire life starts revolving around one EMI. That’s why people are confused.</p>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Price of Commitment</h3>
 
-      <p>But I think the debate itself is wrong. It shouldn’t be rent versus buy. It should be rent <em>before</em> you buy.</p>
+      <p>Let’s be honest with ourselves. Once we take a home loan of that size, our life starts revolving around one thing: EMI. Job satisfaction takes a back seat. Risk-taking becomes impossible. Even switching careers feels dangerous.</p>
 
-      <p>True. Comparing rent and buy like enemies is dumb. A house is not a stock or a mutual fund. A house is a house.</p>
+      <p>In a way, it feels like modern slavery—not because owning a house is bad, but because the timing and pressure are wrong. We are locked in, whether we like it or not.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Where Life Happens</h3>
+      <p>That’s why I feel the debate should not be rent versus buy. It should be rent <em>before</em> you buy.</p>
 
-      <p>Exactly. A house is where life happens.<br/>
-      Bachchon ka bachpan bita hota hai wahan.<br/>
+      <p>Renting is not failure. Renting is not throwing money away. Renting is flexibility. It gives us time—to understand the city, the locality, our job stability, and even our own priorities.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Beyond the Spreadsheet</h3>
+
+      <p>People often compare rent and EMI like a spreadsheet problem. “Rent is ₹30,000, EMI is ₹45,000, so EMI is better.” But life doesn’t run on Excel sheets.</p>
+
+      <p>A house is not just an asset. A house is a house.</p>
+
+      <p>That’s where emotions come in.<br/>
+      Bachchon ka bachpan bita hota hai ghar mein.<br/>
       Kai yaadein judi hoti hain.<br/>
-      Rishte-naate bante hain ghar ke andar.</p>
+      Rishte-naate bante hain.</p>
 
-      <p>No one buys a house thinking, “I’ll sell it after five years.” A normal person buys a house so we and our family can live peacefully.</p>
+      <p>No one buys a house thinking, “I’ll flip it after three years.” A normal person buys a house so we and our family can live peacefully—without fear of eviction, without moving every year.</p>
 
-      <p>That’s why saying “rent is better financially” misses the emotional side. Yes, from an investment point of view, we should diversify our portfolio—some stocks, some gold, maybe some real estate.</p>
+      <p>So yes, emotionally, owning a house matters. But financially, putting all our money into one asset doesn’t make sense either.</p>
 
-      <p>Putting all our eggs in one bucket never makes sense. Locking ₹2 crore into one asset and calling it an “investment” is risky.</p>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Diversification & Balance</h3>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Stability and Balance</h3>
+      <p>That’s why diversification matters. Some stocks. Some gold. Some real estate. Putting all our eggs in one bucket—especially a ₹2 crore bucket—is risky.</p>
 
-      <p>But still, a house where we live is different. It’s not about returns. It’s about stability, dignity, and peace of mind.</p>
+      <p>And people forget something important: a house where we live is not an investment in the traditional sense. It doesn’t generate cash flow. It doesn’t give liquidity.</p>
 
-      <p>So maybe the real answer is balance.<br/>
-      We rent when prices are crazy.<br/>
-      We buy when we are ready—financially and mentally.</p>
+      <p>It gives something else—stability. And stability has value, but it shouldn’t come at the cost of mental peace and financial suffocation.</p>
 
-      <p>Exactly. Not rent versus buy.<br/>
-      It’s rent first, understand life, then buy a home when it truly makes sense for us.</p>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Timing is Everything</h3>
+
+      <p>So renting first gives us breathing space. We learn how the city works. We learn if we even want to settle there. We learn if our income is stable enough for a 30-year promise.</p>
+
+      <p>Buying later—when we are emotionally ready, financially strong, and mentally calm—makes much more sense.</p>
+
+      <p>That’s the missing nuance in the debate. It’s not anti-buying. It’s not pro-renting. It’s about timing and balance.</p>
+
+      <p>Rent when prices are irrational.<br/>
+      Buy when life is stable.</p>
+
+      <p>Not because society expects it. Not because relatives ask. But because it genuinely works for us.</p>
+
+      <p>So let’s stop shouting rent versus buy. Let’s start saying something more practical, more human:</p>
+
+      <p>Both are tools.<br/>
+      Rent first.<br/>
+      Then buy a home—when it truly feels like home.</p>
     `
   },
   {
