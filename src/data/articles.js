@@ -6508,4 +6508,51 @@ export const articles = [
       <p>And maybe the real answer is uncomfortable—we chose short-term growth over long-term planning. Now, we’re paying the price.</p>
     `
   },
+  {
+    id: "pollution-survival",
+    views: 120,
+    publishDate: "2026-01-31",
+    title: "This Is Not Luxury. This Is Survival.",
+    author: "Harsh Mahto",
+    category: "Environment & Lifestyle",
+    date: "31 Jan 2026",
+    image: "/pollution-survival.jpg",
+    excerpt: "Have you noticed something strange about our daily life? In any metro city where we live, we must have four things at home now—air purifier, water purifier, air conditioner, and refrigerator.",
+    content: `
+      <p>Have you noticed something strange about our daily life? In any metro city where we live, we must have four things at home now.</p>
+
+      <p>Let me guess—air purifier, water purifier, air conditioner, and refrigerator?</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Four Essentials</h3>
+
+      <p>Exactly. And that itself tells our whole pollution story.<br/>
+      We need an air purifier because our air is so bad we can’t even breathe properly. We need a water purifier because the water coming to our homes isn’t safe to drink. We need an air conditioner because summers are getting unbearable, and heat waves are everywhere. And we need a refrigerator just to get cool water and keep food from spoiling in this heat.</p>
+
+      <p>It’s ironic, isn’t it? These gadgets are no longer luxury items. For us, they’ve become survival tools.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Vicious Cycle</h3>
+
+      <p>And all of them run on electricity. More pollution outside → more machines inside → more electricity use → more heat → more climate change. It’s like we’re stuck in a loop we created ourselves.</p>
+
+      <p>Air pollution chokes our lungs, water pollution attacks our health, and climate change turns our cities into ovens. Population keeps increasing, concrete keeps spreading, trees keep disappearing—and then we wonder why heat waves feel worse every year.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Asking "Why?"</h3>
+
+      <p>We say, “It’s too hot,” so we switch on the AC.<br/>
+      We say, “Water tastes bad,” so we buy a purifier.<br/>
+      We say, “Air feels toxic,” so we buy an air purifier.<br/>
+      But we rarely stop to ask why things reached this point.</p>
+
+      <p>And the fridge—think about it. Earlier it was for comfort. Now it’s essential because the heat outside is so extreme that even normal water feels unusable.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Quiet Invasion</h3>
+
+      <p>This is how pollution and climate change quietly enter our homes—not as news headlines, but as electricity bills and machines humming all day.</p>
+
+      <p>Sustainable development sounds like a big word, but for us it simply means breaking this cycle—so that one day, we don’t need machines just to breathe clean air, drink safe water, or survive summer.</p>
+
+      <p>Until then, our homes will stay full of gadgets, and our cities will stay full of smoke, heat, and noise.<br/>
+      And deep down, we all know—this isn’t normal.</p>
+    `
+  },
 ];
