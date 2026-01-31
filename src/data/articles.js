@@ -2122,21 +2122,27 @@ export const articles = [
           <div style="flex: 1; min-width: 280px; max-width: 600px; margin: 0 auto;">
              <div style="display: flex; flex-direction: column; gap: 8px;">
                 <div style="display: flex; align-items: center; font-size: 0.8rem;">
-                   <div style="width: 70px;">Chrome</div>
+                   <div style="width: 90px; display: flex; align-items: center; gap: 8px;">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/c/c1/Google_%22G%22_logo.svg" alt="Google" style="width: 14px; height: 14px;"> Chrome
+                   </div>
                    <div style="flex: 1; background: #f4f4f5; height: 16px; border-radius: 4px; overflow: hidden;">
                       <div style="width: 65%; height: 100%; background: #15803d;"></div>
                    </div>
                    <div style="width: 40px; text-align: right; font-weight: 600;">65%</div>
                 </div>
                 <div style="display: flex; align-items: center; font-size: 0.8rem;">
-                   <div style="width: 70px;">Safari</div>
+                   <div style="width: 90px; display: flex; align-items: center; gap: 8px;">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/f/fa/Apple_logo_black.svg" alt="Apple" style="width: 14px; height: 14px;"> Safari
+                   </div>
                    <div style="flex: 1; background: #f4f4f5; height: 16px; border-radius: 4px; overflow: hidden;">
                       <div style="width: 18%; height: 100%; background: #2563eb;"></div>
                    </div>
                    <div style="width: 40px; text-align: right; font-weight: 600;">18%</div>
                 </div>
                 <div style="display: flex; align-items: center; font-size: 0.8rem;">
-                   <div style="width: 70px;">Edge</div>
+                   <div style="width: 90px; display: flex; align-items: center; gap: 8px;">
+                      <img src="https://upload.wikimedia.org/wikipedia/commons/4/44/Microsoft_logo.svg" alt="Microsoft" style="width: 14px; height: 14px;"> Edge
+                   </div>
                    <div style="flex: 1; background: #f4f4f5; height: 16px; border-radius: 4px; overflow: hidden;">
                       <div style="width: 5%; height: 100%; background: #ea4335;"></div>
                    </div>
