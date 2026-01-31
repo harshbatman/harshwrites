@@ -73,7 +73,7 @@ export const articles = [
 
       <p>I joined the hostel for my BTech after COVID. But I didn't gain weight here. I got fat during the COVID lockdown. There was nothing to do—no college, no movement, no routine. Just eating, sitting, using the phone, and sleeping. Slowly, the weight came on.</p>
 
-      <p>When COVID ended and college started, I joined the hostel with that same body. New place, new life, but the damage was already done.</p>
+      <p>I joined the hostel with that same body. New place, new life, but the damage was already done.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Choosing My Priorities</h3>
 
