@@ -4870,8 +4870,8 @@ export const articles = [
             <div style="display: flex; align-items: flex-end; gap: 1.5rem; height: 300px; min-width: 600px; padding: 0 1rem;">
                 
                 <!-- 2012 -->
-                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1;">
-                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 100%; width: 100%; justify-content: center;">
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; height: 100%; justify-content: flex-end;">
+                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 260px; width: 100%; justify-content: center;">
                        <div style="width: 16px; height: 3.8%; background: #2563eb; border-radius: 4px 4px 0 0; position: relative; group: hover;">
                            <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%); font-size: 0.7rem; color: #2563eb; font-weight: 600; opacity: 0; transition: opacity 0.2s;">$5.1</span>
                        </div>
@@ -4881,8 +4881,8 @@ export const articles = [
                 </div>
 
                 <!-- 2013 -->
-                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1;">
-                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 100%; width: 100%; justify-content: center;">
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; height: 100%; justify-content: flex-end;">
+                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 260px; width: 100%; justify-content: center;">
                        <div style="width: 16px; height: 5.8%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
                        <div style="width: 16px; height: 1.1%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
                    </div>
@@ -4890,8 +4890,8 @@ export const articles = [
                 </div>
 
                 <!-- 2014 -->
-                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1;">
-                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 100%; width: 100%; justify-content: center;">
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; height: 100%; justify-content: flex-end;">
+                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 260px; width: 100%; justify-content: center;">
                        <div style="width: 16px; height: 9.2%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
                        <div style="width: 16px; height: 2.1%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
                    </div>
@@ -4899,8 +4899,8 @@ export const articles = [
                 </div>
 
                 <!-- 2015 -->
-                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1;">
-                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 100%; width: 100%; justify-content: center;">
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; height: 100%; justify-content: flex-end;">
+                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 260px; width: 100%; justify-content: center;">
                        <div style="width: 16px; height: 13.2%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
                        <div style="width: 16px; height: 2.7%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
                    </div>
@@ -4908,8 +4908,8 @@ export const articles = [
                 </div>
 
                 <!-- 2016 -->
-                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1;">
-                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 100%; width: 100%; justify-content: center;">
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; height: 100%; justify-content: flex-end;">
+                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 260px; width: 100%; justify-content: center;">
                        <div style="width: 16px; height: 20.4%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
                        <div style="width: 16px; height: 7.5%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
                    </div>
@@ -4917,8 +4917,8 @@ export const articles = [
                 </div>
 
                 <!-- 2017 -->
-                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1;">
-                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 100%; width: 100%; justify-content: center;">
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; height: 100%; justify-content: flex-end;">
+                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 260px; width: 100%; justify-content: center;">
                        <div style="width: 16px; height: 30.1%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
                        <div style="width: 16px; height: 11.8%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
                    </div>
@@ -4926,8 +4926,8 @@ export const articles = [
                 </div>
 
                 <!-- 2018 -->
-                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1;">
-                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 100%; width: 100%; justify-content: center;">
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; height: 100%; justify-content: flex-end;">
+                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 260px; width: 100%; justify-content: center;">
                        <div style="width: 16px; height: 41.3%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
                        <div style="width: 16px; height: 16.3%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
                    </div>
@@ -4935,8 +4935,8 @@ export const articles = [
                 </div>
 
                 <!-- 2019 -->
-                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1;">
-                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 100%; width: 100%; justify-content: center;">
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; height: 100%; justify-content: flex-end;">
+                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 260px; width: 100%; justify-content: center;">
                        <div style="width: 16px; height: 52.3%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
                        <div style="width: 16px; height: 13.6%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
                    </div>
@@ -4944,8 +4944,8 @@ export const articles = [
                 </div>
 
                 <!-- 2020 -->
-                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1;">
-                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 100%; width: 100%; justify-content: center;">
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; height: 100%; justify-content: flex-end;">
+                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 260px; width: 100%; justify-content: center;">
                        <div style="width: 16px; height: 63.6%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
                        <div style="width: 16px; height: 21.5%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
                    </div>
@@ -4953,8 +4953,8 @@ export const articles = [
                 </div>
 
                 <!-- 2021 -->
-                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1;">
-                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 100%; width: 100%; justify-content: center;">
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; height: 100%; justify-content: flex-end;">
+                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 260px; width: 100%; justify-content: center;">
                        <div style="width: 16px; height: 87.3%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
                        <div style="width: 16px; height: 29.1%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
                    </div>
@@ -4962,8 +4962,8 @@ export const articles = [
                 </div>
 
                 <!-- 2022 -->
-                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1;">
-                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 100%; width: 100%; justify-content: center;">
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; height: 100%; justify-content: flex-end;">
+                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 260px; width: 100%; justify-content: center;">
                        <div style="width: 16px; height: 86.3%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
                        <div style="width: 16px; height: 17.1%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
                    </div>
@@ -4971,8 +4971,8 @@ export const articles = [
                 </div>
 
                 <!-- 2023 -->
-                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1;">
-                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 100%; width: 100%; justify-content: center;">
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1; height: 100%; justify-content: flex-end;">
+                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 260px; width: 100%; justify-content: center;">
                        <div style="width: 16px; height: 99.9%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
                        <div style="width: 16px; height: 28.9%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
                    </div>
