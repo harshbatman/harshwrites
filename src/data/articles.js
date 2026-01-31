@@ -2,11 +2,11 @@ export const articles = [
   {
     id: "the-flying-sikh",
     views: 10,
-    publishDate: "2026-02-01",
+    publishDate: "2023-08-07",
     title: "The Flying Sikh: A Lesson in Discipline",
     author: "Harsh Mahto",
     category: "Icons & History",
-    date: "February 2026",
+    date: "7 August 2023",
     image: "/milkha-singh-running.png",
     excerpt: "For us, Milkha Singh isn’t just an athlete; he is a lesson. A lesson in pain, perseverance, and purpose. When we say our sporting history, his story is one of its strongest pillars.",
     content: `
