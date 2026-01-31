@@ -60,7 +60,7 @@ export const articles = [
     id: "home-loan-crisis",
     views: 10,
     publishDate: "2026-02-02",
-    title: "Home Loan or Life Loan? The Silent EMI Crisis in India",
+    title: "Home Loan or Life Loan?",
     author: "Harsh Mahto",
     category: "Finance & Society",
     date: "February 2026",
