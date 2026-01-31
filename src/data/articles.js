@@ -2097,8 +2097,8 @@ export const articles = [
              <text x="10" y="30" fill="#9ca3af" font-size="12" font-weight="600">Internet Explorer</text>
 
              <!-- Chrome Path (Rising) -->
-             <path d="M0,190 Q200,150 400,60 T600,40" fill="none" stroke="#ea4335" stroke-width="4" />
-             <text x="500" y="30" fill="#ea4335" font-size="12" font-weight="600">Chrome</text>
+             <path d="M0,190 Q200,150 400,60 T600,40" fill="none" stroke="#15803d" stroke-width="4" />
+             <text x="500" y="30" fill="#15803d" font-size="12" font-weight="600">Chrome</text>
           </svg>
           
           <!-- X-Axis Labels -->
