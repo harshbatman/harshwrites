@@ -2044,11 +2044,13 @@ export const articles = [
           <svg style="position: absolute; top:0; left:0; width:100%; height:100%; overflow:visible;">
              <!-- Netscape Path (Falling) -->
              <path d="M0,25 Q250,150 600,198" fill="none" stroke="#00bfa5" stroke-width="4" />
-             <text x="10" y="15" fill="#00bfa5" font-size="12" font-weight="700">Netscape</text>
+             <image href="/logos/netscape.svg" x="10" y="0" height="20" width="20" />
+             <text x="35" y="15" fill="#00bfa5" font-size="12" font-weight="700">Netscape</text>
 
              <!-- IE Path (Rising) -->
              <path d="M0,195 Q200,160 300,100 T600,25" fill="none" stroke="#2563eb" stroke-width="4" />
-             <text x="500" y="50" fill="#2563eb" font-size="12" font-weight="700">Internet Explorer</text>
+             <image href="/logos/ie.svg" x="500" y="35" height="20" width="20" />
+             <text x="525" y="50" fill="#2563eb" font-size="12" font-weight="700">Internet Explorer</text>
           </svg>
           
           <!-- X-Axis Labels -->
