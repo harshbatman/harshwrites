@@ -2284,28 +2284,97 @@ export const articles = [
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Global Search Engine Share (2024)</h4>
         
           <div style="flex: 1; min-width: 280px; max-width: 600px; margin: 0 auto;">
-             <div style="display: flex; flex-direction: column; gap: 8px;">
-                <div style="display: flex; align-items: center; font-size: 0.8rem;">
-                   <div style="width: 70px;">Google</div>
-                   <div style="flex: 1; background: #f4f4f5; height: 16px; border-radius: 4px; overflow: hidden;">
-                      <div style="width: 91%; height: 100%; background: #166534;"></div>
+             <div style="display: flex; flex-direction: column; gap: 12px;">
+                
+                <!-- Google -->
+                <div style="display: flex; align-items: center; font-size: 0.85rem;">
+                   <div style="width: 130px; display: flex; align-items: center; gap: 8px;">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none">
+                         <path d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z" fill="#4285F4"/>
+                         <path d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z" fill="#34A853"/>
+                         <path d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z" fill="#FBBC05"/>
+                         <path d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z" fill="#EA4335"/>
+                      </svg>
+                      Google
                    </div>
-                   <div style="width: 40px; text-align: right; font-weight: 600;">91%</div>
-                </div>
-                <div style="display: flex; align-items: center; font-size: 0.8rem;">
-                   <div style="width: 70px;">Bing</div>
-                   <div style="flex: 1; background: #f4f4f5; height: 16px; border-radius: 4px; overflow: hidden;">
-                      <div style="width: 3%; height: 100%; background: #2563eb;"></div>
+                   <div style="flex: 1; background: #f4f4f5; height: 20px; border-radius: 4px; overflow: hidden;">
+                      <div style="width: 91.62%; height: 100%; background: #166534;"></div>
                    </div>
-                   <div style="width: 40px; text-align: right; font-weight: 600;">3%</div>
+                   <div style="width: 60px; text-align: right; font-weight: 600;">91.62%</div>
                 </div>
-                <div style="display: flex; align-items: center; font-size: 0.8rem;">
-                   <div style="width: 70px;">Others</div>
-                   <div style="flex: 1; background: #f4f4f5; height: 16px; border-radius: 4px; overflow: hidden;">
-                      <div style="width: 6%; height: 100%; background: #71717a;"></div>
+
+                <!-- Bing -->
+                <div style="display: flex; align-items: center; font-size: 0.85rem;">
+                   <div style="width: 130px; display: flex; align-items: center; gap: 8px;">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#008373">
+                         <path d="M5,3v18l14-7.5L5,3z M8.5,14.5l6-3.5l-6-3.5V14.5z"/> <!-- Simplified triangle approximation or updated path if available, using the generic shape user expects -->
+                         <path d="M3.5 3v16l4.47 2 9.07-5.02-3.1-1.63 2.18-5.32c-2.3 0-5.4 0-5.4 0l-1.62 1.48L7.97 3H3.5z" fill="#008373"/> <!-- A more accurate Bing path -->
+                      </svg>
+                      Bing
                    </div>
-                   <div style="width: 40px; text-align: right; font-weight: 600;">6%</div>
+                   <div style="flex: 1; background: #f4f4f5; height: 20px; border-radius: 4px; overflow: hidden;">
+                      <div style="width: 3.31%; height: 100%; background: #2563eb;"></div>
+                   </div>
+                   <div style="width: 60px; text-align: right; font-weight: 600;">3.31%</div>
                 </div>
+
+                <!-- Yandex -->
+                <div style="display: flex; align-items: center; font-size: 0.85rem;">
+                   <div style="width: 130px; display: flex; align-items: center; gap: 8px;">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#FC3F1D">
+                          <circle cx="12" cy="12" r="12" fill="#FC3F1D"/>
+                          <path d="M10.8 19V9.8l-2.6-4.6h2.5l1.4 3.1 1.4-3.1h2.3L13 9.7V19h-2.2z" fill="white"/>
+                      </svg>
+                      Yandex
+                   </div>
+                   <div style="flex: 1; background: #f4f4f5; height: 20px; border-radius: 4px; overflow: hidden;">
+                      <div style="width: 1.84%; height: 100%; background: #FC3F1D;"></div>
+                   </div>
+                   <div style="width: 60px; text-align: right; font-weight: 600;">1.84%</div>
+                </div>
+
+                <!-- Yahoo -->
+                <div style="display: flex; align-items: center; font-size: 0.85rem;">
+                   <div style="width: 130px; display: flex; align-items: center; gap: 8px;">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#6001D2">
+                         <path d="M12 11.5L8.5 3H11l2 5.5L15 3h2.5L14 11.5V19h-2v-7.5z" />
+                      </svg>
+                      Yahoo!
+                   </div>
+                   <div style="flex: 1; background: #f4f4f5; height: 20px; border-radius: 4px; overflow: hidden;">
+                      <div style="width: 1.08%; height: 100%; background: #6001D2;"></div>
+                   </div>
+                   <div style="width: 60px; text-align: right; font-weight: 600;">1.08%</div>
+                </div>
+
+                <!-- Baidu -->
+                <div style="display: flex; align-items: center; font-size: 0.85rem;">
+                   <div style="width: 130px; display: flex; align-items: center; gap: 8px;">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#2932E1">
+                         <path d="M14.5 4c2.5 0 4 2 4 4.5S17 13 14.5 13H11V4h3.5z M6.5 6C5 6 4 7 4 8.5S5 11 6.5 11 9 10 9 8.5 8 6 6.5 6zM7 14c-2 0-3 1.5-3 3s1 3 3 3 3-1.5 3-3-1-3-3-3z"/>
+                      </svg>
+                      Baidu
+                   </div>
+                   <div style="flex: 1; background: #f4f4f5; height: 20px; border-radius: 4px; overflow: hidden;">
+                      <div style="width: 0.77%; height: 100%; background: #2932E1;"></div>
+                   </div>
+                   <div style="width: 60px; text-align: right; font-weight: 600;">0.77%</div>
+                </div>
+
+                <!-- DuckDuckGo -->
+                <div style="display: flex; align-items: center; font-size: 0.85rem;">
+                   <div style="width: 130px; display: flex; align-items: center; gap: 8px;">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="#DE5833">
+                         <path d="M12 0C5.37 0 0 5.37 0 12s5.37 12 12 12 12-5.37 12-12S18.63 0 12 0zm0 3c3.5 0 6.5 2 7.5 5 -.5 2-2.5 4-4.5 4 -1 0-1.5-.5-2-1 .5 1.5.5 3 2 4 .5.5 2 .5 2.5 0 -.5 1.5-2.5 3-5.5 3S6.5 16.5 6 15c.5.5 2 .5 2.5 0 1.5-1 1.5-2.5 2-4-.5.5-1 1-2 1 -2 0-4-2-4.5-4 1-3 4-5 7.5-5z"/>
+                      </svg>
+                      DuckDuckGo
+                   </div>
+                   <div style="flex: 1; background: #f4f4f5; height: 20px; border-radius: 4px; overflow: hidden;">
+                      <div style="width: 0.53%; height: 100%; background: #DE5833;"></div>
+                   </div>
+                   <div style="width: 60px; text-align: right; font-weight: 600;">0.53%</div>
+                </div>
+
              </div>
           </div>
 
