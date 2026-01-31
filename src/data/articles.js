@@ -173,7 +173,7 @@ export const articles = [
 
       <p>Then I realized I wasn't there to build a big body. I didn't want to look like a bouncer standing outside a nightclub. I just wanted to lose weight and feel good about how I look.</p>
 
-      <p>So I quit the gym even though my membership wasn’t over. It was for three months. I went for exactly 24 days—I remember the number clearly because I asked him to deduct one month’s fee and return the remaining amount, but they refused. He said I could complete the membership, but he wouldn’t give any money back. Greedy! Piece of shit.</p>
+      <p>So I quit the gym even though my membership wasn’t over. It was for three months. I went for exactly 24 days—I remember the number clearly because I asked him to deduct one month’s fee and return the remaining amount, but he refused. He said I could complete the membership, but he wouldn’t give any money back. Greedy! Piece of shit.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Finding My Routine</h3>
 
