@@ -2112,8 +2112,8 @@ export const articles = [
              <path d="M0,40 Q250,160 600,198" fill="none" stroke="#9ca3af" stroke-width="3" stroke-dasharray="5,5" />
              <!-- Inline IE Logo (Falling) -->
              <g transform="translate(10, 20) scale(0.045)">
-                <text x="256" y="380" font-family="Arial, sans-serif" font-weight="900" font-style="italic" font-size="500" text-anchor="middle" fill="#9ca3af">e</text>
-                <path d="M60 400 Q150 50 500 120" fill="none" stroke="#d1d5db" stroke-width="40" stroke-linecap="round" />
+                <text x="256" y="380" font-family="Arial, sans-serif" font-weight="900" font-style="italic" font-size="500" text-anchor="middle" fill="#2563eb">e</text>
+                <path d="M60 400 Q150 50 500 120" fill="none" stroke="#fbbf24" stroke-width="40" stroke-linecap="round" />
              </g>
              <text x="35" y="40" fill="#9ca3af" font-size="12" font-weight="600">Internet Explorer</text>
 
@@ -2121,12 +2121,13 @@ export const articles = [
              <path d="M0,190 Q200,150 400,60 T600,40" fill="none" stroke="#15803d" stroke-width="4" />
              <!-- Inline Chrome Logo -->
              <g transform="translate(500, 20) scale(0.045)">
-                <circle cx="256" cy="256" r="230" fill="none" stroke="#15803d" stroke-width="150" />
-                <circle cx="256" cy="256" r="100" fill="#2563eb" stroke="white" stroke-width="25" />
-                <!-- Segments -->
-                <path d="M256 126 L486 126" stroke="white" stroke-width="25" />
-                <path d="M256 126 L141 326" stroke="white" stroke-width="25" />
-                <path d="M256 126 L371 326" stroke="white" stroke-width="25" transform="rotate(120 256 256)" />
+                <circle cx="256" cy="256" r="240" fill="#ea4335" />
+                <circle cx="256" cy="256" r="200" fill="white" />
+                <circle cx="256" cy="256" r="180" fill="#34a853" />
+                <circle cx="256" cy="256" r="140" fill="white" />
+                <circle cx="256" cy="256" r="100" fill="#2563eb" />
+                <circle cx="256" cy="256" r="80" fill="white" />
+                <circle cx="256" cy="256" r="70" fill="#15803d" />
              </g>
              <text x="525" y="35" fill="#15803d" font-size="12" font-weight="600">Chrome</text>
           </svg>
