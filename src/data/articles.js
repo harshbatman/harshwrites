@@ -1955,7 +1955,7 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Personal Computer Revolution</h3>
 
-      <p>Moore's Law moved chips from labs to homes.</p>
+      <p style="color: #111827; font-weight: 700;">Moore's Law moved chips from labs to homes.</p>
 
       <p>This was the birth of the <strong>Personal Computer</strong>.</p>
 
