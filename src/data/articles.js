@@ -4851,8 +4851,136 @@ export const articles = [
 
       <p>That’s how it made billions — not by charging us, but by knowing us better than we know ourselves.</p>
 
-      <div style="margin: 3rem 0; text-align: center;">
-        <img src="/facebook-revenue-horizontal.png" alt="Meta (Facebook) Financials" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
+      <div class="meta-financial-chart" style="margin: 3rem 0; padding: 2rem; background: #f9fafb; border-radius: 16px; border: 1px solid #e5e7eb; overflow: hidden;">
+        <div style="display: flex; align-items: center; justify-content: space-between; margin-bottom: 2rem;">
+            <div style="display: flex; align-items: center; gap: 12px;">
+                <img src="https://www.google.com/s2/favicons?domain=meta.com&sz=128" alt="Meta" style="width: 32px; height: 32px; border-radius: 6px;">
+                <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; color: #111827; margin: 0;">
+                  Meta Evaluation
+                  <span style="display: block; font-size: 0.875rem; color: #6b7280; font-family: var(--font-sans); font-weight: 400; margin-top: 4px;">Revenue vs. Net Income (2012–2023)</span>
+                </h4>
+            </div>
+            <div style="display: flex; gap: 1rem; font-size: 0.75rem; font-weight: 600;">
+                <div style="display: flex; align-items: center; gap: 6px;"><div style="width: 10px; height: 10px; background: #2563eb; border-radius: 2px;"></div> Revenue</div>
+                <div style="display: flex; align-items: center; gap: 6px;"><div style="width: 10px; height: 10px; background: #16a34a; border-radius: 2px;"></div> Net Income</div>
+            </div>
+        </div>
+
+        <div style="overflow-x: auto; padding-bottom: 1rem;">
+            <div style="display: flex; align-items: flex-end; gap: 1.5rem; height: 300px; min-width: 600px; padding: 0 1rem;">
+                
+                <!-- 2012 -->
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1;">
+                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 100%; width: 100%; justify-content: center;">
+                       <div style="width: 16px; height: 3.8%; background: #2563eb; border-radius: 4px 4px 0 0; position: relative; group: hover;">
+                           <span style="position: absolute; bottom: 100%; left: 50%; transform: translateX(-50%); font-size: 0.7rem; color: #2563eb; font-weight: 600; opacity: 0; transition: opacity 0.2s;">$5.1</span>
+                       </div>
+                       <div style="width: 16px; height: 0.1%; background: #16a34a; border-radius: 4px 4px 0 0; position: relative;"></div>
+                   </div>
+                   <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2012</span>
+                </div>
+
+                <!-- 2013 -->
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1;">
+                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 100%; width: 100%; justify-content: center;">
+                       <div style="width: 16px; height: 5.8%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
+                       <div style="width: 16px; height: 1.1%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
+                   </div>
+                   <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2013</span>
+                </div>
+
+                <!-- 2014 -->
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1;">
+                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 100%; width: 100%; justify-content: center;">
+                       <div style="width: 16px; height: 9.2%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
+                       <div style="width: 16px; height: 2.1%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
+                   </div>
+                   <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2014</span>
+                </div>
+
+                <!-- 2015 -->
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1;">
+                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 100%; width: 100%; justify-content: center;">
+                       <div style="width: 16px; height: 13.2%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
+                       <div style="width: 16px; height: 2.7%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
+                   </div>
+                   <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2015</span>
+                </div>
+
+                <!-- 2016 -->
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1;">
+                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 100%; width: 100%; justify-content: center;">
+                       <div style="width: 16px; height: 20.4%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
+                       <div style="width: 16px; height: 7.5%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
+                   </div>
+                   <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2016</span>
+                </div>
+
+                <!-- 2017 -->
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1;">
+                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 100%; width: 100%; justify-content: center;">
+                       <div style="width: 16px; height: 30.1%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
+                       <div style="width: 16px; height: 11.8%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
+                   </div>
+                   <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2017</span>
+                </div>
+
+                <!-- 2018 -->
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1;">
+                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 100%; width: 100%; justify-content: center;">
+                       <div style="width: 16px; height: 41.3%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
+                       <div style="width: 16px; height: 16.3%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
+                   </div>
+                   <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2018</span>
+                </div>
+
+                <!-- 2019 -->
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1;">
+                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 100%; width: 100%; justify-content: center;">
+                       <div style="width: 16px; height: 52.3%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
+                       <div style="width: 16px; height: 13.6%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
+                   </div>
+                   <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2019</span>
+                </div>
+
+                <!-- 2020 -->
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1;">
+                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 100%; width: 100%; justify-content: center;">
+                       <div style="width: 16px; height: 63.6%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
+                       <div style="width: 16px; height: 21.5%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
+                   </div>
+                   <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2020</span>
+                </div>
+
+                <!-- 2021 -->
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1;">
+                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 100%; width: 100%; justify-content: center;">
+                       <div style="width: 16px; height: 87.3%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
+                       <div style="width: 16px; height: 29.1%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
+                   </div>
+                   <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2021</span>
+                </div>
+
+                <!-- 2022 -->
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1;">
+                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 100%; width: 100%; justify-content: center;">
+                       <div style="width: 16px; height: 86.3%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
+                       <div style="width: 16px; height: 17.1%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
+                   </div>
+                   <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2022</span>
+                </div>
+
+                <!-- 2023 -->
+                <div style="display: flex; flex-direction: column; align-items: center; gap: 8px; flex: 1;">
+                   <div style="display: flex; align-items: flex-end; gap: 4px; height: 100%; width: 100%; justify-content: center;">
+                       <div style="width: 16px; height: 99.9%; background: #2563eb; border-radius: 4px 4px 0 0;"></div>
+                       <div style="width: 16px; height: 28.9%; background: #16a34a; border-radius: 4px 4px 0 0;"></div>
+                   </div>
+                   <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2023</span>
+                </div>
+
+            </div>
+        </div>
       </div>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Kara Swisher’s Sharp Take</h3>
