@@ -163,7 +163,9 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Choosing My Priorities</h3>
 
-      <p>I'll be honest—I don't attend classes regularly. During this time, I decided to focus on two things only: losing weight and improving my programming skills. I felt those mattered more to me right now.</p>
+      <p>I’ll be honest—I haven’t been attending classes regularly. My attendance dropped significantly, and because of that, the college authorities contacted my parents. I was aware that this could even lead to being called to the director’s office.</p>
+
+      <p>During this period, I made a conscious decision to focus on just two things: improving my health by losing weight and strengthening my programming skills. At that time, these felt more important to me than anything else. I believed that working on my physical well-being and building practical technical skills would help me regain confidence and prepare better for my future.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Gym Experiment</h3>
 
