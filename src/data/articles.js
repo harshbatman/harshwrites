@@ -2197,7 +2197,7 @@ export const articles = [
                 </div>
                 <div style="display: flex; align-items: center; font-size: 0.8rem;">
                    <div style="width: 90px; display: flex; align-items: center; gap: 8px;">
-                      <img src="/logos/brave.svg" alt="Brave" style="width: 14px; height: 14px;"> Brave+
+                      <img src="/logos/brave.svg" alt="Brave" style="width: 14px; height: 14px;"> Brave
                    </div>
                    <div style="flex: 1; background: #f4f4f5; height: 16px; border-radius: 4px; overflow: hidden;">
                       <div style="width: 6%; height: 100%; background: #fb542b;"></div>
