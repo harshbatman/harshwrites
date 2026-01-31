@@ -2625,7 +2625,10 @@ export const articles = [
           
           <!-- Flutter -->
           <div style="display: flex; align-items: center; gap: 1rem;">
-             <div style="width: 100px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem;">Flutter</div>
+             <div style="width: 100px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem; display: flex; align-items: center; justify-content: flex-end; gap: 6px;">
+               Flutter
+               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 206 218" fill="#42a5f5"><path d="M156.6 3H206L102 107.2 49.2 54.4 156.6 3zM49.2 147.6L92.7 104 206 217.4h-49.4L49.2 147.6z"/></svg>
+             </div>
              <div style="flex: 1; background: #f4f4f5; height: 24px; border-radius: 4px; overflow: hidden; position: relative;">
                 <div style="width: 46%; height: 100%; background: #4285F4; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px;">
                    <span style="color: white; font-size: 0.75rem; font-weight: 700;">46%</span>
@@ -2635,7 +2638,17 @@ export const articles = [
 
           <!-- React Native -->
           <div style="display: flex; align-items: center; gap: 1rem;">
-             <div style="width: 100px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem;">React Native</div>
+             <div style="width: 100px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem; display: flex; align-items: center; justify-content: flex-end; gap: 6px;">
+               React Native
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="-11.5 -10.23174 23 20.46348">
+                  <circle cx="0" cy="0" r="2.05" fill="#61dafb"/>
+                  <g stroke="#61dafb" stroke-width="1" fill="none">
+                     <ellipse rx="11" ry="4.2"/>
+                     <ellipse rx="11" ry="4.2" transform="rotate(60)"/>
+                     <ellipse rx="11" ry="4.2" transform="rotate(120)"/>
+                  </g>
+               </svg>
+             </div>
              <div style="flex: 1; background: #f4f4f5; height: 24px; border-radius: 4px; overflow: hidden; position: relative;">
                 <div style="width: 32%; height: 100%; background: #1877f2; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px;">
                    <span style="color: white; font-size: 0.75rem; font-weight: 700;">32%</span>
