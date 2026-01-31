@@ -115,29 +115,26 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The COVID Weight Gain</h3>
 
-      <p>I joined the hostel for my BTech after COVID.<br/>
-      But I didn’t gain weight there.</p>
+      <p>I was preparing for competitive exams, full focus, full hope.<br/>
+      Then COVID came.</p>
 
-      <p>I got fat during the lockdown.</p>
+      <p>During that time, I got a phone and Wi-Fi—and slowly, I got distracted.<br/>
+      Around the same period, I fell ill. I had jaundice.</p>
 
-      <p>That phase hit differently.</p>
+      <p>After that, everything stopped.</p>
 
-      <p>I had jaundice.<br/>
-      There was nothing to do—no school, no movement, no routine.</p>
+      <p>There was nothing to do—<br/>
+      no school,<br/>
+      no movement,<br/>
+      no routine.</p>
 
       <p>Just eating.<br/>
       Sitting.<br/>
       Scrolling the phone.<br/>
       Sleeping.</p>
 
-      <p>Days blended into each other.<br/>
-      Slowly, quietly, the weight came on.</p>
-
-      <p>Not because of laziness alone—<br/>
-      but because life had paused, and my body followed.</p>
-
-      <p>By the time the world restarted,<br/>
-      the weight had already settled in.</p>
+      <p>Days passed like this.<br/>
+      And without realizing it, life started slipping into a loop.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Choosing My Priorities</h3>
 
