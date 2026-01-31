@@ -2625,9 +2625,14 @@ export const articles = [
           
           <!-- Flutter -->
           <div style="display: flex; align-items: center; gap: 1rem;">
-             <div style="width: 100px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem; display: flex; align-items: center; justify-content: flex-end; gap: 6px;">
+             <div style="width: 110px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem; display: flex; align-items: center; justify-content: flex-end; gap: 6px; white-space: nowrap;">
                Flutter
-               <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 206 218" fill="#42a5f5"><path d="M156.6 3H206L102 107.2 49.2 54.4 156.6 3zM49.2 147.6L92.7 104 206 217.4h-49.4L49.2 147.6z"/></svg>
+               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 40 44">
+                  <path d="M8.68 28.38L2 21.71 23.71 0H37.06L8.68 28.38Z" fill="#54C5F8"/>
+                  <path d="M37.06 20.04H23.71L12.02 31.73L18.7 38.4L37.06 20.04Z" fill="#54C5F8"/>
+                  <path d="M18.7 38.4L23.71 43.41H37.06L25.37 31.73L18.7 38.4Z" fill="#01579B"/>
+                  <path d="M18.7 25.05L12.02 31.72L18.7 38.4L25.37 31.72L18.7 25.05Z" fill="#29B6F6"/>
+               </svg>
              </div>
              <div style="flex: 1; background: #f4f4f5; height: 24px; border-radius: 4px; overflow: hidden; position: relative;">
                 <div style="width: 46%; height: 100%; background: #4285F4; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px;">
@@ -2638,7 +2643,7 @@ export const articles = [
 
           <!-- React Native -->
           <div style="display: flex; align-items: center; gap: 1rem;">
-             <div style="width: 100px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem; display: flex; align-items: center; justify-content: flex-end; gap: 6px;">
+             <div style="width: 110px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem; display: flex; align-items: center; justify-content: flex-end; gap: 6px; white-space: nowrap;">
                React Native
                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="-11.5 -10.23174 23 20.46348">
                   <circle cx="0" cy="0" r="2.05" fill="#61dafb"/>
@@ -2658,7 +2663,7 @@ export const articles = [
 
           <!-- Others -->
            <div style="display: flex; align-items: center; gap: 1rem;">
-             <div style="width: 100px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem;">Others</div>
+             <div style="width: 110px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem; white-space: nowrap;">Others</div>
              <div style="flex: 1; background: #f4f4f5; height: 24px; border-radius: 4px; overflow: hidden; position: relative;">
                 <div style="width: 22%; height: 100%; background: #71717a; display: flex; align-items: center; justify-content: flex-end; padding-right: 8px;">
                    <span style="color: white; font-size: 0.75rem; font-weight: 700;">22%</span>
