@@ -236,7 +236,7 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Choosing My Priorities</h3>
 
-      <p>I’ll be honest—I haven’t been attending classes regularly. My attendance dropped significantly, and because of that, the college authorities contacted my parents. I was aware that this could even lead to being called to the director’s office.</p>
+      <p>I’ll be honest—I haven’t been attending classes regularly. My attendance dropped significantly, and because of that, the college authorities contacted my parents. I was aware that this could even lead to being called to the director’s office. I wasn’t surprised when, eventually, mujhe director office se bulawa aa hi gaya.</p>
 
       <p>During this period, I made a conscious decision to focus on just two things. First, improving my health by losing weight. Second, I focused on improving my programming skills, spending time learning and practicing consistently. I felt these two areas mattered the most to me at that point in my life, as they were directly connected to my long-term growth and future goals.</p>
 
