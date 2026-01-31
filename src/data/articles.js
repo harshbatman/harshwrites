@@ -2055,9 +2055,10 @@ export const articles = [
              <!-- IE Path (Rising) -->
              <path d="M0,195 Q200,160 300,100 T600,25" fill="none" stroke="#2563eb" stroke-width="4" />
              <!-- Inline IE Logo -->
-             <g transform="translate(500, 35) scale(0.04)">
-                <path d="M480 256 C480 132 380 32 256 32 C132 32 32 132 32 256 C32 380 132 480 256 480 C310 480 360 460 400 425 L360 385 C330 410 295 425 256 425 C162 425 88 350 88 256 C88 230 95 205 105 185 H460 C472 205 480 230 480 256 Z" fill="#2563eb"/>
-                <path d="M100 380 Q256 50 500 120" fill="none" stroke="#fbbf24" stroke-width="40" stroke-linecap="round"/>
+             <g transform="translate(500, 35) scale(0.045)">
+                <circle cx="256" cy="256" r="230" fill="#2563eb" />
+                <path d="M420 256 H170 A90 90 0 1 1 350 340 L380 380 A140 140 0 1 0 460 256 Z" fill="white" />
+                <path d="M70 360 Q200 40 480 100" fill="none" stroke="#fbbf24" stroke-width="35" stroke-linecap="round" />
              </g>
              <text x="525" y="50" fill="#2563eb" font-size="12" font-weight="700">Internet Explorer</text>
           </svg>
