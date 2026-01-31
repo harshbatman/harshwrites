@@ -209,6 +209,8 @@ export const articles = [
 
       <p>Exactly. On paper, it feels like one project. In real life, it’s not one project at all. It’s fifty small projects stitched together, and none of them talk to each other properly.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The "Mela" of Fragmentation</h3>
+
       <p>That’s the real problem, right? Fragmentation. The construction industry isn’t one industry. It’s a crowd.</p>
 
       <p>A mela. A proper mela.<br/>
@@ -221,6 +223,8 @@ export const articles = [
 
       <p>True. And then comes the civil contractor. He handles structure—foundation, pillars, slabs. But he doesn’t do everything.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Scope vs. Reality</h3>
+
       <p>Of course not. He says, “Yeh mera scope nahi hai.”<br/>
       For steel, there’s a steel supplier. For cement, another dealer. For sand, someone else entirely—and don’t forget, sand availability changes every week.</p>
 
@@ -230,6 +234,8 @@ export const articles = [
       <p>And this is just the beginning.<br/>
       Once structure is done, suddenly we need a plumbing contractor.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Unwilling Project Manager</h3>
+
       <p>Who says, “Electrician pehle aayega ya main?”</p>
 
       <p>And the electrician says, “Plumber ne marking theek nahi ki.”<br/>
@@ -238,6 +244,8 @@ export const articles = [
       <p>Exactly. In our own house, we are the CEO, site engineer, and dispute resolution manager.</p>
 
       <p>And it doesn’t stop there. After plumbing and electrical, comes plaster work. Another set of workers. Another contractor. New negotiation.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Material vs. Responsibility</h3>
 
       <p>Then comes flooring—tiles, marble, granite.<br/>
       Tile contractor asks, “Material aap lenge ya hum?”</p>
@@ -252,6 +260,8 @@ export const articles = [
       <p>And if one measurement is off by half an inch, blame game starts.<br/>
       “No, sir, site pe mistake hua hai.”<br/>
       “No, bhai, tumne galat banaya hai.”</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Finishing Chaos</h3>
 
       <p>Then comes painting.<br/>
       Paint contractor enters like, “Sir, putty pehle dry hone do.”<br/>
@@ -273,6 +283,8 @@ export const articles = [
       Kitchen guy says slab height galat hai.<br/>
       Granite guy says cabinet design late mila.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Endless List</h3>
+
       <p>Bathrooms deserve their own chapter.<br/>
       Sanitary fittings vendor. Bathroom accessory guy. Shower partition glass contractor.</p>
 
@@ -289,6 +301,8 @@ export const articles = [
       Gate contractor—iron gate, sliding gate, motorized gate.</p>
 
       <p>Security system? CCTV guy. Doorbell guy. Internet wiring guy.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Core Issue</h3>
 
       <p>And every single one sends their own worker.<br/>
       Different languages, different work ethics, different priorities.</p>
