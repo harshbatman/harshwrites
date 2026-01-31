@@ -6519,40 +6519,45 @@ export const articles = [
     image: "/pollution-survival.jpg",
     excerpt: "Have you noticed something strange about our daily life? In any metro city where we live, we must have four things at home now—air purifier, water purifier, air conditioner, and refrigerator.",
     content: `
-      <p>Have you noticed something strange about our daily life? In any metro city where we live, we must have four things at home now.</p>
+      <p>Sometimes I feel our homes have stopped being homes. They feel more like survival chambers.</p>
 
-      <p>Let me guess—air purifier, water purifier, air conditioner, and refrigerator?</p>
+      <p>Look around any metro city where we live. What do we actually need to live normally now? An air purifier. A water purifier. An air conditioner. And a refrigerator. Four machines just to get through an ordinary day.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Four Essentials</h3>
 
-      <p>Exactly. And that itself tells our whole pollution story.<br/>
-      We need an air purifier because our air is so bad we can’t even breathe properly. We need a water purifier because the water coming to our homes isn’t safe to drink. We need an air conditioner because summers are getting unbearable, and heat waves are everywhere. And we need a refrigerator just to get cool water and keep food from spoiling in this heat.</p>
+      <p>And that itself tells our whole pollution story. It’s ironic, isn’t it? These gadgets are no longer luxury items. For us, they’ve become survival tools.</p>
 
-      <p>It’s ironic, isn’t it? These gadgets are no longer luxury items. For us, they’ve become survival tools.</p>
+      <p>We need an air purifier because our air is so bad we can’t even breathe properly.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Manufactured Air</h3>
+
+      <p>And the scary part is—we don’t even question it anymore. We step outside, and the air smells of dust, smoke, diesel, construction, and chemicals. Traffic never stops, buildings never stop coming up, and trees keep disappearing.</p>
+
+      <p>So we shut our windows and switch on the air purifier. Clean air becomes something we manufacture inside our rooms, instead of something nature gives us for free.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Trusting the Water?</h3>
+
+      <p>The same thing happens with water. Rivers are polluted, groundwater is overused, and sewage mixes with drinking water. That’s why a water purifier is no longer optional for us. We can’t trust the water coming into our homes. Something as basic as drinking water now depends on electricity and plastic filters.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Heat Shield</h3>
+
+      <p>And then comes heat. Summers feel different now. Heat waves last longer, nights don’t cool down, and concrete cities trap heat like ovens. We call the air conditioner a luxury, but honestly, in many cities it’s a shield. Without it, elderly people fall sick, children struggle, and sleeping becomes impossible.</p>
+
+      <p>Even the refrigerator is part of this story. We need it for cold water because normal water feels warm. We need it to preserve food because heat spoils things faster. It quietly supports our survival in a hotter world.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Vicious Cycle</h3>
 
-      <p>And all of them run on electricity. More pollution outside → more machines inside → more electricity use → more heat → more climate change. It’s like we’re stuck in a loop we created ourselves.</p>
+      <p>What connects all this is electricity. More pollution outside → more machines inside → more electricity use → more heat → more climate change. It’s like we’re stuck in a loop we created ourselves.</p>
 
-      <p>Air pollution chokes our lungs, water pollution attacks our health, and climate change turns our cities into ovens. Population keeps increasing, concrete keeps spreading, trees keep disappearing—and then we wonder why heat waves feel worse every year.</p>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Progress or Adjustment?</h3>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Asking "Why?"</h3>
+      <p>We didn’t plan cities for humans. We planned them for speed, profit, and density. Now we’re paying the price with our health and our dependence on gadgets.</p>
 
-      <p>We say, “It’s too hot,” so we switch on the AC.<br/>
-      We say, “Water tastes bad,” so we buy a purifier.<br/>
-      We say, “Air feels toxic,” so we buy an air purifier.<br/>
-      But we rarely stop to ask why things reached this point.</p>
+      <p>Sustainable development sounds like a big word, but for us it simply means breaking this cycle—creating cities where we don’t need machines just to breathe, drink, or survive summer.</p>
 
-      <p>And the fridge—think about it. Earlier it was for comfort. Now it’s essential because the heat outside is so extreme that even normal water feels unusable.</p>
+      <p>Until then, our homes will stay full of gadgets, and our lives will remain plugged in. And deep down, we all know this isn’t progress. This is adjustment.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Quiet Invasion</h3>
-
-      <p>This is how pollution and climate change quietly enter our homes—not as news headlines, but as electricity bills and machines humming all day.</p>
-
-      <p>Sustainable development sounds like a big word, but for us it simply means breaking this cycle—so that one day, we don’t need machines just to breathe clean air, drink safe water, or survive summer.</p>
-
-      <p>Until then, our homes will stay full of gadgets, and our cities will stay full of smoke, heat, and noise.<br/>
-      And deep down, we all know—this isn’t normal.</p>
+      <p>Adjustment to a world we slowly damaged, and then tried to fix with switches and sockets instead of real solutions.</p>
     `
   },
 ];
