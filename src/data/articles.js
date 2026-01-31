@@ -2093,7 +2093,7 @@ export const articles = [
           <!-- Chrome Line (Rising) -->
           <svg style="position: absolute; top:0; left:0; width:100%; height:100%; overflow:visible;">
              <!-- IE Path (Falling) -->
-             <path d="M0,40 Q150,60 300,180 Q450,195 600,198" fill="none" stroke="#9ca3af" stroke-width="3" stroke-dasharray="5,5" />
+             <path d="M0,40 Q250,160 600,198" fill="none" stroke="#9ca3af" stroke-width="3" stroke-dasharray="5,5" />
              <text x="10" y="30" fill="#9ca3af" font-size="12" font-weight="600">Internet Explorer</text>
 
              <!-- Chrome Path (Rising) -->
