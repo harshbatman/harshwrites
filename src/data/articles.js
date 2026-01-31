@@ -190,7 +190,7 @@ export const articles = [
     author: "Harsh Mahto",
     category: "Real Estate & Reality",
     date: "January 2026",
-    image: "/contractor-chaos.jpg",
+    image: "/contractor-chaos-v2.jpg",
     excerpt: "You know, every time someone says, “Let’s build our own house”, it sounds so simple. Like, buy land, build walls, move in. But the moment we actually start, reality hits us hard.",
     content: `
       <p>You know, every time someone says, “Let’s build our own house”, it sounds so simple. Like, buy land, build walls, move in. But the moment we actually start, reality hits us hard.</p>
