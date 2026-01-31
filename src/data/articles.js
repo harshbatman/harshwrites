@@ -2247,8 +2247,8 @@ export const articles = [
                    <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); color: #7e22ce; font-weight: 700; font-size: 0.8rem;">Yahoo</div>
                 </div>
                 <!-- Google -->
-                <div style="width: 40px; height: 10%; background: #2563eb; border-radius: 4px 4px 0 0; position: relative;" title="Google">
-                  <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); color: #2563eb; font-weight: 700; font-size: 0.8rem;">Google</div>
+                <div style="width: 40px; height: 10%; background: #166534; border-radius: 4px 4px 0 0; position: relative;" title="Google">
+                  <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); color: #166534; font-weight: 700; font-size: 0.8rem;">Google</div>
                 </div>
              </div>
              <div style="font-size: 0.8rem; color: #71717a; margin-top: 10px;">The Directory Era</div>
@@ -2266,8 +2266,8 @@ export const articles = [
                     <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); color: #7e22ce; font-weight: 700; font-size: 0.8rem;">Yahoo</div>
                 </div>
                 <!-- Google -->
-                <div style="width: 40px; height: 90%; background: #2563eb; border-radius: 4px 4px 0 0; position: relative;" title="Google">
-                    <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); color: #2563eb; font-weight: 700; font-size: 0.8rem;">Google</div>
+                <div style="width: 40px; height: 90%; background: #166534; border-radius: 4px 4px 0 0; position: relative;" title="Google">
+                    <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); color: #166534; font-weight: 700; font-size: 0.8rem;">Google</div>
                 </div>
              </div>
              <div style="font-size: 0.8rem; color: #71717a; margin-top: 10px;">The Algorithm Era</div>
