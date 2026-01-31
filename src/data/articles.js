@@ -2043,7 +2043,7 @@ export const articles = [
 
           <svg style="position: absolute; top:0; left:0; width:100%; height:100%; overflow:visible;">
              <!-- Netscape Path (Falling) -->
-             <path d="M0,25 Q200,60 300,100 T600,195" fill="none" stroke="#00bfa5" stroke-width="4" />
+             <path d="M0,25 Q150,100 300,110 T600,198" fill="none" stroke="#00bfa5" stroke-width="4" />
              <text x="10" y="15" fill="#00bfa5" font-size="12" font-weight="700">Netscape</text>
 
              <!-- IE Path (Rising) -->
