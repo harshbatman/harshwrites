@@ -4876,7 +4876,7 @@ export const articles = [
                          <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(-50%); font-size: 0.7rem; color: #2563eb; font-weight: 600; white-space: nowrap;">$5.1B</span>
                        </div>
                        <div style="width: 18px; height: 0.1%; min-height: 2px; background: #16a34a; border-radius: 4px 4px 0 0; position: relative;">
-                         <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(-50%); font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$0.1B</span>
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(35%); font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$0.1B</span>
                        </div>
                    </div>
                    <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2012</span>
@@ -4889,7 +4889,7 @@ export const articles = [
                          <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(-50%); font-size: 0.7rem; color: #2563eb; font-weight: 600; white-space: nowrap;">$7.9B</span>
                        </div>
                        <div style="width: 18px; height: 1.1%; min-height: 2px; background: #16a34a; border-radius: 4px 4px 0 0; position: relative;">
-                         <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(-50%); font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$1.5B</span>
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(35%); font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$1.5B</span>
                        </div>
                    </div>
                    <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2013</span>
@@ -4902,7 +4902,7 @@ export const articles = [
                          <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(-50%); font-size: 0.7rem; color: #2563eb; font-weight: 600; white-space: nowrap;">$12.5B</span>
                        </div>
                        <div style="width: 18px; height: 2.1%; min-height: 2px; background: #16a34a; border-radius: 4px 4px 0 0; position: relative;">
-                         <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(-50%); font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$2.9B</span>
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(35%); font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$2.9B</span>
                        </div>
                    </div>
                    <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2014</span>
@@ -4915,7 +4915,7 @@ export const articles = [
                          <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(-50%); font-size: 0.7rem; color: #2563eb; font-weight: 600; white-space: nowrap;">$17.9B</span>
                        </div>
                        <div style="width: 18px; height: 2.7%; min-height: 2px; background: #16a34a; border-radius: 4px 4px 0 0; position: relative;">
-                         <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(-50%); font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$3.7B</span>
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(35%); font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$3.7B</span>
                        </div>
                    </div>
                    <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2015</span>
@@ -4928,7 +4928,7 @@ export const articles = [
                          <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(-50%); font-size: 0.7rem; color: #2563eb; font-weight: 600; white-space: nowrap;">$27.6B</span>
                        </div>
                        <div style="width: 18px; height: 7.5%; min-height: 2px; background: #16a34a; border-radius: 4px 4px 0 0; position: relative;">
-                         <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(-50%); font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$10.2B</span>
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(35%); font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$10.2B</span>
                        </div>
                    </div>
                    <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2016</span>
@@ -4941,7 +4941,7 @@ export const articles = [
                          <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(-50%); font-size: 0.7rem; color: #2563eb; font-weight: 600; white-space: nowrap;">$40.7B</span>
                        </div>
                        <div style="width: 18px; height: 11.8%; min-height: 2px; background: #16a34a; border-radius: 4px 4px 0 0; position: relative;">
-                         <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(-50%); font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$15.9B</span>
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(35%); font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$15.9B</span>
                        </div>
                    </div>
                    <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2017</span>
@@ -4954,7 +4954,7 @@ export const articles = [
                          <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(-50%); font-size: 0.7rem; color: #2563eb; font-weight: 600; white-space: nowrap;">$55.8B</span>
                        </div>
                        <div style="width: 18px; height: 16.3%; min-height: 2px; background: #16a34a; border-radius: 4px 4px 0 0; position: relative;">
-                         <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(-50%); font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$22.1B</span>
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(35%); font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$22.1B</span>
                        </div>
                    </div>
                    <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2018</span>
@@ -4967,7 +4967,7 @@ export const articles = [
                          <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(-50%); font-size: 0.7rem; color: #2563eb; font-weight: 600; white-space: nowrap;">$70.7B</span>
                        </div>
                        <div style="width: 18px; height: 13.6%; min-height: 2px; background: #16a34a; border-radius: 4px 4px 0 0; position: relative;">
-                         <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(-50%); font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$18.5B</span>
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(35%); font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$18.5B</span>
                        </div>
                    </div>
                    <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2019</span>
@@ -4980,7 +4980,7 @@ export const articles = [
                          <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(-50%); font-size: 0.7rem; color: #2563eb; font-weight: 600; white-space: nowrap;">$86.0B</span>
                        </div>
                        <div style="width: 18px; height: 21.5%; min-height: 2px; background: #16a34a; border-radius: 4px 4px 0 0; position: relative;">
-                         <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(-50%); font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$29.1B</span>
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(35%); font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$29.1B</span>
                        </div>
                    </div>
                    <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2020</span>
@@ -4993,7 +4993,7 @@ export const articles = [
                          <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(-50%); font-size: 0.7rem; color: #2563eb; font-weight: 600; white-space: nowrap;">$117.9B</span>
                        </div>
                        <div style="width: 18px; height: 29.1%; min-height: 2px; background: #16a34a; border-radius: 4px 4px 0 0; position: relative;">
-                         <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(-50%); font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$39.4B</span>
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(35%); font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$39.4B</span>
                        </div>
                    </div>
                    <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2021</span>
@@ -5006,7 +5006,7 @@ export const articles = [
                          <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(-50%); font-size: 0.7rem; color: #2563eb; font-weight: 600; white-space: nowrap;">$116.6B</span>
                        </div>
                        <div style="width: 18px; height: 17.1%; min-height: 2px; background: #16a34a; border-radius: 4px 4px 0 0; position: relative;">
-                         <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(-50%); font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$23.2B</span>
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(35%); font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$23.2B</span>
                        </div>
                    </div>
                    <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2022</span>
@@ -5019,7 +5019,7 @@ export const articles = [
                          <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(-50%); font-size: 0.7rem; color: #2563eb; font-weight: 600; white-space: nowrap;">$134.9B</span>
                        </div>
                        <div style="width: 18px; height: 28.9%; min-height: 2px; background: #16a34a; border-radius: 4px 4px 0 0; position: relative;">
-                         <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(-50%); font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$39.1B</span>
+                         <span style="position: absolute; bottom: 100%; left: 50%; transform-origin: 0 50%; transform: rotate(-90deg) translateX(12px) translateY(35%); font-size: 0.7rem; color: #16a34a; font-weight: 600; white-space: nowrap;">$39.1B</span>
                        </div>
                    </div>
                    <span style="font-size: 0.8rem; color: #6b7280; font-weight: 600;">2023</span>
