@@ -2288,7 +2288,7 @@ export const articles = [
                 <div style="display: flex; align-items: center; font-size: 0.8rem;">
                    <div style="width: 70px;">Google</div>
                    <div style="flex: 1; background: #f4f4f5; height: 16px; border-radius: 4px; overflow: hidden;">
-                      <div style="width: 91%; height: 100%; background: #ea4335;"></div>
+                      <div style="width: 91%; height: 100%; background: #166534;"></div>
                    </div>
                    <div style="width: 40px; text-align: right; font-weight: 600;">91%</div>
                 </div>
