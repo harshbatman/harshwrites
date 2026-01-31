@@ -169,7 +169,7 @@ function Home() {
                             </h2>
 
                             <p className="card-excerpt">
-                                {article.excerpt}
+                                {article.content.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 150) + (article.content.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().length > 150 ? '...' : '')}
                             </p>
 
                             <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: 'var(--color-text-secondary)', fontSize: '0.85rem', marginTop: '0.75rem' }}>
