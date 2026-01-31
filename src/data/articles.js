@@ -6464,6 +6464,22 @@ export const articles = [
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Uncomfortable Answer</h3>
 
       <p>And maybe the real answer is uncomfortable—we chose short-term growth over long-term planning. Now, we’re paying the price.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Hanging Threat</h3>
+
+      <p>And one thing we almost never talk about openly is what’s hanging right above our heads—open electric wiring. In many of our cities, wires are tangled like spider webs, running just a few feet above people’s heads.</p>
+
+      <p>Exactly. In Europe or the U.S., most electrical lines are underground. But in our cities, we walk daily under exposed wires, broken cables, and leaning electric poles. During the rainy season, this becomes deadly, not just inconvenient.</p>
+
+      <p>Every monsoon, we hear the same news—people died due to electrocution. A fallen pole, a live wire touching flooded water, a transformer short-circuiting in the rain. Roads are waterlogged, and the same water is carrying electric current.</p>
+
+      <p>And this is not an accident; this is unplanned development. When drainage is poor and wiring is open, rain turns into a life-threatening event. We send our children to school, we go to work, knowing that one loose wire or electric pole can kill.</p>
+
+      <p>What hurts more is that we have normalized this. Deaths during rain are treated like seasonal news, not governance failure. No long-term plan to move wiring underground, no serious audit of electric poles, no accountability.</p>
+
+      <p>In planned cities abroad, rain means fresh air. In our cities, rain means fear—fear of flooded streets, fear of electric shock, fear of whether we’ll return home safely. This is the real cost of how we built our cities.</p>
+
+      <p>When we compare our cities with Europe or the U.S., it’s not about beauty or luxury. It’s about safety, dignity, and planning. And until we fix basics like wiring, poles, and drainage, development will remain just a word.</p>
     `
   },
 ];
