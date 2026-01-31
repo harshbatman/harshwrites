@@ -10,6 +10,8 @@ export const articles = [
     image: "/milkha-singh-running.png",
     excerpt: "For us, Milkha Singh isn’t just an athlete; he is a lesson. A lesson in pain, perseverance, and purpose. When we say our sporting history, his story is one of its strongest pillars.",
     content: `
+      <p>You know, whenever we talk about discipline in Indian sport, one name automatically comes to my mind—Milkha Singh. Not just because of his medals, but because of the life he lived to earn them.</p>
+
       <p>Absolutely. In fact, calling it “discipline” almost feels too small a word for what he practiced. For us, Milkha Singh isn’t just an athlete; he is a lesson. A lesson in pain, perseverance, and purpose. When we say our sporting history, his story is one of its strongest pillars.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Born from Tragedy</h3>
