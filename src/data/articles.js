@@ -6422,4 +6422,38 @@ export const articles = [
       <p>But then again, so did rockets once.</p>
     `
   },
+  {
+    id: "unplanned-cities",
+    views: 100,
+    publishDate: "2026-01-31",
+    title: "Why Our Cities Are So Unplanned",
+    author: "Harsh Mahto",
+    category: "Urban Planning & Society",
+    date: "31 Jan 2026",
+    image: "/unplanned-cities.jpg",
+    excerpt: "Sometimes I really wonder... why do our Indian cities feel so chaotic compared to cities in Europe or the U.S? When we look at those places, everything just seems to fit—like it was thought through properly.",
+    content: `
+      <p><strong>Person 1:</strong><br>Sometimes I really wonder, yaar… why do our Indian cities feel so chaotic compared to cities in Europe or the U.S. When we look at those places, everything just seems to fit—like it was thought through properly.</p>
+
+      <p><strong>Person 2:</strong><br>Exactly. When we see cities in Europe or the United States, there’s a clear symmetry. Wide roads, proper pedestrian walkways, planned housing blocks, parks, cycling lanes—everything has a place. You can tell that planners sat down and imagined how people would actually live there.</p>
+
+      <p><strong>Person 1:</strong><br>And it’s not just about looks. It’s basic systems. They have proper sewage networks, underground water drainage, scientific garbage collection, recycling systems, and stormwater planning. When it rains there, roads don’t turn into rivers.</p>
+
+      <p><strong>Person 2:</strong><br>That’s the biggest contrast with us. In India, one heavy rain and half the city is underwater. Waterlogging everywhere, traffic stuck for hours, houses flooded. In many cities, there’s either no drainage system or one that was never upgraded as the population exploded.</p>
+
+      <p><strong>Person 1:</strong><br>True. And what’s sad is that we do have municipal corporation elections. On paper, we have local governance. But in reality, governance doesn’t match the responsibility. Planning is weak, enforcement is weaker, and long-term thinking is almost missing.</p>
+
+      <p><strong>Person 2:</strong><br>Most of our development has been reactive, not planned. A road gets built after people settle. Sewage lines come after colonies are already occupied—if they come at all. Illegal constructions get regularised instead of being stopped. That’s why people say nearly 90% of India’s urban development is unplanned.</p>
+
+      <p><strong>Person 1:</strong><br>And once unplanned growth happens, fixing it becomes almost impossible. You can’t suddenly widen roads when buildings are already touching each other. You can’t lay proper drainage when there’s no space left underground.</p>
+
+      <p><strong>Person 2:</strong><br>Compare that with Europe or the U.S., where zoning laws are strict. Residential, commercial, and industrial areas are clearly separated. Green spaces are protected. Pedestrians are given priority. Our cities, on the other hand, mix everything—homes, shops, factories—all in one congested mess.</p>
+
+      <p><strong>Person 1:</strong><br>The result? Poor quality of life. More pollution, more stress, more accidents, more disease. We end up spending our lives adjusting to bad infrastructure instead of infrastructure supporting our lives.</p>
+
+      <p><strong>Person 2:</strong><br>At the end of the day, it’s not that we lack money or intelligence. We lack serious urban planning and accountability. Until we start planning cities for the next 50–100 years—and not just the next election—we’ll keep comparing ourselves with the West and asking the same question: Why are we still living in unplanned cities?</p>
+
+      <p><strong>Person 1:</strong><br>And maybe the real answer is uncomfortable—we chose short-term growth over long-term planning. Now, we’re paying the price.</p>
+    `
+  },
 ];
