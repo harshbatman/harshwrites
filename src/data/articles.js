@@ -71,17 +71,25 @@ export const articles = [
 
       <p>Because we do know. For us, buying a house doesn’t mean owning a home. It means signing up for a lifetime of EMIs. We don’t buy a house; we rent it from the bank for 25–30 years.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Real Cost of "Affordable"</h3>
+
       <p>Exactly. In metro cities, a normal flat is what now? ₹1.5 crore? ₹2 crore? And that’s not even luxury—just a decent place where we can live without feeling cramped.</p>
 
       <p>And once we take that home loan, our life decisions are no longer ours. Our salary is already divided before it even comes to us. One part goes to tax, the biggest part goes to EMI, and whatever is left… we call that “life”.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Financially Stuck Generation</h3>
 
       <p>That’s the real housing crisis no one talks about. It’s not just about shortage of houses. It’s about shortage of breathing space. We are financially stuck the day we sign that loan paper.</p>
 
       <p>We tell ourselves, “At least it’s our own house.” But is it really ours? Miss a few EMIs and the bank reminds us very clearly who owns it.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">From Managing to Surviving</h3>
+
       <p>And the EMI never feels small. In the beginning, we say, “We’ll manage.” But 40–50% of our monthly income goes straight into EMI. Then come school fees, medical bills, parents’ needs, inflation… and suddenly managing feels like surviving.</p>
 
       <p>What hurts more is the timeline. We start paying EMIs in our late 20s or early 30s, and we finish in our late 50s or 60s. That’s our entire working life tied to one loan.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Silent EMI Crisis</h3>
 
       <p>Which means we can’t take risks. We can’t easily switch careers. We can’t start something of our own. Even a break feels dangerous because EMI doesn’t care about our mental health.</p>
 
@@ -89,9 +97,13 @@ export const articles = [
 
       <p>And prices keep rising faster than our salaries. Houses become more expensive every year, but our income grows slowly. So we borrow more, stretch the loan longer, and dig ourselves deeper.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">A Contract for Life</h3>
+
       <p>What’s ironic is that housing was supposed to bring stability. Instead, it brings constant pressure. Instead of feeling secure, we feel trapped.</p>
 
       <p>For us, a home loan is not just a financial product. It’s a life contract. It decides how we live, how much we save, and how freely we can dream.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Wrong Question</h3>
 
       <p>Maybe the real question we should ask is not “Can we get a home loan?” but “At what cost to our life?”</p>
 
