@@ -6925,4 +6925,52 @@ export const articles = [
       <p>Adjustment to a world we slowly damaged, and then tried to fix with switches and sockets instead of real solutions.</p>
     `
   },
+  {
+    id: "where-is-indias-gta",
+    title: "Where Is India’s GTA?",
+    author: "Harsh Mahto",
+    category: "Gaming & Culture",
+    date: "February 2026",
+    image: "/indian-gta-update.jpg",
+    excerpt: "Why is there no proper Indian version of a GTA-style game? A conversation about open-world potential in India.",
+    content: `
+      <p><span className="drop-cap">Y</span>ou know, the last few weeks—maybe even the last few days—have been incredibly frustrating. It was one of those phases where nothing feels right. I didn’t know what to do with myself. I picked up my phone, but social media felt empty, repetitive, and tiring. So instead of scrolling, I installed a simple game and started playing.</p>
+
+      <p>It made me realize that sometimes scrolling just overloads the brain. Games, even simple ones, give your mind something active to focus on. But while playing, something strange happened. It didn’t feel like just a game. It felt like I was going back in time—straight into my childhood.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 2rem; margin: 2rem 0 1rem">The Coin-Op Era</h3>
+
+      <p>When I was a kid, we used to have those coin-operated games. Small shops, hardware stores, local gaming corners. You’d put a coin in, grab the joystick, and for a few minutes, the whole world outside disappeared. That era was special. No smartphones, no constant distraction. Just pure excitement.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 2rem; margin: 2rem 0 1rem">The Golden Era of PC Gaming</h3>
+
+      <p>Later, at home, we had a computer. That’s where real gaming started for me. I used to play Grand Theft Auto: Vice City, Grand Theft Auto III (Liberty City), and San Andreas. These weren’t just games. They were entire worlds. You could follow missions, or you could completely ignore them. You could roam around, steal a bike, drive endlessly, listen to in-game radio, and just exist inside that virtual city.</p>
+
+      <p>That freedom was unreal. Games back then didn’t rush you. They let you breathe. It wasn’t only GTA; I also played Far Cry and The Incredible Hulk. PC games had weight. You sat down properly—keyboard, mouse, full attention. No notifications popping up every five seconds. That’s probably why those games stayed in our memory; we were fully present while playing them.</p>
+
+      <hr style="margin: 3rem 0; border: 0; border-top: 1px solid #e5e7eb" />
+
+      <h3 style="font-family: var(--font-serif); font-size: 2rem; margin-bottom: 1.5rem">The Missing Indian Open World</h3>
+
+      <p>While playing again now, I started thinking about something deeper. All the GTA games we grew up with are based on the US. American cities, American culture, American problems. Miami-style nightlife, New York-style crime, Los Angeles-style gangs. So the question hit me hard:</p>
+
+      <p><strong>Why is there no proper Indian version of a GTA-style game?</strong></p>
+
+      <p>India has insane potential for open-world storytelling. Just look around us. Local trains packed beyond capacity. Endless traffic jams. Narrow streets. Power cuts. Political drama. Corruption. Festivals. Protests. Monsoons flooding cities. We already live in an open-world chaos simulator.</p>
+
+      <p>Yet most popular games here are like PUBG. It’s popular, yes, but it’s mostly just shooting. No strong story, no deep social reflection. GTA was never just about guns. It was satire. Society. Dark humor. Reality exaggerated.</p>
+
+      <p>Imagine an Indian open-world game where missions involve surviving monsoon floods, navigating traffic instead of escaping police cars, dealing with bureaucracy, local gangs, elections, and everyday struggle. The content already exists. The stories already exist. What’s missing is vision, courage, and investment.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 2rem; margin: 2rem 0 1rem">A Breath of Air</h3>
+
+      <p>People think gaming is just time-pass. But sometimes, gaming is mental relief. Playing again didn’t magically fix my stress, but it paused it. It gave my mind breathing space. That’s something endless scrolling never gives. That pause is sometimes all you need to reset.</p>
+
+      <p>Until we see a true Indian open-world game—something rooted in our streets, our problems, our humour—we’ll keep revisiting old classics and simple games. Keyboard, mouse, or even a small mobile game—not for addiction, not for escape forever, but just to breathe for a while.</p>
+
+      <p>And who knows… maybe someday, the loading screen will say: <strong>An Indian Open-World Game.</strong></p>
+      
+      <p>That day, every gamer like us will feel seen.</p>
+    `
+  },
 ];
