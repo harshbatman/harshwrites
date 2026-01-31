@@ -2044,12 +2044,21 @@ export const articles = [
           <svg style="position: absolute; top:0; left:0; width:100%; height:100%; overflow:visible;">
              <!-- Netscape Path (Falling) -->
              <path d="M0,25 Q250,150 600,198" fill="none" stroke="#00bfa5" stroke-width="4" />
-             <image href="/logos/netscape.svg" x="10" y="0" height="20" width="20" />
+             <!-- Inline Netscape Logo -->
+             <g transform="translate(10, 0) scale(0.04)">
+               <circle cx="256" cy="256" r="256" fill="#008B8B"/>
+               <path d="M0 350 Q256 250 512 350 V512 H0 Z" fill="black"/>
+               <path d="M140 100 V412 H210 L310 200 V412 H380 V100 H310 L210 312 V100 Z" fill="white"/>
+             </g>
              <text x="35" y="15" fill="#00bfa5" font-size="12" font-weight="700">Netscape</text>
 
              <!-- IE Path (Rising) -->
              <path d="M0,195 Q200,160 300,100 T600,25" fill="none" stroke="#2563eb" stroke-width="4" />
-             <image href="/logos/ie.svg" x="500" y="35" height="20" width="20" />
+             <!-- Inline IE Logo -->
+             <g transform="translate(500, 35) scale(0.04)">
+                <path d="M480 256 C480 132 380 32 256 32 C132 32 32 132 32 256 C32 380 132 480 256 480 C310 480 360 460 400 425 L360 385 C330 410 295 425 256 425 C162 425 88 350 88 256 C88 230 95 205 105 185 H460 C472 205 480 230 480 256 Z" fill="#2563eb"/>
+                <path d="M100 380 Q256 50 500 120" fill="none" stroke="#fbbf24" stroke-width="40" stroke-linecap="round"/>
+             </g>
              <text x="525" y="50" fill="#2563eb" font-size="12" font-weight="700">Internet Explorer</text>
           </svg>
           
