@@ -2124,7 +2124,7 @@ export const articles = [
                 <div style="display: flex; align-items: center; font-size: 0.8rem;">
                    <div style="width: 70px;">Chrome</div>
                    <div style="flex: 1; background: #f4f4f5; height: 16px; border-radius: 4px; overflow: hidden;">
-                      <div style="width: 65%; height: 100%; background: #ea4335;"></div>
+                      <div style="width: 65%; height: 100%; background: #15803d;"></div>
                    </div>
                    <div style="width: 40px; text-align: right; font-weight: 600;">65%</div>
                 </div>
@@ -2138,7 +2138,7 @@ export const articles = [
                 <div style="display: flex; align-items: center; font-size: 0.8rem;">
                    <div style="width: 70px;">Edge</div>
                    <div style="flex: 1; background: #f4f4f5; height: 16px; border-radius: 4px; overflow: hidden;">
-                      <div style="width: 5%; height: 100%; background: #059669;"></div>
+                      <div style="width: 5%; height: 100%; background: #ea4335;"></div>
                    </div>
                    <div style="width: 40px; text-align: right; font-weight: 600;">5%</div>
                 </div>
