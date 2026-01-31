@@ -2055,12 +2055,16 @@ export const articles = [
              <!-- IE Path (Rising) -->
              <path d="M0,195 Q200,160 300,100 T600,25" fill="none" stroke="#2563eb" stroke-width="4" />
              <!-- Inline IE Logo -->
-             <g transform="translate(520, 20) scale(0.045)">
-                <circle cx="256" cy="256" r="230" fill="#2563eb" />
-                <path d="M420 256 H170 A90 90 0 1 1 350 340 L380 380 A140 140 0 1 0 460 256 Z" fill="white" />
-                <path d="M70 360 Q200 40 480 100" fill="none" stroke="#fbbf24" stroke-width="60" stroke-linecap="round" />
+             <g transform="translate(520, 55) scale(0.045)">
+                <!-- The Blue 'e' -->
+                <text x="256" y="380" font-family="Arial, sans-serif" font-weight="900" font-style="italic" font-size="500" text-anchor="middle" fill="#2563eb">e</text>
+                
+                <!-- The Yellow Swoosh -->
+                <!-- An elliptical arc that cuts across -->
+                <path d="M60 400 Q150 50 500 120" fill="none" stroke="#fbbf24" stroke-width="40" stroke-linecap="round" />
              </g>
-             <text x="545" y="35" fill="#2563eb" font-size="12" font-weight="700">Internet Explorer</text>
+             <!-- Moved text down to y=80 to clear the graph line -->
+             <text x="545" y="70" fill="#2563eb" font-size="12" font-weight="700">Internet Explorer</text>
           </svg>
           
           <!-- X-Axis Labels -->
