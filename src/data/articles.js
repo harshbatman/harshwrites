@@ -6229,19 +6229,25 @@ export const articles = [
     excerpt: "A few days ago, I took the first flight of my life. From Delhi’s IGI Airport to Bengaluru. Yeah. Never been on a plane before.",
     content: `
       <p>A few days ago, I took the first flight of my life.</p>
-      <p>From Delhi’s IGI Airport to Bengaluru.</p>
+
+      <p>From New Delhi’s IGI Airport to Bengaluru.</p>
 
       <p>Yeah. Never been on a plane before.</p>
-      <p>And honestly? It felt like a dream coming true.</p>
+
+      <p>And honestly?<br/>
+      It felt like a dream coming true.</p>
 
       <p>You know why?</p>
 
       <p>Because when I was a kid, summers meant power cuts.</p>
-      <p>No fan. No AC.</p>
-      <p>So we’d carry bedsheets up to the roof and sleep under the open sky.</p>
 
-      <p>Moon above.</p>
-      <p>Stars scattered everywhere.</p>
+      <p>Inverter battery dead.<br/>
+      No fan. No AC.</p>
+
+      <p>So we’d carry bedsheets and pillows up to the roof and sleep under the open sky.</p>
+
+      <p>Moon above.<br/>
+      Stars scattered everywhere.</p>
 
       <p>And then—that sound.</p>
 
@@ -6249,27 +6255,42 @@ export const articles = [
 
       <p>An airplane.</p>
 
-      <p>We’d look up and try to spot it.</p>
-      <p>If you stared long enough, you could see tiny blinking lights.</p>
-      <p>Sometimes even guess there were people sitting inside, just like us—except… flying.</p>
+      <p>We’d stop talking.<br/>
+      Look up.<br/>
+      Search the dark sky.</p>
 
-      <p>And I remember thinking to myself back then:</p>
-      <p><em>How does it feel to be inside that thing? To fly?</em></p>
+      <p>If you stared long enough, you could spot tiny blinking lights.<br/>
+      Sometimes you’d even imagine people sitting inside—just like us… except flying.</p>
 
-      <p>Fast forward to now—I finally board a plane.</p>
+      <p>And I remember thinking back then, quietly, to myself:</p>
 
-      <p>And let me tell you something.</p>
+      <p><em>How does it feel to be inside that thing?<br/>
+      To fly?</em></p>
+
+      <p>Fast forward to now.</p>
+
+      <p>I finally board a plane.</p>
+
+      <p>Seatbelt clicks.<br/>
+      Engines hum.<br/>
+      The ground slowly slips away.</p>
+
+      <p>And let me tell you something—</p>
 
       <p>Every time I sit in a commercial aircraft and look around, one thought hits me almost immediately:</p>
 
-      <p>Why does every airplane feel like it belongs to the same two families?</p>
+      <p><em>Why does every airplane feel like it belongs to the same two families?</em></p>
 
       <p>Now you might think—</p>
+
       <p>Yeah, me as well.</p>
 
       <p>Exactly.</p>
 
-      <p>Because when we talk about large commercial airplanes globally, the story almost always narrows down to just two names:</p>
+      <p>Because when we talk about large commercial airplanes globally,<br/>
+      the story almost always narrows down to just two names:</p>
+
+      <p>—and that’s where the real story begins. ✈️</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 1rem; margin-bottom: 1rem; color: #111827; font-weight: 700; text-align: center;">Airbus & Boeing</h3>
 
