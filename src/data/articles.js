@@ -109,6 +109,110 @@ export const articles = [
       <p>Don't just build a product.<br/>
       Build a platform.<br/>
       Then let the world build on you.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Microsoft vs Amazon: Same Strategy, Different Battlefields</h3>
+
+      <p>You know what's crazy? When people accuse Amazon of copying sellers, I always think—bro, Microsoft wrote this playbook decades ago.</p>
+
+      <p>Exactly. Amazon didn't invent this strategy. Microsoft perfected it first. Amazon just adapted it for e-commerce.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Step 1: Build the Platform, Not Just Products</h3>
+
+      <p>Microsoft didn't start by competing with everyone. They first built Windows as a platform.</p>
+
+      <p>And they told developers: "Come, build on Windows. We'll give you tools, APIs, access to users."</p>
+
+      <p>Thousands of developers came in—word processors, media players, browsers, utilities.</p>
+
+      <p>Same with Amazon.</p>
+
+      <p>Amazon said to sellers: "Come sell on our marketplace. We'll give you traffic, logistics, payments."</p>
+
+      <p>In both cases, the platform looked neutral. Friendly. Open.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Step 2: Watch What Sells / What Gets Used</h3>
+
+      <p>Now here's where the real game starts.</p>
+
+      <p>Microsoft quietly observed: Which apps are people using the most? Which features are essential?</p>
+
+      <p>Word processors? Boom—Microsoft Word.<br/>
+      Spreadsheets? Excel.<br/>
+      Browsers? Internet Explorer.</p>
+
+      <p>Amazon does the same. Which products are selling the most? Which price points move fastest? Which reviews highlight what customers want?</p>
+
+      <p>Phone chargers, basics, cables, kitchen items—data tells them everything.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Step 3: Build a "Native" Rival Product</h3>
+
+      <p>Microsoft didn't ban developers. They just built their own version—deeply integrated with Windows.</p>
+
+      <p>Pre-installed. Default. Free or bundled.</p>
+
+      <p>Suddenly, third-party apps had to fight the OS itself.</p>
+
+      <p>Amazon does the same with Amazon Basics.</p>
+
+      <p>Same product category. Similar design. Often cheaper. And placed right next to the original seller.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Step 4: Use Control Over Distribution</h3>
+
+      <p>This is the most important part—and most people miss it.</p>
+
+      <p>Microsoft controlled distribution. Windows came pre-installed on PCs.</p>
+
+      <p>If your app wasn't compatible or visible there, you were invisible.</p>
+
+      <p>Amazon controls search results, recommendations, Prime delivery badges.</p>
+
+      <p>They don't need to kill you directly. They just… don't boost you.</p>
+
+      <p>That silence is deadly.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Step 5: Plausible Deniability</h3>
+
+      <p>And here's the genius—both companies can say:</p>
+
+      <p>"We're not stopping anyone."<br/>
+      "We believe in competition."<br/>
+      "We're just offering more choice."</p>
+
+      <p>Technically true.</p>
+
+      <p>But structurally? The platform owner always wins.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Key Difference: Software vs Physical Goods</h3>
+
+      <p>One big difference though.</p>
+
+      <p>Microsoft dealt in software—zero manufacturing cost, infinite copying.</p>
+
+      <p>Amazon deals in physical products—logistics, inventory, margins.</p>
+
+      <p>That's why Amazon's move feels more brutal to small sellers.</p>
+
+      <p>A developer can pivot. A small seller with stock? They bleed.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Big Lesson for Us</h3>
+
+      <p>So what do we learn from Microsoft and Amazon?</p>
+
+      <p>If you control the platform, you control the market.</p>
+
+      <p>Let others innovate. Let them take the risk.</p>
+
+      <p>Then use data, scale, and defaults to dominate.</p>
+
+      <p>It's not about being evil. It's about structural power.</p>
+
+      <p>Microsoft did it with Windows. Amazon is doing it with marketplaces.</p>
+
+      <p>Different decades. Same chessboard.</p>
+
+      <p>And the harsh truth for us?</p>
+
+      <p>If you're building on someone else's platform—always remember: you're a guest, not the owner.</p>
     `
   },
 
