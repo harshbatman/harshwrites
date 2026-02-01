@@ -6997,7 +6997,7 @@ export const articles = [
     content: `
       <p>You know, last few weeks… maybe even last few days ago… or honestly, just last night — I was really frustrated and stressed. One of those phases where nothing feels right. I didn't know what to do with myself. I picked up my phone, but I didn't feel like scrolling at all. Social media felt empty, repetitive, and tiring.</p>
 
-      <p>So instead of scrolling, I installed Tag and Tag and started playing.</p>
+      <p>So instead of scrolling, I installed Tekken Tag Tournament and started playing.</p>
 
       <p>That actually makes sense. Sometimes scrolling just overloads the brain. Games, even simple ones, give your mind something active to focus on.</p>
 
@@ -7017,7 +7017,7 @@ export const articles = [
 
       <p>That's probably why those games stayed in our memory. You were fully present while playing them.</p>
 
-      <p>True. And while playing again now — even something as simple as Tag and Tag — I started thinking about something deeper.</p>
+      <p>True. And while playing again now — even something as simple as Tekken Tag Tournament — I started thinking about something deeper.</p>
 
       <p>All the GTA games we grew up with — Vice City, Liberty City, San Andreas — they're all based on the US. American cities, American culture, American problems. Miami-style nightlife, New York-style crime, Los Angeles-style gangs.</p>
 
