@@ -6995,93 +6995,79 @@ export const articles = [
     image: "/indian-gta-update.jpg",
     excerpt: "Why is there no proper Indian version of a GTA-style game? A conversation about open-world potential in India.",
     content: `
-      <div style="margin-bottom: 2rem; padding: 1.5rem; background: linear-gradient(135deg, #f6f8fb 0%, #e9ecef 100%); border-left: 4px solid #667eea; border-radius: 8px;">
-        <p style="font-style: italic; color: #495057; margin: 0;">A conversation about gaming, nostalgia, and why India deserves its own open-world game.</p>
-      </div>
+      <p><strong>Person A:</strong><br/>
+      You know, last few weeks… maybe even last few days ago… or honestly, just last night — I was really frustrated and stressed. One of those phases where nothing feels right. I didn't know what to do with myself. I picked up my phone, but I didn't feel like scrolling at all. Social media felt empty, repetitive, and tiring.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f8f9fa; border-radius: 8px;">
-        <p style="margin-bottom: 1rem;"><strong style="color: #667eea;">Person A:</strong><br/>You know, last few weeks… maybe even last few days ago… or honestly, just last night — I was really frustrated and stressed. One of those phases where nothing feels right. I didn't know what to do with myself. I picked up my phone, but I didn't feel like scrolling at all. Social media felt empty, repetitive, and tiring.</p>
-        <p>So instead of scrolling, I installed Tag and Tag and started playing.</p>
-      </div>
+      <p>So instead of scrolling, I installed Tag and Tag and started playing.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: white; border-radius: 8px; border: 1px solid #e9ecef;">
-        <p><strong style="color: #764ba2;">Person B:</strong><br/>That actually makes sense. Sometimes scrolling just overloads the brain. Games, even simple ones, give your mind something active to focus on.</p>
-      </div>
+      <p><strong>Person B:</strong><br/>
+      That actually makes sense. Sometimes scrolling just overloads the brain. Games, even simple ones, give your mind something active to focus on.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f8f9fa; border-radius: 8px;">
-        <p style="margin-bottom: 1rem;"><strong style="color: #667eea;">Person A:</strong><br/>Exactly. And while playing, something strange happened. It didn't feel like just a game. It felt like I was going back in time — straight into my childhood.</p>
-        <p>When I was a kid, we used to have those coin-operated games. You remember them, right? Small shops, hardware stores, local gaming corners. You'd put a coin in, grab the joystick, and for a few minutes, the whole world outside disappeared.</p>
-      </div>
+      <p><strong>Person A:</strong><br/>
+      Exactly. And while playing, something strange happened. It didn't feel like just a game. It felt like I was going back in time — straight into my childhood.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: white; border-radius: 8px; border: 1px solid #e9ecef;">
-        <p><strong style="color: #764ba2;">Person B:</strong><br/>Yeah, that era was special. No smartphones, no constant distraction. Just pure excitement.</p>
-      </div>
+      <p>When I was a kid, we used to have those coin-operated games. You remember them, right? Small shops, hardware stores, local gaming corners. You'd put a coin in, grab the joystick, and for a few minutes, the whole world outside disappeared.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f8f9fa; border-radius: 8px;">
-        <p style="margin-bottom: 1rem;"><strong style="color: #667eea;">Person A:</strong><br/>And at home, we had a computer. Later, a laptop. That's where real gaming started for me. I used to play Grand Theft Auto: Vice City, Grand Theft Auto III — which was set in Liberty City — and Grand Theft Auto: San Andreas.</p>
-        <p>These weren't just games. They were entire worlds. You could follow missions, or you could completely ignore them. You could roam around, steal a bike, drive endlessly, listen to in-game radio, and just exist inside that virtual city.</p>
-      </div>
+      <p><strong>Person B:</strong><br/>
+      Yeah, that era was special. No smartphones, no constant distraction. Just pure excitement.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: white; border-radius: 8px; border: 1px solid #e9ecef;">
-        <p><strong style="color: #764ba2;">Person B:</strong><br/>That freedom was unreal. Games back then didn't rush you. They let you breathe.</p>
-      </div>
+      <p><strong>Person A:</strong><br/>
+      And at home, we had a computer. Later, a laptop. That's where real gaming started for me. I used to play Grand Theft Auto: Vice City, Grand Theft Auto III — which was set in Liberty City — and Grand Theft Auto: San Andreas.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f8f9fa; border-radius: 8px;">
-        <p style="margin-bottom: 1rem;"><strong style="color: #667eea;">Person A:</strong><br/>Exactly. And it wasn't only GTA. I also played Far Cry, and The Incredible Hulk. PC games had weight. You sat down properly. Keyboard, mouse, full attention. No notifications popping up every five seconds.</p>
-      </div>
+      <p>These weren't just games. They were entire worlds. You could follow missions, or you could completely ignore them. You could roam around, steal a bike, drive endlessly, listen to in-game radio, and just exist inside that virtual city.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: white; border-radius: 8px; border: 1px solid #e9ecef;">
-        <p><strong style="color: #764ba2;">Person B:</strong><br/>That's probably why those games stayed in our memory. You were fully present while playing them.</p>
-      </div>
+      <p><strong>Person B:</strong><br/>
+      That freedom was unreal. Games back then didn't rush you. They let you breathe.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f8f9fa; border-radius: 8px;">
-        <p style="margin-bottom: 1rem;"><strong style="color: #667eea;">Person A:</strong><br/>True. And while playing again now — even something as simple as Tag and Tag — I started thinking about something deeper.</p>
-        <p style="margin-bottom: 1rem;">All the GTA games we grew up with — Vice City, Liberty City, San Andreas — they're all based on the US. American cities, American culture, American problems. Miami-style nightlife, New York-style crime, Los Angeles-style gangs.</p>
-        <p>So the question hit me hard:<br/><strong style="color: #111827; font-size: 1.1rem;">Why is there no proper Indian version of a GTA-style game?</strong></p>
-      </div>
+      <p><strong>Person A:</strong><br/>
+      Exactly. And it wasn't only GTA. I also played Far Cry, and The Incredible Hulk. PC games had weight. You sat down properly. Keyboard, mouse, full attention. No notifications popping up every five seconds.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: white; border-radius: 8px; border: 1px solid #e9ecef;">
-        <p><strong style="color: #764ba2;">Person B:</strong><br/>That's honestly a very valid question. India has insane potential for open-world storytelling.</p>
-      </div>
+      <p><strong>Person B:</strong><br/>
+      That's probably why those games stayed in our memory. You were fully present while playing them.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f8f9fa; border-radius: 8px;">
-        <p style="margin-bottom: 1rem;"><strong style="color: #667eea;">Person A:</strong><br/>Exactly! Just look around us. Local trains packed beyond capacity. Endless traffic jams. Narrow streets. Power cuts. Political drama. Corruption. Festivals. Protests. Monsoons flooding cities.<br/>We already live in an open-world chaos simulator.</p>
-        <p>Yet most popular games here are like PUBG. It's popular, yes, but it's mostly just shooting. No strong story, no deep social reflection.</p>
-      </div>
+      <p><strong>Person A:</strong><br/>
+      True. And while playing again now — even something as simple as Tag and Tag — I started thinking about something deeper.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: white; border-radius: 8px; border: 1px solid #e9ecef;">
-        <p><strong style="color: #764ba2;">Person B:</strong><br/>GTA was never just about guns. It was satire. Society. Dark humor. Reality exaggerated.</p>
-      </div>
+      <p>All the GTA games we grew up with — Vice City, Liberty City, San Andreas — they're all based on the US. American cities, American culture, American problems. Miami-style nightlife, New York-style crime, Los Angeles-style gangs.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f8f9fa; border-radius: 8px;">
-        <p style="margin-bottom: 1rem;"><strong style="color: #667eea;">Person A:</strong><br/>Exactly. Imagine an Indian open-world game where missions involve surviving monsoon floods, navigating traffic instead of escaping police cars, dealing with bureaucracy, local gangs, elections, and everyday struggle.</p>
-        <p>The content already exists. The stories already exist.<br/>What's missing is vision, courage, and investment.</p>
-      </div>
+      <p>So the question hit me hard:<br/>
+      Why is there no proper Indian version of a GTA-style game?</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: white; border-radius: 8px; border: 1px solid #e9ecef;">
-        <p><strong style="color: #764ba2;">Person B:</strong><br/>And an understanding of players like us — people who grew up with PC games, not just mobile shooters.</p>
-      </div>
+      <p><strong>Person B:</strong><br/>
+      That's honestly a very valid question. India has insane potential for open-world storytelling.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f8f9fa; border-radius: 8px;">
-        <p style="margin-bottom: 1rem;"><strong style="color: #667eea;">Person A:</strong><br/>Yes. People think gaming is just time-pass. But sometimes, gaming is mental relief. Playing again didn't magically fix my stress. But it paused it. It gave my mind breathing space. That's something endless scrolling never gives.</p>
-      </div>
+      <p><strong>Person A:</strong><br/>
+      Exactly! Just look around us. Local trains packed beyond capacity. Endless traffic jams. Narrow streets. Power cuts. Political drama. Corruption. Festivals. Protests. Monsoons flooding cities. We already live in an open-world chaos simulator.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: white; border-radius: 8px; border: 1px solid #e9ecef;">
-        <p><strong style="color: #764ba2;">Person B:</strong><br/>Sometimes a pause is all you need to reset.</p>
-      </div>
+      <p>Yet most popular games here are like PUBG. It's popular, yes, but it's mostly just shooting. No strong story, no deep social reflection.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f8f9fa; border-radius: 8px;">
-        <p style="margin-bottom: 1rem;"><strong style="color: #667eea;">Person A:</strong><br/>Exactly. Until we see a true Indian open-world game — something rooted in our streets, our problems, our humour — we'll keep revisiting old classics and simple games.</p>
-        <p>Keyboard, mouse, or even a small mobile game — not for addiction, not for escape forever, but just to breathe for a while.</p>
-      </div>
+      <p><strong>Person B:</strong><br/>
+      GTA was never just about guns. It was satire. Society. Dark humor. Reality exaggerated.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: white; border-radius: 8px; border: 1px solid #e9ecef;">
-        <p><strong style="color: #764ba2;">Person B:</strong><br/>And who knows… maybe someday, the loading screen will say:<br/><strong style="color: #10b981;">An Indian Open-World Game.</strong></p>
-      </div>
+      <p><strong>Person A:</strong><br/>
+      Exactly. Imagine an Indian open-world game where missions involve surviving monsoon floods, navigating traffic instead of escaping police cars, dealing with bureaucracy, local gangs, elections, and everyday struggle.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f8f9fa; border-radius: 8px;">
-        <p><strong style="color: #667eea;">Person A:</strong><br/>That day, every gamer like us will feel seen.</p>
-      </div>
+      <p>The content already exists. The stories already exist. What's missing is vision, courage, and investment.</p>
+
+      <p><strong>Person B:</strong><br/>
+      And an understanding of players like us — people who grew up with PC games, not just mobile shooters.</p>
+
+      <p><strong>Person A:</strong><br/>
+      Yes. People think gaming is just time-pass. But sometimes, gaming is mental relief. Playing again didn't magically fix my stress. But it paused it. It gave my mind breathing space. That's something endless scrolling never gives.</p>
+
+      <p><strong>Person B:</strong><br/>
+      Sometimes a pause is all you need to reset.</p>
+
+      <p><strong>Person A:</strong><br/>
+      Exactly. Until we see a true Indian open-world game — something rooted in our streets, our problems, our humour — we'll keep revisiting old classics and simple games.</p>
+
+      <p>Keyboard, mouse, or even a small mobile game — not for addiction, not for escape forever, but just to breathe for a while.</p>
+
+      <p><strong>Person B:</strong><br/>
+      And who knows… maybe someday, the loading screen will say: An Indian Open-World Game.</p>
+
+      <p><strong>Person A:</strong><br/>
+      That day, every gamer like us will feel seen.</p>
     `
   },
 ];
