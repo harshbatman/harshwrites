@@ -60,6 +60,50 @@ export const articles = [
 
       <p>That move basically strangled Netscape. This wasn't kindness—this was strategic aggression.</p>
 
+      <div style="margin: 2rem 0; padding: 2rem; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 16px; border: 1px solid #dee2e6;">
+        <h4 style="color: #111827; text-align: center; margin-bottom: 1.5rem; font-size: 1.25rem; font-weight: 700;">The Browser Wars (1995-2002)</h4>
+        
+        <svg viewBox="0 0 800 400" style="width: 100%; height: auto; background: white; border-radius: 12px; padding: 20px;">
+          <!-- Grid lines -->
+          <line x1="60" y1="50" x2="60" y2="350" stroke="#e5e7eb" stroke-width="2"/>
+          <line x1="60" y1="350" x2="740" y2="350" stroke="#e5e7eb" stroke-width="2"/>
+          
+          <!-- Y-axis labels -->
+          <text x="45" y="60" font-size="12" fill="#6b7280" text-anchor="end">100%</text>
+          <text x="45" y="132" font-size="12" fill="#6b7280" text-anchor="end">75%</text>
+          <text x="45" y="205" font-size="12" fill="#6b7280" text-anchor="end">50%</text>
+          <text x="45" y="277" font-size="12" fill="#6b7280" text-anchor="end">25%</text>
+          <text x="45" y="350" font-size="12" fill="#6b7280" text-anchor="end">0%</text>
+          
+          <!-- X-axis labels -->
+          <text x="60" y="375" font-size="12" fill="#6b7280" text-anchor="middle">1995</text>
+          <text x="173" y="375" font-size="12" fill="#6b7280" text-anchor="middle">1996</text>
+          <text x="286" y="375" font-size="12" fill="#6b7280" text-anchor="middle">1997</text>
+          <text x="400" y="375" font-size="12" fill="#6b7280" text-anchor="middle">1998</text>
+          <text x="513" y="375" font-size="12" fill="#6b7280" text-anchor="middle">1999</text>
+          <text x="626" y="375" font-size="12" fill="#6b7280" text-anchor="middle">2000</text>
+          <text x="740" y="375" font-size="12" fill="#6b7280" text-anchor="middle">2002</text>
+          
+          <!-- Netscape Curve (Dropping dramatically) -->
+          <path d="M 60 89 L 173 118 L 286 205 L 400 248 L 513 321 L 626 335 L 740 345" 
+                fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round"/>
+          <text x="110" y="100" font-size="12" fill="#ef4444" font-weight="bold">Netscape (80% → 4%)</text>
+
+          <!-- IE Curve (Rising dramatically) -->
+          <path d="M 60 335 L 173 292 L 286 233 L 400 175 L 513 103 L 626 60 L 740 45" 
+                fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/>
+          <text x="580" y="80" font-size="12" fill="#2563eb" font-weight="bold">Internet Explorer (5% → 96%)</text>
+          
+          <!-- Intersection Point marker -->
+          <circle cx="310" cy="215" r="5" fill="#111827" stroke="white" stroke-width="2"/>
+          <text x="325" y="215" font-size="10" fill="#111827">1998: The Flip</text>
+        </svg>
+        
+        <p style="text-align: center; color: #4b5563; font-size: 0.875rem; margin-top: 1rem; font-style: italic;">
+          The moment Microsoft bundled IE with Windows, the battle was practically over.
+        </p>
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Word, Excel, Office: Lock Them In</h3>
 
       <p>Then came the silent killer—Microsoft Word, Excel, PowerPoint.</p>
