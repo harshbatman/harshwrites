@@ -260,6 +260,8 @@ export const articles = [
 
       <p>I had to stop myself from calling him out. It's AT & T, not AT & I.</p>
 
+      <p>In that moment, I honestly felt like he himself needed to attend a few lectures on his own subject. At some point, I genuinely believed I could teach the entire class better than him.</p>
+
       <p>That moment hit me hard. Even though I never liked attending classes regularly, whatever little motivation I had just went downhill after that.</p>
 
       <p>To be fair, there were a few genuinely good, cool professors. One of them was Mrs. Chanchal Hooda, our Language & Literature professor in the 1st and 2nd semester. Her classes were different—debates, discussions, real conversations. That's where I slowly killed my fear of public speaking. Before that, I was extremely shy and introverted. Her class changed that.</p>
