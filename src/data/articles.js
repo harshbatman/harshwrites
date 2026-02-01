@@ -232,9 +232,9 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Sequoia Capital Story</h3>
 
-      <p>There's this famous incident involving a founder from Sequoia Capital.</p>
+      <p>There's this famous story involving Sequoia Capital partner Michael Moritz.</p>
 
-      <p>Yeah. Someone noticed Bill Gates didn't even have a radio in his car.</p>
+      <p>Bill Gates shared with him that he didn't even have a radio in his car.</p>
 
       <p>When asked why, his answer was brutal in its simplicity.</p>
 
