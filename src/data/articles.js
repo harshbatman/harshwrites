@@ -264,7 +264,19 @@ export const articles = [
 
       <p>That moment hit me hard. Even though I never liked attending classes regularly, whatever little motivation I had just went downhill after that.</p>
 
-      <p>To be fair, there were a few genuinely good, cool professors. One of them was Mrs. Chanchal Hooda, our Language & Literature professor in the 1st and 2nd semester. Her classes were different—debates, discussions, real conversations. That's where I slowly killed my fear of public speaking. Before that, I was extremely shy and introverted. Her class changed that.</p>
+      <p>To be fair, there were a few genuinely good, cool professors. One of them was Mrs. Chanchal Hooda, our Language & Literature professor in the 1st and 2nd semester. Her classes were different—debates, discussions, real conversations, not just notes on a board. That's where I slowly killed my fear of public speaking.</p>
+
+      <p>Before that, I was extremely shy and introverted.</p>
+
+      <p>In one of her classes, we were debating dress code vs no dress code and 75% attendance—both of which were enforced in our university. I spoke continuously for at least 5–10 minutes, arguing against the dress code and the attendance rule. And yeah, I did it in English.</p>
+
+      <p>After the class, a lot of my classmates came up to me and said things like, "You nailed it, dude." It was kind of funny—someone who was too shy to even talk to people suddenly had people talking to him, and that too giving compliments.</p>
+
+      <p>Holy shit.</p>
+
+      <p>Those small moments boosted my confidence to another level. I went from barely speaking in class to standing at a podium, speaking in a hall full of people.</p>
+
+      <p>Sometimes, all it takes is one class, one teacher, and one moment to change the trajectory.</p>
 
       <p>But still, the infrastructure didn't match the academics.</p>
 
