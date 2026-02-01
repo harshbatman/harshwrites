@@ -7530,6 +7530,95 @@ export const articles = [
 
       <p><strong>Person B:</strong> Exactly. AI is attacking the lowest layer first—the work that’s rule-based and repetitive.</p>
 
+      <div style="margin: 2rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb;">
+        <p>A CRUD app developer is basically someone whose main job is to build simple, repetitive applications that only do four basic things with data:</p>
+        <ul style="list-style: none; padding-left: 0; font-family: monospace; font-size: 1.1rem;">
+          <li><strong>C</strong> – Create</li>
+          <li><strong>R</strong> – Read</li>
+          <li><strong>U</strong> – Update</li>
+          <li><strong>D</strong> – Delete</li>
+        </ul>
+        <p>That’s it.</p>
+      </div>
+
+      <p>Think of it like this 👇</p>
+
+      <p><strong>Person A:</strong> So what kind of apps are we talking about?</p>
+
+      <p><strong>Person B:</strong> Stuff like:</p>
+      <ul>
+        <li>A student record system</li>
+        <li>A todo list app</li>
+        <li>An admin panel to add/edit/delete products</li>
+        <li>A form that saves data and shows it in a table</li>
+      </ul>
+
+      <p style="background: #f3f4f6; padding: 1rem; border-radius: 8px; font-style: italic; text-align: center;">
+        Button dabaya → data save<br/>
+        Button dabaya → data show<br/>
+        Button dabaya → data update<br/>
+        Button dabaya → data delete
+      </p>
+
+      <p>No deep logic. No complex decisions.</p>
+
+      <h4 style="font-weight: 700; color: #111827; margin-top: 1.5rem;">What a CRUD app developer usually does</h4>
+      <ul>
+        <li>Builds forms</li>
+        <li>Connects frontend to backend APIs</li>
+        <li>Writes basic SQL queries</li>
+        <li>Uses a framework (React, Angular, Django, Laravel, etc.)</li>
+        <li>Copies patterns again and again</li>
+      </ul>
+
+      <p>Most of the time: <strong>Same structure, different labels.</strong></p>
+
+      <h4 style="font-weight: 700; color: #111827; margin-top: 1.5rem;">Why is this role at risk because of AI?</h4>
+      <p>Because AI is extremely good at:</p>
+      <ul>
+        <li>Generating CRUD APIs</li>
+        <li>Creating database schemas</li>
+        <li>Writing validation logic</li>
+        <li>Building basic UI forms</li>
+        <li>Even deploying the app</li>
+      </ul>
+
+      <p>You can literally say: <em>“Build a user management system with login, roles, and CRUD APIs”</em> …and AI will give you 80–90% working code. That’s why pure CRUD-only developers are vulnerable.</p>
+
+      <p><strong>Important: CRUD dev ≠ bad developer ❌</strong></p>
+
+      <p><strong>Person A:</strong> So does that mean CRUD developers are useless?</p>
+
+      <p><strong>Person B:</strong> No. Every developer starts here. We all did. The problem is staying there for years without growing.</p>
+
+      <h4 style="font-weight: 700; color: #111827; margin-top: 1.5rem;">How do we move beyond CRUD?</h4>
+      <p>If we only know: <strong>framework + forms + APIs</strong>, we’re replaceable.</p>
+      <p>But if we add:</p>
+      <ul>
+        <li>Business logic (rules, workflows)</li>
+        <li>Performance thinking</li>
+        <li>Security awareness</li>
+        <li>System design</li>
+        <li>Understanding why data flows</li>
+      </ul>
+      <p>then we’re not “CRUD developers” anymore—we’re engineers.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; border: 2px dashed #e5e7eb; border-radius: 12px;">
+        <h4 style="font-weight: 700; margin-top: 0;">Simple test to know where we stand</h4>
+        <p>Ask yourself:</p>
+        <ul>
+          <li>Can I explain why this API is designed this way?</li>
+          <li>Can I optimize this if users become 100x?</li>
+          <li>Can I spot security issues?</li>
+          <li>Can I redesign this without a framework?</li>
+        </ul>
+        <p>If not, we’re still stuck at CRUD level—and that’s okay for now, but not forever.</p>
+      </div>
+
+      <p style="font-weight: 700; color: #ef4444; border-left: 4px solid #ef4444; padding-left: 1rem;">
+        One-line truth (brutal but fair): AI replaces people who only do what can be described in a prompt. CRUD fits perfectly in a prompt.
+      </p>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Then What Jobs Will Survive (or Grow)?</h3>
 
       <p><strong>Person A:</strong> So what should we aim for?</p>
