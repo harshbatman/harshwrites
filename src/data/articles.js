@@ -7487,4 +7487,105 @@ export const articles = [
       <p>That day, every gamer like us will feel seen.</p>
     `
   },
+  {
+    id: "is-human-coding-dying",
+    views: 100,
+    publishDate: "2026-02-02",
+    title: "Is Human Coding Dying?",
+    author: "Harsh Mahto",
+    category: "Tech & Future",
+    date: "February 2026",
+    image: "/is-human-coding-dying.png",
+    excerpt: "Lately, I keep hearing this everywhere—“Why even learn frameworks? AI can build apps now.” A conversation on the shifting landscape of software engineering.",
+    content: `
+      <p><strong>Person A:</strong> Lately, I keep hearing this everywhere—“Why even learn frameworks? AI can build apps now.” And honestly… it’s scary. We spent years learning React, Angular, backend frameworks, libraries, best practices. Now one prompt and boom—working code.</p>
+
+      <p><strong>Person B:</strong> Yeah, but here’s the real question: Were we learning frameworks to build things… or just to stay relevant in the job market? Because those are two very different reasons.</p>
+
+      <p><strong>Person A:</strong> True. Earlier, if you wanted to build something, you had to learn everything—HTML, CSS, JavaScript, then a framework, then backend, then deployment. Now AI writes components, fixes bugs, even explains errors better than half the tutorials out there.</p>
+
+      <p><strong>Person B:</strong> Exactly. Frameworks aren’t disappearing—but their importance is changing. Earlier, knowing a framework meant you could build. Now, knowing why something should be built matters more than how it’s coded.</p>
+
+      <p><strong>Person A:</strong> So are we wasting time practicing frameworks?</p>
+
+      <p><strong>Person B:</strong> Not wasting—misusing time. Blindly grinding syntax and hooks without understanding fundamentals? That’s the mistake. AI is excellent at writing code. But it’s terrible at owning responsibility.</p>
+
+      <p><strong>Person A:</strong> Responsibility?</p>
+
+      <p><strong>Person B:</strong> Yeah. Understanding business logic. Making architectural decisions. Knowing why performance matters here, or security matters there. AI can suggest—but we decide.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">So… Which Jobs Are at Risk?</h3>
+
+      <p><strong>Person A:</strong> Let’s be honest. Some jobs are going to disappear.</p>
+
+      <p><strong>Person B:</strong> Yeah. The uncomfortable truth.</p>
+      <ul>
+        <li>Basic junior roles that only convert designs to code</li>
+        <li>Repetitive CRUD app developers</li>
+        <li>People who just copy from Stack Overflow without understanding</li>
+        <li>Entry-level testers who only do manual, predictable testing</li>
+      </ul>
+
+      <p><strong>Person A:</strong> That’s rough. Those were our entry points.</p>
+
+      <p><strong>Person B:</strong> Exactly. AI is attacking the lowest layer first—the work that’s rule-based and repetitive.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Then What Jobs Will Survive (or Grow)?</h3>
+
+      <p><strong>Person A:</strong> So what should we aim for?</p>
+
+      <p><strong>Person B:</strong> Roles where thinking matters more than typing.</p>
+      <ul>
+        <li>Engineers who understand systems, not just screens</li>
+        <li>People who can break real-world problems into logic</li>
+        <li>Backend + infra + performance thinkers</li>
+        <li>Security, scalability, data, AI alignment</li>
+        <li>Product-minded engineers who talk to users, not just IDEs</li>
+      </ul>
+
+      <p><strong>Person A:</strong> So not “React developer”… but “problem solver who uses React”?</p>
+
+      <p><strong>Person B:</strong> Exactly. Frameworks become tools. We become thinkers.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">How Do We Protect Ourselves?</h3>
+
+      <p><strong>Person A:</strong> So what do we actually do, practically?</p>
+
+      <p><strong>Person B:</strong> A few things—very real things:</p>
+      
+      <p><strong>1. Master fundamentals</strong><br/>
+      Data structures, algorithms, networking, databases, OS basics. AI uses these. If we don’t understand them, we can’t verify AI.</p>
+
+      <p><strong>2. Use AI as a teammate, not a crutch</strong><br/>
+      Let it generate code—but we review, refactor, and question it.</p>
+
+      <p><strong>3. Build real things</strong><br/>
+      Not tutorial clones. Real problems around us—college systems, local businesses, inefficiencies we see daily.</p>
+
+      <p><strong>4. Learn to read code better than write it</strong><br/>
+      In the AI era, code review is power.</p>
+
+      <p><strong>5. Think beyond coding</strong><br/>
+      Product sense, communication, decision-making—AI can’t replace that.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">So… Is Coding Still Worth Learning?</h3>
+
+      <p><strong>Person A:</strong> Final question. If someone starts today—should they even learn coding?</p>
+
+      <p><strong>Person B:</strong> Yes. But not the way we did.</p>
+      <ul>
+        <li>Not “Which framework should I learn?” but “How do systems work?”</li>
+        <li>Not “How fast can I code?” but “How well can I think?”</li>
+      </ul>
+
+      <p><strong>Person A:</strong> So coding isn’t dying.</p>
+
+      <p><strong>Person B:</strong> No. Keyboard warriors are. Thinkers aren’t.</p>
+
+      <p><strong>Person A:</strong> Looks like the future doesn’t belong to people who write the most code…</p>
+
+      <p><strong>Person B:</strong> …but to people who know what code should exist—and why.</p>
+    `
+  },
 ];
+
