@@ -276,6 +276,11 @@ export const articles = [
 
       <p>Those small moments boosted my confidence to another level. I went from barely speaking in class to standing at a podium, speaking in a hall full of people.</p>
 
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/debate-podium.jpg" alt="Speaking at a debate competition at MDU - from extremely shy to confident public speaker" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
+        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">From being too shy to talk to people, to standing at a podium and speaking in front of a hall full of people.</p>
+      </div>
+
       <p>Sometimes, all it takes is one class, one teacher, and one moment to change the trajectory.</p>
 
       <p>But still, the infrastructure didn't match the academics.</p>
