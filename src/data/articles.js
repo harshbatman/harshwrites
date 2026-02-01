@@ -7498,27 +7498,33 @@ export const articles = [
     image: "/is-human-coding-dying.jpg",
     excerpt: "Lately, I keep hearing this everywhere—“Why even learn frameworks? AI can build apps now.” A conversation on the shifting landscape of software engineering.",
     content: `
-      <p><strong>Person A:</strong> Lately, I keep hearing this everywhere—“Why even learn frameworks? AI can build apps now.” And honestly… it’s scary. We spent years learning React, Angular, backend frameworks, libraries, best practices. Now one prompt and boom—working code.</p>
+      <p>Lately, I keep hearing this everywhere—“Why even learn frameworks? AI can build apps now.” And honestly… it’s scary.</p>
 
-      <p><strong>Person B:</strong> Yeah, but here’s the real question: Were we learning frameworks to build things… or just to stay relevant in the job market? Because those are two very different reasons.</p>
+      <p>We spent years learning React, Angular, backend frameworks, libraries, best practices. Now one prompt and boom—working code.</p>
 
-      <p><strong>Person A:</strong> True. Earlier, if you wanted to build something, you had to learn everything—HTML, CSS, JavaScript, then a framework, then backend, then deployment. Now AI writes components, fixes bugs, even explains errors better than half the tutorials out there.</p>
+      <p>Yeah, but here’s the real question: Were we learning frameworks to build things… or just to stay relevant in the job market? Because those are two very different reasons.</p>
 
-      <p><strong>Person B:</strong> Exactly. Frameworks aren’t disappearing—but their importance is changing. Earlier, knowing a framework meant you could build. Now, knowing why something should be built matters more than how it’s coded.</p>
+      <p>True. Earlier, if you wanted to build something, you had to learn everything—HTML, CSS, JavaScript, then a framework, then backend, then deployment. Now AI writes components, fixes bugs, even explains errors better than half the tutorials out there.</p>
 
-      <p><strong>Person A:</strong> So are we wasting time practicing frameworks?</p>
+      <p>Exactly. Frameworks aren’t disappearing—but their importance is changing. Earlier, knowing a framework meant you could build. Now, knowing <em>why</em> something should be built matters more than <em>how</em> it’s coded.</p>
 
-      <p><strong>Person B:</strong> Not wasting—misusing time. Blindly grinding syntax and hooks without understanding fundamentals? That’s the mistake. AI is excellent at writing code. But it’s terrible at owning responsibility.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fdf2f2; border-left: 4px solid #ef4444; border-radius: 4px;">
+        <p style="margin: 0; color: #991b1b; font-weight: 600;">The framework isn't the skill anymore. The logic is.</p>
+      </div>
 
-      <p><strong>Person A:</strong> Responsibility?</p>
+      <p>So are we wasting time practicing frameworks?</p>
 
-      <p><strong>Person B:</strong> Yeah. Understanding business logic. Making architectural decisions. Knowing why performance matters here, or security matters there. AI can suggest—but we decide.</p>
+      <p>Not wasting—misusing time. Blindly grinding syntax and hooks without understanding fundamentals? That’s the mistake. AI is excellent at writing code. But it’s terrible at owning responsibility.</p>
+
+      <p>Responsibility?</p>
+
+      <p>Yeah. Understanding business logic. Making architectural decisions. Knowing why performance matters here, or security matters there. AI can suggest—but we decide.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">So… Which Jobs Are at Risk?</h3>
 
-      <p><strong>Person A:</strong> Let’s be honest. Some jobs are going to disappear.</p>
+      <p>Let’s be honest. Some jobs are going to disappear.</p>
 
-      <p><strong>Person B:</strong> Yeah. The uncomfortable truth.</p>
+      <p>Yeah. The uncomfortable truth.</p>
       <ul>
         <li>Basic junior roles that only convert designs to code</li>
         <li>Repetitive CRUD app developers</li>
@@ -7526,104 +7532,46 @@ export const articles = [
         <li>Entry-level testers who only do manual, predictable testing</li>
       </ul>
 
-      <p><strong>Person A:</strong> That’s rough. Those were our entry points.</p>
+      <p>That’s rough. Those were our entry points.</p>
 
-      <p><strong>Person B:</strong> Exactly. AI is attacking the lowest layer first—the work that’s rule-based and repetitive.</p>
+      <p>Exactly. AI is attacking the lowest layer first—the work that’s rule-based and repetitive.</p>
 
       <div style="margin: 2rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb;">
+        <h4 style="font-weight: 700; color: #111827; margin-top: 0;">What is a CRUD Developer?</h4>
         <p>A CRUD app developer is basically someone whose main job is to build simple, repetitive applications that only do four basic things with data:</p>
-        <ul style="list-style: none; padding-left: 0; font-family: monospace; font-size: 1.1rem;">
+        <ul style="list-style: none; padding-left: 0; font-family: monospace; font-size: 1.1rem; color: #4b5563;">
           <li><strong>C</strong> – Create</li>
           <li><strong>R</strong> – Read</li>
           <li><strong>U</strong> – Update</li>
           <li><strong>D</strong> – Delete</li>
         </ul>
-        <p>That’s it.</p>
+        <p style="background: #f3f4f6; padding: 1rem; border-radius: 8px; font-style: italic; text-align: center; margin-top: 1rem;">
+          Button dabaya → data save<br/>
+          Button dabaya → data show<br/>
+          Button dabaya → data update<br/>
+          Button dabaya → data delete
+        </p>
       </div>
 
-      <p>Think of it like this 👇</p>
+      <p>So what kind of apps are we talking about?</p>
 
-      <p><strong>Person A:</strong> So what kind of apps are we talking about?</p>
+      <p>Stuff like student record systems, todo lists, or basic admin panels. No deep logic. No complex decisions. Most of the time, it's the same structure, just different labels.</p>
 
-      <p><strong>Person B:</strong> Stuff like:</p>
-      <ul>
-        <li>A student record system</li>
-        <li>A todo list app</li>
-        <li>An admin panel to add/edit/delete products</li>
-        <li>A form that saves data and shows it in a table</li>
-      </ul>
+      <p>And that's why it's at risk. AI is extremely good at generating CRUD APIs, schemas, and validation logic. You can literally say: <em>“Build a user management system with login, roles, and CRUD APIs”</em> …and AI will give you 80–90% working code.</p>
 
-      <p style="background: #f3f4f6; padding: 1rem; border-radius: 8px; font-style: italic; text-align: center;">
-        Button dabaya → data save<br/>
-        Button dabaya → data show<br/>
-        Button dabaya → data update<br/>
-        Button dabaya → data delete
-      </p>
-
-      <p>No deep logic. No complex decisions.</p>
-
-      <h4 style="font-weight: 700; color: #111827; margin-top: 1.5rem;">What a CRUD app developer usually does</h4>
-      <ul>
-        <li>Builds forms</li>
-        <li>Connects frontend to backend APIs</li>
-        <li>Writes basic SQL queries</li>
-        <li>Uses a framework (React, Angular, Django, Laravel, etc.)</li>
-        <li>Copies patterns again and again</li>
-      </ul>
-
-      <p>Most of the time: <strong>Same structure, different labels.</strong></p>
-
-      <h4 style="font-weight: 700; color: #111827; margin-top: 1.5rem;">Why is this role at risk because of AI?</h4>
-      <p>Because AI is extremely good at:</p>
-      <ul>
-        <li>Generating CRUD APIs</li>
-        <li>Creating database schemas</li>
-        <li>Writing validation logic</li>
-        <li>Building basic UI forms</li>
-        <li>Even deploying the app</li>
-      </ul>
-
-      <p>You can literally say: <em>“Build a user management system with login, roles, and CRUD APIs”</em> …and AI will give you 80–90% working code. That’s why pure CRUD-only developers are vulnerable.</p>
-
-      <p><strong>Important: CRUD dev ≠ bad developer ❌</strong></p>
-
-      <p><strong>Person A:</strong> So does that mean CRUD developers are useless?</p>
-
-      <p><strong>Person B:</strong> No. Every developer starts here. We all did. The problem is staying there for years without growing.</p>
-
-      <h4 style="font-weight: 700; color: #111827; margin-top: 1.5rem;">How do we move beyond CRUD?</h4>
-      <p>If we only know: <strong>framework + forms + APIs</strong>, we’re replaceable.</p>
-      <p>But if we add:</p>
-      <ul>
-        <li>Business logic (rules, workflows)</li>
-        <li>Performance thinking</li>
-        <li>Security awareness</li>
-        <li>System design</li>
-        <li>Understanding why data flows</li>
-      </ul>
-      <p>then we’re not “CRUD developers” anymore—we’re engineers.</p>
-
-      <div style="margin: 2rem 0; padding: 1.5rem; border: 2px dashed #e5e7eb; border-radius: 12px;">
-        <h4 style="font-weight: 700; margin-top: 0;">Simple test to know where we stand</h4>
-        <p>Ask yourself:</p>
-        <ul>
-          <li>Can I explain why this API is designed this way?</li>
-          <li>Can I optimize this if users become 100x?</li>
-          <li>Can I spot security issues?</li>
-          <li>Can I redesign this without a framework?</li>
-        </ul>
-        <p>If not, we’re still stuck at CRUD level—and that’s okay for now, but not forever.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffbeb; border-left: 4px solid #f59e0b; border-radius: 4px;">
+        <p style="margin: 0; color: #92400e; font-weight: 600;">AI replaces people who only do what can be described in a prompt. CRUD fits perfectly in a prompt.</p>
       </div>
 
-      <p style="font-weight: 700; color: #ef4444; border-left: 4px solid #ef4444; padding-left: 1rem;">
-        One-line truth (brutal but fair): AI replaces people who only do what can be described in a prompt. CRUD fits perfectly in a prompt.
-      </p>
+      <p>So does that mean CRUD developers are useless?</p>
+
+      <p>No. Every developer starts here. We all did. The problem is staying there for years without growing.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Then What Jobs Will Survive (or Grow)?</h3>
 
-      <p><strong>Person A:</strong> So what should we aim for?</p>
+      <p>So what should we aim for?</p>
 
-      <p><strong>Person B:</strong> Roles where thinking matters more than typing.</p>
+      <p>Roles where thinking matters more than typing.</p>
       <ul>
         <li>Engineers who understand systems, not just screens</li>
         <li>People who can break real-world problems into logic</li>
@@ -7632,15 +7580,15 @@ export const articles = [
         <li>Product-minded engineers who talk to users, not just IDEs</li>
       </ul>
 
-      <p><strong>Person A:</strong> So not “React developer”… but “problem solver who uses React”?</p>
+      <p>So not “React developer”… but “problem solver who uses React”?</p>
 
-      <p><strong>Person B:</strong> Exactly. Frameworks become tools. We become thinkers.</p>
+      <p>Exactly. Frameworks become tools. We become thinkers.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">How Do We Protect Ourselves?</h3>
 
-      <p><strong>Person A:</strong> So what do we actually do, practically?</p>
+      <p>So what do we actually do, practically?</p>
 
-      <p><strong>Person B:</strong> A few things—very real things:</p>
+      <p>A few things—very real things:</p>
       
       <p><strong>1. Master fundamentals</strong><br/>
       Data structures, algorithms, networking, databases, OS basics. AI uses these. If we don’t understand them, we can’t verify AI.</p>
@@ -7657,23 +7605,34 @@ export const articles = [
       <p><strong>5. Think beyond coding</strong><br/>
       Product sense, communication, decision-making—AI can’t replace that.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; border: 2px dashed #e5e7eb; border-radius: 12px;">
+        <h4 style="font-weight: 700; margin-top: 0;">Simple test to know where we stand</h4>
+        <p>Ask yourself:</p>
+        <ul>
+          <li>Can I explain why this API is designed this way?</li>
+          <li>Can I optimize this if users become 100x?</li>
+          <li>Can I spot security issues?</li>
+          <li>Can I redesign this without a framework?</li>
+        </ul>
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">So… Is Coding Still Worth Learning?</h3>
 
-      <p><strong>Person A:</strong> Final question. If someone starts today—should they even learn coding?</p>
+      <p>Final question. If someone starts today—should they even learn coding?</p>
 
-      <p><strong>Person B:</strong> Yes. But not the way we did.</p>
+      <p>Yes. But not the way we did.</p>
       <ul>
         <li>Not “Which framework should I learn?” but “How do systems work?”</li>
         <li>Not “How fast can I code?” but “How well can I think?”</li>
       </ul>
 
-      <p><strong>Person A:</strong> So coding isn’t dying.</p>
+      <p>So coding isn’t dying.</p>
 
-      <p><strong>Person B:</strong> No. Keyboard warriors are. Thinkers aren’t.</p>
+      <p>No. Keyboard warriors are. Thinkers aren’t.</p>
 
-      <p><strong>Person A:</strong> Looks like the future doesn’t belong to people who write the most code…</p>
+      <p>Looks like the future doesn’t belong to people who write the most code…</p>
 
-      <p><strong>Person B:</strong> …but to people who know what code should exist—and why.</p>
+      <p>…but to people who know what code should exist—and why.</p>
     `
   },
 ];
