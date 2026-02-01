@@ -707,7 +707,7 @@ export const articles = [
 
       <div style="margin: 2rem 0; text-align: center;">
         <img src="/surrender-1971.jpg" alt="Signing of the Instrument of Surrender, 1971" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
-        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">The Instrument of unconditional Surrender being signed on 16 December 1971 in Dhaka.</p>
+        <p style="font-size: 0.85rem; color: #6b7280; margin-top: 0.5rem; font-style: italic;">The Instrument of Pakistan's unconditional Surrender being signed on 16 December 1971 in Dhaka.</p>
       </div>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">6. Knowing when to stop</h3>
