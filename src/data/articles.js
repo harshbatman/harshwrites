@@ -7495,7 +7495,7 @@ export const articles = [
     author: "Harsh Mahto",
     category: "Tech & Future",
     date: "February 2026",
-    image: "/is-human-coding-dying.png",
+    image: "/is-human-coding-dying.jpg",
     excerpt: "Lately, I keep hearing this everywhere—“Why even learn frameworks? AI can build apps now.” A conversation on the shifting landscape of software engineering.",
     content: `
       <p><strong>Person A:</strong> Lately, I keep hearing this everywhere—“Why even learn frameworks? AI can build apps now.” And honestly… it’s scary. We spent years learning React, Angular, backend frameworks, libraries, best practices. Now one prompt and boom—working code.</p>
