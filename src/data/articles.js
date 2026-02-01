@@ -87,14 +87,14 @@ export const articles = [
           <!-- Netscape Curve (Dropping dramatically) -->
           <path d="M 60 89 L 173 118 L 286 205 L 400 248 L 513 321 L 626 335 L 740 345" 
                 fill="none" stroke="#ef4444" stroke-width="4" stroke-linecap="round"/>
-          <image href="/netscape-logo.png" x="80" y="60" height="40" width="40" />
-          <text x="130" y="85" font-size="12" fill="#ef4444" font-weight="bold">Netscape (80% → 4%)</text>
+          <image href="/netscape-logo.png" x="80" y="50" height="40" width="40" />
+          <text x="130" y="75" font-size="12" fill="#ef4444" font-weight="bold">Netscape (80% → 4%)</text>
 
           <!-- IE Curve (Rising dramatically) -->
           <path d="M 60 335 L 173 292 L 286 233 L 400 175 L 513 103 L 626 60 L 740 45" 
                 fill="none" stroke="#2563eb" stroke-width="4" stroke-linecap="round"/>
-          <image href="/ie-logo.jpg" x="550" y="30" height="40" width="40" />
-          <text x="600" y="55" font-size="12" fill="#2563eb" font-weight="bold">Internet Explorer (5% → 96%)</text>
+          <image href="/ie-logo.jpg" x="550" y="90" height="40" width="40" />
+          <text x="600" y="115" font-size="12" fill="#2563eb" font-weight="bold">Internet Explorer (5% → 96%)</text>
           
           <!-- Intersection Point marker -->
           <circle cx="310" cy="215" r="5" fill="#111827" stroke="white" stroke-width="2"/>
