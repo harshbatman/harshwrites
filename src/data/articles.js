@@ -213,6 +213,80 @@ export const articles = [
       <p>And the harsh truth for us?</p>
 
       <p>If you're building on someone else's platform—always remember: you're a guest, not the owner.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Hidden Weapon: Bill Gates' Ruthless Focus</h3>
+
+      <p>You know, all these strategies—IBM deal, Windows monopoly, browser wars—they didn't happen automatically.</p>
+
+      <p>True. Behind all of it was one thing people underestimate: Bill Gates' focus was insane.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">No Off Days. Literally.</h3>
+
+      <p>By today's standards, Bill Gates' work culture would be called toxic.</p>
+
+      <p>No weekends. No holidays. No "mental health breaks." Just code, strategy, meetings, repeat.</p>
+
+      <p>He used to say that if Microsoft fell behind even one day, competitors would catch up.</p>
+
+      <p>That fear kept him sharp—and ruthless.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Sequoia Capital Story</h3>
+
+      <p>There's this famous incident involving a founder from Sequoia Capital.</p>
+
+      <p>Yeah. Someone noticed Bill Gates didn't even have a radio in his car.</p>
+
+      <p>When asked why, his answer was brutal in its simplicity.</p>
+
+      <p>"If I listen to the radio, I won't be thinking about Microsoft."</p>
+
+      <p>Think about that for a second.</p>
+
+      <p>No music. No news. No distraction. Just problem-solving—even while driving.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Obsession, Not Balance</h3>
+
+      <p>People love talking about work-life balance today.</p>
+
+      <p>Bill Gates was the opposite. He believed obsession beats balance—at least in the early years.</p>
+
+      <p>He read competitors' code. He reviewed products line by line. He remembered who shipped what—and when.</p>
+
+      <p>Developers feared his meetings. If your logic was weak, he'd tear it apart.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Why This Focus Mattered</h3>
+
+      <p>This level of focus explains why Microsoft reacted so fast.</p>
+
+      <p>Netscape rising? Browser war starts.<br/>
+      IBM drifting? Microsoft gains leverage.<br/>
+      Developers winning? Microsoft builds its own version.</p>
+
+      <p>Platforms don't dominate accidentally.</p>
+
+      <p>They dominate when the person at the top is mentally present 24/7.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Lesson for Us (Reality Check)</h3>
+
+      <p>Now, should we copy Bill Gates' lifestyle exactly?</p>
+
+      <p>No. Different times. Different costs.</p>
+
+      <p>But the lesson still stands.</p>
+
+      <p>World-changing companies are not built casually.</p>
+
+      <p>Microsoft wasn't a side project.</p>
+
+      <p>It was Bill Gates' entire mental universe.</p>
+
+      <p>So when we talk about Microsoft taking over the world—</p>
+
+      <p>We're really talking about strategy powered by obsession.</p>
+
+      <p>Platforms, deals, copying, bundling—all tools.</p>
+
+      <p>But focus? That was the engine.</p>
     `
   },
 
