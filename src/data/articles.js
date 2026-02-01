@@ -7003,9 +7003,13 @@ export const articles = [
 
       <p>Exactly. And while playing, something strange happened. It didn't feel like just a game. It felt like I was going back in time — straight into my childhood.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Coin-Op Era</h3>
+
       <p>When I was a kid, we used to have those coin-operated games. You remember them, right? Small shops, hardware stores, local gaming corners. You'd put a coin in, grab the joystick, and for a few minutes, the whole world outside disappeared.</p>
 
       <p>Yeah, that era was special. No smartphones, no constant distraction. Just pure excitement.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Golden Age of PC Gaming</h3>
 
       <p>And at home, we had a computer. Later, a laptop. That's where real gaming started for me. I used to play Grand Theft Auto: Vice City, Grand Theft Auto III — which was set in Liberty City — and Grand Theft Auto: San Andreas.</p>
 
@@ -7017,11 +7021,15 @@ export const articles = [
 
       <p>That's probably why those games stayed in our memory. You were fully present while playing them.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Question That Hit Me</h3>
+
       <p>True. And while playing again now — even something as simple as Tekken Tag Tournament — I started thinking about something deeper.</p>
 
       <p>All the GTA games we grew up with — Vice City, Liberty City, San Andreas — they're all based on the US. American cities, American culture, American problems. Miami-style nightlife, New York-style crime, Los Angeles-style gangs.</p>
 
       <p>So the question hit me hard: Why is there no proper Indian version of a GTA-style game?</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">India's Open-World Potential</h3>
 
       <p>That's honestly a very valid question. India has insane potential for open-world storytelling.</p>
 
@@ -7035,11 +7043,15 @@ export const articles = [
 
       <p>The content already exists. The stories already exist. What's missing is vision, courage, and investment.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Gaming as Mental Relief</h3>
+
       <p>And an understanding of players like us — people who grew up with PC games, not just mobile shooters.</p>
 
       <p>Yes. People think gaming is just time-pass. But sometimes, gaming is mental relief. Playing again didn't magically fix my stress. But it paused it. It gave my mind breathing space. That's something endless scrolling never gives.</p>
 
       <p>Sometimes a pause is all you need to reset.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Waiting for That Loading Screen</h3>
 
       <p>Exactly. Until we see a true Indian open-world game — something rooted in our streets, our problems, our humour — we'll keep revisiting old classics and simple games.</p>
 
