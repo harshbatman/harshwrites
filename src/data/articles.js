@@ -250,9 +250,37 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Finding My Routine</h3>
 
-      <p>After that, I started running. There is a big ground in MDU, just beside the running track. It's quiet in the morning. I stay in the hostel, so I wake up silently, put my earbuds in, turn the music on, and leave before anyone notices.</p>
+      <p>After that, I started running.</p>
 
-      <p>Some days I run properly. Some days I just walk. But I show up every day. That was more important than speed or distance.</p>
+      <p>There's a huge ground in MDU—big, like really fucking big. The university itself is massive, but honestly, it lacks academic standards. Most professors weren't that good. I think you already know where I'm going with this, but let me tell you about the first class I ever attended.</p>
+
+      <p>It was PPS—Programming for Problem Solving. The professor was teaching straight from his notes. I don't even remember the exact topic—something about technology history, maybe phones. On the whiteboard, he wrote (or said) "AT & I."</p>
+
+      <p>I remember thinking, what the hell is AT & I? That's AT&T—American Telephone and Telegraph.</p>
+
+      <p>I had to stop myself from calling him out. It's AT & T, not AT & I.</p>
+
+      <p>That moment hit me hard. Even though I never liked attending classes regularly, whatever little motivation I had just went downhill after that.</p>
+
+      <p>To be fair, there were a few genuinely good, cool professors. One of them was Mrs. Chanchal Hooda, our Language & Literature professor in the 1st and 2nd semester. Her classes were different—debates, discussions, real conversations. That's where I slowly killed my fear of public speaking. Before that, I was extremely shy and introverted. Her class changed that.</p>
+
+      <p>But still, the infrastructure didn't match the academics.</p>
+
+      <p>The university campus is fucking huge—around 665 acres. And honestly, that's awesome, especially for someone who doesn't attend classes regularly.</p>
+
+      <p>Yes, I'm talking about myself.</p>
+
+      <p>Just beside the running track, early in the morning, it's quiet. I live in the hostel, so I wake up silently, put my earbuds in, turn the music on, and leave before anyone notices.</p>
+
+      <p>Some days, I run properly.<br/>
+      Some days, I just walk.</p>
+
+      <p>But I show up every single day.</p>
+
+      <p>And that mattered more than speed.<br/>
+      More than distance.</p>
+
+      <p>Just showing up was enough.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Results</h3>
 
