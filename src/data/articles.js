@@ -7440,7 +7440,7 @@ export const articles = [
 
       <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; margin: 2rem 0; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);">
         <iframe 
-          src="https://drive.google.com/file/d/1ymTttB7P7xMImdICkbtc-SGUkk8yjTOu/preview" 
+          src="https://drive.google.com/file/d/1qACSN-AQKIOdwz9z8wCQmkFToXZcoGLf/preview" 
           style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
           allow="autoplay"
           loading="lazy">
