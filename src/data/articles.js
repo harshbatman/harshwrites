@@ -328,11 +328,11 @@ export const articles = [
           <line x1="80" y1="320" x2="740" y2="320" stroke="#e5e7eb" stroke-width="2"/>
           
           <!-- Y-axis labels (kg) -->
-          <text x="50" y="60" font-size="14" fill="#6b7280" text-anchor="end">90</text>
-          <text x="50" y="125" font-size="14" fill="#6b7280" text-anchor="end">82</text>
-          <text x="50" y="190" font-size="14" fill="#6b7280" text-anchor="end">75</text>
-          <text x="50" y="255" font-size="14" fill="#6b7280" text-anchor="end">68</text>
-          <text x="50" y="320" font-size="14" fill="#6b7280" text-anchor="end">60</text>
+          <text x="50" y="60" font-size="14" fill="#6b7280" text-anchor="end">86</text>
+          <text x="50" y="125" font-size="14" fill="#6b7280" text-anchor="end">81</text>
+          <text x="50" y="190" font-size="14" fill="#6b7280" text-anchor="end">76</text>
+          <text x="50" y="255" font-size="14" fill="#6b7280" text-anchor="end">71</text>
+          <text x="50" y="320" font-size="14" fill="#6b7280" text-anchor="end">66</text>
           
           <!-- X-axis labels (months) -->
           <text x="110" y="345" font-size="12" fill="#6b7280" text-anchor="middle">Month 1</text>
@@ -343,25 +343,25 @@ export const articles = [
           <text x="660" y="345" font-size="12" fill="#6b7280" text-anchor="middle">Month 6</text>
           <text x="740" y="345" font-size="12" fill="#6b7280" text-anchor="middle">Month 7</text>
           
-          <!-- Weight loss curve -->
-          <path d="M 80 60 L 110 75 L 220 110 L 330 150 L 440 190 L 550 225 L 660 255 L 740 275" 
+          <!-- Weight loss curve (86kg to 66kg) -->
+          <path d="M 80 60 L 110 85 L 220 125 L 330 165 L 440 205 L 550 245 L 660 280 L 740 305" 
                 fill="none" stroke="url(#gradient)" stroke-width="4" stroke-linecap="round"/>
           
           <!-- Data points -->
           <circle cx="80" cy="60" r="6" fill="#667eea" stroke="white" stroke-width="2"/>
-          <circle cx="110" cy="75" r="6" fill="#667eea" stroke="white" stroke-width="2"/>
-          <circle cx="220" cy="110" r="6" fill="#667eea" stroke="white" stroke-width="2"/>
-          <circle cx="330" cy="150" r="6" fill="#667eea" stroke="white" stroke-width="2"/>
-          <circle cx="440" cy="190" r="6" fill="#667eea" stroke="white" stroke-width="2"/>
-          <circle cx="550" cy="225" r="6" fill="#667eea" stroke="white" stroke-width="2"/>
-          <circle cx="660" cy="255" r="6" fill="#667eea" stroke="white" stroke-width="2"/>
-          <circle cx="740" cy="275" r="6" fill="#667eea" stroke="white" stroke-width="2"/>
+          <circle cx="110" cy="85" r="6" fill="#667eea" stroke="white" stroke-width="2"/>
+          <circle cx="220" cy="125" r="6" fill="#667eea" stroke="white" stroke-width="2"/>
+          <circle cx="330" cy="165" r="6" fill="#667eea" stroke="white" stroke-width="2"/>
+          <circle cx="440" cy="205" r="6" fill="#667eea" stroke="white" stroke-width="2"/>
+          <circle cx="550" cy="245" r="6" fill="#667eea" stroke="white" stroke-width="2"/>
+          <circle cx="660" cy="280" r="6" fill="#667eea" stroke="white" stroke-width="2"/>
+          <circle cx="740" cy="305" r="6" fill="#667eea" stroke="white" stroke-width="2"/>
           
           <!-- Starting weight label -->
-          <text x="80" y="40" font-size="12" fill="#667eea" font-weight="bold" text-anchor="middle">Start: 90kg</text>
+          <text x="80" y="40" font-size="12" fill="#667eea" font-weight="bold" text-anchor="middle">Start: 86kg</text>
           
           <!-- Current weight label -->
-          <text x="740" y="295" font-size="12" fill="#10b981" font-weight="bold" text-anchor="middle">Now: 65kg</text>
+          <text x="740" y="295" font-size="12" fill="#10b981" font-weight="bold" text-anchor="middle">Now: 66kg</text>
           
           <!-- Gradient definition -->
           <defs>
@@ -374,7 +374,7 @@ export const articles = [
         
         <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin-top: 1.5rem; text-align: center;">
           <div style="background: rgba(255,255,255,0.15); padding: 1rem; border-radius: 8px; backdrop-filter: blur(10px);">
-            <div style="font-size: 2rem; font-weight: bold; color: white;">25kg</div>
+            <div style="font-size: 2rem; font-weight: bold; color: white;">20kg</div>
             <div style="font-size: 0.875rem; color: rgba(255,255,255,0.9);">Total Weight Lost</div>
           </div>
           <div style="background: rgba(255,255,255,0.15); padding: 1rem; border-radius: 8px; backdrop-filter: blur(10px);">
