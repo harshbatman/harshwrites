@@ -1,4 +1,116 @@
 export const articles = [
+  {
+    id: "how-microsoft-took-over-the-world",
+    views: 0,
+    publishDate: "2026-02-01",
+    title: "How Microsoft Took Over the World",
+    author: "Harsh Mahto",
+    category: "Business & Technology",
+    date: "1 Feb 2026",
+    image: "/microsoft-takeover.jpg",
+    excerpt: "You know what fascinates me the most? Microsoft didn't 'invent everything.' They outplayed everyone. That's how they took over the world.",
+    content: `
+      <p>You know what fascinates me the most? Microsoft didn't "invent everything." They outplayed everyone. That's how they took over the world.</p>
+
+      <p>Exactly. And that's the part we Indians really understand—jugaad with vision. People think Microsoft won because of tech. No. They won because of business strategy, timing, and control.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The IBM Deal That Changed Everything</h3>
+
+      <p>Let's start from the beginning. Early 1980s. IBM was the king of computers. Everyone trusted IBM.</p>
+
+      <p>And IBM needed an operating system for their personal computer. So they went to Microsoft. Here's the wild part—Microsoft didn't even have an OS at that time.</p>
+
+      <p>Yet they said, "Yes, we can do it." Classic confidence move.</p>
+
+      <p>They bought a basic OS, modified it, and named it MS-DOS. But the real masterstroke?</p>
+
+      <p>They did not sell DOS to IBM. They licensed it.</p>
+
+      <p>Exactly. That one clause meant Microsoft could sell the same software to other PC manufacturers. IBM thought hardware mattered. Microsoft knew software scales.</p>
+
+      <p>So while IBM sold one type of machine, Microsoft sold DOS to everyone making IBM-compatible PCs.</p>
+
+      <p>That's where the world tilted.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Windows: Control the Platform, Control the World</h3>
+
+      <p>Then came Windows.</p>
+
+      <p>Windows wasn't the first graphical interface. Not even the best.</p>
+
+      <p>But it ran on cheap hardware. That's key for markets like ours.</p>
+
+      <p>And Microsoft let other developers build on Windows. Thousands of companies started depending on it.</p>
+
+      <p>Once developers depend on you, users follow. Once users follow, competitors die slowly.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Browser War: Crush or Be Crushed</h3>
+
+      <p>Now let's talk about the brutal part—the browser war.</p>
+
+      <p>Ah yes, Netscape. At one point, Netscape owned the internet.</p>
+
+      <p>Microsoft panicked. Because browsers meant control of the future.</p>
+
+      <p>So what did they do? They bundled Internet Explorer for free with Windows.</p>
+
+      <p>Not better. Just free and pre-installed.</p>
+
+      <p>Users didn't download Netscape because why bother?</p>
+
+      <p>That move basically strangled Netscape. This wasn't kindness—this was strategic aggression.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Word, Excel, Office: Lock Them In</h3>
+
+      <p>Then came the silent killer—Microsoft Word, Excel, PowerPoint.</p>
+
+      <p>Individually good products. Together? A trap.</p>
+
+      <p>File formats became standards. If your office uses Word, everyone must use Word.</p>
+
+      <p>Switching costs became painful. Training, compatibility, workflows—everything tied to Microsoft.</p>
+
+      <p>That's not selling software. That's building dependency.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Let Others Innovate, Then Copy Them</h3>
+
+      <p>Microsoft's most controversial strategy? Let others innovate.</p>
+
+      <p>Watch what works.</p>
+
+      <p>Then build their own version and bundle it deeply into Windows.</p>
+
+      <p>Media players, browsers, email clients—pattern repeated again and again.</p>
+
+      <p>People call it copying. Businesses call it defensive survival.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Why This Worked Especially Well for Us</h3>
+
+      <p>Let's be honest—Microsoft won in countries like India because of affordability and availability.</p>
+
+      <p>Pirated or licensed, Windows ran everywhere—from cyber cafés to government offices.</p>
+
+      <p>And once schools, offices, and colleges standardized on Microsoft tools, it became permanent.</p>
+
+      <p>You don't fight ecosystems. You join them.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Real Lesson for Us</h3>
+
+      <p>Microsoft didn't win because they were always first.</p>
+
+      <p>They won because they controlled distribution, platforms, and defaults.</p>
+
+      <p>They partnered smartly, licensed cleverly, bundled aggressively, and crushed threats early.</p>
+
+      <p>Love them or hate them—this is one of the greatest business takeovers in human history.</p>
+
+      <p>And the lesson for us?</p>
+
+      <p>Don't just build a product.<br/>
+      Build a platform.<br/>
+      Then let the world build on you.</p>
+    `
+  },
 
   {
     id: "rent-vs-buy",
