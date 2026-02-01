@@ -232,9 +232,11 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Sequoia Capital Story</h3>
 
-      <p>There's this famous story involving Sequoia Capital partner Michael Moritz.</p>
+      <p>When Michael Moritz was researching Microsoft in the early days (before writing <em>The Little Kingdom</em>), he spent time closely observing Bill Gates.</p>
 
-      <p>Bill Gates shared with him that he didn't even have a radio in his car.</p>
+      <p>After one of Moritz’s visits, Bill Gates personally drove him to the airport. No assistant. No driver. Just Gates himself.</p>
+
+      <p>Moritz later mentioned this moment because it surprised him. But what stood out even more was when he noticed Gates didn't even have a radio in his car.</p>
 
       <p>When asked why, his answer was brutal in its simplicity.</p>
 
