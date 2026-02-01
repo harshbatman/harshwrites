@@ -659,7 +659,7 @@ export const articles = [
 
       <p>In one of her classes, we were debating dress code vs no dress code and 75% attendance—both of which were enforced in our university. I spoke continuously for at least 5–10 minutes, arguing against the dress code and the attendance rule. And yeah, I did it in English.</p>
 
-      <p>After the class, a lot of my classmates came up to me and said things like, "You nailed it, dude." It was kind of funny—someone who was too shy to even talk to people suddenly had people talking to him, and that too giving compliments.</p>
+      <p>After the class, a lot of my classmates came up to me and said things like, <em>"g**d fad speech bhai maja aa gaya"</em>, <em>"m** c**d diya bhaiya ji"</em>, <em>"garda uddda diya harsh"</em> — which basically means "You nailed it, dude." It was kind of funny—someone who was too shy to even talk to people suddenly had people talking to him, and that too giving compliments.</p>
 
       <p>Holy shit.</p>
 
