@@ -7413,6 +7413,17 @@ export const articles = [
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
             allowfullscreen>
           </iframe>
+        </div>
+
+        <div style="width: 100%; text-align: center;">
+          <iframe 
+            style="width: 100%; max-width: 800px; aspect-ratio: 16/9; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" 
+            src="https://drive.google.com/file/d/1FfbxzQvoX1LOeEW9gdomhvn_A8DAwhD9/preview" 
+            title="Where Is India's GTA? - Tekken Gameplay 3" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
           <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 1rem; font-style: italic;">Watch: When nothing feels right, sometimes a quick game is the best reset.</p>
         </div>
       </div>
