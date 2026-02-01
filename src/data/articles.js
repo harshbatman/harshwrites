@@ -44,6 +44,57 @@ export const articles = [
 
       <p>Once developers depend on you, users follow. Once users follow, competitors die slowly.</p>
 
+      <div style="margin: 2rem 0; padding: 2rem; background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-radius: 16px; border: 1px solid #bae6fd;">
+        <h4 style="color: #0c4a6e; text-align: center; margin-bottom: 1.5rem; font-size: 1.25rem; font-weight: 700;">Windows Market Share Dominance (1990-2005)</h4>
+        
+        <svg viewBox="0 0 800 400" style="width: 100%; height: auto; background: white; border-radius: 12px; padding: 20px;">
+          <!-- Grid lines -->
+          <line x1="60" y1="50" x2="60" y2="350" stroke="#e5e7eb" stroke-width="2"/>
+          <line x1="60" y1="350" x2="740" y2="350" stroke="#e5e7eb" stroke-width="2"/>
+          
+          <!-- Y-axis labels -->
+          <text x="45" y="60" font-size="12" fill="#6b7280" text-anchor="end">100%</text>
+          <text x="45" y="132" font-size="12" fill="#6b7280" text-anchor="end">75%</text>
+          <text x="45" y="205" font-size="12" fill="#6b7280" text-anchor="end">50%</text>
+          <text x="45" y="277" font-size="12" fill="#6b7280" text-anchor="end">25%</text>
+          <text x="45" y="350" font-size="12" fill="#6b7280" text-anchor="end">0%</text>
+          
+          <!-- X-axis labels -->
+          <text x="60" y="375" font-size="12" fill="#6b7280" text-anchor="middle">1990</text>
+          <text x="230" y="375" font-size="12" fill="#6b7280" text-anchor="middle">1995</text>
+          <text x="400" y="375" font-size="12" fill="#6b7280" text-anchor="middle">1998</text>
+          <text x="570" y="375" font-size="12" fill="#6b7280" text-anchor="middle">2002</text>
+          <text x="740" y="375" font-size="12" fill="#6b7280" text-anchor="middle">2005</text>
+          
+          <!-- Windows Share Area (Rising to near 100%) -->
+          <path d="M 60 306 L 230 80 L 400 65 L 570 52 L 740 55 L 740 350 L 60 350 Z" 
+                fill="rgba(2, 132, 199, 0.1)" stroke="none"/>
+          
+          <!-- Windows Share Line -->
+          <path d="M 60 306 L 230 80 L 400 65 L 570 52 L 740 55" 
+                fill="none" stroke="#0ea5e9" stroke-width="4" stroke-linecap="round"/>
+          
+          <!-- MacOS/Others Share Line (Flat/Declining) -->
+          <path d="M 60 320 L 230 335 L 400 340 L 570 342 L 740 340" 
+                fill="none" stroke="#9ca3af" stroke-width="2" stroke-dasharray="5,5"/>
+
+          <!-- Labels -->
+          <text x="300" y="60" font-size="14" fill="#0284c7" font-weight="bold">Windows (97% Peak)</text>
+          <text x="300" y="330" font-size="12" fill="#6b7280">Mac / Linux / Others</text>
+          
+          <!-- Key Events -->
+          <circle cx="230" cy="80" r="5" fill="#0284c7" stroke="white" stroke-width="2"/>
+          <text x="240" y="85" font-size="10" fill="#0284c7">Win 95 Launch</text>
+          
+          <circle cx="570" cy="52" r="5" fill="#0284c7" stroke="white" stroke-width="2"/>
+          <text x="580" y="45" font-size="10" fill="#0284c7">XP Era</text>
+        </svg>
+        
+        <p style="text-align: center; color: #4b5563; font-size: 0.875rem; margin-top: 1rem; font-style: italic;">
+          By the early 2000s, Windows was running on nearly 97% of all computers worldwide.
+        </p>
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Browser War: Crush or Be Crushed</h3>
 
       <p>Now let's talk about the brutal part—the browser war.</p>
