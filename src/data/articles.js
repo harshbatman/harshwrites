@@ -7392,16 +7392,29 @@ export const articles = [
 
       <p>Exactly. And while playing, something strange happened. It didn't feel like just a game. It felt like I was going back in time — straight into my childhood.</p>
 
-      <div style="margin: 2rem 0; text-align: center;">
-        <iframe 
-          style="width: 100%; max-width: 800px; aspect-ratio: 16/9; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" 
-          src="https://drive.google.com/file/d/15xZorIFvtmkONxYROjofrnBUMMT4F47P/preview" 
-          title="Where Is India's GTA? - Tekken Gameplay" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen>
-        </iframe>
-        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">Watch: When nothing feels right, sometimes a quick game is the best reset.</p>
+      <div style="display: flex; flex-direction: column; gap: 2rem; margin: 2rem 0; align-items: center;">
+        <div style="width: 100%; text-align: center;">
+          <iframe 
+            style="width: 100%; max-width: 800px; aspect-ratio: 16/9; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" 
+            src="https://drive.google.com/file/d/15xZorIFvtmkONxYROjofrnBUMMT4F47P/preview" 
+            title="Where Is India's GTA? - Tekken Gameplay 1" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
+        
+        <div style="width: 100%; text-align: center;">
+          <iframe 
+            style="width: 100%; max-width: 800px; aspect-ratio: 16/9; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" 
+            src="https://drive.google.com/file/d/1JU6mXlbzcpi1Jte4XNZjtWx77Qv7xO5x/preview" 
+            title="Where Is India's GTA? - Tekken Gameplay 2" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+          <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 1rem; font-style: italic;">Watch: When nothing feels right, sometimes a quick game is the best reset.</p>
+        </div>
       </div>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Coin-Op Era</h3>
@@ -7445,18 +7458,6 @@ export const articles = [
       <p>The content already exists. The stories already exist. What's missing is vision, courage, and investment.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Gaming as Mental Relief</h3>
-      
-      <div style="margin: 2rem 0; text-align: center;">
-        <iframe 
-          style="width: 100%; max-width: 800px; aspect-ratio: 16/9; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" 
-          src="https://drive.google.com/file/d/1JU6mXlbzcpi1Jte4XNZjtWx77Qv7xO5x/preview" 
-          title="Tekken Gameplay - Winning Moment" 
-          frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen>
-        </iframe>
-        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">Watch: The satisfaction of a 'You Win' screen after a long day.</p>
-      </div>
 
       <p>And an understanding of players like us — people who grew up with PC games, not just mobile shooters.</p>
 
