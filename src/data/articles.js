@@ -272,6 +272,16 @@ export const articles = [
 
       <p>Yes, I'm talking about myself.</p>
 
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/mdu-running-track-raw.jpg" alt="Aerial view of MDU sports complex showing the 400m synthetic athletic track" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
+        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">The massive MDU sports complex - 400m synthetic athletic track surrounded by tennis courts, basketball courts, and stadiums.</p>
+      </div>
+
+      <div style="margin: 2rem 0; text-align: center;">
+        <img src="/mdu-running-track-highlighted.jpg" alt="This is where I run - highlighted area showing the running ground at MDU" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
+        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">This is where I run - the open ground beside the track, quiet and empty in the early morning.</p>
+      </div>
+
       <p>Just beside the running track, early in the morning, it's quiet. I live in the hostel, so I wake up silently, put my earbuds in, turn the music on, and leave before anyone notices.</p>
 
       <p>Some days, I run properly.<br/>
