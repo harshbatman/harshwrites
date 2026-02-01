@@ -6995,79 +6995,59 @@ export const articles = [
     image: "/indian-gta-update.jpg",
     excerpt: "Why is there no proper Indian version of a GTA-style game? A conversation about open-world potential in India.",
     content: `
-      <p><strong>Person A:</strong><br/>
-      You know, last few weeks… maybe even last few days ago… or honestly, just last night — I was really frustrated and stressed. One of those phases where nothing feels right. I didn't know what to do with myself. I picked up my phone, but I didn't feel like scrolling at all. Social media felt empty, repetitive, and tiring.</p>
+      <p>You know, last few weeks… maybe even last few days ago… or honestly, just last night — I was really frustrated and stressed. One of those phases where nothing feels right. I didn't know what to do with myself. I picked up my phone, but I didn't feel like scrolling at all. Social media felt empty, repetitive, and tiring.</p>
 
       <p>So instead of scrolling, I installed Tag and Tag and started playing.</p>
 
-      <p><strong>Person B:</strong><br/>
-      That actually makes sense. Sometimes scrolling just overloads the brain. Games, even simple ones, give your mind something active to focus on.</p>
+      <p>That actually makes sense. Sometimes scrolling just overloads the brain. Games, even simple ones, give your mind something active to focus on.</p>
 
-      <p><strong>Person A:</strong><br/>
-      Exactly. And while playing, something strange happened. It didn't feel like just a game. It felt like I was going back in time — straight into my childhood.</p>
+      <p>Exactly. And while playing, something strange happened. It didn't feel like just a game. It felt like I was going back in time — straight into my childhood.</p>
 
       <p>When I was a kid, we used to have those coin-operated games. You remember them, right? Small shops, hardware stores, local gaming corners. You'd put a coin in, grab the joystick, and for a few minutes, the whole world outside disappeared.</p>
 
-      <p><strong>Person B:</strong><br/>
-      Yeah, that era was special. No smartphones, no constant distraction. Just pure excitement.</p>
+      <p>Yeah, that era was special. No smartphones, no constant distraction. Just pure excitement.</p>
 
-      <p><strong>Person A:</strong><br/>
-      And at home, we had a computer. Later, a laptop. That's where real gaming started for me. I used to play Grand Theft Auto: Vice City, Grand Theft Auto III — which was set in Liberty City — and Grand Theft Auto: San Andreas.</p>
+      <p>And at home, we had a computer. Later, a laptop. That's where real gaming started for me. I used to play Grand Theft Auto: Vice City, Grand Theft Auto III — which was set in Liberty City — and Grand Theft Auto: San Andreas.</p>
 
       <p>These weren't just games. They were entire worlds. You could follow missions, or you could completely ignore them. You could roam around, steal a bike, drive endlessly, listen to in-game radio, and just exist inside that virtual city.</p>
 
-      <p><strong>Person B:</strong><br/>
-      That freedom was unreal. Games back then didn't rush you. They let you breathe.</p>
+      <p>That freedom was unreal. Games back then didn't rush you. They let you breathe.</p>
 
-      <p><strong>Person A:</strong><br/>
-      Exactly. And it wasn't only GTA. I also played Far Cry, and The Incredible Hulk. PC games had weight. You sat down properly. Keyboard, mouse, full attention. No notifications popping up every five seconds.</p>
+      <p>Exactly. And it wasn't only GTA. I also played Far Cry, and The Incredible Hulk. PC games had weight. You sat down properly. Keyboard, mouse, full attention. No notifications popping up every five seconds.</p>
 
-      <p><strong>Person B:</strong><br/>
-      That's probably why those games stayed in our memory. You were fully present while playing them.</p>
+      <p>That's probably why those games stayed in our memory. You were fully present while playing them.</p>
 
-      <p><strong>Person A:</strong><br/>
-      True. And while playing again now — even something as simple as Tag and Tag — I started thinking about something deeper.</p>
+      <p>True. And while playing again now — even something as simple as Tag and Tag — I started thinking about something deeper.</p>
 
       <p>All the GTA games we grew up with — Vice City, Liberty City, San Andreas — they're all based on the US. American cities, American culture, American problems. Miami-style nightlife, New York-style crime, Los Angeles-style gangs.</p>
 
-      <p>So the question hit me hard:<br/>
-      Why is there no proper Indian version of a GTA-style game?</p>
+      <p>So the question hit me hard: Why is there no proper Indian version of a GTA-style game?</p>
 
-      <p><strong>Person B:</strong><br/>
-      That's honestly a very valid question. India has insane potential for open-world storytelling.</p>
+      <p>That's honestly a very valid question. India has insane potential for open-world storytelling.</p>
 
-      <p><strong>Person A:</strong><br/>
-      Exactly! Just look around us. Local trains packed beyond capacity. Endless traffic jams. Narrow streets. Power cuts. Political drama. Corruption. Festivals. Protests. Monsoons flooding cities. We already live in an open-world chaos simulator.</p>
+      <p>Exactly! Just look around us. Local trains packed beyond capacity. Endless traffic jams. Narrow streets. Power cuts. Political drama. Corruption. Festivals. Protests. Monsoons flooding cities. We already live in an open-world chaos simulator.</p>
 
       <p>Yet most popular games here are like PUBG. It's popular, yes, but it's mostly just shooting. No strong story, no deep social reflection.</p>
 
-      <p><strong>Person B:</strong><br/>
-      GTA was never just about guns. It was satire. Society. Dark humor. Reality exaggerated.</p>
+      <p>GTA was never just about guns. It was satire. Society. Dark humor. Reality exaggerated.</p>
 
-      <p><strong>Person A:</strong><br/>
-      Exactly. Imagine an Indian open-world game where missions involve surviving monsoon floods, navigating traffic instead of escaping police cars, dealing with bureaucracy, local gangs, elections, and everyday struggle.</p>
+      <p>Exactly. Imagine an Indian open-world game where missions involve surviving monsoon floods, navigating traffic instead of escaping police cars, dealing with bureaucracy, local gangs, elections, and everyday struggle.</p>
 
       <p>The content already exists. The stories already exist. What's missing is vision, courage, and investment.</p>
 
-      <p><strong>Person B:</strong><br/>
-      And an understanding of players like us — people who grew up with PC games, not just mobile shooters.</p>
+      <p>And an understanding of players like us — people who grew up with PC games, not just mobile shooters.</p>
 
-      <p><strong>Person A:</strong><br/>
-      Yes. People think gaming is just time-pass. But sometimes, gaming is mental relief. Playing again didn't magically fix my stress. But it paused it. It gave my mind breathing space. That's something endless scrolling never gives.</p>
+      <p>Yes. People think gaming is just time-pass. But sometimes, gaming is mental relief. Playing again didn't magically fix my stress. But it paused it. It gave my mind breathing space. That's something endless scrolling never gives.</p>
 
-      <p><strong>Person B:</strong><br/>
-      Sometimes a pause is all you need to reset.</p>
+      <p>Sometimes a pause is all you need to reset.</p>
 
-      <p><strong>Person A:</strong><br/>
-      Exactly. Until we see a true Indian open-world game — something rooted in our streets, our problems, our humour — we'll keep revisiting old classics and simple games.</p>
+      <p>Exactly. Until we see a true Indian open-world game — something rooted in our streets, our problems, our humour — we'll keep revisiting old classics and simple games.</p>
 
       <p>Keyboard, mouse, or even a small mobile game — not for addiction, not for escape forever, but just to breathe for a while.</p>
 
-      <p><strong>Person B:</strong><br/>
-      And who knows… maybe someday, the loading screen will say: An Indian Open-World Game.</p>
+      <p>And who knows… maybe someday, the loading screen will say: An Indian Open-World Game.</p>
 
-      <p><strong>Person A:</strong><br/>
-      That day, every gamer like us will feel seen.</p>
+      <p>That day, every gamer like us will feel seen.</p>
     `
   },
 ];
