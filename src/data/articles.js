@@ -7438,6 +7438,15 @@ export const articles = [
 
       <p>Yes. People think gaming is just time-pass. But sometimes, gaming is mental relief. Playing again didn't magically fix my stress. But it paused it. It gave my mind breathing space. That's something endless scrolling never gives.</p>
 
+      <div style="position: relative; width: 100%; padding-bottom: 56.25%; height: 0; overflow: hidden; border-radius: 12px; margin: 2rem 0; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);">
+        <iframe 
+          src="https://drive.google.com/file/d/1ymTttB7P7xMImdICkbtc-SGUkk8yjTOu/preview" 
+          style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0;" 
+          allow="autoplay"
+          loading="lazy">
+        </iframe>
+      </div>
+
       <p>Sometimes a pause is all you need to reset.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Waiting for That Loading Screen</h3>
