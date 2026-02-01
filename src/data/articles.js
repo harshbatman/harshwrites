@@ -7392,6 +7392,18 @@ export const articles = [
 
       <p>Exactly. And while playing, something strange happened. It didn't feel like just a game. It felt like I was going back in time — straight into my childhood.</p>
 
+      <div style="margin: 2rem 0; text-align: center;">
+        <iframe 
+          style="width: 100%; max-width: 800px; aspect-ratio: 16/9; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" 
+          src="https://drive.google.com/file/d/15xZorIFvtmkONxYROjofrnBUMMT4F47P/preview" 
+          title="Where Is India's GTA? - Tekken Gameplay" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">Watch: When nothing feels right, sometimes a quick game is the best reset.</p>
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Coin-Op Era</h3>
 
       <p>When I was a kid, we used to have those coin-operated games. You remember them, right? Small shops, hardware stores, local gaming corners. You'd put a coin in, grab the joystick, and for a few minutes, the whole world outside disappeared.</p>
