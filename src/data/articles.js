@@ -6881,7 +6881,7 @@ export const articles = [
     author: "Harsh Mahto",
     category: "Urban Planning & Society",
     date: "31 Jan 2026",
-    image: "/unplanned-cities.jpg",
+    image: "/unplanned-cities-comparison.jpg",
     excerpt: "Sometimes I really wonder... why do our Indian cities feel so chaotic compared to cities in Europe or the U.S? When we look at those places, everything just seems to fit—like it was thought through properly.",
     content: `
       <p>Sometimes I really wonder, yaar… why do our Indian cities feel so chaotic compared to cities in Europe or the U.S. When we look at those places, everything just seems to fit—like it was thought through properly.</p>
