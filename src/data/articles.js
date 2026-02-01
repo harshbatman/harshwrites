@@ -282,7 +282,11 @@ export const articles = [
         <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">This is where I run - the open ground beside the track, quiet and empty in the early morning.</p>
       </div>
 
-      <p>Just beside the running track, early in the morning, it's quiet. I live in the hostel, so I wake up silently, put my earbuds in, turn the music on, and leave before anyone notices.</p>
+      <p>Just beside the running track—you might ask, why not on the track itself?</p>
+
+      <p>Well, the running track is for professional athletes, and I'm not an athlete. How could I be? I was fat as fuck back then.</p>
+
+      <p>So I ran just beside the track. Early in the morning, when it's quiet. I live in the hostel, so I wake up silently, put my earbuds in, turn the music on, and leave before anyone notices.</p>
 
       <p>Some days, I run properly.<br/>
       Some days, I just walk.</p>
