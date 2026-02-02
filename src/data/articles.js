@@ -775,7 +775,7 @@ export const articles = [
 
       <p>What do you mean you also study here?</p>
 
-      <p>Relax, I don’t even attend classes regularly, that’s why I'm different.</p>
+      <p>Relax, I don’t even attend classes regularly, that’s why I'm different. Okay?</p>
 
       <p>I’m kidding, guys 😄 (If you’re reading this in the future—and I know some of you will—you’re good too. I love you.)</p>
 
