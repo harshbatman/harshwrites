@@ -1,5 +1,59 @@
 export const articles = [
   {
+    id: "can-bihar-ever-be-free-from-floods",
+    views: 1240,
+    publishDate: "2026-02-02",
+    title: "Can Bihar Ever Be Free From Floods?",
+    author: "Harsh Mahto",
+    category: "Geography & Society",
+    date: "2 Feb 2026",
+    image: "/floods-in-bihar.jpg",
+    excerpt: "Every year, Bihar faces a cyclic tragedy of floods. Is it just a geographical curse, or can smart planning and regional cooperation finally turn the tide?",
+    content: `
+      <p>Every year, as monsoon clouds gather over the plains of Bihar, a familiar sense of dread sets in. For millions, it isn't just about the relief of rain; it's about the inevitable arrival of floods. It has become a seasonal routine, a cyclic tragedy that repeats with heartbreaking precision. But why does Bihar face this again and again? Why can't we seem to control it?</p>
+
+      <p>The frustration is real, and it’s shared by millions. Floods here are not just because of heavy rain in one season; they are the result of geography, river behavior, poor planning, and decades of half-finished solutions. Our land itself makes us vulnerable.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Geography of Vulnerability</h3>
+
+      <p>Most of Bihar lies in the Gangetic plains. The land is remarkably flat and low-lying, formed by centuries of river deposits. When rivers overflow, the water spreads sideways instead of flowing out quickly. Drainage becomes slow, and waterlogging often lasts for weeks, sometimes months.</p>
+
+      <p>Rivers are everywhere. We have around 28 major and minor rivers, including the Ganga, Kosi, Gandak, Bagmati, Kamla, Burhi Gandak, Son, Punpun, and Falgu. This dense network is rain-fed and unpredictable. Many of these rivers change course frequently, especially the Kosi—often called the "Sorrow of Bihar."</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Beyond Borders: The Hydrological Connection</h3>
+
+      <p>Floods don’t start only within our borders. Bihar is hydrologically connected to surrounding regions—Uttar Pradesh to the west, Jharkhand to the south, and West Bengal to the east. Rivers don’t follow political boundaries. When rainfall is heavy upstream in these states, the excess water flows directly into our systems. What happens upstream is felt deeply downstream.</p>
+
+      <p>Then there is the critical factor of Nepal. Many of our major rivers—like the Kosi, Gandak, Bagmati, and Kamla—originate in the Himalayan region of Nepal. When intense rainfall or cloudbursts occur there, enormous volumes of water rush down into the plains within hours, leaving very little reaction time for those in their path.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Complexity of Dams and Silt</h3>
+
+      <p>The common suggestion is often to "just build dams in Nepal." While it sounds like a simple fix, it is far from it. Dams can regulate water flow, but they involve international agreements, political trust, and long-term coordination. They also come with significant challenges: displacement of people, environmental damage, and the massive issue of silt.</p>
+
+      <p>Himalayan rivers carry enormous amounts of sediment. When this silt settles, the riverbeds rise—sometimes even higher than the surrounding land. This reduces the river's capacity and makes even small increases in water dangerous. Embankments, while helpful in some areas, have also restricted the natural movement of rivers and created a false sense of security. When they breach, the damage is sudden and catastrophic.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Steps Toward a Managed Reality</h3>
+
+      <p>If dams alone aren’t the answer, what should we do differently? We need a multi-layered, long-term approach that shifts from "fighting" floods to "managing" them.</p>
+
+      <p><strong>Basin-level management:</strong> We must manage rivers as complete systems, from the mountains to the plains. This requires scientific coordination with Nepal and neighboring states, including real-time data sharing.</p>
+
+      <p><strong>Serious desilting:</strong> Selective, scientific desilting of critical river stretches must be a continuous priority to maintain river capacity.</p>
+
+      <p><strong>Smarter embankments:</strong> Instead of just raising them, we should strengthen existing ones and create "spill zones" to allow controlled flooding in designated areas.</p>
+
+      <p><strong>Floodplain zoning:</strong> We must stop unplanned construction on natural floodplains. Enforcing zoning laws ensures rivers have space to expand without destroying lives.</p>
+
+      <p><strong>Early warning systems:</strong> Leveraging technology for better forecasting and village-level alerts can save lives even when floods occur.</p>
+
+      <p><strong>Drainage improvement:</strong> Redeveloping urban and rural drainage systems is essential to prevent water from remaining trapped long after rivers recede.</p>
+
+      <p><strong>Nepal cooperation:</strong> Beyond dams, we should focus on joint watershed management, afforestation, and sediment control. Flood management must be a shared responsibility.</p>
+
+      <p>The truth is, floods may never fully disappear—they are part of our geography. But disasters don't have to be. With science, planning, and political will, we can turn floods from a yearly crisis into a managed reality. Nature gives us warnings every year; it’s time we finally listen and act.</p>
+    `
+  },
+  {
     id: "genome-sequencing-understanding-our-biological-code",
     views: 1240,
     publishDate: "2026-02-02",
