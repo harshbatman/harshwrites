@@ -472,3 +472,16 @@ ul.roadmap li::before {
     display: none !important;
   }
 }
+/* List View Styles */
+.list-title:hover {
+  color: var(--color-accent) !important;
+}
+
+.articles-list > div {
+  transition: all 0.2s ease;
+}
+
+.articles-list > div:hover {
+  background: #fafafa;
+  padding-left: 1rem !important;
+}
