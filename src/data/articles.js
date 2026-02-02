@@ -711,7 +711,11 @@ export const articles = [
 
       <p>Holy shit!</p>
 
-      <p>Those small moments boosted my confidence to another level. I went from barely speaking in class to standing at a podium, speaking in a hall full of people.</p>
+      <p>Those small moments boosted my confidence to another level. I went from barely speaking in class, from avoiding eye contact and staying silent, to standing at a podium, addressing a hall full of people. Not once, not twice, but multiple times. Each time I stepped up, the fear felt smaller and the voice inside me felt stronger.</p>
+
+      <p>I started participating wherever I could—inter-college, intra-college, debates, discussions—anywhere there was a chance to speak, to be heard. What once felt terrifying slowly became familiar, and then exciting. The stage stopped feeling like a threat and started feeling like home.</p>
+
+      <p>Somewhere along the way, I realized something important: I don’t just speak on stage anymore—I belong there. I love the lights, the silence before the first word, the energy of the audience, and the confidence that comes from owning my voice. The stage didn’t just change how others saw me; it changed how I saw myself.</p>
 
       <div style="margin: 2rem 0; text-align: center;">
         <img src="/debate-podium.jpg" alt="Speaking at a debate competition at MDU - from extremely shy to confident public speaker" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
