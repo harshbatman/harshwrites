@@ -1,5 +1,51 @@
 export const articles = [
   {
+    id: "unauthorized-colonies-urban-planning",
+    views: 1240,
+    publishDate: "2026-02-03",
+    title: "Unauthorized Colonies: How Our Cities Grew Without Planning",
+    author: "Harsh Mahto",
+    category: "Urban Planning & Society",
+    date: "3 Feb 2026",
+    image: "/unauthorized-colonies.jpg",
+    excerpt: "Have you ever noticed how some parts of our cities feel completely unplanned? Unauthorized colonies are not just about illegal land; they represent a failure to match development speed with population needs.",
+    content: `
+      <p>Have you ever noticed how some parts of our cities feel completely unplanned? No proper roads, no drainage, water issues everywhere. Take Delhi for example. Areas like Sangam Vihar are classic cases of what we call unauthorized colonies.</p>
+
+      <p>It’s a reality many of us live with, yet it feels like a glitch in the system. The worst part is that the people living there suffer daily. There’s no proper sewer system, no underground drainage, and irregular water supply. In many houses, residents have to build their own septic tanks because there’s simply no municipal sewer line at all.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Roots of the Problem</h3>
+
+      <p>This didn’t happen overnight. There’s a history behind it. In our system, land is usually categorized into four types: agricultural, residential, commercial, and industrial. In Delhi especially, most of the land earlier had agricultural status.</p>
+
+      <p>But when development picked up—migration increased, jobs grew, and the population exploded—the demand for housing went through the roof. This is where the gap started. The Delhi Development Authority (DDA) simply couldn’t keep up with the demand for planned housing.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffcf0; border-left: 4px solid #eab308; border-radius: 4px;">
+        <p style="margin: 0; color: #854d0e; font-weight: 600;">When planned supply fails to meet organic demand, the market finds its own, often chaotic, way forward.</p>
+      </div>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Land as a Product</h3>
+
+      <p>Landowners saw an opportunity. There are basically two ways to make money—either by selling a service or by selling a product. These landowners chose the second route. They started treating land like a product.</p>
+
+      <p>Instead of waiting for proper land-use conversion and approvals, they started cutting agricultural land into small plots—30 yards, 40 yards, 50 yards—and selling them to whoever was willing to pay. And since this was happening outside the planning framework, there was no layout plan.</p>
+
+      <p>No provision for parks, no space reserved for roads, drainage, schools, or hospitals. That’s why when we walk through unauthorized colonies today, there’s no symmetry at all. One plot is 50 yards, next to it 100 yards, somewhere 200 yards, and suddenly you’ll see a massive 500-yard plot.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Stitchwork City</h3>
+
+      <p>Everything looks stitched together randomly. Narrow lanes, sharp turns, houses built wall-to-wall. Infrastructure was never planned—only houses were. Later, when people started living there in large numbers, basic needs kicked in. Water, sewage, drainage.</p>
+
+      <p>But since the colony itself was unauthorized, civic bodies couldn’t easily provide services. We ended up with a "tanker water" culture, overflowing septic tanks, open drains, and waterlogging every monsoon. It became a permanent fix for a temporary situation.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Long-Term Cost</h3>
+
+      <p>In short, unauthorized colonies are not just about illegal land. They are about unplanned urban growth, policy gaps, and our failure to match development speed with population needs. Places like Sangam Vihar show us the long-term cost of short-term solutions—cheap plots today, lifelong infrastructure problems tomorrow.</p>
+
+      <p>Unless planning, enforcement, and affordable housing move together, this cycle will keep repeating in cities across the country. It's time we stop seeing these colonies as just "illegal" and start seeing them as a symptom of a deeper planning failure.</p>
+    `
+  },
+  {
     id: "can-bihar-ever-be-free-from-floods",
     views: 1240,
     publishDate: "2026-02-02",
