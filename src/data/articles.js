@@ -1,5 +1,58 @@
 export const articles = [
   {
+    id: "genome-sequencing-understanding-our-biological-code",
+    views: 0,
+    publishDate: "2026-02-02",
+    title: "Genome Sequencing: Understanding Our Own Biological Code",
+    author: "Harsh Mahto",
+    category: "Science & India",
+    date: "2 Feb 2026",
+    image: "/genome-sequencing.png",
+    excerpt: "Our genome is like a massive book written in a four-letter code. Reading it helps us predict diseases, design personalised medicine, and even secure our food supply.",
+    content: `
+      <p>Have you noticed how suddenly everyone is talking about genome sequencing? A few years ago, it sounded like some sci-fi thing. Now it’s everywhere—news, healthcare, even agriculture.</p>
+
+      <p>True. And honestly, for us in India, it’s a pretty big deal. Genome sequencing is basically about reading our DNA—the instruction manual that decides how our body works, how we respond to diseases, even how some medicines affect us.</p>
+
+      <p>Our genome is like a massive book written in a four-letter code. Genome sequencing is the process of reading that book, letter by letter. And once we understand it, we can predict a lot—diseases, inherited conditions, even future health risks.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The India Factor: Diversity as a Canvas</h3>
+
+      <p>That’s where it becomes important for us as a country. India has huge genetic diversity. People from the North, South, East, West—our food habits, climate, lifestyles are different. So medical data from Western countries doesn’t always fit us perfectly.</p>
+
+      <p>Exactly. That’s why sequencing Indian genomes matters. If we only rely on foreign data, treatments may not be fully accurate for us. With our own genome data, doctors can design personalised medicine—medicine that actually suits our bodies.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f0fdf4; border-left: 4px solid #22c55e; border-radius: 4px;">
+        <p style="margin: 0; color: #166534; font-weight: 600;">Personalised medicine isn't just a luxury—it's the only way to treat a population as diverse as ours.</p>
+      </div>
+
+      <p>And think about diseases like diabetes, cancer, heart issues—so common in our families. Genome sequencing helps identify genetic risk early. Instead of waiting for disease to strike, we can focus on prevention.</p>
+
+      <p>It also played a huge role during COVID. By sequencing the virus genome, scientists could track variants, understand how the virus was mutating, and prepare vaccines accordingly. That showed us how powerful this technology really is.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Beyond the Hospital: Securing Our Plates</h3>
+
+      <p>Not just healthcare—agriculture too. For us, farming is still a backbone. Genome sequencing helps develop better crop varieties—more resistant to pests, climate change, and diseases. That directly impacts our farmers and food security.</p>
+
+      <div style="margin: 2rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
+        <img src="/genome-sequencing.png" alt="Genome Sequencing illustration" style="width: 100%; max-width: 600px; border-radius: 8px; margin-bottom: 1rem;" />
+        <p style="color: #6b7280; font-size: 0.875rem; font-style: italic;">Scaling the DNA: Reading the biological code of a nation.</p>
+      </div>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Ethical Roadmap</h3>
+
+      <p>But there are concerns as well. Data privacy is a big one. Our genetic data is extremely personal. We need strong laws and ethical rules to ensure it’s not misused.</p>
+
+      <p>True. And affordability matters. This technology shouldn’t be limited to a few rich hospitals. For real impact in India, it has to reach public healthcare and common people.</p>
+
+      <p>Still, if done right, genome sequencing can change our future. Better healthcare, early diagnosis, stronger agriculture, and a deeper understanding of who we are biologically.</p>
+
+      <p>In a way, it’s like us finally reading our own story—written inside our DNA. And once we understand it, we can make smarter decisions for ourselves and for the generations after us.</p>
+
+      <p>Exactly. Genome sequencing isn’t just science—it’s an investment in our future, our health, and our people.</p>
+    `
+  },
+  {
     id: "how-microsoft-took-over-the-world",
     views: 0,
     publishDate: "2026-02-01",
