@@ -249,11 +249,10 @@ function Home() {
                             <span style={{
                                 fontSize: '2.5rem',
                                 fontWeight: 900,
-                                color: '#d1d5db',
+                                color: '#94a3b8',
                                 fontFamily: 'var(--font-serif)',
                                 minWidth: '4.5rem',
-                                paddingTop: '0.2rem',
-                                opacity: 0.8
+                                paddingTop: '0.2rem'
                             }}>
                                 {(index + 1).toString().padStart(2, '0')}
                             </span>
