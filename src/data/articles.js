@@ -745,7 +745,9 @@ export const articles = [
 
       <p>There's a huge ground in MDU—big, like really fucking big. The university itself is massive, but honestly, it lacks academic standards. Most professors weren't that good. I think you already know where I'm going with this, but let me tell you about the first class I ever attended.</p>
 
-      <p>It was PPS—Programming for Problem Solving. The professor was teaching straight from his notes. I don't even remember the exact topic—something about technology history, maybe phones. On the whiteboard, he wrote (or said) "AT & I."</p>
+      <p>It was PPS—Programming for Problem Solving. The professor was teaching straight from his notes.</p>
+
+      <p>I don't remember the exact topic—something about technology history, maybe phones. On the whiteboard, he wrote (or said) "AT & I."</p>
 
       <p>I remember thinking, what the hell is AT & I? That's AT&T—American Telephone and Telegraph.</p>
 
