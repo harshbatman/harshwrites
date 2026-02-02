@@ -1,5 +1,51 @@
 export const articles = [
   {
+    id: "unauthorized-colonies-faridabad",
+    views: 1240,
+    publishDate: "2026-02-03",
+    title: "Our Hidden Urban Crisis: Unauthorized Colonies of Faridabad",
+    author: "Harsh Mahto",
+    category: "Urban Planning & Society",
+    date: "3 Feb 2026",
+    image: "/unauthorized-colonies-faridabad.jpg",
+    excerpt: "Faridabad isn’t just another city; it’s a natural stop for millions seeking a better life. But as the city grows, its unauthorized colonies are falling through the cracks of official planning.",
+    content: `
+      <p>We recently talked about unauthorized colonies in Delhi, but it’s time we look just next door—at Faridabad.</p>
+
+      <p>That question matters. Faridabad isn’t just another city; it is the most populated district of Haryana, sitting right on the outskirts of Delhi. Over the years, our city has become a natural stop for migrant workers—people who came from states like Uttar Pradesh, Bihar, and beyond—searching for work, affordability, and proximity to the capital.</p>
+
+      <p>But where do we house such massive growth? This is where unauthorized colonies enter the picture. Across Faridabad, there are dozens of colonies developed without proper approvals or urban planning. Places like Surya Vihar, Saidpur (Sahedpur), and many more are home to thousands of families.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffcf0; border-left: 4px solid #eab308; border-radius: 4px;">
+        <p style="margin: 0; color: #854d0e; font-weight: 600;">These are not empty lands anymore. These are living, breathing neighborhoods—with children, daily-wage workers, and elderly people—that remain invisible in official planning.</p>
+      </div>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Everyday Problems We Face</h3>
+
+      <p>Life goes on, but the systems that support it don't exist. In many unauthorized colonies, residents live without proper sewer and drainage systems, reliable water supply, organized garbage collection, or any real garbage recycling mechanism.</p>
+
+      <p>During the monsoon, dirty water floods the streets. Sewage mixes with rainwater, mosquitoes breed, and diseases spread. It makes you ask—is this how urban life is supposed to be?</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Present on Paper, Absent on Ground</h3>
+
+      <p>Officially, municipal corporations exist. Water departments exist. Sanitation contracts exist. But on the ground, the reality is very different. Garbage piles up because trucks don’t come regularly, water tankers are irregular and expensive, and sewage lines are either missing or badly connected.</p>
+
+      <p>People end up paying twice—once through the taxes that are supposed to fund these services, and again through private arrangements just to get the basics. It’s a systemic failure that residents have to balance every single day.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Why This Cycle Repeats</h3>
+
+      <p>Unauthorized colonies grow because the demand for housing is real, but affordable, planned housing is limited. Migrant families can’t wait years for policies to catch up. They settle where land is cheap and jobs are close. Over time, these colonies become permanent parts of the landscape, but our planning mindset still treats them as temporary problems.</p>
+
+      <p>Faridabad runs on the labor that lives in these colonies—the factory workers, construction workers, drivers, and domestic helpers. Our city depends on them, yet it denies them basic dignity in infrastructure. That is the uncomfortable truth we need to face.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">A Path Toward Urban Justice</h3>
+
+      <p>We cannot keep pretending these areas don’t exist. We need regularization with accountability, not just announcements. We need basic infrastructure first—sewers, drainage, and water—and a move toward inclusion in municipal planning.</p>
+
+      <p>This is not about freebies; it is about urban justice. If we can talk about Delhi’s unauthorized colonies, we owe the same honesty to Faridabad. These colonies are not "illegal people living illegally." They are our people, living in our city, asking for basic dignity—nothing more.</p>
+    `
+  },
+  {
     id: "unauthorized-colonies-urban-planning",
     views: 1240,
     publishDate: "2026-02-03",
