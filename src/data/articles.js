@@ -34,11 +34,6 @@ export const articles = [
 
       <p>Not just healthcare—agriculture too. For us, farming is still a backbone. Genome sequencing helps develop better crop varieties—more resistant to pests, climate change, and diseases. That directly impacts our farmers and food security.</p>
 
-      <div style="margin: 2rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; text-align: center;">
-        <img src="/genome-sequencing.png" alt="Genome Sequencing illustration" style="width: 100%; max-width: 600px; border-radius: 8px; margin-bottom: 1rem;" />
-        <p style="color: #6b7280; font-size: 0.875rem; font-style: italic;">Scaling the DNA: Reading the biological code of a nation.</p>
-      </div>
-
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Ethical Roadmap</h3>
 
       <p>But there are concerns as well. Data privacy is a big one. Our genetic data is extremely personal. We need strong laws and ethical rules to ensure it’s not misused.</p>
