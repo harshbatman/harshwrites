@@ -761,11 +761,23 @@ export const articles = [
 
       <p>In one of her classes, we were debating dress code vs no dress code and 75% attendance—both of which were enforced in our university. I spoke continuously for at least 5–10 minutes, arguing against the dress code and the attendance rule. And yeah, I did it in English.</p>
 
-      <p>After the class, a lot of my classmates came up to me and said things like, <em>"g**d fad speech bhai maja aa gaya"</em>, <em>"m** c**d diya bhaiya ji"</em>, <em>"garda uddda diya harsh"</em> — which basically means "You nailed it, dude." It was kind of funny—someone who was too shy to even talk to people suddenly had people talking to him, and that too giving compliments.</p>
+      <p>After the class ended, a bunch of my classmates came up to me and said things like, <em>“g**d fad speech bhai, maza aa gaya,”</em> <em>“m** c**d diya bhaiya ji,”</em> <em>“garda uda diya Harsh.”</em></p>
 
+      <p>Basically—“You nailed it, dude.”</p>
+
+      <p>It was honestly funny. The same guy who was too shy to even talk to people suddenly had people walking up to him, talking—and giving compliments.</p>
+      
       <p>Holy shit!</p>
 
-      <p>Those small moments boosted my confidence to another level. I went from barely speaking in class, from avoiding eye contact and staying silent, to standing at a podium, addressing a hall full of people. Not once, not twice, but multiple times. Each time I stepped up, the fear felt smaller and the voice inside me felt stronger.</p>
+      <p>If I’m being brutally honest, I didn’t do anything extraordinary. It was… okay-ish. But yeah, it’s a tier-3 college, and people here are mostly average. Of course, I’m not talking about myself. What do you mean you also study here? Relax, I don’t even attend classes regularly, that’s why I'm different. I’m kidding, guys 😄 (If you’re reading this in the future—and I know some of you will—you’re good too. I love you.)</p>
+
+      <p>I think they over-appreciated me a little. You know that saying—if you’re the smartest person in the room, you’re probably in the wrong room. But who cares?</p>
+
+      <p>After that moment, I was completely high—like the confidence equivalent of four bottles of vodka. (For the record, I don’t drink. This is just writing.)</p>
+
+      <p>Those small moments boosted my confidence to another level. I went from barely speaking in class, from avoiding eye contact and staying silent, to standing at a podium, addressing a hall full of people. Not once. Not twice. But multiple times.</p>
+
+      <p>And every time I stepped up, the fear felt smaller—and the voice inside me felt stronger.</p>
 
       <p>I started participating wherever I could—inter-college, intra-college, debates, discussions—anywhere there was a chance to speak, to be heard. What once felt terrifying slowly became familiar, and then exciting. The stage stopped feeling like a threat and started feeling like home.</p>
 
