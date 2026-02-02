@@ -779,7 +779,9 @@ export const articles = [
 
       <p>I’m kidding, guys 😄 (If you’re reading this in the future—and I know some of you will—you’re good too. I love you.)</p>
 
-      <p>I think they over-appreciated me a little. You know that saying—if you’re the smartest person in the room, you’re probably in the wrong room. But who cares?</p>
+      <p>I think they over-appreciated me a little. You know that saying—if you’re the smartest person in the room, you’re probably in the wrong room.</p>
+
+      <p>But who cares?</p>
 
       <p>After that moment, I was completely high—like the confidence equivalent of four bottles of vodka. (For the record, I don’t drink. This is just writing.)</p>
 
