@@ -1,7 +1,7 @@
 export const articles = [
   {
     id: "genome-sequencing-understanding-our-biological-code",
-    views: 0,
+    views: 1240,
     publishDate: "2026-02-02",
     title: "Genome Sequencing: Understanding Our Own Biological Code",
     author: "Harsh Mahto",
@@ -49,7 +49,7 @@ export const articles = [
   },
   {
     id: "how-microsoft-took-over-the-world",
-    views: 0,
+    views: 1240,
     publishDate: "2026-02-01",
     title: "How Microsoft Took Over the World",
     author: "Harsh Mahto",
@@ -439,7 +439,7 @@ export const articles = [
 
   {
     id: "rent-vs-buy",
-    views: 10,
+    views: 1240,
     publishDate: "2026-02-05",
     title: "Rent vs Buy: The Wrong Debate",
     author: "Harsh Mahto",
@@ -511,7 +511,7 @@ export const articles = [
   },
   {
     id: "the-flying-sikh",
-    views: 10,
+    views: 1240,
     publishDate: "2023-08-07",
     title: "The Flying Sikh: A Lesson in Discipline",
     author: "Harsh Mahto",
@@ -568,7 +568,7 @@ export const articles = [
   },
   {
     id: "home-loan-crisis",
-    views: 10,
+    views: 1240,
     publishDate: "2026-02-02",
     title: "Home Loan or Life Loan?",
     author: "Harsh Mahto",
@@ -624,7 +624,7 @@ export const articles = [
   },
   {
     id: "fat-to-fit",
-    views: 50,
+    views: 1240,
     publishDate: "2023-10-17",
     title: "Fat to Fit",
     author: "Harsh Mahto",
@@ -840,7 +840,7 @@ export const articles = [
   },
   {
     id: "one-home-too-many-contractors",
-    views: 120,
+    views: 1240,
     publishDate: "2026-01-30",
     title: "One Home. Too Many Contractors",
     author: "Harsh Mahto",
@@ -986,7 +986,7 @@ export const articles = [
   },
   {
     id: "how-to-invade-country",
-    views: 100,
+    views: 1240,
     publishDate: "2026-01-31",
     title: "How to Invade a Country",
     author: "Harsh Mahto",
@@ -1325,7 +1325,7 @@ export const articles = [
 
   {
     id: "gurugram-housing-crisis",
-    views: 1200,
+    views: 1240,
     publishDate: "2026-01-30",
     title: "Gurugram: The City We Build, But Can’t Afford to Live In",
     author: "Harsh Mahto",
@@ -1391,7 +1391,7 @@ export const articles = [
   },
   {
     id: "china-solar-dominance",
-    views: 5000,
+    views: 1240,
     publishDate: "2026-01-28",
     title: "How China Won Solar (And Germany Lost)",
     author: "Harsh Mahto",
@@ -1828,7 +1828,7 @@ export const articles = [
   },
   {
     id: "flutter-vs-react-native",
-    views: 5000,
+    views: 1240,
     publishDate: "2026-01-27",
     title: "Why Flutter and Not React Native?",
     author: "Harsh Mahto",
@@ -1991,7 +1991,7 @@ export const articles = [
   },
   {
     id: "how-not-to-invade-country",
-    views: 5000,
+    views: 1240,
     publishDate: "2026-01-27",
     title: "How Not to Invade a Country",
     author: "Harsh Mahto",
@@ -2155,7 +2155,7 @@ export const articles = [
   },
   {
     id: "marie-curie-nobel",
-    views: 5000,
+    views: 1240,
     publishDate: "2026-01-27",
     title: "One Woman. Two Nobel Prizes. Two Sciences.",
     author: "Harsh Mahto",
@@ -2322,7 +2322,7 @@ export const articles = [
   },
   {
     id: "transistors-to-ai",
-    views: 15000,
+    views: 1240,
     publishDate: "2026-01-28",
     title: "From Transistors to AI",
     author: "Harsh Mahto",
@@ -4525,7 +4525,7 @@ export const articles = [
   },
   {
     id: "yuri-bezmenov-modern-politics",
-    views: 5000,
+    views: 1240,
     publishDate: "2026-01-26",
     title: "A Simple Guide to Understanding Modern Politics",
     author: "Harsh Mahto",
@@ -4737,7 +4737,7 @@ export const articles = [
   },
   {
     id: "netflix-zhukov-republic-day",
-    views: 5000,
+    views: 1240,
     publishDate: "2026-01-25",
     title: "I Didn’t Expect Netflix to Lead Me to Republic Day 1957",
     author: "Harsh Mahto",
@@ -4810,7 +4810,7 @@ export const articles = [
 
   {
     id: "globalisation-tech-power",
-    views: 8000,
+    views: 1240,
     publishDate: "2023-01-07",
     title: "They Designed It. China Copied It. We Bought It.",
     author: "Harsh Mahto",
@@ -5255,7 +5255,7 @@ export const articles = [
   },
   {
     id: "manufacturing-vs-services",
-    views: 5000,
+    views: 1240,
     publishDate: "2026-01-20",
     title: "Manufacturing or Services? The Great Indian Debate",
     author: "Harsh Mahto",
@@ -5580,7 +5580,7 @@ export const articles = [
   },
   {
     id: "how-facebook-took-over-the-world",
-    views: 5000,
+    views: 1240,
     publishDate: "2026-02-01",
     title: "How Facebook Took Over the World",
     author: "Harsh Mahto",
@@ -5979,7 +5979,7 @@ export const articles = [
   },
   {
     id: "how-android-took-over-the-world",
-    views: 5000,
+    views: 1240,
     publishDate: "2026-03-01",
     title: "How Android Took Over the World",
     author: "Harsh Mahto",
@@ -6273,7 +6273,7 @@ export const articles = [
   },
   {
     id: "semiconductor-story-india",
-    views: 5000,
+    views: 1240,
     publishDate: "2026-04-01",
     title: "A Nation That Codes, But Doesn’t Fabricate",
     author: "Harsh Mahto",
@@ -6419,7 +6419,7 @@ export const articles = [
   },
   {
     id: "two-women-two-nations-one-frame",
-    views: 5000,
+    views: 1240,
     publishDate: "2026-01-28",
     title: "Two Women, Two Nations, One Frame",
     author: "Harsh Mahto",
@@ -6574,7 +6574,7 @@ export const articles = [
   },
   {
     id: "our-nuclear-journey-science-sanctions-self-respect",
-    views: 5000,
+    views: 1240,
     publishDate: "2026-01-24",
     title: "Our Nuclear Journey: Science, Sanctions, and Self-Respect",
     author: "Harsh Mahto",
@@ -6776,7 +6776,7 @@ export const articles = [
   },
   {
     id: "story-behind-jai-jawan-jai-kisan",
-    views: 5000,
+    views: 1240,
     publishDate: "2026-01-10",
     title: "The Story Behind Jai Jawan, Jai Kisan",
     author: "Harsh Mahto",
@@ -6899,7 +6899,7 @@ export const articles = [
   },
   {
     id: "data-structures-and-algorithms",
-    views: 5000,
+    views: 1240,
     publishDate: "2026-01-28",
     title: "Data Structures and Algorithms",
     author: "Harsh Mahto",
@@ -7079,7 +7079,7 @@ export const articles = [
   },
   {
     id: "rockets-vs-airplanes",
-    views: 5000,
+    views: 1240,
     publishDate: "2026-01-28",
     title: "We Build Rockets. But Why Not Airplanes?",
     author: "Harsh Mahto",
@@ -7312,7 +7312,7 @@ export const articles = [
   },
   {
     id: "unplanned-cities",
-    views: 100,
+    views: 1240,
     publishDate: "2026-01-31",
     title: "Why Our Cities Are So Unplanned",
     author: "Harsh Mahto",
@@ -7372,7 +7372,7 @@ export const articles = [
   },
   {
     id: "pollution-survival",
-    views: 120,
+    views: 1240,
     publishDate: "2026-01-31",
     title: "This Is Not Luxury. This Is Survival.",
     author: "Harsh Mahto",
@@ -7424,7 +7424,7 @@ export const articles = [
   },
   {
     id: "where-is-indias-gta",
-    views: 2500,
+    views: 1240,
     title: "Where Is India’s GTA?",
     author: "Harsh Mahto",
     category: "Gaming & Culture",
@@ -7537,7 +7537,7 @@ export const articles = [
   },
   {
     id: "is-human-coding-dying",
-    views: 100,
+    views: 1240,
     publishDate: "2026-02-02",
     title: "Is Human Coding Dying?",
     author: "Harsh Mahto",
