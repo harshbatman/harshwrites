@@ -55,7 +55,7 @@ export const articles = [
     author: "Harsh Mahto",
     category: "Business & Technology",
     date: "1 Feb 2026",
-    image: "/microsoft-takeover.jpg",
+    image: "/how-microsoft-took-over-the-world-thumbnail.jpg",
     excerpt: "You know what fascinates me the most? Microsoft didn't 'invent everything.' They outplayed everyone. That's how they took over the world.",
     content: `
       <p>You know what fascinates me the most? Microsoft didn't "invent everything." They outplayed everyone. That's how they took over the world.</p>
