@@ -143,23 +143,22 @@ function Home() {
                     </button>
                 </div>
 
-                <div style={{ display: 'flex', background: '#f4f4f5', padding: '3px', borderRadius: 'var(--radius-FULL)', border: '1px solid var(--color-border)' }}>
+                <div style={{ display: 'flex', background: 'transparent', gap: '0.5rem' }}>
                     <button
                         onClick={() => setViewType('grid')}
                         style={{
-                            padding: '0.4rem 0.8rem',
+                            padding: '0.5rem 1rem',
                             borderRadius: 'var(--radius-FULL)',
-                            border: 'none',
-                            background: viewType === 'grid' ? '#fff' : 'transparent',
-                            color: viewType === 'grid' ? 'var(--color-text-primary)' : 'var(--color-text-secondary)',
+                            border: viewType === 'grid' ? '1px solid var(--color-text-primary)' : '1px solid var(--color-border)',
+                            background: viewType === 'grid' ? 'var(--color-text-primary)' : 'transparent',
+                            color: viewType === 'grid' ? 'var(--color-bg)' : 'var(--color-text-secondary)',
                             cursor: 'pointer',
                             display: 'flex',
                             alignItems: 'center',
                             gap: '0.4rem',
-                            fontSize: '0.85rem',
-                            fontWeight: 600,
-                            boxShadow: viewType === 'grid' ? 'var(--shadow-sm)' : 'none',
-                            transition: 'all 0.2s ease'
+                            fontSize: '0.9rem',
+                            transition: 'all 0.2s ease',
+                            fontWeight: viewType === 'grid' ? 600 : 400
                         }}
                     >
                         <LayoutGrid size={16} /> Grid
@@ -167,19 +166,18 @@ function Home() {
                     <button
                         onClick={() => setViewType('list')}
                         style={{
-                            padding: '0.4rem 0.8rem',
+                            padding: '0.5rem 1rem',
                             borderRadius: 'var(--radius-FULL)',
-                            border: 'none',
-                            background: viewType === 'list' ? '#fff' : 'transparent',
-                            color: viewType === 'list' ? 'var(--color-text-primary)' : 'var(--color-text-secondary)',
+                            border: viewType === 'list' ? '1px solid var(--color-text-primary)' : '1px solid var(--color-border)',
+                            background: viewType === 'list' ? 'var(--color-text-primary)' : 'transparent',
+                            color: viewType === 'list' ? 'var(--color-bg)' : 'var(--color-text-secondary)',
                             cursor: 'pointer',
                             display: 'flex',
                             alignItems: 'center',
                             gap: '0.4rem',
-                            fontSize: '0.85rem',
-                            fontWeight: 600,
-                            boxShadow: viewType === 'list' ? 'var(--shadow-sm)' : 'none',
-                            transition: 'all 0.2s ease'
+                            fontSize: '0.9rem',
+                            transition: 'all 0.2s ease',
+                            fontWeight: viewType === 'list' ? 600 : 400
                         }}
                     >
                         <List size={16} /> List
