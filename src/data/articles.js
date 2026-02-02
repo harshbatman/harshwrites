@@ -709,7 +709,7 @@ export const articles = [
 
       <p>After the class, a lot of my classmates came up to me and said things like, <em>"g**d fad speech bhai maja aa gaya"</em>, <em>"m** c**d diya bhaiya ji"</em>, <em>"garda uddda diya harsh"</em> — which basically means "You nailed it, dude." It was kind of funny—someone who was too shy to even talk to people suddenly had people talking to him, and that too giving compliments.</p>
 
-      <p>Holy shit.</p>
+      <p>Holy shit!</p>
 
       <p>Those small moments boosted my confidence to another level. I went from barely speaking in class to standing at a podium, speaking in a hall full of people.</p>
 
