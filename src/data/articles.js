@@ -753,7 +753,7 @@ export const articles = [
 
       <p>I had to stop myself from calling him out. It's AT & T, not AT & I.</p>
 
-      <p>In that moment, I honestly felt like he himself needed to attend a few lectures on his own subject. At some point, I genuinely believed I could teach the entire class better than him.</p>
+      <p>In that moment, I honestly felt like he himself needed to attend a few lectures on his own subject. At some point during the lecture, I genuinely believed I could teach the entire class better than him.</p>
 
       <p>That moment hit me hard. Even though I never liked attending classes regularly, whatever little motivation I had just went downhill after that.</p>
 
