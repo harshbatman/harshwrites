@@ -802,7 +802,9 @@ export const articles = [
 
       <p>But still, the infrastructure didn't match the academics.</p>
 
-      <p>The university campus is fucking huge—around 665 acres. And honestly, that's awesome, especially for someone who doesn't attend classes regularly. Of course, I'm talking about myself.</p>
+      <p>The university campus is fucking huge—around 665 acres. And honestly, that's awesome, especially for someone who doesn't attend classes regularly.</p>
+
+      <p>Of course, I'm talking about myself.</p>
 
       <p>MDU Rohtak is in Haryana. It has a massive sports complex. No wonder 3 out of 5 of India's Olympic medals come from Haryana. The state takes sports seriously, and the infrastructure shows it.</p>
 
