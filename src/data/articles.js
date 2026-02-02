@@ -769,7 +769,15 @@ export const articles = [
       
       <p>Holy shit!</p>
 
-      <p>If I’m being brutally honest, I didn’t do anything extraordinary. It was… okay-ish. But yeah, it’s a tier-3 college, and people here are mostly average. Of course, I’m not talking about myself. What do you mean you also study here? Relax, I don’t even attend classes regularly, that’s why I'm different. I’m kidding, guys 😄 (If you’re reading this in the future—and I know some of you will—you’re good too. I love you.)</p>
+      <p>If I’m being brutally honest, I didn’t do anything extraordinary. It was… okay-ish. But yeah, it’s a tier-3 college, and people here are mostly average.</p>
+
+      <p>Of course, I’m not talking about myself.</p>
+
+      <p>What do you mean you also study here?</p>
+
+      <p>Relax, I don’t even attend classes regularly, that’s why I'm different.</p>
+
+      <p>I’m kidding, guys 😄 (If you’re reading this in the future—and I know some of you will—you’re good too. I love you.)</p>
 
       <p>I think they over-appreciated me a little. You know that saying—if you’re the smartest person in the room, you’re probably in the wrong room. But who cares?</p>
 
