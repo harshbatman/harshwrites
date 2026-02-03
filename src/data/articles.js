@@ -3,7 +3,7 @@ export const articles = [
     id: "unauthorized-colonies-unplanned-development",
     views: 1240,
     publishDate: "2026-02-03",
-    title: "Unauthorized Colonies: Unplanned Development of India",
+    title: "Unauthorized Colonies: How Our Cities Grew Without Planning",
     author: "Harsh Mahto",
     category: "Urban Planning & Society",
     date: "3 Feb 2026",
