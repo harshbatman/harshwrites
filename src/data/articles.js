@@ -100,9 +100,25 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Long-Term Cost</h3>
 
-      <p>In short, unauthorized colonies are not just about illegal land. They are about unplanned urban growth, policy gaps, and our failure to match development speed with population needs. Places like Sangam Vihar show us the long-term cost of short-term solutions—cheap plots today, lifelong infrastructure problems tomorrow.</p>
-
       <p>Unless planning, enforcement, and affordable housing move together, this cycle will keep repeating in cities across the country. It's time we stop seeing these colonies as just "illegal" and start seeing them as a symptom of a deeper planning failure.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Not Exactly "Illegal"</h3>
+
+      <p>And one thing we really need to clarify here—this land is not exactly illegal in the way people usually think. Most people living in these colonies have actually bought the land from the original landowner. There was a real transaction. Money was paid. Papers were exchanged—sometimes agreements, sometimes power of attorney.</p>
+
+      <p>But the problem is, we didn’t complete the process with the government. No proper registration, no stamp duty paid. At that time, many people genuinely thought—"We are buying land from the owner and building our house. Why do we even need to pay the government?"</p>
+
+      <p>And honestly, for families just trying to secure a roof over their head, saving that extra money felt logical. Registration and stamp duty looked expensive, unnecessary, and avoidable. But here’s the catch—in government records, the land status never changed. On paper, that land is still marked as agricultural land, not residential.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f8fafc; border-left: 4px solid #64748b; border-radius: 4px;">
+        <p style="margin: 0; color: #334155; font-weight: 600;">Because of that status gap, civic bodies are stuck. They legally cannot provide basic facilities on land that is still agricultural in official records.</p>
+      </div>
+
+      <p>So no proper drainage system. No underground sewage lines. No planned garbage collection. Water supply becomes irregular, gas connections get delayed, and everything turns into a <em>jugaad</em>-based system. That’s why we see septic tanks everywhere. Everyone builds their own solution because there is no common infrastructure.</p>
+
+      <p>And when people ask, "Why doesn’t the government fix this?"—this is the reason. From their side, the land itself is not approved for urban living. Unauthorized colonies are not about criminals grabbing land. They are about ordinary people buying land the wrong way, without realizing the long-term consequences.</p>
+
+      <p>Once thousands of families settle like this, the problem becomes massive—socially, legally, and politically. That’s the real story behind unauthorized colonies. Not illegal intentions—but incomplete processes that ended up creating permanent urban problems for all of us.</p>
     `
   },
   {
