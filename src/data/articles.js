@@ -22,7 +22,7 @@ export const articles = [
 
       <div style="margin: 2rem 0; display: flex; flex-direction: column; align-items: center; text-align: center;">
         <iframe 
-          style="width: 100%; max-width: 400px; aspect-ratio: 9/16; border-radius: 12px; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);" 
+          style="width: 100%; max-width: 800px; aspect-ratio: 16/9; border-radius: 12px; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);" 
           src="https://drive.google.com/file/d/1jt0JpMS6nYFLZHkgv-yGNaOHyeKJdRa7/preview" 
           title="Haryana MP on Faridabad's Urban Crisis" 
           frameborder="0" 
