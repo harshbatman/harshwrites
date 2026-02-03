@@ -472,31 +472,17 @@ ul.roadmap li::before {
     display: none !important;
   }
 }
+
 /* List View Styles */
 .list-title:hover {
   color: var(--color-accent) !important;
 }
 
-.articles-list > div {
+.articles-list>div {
   transition: all 0.2s ease;
 }
 
-.articles-list > div:hover {
+.articles-list>div:hover {
   background: #fafafa;
   padding-left: 1rem !important;
 }
-
-/* Industry Filters */
-.industry-filters::-webkit-scrollbar {
-  display: none;
-}
-
-.industry-filters {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-}
-
-.industry-filters button:hover {
-  transform: translateY(-1px);
-}
-

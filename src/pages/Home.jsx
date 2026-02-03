@@ -8,7 +8,6 @@ function Home() {
     const [searchTerm, setSearchTerm] = useState('');
     const [filter, setFilter] = useState('latest');
     const [viewType, setViewType] = useState('grid');
-    const [selectedIndustry, setSelectedIndustry] = useState('All');
 
     // Scroll to top when home page loads
     useEffect(() => {
@@ -23,33 +22,13 @@ function Home() {
         return `${views}+`;
     };
 
-    // Filter articles based on search term and industry
+    // Filter articles based on search term
     const filteredArticles = articles
-        .filter(article => {
-            const matchesSearch =
-                article.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                article.excerpt.toLowerCase().includes(searchTerm.toLowerCase()) ||
-                article.category.toLowerCase().includes(searchTerm.toLowerCase());
-
-            let matchesIndustry = true;
-            if (selectedIndustry !== 'All') {
-                const category = article.category.toLowerCase();
-                const industry = selectedIndustry.toLowerCase();
-                if (industry === 'coding') {
-                    matchesIndustry = category.includes('coding') || category.includes('software') || category.includes('development') || category.includes('tech & future') || article.id === 'transistors-to-ai';
-                } else if (industry === 'technology') {
-                    matchesIndustry = category.includes('technology') || category.includes('tech');
-                } else if (industry === 'real estate') {
-                    matchesIndustry = category.includes('real estate') || category.includes('urban') || category.includes('housing') || category.includes('home building') || article.title.toLowerCase().includes('loan') || article.title.toLowerCase().includes('rent');
-                } else if (industry === 'personal') {
-                    matchesIndustry = category.includes('personal growth') || category.includes('personal');
-                } else {
-                    matchesIndustry = category.includes(industry);
-                }
-            }
-
-            return matchesSearch && matchesIndustry;
-        })
+        .filter(article =>
+            article.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            article.excerpt.toLowerCase().includes(searchTerm.toLowerCase()) ||
+            article.category.toLowerCase().includes(searchTerm.toLowerCase())
+        )
         .sort((a, b) => {
             if (filter === 'latest') {
                 return new Date(b.publishDate) - new Date(a.publishDate);
@@ -69,7 +48,7 @@ function Home() {
                 <h1 className="story-title" style={{ fontSize: '3.5rem', marginBottom: '0.5rem' }}>The Journal</h1>
                 <p className="story-meta">Thoughts, stories, and ideas.</p>
 
-                <div className="search-wrapper" style={{ marginTop: '2rem', maxWidth: '500px' }}>
+                <div className="search-wrapper" style={{ marginTop: '2rem', maxWidth: '500px', margin: '2rem auto 0' }}>
                     <div style={{ position: 'relative', display: 'flex', alignItems: 'center' }}>
                         <Search
                             size={20}
@@ -99,43 +78,6 @@ function Home() {
                             }}
                             className="search-input"
                         />
-                    </div>
-                </div>
-
-                <div className="industry-filters-container" style={{
-                    marginTop: '2rem',
-                    width: '100%',
-                    overflow: 'hidden'
-                }}>
-                    <div style={{
-                        display: 'flex',
-                        gap: '0.75rem',
-                        overflowX: 'auto',
-                        padding: '0.5rem 0',
-                        scrollbarWidth: 'none',
-                        msOverflowStyle: 'none',
-                    }} className="industry-filters">
-                        {['All', 'Technology', 'Coding', 'Real Estate', 'History', 'Finance', 'Economics', 'Personal'].map((industry) => (
-                            <button
-                                key={industry}
-                                onClick={() => setSelectedIndustry(industry)}
-                                style={{
-                                    padding: '0.6rem 1.25rem',
-                                    borderRadius: 'var(--radius-FULL)',
-                                    border: selectedIndustry === industry ? '1px solid var(--color-text-primary)' : '1px solid var(--color-border)',
-                                    background: selectedIndustry === industry ? 'var(--color-text-primary)' : 'var(--color-surface)',
-                                    color: selectedIndustry === industry ? 'var(--color-bg)' : 'var(--color-text-primary)',
-                                    cursor: 'pointer',
-                                    fontSize: '0.85rem',
-                                    fontWeight: 600,
-                                    whiteSpace: 'nowrap',
-                                    transition: 'all 0.2s ease',
-                                    boxShadow: selectedIndustry === industry ? '0 4px 6px -1px rgba(0,0,0,0.1)' : 'var(--shadow-sm)'
-                                }}
-                            >
-                                {industry}
-                            </button>
-                        ))}
                     </div>
                 </div>
             </header>
