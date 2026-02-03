@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&family=Outfit:wght@300;400;500;600&display=swap');
 
 :root {
   /* Premium Palette (Stone/Zinc inspired) */
@@ -6,7 +6,7 @@
   --color-surface: #ffffff;
   --color-text-primary: #18181b;
   --color-text-secondary: #52525b;
-  --color-text-tertiary: #a1a1aa;
+  --color-text-tertiary: #71717a;
 
   --color-accent: #18181b;
   /* Deep Black for high contrast */
@@ -22,6 +22,7 @@
 
   --font-serif: 'Playfair Display', serif;
   --font-sans: 'Outfit', sans-serif;
+  --font-cursive: 'Dancing Script', cursive;
   /* Cleaner, more modern sans */
 
   --radius-sm: 0.5rem;
@@ -94,10 +95,10 @@ a {
 }
 
 .site-logo {
-  font-family: var(--font-serif);
+  font-family: var(--font-cursive);
   font-weight: 700;
-  font-size: 1.75rem;
-  letter-spacing: -0.03em;
+  font-size: 2.25rem;
+  letter-spacing: -0.01em;
   color: var(--color-text-primary);
 }
 
