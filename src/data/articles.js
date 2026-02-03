@@ -4567,7 +4567,7 @@ export const articles = [
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #18181b; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
                 <img src="/logos/mahto.jpg" alt="MAHTO" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
                 <div style="font-weight: 700; color: #18181b; font-size: 0.9rem; margin-bottom: 0.25rem;">MAHTO</div>
-                <div style="font-size: 0.7rem; color: #6b7280;">Media & AI</div>
+                <div style="font-size: 0.7rem; color: #6b7280;">Home Building OS</div>
               </div>
               <div style="width: 12px; height: 12px; background: #18181b; border-radius: 50%; border: 3px solid #fafafa; box-shadow: 0 0 0 2px #18181b; margin-bottom: 0.5rem;"></div>
               <div style="font-size: 0.75rem; font-weight: 600; color: #18181b;">2023</div>
