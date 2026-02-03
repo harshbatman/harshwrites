@@ -30,7 +30,7 @@ export const articles = [
           allowfullscreen>
         </iframe>
         <p style="margin-top: 1rem; color: #4b5563; font-size: 0.9rem; font-style: italic;">
-          Haryana MP (Member of Parliament) discussing how Faridabad has developed into a "modern overgrown urban slum."
+          Haryana MP (Member of Parliament) discussing how Faridabad has developed into a "overgrown urban slum."
         </p>
       </div>
 
