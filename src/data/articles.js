@@ -52,6 +52,18 @@ export const articles = [
 
       <p>Faridabad runs on the labor that lives in these colonies—the factory workers, construction workers, drivers, and domestic helpers. Our city depends on them, yet it denies them basic dignity in infrastructure. That is the uncomfortable truth we need to face.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Legal Gray Area</h3>
+
+      <p>It’s important to clarify that this land isn’t exactly "illegal" in the way many people assume. Most residents in places like Surya Vihar or Saidpur actually bought their land from the original owners. There were real transactions, money was paid, and papers were exchanged—often through power of attorney or agreements.</p>
+
+      <p>The problem is that the process with the government was never completed. No proper registration, no stamp duty. For many families, skipping these expensive and complex steps felt like a logical way to save money while securing a roof over their heads.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f8fafc; border-left: 4px solid #64748b; border-radius: 4px;">
+        <p style="margin: 0; color: #334155; font-weight: 600;">Since the land status on paper remains "agricultural," municipal bodies are legally restricted from providing permanent infrastructure like underground sewers or planned drainage.</p>
+      </div>
+
+      <p>This creates a permanent <em>jugaad</em>-based ecosystem. People build their own septic tanks and find private ways to get water because the official system isn't allowed to reach them. The issue isn't illegal intentions—it's an incomplete legal process that has created a massive, permanent urban crisis for thousands of families in Faridabad.</p>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">A Path Toward Urban Justice</h3>
 
       <p>We cannot keep pretending these areas don’t exist. We need regularization with accountability, not just announcements. We need basic infrastructure first—sewers, drainage, and water—and a move toward inclusion in municipal planning.</p>
