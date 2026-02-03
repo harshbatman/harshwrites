@@ -22,7 +22,6 @@
 
   --font-serif: 'Playfair Display', serif;
   --font-sans: 'Outfit', sans-serif;
-  --font-cursive: 'Dancing Script', cursive;
   /* Cleaner, more modern sans */
 
   --radius-sm: 0.5rem;
@@ -95,10 +94,10 @@ a {
 }
 
 .site-logo {
-  font-family: var(--font-cursive);
+  font-family: var(--font-serif);
   font-weight: 700;
-  font-size: 2.25rem;
-  letter-spacing: -0.01em;
+  font-size: 1.75rem;
+  letter-spacing: -0.03em;
   color: var(--color-text-primary);
 }
 

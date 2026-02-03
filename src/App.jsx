@@ -12,14 +12,7 @@ function App() {
       <div className="app">
         <header className="site-header">
           <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            <Link to="/" className="site-logo" style={{
-              fontFamily: "'Great Vibes', cursive",
-              fontSize: '2.8rem',
-              fontWeight: 400,
-              display: 'block',
-              lineHeight: 1,
-              padding: '0.5rem 0'
-            }}>𝓱𝓪𝓻𝓼𝓱 𝔀𝓻𝓲𝓽𝓮𝓼</Link>
+            <Link to="/" className="site-logo">harsh writes</Link>
           </div>
         </header>
 
