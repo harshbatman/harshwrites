@@ -115,7 +115,7 @@ function Home() {
                         scrollbarWidth: 'none',
                         msOverflowStyle: 'none',
                     }} className="industry-filters">
-                        {['All', 'Personal', 'Technology', 'Coding', 'Real Estate', 'History', 'Finance', 'Economics'].map((industry) => (
+                        {['All', 'Technology', 'Coding', 'Real Estate', 'History', 'Finance', 'Economics', 'Personal'].map((industry) => (
                             <button
                                 key={industry}
                                 onClick={() => setSelectedIndustry(industry)}
