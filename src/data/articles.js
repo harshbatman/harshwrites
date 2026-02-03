@@ -1,5 +1,49 @@
 export const articles = [
   {
+    id: "failed-urban-infrastructure-high-rise-societies",
+    views: 1240,
+    publishDate: "2026-02-03",
+    title: "Failed Urban Infrastructure & the Rise of High-Rise Societies",
+    author: "Harsh Mahto",
+    category: "Urban Planning & Society",
+    date: "3 Feb 2026",
+    image: "/high-rise-societies.jpg",
+    excerpt: "High-rise societies are more than just a lifestyle choice; they are a private response to a systemic failure in public infrastructure.",
+    content: `
+      <p>Lately, when we look around our cities, one thing is very clear—high-rise societies are everywhere. Big compounds, four or five towers together, boundary walls, security gates, everything packed into one large piece of land. Usually, it starts with a developer buying a large land parcel. Instead of building individual houses, they build multiple towers on the same land and call it a society or a residential complex.</p>
+
+      <p>At first glance, it looks like a modern lifestyle choice. But if we think deeper, the rise of these high-rise societies is actually linked to deeper urban problems we face every day.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Promise of a Private Ecosystem</h3>
+
+      <p>The biggest issue is basic infrastructure. In many parts of our cities, public systems like water supply, drainage, sewage, and waste management are either unreliable or completely missing. This is why people start looking for places where these problems are already "handled." High-rise societies offer that promise—everything managed within the boundary of the complex.</p>
+
+      <p>These societies are designed as almost fully private ecosystems. While electricity may come from the government grid, there are backup systems like generators or inverters if power goes out. Water is another example. Instead of depending fully on municipal supply, societies store water in large tanks, use borewells, or manage water distribution internally.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffcf0; border-left: 4px solid #eab308; border-radius: 4px;">
+        <p style="margin: 0; color: #854d0e; font-weight: 600;">We are essentially paying twice—once through taxes, and again through monthly maintenance—to ensure basic services actually function.</p>
+      </div>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Internal Autonomy</h3>
+
+      <p>Then comes sewage and drainage. Many high-rise societies have their own sewage treatment plants (STP) and internal drainage systems, so they don’t rely entirely on city infrastructure. Garbage collection also works differently. Waste is collected inside the complex, segregated, and managed systematically before being handed over to the external system.</p>
+
+      <p>Because of all this, daily life inside a society feels smoother. Roads are maintained, gardens are taken care of, security is present, and common areas are managed by the residents themselves. High-rise societies didn’t become popular just because of luxury or status. They became popular because they offer predictability in a system that often feels uncertain.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Vertical Living and Land Availability</h3>
+
+      <p>Another factor is land availability. As cities grow, large parcels of land become rare. Building vertically becomes the only way to accommodate more families in the same space. And vertical living also allows shared infrastructure—one sewage plant, one water system, one security setup for thousands of people.</p>
+
+      <p>However, this also creates separation. Life inside the gated complex is very different from life just outside its walls. Outside the society, we often see broken roads, open drains, waterlogging, and unmanaged waste—while inside, everything feels controlled and organized.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Silent Adaptation</h3>
+
+      <p>So high-rise societies are not just buildings. They are a response to urban challenges—unplanned growth, stressed infrastructure, and inconsistent service delivery. They solve many problems for those living inside, but they also quietly show us what is missing in the larger urban system.</p>
+
+      <p>In the end, the rise of high-rise societies tells us one simple thing: people adapt when systems don’t scale with growth. Until our cities can provide reliable infrastructure for everyone, this model of private, self-managed living will continue to grow. Not because it’s perfect—but because, for many of us, it feels like the only workable option.</p>
+    `
+  },
+  {
     id: "unauthorized-colonies-faridabad",
     views: 1240,
     publishDate: "2026-02-03",
