@@ -41,6 +41,8 @@ function Home() {
                     matchesIndustry = category.includes('technology') || category.includes('tech');
                 } else if (industry === 'real estate') {
                     matchesIndustry = category.includes('real estate') || category.includes('urban') || category.includes('housing');
+                } else if (industry === 'personal') {
+                    matchesIndustry = category.includes('personal growth') || category.includes('personal');
                 } else {
                     matchesIndustry = category.includes(industry);
                 }
@@ -113,7 +115,7 @@ function Home() {
                         scrollbarWidth: 'none',
                         msOverflowStyle: 'none',
                     }} className="industry-filters">
-                        {['All', 'Technology', 'Coding', 'Real Estate', 'History', 'Finance', 'Economics'].map((industry) => (
+                        {['All', 'Personal', 'Technology', 'Coding', 'Real Estate', 'History', 'Finance', 'Economics'].map((industry) => (
                             <button
                                 key={industry}
                                 onClick={() => setSelectedIndustry(industry)}
