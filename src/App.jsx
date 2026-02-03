@@ -12,7 +12,7 @@ function App() {
       <div className="app">
         <header className="site-header">
           <div className="container" style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-            <Link to="/" className="site-logo" style={{ fontFamily: "'Dancing Script', cursive", fontSize: '2.4rem', fontWeight: 700 }}>harsh writes</Link>
+            <Link to="/" className="site-logo" style={{ fontFamily: "'Great Vibes', cursive", fontSize: '3rem', fontWeight: 400, textTransform: 'capitalize' }}>harsh writes</Link>
           </div>
         </header>
 
