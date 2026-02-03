@@ -36,7 +36,7 @@ function Home() {
                 const category = article.category.toLowerCase();
                 const industry = selectedIndustry.toLowerCase();
                 if (industry === 'coding') {
-                    matchesIndustry = category.includes('coding') || category.includes('software') || category.includes('development') || category.includes('tech & future');
+                    matchesIndustry = category.includes('coding') || category.includes('software') || category.includes('development') || category.includes('tech & future') || article.id === 'transistors-to-ai';
                 } else if (industry === 'technology') {
                     matchesIndustry = category.includes('technology') || category.includes('tech');
                 } else if (industry === 'real estate') {
