@@ -138,7 +138,7 @@ export const articles = [
     content: `
       <p>Lately, when we look around our cities, one thing is very clear—high-rise societies are everywhere. Big compounds, four or five towers together, boundary walls, security gates, everything packed into one large piece of land. Usually, it starts with a developer buying a large land parcel. Instead of building individual houses, they build multiple towers on the same land and call it a society or a residential complex.</p>
 
-      <p>At first glance, it looks like a modern lifestyle choice. But if we think deeper, the rise of these high-rise societies is actually linked to deeper urban problems we face every day.</p>
+      <p>At first glance, it looks like a modern lifestyle choice. But if we think deeper, the rise of these high-rise societies is actually a private response to a systemic failure in public infrastructure.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Promise of a Private Ecosystem</h3>
 
@@ -150,13 +150,33 @@ export const articles = [
         <p style="margin: 0; color: #854d0e; font-weight: 600;">We are essentially paying twice—once through taxes, and again through monthly maintenance—to ensure basic services actually function.</p>
       </div>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Internal Autonomy</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Internal Autonomy: The Gated Mirage</h3>
 
       <p>Then comes sewage and drainage. Many high-rise societies have their own sewage treatment plants (STP) and internal drainage systems, so they don’t rely entirely on city infrastructure. Garbage collection also works differently. Waste is collected inside the complex, segregated, and managed systematically before being handed over to the external system.</p>
 
       <p>Because of all this, daily life inside a society feels smoother. Roads are maintained, gardens are taken care of, security is present, and common areas are managed by the residents themselves. High-rise societies didn’t become popular just because of luxury or status. They became popular because they offer predictability in a system that often feels uncertain.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Vertical Living and Land Availability</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Maintenance Trap</h3>
+
+      <p>But this predictability comes at a recurring cost—the "Maintenance Tax." While a homeowner in a traditional neighborhood might pay a small annual property tax, a society resident pays thousands of rupees every single month. This money goes into the pockets of private maintenance agencies just to keep the elevators running, the water flowing, and the guards standing at the gate.</p>
+
+      <p>If the public infrastructure worked, this money could have been spent on better education, healthcare, or quality of life. Instead, it’s a "survival fee" we pay to maintain the illusion of a working city within our own gates.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Social Island: Connected yet Isolated</h3>
+
+      <p>Living in a high-rise also changes how we interact with our neighbors. We live in a "Social Island." Thousands of people live in the same compound, yet most of us only know each other through car numbers or apartment numbers. Interaction is often limited to complaints on the "Society WhatsApp Group."</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #eff6ff; border-left: 4px solid #3b82f6; border-radius: 4px;">
+        <p style="margin: 0; color: #1e40af; font-weight: 600;">We have traded the organic, messy charm of old neighborhoods for the sanitized, rule-bound safety of a gated community. The shared park is beautiful, but the sense of "community" is often artificial.</p>
+      </div>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Burden on the City</h3>
+
+      <p>While societies try to be self-sufficient, they cannot escape the city. When 5,000 families move into a single society, the local roads outside the gate often choke with traffic. The groundwater levels in the surrounding areas drop as huge borewells pump out water for thousands of residents. The society is a private island, but it heavy relies on the public mainland.</p>
+
+      <p>This creates a massive disconnect. The more we rely on these private gated communities, the less we demand from the government to fix the actual city. If everyone who can afford to "escape" into a society does so, who is left to fight for better public parks, better municipal water, and better city roads?</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Vertical Living: Efficiency or Necessity?</h3>
 
       <p>Another factor is land availability. As cities grow, large parcels of land become rare. Building vertically becomes the only way to accommodate more families in the same space. And vertical living also allows shared infrastructure—one sewage plant, one water system, one security setup for thousands of people.</p>
 
@@ -166,7 +186,9 @@ export const articles = [
 
       <p>So high-rise societies are not just buildings. They are a response to urban challenges—unplanned growth, stressed infrastructure, and inconsistent service delivery. They solve many problems for those living inside, but they also quietly show us what is missing in the larger urban system.</p>
 
-      <p>In the end, the rise of high-rise societies tells us one simple thing: people adapt when systems don’t scale with growth. Until our cities can provide reliable infrastructure for everyone, this model of private, self-managed living will continue to grow. Not because it’s perfect—but because, for many of us, it feels like the only workable option.</p>
+      <p>In the end, the rise of high-rise societies tells us one simple thing: people adapt when systems don’t scale with growth. Until our cities can provide reliable infrastructure for everyone, this model of private, self-managed living will continue to grow. Not because it’s perfect—but because, for many of us, it feels like the only workable option. </p>
+
+      <p>But we must ask ourselves—is a city made of thousands of private islands still a city? Or is it just a collection of escapes?</p>
     `
   },
   {
