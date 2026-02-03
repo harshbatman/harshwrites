@@ -20,6 +20,20 @@ export const articles = [
         <p style="margin: 0; color: #854d0e; font-weight: 600;">These are not empty lands anymore. These are living, breathing neighborhoods—with children, daily-wage workers, and elderly people—that remain invisible in official planning.</p>
       </div>
 
+      <div style="margin: 2rem 0; display: flex; flex-direction: column; align-items: center; text-align: center;">
+        <iframe 
+          style="width: 100%; max-width: 400px; aspect-ratio: 9/16; border-radius: 12px; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);" 
+          src="https://drive.google.com/file/d/1jt0JpMS6nYFLZHkgv-yGNaOHyeKJdRa7/preview" 
+          title="Haryana MP on Faridabad's Urban Crisis" 
+          frameborder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+          allowfullscreen>
+        </iframe>
+        <p style="margin-top: 1rem; color: #4b5563; font-size: 0.9rem; font-style: italic;">
+          Haryana MP (Member of Parliament) discussing how Faridabad has developed into a "modern overgrown urban slum."
+        </p>
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Everyday Problems We Face</h3>
 
       <p>Life goes on, but the systems that support it don't exist. In many unauthorized colonies, residents live without proper sewer and drainage systems, reliable water supply, organized garbage collection, or any real garbage recycling mechanism.</p>
