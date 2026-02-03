@@ -4367,7 +4367,7 @@ export const articles = [
             <!-- Flipkart 2007 (Existing) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #F5BE18; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
-                <img src="/logos/flipkart.svg" alt="Flipkart" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem;" />
+                <img src="/logos/flipkart.svg" alt="Flipkart" style="width: 64px; height: 64px; object-fit: contain; margin: 0 auto 0.5rem;" />
                 <div style="font-weight: 700; color: #F5BE18; font-size: 0.9rem; margin-bottom: 0.25rem;">Flipkart</div>
                 <div style="font-size: 0.7rem; color: #6b7280;">E-commerce</div>
               </div>
@@ -4378,7 +4378,7 @@ export const articles = [
             <!-- Myntra 2007 (New) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #ec4899; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
-                <img src="https://www.google.com/s2/favicons?domain=myntra.com&sz=128" alt="Myntra" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
+                <img src="https://www.google.com/s2/favicons?domain=myntra.com&sz=128" alt="Myntra" style="width: 64px; height: 64px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
                 <div style="font-weight: 700; color: #ec4899; font-size: 0.9rem; margin-bottom: 0.25rem;">Myntra</div>
                 <div style="font-size: 0.7rem; color: #6b7280;">Fashion</div>
               </div>
@@ -4389,7 +4389,7 @@ export const articles = [
             <!-- Zomato 2008 (Existing) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #ef4444; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
-                <img src="/logos/zomato.svg" alt="Zomato" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem;" />
+                <img src="/logos/zomato.svg" alt="Zomato" style="width: 64px; height: 64px; object-fit: contain; margin: 0 auto 0.5rem;" />
                 <div style="font-weight: 700; color: #ef4444; font-size: 0.9rem; margin-bottom: 0.25rem;">Zomato</div>
                 <div style="font-size: 0.7rem; color: #6b7280;">Food Tech</div>
               </div>
@@ -4400,7 +4400,7 @@ export const articles = [
             <!-- Ola 2010 (Existing) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #10b981; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
-                <img src="/logos/ola.svg" alt="Ola" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem;" />
+                <img src="/logos/ola.svg" alt="Ola" style="width: 64px; height: 64px; object-fit: contain; margin: 0 auto 0.5rem;" />
                 <div style="font-weight: 700; color: #10b981; font-size: 0.9rem; margin-bottom: 0.25rem;">Ola</div>
                 <div style="font-size: 0.7rem; color: #6b7280;">Ride-hailing</div>
               </div>
@@ -4411,7 +4411,7 @@ export const articles = [
             <!-- Paytm 2010 (Existing) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #0ea5e9; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
-                <img src="/logos/paytm.svg" alt="Paytm" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem;" />
+                <img src="/logos/paytm.svg" alt="Paytm" style="width: 64px; height: 64px; object-fit: contain; margin: 0 auto 0.5rem;" />
                 <div style="font-weight: 700; color: #0ea5e9; font-size: 0.9rem; margin-bottom: 0.25rem;">Paytm</div>
                 <div style="font-size: 0.7rem; color: #6b7280;">Payments</div>
               </div>
@@ -4422,7 +4422,7 @@ export const articles = [
             <!-- Zerodha 2010 (New) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #3b82f6; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
-                <img src="https://www.google.com/s2/favicons?domain=zerodha.com&sz=128" alt="Zerodha" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
+                <img src="https://www.google.com/s2/favicons?domain=zerodha.com&sz=128" alt="Zerodha" style="width: 64px; height: 64px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
                 <div style="font-weight: 700; color: #3b82f6; font-size: 0.9rem; margin-bottom: 0.25rem;">Zerodha</div>
                 <div style="font-size: 0.7rem; color: #6b7280;">Fintech</div>
               </div>
@@ -4433,7 +4433,7 @@ export const articles = [
             <!-- Lenskart 2010 (New) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #0694a2; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
-                <img src="https://www.google.com/s2/favicons?domain=lenskart.com&sz=128" alt="Lenskart" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
+                <img src="https://www.google.com/s2/favicons?domain=lenskart.com&sz=128" alt="Lenskart" style="width: 64px; height: 64px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
                 <div style="font-weight: 700; color: #0694a2; font-size: 0.9rem; margin-bottom: 0.25rem;">Lenskart</div>
                 <div style="font-size: 0.7rem; color: #6b7280;">D2C / Eyewear</div>
               </div>
@@ -4444,7 +4444,7 @@ export const articles = [
             <!-- Blinkit 2013 (New) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #facc15; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
-                <img src="https://www.google.com/s2/favicons?domain=blinkit.com&sz=128" alt="Blinkit" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
+                <img src="https://www.google.com/s2/favicons?domain=blinkit.com&sz=128" alt="Blinkit" style="width: 64px; height: 64px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
                 <div style="font-weight: 700; color: #facc15; font-size: 0.9rem; margin-bottom: 0.25rem;">Blinkit</div>
                 <div style="font-size: 0.7rem; color: #6b7280;">Quick Comm.</div>
               </div>
@@ -4455,7 +4455,7 @@ export const articles = [
             <!-- Razorpay 2014 (Existing) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #6366f1; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
-                <img src="/logos/razorpay.svg" alt="Razorpay" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem;" />
+                <img src="/logos/razorpay.svg" alt="Razorpay" style="width: 64px; height: 64px; object-fit: contain; margin: 0 auto 0.5rem;" />
                 <div style="font-weight: 700; color: #6366f1; font-size: 0.9rem; margin-bottom: 0.25rem;">Razorpay</div>
                 <div style="font-size: 0.7rem; color: #6b7280;">Fintech</div>
               </div>
@@ -4466,7 +4466,7 @@ export const articles = [
             <!-- Swiggy 2014 (Existing) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #f97316; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
-                <img src="/logos/swiggy.svg" alt="Swiggy" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem;" />
+                <img src="/logos/swiggy.svg" alt="Swiggy" style="width: 64px; height: 64px; object-fit: contain; margin: 0 auto 0.5rem;" />
                 <div style="font-weight: 700; color: #f97316; font-size: 0.9rem; margin-bottom: 0.25rem;">Swiggy</div>
                 <div style="font-size: 0.7rem; color: #6b7280;">Food Delivery</div>
               </div>
@@ -4477,7 +4477,7 @@ export const articles = [
             <!-- PhonePe 2015 (Existing) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #8b5cf6; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
-                <img src="/logos/phonepe.svg" alt="PhonePe" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem;" />
+                <img src="/logos/phonepe.svg" alt="PhonePe" style="width: 64px; height: 64px; object-fit: contain; margin: 0 auto 0.5rem;" />
                 <div style="font-weight: 700; color: #8b5cf6; font-size: 0.9rem; margin-bottom: 0.25rem;">PhonePe</div>
                 <div style="font-size: 0.7rem; color: #6b7280;">UPI</div>
               </div>
@@ -4488,7 +4488,7 @@ export const articles = [
             <!-- Rapido 2015 (New) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #ca8a04; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
-                <img src="https://www.google.com/s2/favicons?domain=rapido.bike&sz=128" alt="Rapido" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
+                <img src="https://www.google.com/s2/favicons?domain=rapido.bike&sz=128" alt="Rapido" style="width: 64px; height: 64px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
                 <div style="font-weight: 700; color: #ca8a04; font-size: 0.9rem; margin-bottom: 0.25rem;">Rapido</div>
                 <div style="font-size: 0.7rem; color: #6b7280;">Bike Taxi</div>
               </div>
@@ -4499,7 +4499,7 @@ export const articles = [
             <!-- Meesho 2015 (New) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #db2777; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
-                <img src="https://www.google.com/s2/favicons?domain=meesho.com&sz=128" alt="Meesho" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
+                <img src="https://www.google.com/s2/favicons?domain=meesho.com&sz=128" alt="Meesho" style="width: 64px; height: 64px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
                 <div style="font-weight: 700; color: #db2777; font-size: 0.9rem; margin-bottom: 0.25rem;">Meesho</div>
                 <div style="font-size: 0.7rem; color: #6b7280;">Social Comm.</div>
               </div>
@@ -4510,7 +4510,7 @@ export const articles = [
             <!-- Udaan 2016 (New) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #3b82f6; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
-                <img src="https://www.google.com/s2/favicons?domain=udaan.com&sz=128" alt="Udaan" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
+                <img src="https://www.google.com/s2/favicons?domain=udaan.com&sz=128" alt="Udaan" style="width: 64px; height: 64px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
                 <div style="font-weight: 700; color: #3b82f6; font-size: 0.9rem; margin-bottom: 0.25rem;">Udaan</div>
                 <div style="font-size: 0.7rem; color: #6b7280;">B2B Trade</div>
               </div>
@@ -4521,7 +4521,7 @@ export const articles = [
             <!-- Groww 2016 (New) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #059669; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
-                <img src="https://www.google.com/s2/favicons?domain=groww.in&sz=128" alt="Groww" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
+                <img src="https://www.google.com/s2/favicons?domain=groww.in&sz=128" alt="Groww" style="width: 64px; height: 64px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
                 <div style="font-weight: 700; color: #059669; font-size: 0.9rem; margin-bottom: 0.25rem;">Groww</div>
                 <div style="font-size: 0.7rem; color: #6b7280;">Investing</div>
               </div>
@@ -4532,7 +4532,7 @@ export const articles = [
             <!-- CRED 2018 (Existing) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #18181b; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
-                <img src="/logos/cred.svg" alt="CRED" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem;" />
+                <img src="/logos/cred.svg" alt="CRED" style="width: 64px; height: 64px; object-fit: contain; margin: 0 auto 0.5rem;" />
                 <div style="font-weight: 700; color: #18181b; font-size: 0.9rem; margin-bottom: 0.25rem;">CRED</div>
                 <div style="font-size: 0.7rem; color: #6b7280;">Credit Cards</div>
               </div>
@@ -4543,7 +4543,7 @@ export const articles = [
             <!-- BharatPe 2018 (New) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #06b6d4; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
-                <img src="https://www.google.com/s2/favicons?domain=bharatpe.com&sz=128" alt="BharatPe" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
+                <img src="https://www.google.com/s2/favicons?domain=bharatpe.com&sz=128" alt="BharatPe" style="width: 64px; height: 64px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
                 <div style="font-weight: 700; color: #06b6d4; font-size: 0.9rem; margin-bottom: 0.25rem;">BharatPe</div>
                 <div style="font-size: 0.7rem; color: #6b7280;">Fintech</div>
               </div>
@@ -4554,7 +4554,7 @@ export const articles = [
             <!-- Zepto 2021 (Existing) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #ec4899; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
-                <img src="/logos/zepto.svg" alt="Zepto" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem;" />
+                <img src="/logos/zepto.svg" alt="Zepto" style="width: 64px; height: 64px; object-fit: contain; margin: 0 auto 0.5rem;" />
                 <div style="font-weight: 700; color: #ec4899; font-size: 0.9rem; margin-bottom: 0.25rem;">Zepto</div>
                 <div style="font-size: 0.7rem; color: #6b7280;">Quick Comm.</div>
               </div>
