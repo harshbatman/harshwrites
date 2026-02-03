@@ -1294,8 +1294,8 @@ export const articles = [
       </ul>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/rn-kao-with-indira-gandhi.png" alt="R.N. Kao with Indira Gandhi" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
-        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">R.N. Kao (standing, second from left) with Prime Minister Indira Gandhi.</p>
+        <img src="/rn-kao-with-indira-gandhi.png" alt="R.N. Kao with Indira Gandhi ji" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
+        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">R.N. Kao (standing, second from left) with Prime Minister Indira Gandhi ji.</p>
       </div>
 
       <p>RAW wasn’t just collecting data—it was shaping the battlefield.</p>
@@ -1305,11 +1305,11 @@ export const articles = [
 
       <p>This is something many modern invasions completely ignore.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">3. Political leadership: Prime Minister Indira Gandhi’s calculated patience</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">3. Political leadership: Prime Minister Indira Gandhi ji’s calculated patience</h3>
 
       <p>This is where leadership matters.</p>
 
-      <p>Absolutely. Prime Minister Indira Gandhi faced enormous pressure to act immediately.</p>
+      <p>Absolutely. Prime Minister Indira Gandhi ji faced enormous pressure to act immediately.</p>
 
       <p>But instead of rushing into war, she waited.</p>
 
@@ -1329,18 +1329,18 @@ export const articles = [
       </ul>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/indira-gandhi-border-review.jpg" alt="Prime Minister Indira Gandhi reviewing military preparations on the border" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
-        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">Prime Minister Indira Gandhi reviewing military preparations on the border.</p>
+        <img src="/indira-gandhi-border-review.jpg" alt="Prime Minister Indira Gandhi ji reviewing military preparations on the border" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
+        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">Prime Minister Indira Gandhi ji reviewing military preparations on the border.</p>
       </div>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/indira-gandhi-ussr-treaty.jpg" alt="Prime Minister Indira Gandhi with USSR leaders" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
-        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">Prime Minister Indira Gandhi visit to USSR to sign the Treaty of Peace, Friendship and Cooperation, securing protection against external aggression.</p>
+        <img src="/indira-gandhi-ussr-treaty.jpg" alt="Prime Minister Indira Gandhi ji with USSR leaders" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
+        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">Prime Minister Indira Gandhi ji's visit to USSR to sign the Treaty of Peace, Friendship and Cooperation, securing protection against external aggression.</p>
       </div>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <iframe style="width: 100%; max-width: 400px; aspect-ratio: 9/16; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" src="https://drive.google.com/file/d/1rtyNVflI7wLKqp6FneXqNIK94EslTvPd/preview" title="Prime Minister Indira Gandhi visit to USSR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">Watch: Rare footage of Prime Minister Indira Gandhi in the USSR.</p>
+        <iframe style="width: 100%; max-width: 400px; aspect-ratio: 9/16; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" src="https://drive.google.com/file/d/1rtyNVflI7wLKqp6FneXqNIK94EslTvPd/preview" title="Prime Minister Indira Gandhi ji visit to USSR" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">Watch: Rare footage of Prime Minister Indira Gandhi ji in the USSR.</p>
       </div>
 
       <p>When war finally came, we were politically justified and diplomatically shielded.</p>
@@ -1354,8 +1354,8 @@ export const articles = [
       <p>When asked to act prematurely earlier in 1971, he refused—clearly and professionally.</p>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/indira-gandhi-sam-manekshaw-discussion-v2.jpg" alt="Indira Gandhi and Sam Manekshaw discussing war preparations" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
-        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">Prime Minister Indira Gandhi discussing the strategic situation with Field Marshal Sam Manekshaw.</p>
+        <img src="/indira-gandhi-sam-manekshaw-discussion-v2.jpg" alt="Indira Gandhi ji and Sam Manekshaw discussing war preparations" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
+        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">Prime Minister Indira Gandhi ji discussing the strategic situation with Field Marshal Sam Manekshaw.</p>
       </div>
 
       <ul style="margin: 1rem 0; padding-left: 2rem; color: #374151; line-height: 1.8;">
@@ -1490,8 +1490,8 @@ export const articles = [
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Closing Reflection</h3>
 
       <div style="margin: 2rem 0; text-align: center;">
-        <img src="/indira-gandhi-redfort-1971.jpg" alt="Prime Minister Indira Gandhi reviewing guard of honour at Red Fort" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
-        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">Prime Minister Indira Gandhi reviewing the guard of honour at Red Fort after the decisive 1971 victory.</p>
+        <img src="/indira-gandhi-redfort-1971.jpg" alt="Prime Minister Indira Gandhi ji reviewing guard of honour at Red Fort" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
+        <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">Prime Minister Indira Gandhi ji reviewing the guard of honour at Red Fort after the decisive 1971 victory.</p>
       </div>
 
       <p>So the lesson of 1971 is a masterclass in how to actually win a war.</p>
@@ -5049,7 +5049,7 @@ export const articles = [
 
       <p>Through thick and thin.</p>
 
-      <p>Exactly. From Joseph Stalin to Nikita Khrushchev, then Leonid Brezhnev, Mikhail Gorbachev, and now Vladimir Putin. And on our side—from Jawaharlal Nehru to Indira Gandhi to Narendra Modi. Governments changed. Ideologies shifted. But that line never broke.</p>
+      <p>Exactly. From Joseph Stalin to Nikita Khrushchev, then Leonid Brezhnev, Mikhail Gorbachev, and now Vladimir Putin. And on our side—from Jawaharlal Nehru to Indira Gandhi ji to Narendra Modi. Governments changed. Ideologies shifted. But that line never broke.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">A Statement of Trust</h3>
 
@@ -6701,7 +6701,7 @@ export const articles = [
 
       <p>Ordinary? Come on. You don’t sit like that when you’re carrying half the world’s power on your shoulders.</p>
 
-      <p>Exactly. That’s why this image matters. This is <strong>Indira Gandhi</strong> with <strong>Margaret Thatcher</strong>.</p>
+      <p>Exactly. That’s why this image matters. This is <strong>Indira Gandhi ji</strong> with <strong>Margaret Thatcher</strong>.</p>
       
       <p>And you know what makes it rare?</p>
 
@@ -6726,7 +6726,7 @@ export const articles = [
 
           <!-- Indira Gandhi Bar -->
           <div style="position: absolute; top: 30px; left: 10%; width: 40%; height: 40px; background: #f97316; border-radius: 4px; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(249, 115, 22, 0.2);">
-             <span style="color: white; font-weight: 600; font-size: 0.85rem;">Indira Gandhi</span>
+             <span style="color: white; font-weight: 600; font-size: 0.85rem;">Indira Gandhi ji</span>
           </div>
           <div style="position: absolute; top: 75px; left: 10%; font-size: 0.75rem; color: #f97316; font-weight: 700;">1966-77</div>
           
@@ -6768,7 +6768,7 @@ export const articles = [
 
       <p>Because power recognises power.</p>
 
-      <p>Exactly. Thatcher once wrote about Indira Gandhi in her memoir <em>The Downing Street Years</em>:</p>
+      <p>Exactly. Thatcher once wrote about Indira Gandhi ji in her memoir <em>The Downing Street Years</em>:</p>
 
       <blockquote style="border-left: 4px solid #e5e7eb; padding-left: 1rem; font-style: italic; margin: 1.5rem 0; color: #4b5563;">
         “A woman of extraordinary authority, courage, and presence.”
@@ -6794,7 +6794,7 @@ export const articles = [
 
       <p>Quiet authority.</p>
 
-      <p>Exactly. Indira Gandhi once wrote in <em>My Truth</em>:</p>
+      <p>Exactly. Indira Gandhi ji once wrote in <em>My Truth</em>:</p>
 
       <blockquote style="border-left: 4px solid #e5e7eb; padding-left: 1rem; font-style: italic; margin: 1.5rem 0; color: #4b5563;">
         “Power is useful only when it is restrained.”
@@ -6921,7 +6921,7 @@ export const articles = [
 
       <p>Yes. Lal Bahadur Shastri quietly pushed scientific self-reliance even during wartime pressure. No noise, no chest-thumping—just resolve.</p>
 
-      <p>And then came Indira Gandhi in 1974. Pokhran-I. Smiling Buddha. We called it a “peaceful nuclear explosion,” but the message was loud and clear: we can do this.</p>
+      <p>And then came Indira Gandhi ji in 1974. Pokhran-I. Smiling Buddha. We called it a “peaceful nuclear explosion,” but the message was loud and clear: we can do this.</p>
 
       <p>It wasn’t about aggression. It was about never being blackmailed again.</p>
 
@@ -7118,7 +7118,7 @@ export const articles = [
 
       <p>Shastri didn’t live long enough to see how deeply this idea would shape us. His sudden death in Tashkent cut short a moral authority we desperately needed.</p>
 
-      <p>After him came Indira Gandhi, who inherited not just power, but pressure. She took this slogan forward—not just in words, but in policy.</p>
+      <p>After him came Indira Gandhi ji, who inherited not just power, but pressure. She took this slogan forward—not just in words, but in policy.</p>
 
       <p>Under her, we saw the Green Revolution. High-yield seeds, irrigation, procurement systems. The farmer became central to national planning. Food self-sufficiency became strategy, not charity.</p>
 
