@@ -4565,7 +4565,7 @@ export const articles = [
             <!-- MAHTO 2023 (New) -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
               <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #18181b; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
-                <img src="/logos/mahto.png" alt="MAHTO" style="width: 32px; height: 32px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
+                <img src="/logos/mahto.png" alt="MAHTO" style="width: 64px; height: 64px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
                 <div style="font-weight: 700; color: #18181b; font-size: 0.9rem; margin-bottom: 0.25rem;">MAHTO</div>
                 <div style="font-size: 0.7rem; color: #6b7280;">Home Building OS</div>
               </div>
