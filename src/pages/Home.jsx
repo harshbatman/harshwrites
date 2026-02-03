@@ -264,7 +264,7 @@ function Home() {
                             <span style={{
                                 fontSize: '2.5rem',
                                 fontWeight: 900,
-                                color: '#94a3b8',
+                                color: '#64748b',
                                 fontFamily: 'var(--font-serif)',
                                 minWidth: '4.5rem',
                                 paddingTop: '0.2rem'
@@ -273,11 +273,11 @@ function Home() {
                             </span>
                             <div style={{ flex: 1 }}>
                                 <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', marginBottom: '0.5rem' }}>
-                                    <span style={{ fontSize: '0.7rem', textTransform: 'uppercase', color: 'var(--color-text-secondary)', fontWeight: 600, letterSpacing: '0.05em' }}>
+                                    <span style={{ fontSize: '0.7rem', textTransform: 'uppercase', color: 'var(--color-text-primary)', fontWeight: 700, letterSpacing: '0.05em' }}>
                                         {article.category}
                                     </span>
-                                    <span style={{ width: '4px', height: '4px', borderRadius: '50%', background: '#d4d4d8' }}></span>
-                                    <span style={{ fontSize: '0.7rem', color: 'var(--color-text-tertiary)' }}>{article.date}</span>
+                                    <span style={{ width: '4px', height: '4px', borderRadius: '50%', background: 'var(--color-text-tertiary)' }}></span>
+                                    <span style={{ fontSize: '0.7rem', color: 'var(--color-text-secondary)', fontWeight: 500 }}>{article.date}</span>
                                 </div>
                                 <Link to={`/article/${article.id}`} style={{ textDecoration: 'none' }}>
                                     <h2 className="list-title" style={{
@@ -296,7 +296,7 @@ function Home() {
                                     {article.excerpt}
                                 </p>
                                 <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', color: 'var(--color-text-tertiary)', fontSize: '0.8rem' }}>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', color: 'var(--color-text-secondary)', fontSize: '0.85rem', fontWeight: 500 }}>
                                         <Eye size={14} />
                                         <span>{formatViews(article.views)} reads</span>
                                     </div>
