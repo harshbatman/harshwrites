@@ -8,6 +8,7 @@ function Home() {
     const [searchTerm, setSearchTerm] = useState('');
     const [filter, setFilter] = useState('latest');
     const [viewType, setViewType] = useState('grid');
+    const [selectedIndustry, setSelectedIndustry] = useState('All');
 
     // Scroll to top when home page loads
     useEffect(() => {
@@ -22,13 +23,31 @@ function Home() {
         return `${views}+`;
     };
 
-    // Filter articles based on search term
+    // Filter articles based on search term and industry
     const filteredArticles = articles
-        .filter(article =>
-            article.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            article.excerpt.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            article.category.toLowerCase().includes(searchTerm.toLowerCase())
-        )
+        .filter(article => {
+            const matchesSearch =
+                article.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                article.excerpt.toLowerCase().includes(searchTerm.toLowerCase()) ||
+                article.category.toLowerCase().includes(searchTerm.toLowerCase());
+
+            let matchesIndustry = true;
+            if (selectedIndustry !== 'All') {
+                const category = article.category.toLowerCase();
+                const industry = selectedIndustry.toLowerCase();
+                if (industry === 'coding') {
+                    matchesIndustry = category.includes('coding') || category.includes('software') || category.includes('development');
+                } else if (industry === 'technology') {
+                    matchesIndustry = category.includes('technology') || category.includes('tech');
+                } else if (industry === 'real estate') {
+                    matchesIndustry = category.includes('real estate') || category.includes('urban') || category.includes('housing');
+                } else {
+                    matchesIndustry = category.includes(industry);
+                }
+            }
+
+            return matchesSearch && matchesIndustry;
+        })
         .sort((a, b) => {
             if (filter === 'latest') {
                 return new Date(b.publishDate) - new Date(a.publishDate);
@@ -78,6 +97,43 @@ function Home() {
                             }}
                             className="search-input"
                         />
+                    </div>
+                </div>
+
+                <div className="industry-filters-container" style={{
+                    marginTop: '2rem',
+                    width: '100%',
+                    overflow: 'hidden'
+                }}>
+                    <div style={{
+                        display: 'flex',
+                        gap: '0.75rem',
+                        overflowX: 'auto',
+                        padding: '0.5rem 0',
+                        scrollbarWidth: 'none',
+                        msOverflowStyle: 'none',
+                    }} className="industry-filters">
+                        {['All', 'Technology', 'Coding', 'Real Estate', 'History', 'Finance', 'Economics'].map((industry) => (
+                            <button
+                                key={industry}
+                                onClick={() => setSelectedIndustry(industry)}
+                                style={{
+                                    padding: '0.6rem 1.25rem',
+                                    borderRadius: 'var(--radius-FULL)',
+                                    border: selectedIndustry === industry ? '1px solid var(--color-text-primary)' : '1px solid var(--color-border)',
+                                    background: selectedIndustry === industry ? 'var(--color-text-primary)' : 'var(--color-surface)',
+                                    color: selectedIndustry === industry ? 'var(--color-bg)' : 'var(--color-text-primary)',
+                                    cursor: 'pointer',
+                                    fontSize: '0.85rem',
+                                    fontWeight: 600,
+                                    whiteSpace: 'nowrap',
+                                    transition: 'all 0.2s ease',
+                                    boxShadow: selectedIndustry === industry ? '0 4px 6px -1px rgba(0,0,0,0.1)' : 'var(--shadow-sm)'
+                                }}
+                            >
+                                {industry}
+                            </button>
+                        ))}
                     </div>
                 </div>
             </header>
