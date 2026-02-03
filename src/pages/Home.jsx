@@ -40,7 +40,7 @@ function Home() {
                 } else if (industry === 'technology') {
                     matchesIndustry = category.includes('technology') || category.includes('tech');
                 } else if (industry === 'real estate') {
-                    matchesIndustry = category.includes('real estate') || category.includes('urban') || category.includes('housing');
+                    matchesIndustry = category.includes('real estate') || category.includes('urban') || category.includes('housing') || category.includes('home building') || article.title.toLowerCase().includes('loan') || article.title.toLowerCase().includes('rent');
                 } else if (industry === 'personal') {
                     matchesIndustry = category.includes('personal growth') || category.includes('personal');
                 } else {
