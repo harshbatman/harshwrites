@@ -22,14 +22,29 @@ function Home() {
         return `${views}+`;
     };
 
-    // Filter articles based on search term
+    // Filter articles based on search term (searching title, excerpt, category, and full content)
     const filteredArticles = articles
-        .filter(article =>
-            article.title.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            article.excerpt.toLowerCase().includes(searchTerm.toLowerCase()) ||
-            article.category.toLowerCase().includes(searchTerm.toLowerCase())
-        )
+        .filter(article => {
+            if (!searchTerm) return true;
+            const searchLower = searchTerm.toLowerCase();
+            return (
+                article.title.toLowerCase().includes(searchLower) ||
+                article.excerpt.toLowerCase().includes(searchLower) ||
+                article.category.toLowerCase().includes(searchLower) ||
+                article.content.toLowerCase().includes(searchLower)
+            );
+        })
         .sort((a, b) => {
+            // If there's a search term, prioritize title matches first
+            if (searchTerm) {
+                const searchLower = searchTerm.toLowerCase();
+                const aTitleMatch = a.title.toLowerCase().includes(searchLower);
+                const bTitleMatch = b.title.toLowerCase().includes(searchLower);
+                if (aTitleMatch && !bTitleMatch) return -1;
+                if (!aTitleMatch && bTitleMatch) return 1;
+            }
+
+            // Then apply the selected filter
             if (filter === 'latest') {
                 return new Date(b.publishDate) - new Date(a.publishDate);
             } else if (filter === 'most-read') {
