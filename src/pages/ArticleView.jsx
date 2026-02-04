@@ -69,27 +69,61 @@ function ArticleView() {
         }
 
         const contentDiv = document.querySelector('.story-content');
-        if (!contentDiv) return;
+        if (!contentDiv) {
+            console.error("Story content not found for speech synthesis.");
+            return;
+        }
 
-        // Extract text but remove things like alt text if possible, or just use innerText
-        const text = `${article.title}. ${contentDiv.innerText} `;
-        const utterance = new SpeechSynthesisUtterance(text);
+        // Extract clean text
+        const text = `${article.title}. ${contentDiv.innerText}`;
 
-        // Try to find a premium voice (usually 'Google UK English Male' or similar if available)
-        const voices = window.speechSynthesis.getVoices();
-        const premiumVoice = voices.find(v => v.name.includes('Google') && v.lang.startsWith('en')) ||
-            voices.find(v => v.lang.startsWith('en'));
+        // Cancel everything before starting
+        window.speechSynthesis.cancel();
 
-        if (premiumVoice) utterance.voice = premiumVoice;
+        // Small delay to let the browser clear the queue
+        setTimeout(() => {
+            // Split text into smaller chunks to avoid browser limits/hangs
+            // Split by sentences (approximately)
+            const chunks = text.match(/[^.!?]+[.!?]+/g) || [text];
 
-        utterance.rate = 0.95; // Slightly slower for better clarity
-        utterance.pitch = 1;
+            let currentChunk = 0;
 
-        utterance.onstart = () => setIsSpeaking(true);
-        utterance.onend = () => setIsSpeaking(false);
-        utterance.onerror = () => setIsSpeaking(false);
+            const speakNextChunk = () => {
+                if (currentChunk >= chunks.length) {
+                    setIsSpeaking(false);
+                    return;
+                }
 
-        window.speechSynthesis.speak(utterance);
+                const utterance = new SpeechSynthesisUtterance(chunks[currentChunk].trim());
+
+                // Voice selection
+                const voices = window.speechSynthesis.getVoices();
+                const premiumVoice = voices.find(v => v.name.includes('Google') && v.lang.startsWith('en')) ||
+                    voices.find(v => v.lang.startsWith('en'));
+
+                if (premiumVoice) utterance.voice = premiumVoice;
+                utterance.rate = 1;
+                utterance.pitch = 1;
+
+                utterance.onstart = () => {
+                    if (currentChunk === 0) setIsSpeaking(true);
+                };
+
+                utterance.onend = () => {
+                    currentChunk++;
+                    speakNextChunk();
+                };
+
+                utterance.onerror = (event) => {
+                    console.error("Speech error:", event);
+                    setIsSpeaking(false);
+                };
+
+                window.speechSynthesis.speak(utterance);
+            };
+
+            speakNextChunk();
+        }, 100);
     };
 
     // If article not found, show error
