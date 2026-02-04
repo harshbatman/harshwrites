@@ -93,7 +93,14 @@ function ArticleView() {
         // Word Tracking
         utterance.onboundary = (event) => {
             if (event.name === 'word') {
-                setCurrentWordInfo({ offset: event.charIndex, length: event.charLength || 0 });
+                let length = event.charLength;
+                if (!length || length === 0) {
+                    // Fallback: Calculate length by finding the next space or punctuation
+                    const remainingText = currentText.substring(event.charIndex);
+                    const match = remainingText.match(/^\w+/);
+                    length = match ? match[0].length : 1;
+                }
+                setCurrentWordInfo({ offset: event.charIndex, length: length });
             }
         };
 
