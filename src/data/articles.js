@@ -686,11 +686,11 @@ export const articles = [
   {
     id: "rent-vs-buy",
     views: 1240,
-    publishDate: "2026-02-05",
+    publishDate: "2023-12-11",
     title: "Rent vs Buy: The Wrong Debate",
     author: "Harsh Mahto",
     category: "Finance & Society",
-    date: "February 2026",
+    date: "11 Dec 2023",
     image: "/rent-vs-buy.jpg",
     excerpt: "Everywhere we look, there’s this big debate going on—rent versus buy. People keep arguing like it’s some math problem. But I think the debate itself is wrong.",
     content: `
@@ -815,11 +815,11 @@ export const articles = [
   {
     id: "home-loan-crisis",
     views: 1240,
-    publishDate: "2026-02-02",
+    publishDate: "2023-12-07",
     title: "Home Loan or Life Loan?",
     author: "Harsh Mahto",
     category: "Finance & Society",
-    date: "February 2026",
+    date: "7 Dec 2023",
     image: "/home-loan-crisis.png",
     excerpt: "Have you noticed, the moment we start talking about buying a house, the conversation doesn’t feel hopeful anymore? It feels heavy. Like we already know what’s coming.",
     content: `
@@ -1115,11 +1115,11 @@ export const articles = [
   {
     id: "one-home-too-many-contractors",
     views: 1240,
-    publishDate: "2026-01-30",
+    publishDate: "2023-12-01",
     title: "One Home. Too Many Contractors",
     author: "Harsh Mahto",
     category: "Real Estate & Reality",
-    date: "January 2026",
+    date: "1 Dec 2023",
     image: "/contractor-chaos-v2.jpg",
     excerpt: "You know, every time someone says, “Let’s build our own house”, it sounds so simple. Like, buy land, build walls, move in. But the moment we actually start, reality hits us hard.",
     content: `
