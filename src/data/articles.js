@@ -1084,6 +1084,11 @@ export const articles = [
 
       <p>After that moment, I was completely high—like the confidence you get after four bottles of vodka. (For the record, I don’t drink. This is just writing.)</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f5f3ff; border-left: 4px solid #8b5cf6; border-radius: 4px;">
+        <p style="margin: 0; color: #4c1d95; font-weight: 600;">Confidence isn't something you're born with; it's something you build, one terrifying podium at a time. The fear doesn't go away—you just get better at owning it.</p>
+      </div>
+
+
       <p>Those small moments boosted my confidence to another level. I went from barely speaking in class, from avoiding eye contact and staying silent, to standing at a podium, addressing a hall full of people. Not once. Not twice. But multiple times.</p>
 
       <p>And every time I stepped up, the fear felt smaller—and the voice inside me felt stronger.</p>
