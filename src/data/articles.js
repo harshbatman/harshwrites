@@ -1210,7 +1210,7 @@ export const articles = [
         <p style="margin: 0; color: #164e63; font-weight: 600;">Your body follows your life; when life pauses, the weight settles. Restarting requires moving even when the road ahead looks long and heavy.</p>
       </div>
 
-      <p style="text-align: center; color: #d946ef; font-weight: 700; margin-top: 3rem; font-size: 1.25rem; font-style: italic;">
+      <p style="text-align: center; color: #6366f1; font-weight: 800; margin-top: 4rem; font-size: 1.5rem; font-style: italic; letter-spacing: -0.025em;">
         time is flying but you are the pilot
       </p>
 
