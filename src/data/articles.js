@@ -2824,7 +2824,7 @@ export const articles = [
 
       <p>And that’s when it hit me.</p>
 
-      <p>These machines… they’ve become faster, smaller, and more powerful with time. So much so that even someone who can’t form full sentences yet feels entitled to them. We’re watching a generation grow up touching glass before touching grass.</p>
+      <p>These machines… they’ve become faster, smaller, and more powerful with time. So much so that even someone who can’t form full sentences yet feels entitled to them.</p>
 
       <div style="margin: 2rem 0; padding: 1.5rem; background: #fffcf0; border-left: 4px solid #eab308; border-radius: 4px;">
         <p style="margin: 0; color: #854d0e; font-weight: 600;">We are watching a generation grow up touching glass before touching grass, where hardware sits in the hands of three-year-olds before they even learn to navigate the physical world.</p>
