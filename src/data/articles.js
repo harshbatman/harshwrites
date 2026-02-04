@@ -6559,11 +6559,11 @@ export const articles = [
   {
     id: "semiconductor-story-india",
     views: 1240,
-    publishDate: "2026-04-01",
+    publishDate: "2023-01-26",
     title: "A Nation That Codes, But Doesn’t Fabricate",
     author: "Harsh Mahto",
     category: "Technology & Manufacturing",
-    date: "April 2026",
+    date: "26 Jan 2023",
     image: "/made-in-india-chip-v2.png",
     excerpt: "Everywhere I look these days—phones, cars, even washing machines—everything runs on chips. And yet, when it comes to making them ourselves, it feels like we missed the bus.",
     content: `
