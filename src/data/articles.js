@@ -8051,7 +8051,7 @@ export const articles = [
     content: `
       <p>Sometimes I feel our homes have stopped being homes. They feel more like survival chambers.</p>
 
-      <p>Look around any metro city where we live. What do we actually need to live normally now? An air purifier. A water purifier. An air conditioner. And a refrigerator. Four machines just to get through an ordinary day.</p>
+      <p>Look around any metro city where we live. What do we actually need to live normally now? An <strong style="color: #000;">air purifier</strong>. A <strong style="color: #000;">water purifier</strong>. An <strong style="color: #000;">air conditioner</strong>. And a <strong style="color: #000;">refrigerator</strong>. Four machines just to get through an ordinary day.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Four Essentials</h3>
 
@@ -8090,7 +8090,7 @@ export const articles = [
       <p>Adjustment to a world we slowly damaged, and then tried to fix with switches and sockets instead of real solutions.</p>
 
       <div style="margin: 2rem 0; padding: 1.5rem; background: #fef2f2; border-left: 4px solid #ef4444; border-radius: 4px;">
-        <p style="margin: 0; color: #991b1b; font-weight: 600;">In our cities, machines have replaced nature. Air purifiers, water filters, and air conditioners aren't luxuries anymore—they are survival tools in a world we slowly damaged and then tried to fix with switches and sockets.</p>
+        <p style="margin: 0; color: #991b1b; font-weight: 600;">In our cities, machines have replaced nature. <span style="color: #000; font-weight: 800;">Air purifiers</span>, <span style="color: #000; font-weight: 800;">water filters</span>, and <span style="color: #000; font-weight: 800;">air conditioners</span> aren't luxuries anymore—they are survival tools in a world we slowly damaged and then tried to fix with switches and sockets.</p>
       </div>
 
     `
