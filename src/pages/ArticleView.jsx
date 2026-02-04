@@ -18,12 +18,13 @@ function ArticleView() {
     const [currentWordInfo, setCurrentWordInfo] = useState({ offset: 0, length: 0 });
     const [allChunks, setAllChunks] = useState([]);
 
-    // Refs for real-time state access in callbacks and to prevent GC
+    // Refs for real-time state access, to prevent GC, and for fallback timers
     const isSpeakingRef = React.useRef(false);
     const isPausedRef = React.useRef(false);
     const playbackRateRef = React.useRef(1);
     const utteranceRef = React.useRef(null);
-    const contentRef = React.useRef(null);
+    const fallbackTimerRef = React.useRef(null);
+    const lastBoundaryTimeRef = React.useRef(0);
 
     // Sync refs with state
     useEffect(() => { isSpeakingRef.current = isSpeaking; }, [isSpeaking]);
@@ -91,9 +92,15 @@ function ArticleView() {
         const utterance = new SpeechSynthesisUtterance(currentText);
         utteranceRef.current = utterance; // Prevent GC
 
+        // Reset tracking
+        setCurrentWordInfo({ offset: 0, length: 0 });
+        lastBoundaryTimeRef.current = 0;
+        if (fallbackTimerRef.current) clearInterval(fallbackTimerRef.current);
+
         // Word Tracking
         utterance.onboundary = (event) => {
             if (event.name === 'word') {
+                lastBoundaryTimeRef.current = Date.now();
                 let length = event.charLength;
                 if (!length || length === 0) {
                     // Fallback: Find the end of the current word in the text
@@ -133,26 +140,56 @@ function ArticleView() {
         utterance.volume = 1;
 
         utterance.onstart = () => {
+            // Auto-scroll and highlight paragraph
             const paragraphs = contentDiv.querySelectorAll('p, h2, h3, li');
-            const targetText = currentText.trim().substring(0, 30);
+            const targetText = currentText.trim().substring(0, 40);
             for (let p of paragraphs) {
                 if (p.innerText.includes(targetText)) {
                     p.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                    p.style.transition = 'all 0.5s cubic-bezier(0.4, 0, 0.2, 1)';
-                    const originalBg = p.style.background;
-                    const originalBorder = p.style.borderLeft;
+                    p.style.transition = 'all 0.5s';
                     p.style.background = 'rgba(99, 102, 241, 0.08)';
                     p.style.borderLeft = '4px solid #6366f1';
                     setTimeout(() => {
-                        p.style.background = originalBg;
-                        p.style.borderLeft = originalBorder;
+                        p.style.background = '';
+                        p.style.borderLeft = '';
                     }, 5000);
                     break;
                 }
             }
+
+            // Word Highlighting Fallback (for browsers where onboundary fails)
+            let wordIndex = 0;
+            const words = currentText.split(/(\s+)/);
+            let charOffset = 0;
+            const wordPositions = words.map(w => {
+                const pos = { text: w, offset: charOffset, length: w.length };
+                charOffset += w.length;
+                return pos;
+            }).filter(w => w.text.trim().length > 0);
+
+            fallbackTimerRef.current = setInterval(() => {
+                if (isPausedRef.current) return;
+
+                // If onboundary is working, don't interfere
+                if (Date.now() - lastBoundaryTimeRef.current < 2000 && lastBoundaryTimeRef.current !== 0) return;
+
+                // Simple estimation based on rate (approx 150wpm * rate)
+                const msPerWord = (60000 / (170 * playbackRateRef.current));
+                const elapsedSinceStart = Date.now() - (utterance.startTime || Date.now());
+                const estimatedWordIndex = Math.floor(elapsedSinceStart / msPerWord);
+
+                if (wordPositions[estimatedWordIndex]) {
+                    setCurrentWordInfo({
+                        offset: wordPositions[estimatedWordIndex].offset,
+                        length: wordPositions[estimatedWordIndex].length
+                    });
+                }
+            }, 100);
+            utterance.startTime = Date.now();
         };
 
         utterance.onend = () => {
+            if (fallbackTimerRef.current) clearInterval(fallbackTimerRef.current);
             const nextIndex = index + 1;
             setCurrentChunkIndex(nextIndex);
             setCurrentWordInfo({ offset: 0, length: 0 });
@@ -163,6 +200,7 @@ function ArticleView() {
         };
 
         utterance.onerror = (e) => {
+            if (fallbackTimerRef.current) clearInterval(fallbackTimerRef.current);
             if (e.error === 'interrupted') return;
             console.error("Speech utterance error:", e);
             if (!isPausedRef.current) {
@@ -207,6 +245,7 @@ function ArticleView() {
     };
 
     const handleStopSpeech = () => {
+        if (fallbackTimerRef.current) clearInterval(fallbackTimerRef.current);
         window.speechSynthesis.cancel();
         setIsSpeaking(false);
         setIsPaused(false);
