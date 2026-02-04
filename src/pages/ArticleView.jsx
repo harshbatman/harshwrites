@@ -16,41 +16,37 @@ function ArticleView() {
     const [playbackRate, setPlaybackRate] = useState(1);
     const [currentChunkIndex, setCurrentChunkIndex] = useState(0);
 
+    // Refs for real-time state access in callbacks and to prevent GC
+    const isSpeakingRef = React.useRef(false);
+    const isPausedRef = React.useRef(false);
+    const playbackRateRef = React.useRef(1);
+    const utteranceRef = React.useRef(null);
+
+    // Sync refs with state
+    useEffect(() => { isSpeakingRef.current = isSpeaking; }, [isSpeaking]);
+    useEffect(() => { isPausedRef.current = isPaused; }, [isPaused]);
+    useEffect(() => { playbackRateRef.current = playbackRate; }, [playbackRate]);
+
     // Initial Scroll
     useEffect(() => {
         window.scrollTo(0, 0);
-        // Stop speech on navigation
-        window.speechSynthesis.cancel();
-        setIsSpeaking(false);
-        setIsPaused(false);
-        setCurrentChunkIndex(0);
+        handleStopSpeech();
     }, [id]);
 
     // Handle Image Clicks for Lightbox
     useEffect(() => {
-        // Wait for render
         const timer = setTimeout(() => {
             const contentDiv = document.querySelector('.story-content');
             if (!contentDiv) return;
 
             const handleImageClick = (e) => {
-                // If clicked element is an image
-                if (e.target.tagName === 'IMG') {
-                    // Check if parent is NOT a link (to avoid hijacking linked images if any)
-                    if (e.target.parentElement.tagName !== 'A') {
-                        setZoomedImage(e.target.src);
-                    }
+                if (e.target.tagName === 'IMG' && e.target.parentElement.tagName !== 'A') {
+                    setZoomedImage(e.target.src);
                 }
             };
-
             contentDiv.addEventListener('click', handleImageClick);
-
-            // Cleanup
-            return () => {
-                contentDiv.removeEventListener('click', handleImageClick);
-            };
-        }, 500); // Small delay to ensure HTML is injected
-
+            return () => contentDiv.removeEventListener('click', handleImageClick);
+        }, 500);
         return () => clearTimeout(timer);
     }, [id, article]);
 
@@ -65,30 +61,29 @@ function ArticleView() {
         const rates = [1, 1.25, 1.5, 2, 0.75];
         const nextRate = rates[(rates.indexOf(playbackRate) + 1) % rates.length];
         setPlaybackRate(nextRate);
+        playbackRateRef.current = nextRate;
 
-        // If speaking, we need to restart the current chunk with the new rate
-        if (isSpeaking && !isPaused) {
+        if (isSpeakingRef.current && !isPausedRef.current) {
             window.speechSynthesis.cancel();
             speakFromIndex(currentChunkIndex, nextRate);
         }
     };
 
-    const speakFromIndex = (index, rate = playbackRate) => {
+    const speakFromIndex = (index, rate = playbackRateRef.current) => {
         const synth = window.speechSynthesis;
         const contentDiv = document.querySelector('.story-content');
         if (!contentDiv) return;
 
         const text = `${article.title}. ${contentDiv.innerText}`;
-        const chunks = text.match(/[^.!?]+[.!?]+/g) || [text];
+        const chunks = text.match(/[^.!?]+[.!?]*/g) || [text];
 
         if (index >= chunks.length) {
-            setIsSpeaking(false);
-            setIsPaused(false);
-            setCurrentChunkIndex(0);
+            handleStopSpeech();
             return;
         }
 
         const utterance = new SpeechSynthesisUtterance(chunks[index].trim());
+        utteranceRef.current = utterance; // Prevent GC
 
         const voices = synth.getVoices();
         const preferredMale =
@@ -98,20 +93,24 @@ function ArticleView() {
 
         if (preferredMale) utterance.voice = preferredMale;
         utterance.rate = rate;
-        utterance.pitch = 1;
         utterance.volume = 1;
 
         utterance.onend = () => {
             const nextIndex = index + 1;
             setCurrentChunkIndex(nextIndex);
-            if (isSpeaking && !isPaused) {
+
+            if (isSpeakingRef.current && !isPausedRef.current) {
                 speakFromIndex(nextIndex, rate);
             }
         };
 
-        utterance.onerror = () => {
-            setIsSpeaking(false);
-            setIsPaused(false);
+        utterance.onerror = (e) => {
+            if (e.error === 'interrupted') return;
+            console.error("Speech utterance error:", e);
+            if (!isPausedRef.current) {
+                setIsSpeaking(false);
+                isSpeakingRef.current = false;
+            }
         };
 
         synth.resume();
@@ -120,26 +119,32 @@ function ArticleView() {
 
     const handleToggleSpeech = () => {
         const synth = window.speechSynthesis;
-        if (!synth) {
-            alert("Sorry, your browser doesn't support text to speech!");
-            return;
-        }
+        if (!synth) return;
 
         if (isSpeaking && !isPaused) {
-            // Act as Pause
-            synth.cancel();
             setIsPaused(true);
+            isPausedRef.current = true;
+            synth.cancel();
         } else if (isSpeaking && isPaused) {
-            // Act as Resume
             setIsPaused(false);
+            isPausedRef.current = false;
             speakFromIndex(currentChunkIndex);
         } else {
-            // Act as Start
             setIsSpeaking(true);
+            isSpeakingRef.current = true;
             setIsPaused(false);
+            isPausedRef.current = false;
             setCurrentChunkIndex(0);
             synth.cancel();
-            setTimeout(() => speakFromIndex(0), 50);
+
+            // Audio unlock for mobile
+            try { synth.speak(new SpeechSynthesisUtterance("")); } catch (e) { }
+
+            setTimeout(() => {
+                if (isSpeakingRef.current) {
+                    speakFromIndex(0);
+                }
+            }, 100);
         }
     };
 
@@ -148,6 +153,8 @@ function ArticleView() {
         setIsSpeaking(false);
         setIsPaused(false);
         setCurrentChunkIndex(0);
+        isSpeakingRef.current = false;
+        isPausedRef.current = false;
     };
 
     // If article not found, show error
