@@ -373,33 +373,37 @@ function ArticleView() {
                             {/* Date, Time & Reads */}
                             <div style={{
                                 display: 'flex',
-                                gap: windowWidth < 480 ? '1rem' : '2rem',
-                                flexWrap: 'wrap'
+                                gap: windowWidth < 480 ? '1rem' : '1.5rem',
+                                flexWrap: 'nowrap',
+                                overflowX: windowWidth < 640 ? 'auto' : 'visible',
+                                paddingBottom: windowWidth < 640 ? '4px' : '0',
+                                width: '100%',
+                                scrollbarWidth: 'none'
                             }}>
-                                <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.25' }}>
-                                    <span style={{ fontSize: '0.7rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Published</span>
-                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: '#4b5563', fontSize: '0.9rem', fontWeight: 500 }}>
-                                        <Calendar size={14} /> <span>{article.date}</span>
+                                <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.25', flexShrink: 0 }}>
+                                    <span style={{ fontSize: '0.6rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Published</span>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', color: '#4b5563', fontSize: '0.8rem', fontWeight: 500 }}>
+                                        <Calendar size={13} /> <span>{article.date}</span>
                                     </div>
                                 </div>
                                 {article.lastUpdated && (
-                                    <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.25' }}>
-                                        <span style={{ fontSize: '0.7rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Updated</span>
-                                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: '#4b5563', fontSize: '0.9rem', fontWeight: 500 }}>
-                                            <RotateCcw size={14} /> <span>{article.lastUpdated}</span>
+                                    <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.25', flexShrink: 0 }}>
+                                        <span style={{ fontSize: '0.6rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Updated</span>
+                                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', color: '#4b5563', fontSize: '0.8rem', fontWeight: 500 }}>
+                                            <RotateCcw size={13} /> <span>{article.lastUpdated}</span>
                                         </div>
                                     </div>
                                 )}
-                                <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.25' }}>
-                                    <span style={{ fontSize: '0.7rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Reading Time</span>
-                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: '#4b5563', fontSize: '0.9rem', fontWeight: 500 }}>
-                                        <Clock size={14} /> <span>{readTime}</span>
+                                <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.25', flexShrink: 0 }}>
+                                    <span style={{ fontSize: '0.6rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Reading Time</span>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', color: '#4b5563', fontSize: '0.8rem', fontWeight: 500 }}>
+                                        <Clock size={13} /> <span>{readTime}</span>
                                     </div>
                                 </div>
-                                <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.25' }}>
-                                    <span style={{ fontSize: '0.7rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Total Reads</span>
-                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: '#4b5563', fontSize: '0.9rem', fontWeight: 500 }}>
-                                        <Eye size={14} /> <span>{formatViews(article.views)}</span>
+                                <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.25', flexShrink: 0 }}>
+                                    <span style={{ fontSize: '0.6rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Total Reads</span>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', color: '#4b5563', fontSize: '0.8rem', fontWeight: 500 }}>
+                                        <Eye size={13} /> <span>{formatViews(article.views)}</span>
                                     </div>
                                 </div>
                             </div>
