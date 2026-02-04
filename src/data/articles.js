@@ -2,11 +2,11 @@ export const articles = [
   {
     id: "unauthorized-colonies-unplanned-development",
     views: 1240,
-    publishDate: "2026-02-03",
+    publishDate: "2024-01-02",
     title: "Unauthorized Colonies: How Our Cities Grew Without Planning",
     author: "Harsh Mahto",
     category: "Urban Planning & Society",
-    date: "3 Feb 2026",
+    date: "2 Jan 2024",
     image: "/unauthorized-colonies-unplanned.jpg",
     excerpt: "Have you ever noticed how some parts of our cities feel completely unplanned? Unauthorized colonies represent a symptom of a deeper planning failure in India's urban growth.",
     content: `
@@ -128,11 +128,11 @@ export const articles = [
   {
     id: "failed-urban-infrastructure-high-rise-societies",
     views: 1240,
-    publishDate: "2026-02-03",
+    publishDate: "2024-01-21",
     title: "Failed Urban Infrastructure & the Rise of High-Rise Societies",
     author: "Harsh Mahto",
     category: "Urban Planning & Society",
-    date: "3 Feb 2026",
+    date: "21 Jan 2024",
     image: "/high-rise-societies.jpg",
     excerpt: "High-rise societies are more than just a lifestyle choice; they are a private response to a systemic failure in public infrastructure.",
     content: `
@@ -7598,11 +7598,11 @@ export const articles = [
   {
     id: "unplanned-cities",
     views: 1240,
-    publishDate: "2026-01-31",
+    publishDate: "2024-01-07",
     title: "Why Our Cities Are So Unplanned",
     author: "Harsh Mahto",
     category: "Urban Planning & Society",
-    date: "31 Jan 2026",
+    date: "7 Jan 2024",
     image: "/unplanned-cities-comparison.jpg",
     excerpt: "Sometimes I really wonder... why do our Indian cities feel so chaotic compared to cities in Europe or the U.S? When we look at those places, everything just seems to fit—like it was thought through properly.",
     content: `
@@ -7658,11 +7658,11 @@ export const articles = [
   {
     id: "pollution-survival",
     views: 1240,
-    publishDate: "2026-01-31",
+    publishDate: "2025-11-17",
     title: "This Is Not Luxury. This Is Survival.",
     author: "Harsh Mahto",
     category: "Environment & Lifestyle",
-    date: "31 Jan 2026",
+    date: "17 November 2025",
     image: "/pollution-survival.jpg",
     excerpt: "Have you noticed something strange about our daily life? In any metro city where we live, we must have four things at home now—air purifier, water purifier, air conditioner, and refrigerator.",
     content: `
