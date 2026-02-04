@@ -12,6 +12,9 @@ function ArticleView() {
     const [copied, setCopied] = useState(false);
     const [zoomedImage, setZoomedImage] = useState(null);
     const [isSpeaking, setIsSpeaking] = useState(false);
+    const [isPaused, setIsPaused] = useState(false);
+    const [playbackRate, setPlaybackRate] = useState(1);
+    const [currentChunkIndex, setCurrentChunkIndex] = useState(0);
 
     // Initial Scroll
     useEffect(() => {
@@ -19,6 +22,8 @@ function ArticleView() {
         // Stop speech on navigation
         window.speechSynthesis.cancel();
         setIsSpeaking(false);
+        setIsPaused(false);
+        setCurrentChunkIndex(0);
     }, [id]);
 
     // Handle Image Clicks for Lightbox
@@ -56,6 +61,63 @@ function ArticleView() {
         };
     }, []);
 
+    const togglePlaybackRate = () => {
+        const rates = [1, 1.25, 1.5, 2, 0.75];
+        const nextRate = rates[(rates.indexOf(playbackRate) + 1) % rates.length];
+        setPlaybackRate(nextRate);
+
+        // If speaking, we need to restart the current chunk with the new rate
+        if (isSpeaking && !isPaused) {
+            window.speechSynthesis.cancel();
+            speakFromIndex(currentChunkIndex, nextRate);
+        }
+    };
+
+    const speakFromIndex = (index, rate = playbackRate) => {
+        const synth = window.speechSynthesis;
+        const contentDiv = document.querySelector('.story-content');
+        if (!contentDiv) return;
+
+        const text = `${article.title}. ${contentDiv.innerText}`;
+        const chunks = text.match(/[^.!?]+[.!?]+/g) || [text];
+
+        if (index >= chunks.length) {
+            setIsSpeaking(false);
+            setIsPaused(false);
+            setCurrentChunkIndex(0);
+            return;
+        }
+
+        const utterance = new SpeechSynthesisUtterance(chunks[index].trim());
+
+        const voices = synth.getVoices();
+        const preferredMale =
+            voices.find(v => v.name.includes('Google') && v.name.includes('Male') && v.lang.startsWith('en')) ||
+            voices.find(v => v.name.includes('Male') && v.lang.startsWith('en')) ||
+            voices.find(v => v.lang.startsWith('en'));
+
+        if (preferredMale) utterance.voice = preferredMale;
+        utterance.rate = rate;
+        utterance.pitch = 1;
+        utterance.volume = 1;
+
+        utterance.onend = () => {
+            const nextIndex = index + 1;
+            setCurrentChunkIndex(nextIndex);
+            if (isSpeaking && !isPaused) {
+                speakFromIndex(nextIndex, rate);
+            }
+        };
+
+        utterance.onerror = () => {
+            setIsSpeaking(false);
+            setIsPaused(false);
+        };
+
+        synth.resume();
+        synth.speak(utterance);
+    };
+
     const handleToggleSpeech = () => {
         const synth = window.speechSynthesis;
         if (!synth) {
@@ -63,74 +125,29 @@ function ArticleView() {
             return;
         }
 
-        if (isSpeaking) {
+        if (isSpeaking && !isPaused) {
+            // Act as Pause
             synth.cancel();
-            setIsSpeaking(false);
-            return;
+            setIsPaused(true);
+        } else if (isSpeaking && isPaused) {
+            // Act as Resume
+            setIsPaused(false);
+            speakFromIndex(currentChunkIndex);
+        } else {
+            // Act as Start
+            setIsSpeaking(true);
+            setIsPaused(false);
+            setCurrentChunkIndex(0);
+            synth.cancel();
+            setTimeout(() => speakFromIndex(0), 50);
         }
+    };
 
-        const contentDiv = document.querySelector('.story-content');
-        if (!contentDiv) {
-            console.error("Story content not found.");
-            return;
-        }
-
-        // 1. Immediate State Feedback
-        setIsSpeaking(true);
-        synth.cancel();
-
-        // Unlock audio context for mobile/safari
-        try { synth.speak(new SpeechSynthesisUtterance("")); } catch (e) { }
-
-        // 2. Prepare Text
-        const text = `${article.title}. ${contentDiv.innerText}`;
-        // Split by sentences or roughly 150 characters to stay safe
-        const chunks = text.match(/[^.!?]+[.!?]+/g) || [text];
-
-        let chunkIndex = 0;
-
-        const speakNext = () => {
-            if (chunkIndex >= chunks.length) {
-                setIsSpeaking(false);
-                return;
-            }
-
-            const utterance = new SpeechSynthesisUtterance(chunks[chunkIndex].trim());
-
-            // 3. Robust Male Voice Selection
-            const voices = synth.getVoices();
-            const preferredMale =
-                voices.find(v => v.name.includes('Google') && v.name.includes('Male') && v.lang.startsWith('en')) ||
-                voices.find(v => v.name.includes('Male') && v.lang.startsWith('en')) ||
-                voices.find(v => v.name.includes('Guy') || v.name.includes('David')) ||
-                voices.find(v => v.lang.startsWith('en'));
-
-            if (preferredMale) utterance.voice = preferredMale;
-            utterance.rate = 1;
-            utterance.pitch = 1;
-            utterance.volume = 1; // Force maximum volume
-
-            utterance.onend = () => {
-                chunkIndex++;
-                speakNext();
-            };
-
-            utterance.onerror = (e) => {
-                console.error("Speech Error:", e);
-                // If it's a 'not-allowed' error, it might be a gesture issue
-                if (e.error === 'not-allowed') {
-                    alert("Speech blocked. Please click again or check browser permissions.");
-                }
-                setIsSpeaking(false);
-            };
-
-            // 4. Chrome Bug Fix: Periodic Resume
-            synth.resume(); // Ensure it's not in a paused state
-            synth.speak(utterance);
-        };
-
-        // Start after a very brief delay to ensure cancel finished
-        setTimeout(speakNext, 50);
+    const handleStopSpeech = () => {
+        window.speechSynthesis.cancel();
+        setIsSpeaking(false);
+        setIsPaused(false);
+        setCurrentChunkIndex(0);
     };
 
     // If article not found, show error
@@ -242,42 +259,87 @@ function ArticleView() {
 
                         <div style={{ width: '1px', height: '24px', background: '#e5e7eb' }} className="hidden-mobile"></div>
 
-                        {/* Listen Button */}
+                        {/* Listen & Control Section */}
                         <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', lineHeight: '1.2' }}>
-                            <span style={{ fontSize: '0.7rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Voice</span>
-                            <button
-                                onClick={handleToggleSpeech}
-                                style={{
-                                    display: 'flex',
-                                    alignItems: 'center',
-                                    gap: '0.4rem',
-                                    color: isSpeaking ? '#ef4444' : '#6366f1',
-                                    fontSize: '0.9rem',
-                                    fontWeight: 600,
-                                    background: 'none',
-                                    border: 'none',
-                                    padding: 0,
-                                    cursor: 'pointer',
-                                    transition: 'transform 0.2s',
-                                }}
-                                onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
-                                onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
-                            >
-                                {isSpeaking ? <Square size={14} fill="currentColor" /> : <Volume2 size={14} />}
-                                <span>{isSpeaking ? 'Stop AI' : 'Listen AI'}</span>
+                            <span style={{ fontSize: '0.7rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Voice Agent</span>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginTop: '0.2rem' }}>
+                                {/* Play / Pause */}
+                                <button
+                                    onClick={handleToggleSpeech}
+                                    title={isSpeaking ? (isPaused ? 'Resume' : 'Pause') : 'Listen AI'}
+                                    style={{
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        gap: '0.4rem',
+                                        color: isSpeaking ? (isPaused ? '#6366f1' : '#f59e0b') : '#6366f1',
+                                        fontSize: '0.9rem',
+                                        fontWeight: 600,
+                                        background: 'none',
+                                        border: 'none',
+                                        padding: 0,
+                                        cursor: 'pointer',
+                                        transition: 'all 0.2s',
+                                    }}
+                                >
+                                    {isSpeaking ? (isPaused ? <Play size={16} fill="currentColor" /> : <Pause size={16} fill="currentColor" />) : <Volume2 size={16} />}
+                                    <span>{isSpeaking ? (isPaused ? 'Resume' : 'Pause') : 'Listen'}</span>
+                                </button>
+
+                                {/* Stop / Reset */}
                                 {isSpeaking && (
+                                    <button
+                                        onClick={handleStopSpeech}
+                                        title="Stop & Reset"
+                                        style={{
+                                            display: 'flex',
+                                            alignItems: 'center',
+                                            color: '#ef4444',
+                                            background: 'none',
+                                            border: 'none',
+                                            padding: 0,
+                                            cursor: 'pointer'
+                                        }}
+                                    >
+                                        <RotateCcw size={14} />
+                                    </button>
+                                )}
+
+                                {/* Speed Control */}
+                                <button
+                                    onClick={togglePlaybackRate}
+                                    title="Playback Speed"
+                                    style={{
+                                        display: 'flex',
+                                        alignItems: 'center',
+                                        gap: '0.25rem',
+                                        color: '#6b7280',
+                                        fontSize: '0.8rem',
+                                        fontWeight: 700,
+                                        background: '#f3f4f6',
+                                        border: '1px solid #e5e7eb',
+                                        padding: '0.1rem 0.5rem',
+                                        borderRadius: '4px',
+                                        cursor: 'pointer'
+                                    }}
+                                >
+                                    <Gauge size={12} />
+                                    <span>{playbackRate}x</span>
+                                </button>
+
+                                {/* Animation */}
+                                {isSpeaking && !isPaused && (
                                     <span style={{ display: 'flex', gap: '2px', marginLeft: '4px' }}>
                                         {[1, 2, 3].map(i => (
                                             <Motion.span
                                                 key={i}
                                                 animate={{ height: [4, 10, 4] }}
                                                 transition={{ duration: 0.6, repeat: Infinity, delay: i * 0.1 }}
-                                                style={{ width: '2px', background: '#ef4444', borderRadius: '1px' }}
+                                                style={{ width: '2px', background: '#6366f1', borderRadius: '1px' }}
                                             />
                                         ))}
                                     </span>
                                 )}
-                            </button>
+                            </div>
                         </div>
 
                         <div style={{ width: '1px', height: '24px', background: '#e5e7eb' }} className="hidden-mobile"></div>
