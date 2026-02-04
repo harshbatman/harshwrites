@@ -7185,11 +7185,11 @@ export const articles = [
   {
     id: "data-structures-and-algorithms",
     views: 1240,
-    publishDate: "2026-01-28",
+    publishDate: "2023-05-08",
     title: "Data Structures and Algorithms",
     author: "Harsh Mahto",
     category: "Software Engineering",
-    date: "January 2026",
+    date: "8 May 2023",
     image: "/dsa-cover.jpg",
     excerpt: "Recently, I put a pause on web development. It was moving fast, projects were shipping, but something felt… incomplete. The foundation was shaky.",
     content: `
