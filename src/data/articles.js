@@ -2642,6 +2642,11 @@ export const articles = [
       <p>They could run longer, cooler, and more reliably.</p>
       <p>That single change quietly made personal computing possible.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f7fee7; border-left: 4px solid #84cc16; border-radius: 4px;">
+        <p style="margin: 0; color: #365314; font-weight: 600;">The transistor was the ultimate disruptor—it turned government-sized machines into personal tools and set the stage for every screen you've ever touched.</p>
+      </div>
+
+
       <!-- The Shrinking Machine Graph -->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Shrinking Machine (Power vs. Size)</h4>
@@ -2757,6 +2762,11 @@ export const articles = [
       <p>No grand roadmap.</p>
       <p>Just evolution—transistors compounding, workloads changing, and the industry adapting around the quiet promise that started it all.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #ecfdf5; border-left: 4px solid #10b981; border-radius: 4px;">
+        <p style="margin: 0; color: #064e3b; font-weight: 600;">The shift to GPUs wasn't just about better graphics; it was about moving from sequential thinking to parallel intelligence, enabling the modern era of AI.</p>
+      </div>
+
+
       <!-- Moore's Law Graph -->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Exponential Rise (Transistor Count)</h4>
@@ -2839,6 +2849,11 @@ export const articles = [
       <p>On the other side, <strong>Apple</strong>.</p>
       <p>Closed systems. Tight control. Design obsession. Apple didn’t want everyone. They wanted loyal users. And that strategy shaped our idea of premium tech.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f5f3ff; border-left: 4px solid #8b5cf6; border-radius: 4px;">
+        <p style="margin: 0; color: #4c1d95; font-weight: 600;">Operating systems were the first true digital gatekeepers, deciding not just how we interacted with hardware, but who had the power to reach the user.</p>
+      </div>
+
+
       <p>And below all of this, hidden from normal people, programming languages evolved.</p>
       <p><strong>C</strong> gave us control.</p>
       <p><strong>C++</strong> gave us performance.</p>
@@ -2854,6 +2869,11 @@ export const articles = [
       <p>That was <strong>Web 1.0</strong>.</p>
       <p>Static pages. One-way communication. We read. We downloaded. We waited for pages to load.</p>
       <p>It felt slow, but for the first time, information ignored borders.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffbeb; border-left: 4px solid #f59e0b; border-radius: 4px;">
+        <p style="margin: 0; color: #78350f; font-weight: 600;">Web 1.0 was the era of discovery, where information finally broke free from physical boundaries, creating a one-way bridge to the world's knowledge.</p>
+      </div>
+
 
       <p>And entrepreneurs smelled blood.</p>
       <p>Amazon started with books—not because books were special, but because logistics could be tested.</p>
@@ -4148,6 +4168,11 @@ export const articles = [
       <p>Unlimited data changed behavior overnight.</p>
       <p>Video replaced text.</p>
       <p>Apps replaced websites.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fdf2f8; border-left: 4px solid #ec4899; border-radius: 4px;">
+        <p style="margin: 0; color: #831843; font-weight: 600;">Jio's launch was the 'Big Bang' of the Indian internet—it transformed connectivity from a luxury for the few into a basic right for the billion.</p>
+      </div>
+
       <p>Usage exploded—not slowly, but violently.</p>
 
       <p>This wasn’t just a telecom event.</p>
@@ -4289,6 +4314,11 @@ export const articles = [
         <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
           When money moves at the speed of software, velocity explodes.
         </p>
+
+        <div style="margin: 2rem 0; padding: 1.5rem; background: #f0fdfa; border-left: 4px solid #14b8a6; border-radius: 4px;">
+          <p style="margin: 0; color: #0f766e; font-weight: 600;">UPI solved the trust gap in the digital economy, turning the phone into a global wallet and making 'digital-first' the default behavior across every layer of society.</p>
+        </div>
+
       </div>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Delivery & Instant Economy — Speed Becomes the Product</h3>
