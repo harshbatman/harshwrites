@@ -1049,9 +1049,6 @@ export const articles = [
 
       <p>That moment hit me hard. Even though I never liked attending classes regularly, whatever little motivation I had just went downhill after that.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffbeb; border-left: 4px solid #f59e0b; border-radius: 4px;">
-        <p style="margin: 0; color: #78350f; font-weight: 600;">When the environment fails to inspire you, you have to build your own classroom. My grounds, my music, and my code became the curriculum I actually needed.</p>
-      </div>
 
 
       <p>To be fair, there were a few genuinely good, cool professors. One of them was Mrs. Chanchal Hooda, our Language & Literature professor in the 1st and 2nd semester. Her classes were different—debates, discussions, real conversations, not just notes on a board. That's where I slowly killed my fear of public speaking.</p>
@@ -1098,9 +1095,6 @@ export const articles = [
         <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">From being too shy to talk to people, to standing at a podium and speaking in front of a hall full of people.</p>
       </div>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f5f3ff; border-left: 4px solid #8b5cf6; border-radius: 4px;">
-        <p style="margin: 0; color: #4c1d95; font-weight: 600;">Confidence isn't something you're born with; it's something you build, one terrifying podium at a time. The fear doesn't go away—you just get better at owning it.</p>
-      </div>
 
       <p>Sometimes, all it takes is one class, one teacher, and one moment to change the trajectory.</p>
 
