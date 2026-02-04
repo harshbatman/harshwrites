@@ -1682,6 +1682,11 @@ export const articles = [
 
       <p>So let's rewind. Early 2000s. Climate change anxiety rising. Europe leading green energy. And Germany—very German about it—decides: "We'll engineer our way out of fossil fuels."</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffcf0; border-left: 4px solid #eab308; border-radius: 4px;">
+        <p style="margin: 0; color: #854d0e; font-weight: 600;">Germany approached solar like an engineering problem to be perfected; China approached it like a manufacturing problem to be dominated.</p>
+      </div>
+
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Act 1: When Germany Was the Solar Superpower</h3>
 
       <p>People forget this, but in the early 2000s, the biggest solar companies on Earth were German. Not Chinese. Not American. <strong>German</strong>.</p>
@@ -1727,6 +1732,11 @@ export const articles = [
       <p>Solar production lines from companies like <strong>Centrotherm</strong> and <strong>Manz AG</strong> were shipped straight to China.</p>
 
       <p>And then came the uncomfortable part.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fef2f2; border-left: 4px solid #ef4444; border-radius: 4px;">
+        <p style="margin: 0; color: #991b1b; font-weight: 600;">China didn't start by out-innovating Germany—they started by out-buying them, taking apart machines to understand the 'logic' before building their own.</p>
+      </div>
+
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Open Secret: Reverse Engineering</h3>
 
@@ -1813,6 +1823,11 @@ export const articles = [
 
       <p>German firms were designing great panels. Chinese firms were producing millions of them—cheaper every year.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #ecfdf5; border-left: 4px solid #10b981; border-radius: 4px;">
+        <p style="margin: 0; color: #064e3b; font-weight: 600;">Vertical integration was the ultimate competitive advantage: when you own the polysilicon, the glass, and the logistics, you don't just reduce cost—you increase velocity.</p>
+      </div>
+
+
       <p>And the prices? Brutal.</p>
       <p><strong>Solar panel prices dropped over 80% in a decade.</strong></p>
 
@@ -1873,6 +1888,11 @@ export const articles = [
       </ul>
 
       <p>Vertical integration was the cheat code.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #eff6ff; border-left: 4px solid #3b82f6; border-radius: 4px;">
+        <p style="margin: 0; color: #1e40af; font-weight: 600;">The radical price collapse made solar energy a global reality for the masses, even as it made solar manufacturing a localized monopoly for the scale-leaders.</p>
+      </div>
+
       <p>Polysilicon → wafer → cell → module → logistics.</p>
 
       <p>Germany had good companies. China built an ecosystem.</p>
@@ -2051,6 +2071,11 @@ export const articles = [
 
       <p>That's the difference between innovation leadership and industrial dominance.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fff1f2; border-left: 4px solid #fb7185; border-radius: 4px;">
+        <p style="margin: 0; color: #9f1239; font-weight: 600;">Germany optimized for the best product; China optimized for the most dependent world.</p>
+      </div>
+
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Act 7: Why This Matters to "Us"</h3>
 
       <p>Now here's where it hits close to home—for us.</p>
@@ -2090,6 +2115,11 @@ export const articles = [
       <p><strong>It's a preview of batteries, EVs, semiconductors, AI hardware.</strong></p>
 
       <p>If you only innovate… and don't scale… someone else will industrialize your future.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #eef2ff; border-left: 4px solid #6366f1; border-radius: 4px;">
+        <p style="margin: 0; color: #3730a3; font-weight: 600;">The lesson of the solar war is brutal: Innovation is the spark, but industrial scale is the fire that sustains the ecosystem.</p>
+      </div>
+
 
       <p>China didn't just beat Germany. They beat Germany using German demand.</p>
 
