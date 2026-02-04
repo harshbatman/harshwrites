@@ -2596,7 +2596,7 @@ export const articles = [
   },
   {
     id: "transistors-to-ai",
-    views: 1240,
+    views: 17240,
     publishDate: "2023-09-20",
     title: "From Transistors to AI",
     author: "Harsh Mahto",
