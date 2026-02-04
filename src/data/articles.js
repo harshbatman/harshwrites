@@ -1039,6 +1039,11 @@ export const articles = [
 
       <p>That moment hit me hard. Even though I never liked attending classes regularly, whatever little motivation I had just went downhill after that.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffbeb; border-left: 4px solid #f59e0b; border-radius: 4px;">
+        <p style="margin: 0; color: #78350f; font-weight: 600;">When the environment fails to inspire you, you have to build your own classroom. My grounds, my music, and my code became the curriculum I actually needed.</p>
+      </div>
+
+
       <p>To be fair, there were a few genuinely good, cool professors. One of them was Mrs. Chanchal Hooda, our Language & Literature professor in the 1st and 2nd semester. Her classes were different—debates, discussions, real conversations, not just notes on a board. That's where I slowly killed my fear of public speaking.</p>
 
       <p>Before that, I was extremely shy and introverted.</p>
