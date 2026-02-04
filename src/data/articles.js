@@ -2822,6 +2822,11 @@ export const articles = [
 
       <p>Suddenly, the world went from having zero computers to having a computer on every desk.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fff7ed; border-left: 4px solid #f97316; border-radius: 4px;">
+        <p style="margin: 0; color: #9a3412; font-weight: 600;">The PC revolution wasn't just about selling machines; it was about the shift from institutional computing to personal empowerment—a 'bicycle for the mind'.</p>
+      </div>
+
+
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Who Controls The Power?</h3>
 
@@ -2877,6 +2882,11 @@ export const articles = [
       <p>So Bill Gates did something ruthless. He created <strong>Internet Explorer</strong> and bundled it with every copy of Windows. Free. Instant. Everywhere.</p>
       
       <p>Distribution beat quality.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fef2f2; border-left: 4px solid #ef4444; border-radius: 4px;">
+        <p style="margin: 0; color: #991b1b; font-weight: 600;">The first browser war proved a brutal lesson in tech business: A 'good enough' product that is already in everyone's hands will almost always beat a 'great' product that requires a separate download.</p>
+      </div>
+
       <p>Netscape couldn't compete with "free" and "already installed." They got crushed.</p>
 
       <!-- The First Browser War Graph -->
@@ -3253,6 +3263,11 @@ export const articles = [
 
       <p>Apple won the profits. But Android won the world.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #ecfeff; border-left: 4px solid #06b6d4; border-radius: 4px;">
+        <p style="margin: 0; color: #164e63; font-weight: 600;">Mobile computing split into two philosophies: Apple's pursuit of the perfect, controlled experience versus Android's pursuit of global scale through openness.</p>
+      </div>
+
+
       <!-- Mobile OS Market Share Graph -->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Global Mobile OS Market Share</h4>
@@ -3327,6 +3342,11 @@ export const articles = [
       <p><strong>Telegram</strong> and <strong>WhatsApp</strong> took the noise private.</p>
 
       <p>We didn’t pay with money. We paid with <strong>attention</strong>. And attention turned out to be the most valuable currency ever discovered.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #eef2ff; border-left: 4px solid #6366f1; border-radius: 4px;">
+        <p style="margin: 0; color: #3730a3; font-weight: 600;">In the era of Social Media, if the product is free, you aren't the customer—you are the product being sold to the highest bidder in the attention marketplace.</p>
+      </div>
+
 
       <!-- Social Media Growth Graph -->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
@@ -4047,6 +4067,11 @@ export const articles = [
 
       <p>This model shaped Web 2.0.</p>
       <p>Social media, marketplaces, SaaS—growth first, sustainability later.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fff1f2; border-left: 4px solid #fb7185; border-radius: 4px;">
+        <p style="margin: 0; color: #9f1239; font-weight: 600;">Venture Capital is the 'time machine' of tech—it allows founders to buy years of experimentation and growth before the market forces them to prove they can actually make money.</p>
+      </div>
+
 
       <p>But AI changes the VC game again.</p>
 
