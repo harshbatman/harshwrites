@@ -5023,11 +5023,11 @@ export const articles = [
   {
     id: "netflix-zhukov-republic-day",
     views: 1240,
-    publishDate: "2026-01-25",
+    publishDate: "2023-03-04",
     title: "I Didn’t Expect Netflix to Lead Me to Republic Day 1957",
     author: "Harsh Mahto",
     category: "History & Culture",
-    date: "January 2026",
+    date: "4 March 2023",
     image: "/zhukov-republic-day.jpg",
     excerpt: "Last week I was doing what we all do—Netflix and chill. Then I randomly hit play on The Death of Stalin. I watched it for the laughs, but honestly? One character hijacked my attention.",
     content: `
