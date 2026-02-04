@@ -1666,11 +1666,11 @@ export const articles = [
   {
     id: "china-solar-dominance",
     views: 1240,
-    publishDate: "2026-01-28",
+    publishDate: "2023-01-18",
     title: "How China Won Solar (And Germany Lost)",
     author: "Harsh Mahto",
     category: "Economics & Strategy",
-    date: "January 2026",
+    date: "18 Jan 2023",
     image: "/china-solar-dominance.jpg",
     excerpt: "You know what still surprises me? Every time we talk about solar power today, the conversation somehow ends at one place—China.",
     content: `
