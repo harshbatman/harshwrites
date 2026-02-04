@@ -2597,7 +2597,7 @@ export const articles = [
   {
     id: "transistors-to-ai",
     views: 1240,
-    publishDate: "2026-01-28",
+    publishDate: "2023-09-20",
     title: "From Transistors to AI",
     author: "Harsh Mahto",
     category: "Technology & History",
