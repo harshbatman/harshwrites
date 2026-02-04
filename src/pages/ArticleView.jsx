@@ -86,18 +86,23 @@ function ArticleView() {
         utteranceRef.current = utterance; // Prevent GC
 
         const voices = synth.getVoices();
-        // Priority: Indian Male voices (Rishi, Google Hindi/English India Male, etc.)
+
+        // Strictly filter for Indian English (en-IN) or names containing "India"
+        const indianVoices = voices.filter(v =>
+            v.lang.replace('_', '-').includes('en-IN') ||
+            v.name.toLowerCase().includes('india')
+        );
+
+        // Within Indian voices, strongly prioritize Male options
         const preferredVoice =
-            voices.find(v => v.name.includes('Rishi')) || // Classic Indian Male
-            voices.find(v => v.lang === 'en-IN' && v.name.includes('Male')) || // Specialized Indian Male English
-            voices.find(v => v.lang === 'hi-IN' && v.name.includes('Male')) || // Hindi Male
+            indianVoices.find(v => v.name.toLowerCase().includes('male') || v.name.toLowerCase().includes('rishi') || v.name.toLowerCase().includes('hemant') || v.name.toLowerCase().includes('heera')) ||
+            indianVoices[0] ||
+            voices.find(v => v.lang.startsWith('en-IN')) ||
             voices.find(v => v.name.includes('Google') && v.name.includes('India')) ||
-            voices.find(v => v.lang.startsWith('en-IN')) || // Any Indian English voice
-            voices.find(v => v.name.includes('Male') && v.lang.startsWith('en')) ||
-            voices.find(v => v.lang.startsWith('en'));
+            voices.find(v => v.lang.startsWith('en')); // Absolute fallback
 
         if (preferredVoice) utterance.voice = preferredVoice;
-        utterance.rate = rate;
+        utterance.rate = rate; // Keep rate as selected
         utterance.pitch = 1;
         utterance.volume = 1;
 
