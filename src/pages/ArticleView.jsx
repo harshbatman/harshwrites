@@ -87,31 +87,37 @@ function ArticleView() {
 
         const voices = synth.getVoices();
 
-        // Comprehensive check for Indian voices (English India or Hindi)
+        // 1. Get all potential Indian voices
         const indianVoices = voices.filter(v =>
             /en[-_]IN/i.test(v.lang) ||
             /hi[-_]IN/i.test(v.lang) ||
             v.name.toLowerCase().includes('india')
         );
 
-        // Within Indian voices, prioritize Male names/tags
-        const preferredVoice =
-            // 1. Specific known High-Quality Indian Male voices
-            indianVoices.find(v => v.name.includes('Rishi')) || // Apple/iOS Male
-            indianVoices.find(v => v.name.includes('Hemant') || v.name.includes('Ravi')) || // Microsoft Male
-            // 2. Any Indian voice tagged as Male
-            indianVoices.find(v => v.name.toLowerCase().includes('male')) ||
-            // 3. Fallback to any Indian voice (better than American)
-            indianVoices[0] ||
-            // 4. If no en-IN found, search global list for "India"
-            voices.find(v => v.name.toLowerCase().includes('india') && v.name.toLowerCase().includes('male')) ||
-            voices.find(v => v.lang.startsWith('en-IN')) ||
-            voices.find(v => v.lang.startsWith('hi-IN')) ||
-            voices.find(v => v.lang.startsWith('en')); // Last resort
+        // 2. High-priority search for SPECIFIC Indian Male voices
+        let preferredVoice =
+            indianVoices.find(v => v.name.includes('Rishi')) || // Apple Male
+            indianVoices.find(v => v.name.includes('Ravi') || v.name.includes('Hemant')) || // Microsoft Male
+            indianVoices.find(v => v.name.toLowerCase().includes('male') && !v.name.toLowerCase().includes('female'));
+
+        // 3. If no explicit Male Indian voice found, try to find ANY Indian voice that isn't a known female name
+        if (!preferredVoice) {
+            const knownFemaleNames = ['veena', 'heera', 'kalpana', 'ananya', 'neerja', 'vidhi', 'vani'];
+            preferredVoice = indianVoices.find(v => !knownFemaleNames.some(name => v.name.toLowerCase().includes(name)));
+        }
+
+        // 4. If still nothing Indian, find ANY English Male voice
+        if (!preferredVoice) {
+            preferredVoice = voices.find(v => v.name.toLowerCase().includes('male') && v.lang.startsWith('en'));
+        }
+
+        // 5. Final Fallbacks
+        if (!preferredVoice) preferredVoice = indianVoices[0] || voices.find(v => v.lang.startsWith('en'));
 
         if (preferredVoice) utterance.voice = preferredVoice;
         utterance.rate = rate;
-        utterance.pitch = 0.9; // Slightly lower pitch for a more masculine/Indian tone
+        // Set pitch slightly lower (0.85) to ensure it sounds deeper and more masculine
+        utterance.pitch = 0.85;
         utterance.volume = 1;
 
         utterance.onend = () => {
