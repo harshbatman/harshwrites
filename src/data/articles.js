@@ -194,11 +194,11 @@ export const articles = [
   {
     id: "can-bihar-ever-be-free-from-floods",
     views: 1240,
-    publishDate: "2026-02-02",
+    publishDate: "2023-07-13",
     title: "Can Bihar Ever Be Free From Floods?",
     author: "Harsh Mahto",
     category: "Geography & Society",
-    date: "2 Feb 2026",
+    date: "13 July 2023",
     image: "/floods-in-bihar.jpg",
     excerpt: "Every year, Bihar faces a cyclic tragedy of floods. Is it just a geographical curse, or can smart planning and regional cooperation finally turn the tide?",
     content: `
@@ -296,11 +296,11 @@ export const articles = [
   {
     id: "how-microsoft-took-over-the-world",
     views: 1240,
-    publishDate: "2026-02-01",
+    publishDate: "2023-07-25",
     title: "How Microsoft Took Over the World",
     author: "Harsh Mahto",
     category: "Business & Technology",
-    date: "1 Feb 2026",
+    date: "25 July 2023",
     image: "/how-microsoft-took-over-the-world-thumbnail.jpg",
     excerpt: "You know what fascinates me the most? Microsoft didn't 'invent everything.' They outplayed everyone. That's how they took over the world.",
     content: `
@@ -5866,11 +5866,11 @@ export const articles = [
   {
     id: "how-facebook-took-over-the-world",
     views: 1240,
-    publishDate: "2026-02-01",
+    publishDate: "2023-07-17",
     title: "How Facebook Took Over the World",
     author: "Harsh Mahto",
     category: "Technology & Culture",
-    date: "February 2026",
+    date: "17 July 2023",
     image: "/facebook-world.jpg",
     excerpt: "You know what’s funny? Everyone today talks like Facebook was always meant to rule the internet. But it wasn't even the first social media platform.",
     content: `
