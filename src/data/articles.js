@@ -6265,11 +6265,11 @@ export const articles = [
   {
     id: "how-android-took-over-the-world",
     views: 1240,
-    publishDate: "2026-03-01",
+    publishDate: "2023-08-04",
     title: "How Android Took Over the World",
     author: "Harsh Mahto",
     category: "Technology & Business",
-    date: "March 2026",
+    date: "4 August 2023",
     image: "/android-vs-ios.jpg",
     excerpt: "Have you ever thought about this—how the hell did Android end up everywhere? From a ₹10,000 phone in our hands to a flagship Samsung in the US.",
     content: `
@@ -7066,7 +7066,7 @@ export const articles = [
     title: "The Story Behind Jai Jawan, Jai Kisan",
     author: "Harsh Mahto",
     category: "History & Policy",
-    date: "15 Aug 2023",
+    date: "15 August 2023",
     image: "/jai-jawan-jai-kisan.jpg",
     excerpt: "When I was in school, I used to shout slogans without thinking twice. Jai Jawan, Jai Kisan echoed during morning assemblies, Independence Day functions, and rallies. I raised my voice with everyone else—confident, patriotic—yet I never truly understood what those words meant.",
     content: `
