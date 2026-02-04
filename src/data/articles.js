@@ -4811,11 +4811,11 @@ export const articles = [
   {
     id: "yuri-bezmenov-modern-politics",
     views: 1240,
-    publishDate: "2026-01-26",
+    publishDate: "2023-02-26",
     title: "A Simple Guide to Understanding Modern Politics",
     author: "Harsh Mahto",
     category: "Politics & Society",
-    date: "January 2026",
+    date: "26 Feb 2023",
     image: "/yuri-bezmenov.jpg",
     excerpt: "Last week, late night, phone in hand, doing what we all do—random YouTube scrolling. One video leads to another. And suddenly this old clip pops up.",
     content: `
