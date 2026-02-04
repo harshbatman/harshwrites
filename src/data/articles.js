@@ -6860,11 +6860,11 @@ export const articles = [
   {
     id: "our-nuclear-journey-science-sanctions-self-respect",
     views: 1240,
-    publishDate: "2026-01-24",
+    publishDate: "2023-02-04",
     title: "Our Nuclear Journey: Science, Sanctions, and Self-Respect",
     author: "Harsh Mahto",
     category: "Science & Geopolitics",
-    date: "January 2026",
+    date: "4 Feb 2023",
     image: "/india-nuclear-journey.jpg",
     excerpt: "You know what? I was thinking the other day—when we talk about our energy future, solar comes up, wind comes up… but nuclear? We whisper about it. Almost like it’s a secret we’re not sure we should own.",
     content: `
