@@ -1261,11 +1261,11 @@ export const articles = [
   {
     id: "how-to-invade-country",
     views: 1240,
-    publishDate: "2026-01-31",
+    publishDate: "2023-03-26",
     title: "How to Invade a Country",
     author: "Harsh Mahto",
     category: "History & Strategy",
-    date: "January 2026",
+    date: "26 March 2023",
     image: "/how-to-invade.jpg",
     excerpt: "Earlier, I wrote about how NOT to invade a country. But if there is a clear example of failure, is there also a perfect example of how an invasion actually works? 1971 says yes.",
     content: `
@@ -2266,11 +2266,11 @@ export const articles = [
   {
     id: "how-not-to-invade-country",
     views: 1240,
-    publishDate: "2026-01-27",
+    publishDate: "2023-03-22",
     title: "How Not to Invade a Country",
     author: "Harsh Mahto",
     category: "History & Strategy",
-    date: "January 2026",
+    date: "22 March 2023",
     image: "/how-not-to-invade.jpg",
     excerpt: "Let me tell you something. Last week I was just working, normal day. I open Google search, and boom—headline pops up. “USA may put sanctions on us for buying Russian crude oil. They say we are funding the war.”",
     content: `
