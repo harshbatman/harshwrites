@@ -59,8 +59,8 @@ function Home() {
 
     return (
         <div className="home-container">
-            <header className="story-header" style={{ paddingBottom: '1rem', maxWidth: '100%' }}>
-                <h1 className="story-title" style={{ fontSize: '3.5rem', marginBottom: '0.5rem' }}>The Journal</h1>
+            <header className="story-header" style={{ maxWidth: '100%' }}>
+                <h1 className="story-title">The Journal</h1>
                 <p className="story-meta">Thoughts, stories, and ideas.</p>
 
                 <div className="search-wrapper" style={{ marginTop: '2rem', maxWidth: '500px', margin: '2rem auto 0' }}>
@@ -97,7 +97,7 @@ function Home() {
                 </div>
             </header>
 
-            <div style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', gap: '1.5rem', marginBottom: '3rem' }}>
+            <div className="container stack-mobile" style={{ display: 'flex', flexWrap: 'wrap', justifyContent: 'center', alignItems: 'center', gap: '1rem', marginBottom: '3rem' }}>
                 <div className="filter-tabs" style={{ display: 'flex', gap: '0.5rem' }}>
                     <button
                         onClick={() => setFilter('latest')}

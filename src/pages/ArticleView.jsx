@@ -26,10 +26,19 @@ function ArticleView() {
     const fallbackTimerRef = React.useRef(null);
     const lastBoundaryTimeRef = React.useRef(0);
 
+    const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+
     // Sync refs with state
     useEffect(() => { isSpeakingRef.current = isSpeaking; }, [isSpeaking]);
     useEffect(() => { isPausedRef.current = isPaused; }, [isPaused]);
     useEffect(() => { playbackRateRef.current = playbackRate; }, [playbackRate]);
+
+    // Handle window resize for mobile responsiveness
+    useEffect(() => {
+        const handleResize = () => setWindowWidth(window.innerWidth);
+        window.addEventListener('resize', handleResize);
+        return () => window.removeEventListener('resize', handleResize);
+    }, []);
 
     // Initial Scroll
     useEffect(() => {
@@ -302,160 +311,103 @@ function ArticleView() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8 }}
+                    style={{ textAlign: 'left', maxWidth: '100%', padding: windowWidth < 768 ? '2rem 0' : '4rem 0 3rem' }}
                 >
-                    <div className="story-meta">{article.category}</div>
-                    <h1 className="story-title">{article.title}</h1>
+                    <div className="card-category" style={{ marginBottom: '0.5rem' }}>{article.category}</div>
+                    <h1 className="story-title" style={{ textAlign: 'left', marginBottom: '1.5rem' }}>{article.title}</h1>
+
                     <div style={{
-                        display: 'inline-flex',
-                        flexWrap: 'wrap',
-                        alignItems: 'center',
-                        justifyContent: 'center',
+                        display: 'flex',
+                        flexDirection: windowWidth < 768 ? 'column' : 'row',
+                        alignItems: windowWidth < 768 ? 'flex-start' : 'center',
+                        justifyContent: 'space-between',
                         gap: '1.5rem',
                         background: 'white',
                         border: '1px solid #e5e7eb',
                         borderRadius: '16px',
-                        padding: '1rem 2rem',
+                        padding: windowWidth < 768 ? '1.25rem' : '1rem 2rem',
                         boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.05)',
                         marginTop: '1.5rem',
-                        maxWidth: '100%',
-                        position: 'relative'
+                        width: '100%',
                     }}>
-                        {/* Author */}
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-                            <img
-                                src="/harsh-mahto.jpg"
-                                alt={article.author}
-                                style={{
-                                    width: '40px',
-                                    height: '40px',
-                                    borderRadius: '50%',
-                                    objectFit: 'cover',
-                                    border: '2px solid #f3f4f6'
-                                }}
-                            />
-                            <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', lineHeight: '1.2' }}>
-                                <span style={{ fontSize: '0.7rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Author</span>
-                                <span style={{ fontSize: '0.95rem', fontWeight: 600, color: '#111827' }}>{article.author}</span>
+                        {/* Left Side: Author & Meta */}
+                        <div style={{
+                            display: 'flex',
+                            flexDirection: windowWidth < 480 ? 'column' : 'row',
+                            alignItems: windowWidth < 480 ? 'flex-start' : 'center',
+                            gap: windowWidth < 480 ? '1rem' : '2rem',
+                            width: windowWidth < 768 ? '100%' : 'auto'
+                        }}>
+                            {/* Author */}
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+                                <img
+                                    src="/harsh-mahto.jpg"
+                                    alt={article.author}
+                                    style={{
+                                        width: '40px',
+                                        height: '40px',
+                                        borderRadius: '50%',
+                                        objectFit: 'cover',
+                                        border: '2px solid #f3f4f6'
+                                    }}
+                                />
+                                <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.2' }}>
+                                    <span style={{ fontSize: '0.65rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Author</span>
+                                    <span style={{ fontSize: '0.9rem', fontWeight: 600, color: '#111827' }}>{article.author}</span>
+                                </div>
                             </div>
-                        </div>
 
-                        <div style={{ width: '1px', height: '24px', background: '#e5e7eb' }} className="hidden-mobile"></div>
+                            <div style={{ width: '1px', height: '24px', background: '#e5e7eb' }} className="hidden-mobile"></div>
 
-                        {/* Publish Date */}
-                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', lineHeight: '1.2' }}>
-                            <span style={{ fontSize: '0.7rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Published</span>
-                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem', color: '#4b5563', fontSize: '0.9rem', fontWeight: 500 }}>
-                                <Calendar size={14} /> <span>{article.date}</span>
-                            </div>
-                        </div>
-
-                        {/* Last Updated */}
-                        {article.lastUpdated && (
-                            <>
-                                <div style={{ width: '1px', height: '24px', background: '#e5e7eb' }} className="hidden-mobile"></div>
-                                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', lineHeight: '1.2' }}>
-                                    <span style={{ fontSize: '0.7rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Updated</span>
-                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem', color: '#059669', fontSize: '0.9rem', fontWeight: 600 }}>
-                                        <Calendar size={14} /> <span>{article.lastUpdated}</span>
+                            {/* Date & Time */}
+                            <div style={{ display: 'flex', gap: '1.5rem' }}>
+                                <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.2' }}>
+                                    <span style={{ fontSize: '0.65rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Published</span>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', color: '#4b5563', fontSize: '0.85rem', fontWeight: 500 }}>
+                                        <Calendar size={13} /> <span>{article.date}</span>
                                     </div>
                                 </div>
-                            </>
-                        )}
-
-                        <div style={{ width: '1px', height: '24px', background: '#e5e7eb' }} className="hidden-mobile"></div>
-
-                        {/* Listen & Control Section */}
-                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', lineHeight: '1.2' }}>
-                            <span style={{ fontSize: '0.7rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Voice Agent</span>
-                            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', marginTop: '0.2rem' }}>
-                                {/* Play / Pause */}
-                                <button
-                                    onClick={handleToggleSpeech}
-                                    title={isSpeaking ? (isPaused ? 'Resume' : 'Pause') : 'Listen AI'}
-                                    style={{
-                                        display: 'flex',
-                                        alignItems: 'center',
-                                        gap: '0.4rem',
-                                        color: isSpeaking ? (isPaused ? '#6366f1' : '#f59e0b') : '#6366f1',
-                                        fontSize: '0.9rem',
-                                        fontWeight: 600,
-                                        background: 'none',
-                                        border: 'none',
-                                        padding: 0,
-                                        cursor: 'pointer',
-                                        transition: 'all 0.2s',
-                                    }}
-                                >
-                                    {isSpeaking ? (isPaused ? <Play size={16} fill="currentColor" /> : <Pause size={16} fill="currentColor" />) : <Volume2 size={16} />}
-                                    <span>{isSpeaking ? (isPaused ? 'Resume' : 'Pause') : 'Listen'}</span>
-                                </button>
-
-                                {/* Stop / Reset */}
-                                {isSpeaking && (
-                                    <button
-                                        onClick={handleStopSpeech}
-                                        title="Stop & Reset"
-                                        style={{
-                                            display: 'flex',
-                                            alignItems: 'center',
-                                            color: '#ef4444',
-                                            background: 'none',
-                                            border: 'none',
-                                            padding: 0,
-                                            cursor: 'pointer'
-                                        }}
-                                    >
-                                        <RotateCcw size={14} />
-                                    </button>
-                                )}
-
-                                {/* Speed Control */}
-                                <button
-                                    onClick={togglePlaybackRate}
-                                    title="Playback Speed"
-                                    style={{
-                                        display: 'flex',
-                                        alignItems: 'center',
-                                        gap: '0.25rem',
-                                        color: '#6b7280',
-                                        fontSize: '0.8rem',
-                                        fontWeight: 700,
-                                        background: '#f3f4f6',
-                                        border: '1px solid #e5e7eb',
-                                        padding: '0.1rem 0.5rem',
-                                        borderRadius: '4px',
-                                        cursor: 'pointer'
-                                    }}
-                                >
-                                    <Gauge size={12} />
-                                    <span>{playbackRate}x</span>
-                                </button>
-
-                                {/* Animation */}
-                                {isSpeaking && !isPaused && (
-                                    <span style={{ display: 'flex', gap: '2px', marginLeft: '4px' }}>
-                                        {[1, 2, 3].map(i => (
-                                            <Motion.span
-                                                key={i}
-                                                animate={{ height: [4, 10, 4] }}
-                                                transition={{ duration: 0.6, repeat: Infinity, delay: i * 0.1 }}
-                                                style={{ width: '2px', background: '#6366f1', borderRadius: '1px' }}
-                                            />
-                                        ))}
-                                    </span>
-                                )}
+                                <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.2' }}>
+                                    <span style={{ fontSize: '0.65rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Reading Time</span>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', color: '#4b5563', fontSize: '0.85rem', fontWeight: 500 }}>
+                                        <Clock size={13} /> <span>{article.readTime}</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
 
-                        <div style={{ width: '1px', height: '24px', background: '#e5e7eb' }} className="hidden-mobile"></div>
-
-                        {/* Reads */}
-                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', lineHeight: '1.2' }}>
-                            <span style={{ fontSize: '0.7rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Reads</span>
-                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem', color: '#4b5563', fontSize: '0.9rem', fontWeight: 500 }}>
-                                <Eye size={14} /> <span>{formatViews(article.views)}</span>
-                            </div>
-                        </div>
+                        {/* Right Side: Listen Button */}
+                        <button
+                            onClick={handleToggleSpeech}
+                            style={{
+                                display: 'flex',
+                                alignItems: 'center',
+                                gap: '0.75rem',
+                                padding: '0.75rem 1.25rem',
+                                borderRadius: '12px',
+                                background: isSpeaking ? 'var(--color-accent)' : '#f9fafb',
+                                color: isSpeaking ? '#fff' : 'var(--color-text-primary)',
+                                border: '1px solid #e5e7eb',
+                                cursor: 'pointer',
+                                transition: 'all 0.2s ease',
+                                fontWeight: 600,
+                                fontSize: '0.9rem',
+                                width: windowWidth < 768 ? '100%' : 'auto',
+                                justifyContent: 'center'
+                            }}
+                        >
+                            {isSpeaking ? (
+                                <>
+                                    {isPaused ? <Play size={18} fill="white" /> : <div className="beating-heart"><Pause size={18} fill="white" /></div>}
+                                    <span>{isPaused ? 'Paused' : 'Listening...'}</span>
+                                </>
+                            ) : (
+                                <>
+                                    <Volume2 size={18} />
+                                    <span>Listen Now</span>
+                                </>
+                            )}
+                        </button>
                     </div>
                 </Motion.header>
 
@@ -484,8 +436,6 @@ function ArticleView() {
                         </a>
                     </p>
                 </div>
-
-
 
                 {/* Specific Appreciation Section for Transistors to AI */}
                 {
@@ -516,7 +466,6 @@ function ArticleView() {
                                     onClick={() => setZoomedImage("/kusum.jpg")}
                                 />
                             </div>
-
                         </div>
                     )
                 }
@@ -532,7 +481,7 @@ function ArticleView() {
                         <Share2 size={18} /> {copied ? 'Link Copied!' : 'Share this story'}
                     </button>
                 </div>
-            </div >
+            </div>
 
             {/* Reading Bar */}
             {isSpeaking && (
@@ -542,17 +491,17 @@ function ArticleView() {
                     exit={{ y: 100, opacity: 0 }}
                     style={{
                         position: 'fixed',
-                        bottom: '24px',
+                        bottom: windowWidth < 768 ? '12px' : '24px',
                         left: '50%',
                         transform: 'translateX(-50%)',
-                        width: '90%',
+                        width: windowWidth < 768 ? '95%' : '90%',
                         maxWidth: '800px',
-                        background: 'rgba(255, 255, 255, 0.95)',
-                        backdropFilter: 'blur(16px)',
-                        border: '1px solid rgba(99, 102, 241, 0.2)',
-                        borderRadius: '24px',
-                        padding: '1.25rem 2rem',
-                        boxShadow: '0 20px 40px rgba(0,0,0,0.1), 0 0 0 1px rgba(0,0,0,0.05)',
+                        background: 'rgba(255, 255, 255, 0.98)',
+                        backdropFilter: 'blur(20px)',
+                        border: '1px solid rgba(99, 102, 241, 0.25)',
+                        borderRadius: windowWidth < 768 ? '20px' : '24px',
+                        padding: windowWidth < 768 ? '1rem' : '1.25rem 2rem',
+                        boxShadow: '0 20px 50px rgba(0,0,0,0.15), 0 0 0 1px rgba(0,0,0,0.05)',
                         zIndex: 1000,
                         display: 'flex',
                         flexDirection: 'column',
@@ -561,11 +510,13 @@ function ArticleView() {
                     }}
                 >
                     <div style={{
-                        fontSize: '1.1rem',
-                        lineHeight: '1.6',
+                        fontSize: windowWidth < 768 ? '0.9rem' : '1.1rem',
+                        lineHeight: '1.5',
                         color: '#1f2937',
                         fontWeight: 500,
-                        fontFamily: 'var(--font-serif)'
+                        fontFamily: 'var(--font-serif)',
+                        maxHeight: windowWidth < 768 ? '70px' : 'none',
+                        overflowY: 'auto'
                     }}>
                         {allChunks[currentChunkIndex] ? (
                             <>
@@ -601,7 +552,7 @@ function ArticleView() {
                         display: 'flex',
                         alignItems: 'center',
                         justifyContent: 'center',
-                        gap: '2rem',
+                        gap: windowWidth < 480 ? '1.5rem' : '2.5rem',
                         borderTop: '1px solid #f3f4f6',
                         paddingTop: '0.75rem'
                     }}>
@@ -611,8 +562,8 @@ function ArticleView() {
                         <button onClick={handleStopSpeech} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#ef4444' }}>
                             <RotateCcw size={20} />
                         </button>
-                        <div style={{ fontSize: '0.85rem', fontWeight: 700, color: '#9ca3af', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
-                            AI Narrator Active
+                        <div style={{ fontSize: '0.75rem', fontWeight: 700, color: '#9ca3af', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                            {windowWidth < 480 ? 'Narrator' : 'AI Narrator Active'}
                         </div>
                     </div>
                 </Motion.div>
@@ -634,7 +585,7 @@ function ArticleView() {
                             justifyContent: 'center',
                             zIndex: 9999,
                             cursor: 'zoom-out',
-                            padding: '2rem'
+                            padding: '1rem'
                         }}
                         onClick={() => setZoomedImage(null)}
                     >
@@ -675,7 +626,7 @@ function ArticleView() {
                     </div>
                 )
             }
-        </article >
+        </article>
     );
 }
 

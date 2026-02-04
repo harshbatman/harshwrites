@@ -75,6 +75,12 @@ a {
   width: 100%;
 }
 
+@media (max-width: 768px) {
+  .container {
+    padding: 0 1rem;
+  }
+}
+
 /* Header */
 .site-header {
   padding: 1.5rem 0;
@@ -107,6 +113,13 @@ a {
   text-align: center;
   max-width: 900px;
   margin: 0 auto;
+  width: 100%;
+}
+
+@media (max-width: 768px) {
+  .story-header {
+    padding: 2.5rem 1rem 2rem;
+  }
 }
 
 .story-title {
@@ -137,6 +150,14 @@ a {
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 2rem;
   padding: 3rem 0;
+}
+
+@media (max-width: 768px) {
+  .articles-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+    padding: 1.5rem 0;
+  }
 }
 
 .article-card {
@@ -187,8 +208,11 @@ a {
   flex-direction: column;
 }
 
-/* Ensure content is clickable if it contains buttons/links */
-/* This rule is no longer needed as pointer-events: none is removed from .card-content */
+@media (max-width: 480px) {
+  .card-content {
+    padding: 1.25rem;
+  }
+}
 
 .card-category {
   font-size: 0.75rem;
@@ -214,6 +238,12 @@ a {
   overflow: hidden;
 }
 
+@media (max-width: 768px) {
+  .card-title {
+    font-size: 1.35rem;
+  }
+}
+
 .card-excerpt {
   color: var(--color-text-secondary);
   margin-bottom: 1.5rem;
@@ -222,7 +252,6 @@ a {
   display: -webkit-box;
   line-clamp: 3;
   -webkit-line-clamp: 3;
-  /* Limit to 3 lines */
   -webkit-box-orient: vertical;
   overflow: hidden;
   flex: 1;
@@ -259,6 +288,13 @@ a {
   text-align: center;
   border: 1px solid var(--color-border);
   box-shadow: var(--shadow-sm);
+}
+
+@media (max-width: 768px) {
+  .subscribe-section {
+    margin: 3rem 0;
+    padding: 2.5rem 1.25rem;
+  }
 }
 
 .subscribe-input {
@@ -301,6 +337,13 @@ a {
   margin: 0 auto;
 }
 
+@media (max-width: 768px) {
+  .story-content {
+    font-size: 1.05rem;
+    line-height: 1.75;
+  }
+}
+
 .story-content p {
   margin-bottom: 2rem;
 }
@@ -324,6 +367,13 @@ footer {
   color: var(--color-text-tertiary);
   background: var(--color-surface);
   margin-top: auto;
+}
+
+@media (max-width: 768px) {
+  footer {
+    padding: 2.5rem 1rem;
+    font-size: 0.9rem;
+  }
 }
 
 /* Story Punchlines */
@@ -467,9 +517,20 @@ ul.roadmap li::before {
   background: var(--color-text-primary);
 }
 
-@media (max-width: 640px) {
+@media (max-width: 768px) {
   .hidden-mobile {
     display: none !important;
+  }
+
+  .stack-mobile {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .story-title {
+    font-size: 2.25rem !important;
   }
 }
 
