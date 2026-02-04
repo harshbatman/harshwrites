@@ -79,6 +79,9 @@ function ArticleView() {
         setIsSpeaking(true);
         synth.cancel();
 
+        // Unlock audio context for mobile/safari
+        try { synth.speak(new SpeechSynthesisUtterance("")); } catch (e) { }
+
         // 2. Prepare Text
         const text = `${article.title}. ${contentDiv.innerText}`;
         // Split by sentences or roughly 150 characters to stay safe
@@ -119,11 +122,9 @@ function ArticleView() {
                 setIsSpeaking(false);
             };
 
-            synth.speak(utterance);
-
             // 4. Chrome Bug Fix: Periodic Resume
-            // Chrome sometimes pauses indefinitely after ~15 seconds
-            if (synth.paused) synth.resume();
+            synth.resume(); // Ensure it's not in a paused state
+            synth.speak(utterance);
         };
 
         // Start after a very brief delay to ensure cancel finished
