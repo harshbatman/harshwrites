@@ -86,13 +86,18 @@ function ArticleView() {
         utteranceRef.current = utterance; // Prevent GC
 
         const voices = synth.getVoices();
-        const preferredMale =
-            voices.find(v => v.name.includes('Google') && v.name.includes('Male') && v.lang.startsWith('en')) ||
-            voices.find(v => v.name.includes('Male') && v.lang.startsWith('en')) ||
+        // Priority: Samantha (Classic Siri), Apple/Premium voices, Google US English, then any English Male/Female
+        const preferredVoice =
+            voices.find(v => v.name.includes('Samantha')) ||
+            voices.find(v => v.name.includes('Apple') && v.lang.startsWith('en')) ||
+            voices.find(v => v.name.includes('Google US English')) ||
+            voices.find(v => (v.name.includes('Premium') || v.name.includes('Enhanced')) && v.lang.startsWith('en')) ||
+            voices.find(v => v.name.includes('Google') && v.lang.startsWith('en')) ||
             voices.find(v => v.lang.startsWith('en'));
 
-        if (preferredMale) utterance.voice = preferredMale;
+        if (preferredVoice) utterance.voice = preferredVoice;
         utterance.rate = rate;
+        utterance.pitch = 1; // standard Siri pitch
         utterance.volume = 1;
 
         utterance.onend = () => {
