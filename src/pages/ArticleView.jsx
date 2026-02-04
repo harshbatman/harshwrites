@@ -87,32 +87,20 @@ function ArticleView() {
 
         const voices = synth.getVoices();
 
-        // 1. Get all potential Indian voices
-        const indianVoices = voices.filter(v =>
-            /en[-_]IN/i.test(v.lang) ||
-            /hi[-_]IN/i.test(v.lang) ||
-            v.name.toLowerCase().includes('india')
-        );
-
-        // 2. Priority: High-Quality "Siri-style" Indian voices (Male)
+        // Priority: Samantha (Classic Siri), Siri, Google US English, and other clear Apple voices
         let preferredVoice =
-            indianVoices.find(v => v.name.includes('Rishi')) || // High-quality Apple Indian Male
-            indianVoices.find(v => (v.name.includes('Premium') || v.name.includes('Enhanced')) && v.name.toLowerCase().includes('male')) ||
-            indianVoices.find(v => v.name.includes('Google') && v.name.toLowerCase().includes('india') && v.name.toLowerCase().includes('male')) ||
-            indianVoices.find(v => v.name.includes('Ravi') || v.name.includes('Hemant')) ||
-            indianVoices.find(v => v.name.toLowerCase().includes('male') && !v.name.toLowerCase().includes('female')) ||
-            indianVoices[0]; // Fallback to any Indian voice
-
-        // 3. Absolute Fallback to best available English male if no Indian voice found
-        if (!preferredVoice) {
-            preferredVoice = voices.find(v => v.name.toLowerCase().includes('male') && v.lang.startsWith('en')) ||
-                voices.find(v => v.lang.startsWith('en'));
-        }
+            voices.find(v => v.name.includes('Samantha')) || // Classic Apple Siri
+            voices.find(v => v.name.includes('Siri')) || // Modern Siri
+            voices.find(v => v.name.includes('Google US English')) ||
+            voices.find(v => v.name.includes('Apple') && v.lang.startsWith('en')) ||
+            voices.find(v => v.name.includes('Premium') && v.lang.startsWith('en')) ||
+            voices.find(v => v.name.includes('Enhanced') && v.lang.startsWith('en')) ||
+            voices.find(v => v.lang === 'en-US') ||
+            voices.find(v => v.lang.startsWith('en'));
 
         if (preferredVoice) utterance.voice = preferredVoice;
         utterance.rate = rate;
-        // Pitch 1.0 is standard for "Clear/Crisp" Siri-like quality
-        utterance.pitch = 1.0;
+        utterance.pitch = 1.0; // Standard pitch for maximum crispness
         utterance.volume = 1;
 
         utterance.onend = () => {
