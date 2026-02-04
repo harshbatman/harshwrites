@@ -7710,12 +7710,12 @@ export const articles = [
   {
     id: "where-is-indias-gta",
     views: 1240,
-    publishDate: "2026-02-03",
+    publishDate: "2023-06-06",
     title: "Where Is India’s GTA?",
 
     author: "Harsh Mahto",
     category: "Gaming & Culture",
-    date: "February 2026",
+    date: "6 June 2023",
     image: "/indian-gta-update.jpg",
     excerpt: "Why is there no proper Indian version of a GTA-style game? A conversation about open-world potential in India.",
     content: `
@@ -7847,11 +7847,11 @@ export const articles = [
   {
     id: "is-human-coding-dying",
     views: 1240,
-    publishDate: "2026-02-02",
+    publishDate: "2023-06-23",
     title: "Is Human Coding Dying?",
     author: "Harsh Mahto",
     category: "Tech & Future",
-    date: "February 2026",
+    date: "23 June 2023",
     image: "/is-human-coding-dying.jpg",
     excerpt: "Lately, I keep hearing this everywhere—“Why even learn frameworks? AI can build apps now.” A conversation on the shifting landscape of software engineering.",
     content: `
