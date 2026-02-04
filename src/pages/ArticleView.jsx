@@ -398,37 +398,50 @@ function ArticleView() {
                         </div>
 
                         {/* Right Side: Listen Button */}
-                        <button
-                            onClick={handleToggleSpeech}
-                            style={{
-                                display: 'flex',
-                                alignItems: 'center',
-                                gap: '0.75rem',
-                                padding: '0.75rem 1.25rem',
-                                borderRadius: '12px',
-                                background: isSpeaking ? 'var(--color-accent)' : '#f9fafb',
-                                color: isSpeaking ? '#fff' : 'var(--color-text-primary)',
-                                border: '1px solid #e5e7eb',
-                                cursor: 'pointer',
-                                transition: 'all 0.2s ease',
-                                fontWeight: 600,
-                                fontSize: '0.9rem',
-                                width: windowWidth < 768 ? '100%' : 'auto',
-                                justifyContent: 'center'
-                            }}
-                        >
-                            {isSpeaking ? (
-                                <>
-                                    {isPaused ? <Play size={18} fill="white" /> : <div className="beating-heart"><Pause size={18} fill="white" /></div>}
-                                    <span>{isPaused ? 'Paused' : 'Listening...'}</span>
-                                </>
-                            ) : (
-                                <>
-                                    <Volume2 size={18} />
-                                    <span>Listen Now</span>
-                                </>
-                            )}
-                        </button>
+                        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem', width: windowWidth < 768 ? '100%' : 'auto' }}>
+                            <span style={{
+                                fontSize: '0.65rem',
+                                color: '#9ca3af',
+                                fontWeight: 700,
+                                textTransform: 'uppercase',
+                                letterSpacing: '0.1em',
+                                textAlign: windowWidth < 768 ? 'center' : 'left',
+                                marginLeft: windowWidth < 768 ? '0' : '0.2rem'
+                            }}>
+                                AI Voice
+                            </span>
+                            <button
+                                onClick={handleToggleSpeech}
+                                style={{
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    gap: '0.75rem',
+                                    padding: '0.75rem 1.25rem',
+                                    borderRadius: '12px',
+                                    background: isSpeaking ? 'var(--color-accent)' : '#f9fafb',
+                                    color: isSpeaking ? '#fff' : 'var(--color-text-primary)',
+                                    border: '1px solid #e5e7eb',
+                                    cursor: 'pointer',
+                                    transition: 'all 0.2s ease',
+                                    fontWeight: 600,
+                                    fontSize: '0.9rem',
+                                    width: '100%',
+                                    justifyContent: 'center'
+                                }}
+                            >
+                                {isSpeaking ? (
+                                    <>
+                                        {isPaused ? <Play size={18} fill="white" /> : <div className="beating-heart"><Pause size={18} fill="white" /></div>}
+                                        <span>{isPaused ? 'Paused' : 'Listening...'}</span>
+                                    </>
+                                ) : (
+                                    <>
+                                        <Volume2 size={18} />
+                                        <span>Listen Now</span>
+                                    </>
+                                )}
+                            </button>
+                        </div>
                     </div>
                 </Motion.header>
 
