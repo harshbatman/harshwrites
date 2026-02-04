@@ -57,73 +57,77 @@ function ArticleView() {
     }, []);
 
     const handleToggleSpeech = () => {
-        if (!('speechSynthesis' in window)) {
+        const synth = window.speechSynthesis;
+        if (!synth) {
             alert("Sorry, your browser doesn't support text to speech!");
             return;
         }
 
         if (isSpeaking) {
-            window.speechSynthesis.cancel();
+            synth.cancel();
             setIsSpeaking(false);
             return;
         }
 
         const contentDiv = document.querySelector('.story-content');
         if (!contentDiv) {
-            console.error("Story content not found for speech synthesis.");
+            console.error("Story content not found.");
             return;
         }
 
-        // Extract clean text
+        // 1. Immediate State Feedback
+        setIsSpeaking(true);
+        synth.cancel();
+
+        // 2. Prepare Text
         const text = `${article.title}. ${contentDiv.innerText}`;
+        // Split by sentences or roughly 150 characters to stay safe
+        const chunks = text.match(/[^.!?]+[.!?]+/g) || [text];
 
-        // Cancel everything before starting
-        window.speechSynthesis.cancel();
+        let chunkIndex = 0;
 
-        // Small delay to let the browser clear the queue
-        setTimeout(() => {
-            // Split text into smaller chunks to avoid browser limits/hangs
-            // Split by sentences (approximately)
-            const chunks = text.match(/[^.!?]+[.!?]+/g) || [text];
+        const speakNext = () => {
+            if (chunkIndex >= chunks.length) {
+                setIsSpeaking(false);
+                return;
+            }
 
-            let currentChunk = 0;
+            const utterance = new SpeechSynthesisUtterance(chunks[chunkIndex].trim());
 
-            const speakNextChunk = () => {
-                if (currentChunk >= chunks.length) {
-                    setIsSpeaking(false);
-                    return;
-                }
+            // 3. Robust Voice Selection
+            const voices = synth.getVoices();
+            const preferred = voices.find(v => v.name.includes('Google') && v.lang.startsWith('en')) ||
+                voices.find(v => v.name.includes('Natural')) ||
+                voices.find(v => v.lang.startsWith('en'));
 
-                const utterance = new SpeechSynthesisUtterance(chunks[currentChunk].trim());
+            if (preferred) utterance.voice = preferred;
+            utterance.rate = 1;
+            utterance.pitch = 1;
+            utterance.volume = 1; // Force maximum volume
 
-                // Voice selection
-                const voices = window.speechSynthesis.getVoices();
-                const premiumVoice = voices.find(v => v.name.includes('Google') && v.lang.startsWith('en')) ||
-                    voices.find(v => v.lang.startsWith('en'));
-
-                if (premiumVoice) utterance.voice = premiumVoice;
-                utterance.rate = 1;
-                utterance.pitch = 1;
-
-                utterance.onstart = () => {
-                    if (currentChunk === 0) setIsSpeaking(true);
-                };
-
-                utterance.onend = () => {
-                    currentChunk++;
-                    speakNextChunk();
-                };
-
-                utterance.onerror = (event) => {
-                    console.error("Speech error:", event);
-                    setIsSpeaking(false);
-                };
-
-                window.speechSynthesis.speak(utterance);
+            utterance.onend = () => {
+                chunkIndex++;
+                speakNext();
             };
 
-            speakNextChunk();
-        }, 100);
+            utterance.onerror = (e) => {
+                console.error("Speech Error:", e);
+                // If it's a 'not-allowed' error, it might be a gesture issue
+                if (e.error === 'not-allowed') {
+                    alert("Speech blocked. Please click again or check browser permissions.");
+                }
+                setIsSpeaking(false);
+            };
+
+            synth.speak(utterance);
+
+            // 4. Chrome Bug Fix: Periodic Resume
+            // Chrome sometimes pauses indefinitely after ~15 seconds
+            if (synth.paused) synth.resume();
+        };
+
+        // Start after a very brief delay to ensure cancel finished
+        setTimeout(speakNext, 50);
     };
 
     // If article not found, show error
