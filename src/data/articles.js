@@ -2618,6 +2618,11 @@ export const articles = [
 
       <p>These machines… they’ve become faster, smaller, and more powerful with time. So much so that even someone who can’t form full sentences yet feels entitled to them. We’re watching a generation grow up touching glass before touching grass.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffcf0; border-left: 4px solid #eab308; border-radius: 4px;">
+        <p style="margin: 0; color: #854d0e; font-weight: 600;">We are watching a generation grow up touching glass before touching grass, where hardware sits in the hands of three-year-olds before they even learn to navigate the physical world.</p>
+      </div>
+
+
       <p>Let me tell you something.</p>
       <p>Our modern digital world didn’t arrive in one big bang.</p>
       <p>It didn’t suddenly explode with smartphones, social media, or apps shouting for our attention. It crept in. Slowly. Layer by layer. Quietly.</p>
@@ -3643,6 +3648,11 @@ export const articles = [
       <p>Exactly.</p>
       <p>The internet gave us access to information.</p>
       <p>Generative AI gives us the ability to use that information instantly.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #eff6ff; border-left: 4px solid #3b82f6; border-radius: 4px;">
+        <p style="margin: 0; color: #1e40af; font-weight: 600;">The internet gave us access to a world of information, but Generative AI gives us the capability to actually use that information instantly to build, create, and solve problems.</p>
+      </div>
+
 
       <p>Students, developers, writers, analysts—everyone now starts with a co-pilot.</p>
       <p>The baseline skill level just jumped.</p>
