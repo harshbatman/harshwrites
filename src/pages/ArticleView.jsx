@@ -382,6 +382,14 @@ function ArticleView() {
                                         <Calendar size={14} /> <span>{article.date}</span>
                                     </div>
                                 </div>
+                                {article.lastUpdated && (
+                                    <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.25' }}>
+                                        <span style={{ fontSize: '0.7rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Updated</span>
+                                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: '#4b5563', fontSize: '0.9rem', fontWeight: 500 }}>
+                                            <RotateCcw size={14} /> <span>{article.lastUpdated}</span>
+                                        </div>
+                                    </div>
+                                )}
                                 <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.25' }}>
                                     <span style={{ fontSize: '0.7rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Reading Time</span>
                                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: '#4b5563', fontSize: '0.9rem', fontWeight: 500 }}>
