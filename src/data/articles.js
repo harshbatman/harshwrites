@@ -7062,11 +7062,11 @@ export const articles = [
   {
     id: "story-behind-jai-jawan-jai-kisan",
     views: 1240,
-    publishDate: "2026-01-10",
+    publishDate: "2023-08-15",
     title: "The Story Behind Jai Jawan, Jai Kisan",
     author: "Harsh Mahto",
     category: "History & Policy",
-    date: "January 2026",
+    date: "15 Aug 2023",
     image: "/jai-jawan-jai-kisan.jpg",
     excerpt: "When I was in school, I used to shout slogans without thinking twice. Jai Jawan, Jai Kisan echoed during morning assemblies, Independence Day functions, and rallies. I raised my voice with everyone else—confident, patriotic—yet I never truly understood what those words meant.",
     content: `
