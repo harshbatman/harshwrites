@@ -400,11 +400,11 @@ function ArticleView() {
                         {/* Right Side: Listen Button */}
                         <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem', width: windowWidth < 768 ? '100%' : 'auto' }}>
                             <span style={{
-                                fontSize: '0.65rem',
-                                color: '#9ca3af',
+                                fontSize: '0.8rem',
+                                color: '#6b7280',
                                 fontWeight: 700,
                                 textTransform: 'uppercase',
-                                letterSpacing: '0.1em',
+                                letterSpacing: '0.05em',
                                 textAlign: windowWidth < 768 ? 'center' : 'left',
                                 marginLeft: windowWidth < 768 ? '0' : '0.2rem'
                             }}>
