@@ -230,9 +230,15 @@ function Home() {
                                     {article.content.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 150) + (article.content.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().length > 150 ? '...' : '')}
                                 </p>
 
-                                <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: 'var(--color-text-secondary)', fontSize: '0.85rem', marginTop: '0.75rem' }}>
-                                    <Eye size={16} />
-                                    <span>{formatViews(article.views)} reads</span>
+                                <div style={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: '1rem', color: 'var(--color-text-secondary)', fontSize: '0.85rem', marginTop: '0.75rem' }}>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
+                                        <Eye size={14} />
+                                        <span>{formatViews(article.views)} reads</span>
+                                    </div>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
+                                        <Calendar size={14} />
+                                        <span>{article.date}</span>
+                                    </div>
                                 </div>
 
                                 <Link to={`/article/${article.id}`} style={{ textDecoration: 'none', marginTop: 'auto' }}>
