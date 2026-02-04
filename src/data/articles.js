@@ -248,11 +248,11 @@ export const articles = [
   {
     id: "genome-sequencing-understanding-our-biological-code",
     views: 1240,
-    publishDate: "2026-02-02",
+    publishDate: "2023-02-12",
     title: "Genome Sequencing: Understanding Our Own Biological Code",
     author: "Harsh Mahto",
     category: "Science & India",
-    date: "2 Feb 2026",
+    date: "12 Feb 2023",
     image: "/genome-sequencing.png",
     excerpt: "Our genome is like a massive book written in a four-letter code. Reading it helps us predict diseases, design personalised medicine, and even secure our food supply.",
     content: `
