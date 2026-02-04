@@ -2430,11 +2430,11 @@ export const articles = [
   {
     id: "marie-curie-nobel",
     views: 1240,
-    publishDate: "2026-01-27",
+    publishDate: "2023-04-21",
     title: "One Woman. Two Nobel Prizes. Two Sciences.",
     author: "Harsh Mahto",
     category: "History & Science",
-    date: "January 2026",
+    date: "21 April 2023",
     image: "/marie-curie-nobel.png",
     excerpt: "I was just scrolling YouTube last night—no plan, no purpose. One video ended, another started… you know how it goes. And suddenly, this old black-and-white photo pops up.",
     content: `
@@ -6705,11 +6705,11 @@ export const articles = [
   {
     id: "two-women-two-nations-one-frame",
     views: 1240,
-    publishDate: "2026-01-28",
+    publishDate: "2023-04-07",
     title: "Two Women, Two Nations, One Frame",
     author: "Harsh Mahto",
     category: "History & Leadership",
-    date: "January 2026",
+    date: "7 April 2023",
     image: "/indira-thatcher.jpg",
     excerpt: "I was randomly scrolling the internet the other day — nothing specific, just the usual wandering we all do — when I suddenly stopped. Not because something was loud or sensational, but because something felt quietly important.",
     content: `
