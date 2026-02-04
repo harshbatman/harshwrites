@@ -1211,7 +1211,7 @@ export const articles = [
       </div>
 
       <p style="text-align: center; color: #6366f1; font-weight: 800; margin-top: 4rem; font-size: 1.5rem; font-style: italic; letter-spacing: -0.025em;">
-        time is flying but you are the pilot
+        Time is flying—but hey, you’re the pilot
       </p>
 
     `
