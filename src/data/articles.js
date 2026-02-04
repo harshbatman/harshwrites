@@ -762,6 +762,11 @@ export const articles = [
 
       <p>And the moment we talk about those numbers, we’re actually talking about home loans. Loans that run for 20 to 30 years. That’s not a small commitment—that’s almost an entire working life.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffbeb; border-left: 4px solid #f59e0b; border-radius: 4px;">
+        <p style="margin: 0; color: #78350f; font-weight: 600;">The real housing crisis in modern India isn't just about ownership—it's about the irrational pricing that forces a 25-year debt on someone who has only worked for 5.</p>
+      </div>
+
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Price of Commitment</h3>
 
       <p>Let’s be honest with ourselves. Once we take a home loan of that size, our life starts revolving around one thing: EMI. Job satisfaction takes a back seat. Risk-taking becomes impossible. Even switching careers feels dangerous.</p>
@@ -771,6 +776,11 @@ export const articles = [
       <p>That’s why I feel the debate should not be rent versus buy. It should be rent <em>before</em> you buy.</p>
 
       <p>Renting is not failure. Renting is not throwing money away. Renting is flexibility. It gives us time—to understand the city, the locality, our job stability, and even our own priorities.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #eef2ff; border-left: 4px solid #6366f1; border-radius: 4px;">
+        <p style="margin: 0; color: #3730a3; font-weight: 600;">Renting isn't failure; it's a strategic pause that gives you the mobility to grow while the market catches up to reality.</p>
+      </div>
+
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Beyond the Spreadsheet</h3>
 
@@ -838,6 +848,11 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Army’s Gift: Structure</h3>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #ecfdf5; border-left: 4px solid #10b981; border-radius: 4px;">
+        <p style="margin: 0; color: #064e3b; font-weight: 600;">Milkha Singh's discipline wasn't built in a gym; it was forged in the fire of tragedy and hardened by the routines of the Indian Army.</p>
+      </div>
+
+
       <p>And that hunger turned into discipline when he joined the Indian Army. That was a turning point. The Army gave him structure—fixed routines, early mornings, relentless drills.</p>
 
       <div style="margin: 2rem 0; text-align: center;">
@@ -870,6 +885,11 @@ export const articles = [
       <p>For us as Indians, his story goes beyond sport. It’s about rebuilding life after loss. It’s about using pain as fuel.</p>
 
       <p>In the end, medals shine for a moment, but discipline shines for a lifetime. Milkha Singh may have run his last race, but his footsteps are still on the track—reminding us that India doesn’t need miracles. We need discipline, dedication, and belief.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fff1f2; border-left: 4px solid #fb7185; border-radius: 4px;">
+        <p style="margin: 0; color: #9f1239; font-weight: 600;">Greatness is often the result of using pain as fuel—turning the trauma of the past into the endurance needed to outrun the world's best.</p>
+      </div>
+
     `
   },
   {
@@ -893,6 +913,11 @@ export const articles = [
 
       <p>And once we take that home loan, our life decisions are no longer ours. Our salary is already divided before it even comes to us. One part goes to tax, the biggest part goes to EMI, and whatever is left… we call that “life”.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fef2f2; border-left: 4px solid #ef4444; border-radius: 4px;">
+        <p style="margin: 0; color: #991b1b; font-weight: 600;">When your EMI hits 50% of your income, you don't own a house—the house owns your career, your risks, and your mental peace.</p>
+      </div>
+
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Financially Stuck Generation</h3>
 
       <p>That’s the real housing crisis no one talks about. It’s not just about shortage of houses. It’s about shortage of breathing space. We are financially stuck the day we sign that loan paper.</p>
@@ -912,6 +937,11 @@ export const articles = [
       <p>That’s the EMI crisis. It quietly controls our choices. We stay in jobs we don’t like, cities we can’t afford, and routines that drain us—because missing an EMI is not an option.</p>
 
       <p>And prices keep rising faster than our salaries. Houses become more expensive every year, but our income grows slowly. So we borrow more, stretch the loan longer, and dig ourselves deeper.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f5f3ff; border-left: 4px solid #8b5cf6; border-radius: 4px;">
+        <p style="margin: 0; color: #4c1d95; font-weight: 600;">The 'American Dream' of home ownership has become an 'Indian Reality' of financial suffocation for an entire generation of salaried workers.</p>
+      </div>
+
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">A Contract for Life</h3>
 
@@ -1088,6 +1118,11 @@ export const articles = [
 
       <p>Just showing up was enough.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f7fee7; border-left: 4px solid #84cc16; border-radius: 4px;">
+        <p style="margin: 0; color: #365314; font-weight: 600;">Discipline isn't about doing more; it's about showing up even when you don't want to. Speed is vanity; consistency is sanity.</p>
+      </div>
+
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Results</h3>
 
       <div style="margin: 2rem 0; padding: 2rem; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); border-radius: 16px; box-shadow: 0 10px 40px -10px rgba(102, 126, 234, 0.4);">
@@ -1170,6 +1205,11 @@ export const articles = [
       <p>Obesity didn't come in one day, and it won't go in one day either. But this routine—running, music, discipline—is helping me move forward.</p>
 
       <p>That's how it started. Nothing dramatic. Just a decision to focus.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #ecfeff; border-left: 4px solid #06b6d4; border-radius: 4px;">
+        <p style="margin: 0; color: #164e63; font-weight: 600;">Your body follows your life; when life pauses, the weight settles. Restarting requires moving even when the road ahead looks long and heavy.</p>
+      </div>
+
     `
   },
   {
@@ -1220,6 +1260,11 @@ export const articles = [
       So we become the project manager—without salary, without training, and with full responsibility.</p>
 
       <p>Exactly. In our own house, we are the CEO, site engineer, and dispute resolution manager.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f8fafc; border-left: 4px solid #64748b; border-radius: 4px;">
+        <p style="margin: 0; color: #334155; font-weight: 600;">Building a house in India isn't an engineering project; it's a diplomatic mission where you are the mediator between ten tribes that don't speak the same language.</p>
+      </div>
+
 
       <p>And it doesn’t stop there. After plumbing and electrical, comes plaster work. Another set of workers. Another contractor. New negotiation.</p>
 
@@ -1298,6 +1343,11 @@ export const articles = [
 
       <p>And the irony?<br/>
       This is probably the largest investment of our lives, yet it’s managed through WhatsApp calls and verbal promises.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f0fdfa; border-left: 4px solid #14b8a6; border-radius: 4px;">
+        <p style="margin: 0; color: #0f766e; font-weight: 600;">Fragmentation is the silent cost of construction. Until we have single-ownership systems, the homeowner will remain the unpaid, untrained project manager of their own nightmare.</p>
+      </div>
+
 
       <p>No unified planning.<br/>
       No integrated timeline.<br/>
@@ -1446,6 +1496,11 @@ export const articles = [
         <li>He planned for a short, decisive war, not a prolonged conflict</li>
       </ul>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fff1f2; border-left: 4px solid #fb7185; border-radius: 4px;">
+        <p style="margin: 0; color: #9f1239; font-weight: 600;">Sam Manekshaw's greatest contribution wasn't just leading the charge—it was having the professional spine to say 'no' to a premature start, ensuring India fought on its own terms.</p>
+      </div>
+
+
       <div style="margin: 2rem 0; text-align: center;">
         <img src="/sam-manekshaw-soldiers.jpg" alt="Field Marshal Sam Manekshaw interacting with our troops before the war" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
         <p style="text-align: center; color: #6b7280; font-size: 0.875rem; margin-top: 0.5rem; font-style: italic;">Field Marshal Sam Manekshaw interacting with our troops before the war</p>
@@ -1544,6 +1599,11 @@ export const articles = [
       </div>
 
       <p>The result: 93,000 troops surrendered on 16 December 1971.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f8fafc; border-left: 4px solid #64748b; border-radius: 4px;">
+        <p style="margin: 0; color: #334155; font-weight: 600;">13 days to victory: The speed of the 1971 campaign remains a global benchmark for how military, political, and intelligence coordination can collapse an enemy without a long, draining occupation.</p>
+      </div>
+
 
       <div style="margin: 2rem 0; text-align: center;">
         <img src="/surrender-1971.jpg" alt="Signing of the Instrument of Surrender, 1971" style="width: 100%; max-width: 800px; border-radius: 8px; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);" />
@@ -1680,6 +1740,11 @@ export const articles = [
 
       <p>It felt contradictory. Gurugram represents growth and success, yet the people driving that success struggle to put down roots. The city looks welcoming from the outside, but living there long-term—especially near where you work—is a different financial reality. That contrast between the dream-like skyline and the everyday stress of residents really stayed with me.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffcf0; border-left: 4px solid #eab308; border-radius: 4px;">
+        <p style="margin: 0; color: #854d0e; font-weight: 600;">Gurugram is a city that grows vertically out of ambition but stays horizontally disconnected from the people who build it.</p>
+      </div>
+
+
       <div style="width: 100%; height: 1px; background-color: #e5e7eb; margin: 2rem 0;"></div>
 
       <p>Let me tell you something about the illusion of a "good salary" in this city. On paper, earning ₹20 lakh a year sounds solid. It sounds like comfort, security, maybe even a ticket to the upper middle class. But the moment you walk out of that office and try to buy a home near it in Gurugram, that number suddenly feels terrifyingly small.</p>
@@ -1713,6 +1778,11 @@ export const articles = [
       <p>And salaries simply don't rise at the same speed as property prices. Your increment is linear; real estate appreciation is exponential. You plan for a year, and by the time you are ready, the goalpost has moved by another ₹20 lakhs.</p>
 
       <p>The city isn't designed for salaried people to live near where they work. It keeps nudging us toward compromise—smaller homes, longer commutes, or higher debt.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #ecfeff; border-left: 4px solid #06b6d4; border-radius: 4px;">
+        <p style="margin: 0; color: #164e63; font-weight: 600;">Earning a 'global salary' only to realize you can't afford a home near your office is the modern middle-class paradox—you're getting ahead, but the goalposts are moving faster.</p>
+      </div>
+
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Hollow Success</h3>
 
@@ -2270,6 +2340,11 @@ export const articles = [
       <p>React Native relies on a bridge. Your JavaScript code sends messages to the Native thread. JSON goes back and forth. It’s clever, but it’s a middleman.</p>
       <p>And in performance, the middleman is where the bottleneck lives.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f5f3ff; border-left: 4px solid #8b5cf6; border-radius: 4px;">
+        <p style="margin: 0; color: #4c1d95; font-weight: 600;">Flutter doesn't just build apps; it paints them. By taking control of every pixel, it bypasses the architectural bottlenecks that have plagued cross-platform development for years.</p>
+      </div>
+
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Why Flutter Feels Different</h3>
 
       <p>Then I looked at Flutter.</p>
@@ -2331,6 +2406,11 @@ export const articles = [
 
       <p>At first, it’s weird. “Everything is a widget?” Yes using code to build UI feels wrong initially.</p>
       <p>But then you click. You realize it forces you to think in components. In trees. It makes the logic visual.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f7fee7; border-left: 4px solid #84cc16; border-radius: 4px;">
+        <p style="margin: 0; color: #365314; font-weight: 600;">The 'Just' trap: In engineering, 'just use what you know' is often the shortcut that leads to the longest road. Sometimes, the right tool is worth the new learning curve.</p>
+      </div>
+
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Verdict</h3>
 
@@ -2394,6 +2474,11 @@ export const articles = [
       <p>Exactly. Today we remember one fact: at one point, Germany conquered almost all of Europe.</p>
       <p>France fell in weeks. Eastern Europe collapsed fast. That’s what decisive war looks like.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fef2f2; border-left: 4px solid #ef4444; border-radius: 4px;">
+        <p style="margin: 0; color: #991b1b; font-weight: 600;">History remembers results, not intentions. A slow invasion is a self-inflicted wound that bleeds a nation's economy, manpower, and global standing every single day.</p>
+      </div>
+
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Now compare that with Russia–Ukraine</h3>
 
       <p>So where does the Russia–Ukraine War fit into this?</p>
@@ -2454,6 +2539,11 @@ export const articles = [
       <p>Instead, this turned into attrition.</p>
 
       <p>And attrition favors those with global backing, deeper pockets, and time. Not those facing sanctions, isolation, and economic pressure.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fff7ed; border-left: 4px solid #f97316; border-radius: 4px;">
+        <p style="margin: 0; color: #9a3412; font-weight: 600;">Blitzkrieg is a strategy; 'Grindkrieg' is a failure of planning. When a war meant for weeks drags into years, the battlefield shifts from geography to exhaustion.</p>
+      </div>
+
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Wars aren’t fought in headlines—but they’re lost there</h3>
 
@@ -2545,6 +2635,11 @@ export const articles = [
       <p>Exactly. We hear “Nobel Prize” and move on. But let me tell you—this wasn’t just achievement. This was <strong>defiance</strong>. Imagine a time when science rooms were not meant for women. And still, there she was, not asking for permission.</p>
       
       <p>And she wasn’t just present… she dominated.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fdf2f8; border-left: 4px solid #ec4899; border-radius: 4px;">
+        <p style="margin: 0; color: #831843; font-weight: 600;">Marie Curie didn't just win Nobel Prizes; she broke the binary of science. Her presence in those old black-and-white photos is the physical manifestation of defiance against a world that said 'no'.</p>
+      </div>
+
 
       <!-- The Solvay Conference Ratio Graph -->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
