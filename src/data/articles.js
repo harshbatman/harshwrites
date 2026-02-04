@@ -955,7 +955,7 @@ export const articles = [
 
       <p>In one of her classes, we were debating dress code vs no dress code and 75% attendance—both of which were enforced in our university. I spoke continuously for at least 5–10 minutes, arguing against the dress code and the attendance rule. And yeah, I did it in English.</p>
 
-      <p>After the class ended, a bunch of my classmates came up to me and said things like, <em>“g**d fad speech bhai, maza aa gaya,”</em> <em>“m** c**d diya bhaiya ji,”</em> <em>“garda uda diya harsh.”</em></p>
+      <p>After the class ended, a bunch of my classmates came up to me and said things like, <em>“g**d fad speech bhai, maza aa gaya,”</em> <em>“m** c**d diya bhaiya ji aap to,”</em> <em>“garda uda diya harsh.”</em></p>
 
       <p>Basically—“You nailed it, dude.”</p>
 
