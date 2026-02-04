@@ -1600,11 +1600,11 @@ export const articles = [
   {
     id: "gurugram-housing-crisis",
     views: 1240,
-    publishDate: "2026-01-30",
+    publishDate: "2023-11-23",
     title: "Gurugram: The City We Build, But Can’t Afford to Live In",
     author: "Harsh Mahto",
     category: "Urban Economics",
-    date: "January 2026",
+    date: "23 November 2023",
     image: "/gurugram-housing.jpg",
     excerpt: "A few days ago, I was in Gurugram. I’d heard so much about it that I’d been planning this trip for a long time. It wasn’t a sudden decision. It was one of those plans that quietly sits in your mind, growing stronger with every story you hear about the city.",
     content: `
@@ -7365,11 +7365,11 @@ export const articles = [
   {
     id: "rockets-vs-airplanes",
     views: 1240,
-    publishDate: "2026-01-28",
+    publishDate: "2023-11-07",
     title: "We Build Rockets. But Why Not Airplanes?",
     author: "Harsh Mahto",
     category: "Geopolitics & Tech",
-    date: "January 2026",
+    date: "7 November 2023",
     image: "/rockets-vs-airplanes.jpg",
     excerpt: "A few days ago, I took the first flight of my life. From Delhi’s IGI Airport to Bengaluru. Yeah. Never been on a plane before.",
     content: `
