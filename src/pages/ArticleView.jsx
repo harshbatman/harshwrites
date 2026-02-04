@@ -509,18 +509,23 @@ function ArticleView() {
                     }}>
                         {allChunks[currentChunkIndex] ? (
                             <>
-                                <span>{allChunks[currentChunkIndex].substring(0, currentWordInfo.offset)}</span>
+                                <span style={{ color: '#4f46e5', fontWeight: 600 }}>
+                                    {allChunks[currentChunkIndex].substring(0, currentWordInfo.offset)}
+                                </span>
                                 <span style={{
                                     background: '#fef08a',
                                     color: '#000',
                                     padding: '0 4px',
                                     borderRadius: '4px',
-                                    fontWeight: 700,
-                                    boxShadow: '0 2px 4px rgba(0,0,0,0.05)'
+                                    fontWeight: 800,
+                                    boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
+                                    display: 'inline-block'
                                 }}>
                                     {allChunks[currentChunkIndex].substring(currentWordInfo.offset, currentWordInfo.offset + currentWordInfo.length)}
                                 </span>
-                                <span>{allChunks[currentChunkIndex].substring(currentWordInfo.offset + currentWordInfo.length)}</span>
+                                <span style={{ color: '#9ca3af' }}>
+                                    {allChunks[currentChunkIndex].substring(currentWordInfo.offset + currentWordInfo.length)}
+                                </span>
                             </>
                         ) : 'Preparing narration...'}
                     </div>
