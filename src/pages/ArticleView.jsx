@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion as Motion } from 'framer-motion';
-import { ArrowLeft, User, Calendar, Share2, Eye, X, Volume2, Square } from 'lucide-react';
+import { ArrowLeft, User, Calendar, Share2, Eye, X, Volume2, Square, Play, Pause, RotateCcw, Gauge } from 'lucide-react';
 import { articles } from '../data/articles';
 import SupportSection from '../components/SupportSection';
 import SupporterList from '../components/SupporterList';
