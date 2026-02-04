@@ -5541,11 +5541,11 @@ export const articles = [
   {
     id: "manufacturing-vs-services",
     views: 1240,
-    publishDate: "2026-01-20",
+    publishDate: "2023-01-14",
     title: "Manufacturing or Services? The Great Indian Debate",
     author: "Harsh Mahto",
     category: "Economics & Policy",
-    date: "January 2026",
+    date: "14 Jan 2023",
     image: "/rajan-services-vs-manufacturing.jpg",
     excerpt: "Every time someone talks about growth, it’s always the same story: 'Let’s build factories.' But Raghuram Rajan asks us to take a hard look at what we’re doing.",
     content: `
