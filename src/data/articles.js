@@ -1411,6 +1411,11 @@ export const articles = [
       <p>Yes. This wasn’t just an internal issue anymore.<br/>
       The refugee crisis put enormous economic, social, and moral pressure on us—and it created moral clarity for the world.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #ecfdf5; border-left: 4px solid #10b981; border-radius: 4px;">
+        <p style="margin: 0; color: #064e3b; font-weight: 600;">The 1971 victory wasn't just won by tanks in Dhaka; it was won by the calculated patience of Indira Gandhi and the intelligence depth of RAW months before the first shot.</p>
+      </div>
+
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">2. Intelligence first: RAW and R. N. Kao</h3>
 
       <p>Military action didn’t come immediately though.</p>
@@ -5106,6 +5111,11 @@ export const articles = [
 
       <p>He called it ideological subversion. I call it—making people hate each other without knowing who benefits.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f8fafc; border-left: 4px solid #64748b; border-radius: 4px;">
+        <p style="margin: 0; color: #334155; font-weight: 600;">Ideological subversion isn't a theory; it's the slow, generational process of making a society reject its own values until belief becomes identity and facts no longer matter.</p>
+      </div>
+
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">He Understood Us Very Well</h3>
 
       <p>And he spent time with us, right?</p>
@@ -5208,6 +5218,11 @@ export const articles = [
       <p>Yeah. Suddenly every issue becomes us vs them.</p>
 
       <p>Exactly. Neighbours stop listening to each other. Families argue at dinner tables. Everyone is angry, but no one remembers why.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffbeb; border-left: 4px solid #f59e0b; border-radius: 4px;">
+        <p style="margin: 0; color: #78350f; font-weight: 600;">When belief becomes identity, conversation dies. The ultimate victory of subversion is when people defend their own brainwashing as their 'truth'.</p>
+      </div>
+
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Religion, Language, Politics, and Permanent Outrage</h3>
 
@@ -5348,6 +5363,11 @@ export const articles = [
 
       <p>That’s the thing. We talk a lot about alliances today, but some friendships were built quietly, long before hashtags and headlines. Zhukov on that elephant wasn’t just a photo. It was a statement—Russia saw us, trusted us, and stood with us.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fff1f2; border-left: 4px solid #fb7185; border-radius: 4px;">
+        <p style="margin: 0; color: #9f1239; font-weight: 600;">Friendships between nations aren't built on hashtags; they're forged in the quiet recognition of equals. Marshal Zhukov on an elephant in 1957 was a statement of trust that outlived the Cold War.</p>
+      </div>
+
+
       <p>And maybe that’s why that aura you noticed in the movie felt real.</p>
       
       <p class="story-punchline">Yeah. Turns out, it wasn’t acting at all.</p>
@@ -5374,6 +5394,11 @@ export const articles = [
       <p>But instead, it taught China how to beat them at their own game.</p>
 
       <p>Exactly. Globalisation wasn’t a charity scheme. It was a classroom. China was the most serious student.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #ecfeff; border-left: 4px solid #06b6d4; border-radius: 4px;">
+        <p style="margin: 0; color: #164e63; font-weight: 600;">Globalisation wasn't a charity scheme; it was a masterclass. America taught the world how to globalise, and China learned how to dominate it by treating factories as leverage, not baggage.</p>
+      </div>
+
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Beginning: When the Door Opened</h3>
 
@@ -5414,6 +5439,11 @@ export const articles = [
       </ul>
 
       <p>Design without manufacturing is theory. Manufacturing turns theory into dominance.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f0fdfa; border-left: 4px solid #14b8a6; border-radius: 4px;">
+        <p style="margin: 0; color: #0f766e; font-weight: 600;">Design is theory; manufacturing is dominance. When you outsource the building, you eventually outsource the learning—and whoever learns the fastest owns the future.</p>
+      </div>
+
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The iPhone Lesson Everyone Ignored</h3>
 
@@ -5938,6 +5968,11 @@ export const articles = [
 
       <p>We are fighting to be the factory floor, while the US and China own the intellectual property.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fff7ed; border-left: 4px solid #f97316; border-radius: 4px;">
+        <p style="margin: 0; color: #9a3412; font-weight: 600;">Rajan's warning is clear: If we fight for the bottom of the value curve (assembly) while others own the top (IP), we might grow our GDP, but we won't grow our people's wealth.</p>
+      </div>
+
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Pharma Mirror</h3>
 
       <p>But pharma is our success story, right? We’re called the pharmacy of the world.</p>
@@ -6077,6 +6112,11 @@ export const articles = [
       <p>Factories raise GDP.</p>
       <p class="story-punchline">Innovation raises income.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f7fee7; border-left: 4px solid #84cc16; border-radius: 4px;">
+        <p style="margin: 0; color: #365314; font-weight: 600;">Innovation raises income; factories raise GDP. Investing in human capital isn't just a social goal—it's the only way to escape the low-value trap of late-stage industrialization.</p>
+      </div>
+
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Rajan’s Central Argument: Services Are Not Second-Class</h3>
 
       <p>So does that mean Rajan is saying we’re focusing too much on manufacturing?</p>
@@ -6145,6 +6185,11 @@ export const articles = [
 
       <p>Exactly. Before Facebook, we already had platforms like Friendster and MySpace. People were already adding friends, posting photos, even customising profiles with loud music and glitter backgrounds.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #eef2ff; border-left: 4px solid #6366f1; border-radius: 4px;">
+        <p style="margin: 0; color: #3730a3; font-weight: 600;">Facebook's true innovation wasn't 'connecting people'; it was monetizing presence. By turning emotions into data and dopamine into a business model, it didn't just reflect society—it reshaped it.</p>
+      </div>
+
+
       <!-- Social Media Evolution Graph -->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Social Media Evolution</h4>
@@ -6205,6 +6250,11 @@ export const articles = [
       <p>But that’s the point. Facebook didn’t just let us post — it decided what mattered. It trained us to scroll, react, compare.</p>
 
       <p>And slowly, we stopped visiting profiles. The feed became the internet.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f5f3ff; border-left: 4px solid #8b5cf6; border-radius: 4px;">
+        <p style="margin: 0; color: #4c1d95; font-weight: 600;">The News Feed wasn't a feature; it was a shift in the internet's power structure. It moved us from visiting the internet to being fed by it, one dopamine-triggered scroll at a time.</p>
+      </div>
+
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">2007: Facebook Becomes a Platform</h3>
 
@@ -6552,6 +6602,11 @@ export const articles = [
 
       <p>So Google made a radical decision: Don’t sell the operating system. Give it away.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f0fdf4; border-left: 4px solid #22c55e; border-radius: 4px;">
+        <p style="margin: 0; color: #166534; font-weight: 600;">Android wasn't a phone business; it was a moat for search. By giving the OS away for free, Google ensured it would own the highway where the world's data travels—no matter who built the car.</p>
+      </div>
+
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Android Strategy: “Be Everywhere”</h3>
 
       <p>That sounds suicidal for a business.</p>
@@ -6813,6 +6868,11 @@ export const articles = [
 
       <p>Both succeeded. Just in completely different ways.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #eff6ff; border-left: 4px solid #3b82f6; border-radius: 4px;">
+        <p style="margin: 0; color: #1e3a8a; font-weight: 600;">The mobile war proved there are two ways to win: Apple chose the margin and owned the profits; Android chose the volume and owned the world.</p>
+      </div>
+
+
       <p>So Android didn’t just take over phones.</p>
 
       <p>It took over access to the digital world.</p>
@@ -6839,6 +6899,11 @@ export const articles = [
       <p>Hesitation? We’ve always been good with technology, right? Software, IT services, space missions—so what went wrong with chips?</p>
 
       <p>That’s exactly where the story starts. You see, early on, we chose software over hardware. And at that time, it made sense. Software needed less capital, gave faster returns, and aligned well with our talent pool. Writing code was cheaper than building factories that cost billions.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fef2f2; border-left: 4px solid #ef4444; border-radius: 4px;">
+        <p style="margin: 0; color: #991b1b; font-weight: 600;">For decades, we chose the safety of software over the risk of hardware. We built the code that runs the world's chips, but someone else built the factories that fabricate them.</p>
+      </div>
+
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The "Safer" Road?</h3>
 
@@ -6960,6 +7025,11 @@ export const articles = [
 
       <p>That’s a good way to put it. We lost time, no doubt. But if we stay consistent—same policies, long-term vision, and patience—we can still build something meaningful. Semiconductor success isn’t a sprint. It’s a 20-year commitment.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffcf0; border-left: 4px solid #eab308; border-radius: 4px;">
+        <p style="margin: 0; color: #854d0e; font-weight: 600;">Missing the semiconductor bus wasn't just an economic delay; it was a strategic lesson. Today, we realize that a nation that codes but doesn't fabricate is a nation that remains dependent on foreign supply chains.</p>
+      </div>
+
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Ready to Commit?</h3>
 
       <p>Then I guess the real question is—are we finally ready to commit?</p>
@@ -6995,6 +7065,11 @@ export const articles = [
       <p>Let me guess. Two heads of government. Both women. Same frame?</p>
 
       <p>More than that. In the 20th century, global power was a men’s club. Suits, cigars, war rooms. And yet, here are two women leading nations that once stood on opposite sides of empire and history.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f5f3ff; border-left: 4px solid #8b5cf6; border-radius: 4px;">
+        <p style="margin: 0; color: #4c1d95; font-weight: 600;">Power recognizes power. The 1984 frame of Indira Gandhi and Margaret Thatcher is a rare window into an era where two women led nations through the coldest years of geopolitical friction with quiet, unshakable authority.</p>
+      </div>
+
 
       <p>And they’re not posturing. They’re comfortable.</p>
 
@@ -7212,6 +7287,11 @@ export const articles = [
 
       <p>It wasn’t about aggression. It was about never being blackmailed again.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fff1f2; border-left: 4px solid #fb7185; border-radius: 4px;">
+        <p style="margin: 0; color: #9f1239; font-weight: 600;">Our nuclear story isn't just about science; it's about self-respect. From Bhabha's three-stage vision to Pokhran-II, we proved that strategic depth is earned through scientific defiance, not diplomatic permission.</p>
+      </div>
+
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Pokhran-II and the Moment We Stood Alone</h3>
 
       <p>But the real turning point?</p>
@@ -7342,6 +7422,11 @@ export const articles = [
       <p>Years later, looking back at our history, I finally understood that Jai Jawan, Jai Kisan was never meant to sound good or poetic. It was meant to remind us who actually keeps the country standing.</p>
 
       <p>Because this slogan didn’t come from comfort. It came from fear, loss, and a moment when the country was standing at the edge—unsure whether it could defend itself and sustain its people at once.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffbeb; border-left: 4px solid #f59e0b; border-radius: 4px;">
+        <p style="margin: 0; color: #78350f; font-weight: 600;">Shastri's slogan wasn't just a morale booster; it was a survival strategy. It recognized that a nation's soul is protected by its soldiers, but its pulse is sustained by its farmers.</p>
+      </div>
+
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">1962: The Trauma Before the Triumph</h3>
 
@@ -7484,6 +7569,11 @@ export const articles = [
       <p>It’s a trap.</p>
       <p>Getting the right answer is easy. Getting it efficiently is engineering.</p>
       <p>I realized I didn’t understand <em>scale</em>.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f8fafc; border-left: 4px solid #64748b; border-radius: 4px;">
+        <p style="margin: 0; color: #334155; font-weight: 600;">Getting the right answer is easy; getting it efficiently is engineering. DSA isn't about passing interviews—it's about learning the physics of scale, where the difference between O(n) and O(n²) is the difference between success and a system crash.</p>
+      </div>
+
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Complexity: The First Reality Check</h3>
 
@@ -7723,6 +7813,11 @@ export const articles = [
 
       <p>That’s a story worth talking about. ✈️</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #eef2ff; border-left: 4px solid #6366f1; border-radius: 4px;">
+        <p style="margin: 0; color: #3730a3; font-weight: 600;">Aviation isn't just a factory; it's a network. While we reach for the stars with ISRO, the sky for commercial flight remains a duopoly because building the plane is easy—building the ecosystem and the trust that keeps it in the air takes decades.</p>
+      </div>
+
+
       <!-- The Duopoly Wall Graph -->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Polite Monopoly (Large Jet Market Share)</h4>
@@ -7918,6 +8013,11 @@ export const articles = [
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Uncomfortable Answer</h3>
 
       <p>And maybe the real answer is uncomfortable—we chose short-term growth over long-term planning. Now, we’re paying the price.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffbeb; border-left: 4px solid #f59e0b; border-radius: 4px;">
+        <p style="margin: 0; color: #78350f; font-weight: 600;">Our cities aren't chaotic by accident; they're chaotic by policy. We chose short-term growth over long-term planning, resulting in cities where rain becomes a life-threatening event instead of a seasonal relief.</p>
+      </div>
+
     `
   },
   {
@@ -7970,6 +8070,11 @@ export const articles = [
       <p>Until then, our homes will stay full of gadgets, and our lives will remain plugged in. And deep down, we all know this isn’t progress. This is adjustment.</p>
 
       <p>Adjustment to a world we slowly damaged, and then tried to fix with switches and sockets instead of real solutions.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fef2f2; border-left: 4px solid #ef4444; border-radius: 4px;">
+        <p style="margin: 0; color: #991b1b; font-weight: 600;">In our cities, machines have replaced nature. Air purifiers, water filters, and air conditioners aren't luxuries anymore—they are survival tools in a world we slowly damaged and then tried to fix with switches and sockets.</p>
+      </div>
+
     `
   },
   {
@@ -8107,6 +8212,11 @@ export const articles = [
       <p>And who knows… maybe someday, the loading screen will say: An Indian Open-World Game.</p>
 
       <p>That day, every gamer like us will feel seen.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fff1f2; border-left: 4px solid #fb7185; border-radius: 4px;">
+        <p style="margin: 0; color: #9f1239; font-weight: 600;">India is already an open-world chaos simulator—traffic, monsoons, festivals, and legends. We don't lack content for a world-class game; we lack the courage to tell our own stories with the same satirical depth as Liberty City.</p>
+      </div>
+
     `
   },
   {
@@ -8255,6 +8365,11 @@ export const articles = [
       <p>Looks like the future doesn’t belong to people who write the most code…</p>
 
       <p>…but to people who know what code should exist—and why.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #ecfdf5; border-left: 4px solid #10b981; border-radius: 4px;">
+        <p style="margin: 0; color: #064e3b; font-weight: 600;">AI is excellent at writing code but terrible at owning responsibility. The future belongs not to those who can type the fastest, but to those who can think the architectural logic through before the first prompt is ever written.</p>
+      </div>
+
     `
   },
 ];
