@@ -20,6 +20,11 @@ export const articles = [
 
       <p>But when development picked up—migration increased, jobs grew, and the population exploded—the demand for housing went through the roof. This is where the gap started. The Delhi Development Authority (DDA) simply couldn’t keep up with the demand for planned housing.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fff7ed; border-left: 4px solid #f97316; border-radius: 4px;">
+        <p style="margin: 0; color: #9a3412; font-weight: 600;">Unauthorized colonies are the physical footprint of a housing market that outpaced the government's ability to plan.</p>
+      </div>
+
+
       <div style="margin: 2rem 0; padding: 1.5rem; background: #fffcf0; border-left: 4px solid #eab308; border-radius: 4px;">
         <p style="margin: 0; color: #854d0e; font-weight: 600;">When planned supply fails to meet organic demand, the market finds its own, often chaotic, way forward.</p>
       </div>
@@ -59,6 +64,11 @@ export const articles = [
       <p>And when people ask, "Why doesn’t the government fix this?"—this is the reason. From their side, the land itself is not approved for urban living. Unauthorized colonies are not about criminals grabbing land. They are about ordinary people buying land the wrong way, without realizing the long-term consequences.</p>
 
       <p>Once thousands of families settle like this, the problem becomes massive—socially, legally, and politically. That’s the real story behind unauthorized colonies. Not illegal intentions—but incomplete processes that ended up creating permanent urban problems for all of us.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f8fafc; border-left: 4px solid #64748b; border-radius: 4px;">
+        <p style="margin: 0; color: #334155; font-weight: 600;">The transition from 'agricultural' to 'residential' isn't just a paper change—it's the legal gatekeeper of basic human dignity like clean water and sewage.</p>
+      </div>
+
 
       <h2 style="font-family: var(--font-serif); font-size: 1.8rem; margin-top: 3rem; margin-bottom: 1.5rem; color: #111827; font-weight: 800; border-bottom: 2px solid #e5e7eb; padding-bottom: 0.5rem;">The Crisis Next Door: Faridabad</h2>
 
@@ -140,6 +150,11 @@ export const articles = [
 
       <p>At first glance, it looks like a modern lifestyle choice. But if we think deeper, the rise of these high-rise societies is actually a private response to a systemic failure in public infrastructure.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #faf5ff; border-left: 4px solid #a855f7; border-radius: 4px;">
+        <p style="margin: 0; color: #6b21a8; font-weight: 600;">A high-rise society is a vertical village where safety and convenience are purchased as a private service because the city fails to provide them as a public right.</p>
+      </div>
+
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Promise of a Private Ecosystem</h3>
 
       <p>The biggest issue is basic infrastructure. In many parts of our cities, public systems like water supply, drainage, sewage, and waste management are either unreliable or completely missing. This is why people start looking for places where these problems are already "handled." High-rise societies offer that promise—everything managed within the boundary of the complex.</p>
@@ -161,6 +176,11 @@ export const articles = [
       <p>But this predictability comes at a recurring cost—the "Maintenance Tax." While a homeowner in a traditional neighborhood might pay a small annual property tax, a society resident pays thousands of rupees every single month. This money goes into the pockets of private maintenance agencies just to keep the elevators running, the water flowing, and the guards standing at the gate.</p>
 
       <p>If the public infrastructure worked, this money could have been spent on better education, healthcare, or quality of life. Instead, it’s a "survival fee" we pay to maintain the illusion of a working city within our own gates.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f0fdfa; border-left: 4px solid #14b8a6; border-radius: 4px;">
+        <p style="margin: 0; color: #0f766e; font-weight: 600;">The maintenance fee is the hidden 'second tax' we pay to maintain the illusion of order inside our gates while the city outside continues to struggle.</p>
+      </div>
+
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Social Island: Connected yet Isolated</h3>
 
@@ -204,6 +224,11 @@ export const articles = [
     content: `
       <p>Every year, as monsoon clouds gather over the plains of Bihar, a familiar sense of dread sets in. For millions, it isn't just about the relief of rain; it's about the inevitable arrival of floods. It has become a seasonal routine, a cyclic tragedy that repeats with heartbreaking precision. But why does Bihar face this again and again? Why can't we seem to control it?</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffbeb; border-left: 4px solid #f59e0b; border-radius: 4px;">
+        <p style="margin: 0; color: #78350f; font-weight: 600;">Floods in Bihar are a geographical reality; disasters in Bihar are a planning failure.</p>
+      </div>
+
+
       <p>The frustration is real, and it’s shared by millions. Floods here are not just because of heavy rain in one season; they are the result of geography, river behavior, poor planning, and decades of half-finished solutions. Our land itself makes us vulnerable.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Geography of Vulnerability</h3>
@@ -215,6 +240,11 @@ export const articles = [
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Beyond Borders: The Hydrological Connection</h3>
 
       <p>Floods don’t start only within our borders. Bihar is hydrologically connected to surrounding regions—Uttar Pradesh to the west, Jharkhand to the south, and West Bengal to the east. Rivers don’t follow political boundaries. When rainfall is heavy upstream in these states, the excess water flows directly into our systems. What happens upstream is felt deeply downstream.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #ecfdf5; border-left: 4px solid #10b981; border-radius: 4px;">
+        <p style="margin: 0; color: #064e3b; font-weight: 600;">Water doesn't know political boundaries; if we don't manage rivers at the basin level with our neighbors, we will keep fighting the same downstream battle.</p>
+      </div>
+
 
       <p>Then there is the critical factor of Nepal. Many of our major rivers—like the Kosi, Gandak, Bagmati, and Kamla—originate in the Himalayan region of Nepal. When intense rainfall or cloudbursts occur there, enormous volumes of water rush down into the plains within hours, leaving very little reaction time for those in their path.</p>
 
@@ -231,6 +261,11 @@ export const articles = [
       <p><strong>Basin-level management:</strong> We must manage rivers as complete systems, from the mountains to the plains. This requires scientific coordination with Nepal and neighboring states, including real-time data sharing.</p>
 
       <p><strong>Serious desilting:</strong> Selective, scientific desilting of critical river stretches must be a continuous priority to maintain river capacity.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fff1f2; border-left: 4px solid #fb7185; border-radius: 4px;">
+        <p style="margin: 0; color: #9f1239; font-weight: 600;">Desilting isn't a one-time project; it's the continuous maintenance of the river's lungs, keeping its capacity alive.</p>
+      </div>
+
 
       <p><strong>Smarter embankments:</strong> Instead of just raising them, we should strengthen existing ones and create "spill zones" to allow controlled flooding in designated areas.</p>
 
@@ -262,11 +297,21 @@ export const articles = [
 
       <p>Our genome is like a massive book written in a four-letter code. Genome sequencing is the process of reading that book, letter by letter. And once we understand it, we can predict a lot—diseases, inherited conditions, even future health risks.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f7fee7; border-left: 4px solid #84cc16; border-radius: 4px;">
+        <p style="margin: 0; color: #365314; font-weight: 600;">Our genome is the ultimate source code—understanding it allows us to debug our health before the bugs become diseases.</p>
+      </div>
+
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The India Factor: Diversity as a Canvas</h3>
 
       <p>That’s where it becomes important for us as a country. India has huge genetic diversity. People from the North, South, East, West—our food habits, climate, lifestyles are different. So medical data from Western countries doesn’t always fit us perfectly.</p>
 
       <p>Exactly. That’s why sequencing Indian genomes matters. If we only rely on foreign data, treatments may not be fully accurate for us. With our own genome data, doctors can design personalised medicine—medicine that actually suits our bodies.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #ecfeff; border-left: 4px solid #06b6d4; border-radius: 4px;">
+        <p style="margin: 0; color: #164e63; font-weight: 600;">India's greatest asset is its genetic diversity; our greatest challenge is ensuring medicine reflects that diversity instead of ignoring it.</p>
+      </div>
+
 
       <div style="margin: 2rem 0; padding: 1.5rem; background: #f0fdf4; border-left: 4px solid #22c55e; border-radius: 4px;">
         <p style="margin: 0; color: #166534; font-weight: 600;">Personalised medicine isn't just a luxury—it's the only way to treat a population as diverse as ours.</p>
@@ -322,6 +367,11 @@ export const articles = [
 
       <p>Exactly. That one clause meant Microsoft could sell the same software to other PC manufacturers. IBM thought hardware mattered. Microsoft knew software scales.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fef2f2; border-left: 4px solid #ef4444; border-radius: 4px;">
+        <p style="margin: 0; color: #991b1b; font-weight: 600;">Microsoft's greatest hack wasn't its code—it was the license agreement that allowed it to sell software to the world while its rivals were stuck selling hardware.</p>
+      </div>
+
+
       <p>So while IBM sold one type of machine, Microsoft sold DOS to everyone making IBM-compatible PCs.</p>
 
       <p>That's where the world tilted.</p>
@@ -337,6 +387,11 @@ export const articles = [
       <p>And Microsoft let other developers build on Windows. Thousands of companies started depending on it.</p>
 
       <p>Once developers depend on you, users follow. Once users follow, competitors die slowly.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f5f3ff; border-left: 4px solid #8b5cf6; border-radius: 4px;">
+        <p style="margin: 0; color: #4c1d95; font-weight: 600;">Platforms win through dependency: once every office and school in the world standardizes on your files, switching becomes an act of corporate suicide.</p>
+      </div>
+
 
       <div style="margin: 2rem 0; padding: 2rem; background: linear-gradient(135deg, #f0f9ff 0%, #e0f2fe 100%); border-radius: 16px; border: 1px solid #bae6fd;">
         <h4 style="color: #0c4a6e; text-align: center; margin-bottom: 1.5rem; font-size: 1.25rem; font-weight: 700;">Windows Market Share Dominance (1990-2005)</h4>
@@ -484,6 +539,11 @@ export const articles = [
       <p>And once schools, offices, and colleges standardized on Microsoft tools, it became permanent.</p>
 
       <p>You don't fight ecosystems. You join them.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fdf2f8; border-left: 4px solid #ec4899; border-radius: 4px;">
+        <p style="margin: 0; color: #831843; font-weight: 600;">Microsoft won the desktop by becoming the 'default'—and in the world of technology, the default is the most powerful position on the board.</p>
+      </div>
+
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Real Lesson for Us</h3>
 
