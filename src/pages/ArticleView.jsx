@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion as Motion } from 'framer-motion';
-import { ArrowLeft, User, Calendar, Share2, Eye, X } from 'lucide-react';
+import { ArrowLeft, User, Calendar, Share2, Eye, X, Volume2, Square } from 'lucide-react';
 import { articles } from '../data/articles';
 import SupportSection from '../components/SupportSection';
 import SupporterList from '../components/SupporterList';
@@ -11,10 +11,14 @@ function ArticleView() {
     const article = articles.find(a => a.id === id);
     const [copied, setCopied] = useState(false);
     const [zoomedImage, setZoomedImage] = useState(null);
+    const [isSpeaking, setIsSpeaking] = useState(false);
 
     // Initial Scroll
     useEffect(() => {
         window.scrollTo(0, 0);
+        // Stop speech on navigation
+        window.speechSynthesis.cancel();
+        setIsSpeaking(false);
     }, [id]);
 
     // Handle Image Clicks for Lightbox
@@ -45,6 +49,49 @@ function ArticleView() {
         return () => clearTimeout(timer);
     }, [id, article]);
 
+    // Cleanup speech on unmount
+    useEffect(() => {
+        return () => {
+            window.speechSynthesis.cancel();
+        };
+    }, []);
+
+    const handleToggleSpeech = () => {
+        if (!('speechSynthesis' in window)) {
+            alert("Sorry, your browser doesn't support text to speech!");
+            return;
+        }
+
+        if (isSpeaking) {
+            window.speechSynthesis.cancel();
+            setIsSpeaking(false);
+            return;
+        }
+
+        const contentDiv = document.querySelector('.story-content');
+        if (!contentDiv) return;
+
+        // Extract text but remove things like alt text if possible, or just use innerText
+        const text = `${article.title}. ${contentDiv.innerText} `;
+        const utterance = new SpeechSynthesisUtterance(text);
+
+        // Try to find a premium voice (usually 'Google UK English Male' or similar if available)
+        const voices = window.speechSynthesis.getVoices();
+        const premiumVoice = voices.find(v => v.name.includes('Google') && v.lang.startsWith('en')) ||
+            voices.find(v => v.lang.startsWith('en'));
+
+        if (premiumVoice) utterance.voice = premiumVoice;
+
+        utterance.rate = 0.95; // Slightly slower for better clarity
+        utterance.pitch = 1;
+
+        utterance.onstart = () => setIsSpeaking(true);
+        utterance.onend = () => setIsSpeaking(false);
+        utterance.onerror = () => setIsSpeaking(false);
+
+        window.speechSynthesis.speak(utterance);
+    };
+
     // If article not found, show error
     if (!article) {
         return (
@@ -63,9 +110,9 @@ function ArticleView() {
     // Format views count for display
     const formatViews = (views) => {
         if (views >= 1000) {
-            return `${Math.floor(views / 1000)}K+`;
+            return `${Math.floor(views / 1000)} K + `;
         }
-        return `${views}+`;
+        return `${views} +`;
     };
 
     const handleShare = async () => {
@@ -107,7 +154,8 @@ function ArticleView() {
                         padding: '1rem 2rem',
                         boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.05)',
                         marginTop: '1.5rem',
-                        maxWidth: '100%'
+                        maxWidth: '100%',
+                        position: 'relative'
                     }}>
                         {/* Author */}
                         <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
@@ -150,6 +198,46 @@ function ArticleView() {
                                 </div>
                             </>
                         )}
+
+                        <div style={{ width: '1px', height: '24px', background: '#e5e7eb' }} className="hidden-mobile"></div>
+
+                        {/* Listen Button */}
+                        <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'flex-start', lineHeight: '1.2' }}>
+                            <span style={{ fontSize: '0.7rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Voice</span>
+                            <button
+                                onClick={handleToggleSpeech}
+                                style={{
+                                    display: 'flex',
+                                    alignItems: 'center',
+                                    gap: '0.4rem',
+                                    color: isSpeaking ? '#ef4444' : '#6366f1',
+                                    fontSize: '0.9rem',
+                                    fontWeight: 600,
+                                    background: 'none',
+                                    border: 'none',
+                                    padding: 0,
+                                    cursor: 'pointer',
+                                    transition: 'transform 0.2s',
+                                }}
+                                onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.05)'}
+                                onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
+                            >
+                                {isSpeaking ? <Square size={14} fill="currentColor" /> : <Volume2 size={14} />}
+                                <span>{isSpeaking ? 'Stop AI' : 'Listen AI'}</span>
+                                {isSpeaking && (
+                                    <span style={{ display: 'flex', gap: '2px', marginLeft: '4px' }}>
+                                        {[1, 2, 3].map(i => (
+                                            <Motion.span
+                                                key={i}
+                                                animate={{ height: [4, 10, 4] }}
+                                                transition={{ duration: 0.6, repeat: Infinity, delay: i * 0.1 }}
+                                                style={{ width: '2px', background: '#ef4444', borderRadius: '1px' }}
+                                            />
+                                        ))}
+                                    </span>
+                                )}
+                            </button>
+                        </div>
 
                         <div style={{ width: '1px', height: '24px', background: '#e5e7eb' }} className="hidden-mobile"></div>
 
