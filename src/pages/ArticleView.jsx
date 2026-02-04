@@ -15,12 +15,15 @@ function ArticleView() {
     const [isPaused, setIsPaused] = useState(false);
     const [playbackRate, setPlaybackRate] = useState(1);
     const [currentChunkIndex, setCurrentChunkIndex] = useState(0);
+    const [currentWordInfo, setCurrentWordInfo] = useState({ offset: 0, length: 0 });
+    const [allChunks, setAllChunks] = useState([]);
 
     // Refs for real-time state access in callbacks and to prevent GC
     const isSpeakingRef = React.useRef(false);
     const isPausedRef = React.useRef(false);
     const playbackRateRef = React.useRef(1);
     const utteranceRef = React.useRef(null);
+    const contentRef = React.useRef(null);
 
     // Sync refs with state
     useEffect(() => { isSpeakingRef.current = isSpeaking; }, [isSpeaking]);
@@ -76,14 +79,23 @@ function ArticleView() {
 
         const text = `${article.title}. ${contentDiv.innerText}`;
         const chunks = text.match(/[^.!?]+[.!?]*/g) || [text];
+        setAllChunks(chunks);
 
         if (index >= chunks.length) {
             handleStopSpeech();
             return;
         }
 
-        const utterance = new SpeechSynthesisUtterance(chunks[index].trim());
+        const currentText = chunks[index].trim();
+        const utterance = new SpeechSynthesisUtterance(currentText);
         utteranceRef.current = utterance; // Prevent GC
+
+        // Word Tracking
+        utterance.onboundary = (event) => {
+            if (event.name === 'word') {
+                setCurrentWordInfo({ offset: event.charIndex, length: event.charLength || 0 });
+            }
+        };
 
         const voices = synth.getVoices();
 
@@ -103,9 +115,26 @@ function ArticleView() {
         utterance.pitch = 1.0; // Standard pitch for maximum crispness
         utterance.volume = 1;
 
+        utterance.onstart = () => {
+            // Optional: Auto-scroll to approximate position
+            const paragraphs = contentDiv.querySelectorAll('p, h2, h3, li');
+            const targetText = currentText.substring(0, 20);
+            for (let p of paragraphs) {
+                if (p.innerText.includes(targetText)) {
+                    p.scrollIntoView({ behavior: 'smooth', block: 'center' });
+                    p.style.transition = 'background 0.5s';
+                    const originalBg = p.style.background;
+                    p.style.background = 'rgba(99, 102, 241, 0.05)';
+                    setTimeout(() => { p.style.background = originalBg; }, 2000);
+                    break;
+                }
+            }
+        };
+
         utterance.onend = () => {
             const nextIndex = index + 1;
             setCurrentChunkIndex(nextIndex);
+            setCurrentWordInfo({ offset: 0, length: 0 });
 
             if (isSpeakingRef.current && !isPausedRef.current) {
                 speakFromIndex(nextIndex, rate);
@@ -161,6 +190,7 @@ function ArticleView() {
         setIsSpeaking(false);
         setIsPaused(false);
         setCurrentChunkIndex(0);
+        setCurrentWordInfo({ offset: 0, length: 0 });
         isSpeakingRef.current = false;
         isPausedRef.current = false;
     };
@@ -443,6 +473,78 @@ function ArticleView() {
                     </button>
                 </div>
             </div >
+
+            {/* Reading Bar */}
+            {isSpeaking && (
+                <Motion.div
+                    initial={{ y: 100, opacity: 0 }}
+                    animate={{ y: 0, opacity: 1 }}
+                    exit={{ y: 100, opacity: 0 }}
+                    style={{
+                        position: 'fixed',
+                        bottom: '24px',
+                        left: '50%',
+                        transform: 'translateX(-50%)',
+                        width: '90%',
+                        maxWidth: '800px',
+                        background: 'rgba(255, 255, 255, 0.95)',
+                        backdropFilter: 'blur(16px)',
+                        border: '1px solid rgba(99, 102, 241, 0.2)',
+                        borderRadius: '24px',
+                        padding: '1.25rem 2rem',
+                        boxShadow: '0 20px 40px rgba(0,0,0,0.1), 0 0 0 1px rgba(0,0,0,0.05)',
+                        zIndex: 1000,
+                        display: 'flex',
+                        flexDirection: 'column',
+                        gap: '0.75rem',
+                        textAlign: 'center'
+                    }}
+                >
+                    <div style={{
+                        fontSize: '1.1rem',
+                        lineHeight: '1.6',
+                        color: '#1f2937',
+                        fontWeight: 500,
+                        fontFamily: 'var(--font-serif)'
+                    }}>
+                        {allChunks[currentChunkIndex] ? (
+                            <>
+                                <span>{allChunks[currentChunkIndex].substring(0, currentWordInfo.offset)}</span>
+                                <span style={{
+                                    background: '#fef08a',
+                                    color: '#000',
+                                    padding: '0 4px',
+                                    borderRadius: '4px',
+                                    fontWeight: 700,
+                                    boxShadow: '0 2px 4px rgba(0,0,0,0.05)'
+                                }}>
+                                    {allChunks[currentChunkIndex].substring(currentWordInfo.offset, currentWordInfo.offset + currentWordInfo.length)}
+                                </span>
+                                <span>{allChunks[currentChunkIndex].substring(currentWordInfo.offset + currentWordInfo.length)}</span>
+                            </>
+                        ) : 'Preparing narration...'}
+                    </div>
+
+                    <div style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        justifyContent: 'center',
+                        gap: '2rem',
+                        borderTop: '1px solid #f3f4f6',
+                        paddingTop: '0.75rem'
+                    }}>
+                        <button onClick={handleToggleSpeech} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#6366f1' }}>
+                            {isPaused ? <Play size={24} fill="currentColor" /> : <Pause size={24} fill="currentColor" />}
+                        </button>
+                        <button onClick={handleStopSpeech} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#ef4444' }}>
+                            <RotateCcw size={20} />
+                        </button>
+                        <div style={{ fontSize: '0.85rem', fontWeight: 700, color: '#9ca3af', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
+                            AI Narrator Active
+                        </div>
+                    </div>
+                </Motion.div>
+            )}
 
             {/* Lightbox for zooming images */}
             {
