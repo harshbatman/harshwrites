@@ -2735,6 +2735,11 @@ export const articles = [
 
       <p>Moore’s Law wasn’t just about speed—it was about confidence. The confidence that tomorrow’s chip would fix today’s constraints.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f0fdf4; border-left: 4px solid #22c55e; border-radius: 4px;">
+        <p style="margin: 0; color: #166534; font-weight: 600;">Moore's Law was the heartbeat of the digital revolution—it turned 'impossible' into 'just a matter of time'.</p>
+      </div>
+
+
       <p>That belief forced companies into a nonstop race.</p>
       <p>Chipmakers like Intel and AMD kept pushing CPUs faster, smaller, cheaper—packing more transistors, shrinking nodes, squeezing performance out of physics itself.</p>
 
@@ -3723,6 +3728,11 @@ export const articles = [
         <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
           Users want answers, not homework.
         </p>
+
+        <div style="margin: 2rem 0; padding: 1.5rem; background: #faf5ff; border-left: 4px solid #a855f7; border-radius: 4px;">
+          <p style="margin: 0; color: #6b21a8; font-weight: 600;">The ultimate winner in the search war won't be the one with the most links, but the one who respects the user's time by providing direct, accurate answers in plain language.</p>
+        </div>
+
       </div>
 
       <p>And here lies Google’s dilemma.</p>
@@ -3932,6 +3942,11 @@ export const articles = [
 
       <p>And this time, the bottleneck isn’t imagination—</p>
       <p>—it’s infrastructure.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f8fafc; border-left: 4px solid #64748b; border-radius: 4px;">
+        <p style="margin: 0; color: #334155; font-weight: 600;">AI changes who can do what, but its growth is now physically limited by the watts we can generate and the chips we can fabricate.</p>
+      </div>
+
 
 
 
