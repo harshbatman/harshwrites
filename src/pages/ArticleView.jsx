@@ -78,7 +78,8 @@ function ArticleView() {
         if (!contentDiv) return;
 
         const text = `${article.title}. ${contentDiv.innerText}`;
-        const chunks = text.match(/[^.!?]+[.!?]*/g) || [text];
+        // Improved splitting: split by sentence punctuation and whitespace
+        const chunks = text.split(/(?<=[.!?])\s+/).filter(s => s.length > 0) || [text];
         setAllChunks(chunks);
 
         if (index >= chunks.length) {
@@ -86,7 +87,7 @@ function ArticleView() {
             return;
         }
 
-        const currentText = chunks[index].trim();
+        const currentText = chunks[index];
         const utterance = new SpeechSynthesisUtterance(currentText);
         utteranceRef.current = utterance; // Prevent GC
 
@@ -95,17 +96,26 @@ function ArticleView() {
             if (event.name === 'word') {
                 let length = event.charLength;
                 if (!length || length === 0) {
-                    // Fallback: Calculate length by finding the next space or punctuation
-                    const remainingText = currentText.substring(event.charIndex);
-                    const match = remainingText.match(/^\w+/);
-                    length = match ? match[0].length : 1;
+                    // Fallback: Find the end of the current word in the text
+                    const remaining = currentText.substring(event.charIndex);
+                    const wordMatch = remaining.match(/^\s*([^\s.!?]+)/);
+                    length = wordMatch ? wordMatch[1].length : 1;
+
+                    // If there was leading whitespace in the match, adjust offset
+                    const spaceMatch = remaining.match(/^(\s+)/);
+                    const leadingSpaces = spaceMatch ? spaceMatch[1].length : 0;
+
+                    setCurrentWordInfo({
+                        offset: event.charIndex + leadingSpaces,
+                        length: length
+                    });
+                } else {
+                    setCurrentWordInfo({ offset: event.charIndex, length: length });
                 }
-                setCurrentWordInfo({ offset: event.charIndex, length: length });
             }
         };
 
         const voices = synth.getVoices();
-
         // Priority: Samantha (Classic Siri), Siri, Google US English, and other clear Apple voices
         let preferredVoice =
             voices.find(v => v.name.includes('Samantha')) || // Classic Apple Siri
@@ -119,20 +129,24 @@ function ArticleView() {
 
         if (preferredVoice) utterance.voice = preferredVoice;
         utterance.rate = rate;
-        utterance.pitch = 1.0; // Standard pitch for maximum crispness
+        utterance.pitch = 1.0;
         utterance.volume = 1;
 
         utterance.onstart = () => {
-            // Optional: Auto-scroll to approximate position
             const paragraphs = contentDiv.querySelectorAll('p, h2, h3, li');
-            const targetText = currentText.substring(0, 20);
+            const targetText = currentText.trim().substring(0, 30);
             for (let p of paragraphs) {
                 if (p.innerText.includes(targetText)) {
                     p.scrollIntoView({ behavior: 'smooth', block: 'center' });
-                    p.style.transition = 'background 0.5s';
+                    p.style.transition = 'all 0.5s cubic-bezier(0.4, 0, 0.2, 1)';
                     const originalBg = p.style.background;
-                    p.style.background = 'rgba(99, 102, 241, 0.05)';
-                    setTimeout(() => { p.style.background = originalBg; }, 2000);
+                    const originalBorder = p.style.borderLeft;
+                    p.style.background = 'rgba(99, 102, 241, 0.08)';
+                    p.style.borderLeft = '4px solid #6366f1';
+                    setTimeout(() => {
+                        p.style.background = originalBg;
+                        p.style.borderLeft = originalBorder;
+                    }, 5000);
                     break;
                 }
             }
@@ -516,21 +530,28 @@ function ArticleView() {
                     }}>
                         {allChunks[currentChunkIndex] ? (
                             <>
-                                <span style={{ color: '#4f46e5', fontWeight: 600 }}>
+                                <span style={{ color: '#4f46e5', fontWeight: 700 }}>
                                     {allChunks[currentChunkIndex].substring(0, currentWordInfo.offset)}
                                 </span>
-                                <span style={{
-                                    background: '#fef08a',
-                                    color: '#000',
-                                    padding: '0 4px',
-                                    borderRadius: '4px',
-                                    fontWeight: 800,
-                                    boxShadow: '0 2px 4px rgba(0,0,0,0.1)',
-                                    display: 'inline-block'
-                                }}>
-                                    {allChunks[currentChunkIndex].substring(currentWordInfo.offset, currentWordInfo.offset + currentWordInfo.length)}
-                                </span>
-                                <span style={{ color: '#9ca3af' }}>
+                                {currentWordInfo.length > 0 && (
+                                    <Motion.span
+                                        animate={{ scale: [1, 1.05, 1] }}
+                                        transition={{ duration: 0.2 }}
+                                        style={{
+                                            background: '#fef08a',
+                                            color: '#000',
+                                            padding: '2px 6px',
+                                            margin: '0 2px',
+                                            borderRadius: '6px',
+                                            fontWeight: 900,
+                                            boxShadow: '0 4px 12px rgba(254, 240, 138, 0.4)',
+                                            display: 'inline-block'
+                                        }}
+                                    >
+                                        {allChunks[currentChunkIndex].substring(currentWordInfo.offset, currentWordInfo.offset + currentWordInfo.length)}
+                                    </Motion.span>
+                                )}
+                                <span style={{ color: '#9ca3af', fontWeight: 400 }}>
                                     {allChunks[currentChunkIndex].substring(currentWordInfo.offset + currentWordInfo.length)}
                                 </span>
                             </>
