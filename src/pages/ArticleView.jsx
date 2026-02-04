@@ -97,13 +97,15 @@ function ArticleView() {
 
             const utterance = new SpeechSynthesisUtterance(chunks[chunkIndex].trim());
 
-            // 3. Robust Voice Selection
+            // 3. Robust Male Voice Selection
             const voices = synth.getVoices();
-            const preferred = voices.find(v => v.name.includes('Google') && v.lang.startsWith('en')) ||
-                voices.find(v => v.name.includes('Natural')) ||
+            const preferredMale =
+                voices.find(v => v.name.includes('Google') && v.name.includes('Male') && v.lang.startsWith('en')) ||
+                voices.find(v => v.name.includes('Male') && v.lang.startsWith('en')) ||
+                voices.find(v => v.name.includes('Guy') || v.name.includes('David')) ||
                 voices.find(v => v.lang.startsWith('en'));
 
-            if (preferred) utterance.voice = preferred;
+            if (preferredMale) utterance.voice = preferredMale;
             utterance.rate = 1;
             utterance.pitch = 1;
             utterance.volume = 1; // Force maximum volume
