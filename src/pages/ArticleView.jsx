@@ -287,6 +287,16 @@ function ArticleView() {
         return `${views} +`;
     };
 
+    // Calculate dynamic reading time (avg 200 words per minute)
+    const calculateReadTime = (content) => {
+        if (!content) return "1 min read";
+        const words = content.replace(/<[^>]*>/g, '').split(/\s+/).length;
+        const minutes = Math.max(1, Math.ceil(words / 200));
+        return `${minutes} min read`;
+    };
+
+    const readTime = article.readTime || calculateReadTime(article.content);
+
     const handleShare = async () => {
         try {
             await navigator.clipboard.writeText(window.location.href);
@@ -333,44 +343,55 @@ function ArticleView() {
                         {/* Left Side: Author & Meta */}
                         <div style={{
                             display: 'flex',
-                            flexDirection: windowWidth < 480 ? 'column' : 'row',
-                            alignItems: windowWidth < 480 ? 'flex-start' : 'center',
-                            gap: windowWidth < 480 ? '1rem' : '2rem',
+                            flexDirection: windowWidth < 640 ? 'column' : 'row',
+                            alignItems: windowWidth < 640 ? 'flex-start' : 'center',
+                            gap: windowWidth < 640 ? '1.25rem' : '2.5rem',
                             width: windowWidth < 768 ? '100%' : 'auto'
                         }}>
                             {/* Author */}
-                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.85rem' }}>
                                 <img
                                     src="/harsh-mahto.jpg"
                                     alt={article.author}
                                     style={{
-                                        width: '40px',
-                                        height: '40px',
+                                        width: '44px',
+                                        height: '44px',
                                         borderRadius: '50%',
                                         objectFit: 'cover',
-                                        border: '2px solid #f3f4f6'
+                                        border: '2px solid #f3f4f6',
+                                        boxShadow: '0 2px 4px rgba(0,0,0,0.05)'
                                     }}
                                 />
-                                <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.2' }}>
-                                    <span style={{ fontSize: '0.65rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Author</span>
-                                    <span style={{ fontSize: '0.9rem', fontWeight: 600, color: '#111827' }}>{article.author}</span>
+                                <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.25' }}>
+                                    <span style={{ fontSize: '0.7rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Author</span>
+                                    <span style={{ fontSize: '1rem', fontWeight: 600, color: '#111827' }}>{article.author}</span>
                                 </div>
                             </div>
 
-                            <div style={{ width: '1px', height: '24px', background: '#e5e7eb' }} className="hidden-mobile"></div>
+                            <div style={{ width: '1px', height: '28px', background: '#e5e7eb' }} className="hidden-mobile"></div>
 
-                            {/* Date & Time */}
-                            <div style={{ display: 'flex', gap: '1.5rem' }}>
-                                <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.2' }}>
-                                    <span style={{ fontSize: '0.65rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Published</span>
-                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', color: '#4b5563', fontSize: '0.85rem', fontWeight: 500 }}>
-                                        <Calendar size={13} /> <span>{article.date}</span>
+                            {/* Date, Time & Reads */}
+                            <div style={{
+                                display: 'flex',
+                                gap: windowWidth < 480 ? '1rem' : '2rem',
+                                flexWrap: 'wrap'
+                            }}>
+                                <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.25' }}>
+                                    <span style={{ fontSize: '0.7rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Published</span>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: '#4b5563', fontSize: '0.9rem', fontWeight: 500 }}>
+                                        <Calendar size={14} /> <span>{article.date}</span>
                                     </div>
                                 </div>
-                                <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.2' }}>
-                                    <span style={{ fontSize: '0.65rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Reading Time</span>
-                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', color: '#4b5563', fontSize: '0.85rem', fontWeight: 500 }}>
-                                        <Clock size={13} /> <span>{article.readTime}</span>
+                                <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.25' }}>
+                                    <span style={{ fontSize: '0.7rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Reading Time</span>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: '#4b5563', fontSize: '0.9rem', fontWeight: 500 }}>
+                                        <Clock size={14} /> <span>{readTime}</span>
+                                    </div>
+                                </div>
+                                <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.25' }}>
+                                    <span style={{ fontSize: '0.7rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Total Reads</span>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: '#4b5563', fontSize: '0.9rem', fontWeight: 500 }}>
+                                        <Eye size={14} /> <span>{formatViews(article.views)}</span>
                                     </div>
                                 </div>
                             </div>
