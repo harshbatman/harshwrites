@@ -86,18 +86,19 @@ function ArticleView() {
         utteranceRef.current = utterance; // Prevent GC
 
         const voices = synth.getVoices();
-        // Priority: Samantha (Classic Siri), Apple/Premium voices, Google US English, then any English Male/Female
+        // Priority: Indian Male voices (Rishi, Google Hindi/English India Male, etc.)
         const preferredVoice =
-            voices.find(v => v.name.includes('Samantha')) ||
-            voices.find(v => v.name.includes('Apple') && v.lang.startsWith('en')) ||
-            voices.find(v => v.name.includes('Google US English')) ||
-            voices.find(v => (v.name.includes('Premium') || v.name.includes('Enhanced')) && v.lang.startsWith('en')) ||
-            voices.find(v => v.name.includes('Google') && v.lang.startsWith('en')) ||
+            voices.find(v => v.name.includes('Rishi')) || // Classic Indian Male
+            voices.find(v => v.lang === 'en-IN' && v.name.includes('Male')) || // Specialized Indian Male English
+            voices.find(v => v.lang === 'hi-IN' && v.name.includes('Male')) || // Hindi Male
+            voices.find(v => v.name.includes('Google') && v.name.includes('India')) ||
+            voices.find(v => v.lang.startsWith('en-IN')) || // Any Indian English voice
+            voices.find(v => v.name.includes('Male') && v.lang.startsWith('en')) ||
             voices.find(v => v.lang.startsWith('en'));
 
         if (preferredVoice) utterance.voice = preferredVoice;
         utterance.rate = rate;
-        utterance.pitch = 1; // standard Siri pitch
+        utterance.pitch = 1;
         utterance.volume = 1;
 
         utterance.onend = () => {
