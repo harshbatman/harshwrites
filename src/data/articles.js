@@ -1013,6 +1013,11 @@ export const articles = [
 
       <p>During this period, I made a conscious decision to focus on just two things. First, improving my health by losing weight. Second, I focused on improving my programming skills, spending time learning and practicing consistently. I felt these two areas mattered the most to me at that point in my life, as they were directly connected to my long-term growth and future goals.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #eff6ff; border-left: 4px solid #3b82f6; border-radius: 4px;">
+        <p style="margin: 0; color: #1e3a8a; font-weight: 600;">Success isn't about doing everything the world expects; it's about identifying the few things that truly move the needle and having the guts to ignore the rest.</p>
+      </div>
+
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Gym Experiment</h3>
 
       <p>At first, I joined a gym because that's what everyone suggests. The first few days were terrible. My muscles hurt a lot. Even normal walking felt painful.</p>
@@ -1020,6 +1025,11 @@ export const articles = [
       <p>Then I realized I wasn't there to build a big body. I didn't want to look like a bouncer standing outside a nightclub. I just wanted to lose weight and feel good about how I look.</p>
 
       <p>So I quit the gym even though my membership wasn’t over. It was for three months. I went for exactly 24 days—I remember the number clearly because I asked him to deduct one month’s fee and return the remaining amount, but he refused. He said I could complete the membership, but he wouldn’t give any money back. Greedy! Piece of shit.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fff1f2; border-left: 4px solid #fb7185; border-radius: 4px;">
+        <p style="margin: 0; color: #9f1239; font-weight: 600;">Standard paths aren't for everyone. If the gym feels like a cage, find a path that feels like freedom. Quitting the wrong things is just as important as starting the right ones.</p>
+      </div>
+
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Finding My Routine</h3>
 
