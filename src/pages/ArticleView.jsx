@@ -390,7 +390,7 @@ function ArticleView() {
                                     <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.25', flexShrink: 0 }}>
                                         <span style={{ fontSize: '0.6rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Updated</span>
                                         <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', color: '#4b5563', fontSize: '0.8rem', fontWeight: 500 }}>
-                                            <RotateCcw size={13} /> <span>{article.lastUpdated}</span>
+                                            <RotateCcw size={13} color="#3b82f6" /> <span>{article.lastUpdated}</span>
                                         </div>
                                     </div>
                                 )}
