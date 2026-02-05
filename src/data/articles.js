@@ -1819,7 +1819,7 @@ export const articles = [
     title: "Gurugram: The City We Build, But Can’t Afford to Live In",
     author: "Harsh Mahto",
     category: "Urban Economics",
-    date: "23 November 2023",
+    date: "23 Nov 2023",
     image: "/gurugram-housing.jpg",
     excerpt: "A few days ago, I was in Gurugram. I’d heard so much about it that I’d been planning this trip for a long time. It wasn’t a sudden decision. It was one of those plans that quietly sits in your mind, growing stronger with every story you hear about the city.",
     content: `
@@ -2622,7 +2622,7 @@ export const articles = [
     title: "One Woman. Two Nobel Prizes. Two Sciences.",
     author: "Harsh Mahto",
     category: "History & Science",
-    date: "21 April 2023",
+    date: "21 Apr 2023",
     image: "/marie-curie-nobel.png",
     excerpt: "I was just scrolling YouTube last night—no plan, no purpose. One video ended, another started… you know how it goes. And suddenly, this old black-and-white photo pops up.",
     content: `
@@ -2794,7 +2794,7 @@ export const articles = [
     title: "From Transistors to AI",
     author: "Harsh Mahto",
     category: "Technology & History",
-    date: "September 20, 2023",
+    date: "20 Sept 2023",
     lastUpdated: "May 16, 2025",
     image: "/transistors-to-ai.jpg",
     excerpt: "I was on a recent trip from Rohtak to Delhi. Metro ride, peak hours. Earbuds in my ears, music on, mind somewhere else. And right in front of my seat, there’s this little boy—barely three, maybe four—crying ridiculously loud.",
@@ -6587,7 +6587,7 @@ export const articles = [
     title: "How Android Took Over the World",
     author: "Harsh Mahto",
     category: "Technology & Business",
-    date: "4 August 2023",
+    date: "4 Aug 2023",
     image: "/android-vs-ios.jpg",
     excerpt: "Have you ever thought about this—how the hell did Android end up everywhere? From a ₹10,000 phone in our hands to a flagship Samsung in the US.",
     content: `
@@ -7047,7 +7047,7 @@ export const articles = [
     title: "Two Women, Two Nations, One Frame",
     author: "Harsh Mahto",
     category: "History & Leadership",
-    date: "7 April 2023",
+    date: "7 Apr 2023",
     image: "/indira-thatcher.jpg",
     excerpt: "I was randomly scrolling the internet the other day — nothing specific, just the usual wandering we all do — when I suddenly stopped. Not because something was loud or sensational, but because something felt quietly important.",
     content: `
@@ -7414,7 +7414,7 @@ export const articles = [
     title: "The Story Behind Jai Jawan, Jai Kisan",
     author: "Harsh Mahto",
     category: "History & Policy",
-    date: "15 August 2023",
+    date: "15 Aug 2023",
     image: "/jai-jawan-jai-kisan.jpg",
     excerpt: "When I was in school, I used to shout slogans without thinking twice. Jai Jawan, Jai Kisan echoed during morning assemblies, Independence Day functions, and rallies. I raised my voice with everyone else—confident, patriotic—yet I never truly understood what those words meant.",
     content: `
@@ -7727,7 +7727,7 @@ export const articles = [
     title: "We Build Rockets. But Why Not Airplanes?",
     author: "Harsh Mahto",
     category: "Geopolitics & Tech",
-    date: "7 November 2023",
+    date: "7 Nov 2023",
     image: "/rockets-vs-airplanes.jpg",
     excerpt: "A few days ago, I took the first flight of my life. From Delhi’s IGI Airport to Bengaluru. Yeah. Never been on a plane before.",
     content: `
@@ -8030,7 +8030,7 @@ export const articles = [
     title: "This Is Not Luxury. This Is Survival.",
     author: "Harsh Mahto",
     category: "Environment & Lifestyle",
-    date: "17 November 2025",
+    date: "17 Nov 2025",
     image: "/pollution-survival.jpg",
     excerpt: "Have you noticed something strange about our daily life? In any metro city where we live, we must have four things at home now—air purifier, water purifier, air conditioner, and refrigerator.",
     content: `
