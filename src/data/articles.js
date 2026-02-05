@@ -981,8 +981,20 @@ export const articles = [
       <p>I was preparing for competitive exams, full focus, full hope.<br/>
       Then COVID came.</p>
 
-      <p>During that time, I got a phone and Wi-Fi—and slowly, I got distracted.<br/>
-      Around the same period, I fell ill. I had jaundice.</p>
+      <p>During that time, I got a phone and Wi-Fi—and slowly, I got distracted.</p>
+
+      <p>Around the same period, I fell seriously ill. I had jaundice.<br/>
+      My body turned yellow. I felt weak all the time, like something inside me had slowed down.</p>
+
+      <p>During jaundice, your body isn’t functioning normally. Your blood levels drop, your energy collapses, and everyone around you keeps saying the same thing: eat more, eat well, build your blood back.</p>
+
+      <p>So I ate. Even when I wasn’t hungry. Even when my body didn’t really want it.</p>
+
+      <p>The focus was survival—getting my strength back, increasing blood, returning to normal. But somewhere in that process, without realising it, I gained weight.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #eff6ff; border-left: 4px solid #3b82f6; border-radius: 4px;">
+        <p style="margin: 0; color: #1e40af; font-weight: 600;">It wasn’t carelessness. It wasn’t indulgence.<br/>It was recovery—messy, imperfect, and human.</p>
+      </div>
 
       <p>After that, everything stopped.</p>
 
