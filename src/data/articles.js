@@ -2355,9 +2355,9 @@ export const articles = [
       <p>A few weeks ago, I went to bed. I mean, I <em>actually</em> went to bed with the intention of sleeping.</p>
       <p>You know how it is. Body is tired, but the mind? Fully awake.</p>
 
-      <p>Oh yeah. That specific hour when your brain decides to replay every life decision you've ever made. In ultra-high definition.</p>
+      <p>That specific hour when your brain decides to replay every life decision you've ever made. In ultra-high definition.</p>
 
-      <p>Exactly. And on top of it, I forgot to switch off the light.</p>
+      <p>And on top of it, I forgot to switch off the light.</p>
       <p>So I wake up, switch it off, stumble back, lie down again. Eyes closed.</p>
       <p>Five minutes later—nothing. No sleep.</p>
 
