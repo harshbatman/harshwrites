@@ -340,12 +340,13 @@ function ArticleView() {
                         alignItems: windowWidth < 1024 ? 'stretch' : 'center',
                         justifyContent: 'space-between',
                         gap: '2rem',
-                        background: 'transparent',
-                        padding: '1rem 0',
+                        background: 'var(--color-surface)',
+                        padding: '1.5rem 2rem',
                         marginTop: '2rem',
                         width: '100%',
-                        borderTop: '1px solid var(--color-border)',
-                        borderBottom: '1px solid var(--color-border)',
+                        border: '1px solid var(--color-border)',
+                        borderRadius: 'var(--radius-lg)',
+                        boxShadow: 'var(--shadow-sm)'
                     }}>
                         {/* Left Side: Author & Meta */}
                         <div style={{
