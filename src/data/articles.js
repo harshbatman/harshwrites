@@ -942,6 +942,20 @@ export const articles = [
 
       <p>The real "throwing money away" is paying 9% interest on a property that grows at 4% in value, while you lose your health and your best years to pay for it.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Never-Ending "Upgrade" Cycle</h3>
+
+      <p>And it doesn’t even stop at one house. We are taught that a 1BHK is just a "starter home." Then comes the 2BHK, then the 3BHK in a "gated society" with a swimming pool you’ll never use. Each upgrade is sold as a sign of progress, but in reality, it’s just a way to reset the 25-year clock on your debt.</p>
+
+      <p>I’ve seen people in their 40s, just as they were about to finish their first loan, take another massive loan to move into a "better PIN code." They trade their hard-earned equity for another decade of stress. We are running a race where the finish line keeps moving forward every time we get close to it.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Myth of Generational Wealth</h3>
+
+      <p>We justify it by saying, "I’m doing this for my children." We want to leave them an asset. But what kind of wealth are we really leaving? A piece of property that might be old and outdated by the time they inherit it? Or the memory of a parent who was always stressed, always working, and never present because they were busy chasing the next EMI?</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f0fdf4; border-left: 4px solid #22c55e; border-radius: 4px;">
+        <p style="margin: 0; color: #166534; font-weight: 600;">The best inheritance you can give your children isn't a four-walled asset; it's the example of a parent who lived a full, free, and courageous life.</p>
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Silent EMI Crisis</h3>
 
       <p>Which means we can’t take risks. Even a break feels dangerous because EMI doesn’t care about our mental health. That’s the EMI crisis. It quietly controls our choices. We stay in jobs we don’t like, cities we can’t afford, and routines that drain us—because missing an EMI is not an option.</p>
@@ -949,6 +963,12 @@ export const articles = [
       <div style="margin: 2rem 0; padding: 1.5rem; background: #fffbeb; border-left: 4px solid #f59e0b; border-radius: 4px;">
         <p style="margin: 0; color: #78350f; font-weight: 600;">We have become a generation of 'well-settled' prisoners, living in beautiful cages whose keys are held by the bank.</p>
       </div>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Bricks vs. Life: The Trade-off</h3>
+
+      <p>Think about the things you didn't buy. The trips you didn't take. The courses you didn't enroll in. The small business idea you buried in your backyard. All of that was sacrificed at the altar of "home ownership." We are building walls of bricks while the walls of our own world are closing in.</p>
+
+      <p>We are told that a house is an investment. But an investment is something that puts money *in* your pocket. A house you live in is a liability that takes money *out* of your pocket every single month. It takes your cash, it takes your maintenance, and most importantly, it takes your time.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">A Contract for Life</h3>
 
