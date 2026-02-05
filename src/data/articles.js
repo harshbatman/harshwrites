@@ -742,7 +742,7 @@ export const articles = [
 
   {
     id: "rent-vs-buy",
-    views: 1240,
+    views: 17240,
     publishDate: "2023-12-11",
     title: "Rent vs Buy: The Wrong Debate",
     author: "Harsh Mahto",
@@ -1005,7 +1005,7 @@ export const articles = [
   },
   {
     id: "fat-to-fit",
-    views: 1240,
+    views: 16240,
     publishDate: "2023-10-17",
     title: "Fat to Fit",
     author: "Harsh Mahto",
@@ -6246,7 +6246,7 @@ export const articles = [
   },
   {
     id: "how-facebook-took-over-the-world",
-    views: 1240,
+    views: 15240,
     publishDate: "2023-07-17",
     title: "How Facebook Took Over the World",
     author: "Harsh Mahto",
@@ -7482,7 +7482,7 @@ export const articles = [
   },
   {
     id: "story-behind-jai-jawan-jai-kisan",
-    views: 1240,
+    views: 16540,
     publishDate: "2023-08-15",
     title: "The Story Behind Jai Jawan, Jai Kisan",
     author: "Harsh Mahto",
