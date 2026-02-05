@@ -2365,7 +2365,7 @@ export const articles = [
 
       <p>Once you wake up properly, the sleep train has left the station.</p>
 
-      <p>And usually, at that point, I’d just pick up my phone. Watch some random tech review, doom-scroll Twitter, anything.</p>
+      <p>And usually, at that point, I’d just pick up my phone. Watch some random tech review, doom-scroll youtube, anything.</p>
       <p>But that night… my phone was charging across the room. And I was too lazy to get it.</p>
 
       <p>So no YouTube, no distractions.</p>
