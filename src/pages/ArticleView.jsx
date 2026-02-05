@@ -48,20 +48,17 @@ function ArticleView() {
 
     // Handle Image Clicks for Lightbox
     useEffect(() => {
-        const timer = setTimeout(() => {
-            const contentDiv = document.querySelector('.story-content');
-            if (!contentDiv) return;
+        const contentDiv = document.querySelector('.story-content');
+        if (!contentDiv) return;
 
-            const handleImageClick = (e) => {
-                if (e.target.tagName === 'IMG' && e.target.parentElement.tagName !== 'A') {
-                    setZoomedImage(e.target.src);
-                }
-            };
-            contentDiv.addEventListener('click', handleImageClick);
-            return () => contentDiv.removeEventListener('click', handleImageClick);
-        }, 500);
-        return () => clearTimeout(timer);
-    }, [id, article]);
+        const handleImageClick = (e) => {
+            if (e.target.tagName === 'IMG' && e.target.parentElement.tagName !== 'A') {
+                setZoomedImage(e.target.src);
+            }
+        };
+        contentDiv.addEventListener('click', handleImageClick);
+        return () => contentDiv.removeEventListener('click', handleImageClick);
+    }, [id, article, allChunks]); // Re-attach when content might have changed
 
     // Cleanup speech on unmount
     useEffect(() => {
@@ -82,15 +79,19 @@ function ArticleView() {
         }
     };
 
+    // Prepare chunks once when article or content changes
+    useEffect(() => {
+        const contentDiv = document.querySelector('.story-content');
+        if (article && contentDiv) {
+            const text = `${article.title}. ${contentDiv.innerText}`;
+            const chunks = text.split(/(?<=[.!?])\s+/).filter(s => s.length > 0);
+            setAllChunks(chunks);
+        }
+    }, [article, id]);
+
     const speakFromIndex = (index, rate = playbackRateRef.current) => {
         const synth = window.speechSynthesis;
-        const contentDiv = document.querySelector('.story-content');
-        if (!contentDiv) return;
-
-        const text = `${article.title}. ${contentDiv.innerText}`;
-        // Improved splitting: split by sentence punctuation and whitespace
-        const chunks = text.split(/(?<=[.!?])\s+/).filter(s => s.length > 0) || [text];
-        setAllChunks(chunks);
+        const chunks = allChunks.length > 0 ? allChunks : [];
 
         if (index >= chunks.length) {
             handleStopSpeech();
@@ -99,7 +100,7 @@ function ArticleView() {
 
         const currentText = chunks[index];
         const utterance = new SpeechSynthesisUtterance(currentText);
-        utteranceRef.current = utterance; // Prevent GC
+        utteranceRef.current = utterance;
 
         // Reset tracking
         setCurrentWordInfo({ offset: 0, length: 0 });
@@ -112,15 +113,11 @@ function ArticleView() {
                 lastBoundaryTimeRef.current = Date.now();
                 let length = event.charLength;
                 if (!length || length === 0) {
-                    // Fallback: Find the end of the current word in the text
                     const remaining = currentText.substring(event.charIndex);
                     const wordMatch = remaining.match(/^\s*([^\s.!?]+)/);
                     length = wordMatch ? wordMatch[1].length : 1;
-
-                    // If there was leading whitespace in the match, adjust offset
                     const spaceMatch = remaining.match(/^(\s+)/);
                     const leadingSpaces = spaceMatch ? spaceMatch[1].length : 0;
-
                     setCurrentWordInfo({
                         offset: event.charIndex + leadingSpaces,
                         length: length
@@ -200,10 +197,11 @@ function ArticleView() {
         utterance.onend = () => {
             if (fallbackTimerRef.current) clearInterval(fallbackTimerRef.current);
             const nextIndex = index + 1;
-            setCurrentChunkIndex(nextIndex);
-            setCurrentWordInfo({ offset: 0, length: 0 });
 
+            // Only proceed if still in speaking mode and not paused
             if (isSpeakingRef.current && !isPausedRef.current) {
+                setCurrentChunkIndex(nextIndex);
+                setCurrentWordInfo({ offset: 0, length: 0 });
                 speakFromIndex(nextIndex, rate);
             }
         };
@@ -246,10 +244,10 @@ function ArticleView() {
             try { synth.speak(new SpeechSynthesisUtterance("")); } catch (e) { }
 
             setTimeout(() => {
-                if (isSpeakingRef.current) {
-                    speakFromIndex(0);
+                if (isSpeakingRef.current && !isPausedRef.current) {
+                    speakFromIndex(currentChunkIndex);
                 }
-            }, 100);
+            }, 50);
         }
     };
 
@@ -310,9 +308,21 @@ function ArticleView() {
     return (
         <article className="article-view">
             <div className="container">
-                <div style={{ marginTop: '2rem' }}>
-                    <Link to="/" style={{ display: 'inline-flex', alignItems: 'center', gap: '0.5rem', textDecoration: 'none', color: '#6b7280', fontWeight: 500, fontSize: '0.9rem' }}>
-                        <ArrowLeft size={16} /> Back to Stories
+                <div style={{ marginTop: '3rem', marginBottom: '1.5rem' }}>
+                    <Link to="/" style={{
+                        display: 'inline-flex',
+                        alignItems: 'center',
+                        gap: '0.6rem',
+                        textDecoration: 'none',
+                        color: 'var(--color-text-tertiary)',
+                        fontWeight: 600,
+                        fontSize: '0.95rem',
+                        transition: 'color 0.2s ease'
+                    }}
+                        onMouseEnter={(e) => e.target.style.color = 'var(--color-text-primary)'}
+                        onMouseLeave={(e) => e.target.style.color = 'var(--color-text-tertiary)'}
+                    >
+                        <ArrowLeft size={18} /> Back to stories
                     </Link>
                 </div>
 
@@ -328,128 +338,105 @@ function ArticleView() {
 
                     <div style={{
                         display: 'flex',
-                        flexDirection: windowWidth < 768 ? 'column' : 'row',
-                        alignItems: windowWidth < 768 ? 'flex-start' : 'center',
+                        flexDirection: windowWidth < 1024 ? 'column' : 'row',
+                        alignItems: windowWidth < 1024 ? 'stretch' : 'center',
                         justifyContent: 'space-between',
-                        gap: '1.5rem',
-                        background: 'white',
-                        border: '1px solid #e5e7eb',
-                        borderRadius: '16px',
-                        padding: windowWidth < 768 ? '1.25rem' : '1rem 2rem',
-                        boxShadow: '0 4px 6px -1px rgba(0, 0, 0, 0.05)',
-                        marginTop: '1.5rem',
+                        gap: '2rem',
+                        background: 'transparent',
+                        padding: '1rem 0',
+                        marginTop: '2rem',
                         width: '100%',
+                        borderTop: '1px solid var(--color-border)',
+                        borderBottom: '1px solid var(--color-border)',
                     }}>
                         {/* Left Side: Author & Meta */}
                         <div style={{
                             display: 'flex',
                             flexDirection: windowWidth < 640 ? 'column' : 'row',
                             alignItems: windowWidth < 640 ? 'flex-start' : 'center',
-                            gap: windowWidth < 640 ? '1.25rem' : '2.5rem',
-                            width: windowWidth < 768 ? '100%' : 'auto'
+                            gap: '2.5rem',
                         }}>
                             {/* Author */}
-                            <div style={{ display: 'flex', alignItems: 'center', gap: '0.85rem' }}>
+                            <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
                                 <img
                                     src="/harsh-mahto.jpg"
                                     alt={article.author}
                                     style={{
-                                        width: '44px',
-                                        height: '44px',
+                                        width: '48px',
+                                        height: '48px',
                                         borderRadius: '50%',
                                         objectFit: 'cover',
-                                        border: '2px solid #f3f4f6',
-                                        boxShadow: '0 2px 4px rgba(0,0,0,0.05)'
+                                        border: '1px solid var(--color-border)',
                                     }}
                                 />
-                                <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.25' }}>
-                                    <span style={{ fontSize: '0.7rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Author</span>
-                                    <span style={{ fontSize: '1rem', fontWeight: 600, color: '#111827' }}>{article.author}</span>
+                                <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.4' }}>
+                                    <span style={{ fontSize: '0.65rem', color: 'var(--color-text-tertiary)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Written by</span>
+                                    <span style={{ fontSize: '1.05rem', fontWeight: 600, color: 'var(--color-text-primary)' }}>{article.author}</span>
                                 </div>
                             </div>
 
-                            <div style={{ width: '1px', height: '28px', background: '#e5e7eb' }} className="hidden-mobile"></div>
+                            <div style={{ width: '1px', height: '32px', background: 'var(--color-border)' }} className="hidden-mobile"></div>
 
                             {/* Date, Time & Reads */}
                             <div style={{
                                 display: 'flex',
-                                gap: windowWidth < 480 ? '1rem' : '1.5rem',
+                                gap: '2rem',
                                 flexWrap: 'nowrap',
                                 overflowX: windowWidth < 640 ? 'auto' : 'visible',
                                 paddingBottom: windowWidth < 640 ? '4px' : '0',
-                                width: '100%',
                                 scrollbarWidth: 'none'
                             }}>
-                                <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.25', flexShrink: 0 }}>
-                                    <span style={{ fontSize: '0.6rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Published</span>
-                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', color: '#4b5563', fontSize: '0.8rem', fontWeight: 500 }}>
-                                        <Calendar size={13} /> <span>{article.date}</span>
+                                <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.4' }}>
+                                    <span style={{ fontSize: '0.65rem', color: 'var(--color-text-tertiary)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Date</span>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: 'var(--color-text-secondary)', fontSize: '0.9rem', fontWeight: 500 }}>
+                                        <span>{article.date}</span>
                                     </div>
                                 </div>
-                                {article.lastUpdated && (
-                                    <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.25', flexShrink: 0 }}>
-                                        <span style={{ fontSize: '0.6rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Updated</span>
-                                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', color: '#4b5563', fontSize: '0.8rem', fontWeight: 500 }}>
-                                            <RotateCcw size={13} color="#3b82f6" /> <span>{article.lastUpdated}</span>
-                                        </div>
-                                    </div>
-                                )}
-                                <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.25', flexShrink: 0 }}>
-                                    <span style={{ fontSize: '0.6rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Reading Time</span>
-                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', color: '#4b5563', fontSize: '0.8rem', fontWeight: 500 }}>
-                                        <Clock size={13} /> <span>{readTime}</span>
+                                <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.4' }}>
+                                    <span style={{ fontSize: '0.65rem', color: 'var(--color-text-tertiary)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Duration</span>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: 'var(--color-text-secondary)', fontSize: '0.9rem', fontWeight: 500 }}>
+                                        <span>{readTime}</span>
                                     </div>
                                 </div>
-                                <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.25', flexShrink: 0 }}>
-                                    <span style={{ fontSize: '0.6rem', color: '#9ca3af', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Total Reads</span>
-                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem', color: '#4b5563', fontSize: '0.8rem', fontWeight: 500 }}>
-                                        <Eye size={13} /> <span>{formatViews(article.views)}</span>
+                                <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.4' }}>
+                                    <span style={{ fontSize: '0.65rem', color: 'var(--color-text-tertiary)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Audience</span>
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: 'var(--color-text-secondary)', fontSize: '0.9rem', fontWeight: 500 }}>
+                                        <span>{formatViews(article.views)} reads</span>
                                     </div>
                                 </div>
                             </div>
                         </div>
 
                         {/* Right Side: Listen Button */}
-                        <div style={{ display: 'flex', flexDirection: 'column', gap: '0.4rem', width: windowWidth < 768 ? '100%' : 'auto' }}>
-                            <span style={{
-                                fontSize: '0.8rem',
-                                color: '#6b7280',
-                                fontWeight: 700,
-                                textTransform: 'uppercase',
-                                letterSpacing: '0.05em',
-                                textAlign: windowWidth < 768 ? 'center' : 'left',
-                                marginLeft: windowWidth < 768 ? '0' : '0.2rem'
-                            }}>
-                                AI Voice
-                            </span>
+                        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
                             <button
                                 onClick={handleToggleSpeech}
                                 style={{
                                     display: 'flex',
                                     alignItems: 'center',
                                     gap: '0.75rem',
-                                    padding: '0.75rem 1.25rem',
-                                    borderRadius: '12px',
-                                    background: isSpeaking ? 'var(--color-accent)' : '#f9fafb',
+                                    padding: '0.75rem 1.5rem',
+                                    borderRadius: 'var(--radius-FULL)',
+                                    background: isSpeaking ? 'var(--color-accent)' : 'transparent',
                                     color: isSpeaking ? '#fff' : 'var(--color-text-primary)',
-                                    border: '1px solid #e5e7eb',
+                                    border: '1px solid var(--color-border)',
                                     cursor: 'pointer',
-                                    transition: 'all 0.2s ease',
+                                    transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
                                     fontWeight: 600,
-                                    fontSize: '0.9rem',
-                                    width: '100%',
-                                    justifyContent: 'center'
+                                    fontSize: '0.95rem',
+                                    whiteSpace: 'nowrap'
                                 }}
+                                className="narrator-btn"
                             >
                                 {isSpeaking ? (
                                     <>
-                                        {isPaused ? <Play size={18} fill="white" /> : <div className="beating-heart"><Pause size={18} fill="white" /></div>}
+                                        {isPaused ? <Play size={18} fill="white" /> : <div className=""><Pause size={18} fill="white" /></div>}
                                         <span>{isPaused ? 'Paused' : 'Listening...'}</span>
                                     </>
                                 ) : (
                                     <>
                                         <Volume2 size={18} />
-                                        <span>Listen Now</span>
+                                        <span>Listen to story</span>
                                     </>
                                 )}
                             </button>

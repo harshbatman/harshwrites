@@ -29,7 +29,8 @@
   --radius-lg: 1rem;
   --radius-FULL: 9999px;
 
-  --container-width: 1000px;
+  --container-width: 1140px;
+  --article-width: 760px;
 }
 
 * {
@@ -38,11 +39,15 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   font-family: var(--font-sans);
   background-color: var(--color-bg);
   color: var(--color-text-primary);
-  line-height: 1.7;
+  line-height: 1.8;
   -webkit-font-smoothing: antialiased;
   background-image:
     radial-gradient(at 0% 0%, rgba(255, 255, 255, 0.8) 0px, transparent 50%),
@@ -50,15 +55,37 @@ body {
   min-height: 100vh;
 }
 
+/* Custom Scrollbar for Desktop */
+@media (min-width: 1024px) {
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--color-bg);
+  }
+
+  ::-webkit-scrollbar-thumb {
+    background: #e4e4e7;
+    border-radius: 10px;
+    border: 2px solid var(--color-bg);
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    background: #d4d4d8;
+  }
+}
+
 img {
   max-width: 100%;
   display: block;
+  user-select: none;
 }
 
 a {
   color: inherit;
   text-decoration: none;
-  transition: color 0.2s ease;
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 /* Layout */
@@ -109,7 +136,7 @@ a {
 
 /* Hero / Story Header */
 .story-header {
-  padding: 4rem 0 3rem;
+  padding: 6rem 0 4rem;
   text-align: center;
   max-width: 900px;
   margin: 0 auto;
@@ -124,11 +151,11 @@ a {
 
 .story-title {
   font-family: var(--font-serif);
-  font-size: clamp(2rem, 5vw, 3.5rem);
-  line-height: 1.1;
+  font-size: clamp(2.5rem, 6vw, 4.5rem);
+  line-height: 1.05;
   margin-bottom: 1.5rem;
-  font-weight: 700;
-  letter-spacing: -0.03em;
+  font-weight: 800;
+  letter-spacing: -0.04em;
   color: var(--color-text-primary);
 }
 
@@ -147,9 +174,9 @@ a {
 /* Article Grid (Home) */
 .articles-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-  gap: 2rem;
-  padding: 3rem 0;
+  grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
+  gap: 3rem 2rem;
+  padding: 4rem 0;
 }
 
 @media (max-width: 768px) {
@@ -246,15 +273,24 @@ a {
 
 .card-excerpt {
   color: var(--color-text-secondary);
-  margin-bottom: 1.5rem;
-  font-size: 1rem;
+  margin-bottom: 2rem;
+  font-size: 1.05rem;
   line-height: 1.6;
   display: -webkit-box;
-  line-clamp: 3;
-  -webkit-line-clamp: 3;
+  line-clamp: 2;
+  -webkit-line-clamp: 2;
   -webkit-box-orient: vertical;
   overflow: hidden;
-  flex: 1;
+  flex: 0 0 auto;
+}
+
+.card-footer {
+  margin-top: auto;
+  padding-top: 1.5rem;
+  border-top: 1px solid #f4f4f5;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 /* Buttons inside card */
@@ -315,11 +351,11 @@ a {
 
 /* Article View specific */
 .story-image-container {
-  margin: -2rem auto 3rem;
+  margin: -2.5rem auto 4rem;
   border-radius: var(--radius-lg);
   overflow: hidden;
-  box-shadow: var(--shadow-lg);
-  max-width: 900px;
+  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.15);
+  max-width: 960px;
   background: #f4f4f5;
 }
 
@@ -330,10 +366,10 @@ a {
 }
 
 .story-content {
-  font-size: 1.15rem;
-  line-height: 1.9;
+  font-size: 1.25rem;
+  line-height: 2;
   color: var(--color-text-secondary);
-  max-width: 720px;
+  max-width: var(--article-width);
   margin: 0 auto;
 }
 
@@ -448,6 +484,35 @@ blockquote {
 .beating-heart {
   display: inline-block;
   animation: heartBeat 1.5s infinite ease-in-out;
+  color: #ef4444;
+}
+
+/* Premium Desktop Hover for Buttons */
+@media (min-width: 1024px) {
+  .btn {
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+  }
+
+  .btn::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: var(--color-accent-hover);
+    transform: scaleX(0);
+    transform-origin: right;
+    transition: transform 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+    z-index: -1;
+  }
+
+  .btn:hover::after {
+    transform: scaleX(1);
+    transform-origin: left;
+  }
 }
 
 /* Dialogue Styles for Articles */

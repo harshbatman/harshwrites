@@ -63,33 +63,33 @@ function Home() {
                 <h1 className="story-title">The Journal</h1>
                 <p className="story-meta">Thoughts, stories, and ideas.</p>
 
-                <div className="search-wrapper" style={{ marginTop: '2rem', maxWidth: '500px', margin: '2rem auto 0' }}>
+                <div className="search-wrapper" style={{ marginTop: '3rem', maxWidth: '600px', margin: '3rem auto 0' }}>
                     <div style={{ position: 'relative', display: 'flex', alignItems: 'center' }}>
                         <Search
-                            size={20}
+                            size={18}
                             style={{
                                 position: 'absolute',
-                                left: '1rem',
-                                color: 'var(--color-text-secondary)',
+                                left: '1.25rem',
+                                color: 'var(--color-text-tertiary)',
                                 pointerEvents: 'none'
                             }}
                         />
                         <input
                             type="text"
-                            placeholder="Search stories..."
+                            placeholder="Search stories, ideas, or topics..."
                             value={searchTerm}
                             onChange={(e) => setSearchTerm(e.target.value)}
                             style={{
                                 width: '100%',
-                                padding: '0.875rem 1rem 0.875rem 3rem',
+                                padding: '1rem 1.25rem 1rem 3.5rem',
                                 borderRadius: 'var(--radius-FULL)',
                                 border: '1px solid var(--color-border)',
-                                background: 'var(--color-surface)',
+                                background: 'white',
                                 fontSize: '1rem',
                                 color: 'var(--color-text-primary)',
                                 outline: 'none',
-                                transition: 'all 0.2s ease',
-                                boxShadow: 'var(--shadow-sm)'
+                                transition: 'all 0.3s ease',
+                                boxShadow: '0 10px 30px -10px rgba(0,0,0,0.05)'
                             }}
                             className="search-input"
                         />
@@ -233,22 +233,24 @@ function Home() {
                                     {article.content.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().slice(0, 150) + (article.content.replace(/<[^>]+>/g, ' ').replace(/\s+/g, ' ').trim().length > 150 ? '...' : '')}
                                 </p>
 
-                                <div style={{ display: 'flex', alignItems: 'center', flexWrap: 'wrap', gap: '1rem', color: 'var(--color-text-secondary)', fontSize: '0.85rem', marginTop: '0.75rem' }}>
-                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
-                                        <Eye size={14} />
-                                        <span>{formatViews(article.views)} reads</span>
+                                <div className="card-footer">
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', color: 'var(--color-text-tertiary)', fontSize: '0.85rem' }}>
+                                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
+                                            <Eye size={14} />
+                                            <span>{formatViews(article.views)}</span>
+                                        </div>
+                                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
+                                            <Calendar size={14} />
+                                            <span>{article.date}</span>
+                                        </div>
                                     </div>
-                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
-                                        <Calendar size={14} />
-                                        <span>{article.date}</span>
-                                    </div>
-                                </div>
 
-                                <Link to={`/article/${article.id}`} style={{ textDecoration: 'none', marginTop: 'auto' }}>
-                                    <button className="btn" style={{ padding: '0.6rem 1.2rem', fontSize: '0.85rem' }}>
-                                        Read Story <ArrowRight size={14} />
-                                    </button>
-                                </Link>
+                                    <Link to={`/article/${article.id}`} style={{ textDecoration: 'none' }}>
+                                        <button className="btn" style={{ padding: '0.6rem 1.25rem', fontSize: '0.85rem' }}>
+                                            Read <ArrowRight size={14} />
+                                        </button>
+                                    </Link>
+                                </div>
                             </div>
                         </Motion.div>
                     ))}
