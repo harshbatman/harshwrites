@@ -232,6 +232,9 @@ function ArticleView() {
             isPausedRef.current = false;
             speakFromIndex(currentChunkIndex);
         } else {
+            // Stop video if it's playing before starting speech
+            setIsVideoPlaying(false);
+
             setIsSpeaking(true);
             isSpeakingRef.current = true;
             setIsPaused(false);
@@ -255,19 +258,20 @@ function ArticleView() {
         window.speechSynthesis.cancel();
         setIsSpeaking(false);
         setIsPaused(false);
-        setIsVideoPlaying(false);
         setCurrentChunkIndex(0);
         setCurrentWordInfo({ offset: 0, length: 0 });
         isSpeakingRef.current = false;
         isPausedRef.current = false;
     };
 
-    // Video Sync Logic
+    const handleStopVideo = () => {
+        setIsVideoPlaying(false);
+    };
+
+    // Mutual Exclusive Media Logic
     const handlePlayVideo = () => {
+        handleStopSpeech(); // Stop speech when video plays
         setIsVideoPlaying(true);
-        if (!isSpeakingRef.current) {
-            handleToggleSpeech();
-        }
     };
 
     // If article not found, show error
@@ -489,7 +493,7 @@ function ArticleView() {
                                             <div style="width: 70px; height: 70px; background: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 25px rgba(0,0,0,0.3); transition: transform 0.2s;">
                                                 <svg width="30" height="30" viewBox="0 0 24 24" fill="black"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
                                             </div>
-                                            <p style="color: white; margin-top: 1rem; font-weight: 700; font-family: sans-serif; font-size: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">Click to Play Video & AI Narrator</p>
+                                            <span style="color: white; font-size: 1.1rem; font-weight: 600; margin-top: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">Play Video</span>
                                         </div>
                                         ${match}
                                     </div>
