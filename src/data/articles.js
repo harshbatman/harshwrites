@@ -963,6 +963,7 @@ export const articles = [
     author: "Harsh Mahto",
     category: "Personal Growth",
     date: "17 Oct 2023",
+    objectPosition: "top",
     image: "/fat-to-fit.jpg",
     excerpt: "For the last seven months, I have been waking up at 4 a.m. every day and going to the ground to run. It didn't start as motivation. It started because I was tired of feeling heavy all the time.",
     content: `

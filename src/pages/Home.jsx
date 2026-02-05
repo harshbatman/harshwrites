@@ -214,6 +214,9 @@ function Home() {
                                 <img
                                     src={article.image}
                                     alt={article.title}
+                                    style={{
+                                        objectPosition: article.objectPosition || 'center'
+                                    }}
                                 />
                             </div>
 
