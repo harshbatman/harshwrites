@@ -1145,7 +1145,7 @@ export const articles = [
 
       <p>Relax, I don’t even attend classes regularly, that’s why I'm different. Okay.</p>
 
-      <p>I’m kidding, guys 😄 (If you’re reading this in the future—and I know some of you will—you’re good too. I love you.)</p>
+      <p>I’m kidding, guys (If you’re reading this in the future—and I know some of you will—you’re good too. I love you.)</p>
 
       <p>I think they over-appreciated me a little. You know that saying—if you’re the smartest person in the room, you’re probably in the wrong room.</p>
 
@@ -2373,7 +2373,7 @@ export const articles = [
 
       <p>It’s that phase where your brain suddenly becomes a startup incubator at 2 AM.</p>
 
-      <p>Exactly 😂 And I couldn’t even use my mobile to watch YouTube because my phone was on charging. That’s the only reason I went to bed early in the first place. So I’m just lying there, staring at the ceiling, thinking… what have I done till now?</p>
+      <p>Exactly. And I couldn’t even use my mobile to watch YouTube because my phone was on charging. That’s the only reason I went to bed early in the first place. So I’m just lying there, staring at the ceiling, thinking… what have I done till now?</p>
 
       <p>It’s a dangerous question at night. Very dangerous. But still, I thought—okay, we’ve done web development. Built a few projects. Doing DSA… not finished yet, but it’s a journey. It will get better with consistency.</p>
 
@@ -2449,7 +2449,7 @@ export const articles = [
 
       <p>So the decision wasn’t about hype. It was about clarity. Exactly. We already did web. React, JavaScript—those concepts aren’t going anywhere. Flutter felt like adding a new skill, not just extending the old one.</p>
 
-      <p>And all this… because I couldn’t sleep and my phone was charging? Life-changing decisions happen at weird times 😄 That night I decided—okay, let’s commit. Flutter it is. One codebase. Two platforms. Long-term thinking.</p>
+      <p>And all this… because I couldn’t sleep and my phone was charging? Life-changing decisions happen at weird times. That night I decided—okay, let’s commit. Flutter it is. One codebase. Two platforms. Long-term thinking.</p>
 
       <p>Fair enough. So what’s the takeaway? Simple. React Native is great. No doubt. But for my journey, my mindset, my way of learning—Flutter made more sense. Not because it’s better for everyone… but because it’s better for me.</p>
     `
