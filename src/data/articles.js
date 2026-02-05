@@ -134,7 +134,7 @@ export const articles = [
 
   {
     id: "failed-urban-infrastructure-high-rise-societies",
-    views: 1240,
+    views: 22240,
     publishDate: "2024-01-21",
     title: "Failed Urban Infrastructure & the Rise of High-Rise Societies",
     author: "Harsh Mahto",
