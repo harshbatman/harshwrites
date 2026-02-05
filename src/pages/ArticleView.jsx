@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useMemo } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion as Motion } from 'framer-motion';
 import { ArrowLeft, User, Calendar, Share2, Eye, X, Volume2, Square, Play, Pause, RotateCw, RotateCcw, Gauge, Clock } from 'lucide-react';
@@ -17,6 +17,7 @@ function ArticleView() {
     const [currentChunkIndex, setCurrentChunkIndex] = useState(0);
     const [currentWordInfo, setCurrentWordInfo] = useState({ offset: 0, length: 0 });
     const [allChunks, setAllChunks] = useState([]);
+    const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
     // Refs for real-time state access, to prevent GC, and for fallback timers
     const isSpeakingRef = React.useRef(false);
@@ -254,10 +255,19 @@ function ArticleView() {
         window.speechSynthesis.cancel();
         setIsSpeaking(false);
         setIsPaused(false);
+        setIsVideoPlaying(false);
         setCurrentChunkIndex(0);
         setCurrentWordInfo({ offset: 0, length: 0 });
         isSpeakingRef.current = false;
         isPausedRef.current = false;
+    };
+
+    // Video Sync Logic
+    const handlePlayVideo = () => {
+        setIsVideoPlaying(true);
+        if (!isSpeakingRef.current) {
+            handleToggleSpeech();
+        }
     };
 
     // If article not found, show error
@@ -466,8 +476,43 @@ function ArticleView() {
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
                     transition={{ duration: 0.8, delay: 0.4 }}
-                    dangerouslySetInnerHTML={{ __html: article.content }}
-                />
+                >
+                    {useMemo(() => {
+                        const hasIframe = article.content.includes('<iframe');
+
+                        if (hasIframe && !isVideoPlaying) {
+                            const contentWithOverlay = article.content.replace(
+                                /<div style="margin: 0 0 2.5rem 0;[^>]*>([\s\S]*?)<\/div>/,
+                                (match) => `
+                                    <div class="video-sync-wrapper" style="margin: 0 0 2.5rem 0; border-radius: 12px; overflow: hidden; position: relative; background: #000; cursor: pointer; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);">
+                                        <div class="video-overlay" id="video-play-overlay" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: 10; background: rgba(0,0,0,0.4); display: flex; flex-direction: column; align-items: center; justify-content: center; backdrop-filter: blur(4px); transition: all 0.3s ease;">
+                                            <div style="width: 70px; height: 70px; background: white; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 10px 25px rgba(0,0,0,0.3); transition: transform 0.2s;">
+                                                <svg width="30" height="30" viewBox="0 0 24 24" fill="black"><polygon points="5 3 19 12 5 21 5 3"></polygon></svg>
+                                            </div>
+                                            <p style="color: white; margin-top: 1rem; font-weight: 700; font-family: sans-serif; font-size: 1rem; text-shadow: 0 2px 4px rgba(0,0,0,0.5);">Click to Play Video & AI Narrator</p>
+                                        </div>
+                                        ${match}
+                                    </div>
+                                `
+                            );
+                            return <div dangerouslySetInnerHTML={{ __html: contentWithOverlay }} onClick={(e) => {
+                                if (e.target.closest('#video-play-overlay')) {
+                                    handlePlayVideo();
+                                }
+                            }} />;
+                        }
+
+                        if (hasIframe && isVideoPlaying) {
+                            const playingContent = article.content.replace(
+                                /src="([^"]*)"/,
+                                (match, src) => `src="${src}${src.includes('?') ? '&' : '?'}autoplay=1"`
+                            );
+                            return <div dangerouslySetInnerHTML={{ __html: playingContent }} />;
+                        }
+
+                        return <div dangerouslySetInnerHTML={{ __html: article.content }} />;
+                    }, [article.content, article.id, isVideoPlaying])}
+                </Motion.div>
 
                 <div style={{ margin: '3rem 0', padding: '1.5rem', background: 'rgba(243, 244, 246, 0.5)', borderRadius: '12px', border: '1px solid #e5e7eb', textAlign: 'center' }}>
                     <p style={{ margin: 0, color: '#4b5563', fontSize: '1.05rem', lineHeight: '1.6' }}>
