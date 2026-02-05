@@ -2368,61 +2368,36 @@ export const articles = [
     content: `
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Midnight Self-Audit</h3>
 
-      <p><strong>Person A:</strong><br/>
-      Let me tell you something. A few weeks ago, when I went to bed… you know how it is. We don’t easily fall asleep. I forgot to switch off the light.<br/>
+      <p>Let me tell you something. A few weeks ago, when I went to bed… you know how it is. We don’t easily fall asleep. I forgot to switch off the light.<br/>
       So I woke up, switched it off, came back to bed… and sleep? Nah, nowhere to be found.</p>
 
-      <p><strong>Person B:</strong><br/>
-      Yeah, yeah. That phase where your brain suddenly becomes a startup incubator at 2 AM.</p>
+      <p>It’s that phase where your brain suddenly becomes a startup incubator at 2 AM.</p>
 
-      <p><strong>Person A:</strong><br/>
-      Exactly 😂 And I couldn’t even use my mobile to watch YouTube because my phone was on charging. That’s the only reason I went to bed early in the first place.<br/>
-      So I’m just lying there, staring at the ceiling, thinking… what have I done till now?</p>
+      <p>Exactly 😂 And I couldn’t even use my mobile to watch YouTube because my phone was on charging. That’s the only reason I went to bed early in the first place. So I’m just lying there, staring at the ceiling, thinking… what have I done till now?</p>
 
-      <p><strong>Person B:</strong><br/>
-      Dangerous question at night, bro. Very dangerous.</p>
+      <p>It’s a dangerous question at night. Very dangerous. But still, I thought—okay, we’ve done web development. Built a few projects. Doing DSA… not finished yet, but it’s a journey. It will get better with consistency.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Why App Development?</h3>
 
-      <p><strong>Person A:</strong><br/>
-      I know. But still. I thought—okay, we’ve done web development. Built a few projects. Doing DSA… not finished yet, but it’s a journey. It will get better with consistency.<br/>
-      Then one thought hits me: why not start app development now?</p>
-
-      <p><strong>Person B:</strong><br/>
-      Ah, that midnight motivation. So where did you start?</p>
+      <p>Then one thought hits me: why not start app development now? Ah, that midnight motivation. Initially, I went the obvious route—Kotlin. Native Android. Solid, powerful, proper.</p>
+      
+      <p>But then I got to know about cross-platform development. One codebase. Both platforms. Android and iOS. That’s when Flutter and React Native enter the chat.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Cross-Platform Dilemma</h3>
 
-      <p><strong>Person A:</strong><br/>
-      Initially, I went the obvious route—Kotlin. Native Android. Solid, powerful, proper.<br/>
-      But then I got to know about cross-platform development. One codebase. Both platforms. Android and iOS.</p>
+      <p>Exactly. And that’s where the real confusion started. Everyone around us is like, “React Native bro, JavaScript, easy, popular.” And I’m like… hmm, sounds good. But let’s actually think.</p>
 
-      <p><strong>Person B:</strong><br/>
-      That’s when Flutter and React Native enter the chat.</p>
-
-      <p><strong>Person A:</strong><br/>
-      Exactly. And that’s where the real confusion started.<br/>
-      Everyone around us is like, “React Native bro, JavaScript, easy, popular.”<br/>
-      And I’m like… hmm, sounds good. But let’s actually think.</p>
-
-      <p><strong>Person B:</strong><br/>
-      So why Flutter then? Why not React Native?</p>
+      <p>So why Flutter then? Why not React Native? Let me explain the way my sleepy brain understood it.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">React Native: The 'Just' Trap</h3>
 
-      <p><strong>Person A:</strong><br/>
-      See, let me explain the way my sleepy brain understood it.<br/>
-      Flutter feels… complete. It doesn’t depend heavily on platform components. It brings its own rendering engine. What you design is what you get—same UI everywhere.</p>
+      <p>Flutter feels… complete. It doesn’t depend heavily on platform components. It brings its own rendering engine. What you design is what you get—same UI everywhere.</p>
 
       <div style="margin: 2rem 0; padding: 1.5rem; background: #eff6ff; border-left: 4px solid #3b82f6; border-radius: 4px;">
         <p style="margin: 0; color: #1e40af; font-weight: 600;">Flutter doesn't just build apps; it paints them. By taking control of every pixel, it bypasses the architectural bottlenecks that have plagued cross-platform development for years.</p>
       </div>
 
-      <p><strong>Person B:</strong><br/>
-      While React Native is more like… glue?</p>
-
-      <p><strong>Person A:</strong><br/>
-      Exactly! React Native bridges JavaScript with native components. That bridge is powerful, but it’s also a point of pain sometimes—performance issues, third-party dependency drama, random things breaking after updates.</p>
+      <p>While React Native is more like… glue? Exactly! React Native bridges JavaScript with native components. That bridge is powerful, but it’s also a point of pain sometimes—performance issues, third-party dependency drama, random things breaking after updates.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Why Flutter Feels Different</h3>
 
@@ -2464,54 +2439,19 @@ export const articles = [
         </p>
       </div>
 
-      <p><strong>Person A:</strong><br/>
-      And then there’s Dart. People complain about it, but honestly? It’s clean. Structured. Predictable.<br/>
-      Coming from web and DSA, I actually liked how Flutter forces you to think in widgets. Everything is a widget. UI, logic, spacing—everything.</p>
+      <p>And then there’s Dart. People complain about it, but honestly? It’s clean. Structured. Predictable. Coming from web and DSA, I actually liked how Flutter forces you to think in widgets. Everything is a widget. UI, logic, spacing—everything.</p>
 
-      <p><strong>Person B:</strong><br/>
-      So it felt more… engineering-driven?</p>
+      <p>It felt more… engineering-driven. React Native feels very JavaScript-ish—flexible, fast to start, but sometimes messy if you’re not disciplined. Flutter feels opinionated. It pushes us into a system. That helps when we’re learning.</p>
 
-      <p><strong>Person A:</strong><br/>
-      Yes! React Native feels very JavaScript-ish—flexible, fast to start, but sometimes messy if you’re not disciplined.<br/>
-      Flutter feels opinionated. It pushes us into a system. That helps when we’re learning.</p>
-
-      <p><strong>Person B:</strong><br/>
-      What about performance though?</p>
-
-      <p><strong>Person A:</strong><br/>
-      That sealed the deal for me. Flutter compiles directly to native code. Animations are smooth. UI feels consistent.<br/>
-      For someone like us, who wants to build real products—not just demos—that matters.</p>
+      <p>What about performance though? That sealed the deal for me. Flutter compiles directly to native code. Animations are smooth. UI feels consistent. For someone like us, who wants to build real products—not just demos—that matters.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Verdict</h3>
 
-      <p><strong>Person B:</strong><br/>
-      So the decision wasn’t about hype. It was about clarity.</p>
+      <p>So the decision wasn’t about hype. It was about clarity. Exactly. We already did web. React, JavaScript—those concepts aren’t going anywhere. Flutter felt like adding a new skill, not just extending the old one.</p>
 
-      <p><strong>Person A:</strong><br/>
-      Exactly. We already did web. React, JavaScript—those concepts aren’t going anywhere.<br/>
-      Flutter felt like adding a new skill, not just extending the old one.</p>
+      <p>And all this… because I couldn’t sleep and my phone was charging? Life-changing decisions happen at weird times 😄 That night I decided—okay, let’s commit. Flutter it is. One codebase. Two platforms. Long-term thinking.</p>
 
-      <p><strong>Person B:</strong><br/>
-      And all this… because you couldn’t sleep and your phone was charging?</p>
-
-      <p><strong>Person A:</strong><br/>
-      Life-changing decisions happen at weird times, my friend 😄<br/>
-      That night I decided—okay, let’s commit. Flutter it is.<br/>
-      One codebase. Two platforms. Long-term thinking.</p>
-
-      <p><strong>Person B:</strong><br/>
-      Fair enough. So what’s the takeaway?</p>
-
-      <p><strong>Person A:</strong><br/>
-      Simple.<br/>
-      React Native is great. No doubt.<br/>
-      But for us—for our journey, our mindset, our way of learning—Flutter made more sense.</p>
-
-      <p><strong>Person B:</strong><br/>
-      Not because it’s better for everyone…</p>
-
-      <p><strong>Person A:</strong><br/>
-      …but because it’s better for us.</p>
+      <p>Fair enough. So what’s the takeaway? Simple. React Native is great. No doubt. But for my journey, my mindset, my way of learning—Flutter made more sense. Not because it’s better for everyone… but because it’s better for me.</p>
     `
   },
   {
@@ -2637,7 +2577,7 @@ export const articles = [
 
       <p>And every extra month costs billions. Tanks don’t regenerate. Trained soldiers aren’t replaceable overnight.</p>
 
-      <!-- Cost of War Graph -->
+      <!--Cost of War Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; text-align: center;">The Cost of Stagnation</h4>
         
@@ -2699,7 +2639,7 @@ export const articles = [
     image: "/marie-curie-nobel.png",
     excerpt: "I was just scrolling YouTube last night—no plan, no purpose. One video ended, another started… you know how it goes. And suddenly, this old black-and-white photo pops up.",
     content: `
-      <p>I was just scrolling YouTube last night—no plan, no purpose. One video ended, another started… you know how it goes.</p>
+  < p > I was just scrolling YouTube last night—no plan, no purpose.One video ended, another started… you know how it goes.</p >
 
       <p>Yeah, algorithm decides our life.</p>
 
@@ -2722,7 +2662,7 @@ export const articles = [
       </div>
 
 
-      <!-- The Solvay Conference Ratio Graph -->
+      <!--The Solvay Conference Ratio Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Solvay Conference (1911) Ratio</h4>
         
@@ -2803,7 +2743,7 @@ export const articles = [
 
       <p>…they’re missing the point. She didn’t chase prizes. She changed how we understand matter itself. She discovered that the invisible has power—and that power could heal or destroy.</p>
 
-      <!-- Timeline of Defiance Graph -->
+      <!--Timeline of Defiance Graph-- >
        <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Timeline of Defiance</h4>
         
@@ -2872,7 +2812,7 @@ export const articles = [
     image: "/transistors-to-ai.jpg",
     excerpt: "I was on a recent trip from Rohtak to Delhi. Metro ride, peak hours. Earbuds in my ears, music on, mind somewhere else. And right in front of my seat, there’s this little boy—barely three, maybe four—crying ridiculously loud.",
     content: `
-      <p>I was on a recent trip from Rohtak to Delhi. Metro ride, peak hours. Earbuds in my ears, music on, mind somewhere else. And right in front of my seat, there’s this little boy—barely three, maybe four—crying ridiculously loud. Angry crying. The kind where you know it’s not hunger or sleep, it’s pure protest.</p> 
+  < p > I was on a recent trip from Rohtak to Delhi.Metro ride, peak hours.Earbuds in my ears, music on, mind somewhere else.And right in front of my seat, there’s this little boy—barely three, maybe four—crying ridiculously loud.Angry crying.The kind where you know it’s not hunger or sleep, it’s pure protest.</p > 
 
       <p>Now you might think something serious happened.</p>
       <p>Nope.</p>
@@ -2913,7 +2853,7 @@ export const articles = [
       </div>
 
 
-      <!-- The Shrinking Machine Graph -->
+      <!--The Shrinking Machine Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Shrinking Machine (Power vs. Size)</h4>
         
@@ -3033,8 +2973,8 @@ export const articles = [
       </div>
 
 
-      <!-- Moore's Law Graph -->
-      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+      <!--Moore's Law Graph -->
+  < div style = "margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);" >
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Exponential Rise (Transistor Count)</h4>
         
         <div style="display: flex; align-items: flex-end; justify-content: space-between; height: 200px; padding-bottom: 0.5rem; border-bottom: 2px solid #e5e7eb; gap: 8px;">
@@ -3081,7 +3021,7 @@ export const articles = [
         <p style="text-align: center; margin-top: 1.5rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
           <p>From thousands to billions—Moore’s Law in action.</p>
         </p>
-      </div>
+      </div >
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Personal Computer Revolution</h3>
 
@@ -3175,7 +3115,7 @@ export const articles = [
 
       <p>Netscape couldn't compete with "free" and "already installed." They got crushed.</p>
 
-      <!-- The First Browser War Graph -->
+      <!--The First Browser War Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The First Browser War (1995-2002)</h4>
         
@@ -3240,7 +3180,7 @@ export const articles = [
       
       <p>That flipped the browser war again. The browser stopped being just software—it became a <strong>data collection layer</strong>.</p>
 
-      <!-- The Browser War Graph -->
+      <!--The Browser War Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Second Browser War (Market Share Shift)</h4>
         
@@ -3294,7 +3234,7 @@ export const articles = [
         </p>
       </div>
 
-      <!-- 2024 Browser Share Graph -->
+      <!--2024 Browser Share Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Global Browser Share (2024)</h4>
         
@@ -3429,7 +3369,7 @@ export const articles = [
         </p>
       </div>
 
-      <!-- 2024 Search Share Graph -->
+      <!--2024 Search Share Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Global Search Engine Share (2024)</h4>
         
@@ -3554,7 +3494,7 @@ export const articles = [
       </div>
 
 
-      <!-- Mobile OS Market Share Graph -->
+      <!--Mobile OS Market Share Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Global Mobile OS Market Share</h4>
         
@@ -3634,7 +3574,7 @@ export const articles = [
       </div>
 
 
-      <!-- Social Media Growth Graph -->
+      <!--Social Media Growth Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 1.5rem; text-align: center;">The Rise of Social Media (Monthly Active Users)</h4>
         
@@ -3724,7 +3664,7 @@ export const articles = [
         </p>
       </div>
 
-      <!-- Internet vs AI Adoption Graph -->
+      <!--Internet vs AI Adoption Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 1.5rem; text-align: center;">Years to Reach 100 Million Users</h4>
         
@@ -3798,7 +3738,7 @@ export const articles = [
       <p>And that’s when it hit us.</p>
       <p>This feels closer to intelligence than anything we’ve used before.</p>
 
-      <!-- Old Search vs. New Search Graph -->
+      <!--Old Search vs.New Search Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Old Search vs. New Search</h4>
         
@@ -3876,7 +3816,7 @@ export const articles = [
       
       <p>Today, iconic apps like <strong>Airbnb</strong>, <strong>Uber</strong>, and <strong>Pinterest</strong> rely on these frameworks. The code that runs your life is likely a hybrid of these tech giants' visions.</p>
 
-      <!-- Cross-Platform Framework Graph -->
+      <!--Cross - Platform Framework Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Cross-Platform Framework Usage (Global)</h4>
         
@@ -4047,7 +3987,7 @@ export const articles = [
       
       <p>New players don't have that baggage. They can disrupt because they have nothing to lose.</p>
 
-      <!-- AI Search War Graph -->
+      <!--AI Search War Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The New Walled Gardens (AI Search War)</h4>
         
@@ -4103,7 +4043,7 @@ export const articles = [
         </p>
       </div>
 
-      <!-- AI Market Share Graph -->
+      <!--AI Market Share Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">AI Model Usage (Global Estimated Share)</h4>
         
@@ -4256,7 +4196,7 @@ export const articles = [
 
 
 
-      <!-- The AI Infrastructure Stack Graph -->
+      <!--The AI Infrastructure Stack Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The AI Infrastructure Stack</h4>
         
@@ -4371,7 +4311,7 @@ export const articles = [
       <p>So venture capital is no longer just picking startups.</p>
       <p>It’s picking which intelligence stacks get built.</p>
       
-      <!-- VC Capital vs Time Graph -->
+      <!--VC Capital vs Time Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The "Blitzscaling" Curve</h4>
         
@@ -4444,7 +4384,7 @@ export const articles = [
       <p>This wasn’t just a telecom event.</p>
       <p>It was an <strong>infrastructure shock</strong>.</p>
 
-      <!-- The Jio Effect Graph -->
+      <!--The Jio Effect Graph-- >
        <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Jio Effect: Data Adoption in India</h4>
         
@@ -4538,7 +4478,7 @@ export const articles = [
 
       <p>Cash didn’t disappear—but friction did.</p>
 
-      <!-- The Death of Friction Graph -->
+      <!--The Death of Friction Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Death of Friction (Transaction Speed)</h4>
         
@@ -4656,7 +4596,7 @@ export const articles = [
       <p>That’s rare.</p>
       <p>And powerful.</p>
 
-      <!-- UPI Growth Scale Graph -->
+      <!--UPI Growth Scale Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The UPI Scale (Annual Transactions)</h4>
         
@@ -4712,7 +4652,7 @@ export const articles = [
         </p>
       </div>
 
-      <!-- Indian Startup Timeline Visualization -->
+      <!--Indian Startup Timeline Visualization-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Rise of Indian Startups</h4>
         
@@ -5008,7 +4948,7 @@ export const articles = [
       <p>Yeah, because every generation hears the same line—“this will change everything.”</p>
       <p>Sometimes it’s true. Sometimes it’s marketing.</p>
 
-      <!-- Adoption Speed Graph -->
+      <!--Adoption Speed Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Time to Reach 100 Million Users</h4>
         
@@ -5152,7 +5092,7 @@ export const articles = [
       <p class="story-punchline">Right in the middle of it.</p>
 
 
-    `
+`
   },
   {
     id: "yuri-bezmenov-modern-politics",
@@ -5165,7 +5105,7 @@ export const articles = [
     image: "/yuri-bezmenov.jpg",
     excerpt: "Last week, late night, phone in hand, doing what we all do—random YouTube scrolling. One video leads to another. And suddenly this old clip pops up.",
     content: `
-      <p>Last week, late night, phone in hand, doing what we all do—random YouTube scrolling. One video leads to another. And suddenly this old clip pops up.</p>
+  < p > Last week, late night, phone in hand, doing what we all do—random YouTube scrolling.One video leads to another.And suddenly this old clip pops up.</p >
 
       <p>Let me guess—some Cold War guy?</p>
 
@@ -5242,7 +5182,7 @@ export const articles = [
 
       <p>Or when facts depend on which WhatsApp group you’re in.</p>
 
-      <!-- The 4 Stages of Subversion Diagram -->
+      <!--The 4 Stages of Subversion Diagram-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Bezmenov’s 4 Stages of Subversion</h4>
         
@@ -5308,7 +5248,7 @@ export const articles = [
 
       <p>Everything becomes sacred. Everything becomes offensive. Nothing can be questioned.</p>
 
-      <!-- The Cycle of Polarization Diagram -->
+      <!--The Cycle of Polarization Diagram-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Polarization Trap</h4>
         
@@ -5374,7 +5314,7 @@ export const articles = [
       <p>Yeah. That’s the scary part. He wasn’t predicting our future.</p>
 
       <p class="story-punchline">He was calmly describing our present.</p>
-    `
+`
   },
   {
     id: "netflix-zhukov-republic-day",
@@ -5387,7 +5327,7 @@ export const articles = [
     image: "/zhukov-republic-day.jpg",
     excerpt: "Last week I was doing what we all do—Netflix and chill. Then I randomly hit play on The Death of Stalin. I watched it for the laughs, but honestly? One character hijacked my attention.",
     content: `
-      <p>Last week I was doing what we all do—Netflix and chill, nothing serious. Then I randomly hit play on The Death of Stalin. I watched it for the laughs, but honestly? One character hijacked my attention.</p>
+  < p > Last week I was doing what we all do—Netflix and chill, nothing serious.Then I randomly hit play on The Death of Stalin.I watched it for the laughs, but honestly ? One character hijacked my attention.</p >
 
       <p>Let me guess. Marshal Zhukov?</p>
 
@@ -5451,7 +5391,7 @@ export const articles = [
       <p>And it’s funny how we discover these stories.</p>
 
       <p>That’s what hit me the hardest. We study history in fragments—dates, wars, names—but sometimes a random Netflix night connects the dots better than textbooks ever did.</p>
-    `
+`
   },
 
   {
@@ -5465,7 +5405,7 @@ export const articles = [
     image: "/uploaded_image_1769301997332.png",
     excerpt: "Every American president here believed globalisation would automatically keep America on top. But instead, it taught China how to beat them at their own game.",
     content: `
-      <p>Every American president here believed globalisation would automatically keep America on top.</p>
+  < p > Every American president here believed globalisation would automatically keep America on top.</p >
 
       <p>But instead, it taught China how to beat them at their own game.</p>
 
@@ -5539,7 +5479,7 @@ export const articles = [
         <li>ecosystem thinking</li>
       </ul>
 
-      <!-- The Learning Loop Diagram -->
+      <!--The Learning Loop Diagram-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Learning Loop</h4>
         
@@ -5627,7 +5567,7 @@ export const articles = [
 
       <p>That internal competition did what no regulation ever could — it forced excellence.</p>
 
-      <!-- The Market Shift Graph -->
+      <!--The Market Shift Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Volume Shift</h4>
         
@@ -5906,7 +5846,7 @@ export const articles = [
       <p>It’s not about mocking leaders. It’s about exposing a system-level failure.</p>
 
       <p class="story-punchline">America taught the world how to globalise. China learned how to dominate it. And the world — including us — buys from the one who delivers.</p>
-    `
+`
 
   },
   {
@@ -5920,7 +5860,7 @@ export const articles = [
     image: "/rajan-services-vs-manufacturing.jpg",
     excerpt: "Every time someone talks about growth, it’s always the same story: 'Let’s build factories.' But Raghuram Rajan asks us to take a hard look at what we’re doing.",
     content: `
-      <p>Every time someone talks about growth, it’s always the same story: “Let’s build factories. Let’s make things. Let’s attract big companies.”</p>
+  < p > Every time someone talks about growth, it’s always the same story: “Let’s build factories.Let’s make things.Let’s attract big companies.”</p >
       
       <p>Now you will say, “Yeah, Make in India, PLI, incentives—you name it. And now Apple’s iPhone production sites and Foxconn get talked about like they’re the holy grail of jobs and development.”</p>
 
@@ -5942,7 +5882,7 @@ export const articles = [
       
       <p>Let’s look at the numbers.</p>
 
-      <!-- Subsidy Allocation Graph -->
+      <!--Subsidy Allocation Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Incentive Flow</h4>
         
@@ -6014,7 +5954,7 @@ export const articles = [
       <p>Marketing and Sales (Right side) = High Value.</p>
       <p>Manufacturing and Assembly (Middle) = Lowest Value.</p>
 
-      <!-- Smile Curve Graph -->
+      <!--Smile Curve Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Smile Curve of Value</h4>
         
@@ -6163,7 +6103,7 @@ export const articles = [
              
         </div>
 
-      </div>
+      </div >
 
       <p>All major Indian pharma companies combined — Sun Pharma, Dr. Reddy’s, Cipla, Lupin, Aurobindo, Divi’s, Torrent and others — together generate roughly $25 billion in annual revenue.</p>
 
@@ -6242,7 +6182,7 @@ export const articles = [
       <p>We should ask ourselves: If we can give crores to factories, why not invest equally in our people who can serve the world from right here?</p>
 
       <p class="story-punchline">That’s the uncomfortable but important conversation Rajan is pushing us toward — and it’s one we need to have honestly.</p>
-    `
+`
   },
   {
     id: "how-facebook-took-over-the-world",
@@ -6255,7 +6195,7 @@ export const articles = [
     image: "/facebook-world.jpg",
     excerpt: "You know what’s funny? Everyone today talks like Facebook was always meant to rule the internet. But it wasn't even the first social media platform.",
     content: `
-      <p>You know what’s funny? Everyone today talks like Facebook was always meant to rule the internet.</p>
+  < p > You know what’s funny ? Everyone today talks like Facebook was always meant to rule the internet.</p >
 
       <p>Now you might say, "Yeah, as if it fell from the sky fully formed. But the truth is — Facebook wasn’t even the first social media platform."</p>
 
@@ -6266,7 +6206,7 @@ export const articles = [
       </div>
 
 
-      <!-- Social Media Evolution Graph -->
+      <!--Social Media Evolution Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Social Media Evolution</h4>
         
@@ -6360,7 +6300,7 @@ export const articles = [
 
       <p>We don’t scroll because we’re bored. We scroll because our brain is hoping.</p>
 
-      <!-- The Dopamine Loop Diagram -->
+      <!--The Dopamine Loop Diagram-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Dopamine Loop</h4>
         
@@ -6651,7 +6591,7 @@ export const articles = [
       <p>Facebook’s greatest innovation wasn’t technology.</p>
 
       <p class="story-punchline">It was learning how to keep us looking — and never letting us leave.</p>
-    `
+`
   },
   {
     id: "how-android-took-over-the-world",
@@ -6664,7 +6604,7 @@ export const articles = [
     image: "/android-vs-ios.jpg",
     excerpt: "Have you ever thought about this—how the hell did Android end up everywhere? From a ₹10,000 phone in our hands to a flagship Samsung in the US.",
     content: `
-      <p>Have you ever thought about this—how the hell did Android end up everywhere? From a ₹10,000 phone in our hands to a flagship Samsung in the US.</p>
+  < p > Have you ever thought about this—how the hell did Android end up everywhere ? From a ₹10,000 phone in our hands to a flagship Samsung in the US.</p >
 
       <p>That’s the crazy part. Android didn’t just win. It flooded the planet. And the real twist? It wasn’t built to sell phones. It was built to protect something else.</p>
 
@@ -6709,7 +6649,7 @@ export const articles = [
 
       <p>Bingo.</p>
 
-      <!-- The Two Philosophies Diagram -->
+      <!--The Two Philosophies Diagram-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Two Philosophies</h4>
         
@@ -6890,7 +6830,7 @@ export const articles = [
 
       <p>Android built reach. Apple built rent.</p>
 
-      <!-- The Paradox of Power Diagram -->
+      <!--The Paradox of Power Diagram-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Paradox of Power</h4>
         
@@ -6955,7 +6895,7 @@ export const articles = [
 
       <p>And Apple?</p>
       <p class="story-punchline">Apple monetized loyalty better than anyone in history.</p>
-    `
+`
   },
   {
     id: "semiconductor-story-india",
@@ -6968,7 +6908,7 @@ export const articles = [
     image: "/made-in-india-chip-v2.png",
     excerpt: "Everywhere I look these days—phones, cars, even washing machines—everything runs on chips. And yet, when it comes to making them ourselves, it feels like we missed the bus.",
     content: `
-      <p>You know, everywhere I look these days—phones, cars, even washing machines—everything runs on chips. And yet, when it comes to making them ourselves, it feels like we missed the bus. Why did this happen to us?</p>
+  < p > You know, everywhere I look these days—phones, cars, even washing machines—everything runs on chips.And yet, when it comes to making them ourselves, it feels like we missed the bus.Why did this happen to us ?</p >
 
       <p>Yeah, that question hurts a little, doesn’t it? Let me tell you something—this didn’t happen overnight. Our semiconductor situation is the result of decades of small decisions, delays, and honestly… hesitation.</p>
 
@@ -7005,7 +6945,7 @@ export const articles = [
 
       <p>Exactly. We became the world’s back office, not its factory floor. Brilliant engineers from here went abroad and built chips for other countries, while we imported the final product back.</p>
 
-      <!-- Software vs Hardware Graph -->
+      <!--Software vs Hardware Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Great Imbalance (Exports vs. Imports)</h4>
         
@@ -7056,7 +6996,7 @@ export const articles = [
 
       <p>We don’t need to beat everyone at the cutting edge on day one. That’s the key mindset shift. Even older-node chips power cars, appliances, power grids, and defense equipment. Owning any part of the supply chain is better than owning none.</p>
 
-       <!-- Semiconductor Value Chain Graph -->
+       <!--Semiconductor Value Chain Graph-- >
        <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Value Chain Pyramid</h4>
         
@@ -7111,7 +7051,7 @@ export const articles = [
       <p>Then I guess the real question is—are we finally ready to commit?</p>
 
       <p class="story-punchline">That’s on all of us. Governments, industry, and society. Because this time, if we walk away again, the cost won’t just be economic—it’ll be strategic.</p>
-    `
+`
   },
   {
     id: "two-women-two-nations-one-frame",
@@ -7124,7 +7064,7 @@ export const articles = [
     image: "/indira-thatcher.jpg",
     excerpt: "I was randomly scrolling the internet the other day — nothing specific, just the usual wandering we all do — when I suddenly stopped. Not because something was loud or sensational, but because something felt quietly important.",
     content: `
-      <p>I was randomly scrolling the internet the other day—nothing specific, just the usual wandering we all do—when I suddenly stopped.</p>
+  < p > I was randomly scrolling the internet the other day—nothing specific, just the usual wandering we all do—when I suddenly stopped.</p >
       
       <p>Why? What did you see?</p>
       
@@ -7153,7 +7093,7 @@ export const articles = [
       
       <p>But pause for a second. Look at the timing.</p>
 
-      <!-- Timeline of Power Graph -->
+      <!--Timeline of Power Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Overlap of Iron (1980-1984)</h4>
         
@@ -7271,7 +7211,7 @@ export const articles = [
       <p>Two women. Two nations. One moment before everything changed.</p>
 
       <p class="story-punchline">This photograph does not shout. It endures. And sometimes, that is the most powerful kind of history.</p>
-    `
+`
   },
   {
     id: "our-nuclear-journey-science-sanctions-self-respect",
@@ -7284,7 +7224,7 @@ export const articles = [
     image: "/india-nuclear-journey.jpg",
     excerpt: "You know what? I was thinking the other day—when we talk about our energy future, solar comes up, wind comes up… but nuclear? We whisper about it. Almost like it’s a secret we’re not sure we should own.",
     content: `
-      <p>You know what? I was thinking the other day—when we talk about our energy future, solar comes up, wind comes up… but nuclear? We whisper about it. Almost like it’s a secret we’re not sure we should own.</p>
+  < p > You know what ? I was thinking the other day—when we talk about our energy future, solar comes up, wind comes up… but nuclear ? We whisper about it.Almost like it’s a secret we’re not sure we should own.</p >
 
       <p>Yeah, I feel that too. And it’s strange, right? Because nuclear isn’t new for us. It’s not something we borrowed yesterday. It’s something we started building when we were barely standing on our feet as a country.</p>
 
@@ -7302,7 +7242,7 @@ export const articles = [
 
       <p class="story-punchline">Think about that foresight. No PowerPoint. No consultants. Just belief.</p>
 
-      <!-- Three-Stage Program Graph -->
+      <!--Three - Stage Program Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Bhabha’s Three-Stage Vision</h4>
         
@@ -7396,7 +7336,7 @@ export const articles = [
         <li>Karnataka (Kaiga)</li>
       </ul>
 
-      <!-- Nuclear Capacity Graph -->
+      <!--Nuclear Capacity Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Nuclear Power Capacity (MW)</h4>
         
@@ -7478,7 +7418,7 @@ export const articles = [
       <p>Yeah… when you put it that way, it doesn’t sound scary anymore.</p>
 
       <p class="story-punchline">It sounds… very us.</p>
-    `
+`
   },
   {
     id: "story-behind-jai-jawan-jai-kisan",
@@ -7491,7 +7431,7 @@ export const articles = [
     image: "/jai-jawan-jai-kisan.jpg",
     excerpt: "When I was in school, I used to shout slogans without thinking twice. Jai Jawan, Jai Kisan echoed during morning assemblies, Independence Day functions, and rallies. I raised my voice with everyone else—confident, patriotic—yet I never truly understood what those words meant.",
     content: `
-      <p>When I was in school, I used to shout slogans without thinking twice. Jai Jawan, Jai Kisan echoed through morning assemblies, Independence Day functions, and rallies. I raised my voice with everyone else—confident, patriotic—yet I never truly understood what those words meant.</p>
+  < p > When I was in school, I used to shout slogans without thinking twice.Jai Jawan, Jai Kisan echoed through morning assemblies, Independence Day functions, and rallies.I raised my voice with everyone else—confident, patriotic—yet I never truly understood what those words meant.</p >
 
       <p>Back then, it felt like just another line we were expected to memorise. I repeated it and moved on, unaware that this slogan wasn’t created for classrooms or ceremonies. It was born in a time of war, shortage, and uncertainty—when the nation was struggling to protect its borders and feed its people at the same time.</p>
 
@@ -7520,7 +7460,7 @@ export const articles = [
 
       <p>That’s the part people forget. You might think wars are only about guns and borders. But for us, the bigger fear was: Can we survive this economically? Can we feed ourselves?</p>
 
-      <!-- The Dual Crisis Graph -->
+      <!--The Dual Crisis Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Dual Crisis (1965)</h4>
         
@@ -7570,7 +7510,7 @@ export const articles = [
 
       <p>Under her, we saw the Green Revolution. High-yield seeds, irrigation, procurement systems. The farmer became central to national planning. Food self-sufficiency became strategy, not charity.</p>
 
-      <!-- From Import to Surplus Graph -->
+      <!--From Import to Surplus Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">From Import to Surplus (Green Revolution)</h4>
         
@@ -7606,7 +7546,7 @@ export const articles = [
       <p>And maybe that’s why it still resonates. Because it doesn’t belong to one party or one era.</p>
 
       <p class="story-punchline">It belongs to us.</p>
-    `
+`
   },
   {
     id: "data-structures-and-algorithms",
@@ -7619,7 +7559,7 @@ export const articles = [
     image: "/dsa-cover.jpg",
     excerpt: "Recently, I put a pause on web development. It was moving fast, projects were shipping, but something felt… incomplete. The foundation was shaky.",
     content: `
-      <p>Let me tell you something. Recently, I put a hard pause on web development.</p>
+  < p > Let me tell you something.Recently, I put a hard pause on web development.</p >
 
       <p>Wait, really? You were shipping projects. Things were moving fast.</p>
 
@@ -7663,7 +7603,7 @@ export const articles = [
 
       <p>Now I know that the difference between O(n) and O(n²) isn’t just seconds. It’s the difference between a system that survives and a system that crashes.</p>
 
-      <!-- Time Complexity Graph -->
+      <!--Time Complexity Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Why Scale Kills (The Growth Curve)</h4>
         
@@ -7728,7 +7668,7 @@ export const articles = [
       <p>2. Recursive step (Trust it works for n-1).</p>
       <p>Once I did that, trees and graphs opened up.</p>
 
-      <!-- Recursion Visual -->
+      <!--Recursion Visual-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Stack of Trust</h4>
         
@@ -7791,7 +7731,7 @@ export const articles = [
       <p>100%.</p>
       <p>Pausing web development wasn’t stepping back.</p>
       <p>It was stepping deeper.</p>
-    `
+`
   },
   {
     id: "rockets-vs-airplanes",
@@ -7804,7 +7744,7 @@ export const articles = [
     image: "/rockets-vs-airplanes.jpg",
     excerpt: "A few days ago, I took the first flight of my life. From Delhi’s IGI Airport to Bengaluru. Yeah. Never been on a plane before.",
     content: `
-      <p>A few days ago, I took the first flight of my life.</p>
+  < p > A few days ago, I took the first flight of my life.</p >
 
       <p>From New Delhi’s IGI Airport to Bengaluru.</p>
 
@@ -7894,7 +7834,7 @@ export const articles = [
       </div>
 
 
-      <!-- The Duopoly Wall Graph -->
+      <!--The Duopoly Wall Graph-- >
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Polite Monopoly (Large Jet Market Share)</h4>
         
@@ -8029,7 +7969,7 @@ export const articles = [
       <p>And honestly? Now you might think—yeah, me as well—that day feels far.</p>
 
       <p>But then again, so did rockets once.</p>
-    `
+`
   },
   {
     id: "unplanned-cities",
@@ -8042,7 +7982,7 @@ export const articles = [
     image: "/unplanned-cities-comparison.jpg",
     excerpt: "Sometimes I really wonder... why do our Indian cities feel so chaotic compared to cities in Europe or the U.S? When we look at those places, everything just seems to fit—like it was thought through properly.",
     content: `
-      <p>Sometimes I really wonder, yaar… why do our Indian cities feel so chaotic compared to cities in Europe or the U.S. When we look at those places, everything just seems to fit—like it was thought through properly.</p>
+  < p > Sometimes I really wonder, yaar… why do our Indian cities feel so chaotic compared to cities in Europe or the U.S.When we look at those places, everything just seems to fit—like it was thought through properly.</p >
 
       <p>Exactly. When we see cities in Europe or the United States, there’s a clear symmetry. Wide roads, proper pedestrian walkways, planned housing blocks, parks, cycling lanes—everything has a place. You can tell that planners sat down and imagined how people would actually live there.</p>
 
@@ -8094,7 +8034,7 @@ export const articles = [
         <p style="margin: 0; color: #78350f; font-weight: 600;">Our cities aren't chaotic by accident; they're chaotic by policy. We chose short-term growth over long-term planning, resulting in cities where rain becomes a life-threatening event instead of a seasonal relief.</p>
       </div>
 
-    `
+`
   },
   {
     id: "pollution-survival",
@@ -8107,7 +8047,7 @@ export const articles = [
     image: "/pollution-survival.jpg",
     excerpt: "Have you noticed something strange about our daily life? In any metro city where we live, we must have four things at home now—air purifier, water purifier, air conditioner, and refrigerator.",
     content: `
-      <p>Sometimes I feel our homes have stopped being homes. They feel more like survival chambers.</p>
+  < p > Sometimes I feel our homes have stopped being homes.They feel more like survival chambers.</p >
 
       <p>A home was once a place where you rested, breathed freely, drank water without thinking, and slept without fighting the weather. Today, especially in our metro cities, a home feels incomplete without machines humming in every corner—quietly keeping us alive.</p>
 
@@ -8184,7 +8124,7 @@ export const articles = [
         <p style="margin: 0; color: #991b1b; font-weight: 600;">In our cities today, machines have replaced nature. <span style="color: #000; font-weight: 800;">Air purifiers</span>, <span style="color: #000; font-weight: 800;">water filters</span>, and <span style="color: #000; font-weight: 800;">air conditioners</span> aren't luxuries anymore. They are survival tools in a world we broke quietly, and now keep alive with electricity.</p>
       </div>
 
-    `
+`
   },
   {
     id: "where-is-indias-gta",
@@ -8198,7 +8138,7 @@ export const articles = [
     image: "/indian-gta-update.jpg",
     excerpt: "Why is there no proper Indian version of a GTA-style game? A conversation about open-world potential in India.",
     content: `
-      <p>You know, last few weeks… maybe even last few days ago… or honestly, just last night — I was really frustrated and stressed. One of those phases where nothing feels right. I didn't know what to do with myself. I picked up my phone, but I didn't feel like scrolling at all. Social media felt empty, repetitive, and tiring.</p>
+  < p > You know, last few weeks… maybe even last few days ago… or honestly, just last night — I was really frustrated and stressed.One of those phases where nothing feels right.I didn't know what to do with myself. I picked up my phone, but I didn't feel like scrolling at all.Social media felt empty, repetitive, and tiring.</p >
 
       <p>So instead of scrolling, I installed Tekken Tag Tournament and started playing.</p>
 
@@ -8326,7 +8266,7 @@ export const articles = [
         <p style="margin: 0; color: #9f1239; font-weight: 600;">India is already an open-world chaos simulator—traffic, monsoons, festivals, and legends. We don't lack content for a world-class game; we lack the courage to tell our own stories with the same satirical depth as Liberty City.</p>
       </div>
 
-    `
+`
   },
   {
     id: "is-human-coding-dying",
@@ -8339,7 +8279,7 @@ export const articles = [
     image: "/is-human-coding-dying.jpg",
     excerpt: "Lately, I keep hearing this everywhere—“Why even learn frameworks? AI can build apps now.” A conversation on the shifting landscape of software engineering.",
     content: `
-      <p>Lately, I keep hearing this everywhere—“Why even learn frameworks? AI can build apps now.” And honestly… it’s scary.</p>
+  < p > Lately, I keep hearing this everywhere—“Why even learn frameworks ? AI can build apps now.” And honestly… it’s scary.</p >
 
       <p>We spent years learning React, Angular, backend frameworks, libraries, best practices. Now one prompt and boom—working code.</p>
 
@@ -8479,7 +8419,7 @@ export const articles = [
         <p style="margin: 0; color: #064e3b; font-weight: 600;">AI is excellent at writing code but terrible at owning responsibility. The future belongs not to those who can type the fastest, but to those who can think the architectural logic through before the first prompt is ever written.</p>
       </div>
 
-    `
+`
   },
 ];
 
