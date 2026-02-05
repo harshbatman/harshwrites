@@ -2626,7 +2626,7 @@ export const articles = [
     image: "/marie-curie-nobel.png",
     excerpt: "I was just scrolling YouTube last night—no plan, no purpose. One video ended, another started… you know how it goes. And suddenly, this old black-and-white photo pops up.",
     content: `
-  < p > I was just scrolling YouTube last night—no plan, no purpose.One video ended, another started… you know how it goes.</p >
+  <p> I was just scrolling YouTube last night—no plan, no purpose.One video ended, another started… you know how it goes.</p>
 
       <p>Yeah, algorithm decides our life.</p>
 
@@ -2799,7 +2799,7 @@ export const articles = [
     image: "/transistors-to-ai.jpg",
     excerpt: "I was on a recent trip from Rohtak to Delhi. Metro ride, peak hours. Earbuds in my ears, music on, mind somewhere else. And right in front of my seat, there’s this little boy—barely three, maybe four—crying ridiculously loud.",
     content: `
-  < p > I was on a recent trip from Rohtak to Delhi.Metro ride, peak hours.Earbuds in my ears, music on, mind somewhere else.And right in front of my seat, there’s this little boy—barely three, maybe four—crying ridiculously loud.Angry crying.The kind where you know it’s not hunger or sleep, it’s pure protest.</p > 
+  <p> I was on a recent trip from Rohtak to Delhi.Metro ride, peak hours.Earbuds in my ears, music on, mind somewhere else.And right in front of my seat, there’s this little boy—barely three, maybe four—crying ridiculously loud.Angry crying.The kind where you know it’s not hunger or sleep, it’s pure protest.</p> 
 
       <p>Now you might think something serious happened.</p>
       <p>Nope.</p>
@@ -5092,7 +5092,7 @@ export const articles = [
     image: "/yuri-bezmenov.jpg",
     excerpt: "Last week, late night, phone in hand, doing what we all do—random YouTube scrolling. One video leads to another. And suddenly this old clip pops up.",
     content: `
-  < p > Last week, late night, phone in hand, doing what we all do—random YouTube scrolling.One video leads to another.And suddenly this old clip pops up.</p >
+  <p> Last week, late night, phone in hand, doing what we all do—random YouTube scrolling.One video leads to another.And suddenly this old clip pops up.</p>
 
       <p>Let me guess—some Cold War guy?</p>
 
@@ -5314,7 +5314,7 @@ export const articles = [
     image: "/zhukov-republic-day.jpg",
     excerpt: "Last week I was doing what we all do—Netflix and chill. Then I randomly hit play on The Death of Stalin. I watched it for the laughs, but honestly? One character hijacked my attention.",
     content: `
-  < p > Last week I was doing what we all do—Netflix and chill, nothing serious.Then I randomly hit play on The Death of Stalin.I watched it for the laughs, but honestly ? One character hijacked my attention.</p >
+  <p> Last week I was doing what we all do—Netflix and chill, nothing serious.Then I randomly hit play on The Death of Stalin.I watched it for the laughs, but honestly ? One character hijacked my attention.</p>
 
       <p>Let me guess. Marshal Zhukov?</p>
 
@@ -5392,7 +5392,7 @@ export const articles = [
     image: "/uploaded_image_1769301997332.png",
     excerpt: "Every American president here believed globalisation would automatically keep America on top. But instead, it taught China how to beat them at their own game.",
     content: `
-  < p > Every American president here believed globalisation would automatically keep America on top.</p >
+  <p> Every American president here believed globalisation would automatically keep America on top.</p>
 
       <p>But instead, it taught China how to beat them at their own game.</p>
 
@@ -5847,7 +5847,7 @@ export const articles = [
     image: "/rajan-services-vs-manufacturing.jpg",
     excerpt: "Every time someone talks about growth, it’s always the same story: 'Let’s build factories.' But Raghuram Rajan asks us to take a hard look at what we’re doing.",
     content: `
-  < p > Every time someone talks about growth, it’s always the same story: “Let’s build factories.Let’s make things.Let’s attract big companies.”</p >
+  <p> Every time someone talks about growth, it’s always the same story: “Let’s build factories.Let’s make things.Let’s attract big companies.”</p>
       
       <p>Now you will say, “Yeah, Make in India, PLI, incentives—you name it. And now Apple’s iPhone production sites and Foxconn get talked about like they’re the holy grail of jobs and development.”</p>
 
@@ -6182,7 +6182,7 @@ export const articles = [
     image: "/facebook-world.jpg",
     excerpt: "You know what’s funny? Everyone today talks like Facebook was always meant to rule the internet. But it wasn't even the first social media platform.",
     content: `
-  < p > You know what’s funny ? Everyone today talks like Facebook was always meant to rule the internet.</p >
+  <p> You know what’s funny ? Everyone today talks like Facebook was always meant to rule the internet.</p>
 
       <p>Now you might say, "Yeah, as if it fell from the sky fully formed. But the truth is — Facebook wasn’t even the first social media platform."</p>
 
@@ -6591,7 +6591,7 @@ export const articles = [
     image: "/android-vs-ios.jpg",
     excerpt: "Have you ever thought about this—how the hell did Android end up everywhere? From a ₹10,000 phone in our hands to a flagship Samsung in the US.",
     content: `
-  < p > Have you ever thought about this—how the hell did Android end up everywhere ? From a ₹10,000 phone in our hands to a flagship Samsung in the US.</p >
+  <p> Have you ever thought about this—how the hell did Android end up everywhere ? From a ₹10,000 phone in our hands to a flagship Samsung in the US.</p>
 
       <p>That’s the crazy part. Android didn’t just win. It flooded the planet. And the real twist? It wasn’t built to sell phones. It was built to protect something else.</p>
 
@@ -6895,7 +6895,7 @@ export const articles = [
     image: "/made-in-india-chip-v2.png",
     excerpt: "Everywhere I look these days—phones, cars, even washing machines—everything runs on chips. And yet, when it comes to making them ourselves, it feels like we missed the bus.",
     content: `
-  < p > You know, everywhere I look these days—phones, cars, even washing machines—everything runs on chips.And yet, when it comes to making them ourselves, it feels like we missed the bus.Why did this happen to us ?</p >
+  <p> You know, everywhere I look these days—phones, cars, even washing machines—everything runs on chips.And yet, when it comes to making them ourselves, it feels like we missed the bus.Why did this happen to us ?</p>
 
       <p>Yeah, that question hurts a little, doesn’t it? Let me tell you something—this didn’t happen overnight. Our semiconductor situation is the result of decades of small decisions, delays, and honestly… hesitation.</p>
 
@@ -7051,7 +7051,7 @@ export const articles = [
     image: "/indira-thatcher.jpg",
     excerpt: "I was randomly scrolling the internet the other day — nothing specific, just the usual wandering we all do — when I suddenly stopped. Not because something was loud or sensational, but because something felt quietly important.",
     content: `
-  < p > I was randomly scrolling the internet the other day—nothing specific, just the usual wandering we all do—when I suddenly stopped.</p >
+  <p> I was randomly scrolling the internet the other day—nothing specific, just the usual wandering we all do—when I suddenly stopped.</p>
       
       <p>Why? What did you see?</p>
       
@@ -7211,7 +7211,7 @@ export const articles = [
     image: "/india-nuclear-journey.jpg",
     excerpt: "You know what? I was thinking the other day—when we talk about our energy future, solar comes up, wind comes up… but nuclear? We whisper about it. Almost like it’s a secret we’re not sure we should own.",
     content: `
-  < p > You know what ? I was thinking the other day—when we talk about our energy future, solar comes up, wind comes up… but nuclear ? We whisper about it.Almost like it’s a secret we’re not sure we should own.</p >
+  <p> You know what ? I was thinking the other day—when we talk about our energy future, solar comes up, wind comes up… but nuclear ? We whisper about it.Almost like it’s a secret we’re not sure we should own.</p>
 
       <p>Yeah, I feel that too. And it’s strange, right? Because nuclear isn’t new for us. It’s not something we borrowed yesterday. It’s something we started building when we were barely standing on our feet as a country.</p>
 
@@ -7418,7 +7418,7 @@ export const articles = [
     image: "/jai-jawan-jai-kisan.jpg",
     excerpt: "When I was in school, I used to shout slogans without thinking twice. Jai Jawan, Jai Kisan echoed during morning assemblies, Independence Day functions, and rallies. I raised my voice with everyone else—confident, patriotic—yet I never truly understood what those words meant.",
     content: `
-  < p > When I was in school, I used to shout slogans without thinking twice.Jai Jawan, Jai Kisan echoed through morning assemblies, Independence Day functions, and rallies.I raised my voice with everyone else—confident, patriotic—yet I never truly understood what those words meant.</p >
+  <p> When I was in school, I used to shout slogans without thinking twice.Jai Jawan, Jai Kisan echoed through morning assemblies, Independence Day functions, and rallies.I raised my voice with everyone else—confident, patriotic—yet I never truly understood what those words meant.</p>
 
       <p>Back then, it felt like just another line we were expected to memorise. I repeated it and moved on, unaware that this slogan wasn’t created for classrooms or ceremonies. It was born in a time of war, shortage, and uncertainty—when the nation was struggling to protect its borders and feed its people at the same time.</p>
 
@@ -7546,7 +7546,7 @@ export const articles = [
     image: "/dsa-cover.jpg",
     excerpt: "Recently, I put a pause on web development. It was moving fast, projects were shipping, but something felt… incomplete. The foundation was shaky.",
     content: `
-  < p > Let me tell you something.Recently, I put a hard pause on web development.</p >
+  <p> Let me tell you something.Recently, I put a hard pause on web development.</p>
 
       <p>Wait, really? You were shipping projects. Things were moving fast.</p>
 
@@ -7731,7 +7731,7 @@ export const articles = [
     image: "/rockets-vs-airplanes.jpg",
     excerpt: "A few days ago, I took the first flight of my life. From Delhi’s IGI Airport to Bengaluru. Yeah. Never been on a plane before.",
     content: `
-  < p > A few days ago, I took the first flight of my life.</p >
+  <p> A few days ago, I took the first flight of my life.</p>
 
       <p>From New Delhi’s IGI Airport to Bengaluru.</p>
 
@@ -7969,7 +7969,7 @@ export const articles = [
     image: "/unplanned-cities-comparison.jpg",
     excerpt: "Sometimes I really wonder... why do our Indian cities feel so chaotic compared to cities in Europe or the U.S? When we look at those places, everything just seems to fit—like it was thought through properly.",
     content: `
-  < p > Sometimes I really wonder, yaar… why do our Indian cities feel so chaotic compared to cities in Europe or the U.S.When we look at those places, everything just seems to fit—like it was thought through properly.</p >
+  <p> Sometimes I really wonder, yaar… why do our Indian cities feel so chaotic compared to cities in Europe or the U.S.When we look at those places, everything just seems to fit—like it was thought through properly.</p>
 
       <p>Exactly. When we see cities in Europe or the United States, there’s a clear symmetry. Wide roads, proper pedestrian walkways, planned housing blocks, parks, cycling lanes—everything has a place. You can tell that planners sat down and imagined how people would actually live there.</p>
 
@@ -8034,7 +8034,7 @@ export const articles = [
     image: "/pollution-survival.jpg",
     excerpt: "Have you noticed something strange about our daily life? In any metro city where we live, we must have four things at home now—air purifier, water purifier, air conditioner, and refrigerator.",
     content: `
-  < p > Sometimes I feel our homes have stopped being homes.They feel more like survival chambers.</p >
+      Sometimes I feel our homes have stopped being homes.They feel more like survival chambers.
 
       <p>A home was once a place where you rested, breathed freely, drank water without thinking, and slept without fighting the weather. Today, especially in our metro cities, a home feels incomplete without machines humming in every corner—quietly keeping us alive.</p>
 
@@ -8125,7 +8125,7 @@ export const articles = [
     image: "/indian-gta-update.jpg",
     excerpt: "Why is there no proper Indian version of a GTA-style game? A conversation about open-world potential in India.",
     content: `
-  < p > You know, last few weeks… maybe even last few days ago… or honestly, just last night — I was really frustrated and stressed.One of those phases where nothing feels right.I didn't know what to do with myself. I picked up my phone, but I didn't feel like scrolling at all.Social media felt empty, repetitive, and tiring.</p >
+  <p> You know, last few weeks… maybe even last few days ago… or honestly, just last night — I was really frustrated and stressed.One of those phases where nothing feels right.I didn't know what to do with myself. I picked up my phone, but I didn't feel like scrolling at all.Social media felt empty, repetitive, and tiring.</p>
 
       <p>So instead of scrolling, I installed Tekken Tag Tournament and started playing.</p>
 
@@ -8266,7 +8266,7 @@ export const articles = [
     image: "/is-human-coding-dying.jpg",
     excerpt: "Lately, I keep hearing this everywhere—“Why even learn frameworks? AI can build apps now.” A conversation on the shifting landscape of software engineering.",
     content: `
-  < p > Lately, I keep hearing this everywhere—“Why even learn frameworks ? AI can build apps now.” And honestly… it’s scary.</p >
+  <p> Lately, I keep hearing this everywhere—“Why even learn frameworks ? AI can build apps now.” And honestly… it’s scary.</p>
 
       <p>We spent years learning React, Angular, backend frameworks, libraries, best practices. Now one prompt and boom—working code.</p>
 
