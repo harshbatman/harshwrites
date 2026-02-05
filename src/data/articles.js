@@ -2350,9 +2350,9 @@ export const articles = [
     category: "Development & Career",
     date: "23 Oct 2023",
     image: "/flutter-vs-react-native.png",
-    excerpt: "Let me tell you something. A few weeks ago, when I went to bed… you know how it is. We don’t easily fall asleep. I forgot to switch off the light.",
+    excerpt: "A few weeks ago, when I went to bed… you know how it is. We don’t easily fall asleep. I forgot to switch off the light.",
     content: `
-      <p>Let me tell you something. A few weeks ago, I went to bed. I mean, I <em>actually</em> went to bed with the intention of sleeping.</p>
+      <p>A few weeks ago, I went to bed. I mean, I <em>actually</em> went to bed with the intention of sleeping.</p>
       <p>You know how it is. Body is tired, but the mind? Fully awake.</p>
 
       <p>Oh yeah. That specific hour when your brain decides to replay every life decision you've ever made. In ultra-high definition.</p>
