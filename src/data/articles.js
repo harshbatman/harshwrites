@@ -2352,6 +2352,8 @@ export const articles = [
     image: "/flutter-vs-react-native.png",
     excerpt: "Let me tell you something. A few weeks ago, when I went to bed… you know how it is. We don’t easily fall asleep. I forgot to switch off the light.",
     content: `
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Midnight Self-Audit</h3>
+
       <p><strong>Person A:</strong><br/>
       Let me tell you something. A few weeks ago, when I went to bed… you know how it is. We don’t easily fall asleep. I forgot to switch off the light.<br/>
       So I woke up, switched it off, came back to bed… and sleep? Nah, nowhere to be found.</p>
@@ -2366,12 +2368,16 @@ export const articles = [
       <p><strong>Person B:</strong><br/>
       Dangerous question at night, bro. Very dangerous.</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Why App Development?</h3>
+
       <p><strong>Person A:</strong><br/>
       I know. But still. I thought—okay, we’ve done web development. Built a few projects. Doing DSA… not finished yet, but it’s a journey. It will get better with consistency.<br/>
       Then one thought hits me: why not start app development now?</p>
 
       <p><strong>Person B:</strong><br/>
       Ah, that midnight motivation. So where did you start?</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Cross-Platform Dilemma</h3>
 
       <p><strong>Person A:</strong><br/>
       Initially, I went the obvious route—Kotlin. Native Android. Solid, powerful, proper.<br/>
@@ -2388,6 +2394,8 @@ export const articles = [
       <p><strong>Person B:</strong><br/>
       So why Flutter then? Why not React Native?</p>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">React Native: The 'Just' Trap</h3>
+
       <p><strong>Person A:</strong><br/>
       See, let me explain the way my sleepy brain understood it.<br/>
       Flutter feels… complete. It doesn’t depend heavily on platform components. It brings its own rendering engine. What you design is what you get—same UI everywhere.</p>
@@ -2402,8 +2410,45 @@ export const articles = [
       <p><strong>Person A:</strong><br/>
       Exactly! React Native bridges JavaScript with native components. That bridge is powerful, but it’s also a point of pain sometimes—performance issues, third-party dependency drama, random things breaking after updates.</p>
 
-      <p><strong>Person B:</strong><br/>
-      Hmm. Makes sense.</p>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Why Flutter Feels Different</h3>
+
+      <!-- The Rendering Gap Graph -->
+      <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+        <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Architecture Difference</h4>
+        
+        <div style="display: flex; flex-direction: column; gap: 2.5rem; max-width: 500px; margin: 0 auto;">
+          
+          <!-- React Native -->
+          <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+              <span style="font-weight: 600; font-size: 0.9rem; color: #52525b;">React Native (The Bridge Model)</span>
+              <div style="display: flex; align-items: center; gap: 8px;">
+                  <div style="flex: 1; padding: 12px; background: #e4e4e7; border-radius: 8px; text-align: center; font-size: 0.8rem; color: #18181b; font-weight: 500;">JS Code</div>
+                  <div style="color: #ef4444; font-weight: bold; font-size: 1.2rem;">↔</div>
+                  <div style="flex: 1; padding: 12px; border: 2px dashed #ef4444; border-radius: 8px; text-align: center; font-size: 0.8rem; color: #ef4444; font-weight: 700; background: #fef2f2;">The Bridge</div>
+                  <div style="color: #ef4444; font-weight: bold; font-size: 1.2rem;">↔</div>
+                  <div style="flex: 1; padding: 12px; background: #e4e4e7; border-radius: 8px; text-align: center; font-size: 0.8rem; color: #18181b; font-weight: 500;">Native UI</div>
+              </div>
+              <div style="font-size: 0.75rem; color: #ef4444; text-align: center;">Async Communication (Can be slow)</div>
+          </div>
+
+          <!-- Flutter -->
+          <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+              <span style="font-weight: 600; font-size: 0.9rem; color: #52525b;">Flutter (The Canvas Model)</span>
+              <div style="display: flex; align-items: center; gap: 8px;">
+                  <div style="flex: 1; padding: 12px; background: #e4e4e7; border-radius: 8px; text-align: center; font-size: 0.8rem; color: #18181b; font-weight: 500;">Dart Code</div>
+                  <div style="color: #10b981; font-weight: bold; font-size: 1.2rem;">→</div>
+                  <div style="flex: 2; padding: 12px; background: #10b981; border-radius: 8px; text-align: center; font-size: 0.9rem; color: white; font-weight: 700; box-shadow: 0 4px 6px -1px rgba(16, 185, 129, 0.3);">Engine (Skia/Impeller)</div>
+                  <div style="color: #10b981; font-weight: bold; font-size: 1.2rem;">→</div>
+                   <div style="flex: 1; padding: 12px; background: #e4e4e7; border-radius: 8px; text-align: center; font-size: 0.8rem; color: #18181b; font-weight: 500;">Pixels</div>
+              </div>
+              <div style="font-size: 0.75rem; color: #10b981; text-align: center;">Compiled & Direct (Always fast)</div>
+          </div>
+
+        </div>
+        <p style="text-align: center; margin-top: 2rem; font-size: 0.85rem; color: #71717a; font-style: italic;">
+          No translation. Just execution.
+        </p>
+      </div>
 
       <p><strong>Person A:</strong><br/>
       And then there’s Dart. People complain about it, but honestly? It’s clean. Structured. Predictable.<br/>
@@ -2422,6 +2467,8 @@ export const articles = [
       <p><strong>Person A:</strong><br/>
       That sealed the deal for me. Flutter compiles directly to native code. Animations are smooth. UI feels consistent.<br/>
       For someone like us, who wants to build real products—not just demos—that matters.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Verdict</h3>
 
       <p><strong>Person B:</strong><br/>
       So the decision wasn’t about hype. It was about clarity.</p>
