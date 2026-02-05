@@ -145,9 +145,6 @@ export const articles = [
     content: `
       <p>Lately, when we look around our cities, one thing is very clear—high-rise societies are everywhere. Big compounds, four or five towers together, boundary walls, security gates, everything packed into one large piece of land. Usually, it starts with a developer buying a large land parcel. Instead of building individual houses, they build multiple towers on the same land and call it a society or a residential complex.</p>
 
-      <p style="margin-bottom: 1rem; color: #6b7280; font-size: 0.85rem; text-align: center; font-style: italic;">
-        Drone view: The vertical expansion of our cities into self-contained "private islands."
-      </p>
       <div style="margin: 0 0 2.5rem 0; border-radius: 12px; overflow: hidden; background: #000; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);">
         <div style="position: relative; padding-bottom: 56.25%; height: 0;">
           <iframe 
@@ -158,6 +155,9 @@ export const articles = [
           </iframe>
         </div>
       </div>
+      <p style="margin-top: -1.5rem; margin-bottom: 2.5rem; color: #6b7280; font-size: 0.85rem; text-align: center; font-style: italic;">
+        Drone view: The vertical expansion of our cities into self-contained "private islands."
+      </p>
 
       <p>At first glance, it looks like a modern lifestyle choice. But if we think deeper, the rise of these high-rise societies is actually a private response to a systemic failure in public infrastructure.</p>
 
