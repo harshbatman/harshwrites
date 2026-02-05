@@ -986,7 +986,7 @@ export const articles = [
       <p>Around the same period, I fell seriously ill. I had jaundice.<br/>
       My body turned yellow. I felt weak all the time, like something inside me had slowed down.</p>
 
-      <p>During jaundice, your body isn’t functioning normally. Your blood levels drop, your energy collapses, and everyone around you keeps saying the same thing: eat more, eat well, build your blood back.</p>
+      <p>During jaundice, my body isn’t functioning normally. My blood levels drop, my energy collapses, and everyone around me keeps saying the same thing: eat more, eat well, build your blood back.</p>
 
       <p>So I ate. Even when I wasn’t hungry. Even when my body didn’t really want it.</p>
 
