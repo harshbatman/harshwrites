@@ -20,9 +20,6 @@ export const articles = [
 
       <p>But when development picked up—migration increased, jobs grew, and the population exploded—the demand for housing went through the roof. This is where the gap started. The Delhi Development Authority (DDA) simply couldn’t keep up with the demand for planned housing.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fff7ed; border-left: 4px solid #f97316; border-radius: 4px;">
-        <p style="margin: 0; color: #9a3412; font-weight: 600;">Unauthorized colonies are the physical footprint of a housing market that outpaced the government's ability to plan.</p>
-      </div>
 
 
       <div style="margin: 2rem 0; padding: 1.5rem; background: #fffcf0; border-left: 4px solid #eab308; border-radius: 4px;">
