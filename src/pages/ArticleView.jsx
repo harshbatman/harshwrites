@@ -91,7 +91,14 @@ function ArticleView() {
 
     const speakFromIndex = (index, rate = playbackRateRef.current) => {
         const synth = window.speechSynthesis;
-        const chunks = allChunks.length > 0 ? allChunks : [];
+        const contentDiv = document.querySelector('.story-content');
+
+        let chunks = allChunks;
+        if (chunks.length === 0 && article && contentDiv) {
+            const text = `${article.title}. ${contentDiv.innerText}`;
+            chunks = text.split(/(?<=[.!?])\s+/).filter(s => s.length > 0);
+            setAllChunks(chunks);
+        }
 
         if (index >= chunks.length) {
             handleStopSpeech();
@@ -129,10 +136,9 @@ function ArticleView() {
         };
 
         const voices = synth.getVoices();
-        // Priority: Samantha (Classic Siri), Siri, Google US English, and other clear Apple voices
         let preferredVoice =
-            voices.find(v => v.name.includes('Samantha')) || // Classic Apple Siri
-            voices.find(v => v.name.includes('Siri')) || // Modern Siri
+            voices.find(v => v.name.includes('Samantha')) ||
+            voices.find(v => v.name.includes('Siri')) ||
             voices.find(v => v.name.includes('Google US English')) ||
             voices.find(v => v.name.includes('Apple') && v.lang.startsWith('en')) ||
             voices.find(v => v.name.includes('Premium') && v.lang.startsWith('en')) ||
@@ -146,7 +152,6 @@ function ArticleView() {
         utterance.volume = 1;
 
         utterance.onstart = () => {
-            // Auto-scroll and highlight paragraph
             const paragraphs = contentDiv.querySelectorAll('p, h2, h3, li');
             const targetText = currentText.trim().substring(0, 40);
             for (let p of paragraphs) {
@@ -163,8 +168,6 @@ function ArticleView() {
                 }
             }
 
-            // Word Highlighting Fallback (for browsers where onboundary fails)
-            let wordIndex = 0;
             const words = currentText.split(/(\s+)/);
             let charOffset = 0;
             const wordPositions = words.map(w => {
@@ -175,11 +178,8 @@ function ArticleView() {
 
             fallbackTimerRef.current = setInterval(() => {
                 if (isPausedRef.current) return;
-
-                // If onboundary is working, don't interfere
                 if (Date.now() - lastBoundaryTimeRef.current < 2000 && lastBoundaryTimeRef.current !== 0) return;
 
-                // Simple estimation based on rate (approx 150wpm * rate)
                 const msPerWord = (60000 / (170 * playbackRateRef.current));
                 const elapsedSinceStart = Date.now() - (utterance.startTime || Date.now());
                 const estimatedWordIndex = Math.floor(elapsedSinceStart / msPerWord);
@@ -197,8 +197,6 @@ function ArticleView() {
         utterance.onend = () => {
             if (fallbackTimerRef.current) clearInterval(fallbackTimerRef.current);
             const nextIndex = index + 1;
-
-            // Only proceed if still in speaking mode and not paused
             if (isSpeakingRef.current && !isPausedRef.current) {
                 setCurrentChunkIndex(nextIndex);
                 setCurrentWordInfo({ offset: 0, length: 0 });
@@ -245,7 +243,7 @@ function ArticleView() {
 
             setTimeout(() => {
                 if (isSpeakingRef.current && !isPausedRef.current) {
-                    speakFromIndex(currentChunkIndex);
+                    speakFromIndex(0);
                 }
             }, 50);
         }
@@ -561,13 +559,12 @@ function ArticleView() {
                                         animate={{ scale: [1, 1.05, 1] }}
                                         transition={{ duration: 0.2 }}
                                         style={{
-                                            background: '#fef08a',
+                                            background: '#fbbf24', // Vivid Amber Yellow
                                             color: '#000',
-                                            padding: '2px 6px',
-                                            margin: '0 2px',
-                                            borderRadius: '6px',
-                                            fontWeight: 900,
-                                            boxShadow: '0 4px 12px rgba(254, 240, 138, 0.4)',
+                                            padding: '2px 4px',
+                                            borderRadius: '4px',
+                                            fontWeight: 800,
+                                            boxShadow: '0 4px 12px rgba(251, 191, 36, 0.3)',
                                             display: 'inline-block'
                                         }}
                                     >
