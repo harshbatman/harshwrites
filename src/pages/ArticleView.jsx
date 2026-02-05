@@ -386,11 +386,19 @@ function ArticleView() {
                                 scrollbarWidth: 'none'
                             }}>
                                 <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.4' }}>
-                                    <span style={{ fontSize: '0.65rem', color: 'var(--color-text-tertiary)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>{article.lastUpdated ? 'Updated' : 'Date'}</span>
+                                    <span style={{ fontSize: '0.65rem', color: 'var(--color-text-tertiary)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Published</span>
                                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: 'var(--color-text-secondary)', fontSize: '0.9rem', fontWeight: 500 }}>
-                                        <span>{article.lastUpdated || article.date}</span>
+                                        <span>{article.date}</span>
                                     </div>
                                 </div>
+                                {article.lastUpdated && (
+                                    <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.4' }}>
+                                        <span style={{ fontSize: '0.65rem', color: 'var(--color-text-tertiary)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Updated</span>
+                                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: 'var(--color-text-secondary)', fontSize: '0.9rem', fontWeight: 500 }}>
+                                            <span>{article.lastUpdated}</span>
+                                        </div>
+                                    </div>
+                                )}
                                 <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.4' }}>
                                     <span style={{ fontSize: '0.65rem', color: 'var(--color-text-tertiary)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Duration</span>
                                     <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: 'var(--color-text-secondary)', fontSize: '0.9rem', fontWeight: 500 }}>
