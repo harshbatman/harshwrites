@@ -2363,9 +2363,9 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Midnight Self-Audit</h3>
 
-      <p>Classic mistake. Once you wake up properly, the sleep train has left the station.</p>
+      <p>Once you wake up properly, the sleep train has left the station.</p>
 
-      <p>True. And usually, at that point, I’d just pick up my phone. Watch some random tech review, doom-scroll Twitter, anything.</p>
+      <p>And usually, at that point, I’d just pick up my phone. Watch some random tech review, doom-scroll Twitter, anything.</p>
       <p>But that night… my phone was charging across the room. And I was too lazy to get it.</p>
 
       <p>So no YouTube, no distractions.</p>
