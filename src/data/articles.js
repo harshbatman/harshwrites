@@ -22,8 +22,8 @@ export const articles = [
 
 
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffcf0; border-left: 4px solid #eab308; border-radius: 4px;">
-        <p style="margin: 0; color: #854d0e; font-weight: 600;">When planned supply fails to meet organic demand, the market finds its own, often chaotic, way forward.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">When planned supply fails to meet organic demand, the market finds its own, often chaotic, way forward.</p>
       </div>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Land as a Product</h3>
@@ -52,8 +52,8 @@ export const articles = [
 
       <p>And honestly, for families just trying to secure a roof over their head, saving that extra money felt logical. Registration and stamp duty looked expensive, unnecessary, and avoidable. But here’s the catch—in government records, the land status never changed. On paper, that land is still marked as agricultural land, not residential.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f8fafc; border-left: 4px solid #64748b; border-radius: 4px;">
-        <p style="margin: 0; color: #334155; font-weight: 600;">Because of that status gap, civic bodies are stuck. They legally cannot provide basic facilities on land that is still agricultural in official records.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Because of that status gap, civic bodies are stuck. They legally cannot provide basic facilities on land that is still agricultural in official records.</p>
       </div>
 
       <p>So no proper drainage system. No underground sewage lines. No planned garbage collection. Water supply becomes irregular, gas connections get delayed, and everything turns into a jugaad-based system. That’s why we see septic tanks everywhere. Everyone builds their own solution because there is no common infrastructure.</p>
@@ -62,8 +62,8 @@ export const articles = [
 
       <p>Once thousands of families settle like this, the problem becomes massive—socially, legally, and politically. That’s the real story behind unauthorized colonies. Not illegal intentions—but incomplete processes that ended up creating permanent urban problems for all of us.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f8fafc; border-left: 4px solid #64748b; border-radius: 4px;">
-        <p style="margin: 0; color: #334155; font-weight: 600;">The transition from 'agricultural' to 'residential' isn't just a paper change—it's the legal gatekeeper of basic human dignity like clean water and sewage.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">The transition from 'agricultural' to 'residential' isn't just a paper change—it's the legal gatekeeper of basic human dignity like clean water and sewage.</p>
       </div>
 
 
@@ -75,8 +75,8 @@ export const articles = [
 
       <p>But where do we house such massive growth? This is where unauthorized colonies enter the picture. Across Faridabad, there are dozens of colonies developed without proper approvals or urban planning. Places like Surya Vihar, Saidpur (Sahedpur), and many more are home to thousands of families.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffcf0; border-left: 4px solid #eab308; border-radius: 4px;">
-        <p style="margin: 0; color: #854d0e; font-weight: 600;">These are not empty lands anymore. These are living, breathing neighborhoods—with children, daily-wage workers, and elderly people—that remain invisible in official planning.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">These are not empty lands anymore. These are living, breathing neighborhoods—with children, daily-wage workers, and elderly people—that remain invisible in official planning.</p>
       </div>
 
       <div style="margin: 2rem 0; display: flex; flex-direction: column; align-items: center; text-align: center;">
@@ -117,8 +117,8 @@ export const articles = [
 
       <p>The problem is that the process with the government was never completed. No proper registration, no stamp duty. For many families, skipping these expensive and complex steps felt like a logical way to save money while securing a roof over their heads.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f8fafc; border-left: 4px solid #64748b; border-radius: 4px;">
-        <p style="margin: 0; color: #334155; font-weight: 600;">Since the land status on paper remains "agricultural," municipal bodies are legally restricted from providing permanent infrastructure like underground sewers or planned drainage.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Since the land status on paper remains "agricultural," municipal bodies are legally restricted from providing permanent infrastructure like underground sewers or planned drainage.</p>
       </div>
 
       <p>This creates a permanent <em>jugaad</em>-based ecosystem. People build their own septic tanks and find private ways to get water because the official system isn't allowed to reach them. The issue isn't illegal intentions—it's an incomplete legal process that has created a massive, permanent urban crisis for thousands of families in Faridabad.</p>
@@ -147,8 +147,8 @@ export const articles = [
 
       <p>At first glance, it looks like a modern lifestyle choice. But if we think deeper, the rise of these high-rise societies is actually a private response to a systemic failure in public infrastructure.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #faf5ff; border-left: 4px solid #a855f7; border-radius: 4px;">
-        <p style="margin: 0; color: #6b21a8; font-weight: 600;">A high-rise society is a vertical village where safety and convenience are purchased as a private service because the city fails to provide them as a public right.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">A high-rise society is a vertical village where safety and convenience are purchased as a private service because the city fails to provide them as a public right.</p>
       </div>
 
 
@@ -158,8 +158,8 @@ export const articles = [
 
       <p>These societies are designed as almost fully private ecosystems. While electricity may come from the government grid, there are backup systems like generators or inverters if power goes out. Water is another example. Instead of depending fully on municipal supply, societies store water in large tanks, use borewells, or manage water distribution internally.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffcf0; border-left: 4px solid #eab308; border-radius: 4px;">
-        <p style="margin: 0; color: #854d0e; font-weight: 600;">We are essentially paying twice—once through taxes, and again through monthly maintenance—to ensure basic services actually function.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">We are essentially paying twice—once through taxes, and again through monthly maintenance—to ensure basic services actually function.</p>
       </div>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Internal Autonomy: The Gated Mirage</h3>
@@ -174,8 +174,8 @@ export const articles = [
 
       <p>If the public infrastructure worked, this money could have been spent on better education, healthcare, or quality of life. Instead, it’s a "survival fee" we pay to maintain the illusion of a working city within our own gates.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f0fdfa; border-left: 4px solid #14b8a6; border-radius: 4px;">
-        <p style="margin: 0; color: #0f766e; font-weight: 600;">The maintenance fee is the hidden 'second tax' we pay to maintain the illusion of order inside our gates while the city outside continues to struggle.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">The maintenance fee is the hidden 'second tax' we pay to maintain the illusion of order inside our gates while the city outside continues to struggle.</p>
       </div>
 
 
@@ -183,8 +183,8 @@ export const articles = [
 
       <p>Living in a high-rise also changes how we interact with our neighbors. We live in a "Social Island." Thousands of people live in the same compound, yet most of us only know each other through car numbers or apartment numbers. Interaction is often limited to complaints on the "Society WhatsApp Group."</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #eff6ff; border-left: 4px solid #3b82f6; border-radius: 4px;">
-        <p style="margin: 0; color: #1e40af; font-weight: 600;">We have traded the organic, messy charm of old neighborhoods for the sanitized, rule-bound safety of a gated community. The shared park is beautiful, but the sense of "community" is often artificial.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">We have traded the organic, messy charm of old neighborhoods for the sanitized, rule-bound safety of a gated community. The shared park is beautiful, but the sense of "community" is often artificial.</p>
       </div>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Burden on the City</h3>
@@ -221,8 +221,8 @@ export const articles = [
     content: `
       <p>Every year, as monsoon clouds gather over the plains of Bihar, a familiar sense of dread sets in. For millions, it isn't just about the relief of rain; it's about the inevitable arrival of floods. It has become a seasonal routine, a cyclic tragedy that repeats with heartbreaking precision. But why does Bihar face this again and again? Why can't we seem to control it?</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffbeb; border-left: 4px solid #f59e0b; border-radius: 4px;">
-        <p style="margin: 0; color: #78350f; font-weight: 600;">Floods in Bihar are a geographical reality; disasters in Bihar are a planning failure.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Floods in Bihar are a geographical reality; disasters in Bihar are a planning failure.</p>
       </div>
 
 
@@ -238,8 +238,8 @@ export const articles = [
 
       <p>Floods don’t start only within our borders. Bihar is hydrologically connected to surrounding regions—Uttar Pradesh to the west, Jharkhand to the south, and West Bengal to the east. Rivers don’t follow political boundaries. When rainfall is heavy upstream in these states, the excess water flows directly into our systems. What happens upstream is felt deeply downstream.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #ecfdf5; border-left: 4px solid #10b981; border-radius: 4px;">
-        <p style="margin: 0; color: #064e3b; font-weight: 600;">Water doesn't know political boundaries; if we don't manage rivers at the basin level with our neighbors, we will keep fighting the same downstream battle.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Water doesn't know political boundaries; if we don't manage rivers at the basin level with our neighbors, we will keep fighting the same downstream battle.</p>
       </div>
 
 
@@ -259,8 +259,8 @@ export const articles = [
 
       <p><strong>Serious desilting:</strong> Selective, scientific desilting of critical river stretches must be a continuous priority to maintain river capacity.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fff1f2; border-left: 4px solid #fb7185; border-radius: 4px;">
-        <p style="margin: 0; color: #9f1239; font-weight: 600;">Desilting isn't a one-time project; it's the continuous maintenance of the river's lungs, keeping its capacity alive.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Desilting isn't a one-time project; it's the continuous maintenance of the river's lungs, keeping its capacity alive.</p>
       </div>
 
 
@@ -294,8 +294,8 @@ export const articles = [
 
       <p>Our genome is like a massive book written in a four-letter code. Genome sequencing is the process of reading that book, letter by letter. And once we understand it, we can predict a lot—diseases, inherited conditions, even future health risks.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f7fee7; border-left: 4px solid #84cc16; border-radius: 4px;">
-        <p style="margin: 0; color: #365314; font-weight: 600;">Our genome is the ultimate source code—understanding it allows us to debug our health before the bugs become diseases.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Our genome is the ultimate source code—understanding it allows us to debug our health before the bugs become diseases.</p>
       </div>
 
 
@@ -305,12 +305,12 @@ export const articles = [
 
       <p>Exactly. That’s why sequencing Indian genomes matters. If we only rely on foreign data, treatments may not be fully accurate for us. With our own genome data, doctors can design personalised medicine—medicine that actually suits our bodies.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #ecfeff; border-left: 4px solid #06b6d4; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #164e63; font-weight: 600;">India's greatest asset is its genetic diversity; our greatest challenge is ensuring medicine reflects that diversity instead of ignoring it.</p>
       </div>
 
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f0fdf4; border-left: 4px solid #22c55e; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #166534; font-weight: 600;">Personalised medicine isn't just a luxury—it's the only way to treat a population as diverse as ours.</p>
       </div>
 
@@ -364,7 +364,7 @@ export const articles = [
 
       <p>Exactly. That one clause meant Microsoft could sell the same software to other PC manufacturers. IBM thought hardware mattered. Microsoft knew software scales.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fef2f2; border-left: 4px solid #ef4444; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #991b1b; font-weight: 600;">Microsoft's greatest hack wasn't its code—it was the license agreement that allowed it to sell software to the world while its rivals were stuck selling hardware.</p>
       </div>
 
@@ -385,7 +385,7 @@ export const articles = [
 
       <p>Once developers depend on you, users follow. Once users follow, competitors die slowly.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f5f3ff; border-left: 4px solid #8b5cf6; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #4c1d95; font-weight: 600;">Platforms win through dependency: once every office and school in the world standardizes on your files, switching becomes an act of corporate suicide.</p>
       </div>
 
@@ -537,7 +537,7 @@ export const articles = [
 
       <p>You don't fight ecosystems. You join them.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fdf2f8; border-left: 4px solid #ec4899; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #831843; font-weight: 600;">Microsoft won the desktop by becoming the 'default'—and in the world of technology, the default is the most powerful position on the board.</p>
       </div>
 
@@ -759,8 +759,8 @@ export const articles = [
 
       <p>And the moment we talk about those numbers, we’re actually talking about home loans. Loans that run for 20 to 30 years. That’s not a small commitment—that’s almost an entire working life.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffbeb; border-left: 4px solid #f59e0b; border-radius: 4px;">
-        <p style="margin: 0; color: #78350f; font-weight: 600;">The real housing crisis in modern India isn't just about ownership—it's about the irrational pricing that forces a 25-year debt on someone who has only worked for 5.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">The real housing crisis in modern India isn't just about ownership—it's about the irrational pricing that forces a 25-year debt on someone who has only worked for 5.</p>
       </div>
 
 
@@ -774,7 +774,7 @@ export const articles = [
 
       <p>Renting is not failure. Renting is not throwing money away. Renting is flexibility. It gives us time—to understand the city, the locality, our job stability, and even our own priorities.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #eef2ff; border-left: 4px solid #6366f1; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #3730a3; font-weight: 600;">Renting isn't failure; it's a strategic pause that gives you the mobility to grow while the market catches up to reality.</p>
       </div>
 
@@ -845,8 +845,8 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Army’s Gift: Structure</h3>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #ecfdf5; border-left: 4px solid #10b981; border-radius: 4px;">
-        <p style="margin: 0; color: #064e3b; font-weight: 600;">Milkha Singh's discipline wasn't built in a gym; it was forged in the fire of tragedy and hardened by the routines of the Indian Army.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Milkha Singh's discipline wasn't built in a gym; it was forged in the fire of tragedy and hardened by the routines of the Indian Army.</p>
       </div>
 
 
@@ -883,8 +883,8 @@ export const articles = [
 
       <p>In the end, medals shine for a moment, but discipline shines for a lifetime. Milkha Singh may have run his last race, but his footsteps are still on the track—reminding us that India doesn’t need miracles. We need discipline, dedication, and belief.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fff1f2; border-left: 4px solid #fb7185; border-radius: 4px;">
-        <p style="margin: 0; color: #9f1239; font-weight: 600;">Greatness is often the result of using pain as fuel—turning the trauma of the past into the endurance needed to outrun the world's best.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Greatness is often the result of using pain as fuel—turning the trauma of the past into the endurance needed to outrun the world's best.</p>
       </div>
 
     `
@@ -910,7 +910,7 @@ export const articles = [
 
       <p>And once we take that home loan, our life decisions are no longer ours. Our salary is already divided before it even comes to us. One part goes to tax, the biggest part goes to EMI, and whatever is left… we call that “life”.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fef2f2; border-left: 4px solid #ef4444; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #991b1b; font-weight: 600;">When your EMI hits 50% of your income, you don't own a house—the house owns your career, your risks, and your mental peace.</p>
       </div>
 
@@ -935,7 +935,7 @@ export const articles = [
 
       <p>And prices keep rising faster than our salaries. Houses become more expensive every year, but our income grows slowly. So we borrow more, stretch the loan longer, and dig ourselves deeper.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f5f3ff; border-left: 4px solid #8b5cf6; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #4c1d95; font-weight: 600;">The 'American Dream' of home ownership has become an 'Indian Reality' of financial suffocation for an entire generation of salaried workers.</p>
       </div>
 
@@ -1010,7 +1010,7 @@ export const articles = [
 
       <p>During this period, I made a conscious decision to focus on just two things. First, improving my health by losing weight. Second, I focused on improving my programming skills, spending time learning and practicing consistently. I felt these two areas mattered the most to me at that point in my life, as they were directly connected to my long-term growth and future goals.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #eff6ff; border-left: 4px solid #3b82f6; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #1e3a8a; font-weight: 600;">Success isn't about doing everything the world expects; it's about identifying the few things that truly move the needle and having the guts to ignore the rest.</p>
       </div>
 
@@ -1023,8 +1023,8 @@ export const articles = [
 
       <p>So I quit the gym even though my membership wasn’t over. It was for three months. I went for exactly 24 days—I remember the number clearly because I asked him to deduct one month’s fee and return the remaining amount, but he refused. He said I could complete the membership, but he wouldn’t give any money back. Greedy! Piece of shit.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fff1f2; border-left: 4px solid #fb7185; border-radius: 4px;">
-        <p style="margin: 0; color: #9f1239; font-weight: 600;">Standard paths aren't for everyone. If the gym feels like a cage, find a path that feels like freedom. Quitting the wrong things is just as important as starting the right ones.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Standard paths aren't for everyone. If the gym feels like a cage, find a path that feels like freedom. Quitting the wrong things is just as important as starting the right ones.</p>
       </div>
 
 
@@ -1129,8 +1129,8 @@ export const articles = [
 
       <p>Just showing up was enough.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f7fee7; border-left: 4px solid #84cc16; border-radius: 4px;">
-        <p style="margin: 0; color: #365314; font-weight: 600;">Discipline isn't about doing more; it's about showing up even when you don't want to. Speed is vanity; consistency is sanity.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Discipline isn't about doing more; it's about showing up even when you don't want to. Speed is vanity; consistency is sanity.</p>
       </div>
 
 
@@ -1217,7 +1217,7 @@ export const articles = [
 
       <p>That's how it started. Nothing dramatic. Just a decision to focus.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #ecfeff; border-left: 4px solid #06b6d4; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #164e63; font-weight: 600;">Your body follows your life; when life pauses, the weight settles. Restarting requires moving even when the road ahead looks long and heavy.</p>
       </div>
 
@@ -1276,8 +1276,8 @@ export const articles = [
 
       <p>Exactly. In our own house, we are the CEO, site engineer, and dispute resolution manager.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f8fafc; border-left: 4px solid #64748b; border-radius: 4px;">
-        <p style="margin: 0; color: #334155; font-weight: 600;">Building a house in India isn't an engineering project; it's a diplomatic mission where you are the mediator between ten tribes that don't speak the same language.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Building a house in India isn't an engineering project; it's a diplomatic mission where you are the mediator between ten tribes that don't speak the same language.</p>
       </div>
 
 
@@ -1359,8 +1359,8 @@ export const articles = [
       <p>And the irony?<br/>
       This is probably the largest investment of our lives, yet it’s managed through WhatsApp calls and verbal promises.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f0fdfa; border-left: 4px solid #14b8a6; border-radius: 4px;">
-        <p style="margin: 0; color: #0f766e; font-weight: 600;">Fragmentation is the silent cost of construction. Until we have single-ownership systems, the homeowner will remain the unpaid, untrained project manager of their own nightmare.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Fragmentation is the silent cost of construction. Until we have single-ownership systems, the homeowner will remain the unpaid, untrained project manager of their own nightmare.</p>
       </div>
 
 
@@ -1426,8 +1426,8 @@ export const articles = [
       <p>Yes. This wasn’t just an internal issue anymore.<br/>
       The refugee crisis put enormous economic, social, and moral pressure on us—and it created moral clarity for the world.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #ecfdf5; border-left: 4px solid #10b981; border-radius: 4px;">
-        <p style="margin: 0; color: #064e3b; font-weight: 600;">The 1971 victory wasn't just won by tanks in Dhaka; it was won by the calculated patience of Indira Gandhi and the intelligence depth of RAW months before the first shot.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">The 1971 victory wasn't just won by tanks in Dhaka; it was won by the calculated patience of Indira Gandhi and the intelligence depth of RAW months before the first shot.</p>
       </div>
 
 
@@ -1516,8 +1516,8 @@ export const articles = [
         <li>He planned for a short, decisive war, not a prolonged conflict</li>
       </ul>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fff1f2; border-left: 4px solid #fb7185; border-radius: 4px;">
-        <p style="margin: 0; color: #9f1239; font-weight: 600;">Sam Manekshaw's greatest contribution wasn't just leading the charge—it was having the professional spine to say 'no' to a premature start, ensuring India fought on its own terms.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Sam Manekshaw's greatest contribution wasn't just leading the charge—it was having the professional spine to say 'no' to a premature start, ensuring India fought on its own terms.</p>
       </div>
 
 
@@ -1611,7 +1611,7 @@ export const articles = [
 
         </div>
 
-        <div style="margin-top: 1.5rem; padding: 1rem; background: #f0fdf4; border-left: 4px solid #22c55e; border-radius: 4px;">
+        <div style="margin-top: 1.5rem; padding: 1rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
           <p style="margin: 0; font-size: 0.85rem; color: #14532d; line-height: 1.6;">
             <strong>Context:</strong> The 1971 liberation of Dhaka is considered one of the fastest and most decisive military campaigns in modern history.
           </p>
@@ -1620,8 +1620,8 @@ export const articles = [
 
       <p>The result: 93,000 troops surrendered on 16 December 1971.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f8fafc; border-left: 4px solid #64748b; border-radius: 4px;">
-        <p style="margin: 0; color: #334155; font-weight: 600;">13 days to victory: The speed of the 1971 campaign remains a global benchmark for how military, political, and intelligence coordination can collapse an enemy without a long, draining occupation.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">13 days to victory: The speed of the 1971 campaign remains a global benchmark for how military, political, and intelligence coordination can collapse an enemy without a long, draining occupation.</p>
       </div>
 
 
@@ -1760,8 +1760,8 @@ export const articles = [
 
       <p>It felt contradictory. Gurugram represents growth and success, yet the people driving that success struggle to put down roots. The city looks welcoming from the outside, but living there long-term—especially near where you work—is a different financial reality. That contrast between the dream-like skyline and the everyday stress of residents really stayed with me.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffcf0; border-left: 4px solid #eab308; border-radius: 4px;">
-        <p style="margin: 0; color: #854d0e; font-weight: 600;">Gurugram is a city that grows vertically out of ambition but stays horizontally disconnected from the people who build it.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Gurugram is a city that grows vertically out of ambition but stays horizontally disconnected from the people who build it.</p>
       </div>
 
 
@@ -1799,7 +1799,7 @@ export const articles = [
 
       <p>The city isn't designed for salaried people to live near where they work. It keeps nudging us toward compromise—smaller homes, longer commutes, or higher debt.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #ecfeff; border-left: 4px solid #06b6d4; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #164e63; font-weight: 600;">Earning a 'global salary' only to realize you can't afford a home near your office is the modern middle-class paradox—you're getting ahead, but the goalposts are moving faster.</p>
       </div>
 
@@ -1832,8 +1832,8 @@ export const articles = [
 
       <p>So let's rewind. Early 2000s. Climate change anxiety rising. Europe leading green energy. And Germany—very German about it—decides: "We'll engineer our way out of fossil fuels."</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffcf0; border-left: 4px solid #eab308; border-radius: 4px;">
-        <p style="margin: 0; color: #854d0e; font-weight: 600;">Germany approached solar like an engineering problem to be perfected; China approached it like a manufacturing problem to be dominated.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Germany approached solar like an engineering problem to be perfected; China approached it like a manufacturing problem to be dominated.</p>
       </div>
 
 
@@ -1883,7 +1883,7 @@ export const articles = [
 
       <p>And then came the uncomfortable part.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fef2f2; border-left: 4px solid #ef4444; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #991b1b; font-weight: 600;">China didn't start by out-innovating Germany—they started by out-buying them, taking apart machines to understand the 'logic' before building their own.</p>
       </div>
 
@@ -1949,7 +1949,7 @@ export const articles = [
 
         </div>
 
-        <div style="margin-top: 2rem; padding: 1rem; background: #fff; border-left: 4px solid #ef4444; border-radius: 4px;">
+        <div style="margin-top: 2rem; padding: 1rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
           <p style="margin: 0; font-size: 0.85rem; color: #374151; line-height: 1.6;">
             <strong>The Pattern:</strong> Buy German precision → Reverse engineer → Build domestic alternative → Undercut original price → Dominate market
           </p>
@@ -1973,8 +1973,8 @@ export const articles = [
 
       <p>German firms were designing great panels. Chinese firms were producing millions of them—cheaper every year.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #ecfdf5; border-left: 4px solid #10b981; border-radius: 4px;">
-        <p style="margin: 0; color: #064e3b; font-weight: 600;">Vertical integration was the ultimate competitive advantage: when you own the polysilicon, the glass, and the logistics, you don't just reduce cost—you increase velocity.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Vertical integration was the ultimate competitive advantage: when you own the polysilicon, the glass, and the logistics, you don't just reduce cost—you increase velocity.</p>
       </div>
 
 
@@ -2018,7 +2018,7 @@ export const articles = [
 
         </div>
 
-        <div style="margin-top: 1.5rem; padding: 1rem; background: #ecfdf5; border-left: 4px solid #10b981; border-radius: 4px;">
+        <div style="margin-top: 1.5rem; padding: 1rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
           <p style="margin: 0; font-size: 0.85rem; color: #065f46; line-height: 1.6;">
             <strong>The Paradox:</strong> Lower prices made solar accessible to billions. But it destroyed the industry that pioneered it.
           </p>
@@ -2039,8 +2039,8 @@ export const articles = [
 
       <p>Vertical integration was the cheat code.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #eff6ff; border-left: 4px solid #3b82f6; border-radius: 4px;">
-        <p style="margin: 0; color: #1e40af; font-weight: 600;">The radical price collapse made solar energy a global reality for the masses, even as it made solar manufacturing a localized monopoly for the scale-leaders.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">The radical price collapse made solar energy a global reality for the masses, even as it made solar manufacturing a localized monopoly for the scale-leaders.</p>
       </div>
 
       <p>Polysilicon → wafer → cell → module → logistics.</p>
@@ -2112,7 +2112,7 @@ export const articles = [
           </div>
         </div>
 
-        <div style="margin-top: 2rem; padding: 1rem; background: #fef2f2; border-left: 4px solid #7f1d1d; border-radius: 4px;">
+        <div style="margin-top: 2rem; padding: 1rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
           <p style="margin: 0; font-size: 0.85rem; color: #374151; line-height: 1.6;">
             <strong>The Cost:</strong> Tens of thousands of jobs lost. Billions in investment wiped out. An entire industry ecosystem dismantled in less than a decade.
           </p>
@@ -2221,8 +2221,8 @@ export const articles = [
 
       <p>That's the difference between innovation leadership and industrial dominance.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fff1f2; border-left: 4px solid #fb7185; border-radius: 4px;">
-        <p style="margin: 0; color: #9f1239; font-weight: 600;">Germany optimized for the best product; China optimized for the most dependent world.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Germany optimized for the best product; China optimized for the most dependent world.</p>
       </div>
 
 
@@ -2266,7 +2266,7 @@ export const articles = [
 
       <p>If you only innovate… and don't scale… someone else will industrialize your future.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #eef2ff; border-left: 4px solid #6366f1; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #3730a3; font-weight: 600;">The lesson of the solar war is brutal: Innovation is the spark, but industrial scale is the fire that sustains the ecosystem.</p>
       </div>
 
@@ -2360,7 +2360,7 @@ export const articles = [
       <p>React Native relies on a bridge. Your JavaScript code sends messages to the Native thread. JSON goes back and forth. It’s clever, but it’s a middleman.</p>
       <p>And in performance, the middleman is where the bottleneck lives.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f5f3ff; border-left: 4px solid #8b5cf6; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #4c1d95; font-weight: 600;">Flutter doesn't just build apps; it paints them. By taking control of every pixel, it bypasses the architectural bottlenecks that have plagued cross-platform development for years.</p>
       </div>
 
@@ -2427,8 +2427,8 @@ export const articles = [
       <p>At first, it’s weird. “Everything is a widget?” Yes using code to build UI feels wrong initially.</p>
       <p>But then you click. You realize it forces you to think in components. In trees. It makes the logic visual.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f7fee7; border-left: 4px solid #84cc16; border-radius: 4px;">
-        <p style="margin: 0; color: #365314; font-weight: 600;">The 'Just' trap: In engineering, 'just use what you know' is often the shortcut that leads to the longest road. Sometimes, the right tool is worth the new learning curve.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">The 'Just' trap: In engineering, 'just use what you know' is often the shortcut that leads to the longest road. Sometimes, the right tool is worth the new learning curve.</p>
       </div>
 
 
@@ -2494,7 +2494,7 @@ export const articles = [
       <p>Exactly. Today we remember one fact: at one point, Germany conquered almost all of Europe.</p>
       <p>France fell in weeks. Eastern Europe collapsed fast. That’s what decisive war looks like.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fef2f2; border-left: 4px solid #ef4444; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #991b1b; font-weight: 600;">History remembers results, not intentions. A slow invasion is a self-inflicted wound that bleeds a nation's economy, manpower, and global standing every single day.</p>
       </div>
 
@@ -2560,7 +2560,7 @@ export const articles = [
 
       <p>And attrition favors those with global backing, deeper pockets, and time. Not those facing sanctions, isolation, and economic pressure.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fff7ed; border-left: 4px solid #f97316; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #9a3412; font-weight: 600;">Blitzkrieg is a strategy; 'Grindkrieg' is a failure of planning. When a war meant for weeks drags into years, the battlefield shifts from geography to exhaustion.</p>
       </div>
 
@@ -2656,7 +2656,7 @@ export const articles = [
       
       <p>And she wasn’t just present… she dominated.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fdf2f8; border-left: 4px solid #ec4899; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #831843; font-weight: 600;">Marie Curie didn't just win Nobel Prizes; she broke the binary of science. Her presence in those old black-and-white photos is the physical manifestation of defiance against a world that said 'no'.</p>
       </div>
 
@@ -2823,8 +2823,8 @@ export const articles = [
 
       <p>These machines… they’ve become faster, smaller, and more powerful with time. So much so that even someone who can’t form full sentences yet feels entitled to them.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffcf0; border-left: 4px solid #eab308; border-radius: 4px;">
-        <p style="margin: 0; color: #854d0e; font-weight: 600;">We are watching a generation grow up touching glass before touching grass, where hardware sits in the hands of three-year-olds before they even learn to navigate the physical world.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">We are watching a generation grow up touching glass before touching grass, where hardware sits in the hands of three-year-olds before they even learn to navigate the physical world.</p>
       </div>
 
 
@@ -2847,8 +2847,8 @@ export const articles = [
       <p>They could run longer, cooler, and more reliably.</p>
       <p>That single change quietly made personal computing possible.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f7fee7; border-left: 4px solid #84cc16; border-radius: 4px;">
-        <p style="margin: 0; color: #365314; font-weight: 600;">The transistor was the ultimate disruptor—it turned government-sized machines into personal tools and set the stage for every screen you've ever touched.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">The transistor was the ultimate disruptor—it turned government-sized machines into personal tools and set the stage for every screen you've ever touched.</p>
       </div>
 
 
@@ -2945,7 +2945,7 @@ export const articles = [
 
       <p>Moore’s Law wasn’t just about speed—it was about confidence. The confidence that tomorrow’s chip would fix today’s constraints.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f0fdf4; border-left: 4px solid #22c55e; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #166534; font-weight: 600;">Moore's Law was the heartbeat of the digital revolution—it turned 'impossible' into 'just a matter of time'.</p>
       </div>
 
@@ -2967,8 +2967,8 @@ export const articles = [
       <p>No grand roadmap.</p>
       <p>Just evolution—transistors compounding, workloads changing, and the industry adapting around the quiet promise that started it all.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #ecfdf5; border-left: 4px solid #10b981; border-radius: 4px;">
-        <p style="margin: 0; color: #064e3b; font-weight: 600;">The shift to GPUs wasn't just about better graphics; it was about moving from sequential thinking to parallel intelligence, enabling the modern era of AI.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">The shift to GPUs wasn't just about better graphics; it was about moving from sequential thinking to parallel intelligence, enabling the modern era of AI.</p>
       </div>
 
 
@@ -3037,7 +3037,7 @@ export const articles = [
 
       <p>Suddenly, the world went from having zero computers to having a computer on every desk.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fff7ed; border-left: 4px solid #f97316; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #9a3412; font-weight: 600;">The PC revolution wasn't just about selling machines; it was about the shift from institutional computing to personal empowerment—a 'bicycle for the mind'.</p>
       </div>
 
@@ -3054,7 +3054,7 @@ export const articles = [
       <p>On the other side, <strong>Apple</strong>.</p>
       <p>Closed systems. Tight control. Design obsession. Apple didn’t want everyone. They wanted loyal users. And that strategy shaped our idea of premium tech.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f5f3ff; border-left: 4px solid #8b5cf6; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #4c1d95; font-weight: 600;">Operating systems were the first true digital gatekeepers, deciding not just how we interacted with hardware, but who had the power to reach the user.</p>
       </div>
 
@@ -3075,8 +3075,8 @@ export const articles = [
       <p>Static pages. One-way communication. We read. We downloaded. We waited for pages to load.</p>
       <p>It felt slow, but for the first time, information ignored borders.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffbeb; border-left: 4px solid #f59e0b; border-radius: 4px;">
-        <p style="margin: 0; color: #78350f; font-weight: 600;">Web 1.0 was the era of discovery, where information finally broke free from physical boundaries, creating a one-way bridge to the world's knowledge.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Web 1.0 was the era of discovery, where information finally broke free from physical boundaries, creating a one-way bridge to the world's knowledge.</p>
       </div>
 
 
@@ -3108,7 +3108,7 @@ export const articles = [
       
       <p>Distribution beat quality.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fef2f2; border-left: 4px solid #ef4444; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #991b1b; font-weight: 600;">The first browser war proved a brutal lesson in tech business: A 'good enough' product that is already in everyone's hands will almost always beat a 'great' product that requires a separate download.</p>
       </div>
 
@@ -3488,7 +3488,7 @@ export const articles = [
 
       <p>Apple won the profits. But Android won the world.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #ecfeff; border-left: 4px solid #06b6d4; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #164e63; font-weight: 600;">Mobile computing split into two philosophies: Apple's pursuit of the perfect, controlled experience versus Android's pursuit of global scale through openness.</p>
       </div>
 
@@ -3568,7 +3568,7 @@ export const articles = [
 
       <p>We didn’t pay with money. We paid with <strong>attention</strong>. And attention turned out to be the most valuable currency ever discovered.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #eef2ff; border-left: 4px solid #6366f1; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #3730a3; font-weight: 600;">In the era of Social Media, if the product is free, you aren't the customer—you are the product being sold to the highest bidder in the attention marketplace.</p>
       </div>
 
@@ -3899,8 +3899,8 @@ export const articles = [
       <p>The internet gave us access to information.</p>
       <p>Generative AI gives us the ability to use that information instantly.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #eff6ff; border-left: 4px solid #3b82f6; border-radius: 4px;">
-        <p style="margin: 0; color: #1e40af; font-weight: 600;">The internet gave us access to a world of information, but Generative AI gives us the capability to actually use that information instantly to build, create, and solve problems.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">The internet gave us access to a world of information, but Generative AI gives us the capability to actually use that information instantly to build, create, and solve problems.</p>
       </div>
 
 
@@ -3974,8 +3974,8 @@ export const articles = [
           Users want answers, not homework.
         </p>
 
-        <div style="margin: 2rem 0; padding: 1.5rem; background: #faf5ff; border-left: 4px solid #a855f7; border-radius: 4px;">
-          <p style="margin: 0; color: #6b21a8; font-weight: 600;">The ultimate winner in the search war won't be the one with the most links, but the one who respects the user's time by providing direct, accurate answers in plain language.</p>
+        <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+          <p style="margin: 0; color: #111827; font-weight: 600;">The ultimate winner in the search war won't be the one with the most links, but the one who respects the user's time by providing direct, accurate answers in plain language.</p>
         </div>
 
       </div>
@@ -4188,8 +4188,8 @@ export const articles = [
       <p>And this time, the bottleneck isn’t imagination—</p>
       <p>—it’s infrastructure.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f8fafc; border-left: 4px solid #64748b; border-radius: 4px;">
-        <p style="margin: 0; color: #334155; font-weight: 600;">AI changes who can do what, but its growth is now physically limited by the watts we can generate and the chips we can fabricate.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">AI changes who can do what, but its growth is now physically limited by the watts we can generate and the chips we can fabricate.</p>
       </div>
 
 
@@ -4293,8 +4293,8 @@ export const articles = [
       <p>This model shaped Web 2.0.</p>
       <p>Social media, marketplaces, SaaS—growth first, sustainability later.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fff1f2; border-left: 4px solid #fb7185; border-radius: 4px;">
-        <p style="margin: 0; color: #9f1239; font-weight: 600;">Venture Capital is the 'time machine' of tech—it allows founders to buy years of experimentation and growth before the market forces them to prove they can actually make money.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Venture Capital is the 'time machine' of tech—it allows founders to buy years of experimentation and growth before the market forces them to prove they can actually make money.</p>
       </div>
 
 
@@ -4331,7 +4331,7 @@ export const articles = [
            <div style="position: absolute; left: -30px; top: 50%; transform: rotate(-90deg); color: #52525b; font-size: 0.8rem;">Scale (Users/Revenue)</div>
         </div>
         
-        <div style="margin-top: 2rem; padding: 1rem; background: #fef2f2; border-left: 4px solid #ef4444; border-radius: 4px;">
+        <div style="margin-top: 2rem; padding: 1rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
           <p style="margin: 0; font-size: 0.85rem; color: #7f1d1d; line-height: 1.6;">
             <strong>The Strategy:</strong> Burn cash to buy speed. Capture the market before unit economics even matter.
           </p>
@@ -4374,7 +4374,7 @@ export const articles = [
       <p>Video replaced text.</p>
       <p>Apps replaced websites.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fdf2f8; border-left: 4px solid #ec4899; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #831843; font-weight: 600;">Jio's launch was the 'Big Bang' of the Indian internet—it transformed connectivity from a luxury for the few into a basic right for the billion.</p>
       </div>
 
@@ -4422,7 +4422,7 @@ export const articles = [
            <!-- Bar 6: 2024 -->
           <div style="flex: 1; display: flex; flex-direction: column; align-items: center; justify-content: flex-end; height: 100%;">
              <div style="width: 100%; height: 95%; background: #1e40af; border-radius: 4px 4px 0 0; position: relative;">
-                 <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); color: #1e40af; font-size: 0.7rem; font-weight: 700; white-space: nowrap;">20 GB/Month</div>
+                 <div style="position: absolute; top: -25px; left: 50%; transform: translateX(-50%); color: #111827; font-size: 0.7rem; font-weight: 700; white-space: nowrap;">20 GB/Month</div>
              </div>
              <span style="font-size: 0.75rem; color: #18181b; font-weight: 600; margin-top: 8px;">2024</span>
           </div>
@@ -4520,8 +4520,8 @@ export const articles = [
           When money moves at the speed of software, velocity explodes.
         </p>
 
-        <div style="margin: 2rem 0; padding: 1.5rem; background: #f0fdfa; border-left: 4px solid #14b8a6; border-radius: 4px;">
-          <p style="margin: 0; color: #0f766e; font-weight: 600;">UPI solved the trust gap in the digital economy, turning the phone into a global wallet and making 'digital-first' the default behavior across every layer of society.</p>
+        <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+          <p style="margin: 0; color: #111827; font-weight: 600;">UPI solved the trust gap in the digital economy, turning the phone into a global wallet and making 'digital-first' the default behavior across every layer of society.</p>
         </div>
 
       </div>
@@ -4875,7 +4875,7 @@ export const articles = [
           </div>
         </div>
 
-        <div style="margin-top: 2rem; padding: 1rem; background: #fff; border-left: 4px solid #8b5cf6; border-radius: 4px;">
+        <div style="margin-top: 2rem; padding: 1rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
           <p style="margin: 0; font-size: 0.85rem; color: #374151; line-height: 1.6;">
             <strong>From 2007 to today:</strong> Indian startups went from solving basic problems to building infrastructure that hundreds of millions depend on daily.
           </p>
@@ -5126,8 +5126,8 @@ export const articles = [
 
       <p>He called it ideological subversion. I call it—making people hate each other without knowing who benefits.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f8fafc; border-left: 4px solid #64748b; border-radius: 4px;">
-        <p style="margin: 0; color: #334155; font-weight: 600;">Ideological subversion isn't a theory; it's the slow, generational process of making a society reject its own values until belief becomes identity and facts no longer matter.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Ideological subversion isn't a theory; it's the slow, generational process of making a society reject its own values until belief becomes identity and facts no longer matter.</p>
       </div>
 
 
@@ -5234,8 +5234,8 @@ export const articles = [
 
       <p>Exactly. Neighbours stop listening to each other. Families argue at dinner tables. Everyone is angry, but no one remembers why.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffbeb; border-left: 4px solid #f59e0b; border-radius: 4px;">
-        <p style="margin: 0; color: #78350f; font-weight: 600;">When belief becomes identity, conversation dies. The ultimate victory of subversion is when people defend their own brainwashing as their 'truth'.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">When belief becomes identity, conversation dies. The ultimate victory of subversion is when people defend their own brainwashing as their 'truth'.</p>
       </div>
 
 
@@ -5378,8 +5378,8 @@ export const articles = [
 
       <p>That’s the thing. We talk a lot about alliances today, but some friendships were built quietly, long before hashtags and headlines. Zhukov on that elephant wasn’t just a photo. It was a statement—Russia saw us, trusted us, and stood with us.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fff1f2; border-left: 4px solid #fb7185; border-radius: 4px;">
-        <p style="margin: 0; color: #9f1239; font-weight: 600;">Friendships between nations aren't built on hashtags; they're forged in the quiet recognition of equals. Marshal Zhukov on an elephant in 1957 was a statement of trust that outlived the Cold War.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Friendships between nations aren't built on hashtags; they're forged in the quiet recognition of equals. Marshal Zhukov on an elephant in 1957 was a statement of trust that outlived the Cold War.</p>
       </div>
 
 
@@ -5410,7 +5410,7 @@ export const articles = [
 
       <p>Exactly. Globalisation wasn’t a charity scheme. It was a classroom. China was the most serious student.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #ecfeff; border-left: 4px solid #06b6d4; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #164e63; font-weight: 600;">Globalisation wasn't a charity scheme; it was a masterclass. America taught the world how to globalise, and China learned how to dominate it by treating factories as leverage, not baggage.</p>
       </div>
 
@@ -5455,8 +5455,8 @@ export const articles = [
 
       <p>Design without manufacturing is theory. Manufacturing turns theory into dominance.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f0fdfa; border-left: 4px solid #14b8a6; border-radius: 4px;">
-        <p style="margin: 0; color: #0f766e; font-weight: 600;">Design is theory; manufacturing is dominance. When you outsource the building, you eventually outsource the learning—and whoever learns the fastest owns the future.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Design is theory; manufacturing is dominance. When you outsource the building, you eventually outsource the learning—and whoever learns the fastest owns the future.</p>
       </div>
 
 
@@ -5756,7 +5756,7 @@ export const articles = [
 
         </div>
 
-        <div style="margin-top: 2rem; padding: 1rem; background: #fff3cd; border-left: 4px solid #ffc107; border-radius: 4px;">
+        <div style="margin-top: 2rem; padding: 1rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
           <p style="margin: 0; font-size: 0.85rem; color: #856404; line-height: 1.6;">
             <strong>Chinese brands dominate:</strong> 68.3% combined market share (Vivo, Xiaomi, Realme, Oppo, Motorola)
           </p>
@@ -5983,7 +5983,7 @@ export const articles = [
 
       <p>We are fighting to be the factory floor, while the US and China own the intellectual property.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fff7ed; border-left: 4px solid #f97316; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #9a3412; font-weight: 600;">Rajan's warning is clear: If we fight for the bottom of the value curve (assembly) while others own the top (IP), we might grow our GDP, but we won't grow our people's wealth.</p>
       </div>
 
@@ -6127,8 +6127,8 @@ export const articles = [
       <p>Factories raise GDP.</p>
       <p class="story-punchline">Innovation raises income.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f7fee7; border-left: 4px solid #84cc16; border-radius: 4px;">
-        <p style="margin: 0; color: #365314; font-weight: 600;">Innovation raises income; factories raise GDP. Investing in human capital isn't just a social goal—it's the only way to escape the low-value trap of late-stage industrialization.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Innovation raises income; factories raise GDP. Investing in human capital isn't just a social goal—it's the only way to escape the low-value trap of late-stage industrialization.</p>
       </div>
 
 
@@ -6200,7 +6200,7 @@ export const articles = [
 
       <p>Exactly. Before Facebook, we already had platforms like Friendster and MySpace. People were already adding friends, posting photos, even customising profiles with loud music and glitter backgrounds.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #eef2ff; border-left: 4px solid #6366f1; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #3730a3; font-weight: 600;">Facebook's true innovation wasn't 'connecting people'; it was monetizing presence. By turning emotions into data and dopamine into a business model, it didn't just reflect society—it reshaped it.</p>
       </div>
 
@@ -6266,7 +6266,7 @@ export const articles = [
 
       <p>And slowly, we stopped visiting profiles. The feed became the internet.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f5f3ff; border-left: 4px solid #8b5cf6; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #4c1d95; font-weight: 600;">The News Feed wasn't a feature; it was a shift in the internet's power structure. It moved us from visiting the internet to being fed by it, one dopamine-triggered scroll at a time.</p>
       </div>
 
@@ -6617,7 +6617,7 @@ export const articles = [
 
       <p>So Google made a radical decision: Don’t sell the operating system. Give it away.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f0fdf4; border-left: 4px solid #22c55e; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #166534; font-weight: 600;">Android wasn't a phone business; it was a moat for search. By giving the OS away for free, Google ensured it would own the highway where the world's data travels—no matter who built the car.</p>
       </div>
 
@@ -6883,7 +6883,7 @@ export const articles = [
 
       <p>Both succeeded. Just in completely different ways.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #eff6ff; border-left: 4px solid #3b82f6; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #1e3a8a; font-weight: 600;">The mobile war proved there are two ways to win: Apple chose the margin and owned the profits; Android chose the volume and owned the world.</p>
       </div>
 
@@ -6915,7 +6915,7 @@ export const articles = [
 
       <p>That’s exactly where the story starts. You see, early on, we chose software over hardware. And at that time, it made sense. Software needed less capital, gave faster returns, and aligned well with our talent pool. Writing code was cheaper than building factories that cost billions.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fef2f2; border-left: 4px solid #ef4444; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #991b1b; font-weight: 600;">For decades, we chose the safety of software over the risk of hardware. We built the code that runs the world's chips, but someone else built the factories that fabricate them.</p>
       </div>
 
@@ -7040,8 +7040,8 @@ export const articles = [
 
       <p>That’s a good way to put it. We lost time, no doubt. But if we stay consistent—same policies, long-term vision, and patience—we can still build something meaningful. Semiconductor success isn’t a sprint. It’s a 20-year commitment.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffcf0; border-left: 4px solid #eab308; border-radius: 4px;">
-        <p style="margin: 0; color: #854d0e; font-weight: 600;">Missing the semiconductor bus wasn't just an economic delay; it was a strategic lesson. Today, we realize that a nation that codes but doesn't fabricate is a nation that remains dependent on foreign supply chains.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Missing the semiconductor bus wasn't just an economic delay; it was a strategic lesson. Today, we realize that a nation that codes but doesn't fabricate is a nation that remains dependent on foreign supply chains.</p>
       </div>
 
 
@@ -7081,7 +7081,7 @@ export const articles = [
 
       <p>More than that. In the 20th century, global power was a men’s club. Suits, cigars, war rooms. And yet, here are two women leading nations that once stood on opposite sides of empire and history.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f5f3ff; border-left: 4px solid #8b5cf6; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #4c1d95; font-weight: 600;">Power recognizes power. The 1984 frame of Indira Gandhi and Margaret Thatcher is a rare window into an era where two women led nations through the coldest years of geopolitical friction with quiet, unshakable authority.</p>
       </div>
 
@@ -7117,7 +7117,7 @@ export const articles = [
           <div style="position: absolute; bottom: 30px; left: 52%; width: 40%; height: 40px; background: #1e40af; border-radius: 4px; display: flex; align-items: center; justify-content: center; box-shadow: 0 2px 4px rgba(30, 64, 175, 0.2);">
              <span style="color: white; font-weight: 600; font-size: 0.85rem;">Margaret Thatcher</span>
           </div>
-          <div style="position: absolute; bottom: 75px; left: 52%; font-size: 0.75rem; color: #1e40af; font-weight: 700;">1979-1990</div>
+          <div style="position: absolute; bottom: 75px; left: 52%; font-size: 0.75rem; color: #111827; font-weight: 700;">1979-1990</div>
 
           <!-- The Overlap Highlight -->
           <div style="position: absolute; top: 20px; bottom: 20px; left: 55%; width: 15%; border: 2px dashed #52525b; border-radius: 8px; z-index: -1; background: rgba(0,0,0,0.02);"></div>
@@ -7147,7 +7147,7 @@ export const articles = [
 
       <p>Exactly. Thatcher once wrote about Indira Gandhi ji in her memoir <em>The Downing Street Years</em>:</p>
 
-      <blockquote style="border-left: 4px solid #e5e7eb; padding-left: 1rem; font-style: italic; margin: 1.5rem 0; color: #4b5563;">
+      <blockquote style="border-left: 4px solid #18181b; padding-left: 1rem; font-style: italic; margin: 1.5rem 0; color: #4b5563;">
         “A woman of extraordinary authority, courage, and presence.”
       </blockquote>
 
@@ -7173,7 +7173,7 @@ export const articles = [
 
       <p>Exactly. Indira Gandhi ji once wrote in <em>My Truth</em>:</p>
 
-      <blockquote style="border-left: 4px solid #e5e7eb; padding-left: 1rem; font-style: italic; margin: 1.5rem 0; color: #4b5563;">
+      <blockquote style="border-left: 4px solid #18181b; padding-left: 1rem; font-style: italic; margin: 1.5rem 0; color: #4b5563;">
         “Power is useful only when it is restrained.”
       </blockquote>
 
@@ -7187,7 +7187,7 @@ export const articles = [
 
       <p>Margaret Thatcher was deeply shaken. In her official statement, she said:</p>
 
-      <blockquote style="border-left: 4px solid #e5e7eb; padding-left: 1rem; font-style: italic; margin: 1.5rem 0; color: #4b5563;">
+      <blockquote style="border-left: 4px solid #18181b; padding-left: 1rem; font-style: italic; margin: 1.5rem 0; color: #4b5563;">
         “Mrs Gandhi was a towering figure on the world stage… her death is a tragedy not only for India, but for all who value courage in leadership.”
       </blockquote>
 
@@ -7302,8 +7302,8 @@ export const articles = [
 
       <p>It wasn’t about aggression. It was about never being blackmailed again.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fff1f2; border-left: 4px solid #fb7185; border-radius: 4px;">
-        <p style="margin: 0; color: #9f1239; font-weight: 600;">Our nuclear story isn't just about science; it's about self-respect. From Bhabha's three-stage vision to Pokhran-II, we proved that strategic depth is earned through scientific defiance, not diplomatic permission.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Our nuclear story isn't just about science; it's about self-respect. From Bhabha's three-stage vision to Pokhran-II, we proved that strategic depth is earned through scientific defiance, not diplomatic permission.</p>
       </div>
 
 
@@ -7438,8 +7438,8 @@ export const articles = [
 
       <p>Because this slogan didn’t come from comfort. It came from fear, loss, and a moment when the country was standing at the edge—unsure whether it could defend itself and sustain its people at once.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffbeb; border-left: 4px solid #f59e0b; border-radius: 4px;">
-        <p style="margin: 0; color: #78350f; font-weight: 600;">Shastri's slogan wasn't just a morale booster; it was a survival strategy. It recognized that a nation's soul is protected by its soldiers, but its pulse is sustained by its farmers.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Shastri's slogan wasn't just a morale booster; it was a survival strategy. It recognized that a nation's soul is protected by its soldiers, but its pulse is sustained by its farmers.</p>
       </div>
 
 
@@ -7585,8 +7585,8 @@ export const articles = [
       <p>Getting the right answer is easy. Getting it efficiently is engineering.</p>
       <p>I realized I didn’t understand <em>scale</em>.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f8fafc; border-left: 4px solid #64748b; border-radius: 4px;">
-        <p style="margin: 0; color: #334155; font-weight: 600;">Getting the right answer is easy; getting it efficiently is engineering. DSA isn't about passing interviews—it's about learning the physics of scale, where the difference between O(n) and O(n²) is the difference between success and a system crash.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Getting the right answer is easy; getting it efficiently is engineering. DSA isn't about passing interviews—it's about learning the physics of scale, where the difference between O(n) and O(n²) is the difference between success and a system crash.</p>
       </div>
 
 
@@ -7828,7 +7828,7 @@ export const articles = [
 
       <p>That’s a story worth talking about. ✈️</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #eef2ff; border-left: 4px solid #6366f1; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #3730a3; font-weight: 600;">Aviation isn't just a factory; it's a network. While we reach for the stars with ISRO, the sky for commercial flight remains a duopoly because building the plane is easy—building the ecosystem and the trust that keeps it in the air takes decades.</p>
       </div>
 
@@ -8029,8 +8029,8 @@ export const articles = [
 
       <p>And maybe the real answer is uncomfortable—we chose short-term growth over long-term planning. Now, we’re paying the price.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffbeb; border-left: 4px solid #f59e0b; border-radius: 4px;">
-        <p style="margin: 0; color: #78350f; font-weight: 600;">Our cities aren't chaotic by accident; they're chaotic by policy. We chose short-term growth over long-term planning, resulting in cities where rain becomes a life-threatening event instead of a seasonal relief.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">Our cities aren't chaotic by accident; they're chaotic by policy. We chose short-term growth over long-term planning, resulting in cities where rain becomes a life-threatening event instead of a seasonal relief.</p>
       </div>
 
     `
@@ -8119,7 +8119,7 @@ export const articles = [
 
       <p>Deep down, we all know this isn’t progress. This is adjustment. Adjustment to a world we slowly damaged—and then tried to fix with machines instead of real solutions.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fef2f2; border-left: 4px solid #ef4444; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #991b1b; font-weight: 600;">In our cities today, machines have replaced nature. <span style="color: #000; font-weight: 800;">Air purifiers</span>, <span style="color: #000; font-weight: 800;">water filters</span>, and <span style="color: #000; font-weight: 800;">air conditioners</span> aren't luxuries anymore. They are survival tools in a world we broke quietly, and now keep alive with electricity.</p>
       </div>
 
@@ -8261,8 +8261,8 @@ export const articles = [
 
       <p>That day, every gamer like us will feel seen.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fff1f2; border-left: 4px solid #fb7185; border-radius: 4px;">
-        <p style="margin: 0; color: #9f1239; font-weight: 600;">India is already an open-world chaos simulator—traffic, monsoons, festivals, and legends. We don't lack content for a world-class game; we lack the courage to tell our own stories with the same satirical depth as Liberty City.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">India is already an open-world chaos simulator—traffic, monsoons, festivals, and legends. We don't lack content for a world-class game; we lack the courage to tell our own stories with the same satirical depth as Liberty City.</p>
       </div>
 
     `
@@ -8288,7 +8288,7 @@ export const articles = [
 
       <p>Exactly. Frameworks aren’t disappearing—but their importance is changing. Earlier, knowing a framework meant you could build. Now, knowing <em>why</em> something should be built matters more than <em>how</em> it’s coded.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fdf2f2; border-left: 4px solid #ef4444; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #991b1b; font-weight: 600;">The framework isn't the skill anymore. The logic is.</p>
       </div>
 
@@ -8339,7 +8339,7 @@ export const articles = [
 
       <p>And that's why it's at risk. AI is extremely good at generating CRUD APIs, schemas, and validation logic. You can literally say: <em>“Build a user management system with login, roles, and CRUD APIs”</em> …and AI will give you 80–90% working code.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffbeb; border-left: 4px solid #f59e0b; border-radius: 4px;">
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
         <p style="margin: 0; color: #92400e; font-weight: 600;">AI replaces people who only do what can be described in a prompt. CRUD fits perfectly in a prompt.</p>
       </div>
 
@@ -8414,8 +8414,8 @@ export const articles = [
 
       <p>…but to people who know what code should exist—and why.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #ecfdf5; border-left: 4px solid #10b981; border-radius: 4px;">
-        <p style="margin: 0; color: #064e3b; font-weight: 600;">AI is excellent at writing code but terrible at owning responsibility. The future belongs not to those who can type the fastest, but to those who can think the architectural logic through before the first prompt is ever written.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f9fafb; border-left: 4px solid #18181b; border-radius: 4px;">
+        <p style="margin: 0; color: #111827; font-weight: 600;">AI is excellent at writing code but terrible at owning responsibility. The future belongs not to those who can type the fastest, but to those who can think the architectural logic through before the first prompt is ever written.</p>
       </div>
 
     `
