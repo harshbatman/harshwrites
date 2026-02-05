@@ -4805,34 +4805,34 @@ export const articles = [
               <div style="font-size: 0.75rem; font-weight: 600; color: #3b82f6;">2016</div>
             </div>
 
-            <!-- Groww 2016 (New) -->
+            <!-- Groww 2016 -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
-              <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #059669; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
-                <img src="https://www.google.com/s2/favicons?domain=groww.in&sz=128" alt="Groww" style="width: 64px; height: 64px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
-                <div style="font-weight: 700; color: #059669; font-size: 0.9rem; margin-bottom: 0.25rem;">Groww</div>
-                <div style="font-size: 0.7rem; color: #6b7280;">Investing</div>
+              <div style="background: white; padding: 1.25rem 1rem; border-radius: 12px; border: 1px solid var(--color-border); box-shadow: var(--shadow-sm); text-align: center; margin-bottom: 1rem; width: 100%;">
+                <img src="https://www.google.com/s2/favicons?domain=groww.in&sz=128" alt="Groww" style="width: 60px; height: 60px; object-fit: contain; margin: 0 auto 0.75rem; border-radius: 4px;" />
+                <div style="font-weight: 700; color: #059669; font-size: 0.85rem; margin-bottom: 0.2rem; letter-spacing: 0.5px;">Groww</div>
+                <div style="font-size: 0.7rem; color: var(--color-text-tertiary);">Investing</div>
               </div>
               <div style="width: 12px; height: 12px; background: #059669; border-radius: 50%; border: 3px solid #fafafa; box-shadow: 0 0 0 2px #059669; margin-bottom: 0.5rem;"></div>
               <div style="font-size: 0.75rem; font-weight: 600; color: #059669;">2016</div>
             </div>
 
-            <!-- CRED 2018 (Existing) -->
+            <!-- CRED 2018 -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
-              <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #18181b; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
-                <img src="/logos/cred.svg" alt="CRED" style="width: 64px; height: 64px; object-fit: contain; margin: 0 auto 0.5rem;" />
-                <div style="font-weight: 700; color: #18181b; font-size: 0.9rem; margin-bottom: 0.25rem;">CRED</div>
-                <div style="font-size: 0.7rem; color: #6b7280;">Credit Cards</div>
+              <div style="background: white; padding: 1.25rem 1rem; border-radius: 12px; border: 1px solid var(--color-border); box-shadow: var(--shadow-sm); text-align: center; margin-bottom: 1rem; width: 100%;">
+                <img src="/logos/cred.svg" alt="CRED" style="width: 60px; height: 60px; object-fit: contain; margin: 0 auto 0.75rem;" />
+                <div style="font-weight: 700; color: var(--color-text-primary); font-size: 0.85rem; margin-bottom: 0.2rem; letter-spacing: 0.5px;">CRED</div>
+                <div style="font-size: 0.7rem; color: var(--color-text-tertiary);">Credit Cards</div>
               </div>
-              <div style="width: 12px; height: 12px; background: #18181b; border-radius: 50%; border: 3px solid #fafafa; box-shadow: 0 0 0 2px #18181b; margin-bottom: 0.5rem;"></div>
-              <div style="font-size: 0.75rem; font-weight: 600; color: #18181b;">2018</div>
+              <div style="width: 12px; height: 12px; background: var(--color-text-primary); border-radius: 50%; border: 3px solid #fafafa; box-shadow: 0 0 0 2px var(--color-text-primary); margin-bottom: 0.5rem;"></div>
+              <div style="font-size: 0.75rem; font-weight: 600; color: var(--color-text-primary);">2018</div>
             </div>
 
-            <!-- BharatPe 2018 (New) -->
+            <!-- BharatPe 2018 -->
             <div style="position: relative; display: flex; flex-direction: column; align-items: center; min-width: 140px;">
-              <div style="background: white; padding: 1rem; border-radius: 8px; border: 2px solid #06b6d4; box-shadow: 0 2px 4px rgba(0,0,0,0.1); text-align: center; margin-bottom: 1rem;">
-                <img src="https://www.google.com/s2/favicons?domain=bharatpe.com&sz=128" alt="BharatPe" style="width: 64px; height: 64px; object-fit: contain; margin: 0 auto 0.5rem; border-radius: 4px;" />
-                <div style="font-weight: 700; color: #06b6d4; font-size: 0.9rem; margin-bottom: 0.25rem;">BharatPe</div>
-                <div style="font-size: 0.7rem; color: #6b7280;">Fintech</div>
+              <div style="background: white; padding: 1.25rem 1rem; border-radius: 12px; border: 1px solid var(--color-border); box-shadow: var(--shadow-sm); text-align: center; margin-bottom: 1rem; width: 100%;">
+                <img src="https://www.google.com/s2/favicons?domain=bharatpe.com&sz=128" alt="BharatPe" style="width: 60px; height: 60px; object-fit: contain; margin: 0 auto 0.75rem; border-radius: 4px;" />
+                <div style="font-weight: 700; color: #06b6d4; font-size: 0.85rem; margin-bottom: 0.2rem; letter-spacing: 0.5px;">BharatPe</div>
+                <div style="font-size: 0.7rem; color: var(--color-text-tertiary);">Fintech</div>
               </div>
               <div style="width: 12px; height: 12px; background: #06b6d4; border-radius: 50%; border: 3px solid #fafafa; box-shadow: 0 0 0 2px #06b6d4; margin-bottom: 0.5rem;"></div>
               <div style="font-size: 0.75rem; font-weight: 600; color: #06b6d4;">2018</div>
