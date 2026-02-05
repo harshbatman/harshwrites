@@ -763,11 +763,15 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The 'Rent is Burning Money' Lie</h3>
 
-      <p>The most common argument you hear is: "Why pay rent when you can pay EMI? At least you'll have an asset at the end."</p>
-
-      <p>But let's look at the "hidden" rent you pay when you buy. If you put down ₹40 lakh as a down payment for a ₹1.5 crore house, that ₹40 lakh is no longer earning for you. If it was in a simple index fund or even a fixed deposit, it could be earning you ₹3-4 lakh a year. That's about ₹30,000 every month—lost. That is your *invisible rent*.</p>
+      <p>The most common argument you hear is: "Why pay rent when you can pay EMI? At least you'll have an asset at the end." But let's look at the "hidden" rent you pay when you buy. If you put down ₹40 lakh as a down payment for a ₹1.5 crore house, that ₹40 lakh is no longer earning for you. If it was in a simple index fund or even a fixed deposit, it could be earning you ₹3-4 lakh a year. That's about ₹30,000 every month—lost. That is your *invisible rent*.</p>
 
       <p>Then add the interest part of the EMI. In the first 10 years of a home loan, almost 70-80% of your EMI goes just toward interest. That money is gone forever, just like rent. It doesn't build equity. It just builds the bank's profit.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Illusion of Ownership</h3>
+
+      <p>We say proudly, "This is my house." But look at the sale deed. Until the last EMI is paid, the bank holds the original papers. You are essentially a tenant of the bank, but with way more responsibilities. A tenant can leave if the neighbourhood gets noisy or the water supply fails. You? You are stuck with the problem, the property tax, and the loan.</p>
+
+      <p>True ownership only happens when the debt is zero. Until then, you are just managing an asset that the bank technically controls. If you miss three months of payments, the "emotional security" of home ownership vanishes instantly.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Maintenance Trap</h3>
 
@@ -777,17 +781,23 @@ export const articles = [
         <p style="margin: 0; color: #991b1b; font-weight: 600;">A house you live in is not an asset; it's a liability that requires a monthly subscription fee called maintenance and interest.</p>
       </div>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Forced Savings: The Bitter Truth</h3>
+
+      <p>The only real argument in favor of buying is that it's "forced savings." Most of us aren't disciplined enough to invest ₹50,000 every month into an SIP for 20 years. But we *will* pay the EMI because the fear of losing our home is the ultimate motivator.</p>
+
+      <p>If you are someone who lacks the discipline to save, a home loan is a very expensive way to build wealth. You are paying the bank a massive premium (interest) just to force yourself to be disciplined. It works, but at a huge cost to your freedom.</p>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Freedom Premium</h3>
 
-      <p>In your 20s and 30s, your greatest asset isn't your bank balance—it's your *career mobility*. If a better job comes up in another city with a 40% hike, a renter can pack their bags in a weekend. An owner has to think about the EMI, the tenant, the property management, or the painful process of selling.</p>
+      <p>In your 20s and 30s, your greatest asset isn't your bank balance—it's your *career mobility*. If a better job comes up in another city with a 40% hike, a renter can pack their bags in a weekend. An owner has to think about the EMI, the tenant, the property management, or the painful process of selling. We often underestimate the value of being able to say "yes" to life's opportunities because we are tied down by five tons of concrete and a 20-year contract with a bank.</p>
 
-      <p>We often underestimate the value of being able to say "yes" to life's opportunities because we are tied down by five tons of concrete and a 20-year contract with a bank.</p>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Urban Mobility in the 21st Century</h3>
+
+      <p>The world is changing. We change jobs every 3-4 years. We might want to live in a different city, or even a different country. The 1970s model of "one job, one house, one life" is dead. In a world that demands flexibility, locking your entire net worth into a single piece of immovable property is a 20th-century strategy for a 21st-century problem.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Emotional Reality</h3>
 
-      <p>Spreadsheets can't measure the psychological peace of having your "own" four walls. No landlord to tell you not to drill a hole for a painting. No fear of being asked to move out because the owner's son is moving back to the city.</p>
-
-      <p>Bachchon ka bachpan bita hota hai ghar mein. There are memories attached to every corner. You know the neighbors, you know the local shopkeeper. This stability is real, and for many, it is worth the financial trade-off. But let's call it what it is: an emotional purchase, not just a mathematical one.</p>
+      <p>Spreadsheets can't measure the psychological peace of having your "own" four walls. No landlord to tell you not to drill a hole for a painting. No fear of being asked to move out because the owner's son is moving back to the city. Bachchon ka bachpan bita hota hai ghar mein. There are memories attached to every corner. This stability is real, and for many, it is worth the financial trade-off. But let's call it what it is: an emotional purchase, not just a mathematical one.</p>
 
       <div style="margin: 2rem 0; padding: 1.5rem; background: #eef2ff; border-left: 4px solid #6366f1; border-radius: 4px;">
         <p style="margin: 0; color: #3730a3; font-weight: 600;">Owning a home is a lifestyle choice that you fund with your wealth, not a financial decision that builds it.</p>
@@ -797,15 +807,39 @@ export const articles = [
 
       <p>So, what's the answer? It’s not about picking a side. It’s about timing. Rent when you are growing, when you are uncertain, and when you need your capital to work for you. Buy when you have "arrived," when you have the surplus to afford the luxury of stability, and when your life doesn't depend on the next 30 years of interest rates staying low.</p>
 
-      <p>Diversification matters. Don't put all your living years and all your savings into one bucket. Some stocks, some gold, a comfortable rent—and eventually, a house that you own, rather than a house that owns you.</p>
+      <p>Diversification matters. Don't put all your living years and all your savings into one bucket. Some stocks, some gold, a comfortable rent—and eventually, a house that you own, rather than a house that owns you. The debate should stop being about Rent vs Buy. It should be about **Freedom vs. Stability**. And only you know which one you can afford right now.</p>
 
-      <p>The debate should stop being about Rent vs Buy. It should be about **Freedom vs. Stability**. And only you know which one you can afford right now.</p>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Social Tax: Parents & 'Log Kya Kahenge'</h3>
+
+      <p>In India, you don't just buy a house for yourself. You buy it to satisfy your parents, your in-laws, and your distant relatives. The moment you cross 28, the question changes from "How's work?" to "When are you buying a flat?" This is the **Social Tax**. We pay a premium of 20 years of debt just to fit into a definition of success that was written in 1980.</p>
+
+      <p>Our parents saw property grow 50x because India was liberalizing and land was scarce. They think that same miracle will happen again. But they forget that they bought land on the outskirts of the city that eventually became the city center. We are buying flats on the 24th floor in a 500-tower complex that is already 40km away from any workplace. The growth story is not the same.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Investment Reality Check: Bricks vs. Nifty</h3>
+
+      <p>Let's talk about the cold, hard numbers. In most Indian metros, residential real estate appreciation has struggled to beat 5-7% over the last decade. If you add property tax, maintenance, and the initial stamp duty, your real return is even lower. Compare that to the Nifty 50, which has given around 12-14% over the long term without requiring a 30-year commitment or a plumber.</p>
+
+      <p>If you take a ₹1 crore loan, by the time you own the house, you've paid ₹2 crore+ to the bank. For your "investment" to even break even, the house price has to double *just to cover the interest*. That is a very high bar for an asset that is getting older every day.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #f0fdf4; border-left: 4px solid #22c55e; border-radius: 4px;">
+        <p style="margin: 0; color: #166534; font-weight: 600;">If your 'investment' requires you to work 40 hours a week for 20 years just to keep it from being repossessed, it's not an investment—it's a secondary job.</p>
+      </div>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Outskirts Trap</h3>
+
+      <p>Developers love selling dreams of "New Delhi" or "New Mumbai." They show you brochures of swimming pools and clubhouses in the middle of nowhere. But those outskirts often stay outskirts for decades. You end up spending 3 hours a day commuting, 2 hours a day managing water tankers because the municipal line hasn't arrived, and your weekends are spent maintaining a house in a "ghost town."</p>
+
+      <p>Renting allowed you to live 15 minutes away from your office. Buying forced you to live 90 minutes away. How much is those 2 hours of your life worth? Over 20 years, that's thousands of hours lost in traffic—all for the sake of "ownership."</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Psychological Rent</h3>
+
+      <p>There's a hidden cost to ownership that nobody mentions in the brochures: **Mental Real Estate**. When you rent, your mental load regarding the house is close to zero. If the building's lift stops working, it’s a nuisance, but it’s not *your* financial burden. If the neighbourhood property rates drop, it doesn’t keep you up at night.</p>
+
+      <p>When you own, you are always "on." You worry about the seepage in the monsoon, the new construction blocking your view, the society elections, and the fluctuating interest rates. You are paying a "Psychological Rent" every single day in the form of worry and management energy. Renting allows you to spend that mental energy on your work, your family, or your hobbies instead.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Timing is Everything</h3>
 
-      <p>Renting first gives you breathing space. It's a strategic period where you learn how the city works, if your income is truly stable, and if you actually want to settle in that specific pin code for the next three decades. It's not anti-buying; it's about being pro-certainty.</p>
-
-      <p>Buy when you are emotionally ready, financially diversified, and mentally calm—not because society expects it, and definitely not because your relatives are asking. Buy a home when it truly feels like a foundation for your life, rather than a weight on your wings.</p>
+      <p>Renting first gives you breathing space. It's a strategic period where you learn how the city works, if your income is truly stable, and if you actually want to settle in that specific pin code for the next three decades. It's not anti-buying; it's about being pro-certainty. Buy when you are emotionally ready, financially diversified, and mentally calm—not because society expects it. Buy a home when it truly feels like a foundation for your life, rather than a weight on your wings.</p>
 
       <p>Both are tools. Use them wisely.<br/>
       Rent when you need to grow.<br/>
