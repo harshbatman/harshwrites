@@ -906,51 +906,55 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Real Cost of "Affordable"</h3>
 
-      <p>Exactly. In metro cities, a normal flat is what now? ₹1.5 crore? ₹2 crore? And that’s not even luxury—just a decent place where we can live without feeling cramped.</p>
+      <p>Exactly. In metro cities, a normal flat is what now? ₹1.5 crore? ₹2 crore? And that’s not even luxury—just a decent place where we can live without feeling cramped. But that price isn't just a number on a cheque. It's a weight on your chest every Sunday night before the work week starts.</p>
 
       <p>And once we take that home loan, our life decisions are no longer ours. Our salary is already divided before it even comes to us. One part goes to tax, the biggest part goes to EMI, and whatever is left… we call that “life”.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fef2f2; border-left: 4px solid #ef4444; border-radius: 4px;">
-        <p style="margin: 0; color: #991b1b; font-weight: 600;">When your EMI hits 50% of your income, you don't own a house—the house owns your career, your risks, and your mental peace.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #eff6ff; border-left: 4px solid #3b82f6; border-radius: 4px;">
+        <p style="margin: 0; color: #1e40af; font-weight: 600;">When your EMI hits 50% of your income, you don't own a house—the house owns your career, your risks, and your mental peace.</p>
       </div>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Status Symbol Trap</h3>
+
+      <p>Why do we do it? Often, it’s not even for the roof. It’s for the status. In our society, "owning a house" is the ultimate certificate of being a successful adult. Our parents did it, our cousins are doing it, and we feel like if we don't, we are failing.</p>
+
+      <p>But our parents’ world was different. They didn't buy 2BHKs for 20 times their annual salary. They didn't pledge 30 years of their freedom for a piece of concrete in a city where they can barely breathe. We are chasing an old version of the dream with a new, much deadlier price tag.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Math Nobody Explains</h3>
+
+      <p>Let's look at the math for a second. If you take a loan of ₹1 crore at 9% for 20 years, you don't pay back ₹1 crore. You pay back nearly ₹2.15 crore. You are literally buying one house for yourself and one house for the bank.</p>
+
+      <p>Think about that. For twenty years, you will work from 9 to 6. From January to June, you are basically working just to pay the bank's interest. Only from July onwards do you start earning for your own life. That is half a decade of your working life given away for free.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fef2f2; border-left: 4px solid #ef4444; border-radius: 4px;">
+        <p style="margin: 0; color: #991b1b; font-weight: 600;">The bank isn't your partner in building a home; they are the landlord of your future hours.</p>
+      </div>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Financially Stuck Generation</h3>
 
-      <p>That’s the real housing crisis no one talks about. It’s not just about shortage of houses. It’s about shortage of breathing space. We are financially stuck the day we sign that loan paper.</p>
+      <p>That’s the real housing crisis no one talks about. It’s not just about shortage of houses. It’s about shortage of breathing space. We are financially stuck the day we sign that loan paper. We tell ourselves, “At least it’s our own house.” But is it really ours? Miss a few EMIs and the bank reminds us very clearly who owns it.</p>
 
-      <p>We tell ourselves, “At least it’s our own house.” But is it really ours? Miss a few EMIs and the bank reminds us very clearly who owns it.</p>
+      <p>I know people who wanted to quit their stressful corporate jobs and start a small cafe, or go back to study, or just take a year off to travel. But they can't. Because the 1st of every month is a deadline that doesn't care about your "passion."</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">From Managing to Surviving</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Redefining the "Rental Trap"</h3>
 
-      <p>And the EMI never feels small. In the beginning, we say, “We’ll manage.” But 40–50% of our monthly income goes straight into EMI. Then come school fees, medical bills, parents’ needs, inflation… and suddenly managing feels like surviving.</p>
+      <p>We are told that "renting is throwing money away." But is it? Renting is buying the option to leave. Renting is buying the ability to move to a better job in another city without worrying about selling a flat. Renting is keeping your capital so you can invest in yourself.</p>
 
-      <p>What hurts more is the timeline. We start paying EMIs in our late 20s or early 30s, and we finish in our late 50s or 60s. That’s our entire working life tied to one loan.</p>
+      <p>The real "throwing money away" is paying 9% interest on a property that grows at 4% in value, while you lose your health and your best years to pay for it.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Silent EMI Crisis</h3>
 
-      <p>Which means we can’t take risks. We can’t easily switch careers. We can’t start something of our own. Even a break feels dangerous because EMI doesn’t care about our mental health.</p>
+      <p>Which means we can’t take risks. Even a break feels dangerous because EMI doesn’t care about our mental health. That’s the EMI crisis. It quietly controls our choices. We stay in jobs we don’t like, cities we can’t afford, and routines that drain us—because missing an EMI is not an option.</p>
 
-      <p>That’s the EMI crisis. It quietly controls our choices. We stay in jobs we don’t like, cities we can’t afford, and routines that drain us—because missing an EMI is not an option.</p>
-
-      <p>And prices keep rising faster than our salaries. Houses become more expensive every year, but our income grows slowly. So we borrow more, stretch the loan longer, and dig ourselves deeper.</p>
-
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #f5f3ff; border-left: 4px solid #8b5cf6; border-radius: 4px;">
-        <p style="margin: 0; color: #4c1d95; font-weight: 600;">The 'American Dream' of home ownership has become an 'Indian Reality' of financial suffocation for an entire generation of salaried workers.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffbeb; border-left: 4px solid #f59e0b; border-radius: 4px;">
+        <p style="margin: 0; color: #78350f; font-weight: 600;">We have become a generation of 'well-settled' prisoners, living in beautiful cages whose keys are held by the bank.</p>
       </div>
-
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">A Contract for Life</h3>
 
-      <p>What’s ironic is that housing was supposed to bring stability. Instead, it brings constant pressure. Instead of feeling secure, we feel trapped.</p>
+      <p>What’s ironic is that housing was supposed to bring stability. Instead, it brings constant pressure. Instead of feeling secure, we feel trapped. For us, a home loan is not just a financial product. It’s a life contract. It decides how we live, how much we save, and how freely we can dream.</p>
 
-      <p>For us, a home loan is not just a financial product. It’s a life contract. It decides how we live, how much we save, and how freely we can dream.</p>
-
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Wrong Question</h3>
-
-      <p>Maybe the real question we should ask is not “Can we get a home loan?” but “At what cost to our life?”</p>
-
-      <p>Because a house should give us peace. Not thirty years of anxiety, EMIs, and fear of one bad month ruining everything.</p>
+      <p>Maybe the real question we should ask is not “Can we get a home loan?” but “At what cost to our life?” Because a house should give us peace. Not thirty years of anxiety, EMIs, and fear of one bad month ruining everything.</p>
 
       <p>Until that changes, the housing crisis in India is not just about homes. It’s about us—our freedom, our time, and our future, all pledged against an EMI.</p>
     `
