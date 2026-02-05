@@ -134,7 +134,7 @@ export const articles = [
 
   {
     id: "failed-urban-infrastructure-high-rise-societies",
-    views: 22240,
+    views: 32240,
     publishDate: "2024-01-21",
     title: "Failed Urban Infrastructure & the Rise of High-Rise Societies",
     author: "Harsh Mahto",
@@ -2789,7 +2789,7 @@ export const articles = [
   },
   {
     id: "transistors-to-ai",
-    views: 27240,
+    views: 47240,
     publishDate: "2023-09-20",
     title: "From Transistors to AI",
     author: "Harsh Mahto",
