@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { motion as Motion } from 'framer-motion';
-import { ArrowLeft, User, Calendar, Share2, Eye, X, Volume2, Square, Play, Pause, RotateCcw, Gauge, Clock } from 'lucide-react';
+import { ArrowLeft, User, Calendar, Share2, Eye, X, Volume2, Square, Play, Pause, RotateCw, Gauge, Clock } from 'lucide-react';
 import { articles } from '../data/articles';
 import SupportSection from '../components/SupportSection';
 import SupporterList from '../components/SupporterList';
@@ -395,7 +395,7 @@ function ArticleView() {
                                     <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.4' }}>
                                         <span style={{ fontSize: '0.65rem', color: 'var(--color-text-tertiary)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Updated</span>
                                         <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: 'var(--color-text-secondary)', fontSize: '0.9rem', fontWeight: 500 }}>
-                                            <RotateCcw size={14} style={{ color: '#2563eb' }} />
+                                            <RotateCw size={14} style={{ color: '#2563eb' }} />
                                             <span>{article.lastUpdated}</span>
                                         </div>
                                     </div>
