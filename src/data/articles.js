@@ -2083,7 +2083,7 @@ export const articles = [
                 <div style="font-weight: 700; color: #1f2937;">2018</div>
                 <div style="font-size: 0.75rem; color: #6b7280;">Chinese Era 🇨🇳</div>
             </div>
-            <div style="flex: 1; height: 38px; background: #f3f4f6; border-radius: 6px; overflow: visible; position: relative;">
+            <div style="flex: 1; height: 38px; background: #f3f4f6; border-radius: 6px; overflow: hidden; position: relative;">
                <div style="width: 20%; height: 100%; background: #ef4444; border-radius: 6px;"></div>
                <div style="position: absolute; left: 22%; top: 50%; transform: translateY(-50%); color: #ef4444; font-weight: 700; font-size: 0.9rem; white-space: nowrap;">
                   $0.80/W <span style="font-size: 0.75rem; opacity: 0.8; margin-left: 4px;">(-80%)</span>
@@ -2510,7 +2510,7 @@ export const articles = [
                 <div style="font-weight: 700; color: #1f2937;">Blitzkrieg</div>
                 <div style="font-size: 0.75rem; color: #6b7280; white-space: nowrap;">High Intensity</div>
             </div>
-            <div style="flex: 1; height: 38px; background: #f3f4f6; border-radius: 6px; overflow: visible; position: relative;">
+            <div style="flex: 1; height: 38px; background: #f3f4f6; border-radius: 6px; overflow: hidden; position: relative;">
               <div style="width: 20%; height: 100%; background: #10b981; border-radius: 6px;"></div>
               <div style="position: absolute; left: 22%; top: 50%; transform: translateY(-50%); color: #10b981; font-weight: 700; font-size: 0.9rem;">Weeks</div>
             </div>
@@ -2564,7 +2564,7 @@ export const articles = [
 
       <p>And every extra month costs billions. Tanks don’t regenerate. Trained soldiers aren’t replaceable overnight.</p>
 
-      <!--Cost of War Graph-- >
+      <!--Cost of War Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 1rem; text-align: center;">The Cost of Stagnation</h4>
         
@@ -2649,7 +2649,7 @@ export const articles = [
       </div>
 
 
-      <!--The Solvay Conference Ratio Graph-- >
+      <!--The Solvay Conference Ratio Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Solvay Conference (1911) Ratio</h4>
         
@@ -2730,7 +2730,7 @@ export const articles = [
 
       <p>…they’re missing the point. She didn’t chase prizes. She changed how we understand matter itself. She discovered that the invisible has power—and that power could heal or destroy.</p>
 
-      <!--Timeline of Defiance Graph-- >
+      <!--Timeline of Defiance Graph-->
        <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Timeline of Defiance</h4>
         
@@ -2840,7 +2840,7 @@ export const articles = [
       </div>
 
 
-      <!--The Shrinking Machine Graph-- >
+      <!--The Shrinking Machine Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Shrinking Machine (Power vs. Size)</h4>
         
@@ -3102,7 +3102,7 @@ export const articles = [
 
       <p>Netscape couldn't compete with "free" and "already installed." They got crushed.</p>
 
-      <!--The First Browser War Graph-- >
+      <!--The First Browser War Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The First Browser War (1995-2002)</h4>
         
@@ -3118,7 +3118,7 @@ export const articles = [
           <span style="position: absolute; left: -35px; top: 50%; width: 30px; text-align: right; transform: translateY(-50%); font-size: 0.7rem; color: #a1a1aa;">50%</span>
           <span style="position: absolute; left: -35px; bottom: 0; width: 30px; text-align: right; font-size: 0.7rem; color: #a1a1aa;">0%</span>
 
-          <svg style="position: absolute; top:0; left:0; width:100%; height:100%; overflow:visible;">
+          <svg style="position: absolute; top:0; left:0; width:100%; height:100%; overflow:hidden;" viewBox="0 0 600 200">
              <!-- Netscape Path (Falling) -->
              <path d="M0,25 Q250,150 600,198" fill="none" stroke="#00bfa5" stroke-width="4" />
              <!-- Inline Netscape Logo -->
@@ -3167,7 +3167,7 @@ export const articles = [
       
       <p>That flipped the browser war again. The browser stopped being just software—it became a <strong>data collection layer</strong>.</p>
 
-      <!--The Browser War Graph-- >
+      <!--The Browser War Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Second Browser War (Market Share Shift)</h4>
         
@@ -3184,7 +3184,7 @@ export const articles = [
           <span style="position: absolute; left: -35px; bottom: 0; width: 30px; text-align: right; font-size: 0.7rem; color: #a1a1aa;">0%</span>
 
           <!-- Chrome Line (Rising) -->
-          <svg style="position: absolute; top:0; left:0; width:100%; height:100%; overflow:visible;">
+          <svg style="position: absolute; top:0; left:0; width:100%; height:100%; overflow:hidden;" viewBox="0 0 600 200">
              <!-- IE Path (Falling) -->
              <path d="M0,40 Q250,160 600,198" fill="none" stroke="#9ca3af" stroke-width="3" stroke-dasharray="5,5" />
              <!-- Inline IE Logo (Falling) -->
@@ -3221,7 +3221,7 @@ export const articles = [
         </p>
       </div>
 
-      <!--2024 Browser Share Graph-- >
+      <!--2024 Browser Share Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Global Browser Share (2024)</h4>
         
@@ -3356,7 +3356,7 @@ export const articles = [
         </p>
       </div>
 
-      <!--2024 Search Share Graph-- >
+      <!--2024 Search Share Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Global Search Engine Share (2024)</h4>
         
@@ -3481,7 +3481,7 @@ export const articles = [
       </div>
 
 
-      <!--Mobile OS Market Share Graph-- >
+      <!--Mobile OS Market Share Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Global Mobile OS Market Share</h4>
         
@@ -3561,7 +3561,7 @@ export const articles = [
       </div>
 
 
-      <!--Social Media Growth Graph-- >
+      <!--Social Media Growth Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 1.5rem; text-align: center;">The Rise of Social Media (Monthly Active Users)</h4>
         
@@ -3651,7 +3651,7 @@ export const articles = [
         </p>
       </div>
 
-      <!--Internet vs AI Adoption Graph-- >
+      <!--Internet vs AI Adoption Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 1.5rem; text-align: center;">Years to Reach 100 Million Users</h4>
         
@@ -3725,7 +3725,7 @@ export const articles = [
       <p>And that’s when it hit us.</p>
       <p>This feels closer to intelligence than anything we’ve used before.</p>
 
-      <!--Old Search vs.New Search Graph-- >
+      <!--Old Search vs.New Search Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Old Search vs. New Search</h4>
         
@@ -3803,7 +3803,7 @@ export const articles = [
       
       <p>Today, iconic apps like <strong>Airbnb</strong>, <strong>Uber</strong>, and <strong>Pinterest</strong> rely on these frameworks. The code that runs your life is likely a hybrid of these tech giants' visions.</p>
 
-      <!--Cross - Platform Framework Graph-- >
+      <!--Cross - Platform Framework Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Cross-Platform Framework Usage (Global)</h4>
         
@@ -3974,7 +3974,7 @@ export const articles = [
       
       <p>New players don't have that baggage. They can disrupt because they have nothing to lose.</p>
 
-      <!--AI Search War Graph-- >
+      <!--AI Search War Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The New Walled Gardens (AI Search War)</h4>
         
@@ -4030,7 +4030,7 @@ export const articles = [
         </p>
       </div>
 
-      <!--AI Market Share Graph-- >
+      <!--AI Market Share Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">AI Model Usage (Global Estimated Share)</h4>
         
@@ -4183,7 +4183,7 @@ export const articles = [
 
 
 
-      <!--The AI Infrastructure Stack Graph-- >
+      <!--The AI Infrastructure Stack Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The AI Infrastructure Stack</h4>
         
@@ -4298,14 +4298,14 @@ export const articles = [
       <p>So venture capital is no longer just picking startups.</p>
       <p>It’s picking which intelligence stacks get built.</p>
       
-      <!--VC Capital vs Time Graph-- >
+      <!--VC Capital vs Time Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The "Blitzscaling" Curve</h4>
         
         <div style="position: relative; height: 220px; border-left: 2px solid #52525b; border-bottom: 2px solid #52525b; max-width: 500px; margin: 0 auto;">
            
            <!-- Traditional Growth Line (Linear) -->
-           <svg style="position: absolute; bottom: 0; left: 0; width: 100%; height: 100%; overflow: visible;" viewBox="0 0 100 100" preserveAspectRatio="none">
+           <svg style="position: absolute; bottom: 0; left: 0; width: 100%; height: 100%; overflow: hidden;" viewBox="0 0 100 100" preserveAspectRatio="none">
              <!-- Dashed Line for Organic Growth -->
              <path d="M0,100 L100,20" fill="none" stroke="#9ca3af" stroke-width="2" stroke-dasharray="4" />
              <text x="95" y="75" text-anchor="end" fill="#1f2937" font-size="5" font-weight="700" style="text-shadow: 2px 2px 0 #fafafa, -1px -1px 0 #fafafa, 1px -1px 0 #fafafa, -1px 1px 0 #fafafa, 1px 1px 0 #fafafa;">Organic Growth</text>
@@ -4371,7 +4371,7 @@ export const articles = [
       <p>This wasn’t just a telecom event.</p>
       <p>It was an <strong>infrastructure shock</strong>.</p>
 
-      <!--The Jio Effect Graph-- >
+      <!--The Jio Effect Graph-->
        <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Jio Effect: Data Adoption in India</h4>
         
@@ -4465,7 +4465,7 @@ export const articles = [
 
       <p>Cash didn’t disappear—but friction did.</p>
 
-      <!--The Death of Friction Graph-- >
+      <!--The Death of Friction Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Death of Friction (Transaction Speed)</h4>
         
@@ -4474,7 +4474,7 @@ export const articles = [
           <!-- Physical Banking -->
           <div style="display: flex; align-items: center; gap: 1rem;">
              <div style="width: 100px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem;">Physical Bank</div>
-             <div style="flex: 1; background: #f4f4f5; height: 32px; border-radius: 4px; overflow: visible; position: relative;">
+             <div style="flex: 1; background: #f4f4f5; height: 32px; border-radius: 4px; overflow: hidden; position: relative;">
                 <div style="width: 100%; height: 100%; background: #ef4444; border-radius: 4px; display: flex; align-items: center; justify-content: flex-end; padding-right: 12px;">
                   <span style="color: white; font-size: 0.85rem; font-weight: 700;">Hours / Days</span>
                 </div>
@@ -4484,7 +4484,7 @@ export const articles = [
           <!-- Cards / NetBanking -->
           <div style="display: flex; align-items: center; gap: 1rem;">
              <div style="width: 100px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem;">Cards / NEFT</div>
-             <div style="flex: 1; background: #f4f4f5; height: 32px; border-radius: 4px; overflow: visible; position: relative;">
+             <div style="flex: 1; background: #f4f4f5; height: 32px; border-radius: 4px; overflow: hidden; position: relative;">
                 <div style="width: 40%; height: 100%; background: #f59e0b; border-radius: 4px; display: flex; align-items: center; justify-content: flex-end; padding-right: 12px;">
                   <span style="color: white; font-size: 0.85rem; font-weight: 700;">Minutes</span>
                 </div>
@@ -4494,7 +4494,7 @@ export const articles = [
           <!-- UPI / APIs -->
           <div style="display: flex; align-items: center; gap: 1rem;">
              <div style="width: 100px; text-align: right; font-weight: 700; color: #15803d; font-size: 0.9rem;">UPI / APIs</div>
-             <div style="flex: 1; background: #f4f4f5; height: 32px; border-radius: 4px; overflow: visible; position: relative;">
+             <div style="flex: 1; background: #f4f4f5; height: 32px; border-radius: 4px; overflow: hidden; position: relative;">
                 <div style="width: 5%; height: 100%; background: #22c55e; border-radius: 4px; display: flex; align-items: center; justify-content: flex-start;">
                 </div>
                 <div style="position: absolute; left: 7%; top: 50%; transform: translateY(-50%); color: #15803d; font-weight: 700; font-size: 0.9rem;">
@@ -4583,7 +4583,7 @@ export const articles = [
       <p>That’s rare.</p>
       <p>And powerful.</p>
 
-      <!--UPI Growth Scale Graph-- >
+      <!--UPI Growth Scale Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The UPI Scale (Annual Transactions)</h4>
         
@@ -4639,7 +4639,7 @@ export const articles = [
         </p>
       </div>
 
-      <!--Indian Startup Timeline Visualization-- >
+      <!--Indian Startup Timeline Visualization-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Rise of Indian Startups</h4>
         
@@ -4935,7 +4935,7 @@ export const articles = [
       <p>Yeah, because every generation hears the same line—“this will change everything.”</p>
       <p>Sometimes it’s true. Sometimes it’s marketing.</p>
 
-      <!--Adoption Speed Graph-- >
+      <!--Adoption Speed Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Time to Reach 100 Million Users</h4>
         
@@ -4944,7 +4944,7 @@ export const articles = [
           <!-- Telephone -->
           <div style="display: flex; align-items: center; gap: 1rem;">
              <div style="width: 100px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem;">Telephone</div>
-             <div style="flex: 1; background: #f4f4f5; height: 32px; border-radius: 4px; overflow: visible; position: relative;">
+             <div style="flex: 1; background: #f4f4f5; height: 32px; border-radius: 4px; overflow: hidden; position: relative;">
                 <div style="width: 100%; height: 100%; background: #52525b; border-radius: 4px; display: flex; align-items: center; justify-content: flex-end; padding-right: 12px;">
                   <span style="color: white; font-size: 0.85rem; font-weight: 700;">75 Years</span>
                 </div>
@@ -4954,7 +4954,7 @@ export const articles = [
           <!-- Mobile Phone -->
           <div style="display: flex; align-items: center; gap: 1rem;">
              <div style="width: 100px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem;">Mobile Phone</div>
-             <div style="flex: 1; background: #f4f4f5; height: 32px; border-radius: 4px; overflow: visible; position: relative;">
+             <div style="flex: 1; background: #f4f4f5; height: 32px; border-radius: 4px; overflow: hidden; position: relative;">
                 <div style="width: 25%; height: 100%; background: #374151; border-radius: 4px; display: flex; align-items: center; justify-content: flex-end; padding-right: 12px;">
                   <span style="color: white; font-size: 0.85rem; font-weight: 700;">16 Years</span>
                 </div>
@@ -4964,7 +4964,7 @@ export const articles = [
           <!-- Internet (Web) -->
           <div style="display: flex; align-items: center; gap: 1rem;">
              <div style="width: 100px; text-align: right; font-weight: 600; color: #52525b; font-size: 0.9rem;">Internet</div>
-             <div style="flex: 1; background: #f4f4f5; height: 32px; border-radius: 4px; overflow: visible; position: relative;">
+             <div style="flex: 1; background: #f4f4f5; height: 32px; border-radius: 4px; overflow: hidden; position: relative;">
                 <div style="width: 12%; height: 100%; background: #2563eb; border-radius: 4px; display: flex; align-items: center; justify-content: flex-start;">
                 </div>
                 <div style="position: absolute; left: 14%; top: 50%; transform: translateY(-50%); color: #2563eb; font-weight: 700; font-size: 0.9rem;">
@@ -4976,7 +4976,7 @@ export const articles = [
            <!-- ChatGPT / AI -->
           <div style="display: flex; align-items: center; gap: 1rem;">
              <div style="width: 100px; text-align: right; font-weight: 700; color: #7c3aed; font-size: 0.9rem;">AI (ChatGPT)</div>
-             <div style="flex: 1; background: #f4f4f5; height: 32px; border-radius: 4px; overflow: visible; position: relative;">
+             <div style="flex: 1; background: #f4f4f5; height: 32px; border-radius: 4px; overflow: hidden; position: relative;">
                 <div style="width: 2%; height: 100%; background: #7c3aed; border-radius: 4px; display: flex; align-items: center; justify-content: flex-start;">
                 </div>
                 <div style="position: absolute; left: 4%; top: 50%; transform: translateY(-50%); color: #7c3aed; font-weight: 700; font-size: 0.9rem;">
@@ -5169,7 +5169,7 @@ export const articles = [
 
       <p>Or when facts depend on which WhatsApp group you’re in.</p>
 
-      <!--The 4 Stages of Subversion Diagram-- >
+      <!--The 4 Stages of Subversion Diagram-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Bezmenov’s 4 Stages of Subversion</h4>
         
@@ -5235,7 +5235,7 @@ export const articles = [
 
       <p>Everything becomes sacred. Everything becomes offensive. Nothing can be questioned.</p>
 
-      <!--The Cycle of Polarization Diagram-- >
+      <!--The Cycle of Polarization Diagram-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Polarization Trap</h4>
         
@@ -5466,7 +5466,7 @@ export const articles = [
         <li>ecosystem thinking</li>
       </ul>
 
-      <!--The Learning Loop Diagram-- >
+      <!--The Learning Loop Diagram-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Learning Loop</h4>
         
@@ -5554,7 +5554,7 @@ export const articles = [
 
       <p>That internal competition did what no regulation ever could — it forced excellence.</p>
 
-      <!--The Market Shift Graph-- >
+      <!--The Market Shift Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Volume Shift</h4>
         
@@ -5869,7 +5869,7 @@ export const articles = [
       
       <p>Let’s look at the numbers.</p>
 
-      <!--Subsidy Allocation Graph-- >
+      <!--Subsidy Allocation Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Incentive Flow</h4>
         
@@ -5941,7 +5941,7 @@ export const articles = [
       <p>Marketing and Sales (Right side) = High Value.</p>
       <p>Manufacturing and Assembly (Middle) = Lowest Value.</p>
 
-      <!--Smile Curve Graph-- >
+      <!--Smile Curve Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Smile Curve of Value</h4>
         
@@ -5951,7 +5951,7 @@ export const articles = [
            <div style="position: absolute; left: 0; bottom: 0; width: 2px; height: 100%; background: #a1a1aa;"></div>
 
            <!-- Curve -->
-           <svg style="position: absolute; bottom: 0; left: 0; width: 100%; height: 100%; overflow: visible;" viewBox="0 0 100 100" preserveAspectRatio="none">
+           <svg style="position: absolute; bottom: 0; left: 0; width: 100%; height: 100%; overflow: hidden;" viewBox="0 0 100 100" preserveAspectRatio="none">
              <path d="M0,10 Q20,10 50,80 Q80,10 100,10" fill="none" stroke="#ef4444" stroke-width="4" transform="scale(1, -1) translate(0, -100)" />
            </svg>
 
@@ -6193,7 +6193,7 @@ export const articles = [
       </div>
 
 
-      <!--Social Media Evolution Graph-- >
+      <!--Social Media Evolution Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Social Media Evolution</h4>
         
@@ -6287,7 +6287,7 @@ export const articles = [
 
       <p>We don’t scroll because we’re bored. We scroll because our brain is hoping.</p>
 
-      <!--The Dopamine Loop Diagram-- >
+      <!--The Dopamine Loop Diagram-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Dopamine Loop</h4>
         
@@ -6636,7 +6636,7 @@ export const articles = [
 
       <p>Bingo.</p>
 
-      <!--The Two Philosophies Diagram-- >
+      <!--The Two Philosophies Diagram-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Two Philosophies</h4>
         
@@ -6817,7 +6817,7 @@ export const articles = [
 
       <p>Android built reach. Apple built rent.</p>
 
-      <!--The Paradox of Power Diagram-- >
+      <!--The Paradox of Power Diagram-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Paradox of Power</h4>
         
@@ -6932,7 +6932,7 @@ export const articles = [
 
       <p>Exactly. We became the world’s back office, not its factory floor. Brilliant engineers from here went abroad and built chips for other countries, while we imported the final product back.</p>
 
-      <!--Software vs Hardware Graph-- >
+      <!--Software vs Hardware Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Great Imbalance (Exports vs. Imports)</h4>
         
@@ -6983,7 +6983,7 @@ export const articles = [
 
       <p>We don’t need to beat everyone at the cutting edge on day one. That’s the key mindset shift. Even older-node chips power cars, appliances, power grids, and defense equipment. Owning any part of the supply chain is better than owning none.</p>
 
-       <!--Semiconductor Value Chain Graph-- >
+       <!--Semiconductor Value Chain Graph-->
        <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Value Chain Pyramid</h4>
         
@@ -7080,7 +7080,7 @@ export const articles = [
       
       <p>But pause for a second. Look at the timing.</p>
 
-      <!--Timeline of Power Graph-- >
+      <!--Timeline of Power Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Overlap of Iron (1980-1984)</h4>
         
@@ -7229,7 +7229,7 @@ export const articles = [
 
       <p class="story-punchline">Think about that foresight. No PowerPoint. No consultants. Just belief.</p>
 
-      <!--Three - Stage Program Graph-- >
+      <!--Three - Stage Program Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Bhabha’s Three-Stage Vision</h4>
         
@@ -7323,7 +7323,7 @@ export const articles = [
         <li>Karnataka (Kaiga)</li>
       </ul>
 
-      <!--Nuclear Capacity Graph-- >
+      <!--Nuclear Capacity Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Nuclear Power Capacity (MW)</h4>
         
@@ -7447,7 +7447,7 @@ export const articles = [
 
       <p>That’s the part people forget. You might think wars are only about guns and borders. But for us, the bigger fear was: Can we survive this economically? Can we feed ourselves?</p>
 
-      <!--The Dual Crisis Graph-- >
+      <!--The Dual Crisis Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Dual Crisis (1965)</h4>
         
@@ -7497,7 +7497,7 @@ export const articles = [
 
       <p>Under her, we saw the Green Revolution. High-yield seeds, irrigation, procurement systems. The farmer became central to national planning. Food self-sufficiency became strategy, not charity.</p>
 
-      <!--From Import to Surplus Graph-- >
+      <!--From Import to Surplus Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">From Import to Surplus (Green Revolution)</h4>
         
@@ -7590,7 +7590,7 @@ export const articles = [
 
       <p>Now I know that the difference between O(n) and O(n²) isn’t just seconds. It’s the difference between a system that survives and a system that crashes.</p>
 
-      <!--Time Complexity Graph-- >
+      <!--Time Complexity Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">Why Scale Kills (The Growth Curve)</h4>
         
@@ -7655,7 +7655,7 @@ export const articles = [
       <p>2. Recursive step (Trust it works for n-1).</p>
       <p>Once I did that, trees and graphs opened up.</p>
 
-      <!--Recursion Visual-- >
+      <!--Recursion Visual-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Stack of Trust</h4>
         
@@ -7821,7 +7821,7 @@ export const articles = [
       </div>
 
 
-      <!--The Duopoly Wall Graph-- >
+      <!--The Duopoly Wall Graph-->
       <div style="margin: 3rem 0; padding: 2rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
         <h4 style="font-family: var(--font-serif); font-size: 1.25rem; font-weight: 700; margin-bottom: 2rem; text-align: center;">The Polite Monopoly (Large Jet Market Share)</h4>
         
