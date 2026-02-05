@@ -1,7 +1,7 @@
 export const articles = [
   {
     id: "unauthorized-colonies-unplanned-development",
-    views: 1240,
+    views: 23240,
     publishDate: "2024-01-02",
     title: "Unauthorized Colonies: How Our Cities Grew Without Planning",
     author: "Harsh Mahto",
@@ -5383,7 +5383,7 @@ export const articles = [
 
   {
     id: "globalisation-tech-power",
-    views: 1240,
+    views: 20240,
     publishDate: "2023-01-07",
     title: "They Designed It. China Copied It. We Bought It.",
     author: "Harsh Mahto",
