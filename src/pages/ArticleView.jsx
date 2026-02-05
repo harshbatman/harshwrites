@@ -395,6 +395,7 @@ function ArticleView() {
                                     <div style={{ display: 'flex', flexDirection: 'column', lineHeight: '1.4' }}>
                                         <span style={{ fontSize: '0.65rem', color: 'var(--color-text-tertiary)', fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.05em' }}>Updated</span>
                                         <div style={{ display: 'flex', alignItems: 'center', gap: '0.4rem', color: 'var(--color-text-secondary)', fontSize: '0.9rem', fontWeight: 500 }}>
+                                            <RotateCcw size={14} style={{ color: '#2563eb' }} />
                                             <span>{article.lastUpdated}</span>
                                         </div>
                                     </div>
