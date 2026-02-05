@@ -6607,7 +6607,7 @@ export const articles = [
   },
   {
     id: "how-android-took-over-the-world",
-    views: 1240,
+    views: 19240,
     publishDate: "2023-08-04",
     title: "How Android Took Over the World",
     author: "Harsh Mahto",
