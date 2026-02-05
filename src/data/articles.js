@@ -2357,7 +2357,7 @@ export const articles = [
   },
   {
     id: "flutter-vs-react-native",
-    views: 1240,
+    views: 18240,
     publishDate: "2023-10-23",
     title: "Why Flutter and Not React Native?",
     author: "Harsh Mahto",
