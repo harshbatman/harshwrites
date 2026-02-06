@@ -87,6 +87,7 @@ function ArticleView() {
         };
     }, []);
 
+
     const togglePlaybackRate = () => {
         const rates = [1, 1.25, 1.5, 2, 0.75];
         const nextRate = rates[(rates.indexOf(playbackRate) + 1) % rates.length];
@@ -262,7 +263,9 @@ function ArticleView() {
             synth.cancel();
 
             // Audio unlock for mobile
-            try { synth.speak(new SpeechSynthesisUtterance("")); } catch (e) { }
+            try { synth.speak(new SpeechSynthesisUtterance("")); } catch {
+                // Ignore error on audio unlock attempt
+            }
 
             setTimeout(() => {
                 if (isSpeakingRef.current && !isPausedRef.current) {
@@ -439,7 +442,22 @@ function ArticleView() {
                         </div>
 
                         {/* Right Side: Listen Button */}
-                        <div style={{ display: 'flex', alignItems: 'center', gap: '1rem' }}>
+                        <div style={{
+                            display: 'flex',
+                            flexDirection: 'column',
+                            alignItems: windowWidth < 1024 ? 'flex-start' : 'center',
+                            gap: '0.5rem'
+                        }}>
+                            <span style={{
+                                fontSize: '0.65rem',
+                                color: 'var(--color-text-tertiary)',
+                                fontWeight: 700,
+                                textTransform: 'uppercase',
+                                letterSpacing: '0.05em',
+                                marginLeft: windowWidth < 1024 ? '1.5rem' : '0'
+                            }}>
+                                AI Voice
+                            </span>
                             <button
                                 onClick={handleToggleSpeech}
                                 style={{
@@ -589,10 +607,30 @@ function ArticleView() {
                         borderTop: '1px solid #f3f4f6',
                         paddingTop: '0.75rem'
                     }}>
-                        <button onClick={handleToggleSpeech} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#6366f1' }}>
+                        <button onClick={handleToggleSpeech} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#6366f1', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                             {isPaused ? <Play size={24} fill="currentColor" /> : <Pause size={24} fill="currentColor" />}
                         </button>
-                        <button onClick={handleStopSpeech} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#ef4444' }}>
+                        <button
+                            onClick={togglePlaybackRate}
+                            style={{
+                                background: 'rgba(99, 102, 241, 0.1)',
+                                border: '1px solid rgba(99, 102, 241, 0.2)',
+                                cursor: 'pointer',
+                                color: '#6366f1',
+                                padding: '4px 8px',
+                                borderRadius: '6px',
+                                fontSize: '0.75rem',
+                                fontWeight: 700,
+                                display: 'flex',
+                                alignItems: 'center',
+                                gap: '4px',
+                                minWidth: '45px',
+                                justifyContent: 'center'
+                            }}
+                        >
+                            <Gauge size={14} /> {playbackRate}x
+                        </button>
+                        <button onClick={handleStopSpeech} style={{ background: 'none', border: 'none', cursor: 'pointer', color: '#ef4444', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
                             <RotateCcw size={20} />
                         </button>
                         <div style={{ fontSize: '0.75rem', fontWeight: 700, color: '#9ca3af', textTransform: 'uppercase', letterSpacing: '0.05em' }}>
