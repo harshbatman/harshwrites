@@ -155,11 +155,11 @@ export const articles = [
   {
     id: "unauthorized-colonies-unplanned-development",
     views: 30240,
-    publishDate: "2024-01-02",
+    publishDate: "2024-01-07",
     title: "Unauthorized Colonies: How Our Cities Grew Without Planning",
     author: "Harsh Mahto",
     category: "Urban Planning & Society",
-    date: "2 Jan 2024",
+    date: "7 Jan 2024",
     image: "/unauthorized-colonies-unplanned.jpg",
     excerpt: "Have you ever noticed how some parts of our cities feel completely unplanned? Unauthorized colonies represent a symptom of a deeper planning failure in India's urban growth.",
     content: `
@@ -8116,11 +8116,11 @@ export const articles = [
   {
     id: "unplanned-cities",
     views: 20240,
-    publishDate: "2024-01-07",
+    publishDate: "2024-01-02",
     title: "Why Our Cities Are So Unplanned",
     author: "Harsh Mahto",
     category: "Urban Planning & Society",
-    date: "7 Jan 2024",
+    date: "2 Jan 2024",
     image: "/unplanned-cities-comparison.jpg",
     excerpt: "Sometimes I really wonder... why do our Indian cities feel so chaotic compared to cities in Europe or the U.S? When we look at those places, everything just seems to fit—like it was thought through properly.",
     content: `
