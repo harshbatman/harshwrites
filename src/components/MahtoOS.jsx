@@ -36,7 +36,7 @@ const AppIcon = ({ app }) => {
                 lineHeight: '1.3',
                 marginTop: '2px'
             }}>
-                {app.id === 'mahto' ? 'MAHTO' : app.id === 'mine' ? 'mine' : app.id === 'loans' ? 'MAHTO Home Loans' : 'Properties'}
+                {app.id === 'mahto' ? 'MAHTO' : app.id === 'mine' ? 'mine' : app.id === 'loans' ? 'MAHTO Home Loans' : 'MAHTO Land & Properties'}
             </span>
         </div>
     );
@@ -123,9 +123,27 @@ const MahtoOS = () => {
             id: 'properties',
             name: 'MAHTO Land & Properties',
             renderIcon: () => (
-                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                    <span style={{ fontSize: '14px', fontWeight: '900', letterSpacing: '0.05em' }}>MAHTO</span>
-                    <span style={{ fontSize: '8px', fontWeight: '600', marginTop: '2px', textAlign: 'center', opacity: 0.9 }}>Land and Properties</span>
+                <div style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'flex-start',
+                    justifyContent: 'center',
+                    padding: '0 8px'
+                }}>
+                    <span style={{
+                        fontSize: '18px',
+                        fontWeight: '1000',
+                        letterSpacing: '-0.02em',
+                        color: '#fff',
+                        lineHeight: '1.1'
+                    }}>MAHTO</span>
+                    <span style={{
+                        fontSize: '7.5px',
+                        fontWeight: '500',
+                        color: '#fff',
+                        letterSpacing: '0.01em',
+                        whiteSpace: 'nowrap'
+                    }}>Land and Properties</span>
                 </div>
             )
         }
