@@ -361,13 +361,19 @@ export const articles = [
         <h4 style="color: #166534; text-align: center; margin-bottom: 2rem; font-size: 1.1rem; font-weight: 800; font-family: var(--font-serif);">Gurugram: The Paradox of Proximity</h4>
         
         <div style="margin-bottom: 2rem;">
-          <h5 style="font-size: 0.8rem; font-weight: 800; color: #15803d; text-transform: uppercase; margin-bottom: 1.25rem; border-bottom: 1px solid #bbf7d0; padding-bottom: 0.4rem;">1. Resource Consumption vs. Planning</h5>
+          <h5 style="font-size: 0.8rem; font-weight: 800; color: #15803d; text-transform: uppercase; margin-bottom: 1.25rem; border-bottom: 1px solid #bbf7d0; padding-bottom: 0.4rem;">1. Population Distribution</h5>
           <div style="display: flex; flex-direction: column; gap: 0.75rem;">
             <div style="display: flex; justify-content: space-between; font-weight: 700; font-size: 0.85rem;">
-              <span>Population in Unplanned 'Urban Villages'</span>
-              <span style="color: #166534;">~45%</span>
+              <span>Unplanned Urban Villages</span>
+              <span style="color: #ef4444;">~45%</span>
             </div>
-            <div style="height: 16px; background: #dcfce7; border-radius: 8px; overflow: hidden;"><div style="width: 45%; height: 100%; background: #22c55e;"></div></div>
+            <div style="height: 16px; background: #dcfce7; border-radius: 8px; overflow: hidden;"><div style="width: 45%; height: 100%; background: #ef4444;"></div></div>
+
+            <div style="display: flex; justify-content: space-between; font-weight: 700; font-size: 0.85rem; margin-top: 0.25rem;">
+              <span>Planned Sectors/City</span>
+              <span style="color: #10b981;">~55%</span>
+            </div>
+            <div style="height: 16px; background: #dcfce7; border-radius: 8px; overflow: hidden;"><div style="width: 55%; height: 100%; background: #10b981;"></div></div>
           </div>
         </div>
 
