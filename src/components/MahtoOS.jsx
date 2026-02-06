@@ -25,14 +25,16 @@ const AppIcon = ({ app }) => {
                 {app.renderIcon()}
             </div>
             <span style={{
-                fontSize: '0.75rem',
-                fontWeight: 600,
+                fontSize: '0.72rem',
+                fontWeight: 700,
                 color: isHovered ? 'var(--color-text-primary)' : 'var(--color-text-secondary)',
                 textTransform: 'uppercase',
                 letterSpacing: '0.05em',
-                transition: 'color 0.2s'
+                transition: 'color 0.2s',
+                textAlign: 'center',
+                maxWidth: '90px'
             }}>
-                {app.id === 'mahto' ? 'MAHTO' : app.id === 'mine' ? 'mine' : app.id === 'loans' ? 'Loans' : 'Properties'}
+                {app.id === 'mahto' ? 'MAHTO' : app.id === 'mine' ? 'mine' : app.id === 'loans' ? 'MAHTO Home Loans' : 'Properties'}
             </span>
         </div>
     );
@@ -75,11 +77,11 @@ const MahtoOS = () => {
             id: 'loans',
             name: 'MAHTO Home Loans',
             renderIcon: () => (
-                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '2px' }}>
-                    <span style={{ fontSize: '12px', fontWeight: '800', letterSpacing: '0.5px' }}>MAHTO</span>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '2px' }}>
-                        <Home size={14} strokeWidth={2.5} />
-                        <span style={{ fontSize: '11px', fontWeight: '600' }}>Loans</span>
+                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0' }}>
+                    <span style={{ fontSize: '12px', fontWeight: '1000', letterSpacing: '0.05em', color: '#fff' }}>MAHTO</span>
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '2px', marginTop: '-2px' }}>
+                        <Home size={22} fill="#fff" stroke="none" />
+                        <span style={{ fontSize: '18px', fontWeight: '900', letterSpacing: '-0.03em', color: '#fff' }}>Loans</span>
                     </div>
                 </div>
             )
@@ -89,8 +91,8 @@ const MahtoOS = () => {
             name: 'MAHTO Land & Properties',
             renderIcon: () => (
                 <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center' }}>
-                    <span style={{ fontSize: '14px', fontWeight: '800', letterSpacing: '0.5px' }}>MAHTO</span>
-                    <span style={{ fontSize: '8px', fontWeight: '500', marginTop: '2px', textAlign: 'center', opacity: 0.9 }}>Land and Properties</span>
+                    <span style={{ fontSize: '14px', fontWeight: '900', letterSpacing: '0.05em' }}>MAHTO</span>
+                    <span style={{ fontSize: '8px', fontWeight: '600', marginTop: '2px', textAlign: 'center', opacity: 0.9 }}>Land and Properties</span>
                 </div>
             )
         }
