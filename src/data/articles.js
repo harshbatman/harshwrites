@@ -249,6 +249,10 @@ export const articles = [
         </div>
       </div>
 
+      <h3 style="font-family: var(--font-serif); font-size: 1.25rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">2. The Industrial Overflow: Faridabad</h3>
+
+      <p>If you look just next door at Faridabad, the story gets even more intense. It’s the highest populated district in Haryana, and it’s basically become a natural landing pad for anyone searching for work near the capital. But where do they go? They go to colonies that don't technically exist on the master plan.</p>
+
       <div style="margin: 2rem 0; padding: 1.5rem; background: #fffcf0; border-left: 4px solid #eab308; border-radius: 4px;">
         <p style="margin: 0; color: #854d0e; font-weight: 600;">These are not empty lands anymore. These are living, breathing neighborhoods—with children, daily-wage workers, and elderly people—that remain invisible in official planning.</p>
       </div>
@@ -316,7 +320,7 @@ export const articles = [
         </div>
       </div>
 
-      <h2 style="font-family: var(--font-serif); font-size: 1.8rem; margin-top: 3rem; margin-bottom: 1.5rem; color: #111827; font-weight: 800; border-bottom: 2px solid #e5e7eb; padding-bottom: 0.5rem;">The Millennium Mirage: Gurugram</h2>
+      <h3 style="font-family: var(--font-serif); font-size: 1.25rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">3. The Millennium Mirage: Gurugram</h3>
 
       <p>Gurugram is often celebrated as the 'Millennium City,' a glass-and-steel dream. But behind the cyber hubs lies a chaotic reality of urban villages like Nathupur, Chakkarpur, and Mullahera. These villages were never part of the 'New Gurgaon' master plan—they were swallowed by it.</p>
 
@@ -362,7 +366,7 @@ export const articles = [
         </div>
       </div>
 
-      <h2 style="font-family: var(--font-serif); font-size: 1.8rem; margin-top: 3rem; margin-bottom: 1.5rem; color: #111827; font-weight: 800; border-bottom: 2px solid #e5e7eb; padding-bottom: 0.5rem;">Silicon Valley's Blind Spot: Bengaluru</h2>
+      <h3 style="font-family: var(--font-serif); font-size: 1.25rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">4. Silicon Valley's Blind Spot: Bengaluru</h3>
 
       <p>In Bengaluru, the story isn't just about land status—it's about environmental erasure. Thousands of unauthorized layouts have sprouted in the peripheral areas of the city, often built directly over the natural topography of 'Rajakaluves' (stormwater drains) and lake beds.</p>
 
