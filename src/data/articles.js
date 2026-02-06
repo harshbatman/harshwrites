@@ -8244,20 +8244,30 @@ export const articles = [
     image: "/pollution-survival.jpg",
     excerpt: "Have you noticed something strange about our daily life? In any metro city where we live, we must have four things at home now—air purifier, water purifier, air conditioner, and refrigerator.",
     content: `
-      Sometimes I feel our homes have stopped being homes.They feel more like survival chambers.
+      <p>For the last few days, I’ve been seeing a flood of articles and videos online about Delhi’s AQI hitting record highs. I’m sure you’ve seen them too.</p>
 
-      <p>A home was once a place where you rested, breathed freely, drank water without thinking, and slept without fighting the weather. Today, especially in our metro cities, a home feels incomplete without machines humming in every corner—quietly keeping us alive.</p>
+      <p>And sometimes, it makes me feel like our homes have stopped being homes. They’ve started feeling more like <strong>survival chambers</strong>.</p>
 
-      <p>Look around the cities where we live. What do we actually need to get through a normal day now?</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fafafa; border-left: 4px solid #18181b; border-radius: 4px; font-family: var(--font-serif); font-style: italic; font-size: 1.2rem;">
+        A home was once a place where you rested.<br/>
+        You breathed freely.<br/>
+        You drank water without thinking twice.<br/>
+        You slept without fighting heat, cold, dust, or noise.
+      </div>
 
-      <ul>
-        <li>An <strong style="color: #000;">air purifier</strong>.</li>
-        <li>A <strong style="color: #000;">water purifier</strong>.</li>
-        <li>An <strong style="color: #000;">air conditioner</strong>.</li>
-        <li>And a <strong style="color: #000;">refrigerator</strong>.</li>
+      <p>Today—especially in our metro cities—a home feels incomplete without machines humming in every corner, quietly doing the job our environment no longer can. They’re not luxuries anymore. They’re keeping us alive.</p>
+
+      <p>Look around the cities we live in today. What do we actually need just to get through a normal day now?</p>
+
+      <ul style="list-style: none; padding: 0; margin: 2rem 0;">
+        <li style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;"><span style="width: 6px; height: 6px; border-radius: 50%; background: #ef4444;"></span> Clean air needs a <strong>purifier</strong>.</li>
+        <li style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;"><span style="width: 6px; height: 6px; border-radius: 50%; background: #3b82f6;"></span> Drinkable water needs a <strong>filter</strong>.</li>
+        <li style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;"><span style="width: 6px; height: 6px; border-radius: 50%; background: #f59e0b;"></span> Comfort needs <strong>air conditioners, heaters, or humidifiers</strong>.</li>
+        <li style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;"><span style="width: 6px; height: 6px; border-radius: 50%; background: #6b7280;"></span> Silence needs <strong>insulation</strong>.</li>
+        <li style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;"><span style="width: 6px; height: 6px; border-radius: 50%; background: #10b981;"></span> Power needs <strong>backups</strong>.</li>
       </ul>
 
-      <p>Four machines—not for comfort, not for luxury—but simply to survive an ordinary day.</p>
+      <p style="font-weight: 700; font-size: 1.25rem; color: #ef4444; margin: 2rem 0;">This isn’t about convenience anymore. This is about survival.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Four Essentials</h3>
 
