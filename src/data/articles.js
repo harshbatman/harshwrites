@@ -70,11 +70,11 @@ export const articles = [
 
           <!-- Fragmented Curve (Exponential) -->
           <path d="M 100 330 Q 340 320, 640 150 T 740 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-dasharray="8,4" />
-          <text x="350" y="240" font-size="14" fill="#ef4444" font-weight="700">Fragmented (Individual Apps)</text>
+          <text x="120" y="150" font-size="14" fill="#ef4444" font-weight="700">Fragmented (Individual Apps)</text>
 
           <!-- Unified Curve (Linear) -->
           <path d="M 100 330 L 740 280" fill="none" stroke="#10b981" stroke-width="4" />
-          <text x="350" y="315" font-size="14" fill="#10b981" font-weight="700">Unified (Home OS)</text>
+          <text x="500" y="335" font-size="14" fill="#10b981" font-weight="700">Unified (Home OS)</text>
 
           <!-- Annotation -->
           <circle cx="740" cy="50" r="6" fill="#ef4444" />
