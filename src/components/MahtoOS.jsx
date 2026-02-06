@@ -126,24 +126,24 @@ const MahtoOS = () => {
                 <div style={{
                     display: 'flex',
                     flexDirection: 'column',
-                    alignItems: 'flex-start',
-                    justifyContent: 'center',
-                    padding: '0 8px'
+                    alignItems: 'center',
+                    justifyContent: 'center'
                 }}>
                     <span style={{
-                        fontSize: '18px',
+                        fontSize: '15px',
                         fontWeight: '1000',
-                        letterSpacing: '-0.02em',
+                        letterSpacing: '0.02em',
                         color: '#fff',
-                        lineHeight: '1.1'
+                        lineHeight: '1.2'
                     }}>MAHTO</span>
                     <span style={{
-                        fontSize: '7.5px',
-                        fontWeight: '500',
+                        fontSize: '7px',
+                        fontWeight: '600',
                         color: '#fff',
-                        letterSpacing: '0.01em',
-                        whiteSpace: 'nowrap'
-                    }}>Land and Properties</span>
+                        letterSpacing: '0.02em',
+                        whiteSpace: 'nowrap',
+                        marginTop: '1px'
+                    }}>Land & Properties</span>
                 </div>
             )
         }
