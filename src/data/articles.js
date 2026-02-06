@@ -421,8 +421,28 @@ export const articles = [
           </div>
         </div>
         
+        <div style="margin-top: 2rem; margin-bottom: 2rem;">
+          <h5 style="font-size: 0.8rem; font-weight: 800; color: #475569; text-transform: uppercase; margin-bottom: 1.25rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.4rem;">4. Road Quality (The Pothole Crisis)</h5>
+          <div style="display: flex; flex-direction: column; gap: 1rem;">
+            <div>
+              <div style="display: flex; justify-content: space-between; font-weight: 700; font-size: 0.8rem; margin-bottom: 0.4rem; color: #ef4444;">
+                <span>Unplanned Layouts (Potholes per km)</span>
+                <span>~35+</span>
+              </div>
+              <div style="height: 10px; background: #f1f5f9; border-radius: 5px; overflow: hidden;"><div style="width: 85%; height: 100%; background: #ef4444;"></div></div>
+            </div>
+            <div>
+              <div style="display: flex; justify-content: space-between; font-weight: 700; font-size: 0.8rem; margin-bottom: 0.4rem; color: #10b981;">
+                <span>Main Arterial Roads</span>
+                <span>~2-4</span>
+              </div>
+              <div style="height: 10px; background: #f1f5f9; border-radius: 5px; overflow: hidden;"><div style="width: 10%; height: 100%; background: #10b981;"></div></div>
+            </div>
+          </div>
+        </div>
+
         <p style="text-align: center; color: #64748b; font-size: 0.7rem; margin-top: 1.5rem; font-style: italic; line-height: 1.4;">
-          *Systemic conversion of catchment areas and 'Rajakaluves' into concrete settlements.
+          *Data reflects the extreme concentration of road damage in unregulated peripheral layouts compared to transit corridors.
         </p>
       </div>
 
