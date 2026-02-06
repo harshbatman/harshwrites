@@ -7,6 +7,7 @@ export const articles = [
     author: "Harsh Mahto",
     category: "Technology & Society",
     date: "8 Feb 2024",
+    lastUpdated: "5 May 2025",
     image: "/bricks-to-bits.jpg",
     excerpt: "The future home isn’t just a place we return to at night. It’s an active partner in how we live. From bricks to bits, from shelter to system.",
     content: `
