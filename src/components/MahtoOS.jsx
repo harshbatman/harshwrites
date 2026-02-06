@@ -101,15 +101,18 @@ const MahtoOS = () => {
                         gap: '2px',
                         transform: 'translateY(-1px)'
                     }}>
-                        <div style={{ width: '22px', height: '22px' }}>
+                        <div style={{ width: '24px', height: '24px' }}>
                             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M3 13L12 4L21 13" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ filter: 'drop-shadow(0 1px 1px rgba(0,0,0,0.5))' }} />
-                                <path d="M6 13V21H18V13H6Z" fill="white" style={{ filter: 'drop-shadow(0 1px 1px rgba(0,0,0,0.5))' }} />
-                                <rect x="10.5" y="17" width="3" height="4" fill="#000" />
+                                {/* Solid White House Body including Gable */}
+                                <path d="M12 4L3 12V22H21V12L12 4Z" fill="white" style={{ filter: 'drop-shadow(0 1px 1px rgba(0,0,0,0.3))' }} />
+                                {/* Roof Outline for definition */}
+                                <path d="M3 12L12 4L21 12" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
+                                {/* Gate (Doorway) - Black Cutout */}
+                                <path d="M10 22V17C10 16.4477 10.4477 16 11 16H13C13.5523 16 14 16.4477 14 17V22H10Z" fill="#000" />
                             </svg>
                         </div>
                         <span style={{
-                            fontSize: '16px',
+                            fontSize: '17px',
                             fontWeight: '1000',
                             letterSpacing: '-0.04em',
                             color: '#fff',
