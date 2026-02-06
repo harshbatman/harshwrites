@@ -70,15 +70,15 @@ export const articles = [
 
           <!-- Fragmented Curve (Exponential) -->
           <path d="M 100 330 Q 340 320, 640 150 T 740 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-dasharray="8,4" />
-          <text x="600" y="100" font-size="14" fill="#ef4444" font-weight="700">Fragmented (Individual Apps)</text>
+          <text x="350" y="240" font-size="14" fill="#ef4444" font-weight="700">Fragmented (Individual Apps)</text>
 
           <!-- Unified Curve (Linear) -->
           <path d="M 100 330 L 740 280" fill="none" stroke="#10b981" stroke-width="4" />
-          <text x="500" y="260" font-size="14" fill="#10b981" font-weight="700">Unified (Home OS)</text>
+          <text x="350" y="315" font-size="14" fill="#10b981" font-weight="700">Unified (Home OS)</text>
 
           <!-- Annotation -->
           <circle cx="740" cy="50" r="6" fill="#ef4444" />
-          <text x="730" y="35" font-size="11" fill="#ef4444" text-anchor="end">"App Overload"</text>
+          <text x="730" y="30" font-size="11" fill="#ef4444" text-anchor="end" font-weight="600">"App Overload"</text>
         </svg>
         <p style="text-align: center; color: #4b5563; font-size: 0.875rem; margin-top: 1.5rem; font-style: italic;">
           As you add more gadgets, the effort to manage them grows exponentially unless they share a common intelligence.
