@@ -111,11 +111,25 @@ export const articles = [
 
       <p>Now apply this to homes.</p>
 
-      <p>Today, smart homes are like phones without a common OS. One company makes the TV. Another makes the AC. Another makes the water pump. Each one works — but only inside its own app.</p>
+      <p>Today, smart homes are like phones without a common operating system.</p>
 
-      <p>But there's a fundamental problem: Homes last 30–50 years. Gadgets last 3–4 years.</p>
+      <p>One company makes the TV.</p>
+      <p>Another makes the AC.</p>
+      <p>Another makes the air purifier.</p>
+      <p>Another makes the fan.</p>
+      <p>Another makes the bulb.</p>
+      <p>Another makes the refrigerator.</p>
+      <p>Another makes the water pump.</p>
+
+      <p>Each device works. But each device lives inside its own app. So to run one home, we end up running ten apps.</p>
+
+      <p>And unlike phones, the problem is bigger.</p>
+
+      <p>Phones change every 3–4 years. Homes stay with us for 30–50 years.</p>
       
-      <p>If your home’s intelligence depends on one brand or one gadget, it will become outdated very fast — just like an old phone with no updates.</p>
+      <p>That’s why a home cannot depend on one brand, one gadget, or one app. Its intelligence must sit above all devices — like Android or iOS does for phones.</p>
+
+      <p>Only then does a home stop being a collection of smart gadgets and start becoming a smart system.</p>
 
       <div style="margin: 2rem 0; padding: 1.5rem; background: #fdf2f8; border-left: 4px solid #ec4899; border-radius: 4px;">
         <p style="margin: 0; color: #831843; font-weight: 600;">The intelligence of a home must outlive individual gadgets. It needs to sit above the appliances — a common digital layer, like an operating system for living.</p>
