@@ -7564,7 +7564,7 @@ export const articles = [
   },
   {
     id: "story-behind-jai-jawan-jai-kisan",
-    views: 23240,
+    views: 23840,
     publishDate: "2023-08-15",
     title: "The Story Behind Jai Jawan, Jai Kisan",
     author: "Harsh Mahto",
