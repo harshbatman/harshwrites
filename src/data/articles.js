@@ -13,7 +13,7 @@ export const articles = [
     content: `
       <p>After Chhath Puja, I recently visited my home. Yesterday afternoon, I was sleeping when suddenly I heard someone shouting:</p>
 
-      <p style="font-style: italic; margin: 1.5rem 0 0.5rem 0;">“Motor band karo! Tanki bhar gayi hai!”</p>
+      <p style="font-style: italic; margin: 1.5rem 0 0.5rem 0;">“Motor band kardo! Tanki bhar gayi hai!”</p>
       <p style="color: #6b7280; margin-bottom: 1.5rem;">(Switch off the submersible pump — the water tank is full.)</p>
 
       <p>I woke up in a panic and rushed to the electric board to turn it off.</p>
