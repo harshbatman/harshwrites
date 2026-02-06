@@ -345,6 +345,49 @@ export const articles = [
         <p style="margin: 0; color: #0f766e; font-weight: 600;">The maintenance fee is the hidden 'second tax' we pay to maintain the illusion of order inside our gates while the city outside continues to struggle.</p>
       </div>
 
+      <div style="margin: 2.5rem 0; padding: 2rem; background: #fff; border-radius: 16px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgb(0 0 0 / 10%);">
+        <h4 style="color: #111827; text-align: center; margin-bottom: 2rem; font-size: 1.25rem; font-weight: 800; font-family: var(--font-serif);">This Is Not Luxury. This Is Survival.</h4>
+        <svg viewBox="0 0 800 400" style="width: 100%; height: auto; background: #fff; border-radius: 12px; padding: 20px;">
+          <!-- Axes -->
+          <line x1="80" y1="320" x2="720" y2="320" stroke="#9ca3af" stroke-width="2" />
+          <line x1="80" y1="320" x2="80" y2="40" stroke="#9ca3af" stroke-width="2" />
+
+          <!-- Y Label -->
+          <text x="70" y="180" font-size="14" fill="#6b7280" transform="rotate(-90, 70, 180)" text-anchor="middle" font-weight="600">Essentiality Index</text>
+
+          <!-- Bars -->
+          <!-- Power -->
+          <rect x="150" y="60" width="80" height="260" fill="#fef3c7" rx="4" />
+          <rect x="150" y="60" width="80" height="260" fill="#f59e0b" rx="4" />
+          <text x="190" y="345" font-size="12" fill="#111827" text-anchor="middle" font-weight="700">Power Backup</text>
+          <text x="190" y="190" font-size="10" fill="#fff" text-anchor="middle" font-weight="800" transform="rotate(-90, 190, 190)">SURVIVAL</text>
+
+          <!-- Water -->
+          <rect x="300" y="80" width="80" height="240" fill="#dcfce7" rx="4" />
+          <rect x="300" y="80" width="80" height="240" fill="#10b981" rx="4" />
+          <text x="340" y="345" font-size="12" fill="#111827" text-anchor="middle" font-weight="700">Water Security</text>
+          <text x="340" y="200" font-size="10" fill="#fff" text-anchor="middle" font-weight="800" transform="rotate(-90, 340, 200)">ESSENTIAL</text>
+
+          <!-- Waste -->
+          <rect x="450" y="120" width="80" height="200" fill="#e0f2fe" rx="4" />
+          <rect x="450" y="120" width="80" height="200" fill="#3b82f6" rx="4" />
+          <text x="490" y="345" font-size="12" fill="#111827" text-anchor="middle" font-weight="700">Waste Mgmt</text>
+          <text x="490" y="220" font-size="10" fill="#fff" text-anchor="middle" font-weight="800" transform="rotate(-90, 490, 220)">NECESSITY</text>
+
+          <!-- Security -->
+          <rect x="600" y="100" width="80" height="220" fill="#f3e8ff" rx="4" />
+          <rect x="600" y="100" width="80" height="220" fill="#8b5cf6" rx="4" />
+          <text x="640" y="345" font-size="12" fill="#111827" text-anchor="middle" font-weight="700">Gated Safety</text>
+          <text x="640" y="210" font-size="10" fill="#fff" text-anchor="middle" font-weight="800" transform="rotate(-90, 640, 210)">NON-NEGOTIABLE</text>
+
+          <!-- Annotations -->
+          <text x="400" y="30" font-size="12" fill="#ef4444" font-weight="700" text-anchor="middle">Marketed as: LUXURY | Utilized as: BASIC DIGNITY</text>
+        </svg>
+        <p style="text-align: center; color: #4b5563; font-size: 0.875rem; margin-top: 1.5rem; font-style: italic; line-height: 1.6;">
+          When public systems fail, private "luxuries" become survival infrastructure. You aren't buying a status symbol; you are buying the assurance that your life won't stop when the city outside does.
+        </p>
+      </div>
+
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Social Island: Connected yet Isolated</h3>
 
@@ -373,6 +416,18 @@ export const articles = [
       <p>In the end, the rise of high-rise societies tells us one simple thing: people adapt when systems don’t scale with growth. Until our cities can provide reliable infrastructure for everyone, this model of private, self-managed living will continue to grow. Not because it’s perfect—but because, for many of us, it feels like the only workable option. </p>
 
       <p>But we must ask ourselves—is a city made of thousands of private islands still a city? Or is it just a collection of escapes?</p>
+
+      <div style="margin: 3rem 0; padding: 2.5rem; background: #111827; color: white; border-radius: 20px; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); position: relative; overflow: hidden;">
+        <div style="position: absolute; top: 0; right: 0; padding: 1rem; opacity: 0.1;">
+          <svg width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+            <path d="M3 21h18M3 10h18M3 10V4a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v6M4 21V10m16 11V10M9 21v-4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v4" />
+          </svg>
+        </div>
+        <h3 style="color: #f9fafb; font-family: var(--font-serif); font-size: 1.75rem; margin-bottom: 1.5rem; font-weight: 700; border-bottom: 1px solid #374151; padding-bottom: 1rem;">The Final Diagnosis</h3>
+        <p style="color: #d1d5db; font-size: 1.15rem; line-height: 1.8; margin: 0; font-style: italic;">
+          The high-rise isn't a symbol of a rising middle class; it's a symptom of a sinking public system. We aren't moving into towers because we love the view; we're moving because we can't trust the street. Until we fix the city outside the gates, the gates will only get higher—and the cost of basic survival will continue to be marketed as a luxury.
+        </p>
+      </div>
     `
   },
   {
