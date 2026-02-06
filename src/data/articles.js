@@ -1204,7 +1204,7 @@ export const articles = [
 
       <p>But who cares?</p>
 
-      <p>After that moment, I was completely high—like the confidence you get after four bottles of vodka. (For the record, I don’t drink. This is just writing.)</p>
+      <p>After that moment, I was completely high—like the confidence you get after four bottles of vodka. (For the record, I don’t drink. This is just for writing.)</p>
 
 
       <p>Those small moments boosted my confidence to another level. I went from barely speaking in class, from avoiding eye contact and staying silent, to standing at a podium, addressing a hall full of people. Not once. Not twice. But multiple times.</p>
