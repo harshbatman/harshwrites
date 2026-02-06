@@ -2,11 +2,11 @@ export const articles = [
   {
     id: "from-bricks-to-bits-future-of-homes",
     views: 54240,
-    publishDate: "2024-01-28",
+    publishDate: "2023-12-23",
     title: "From Bricks to Bits: The Future of Our Homes",
     author: "Harsh Mahto",
     category: "Technology & Society",
-    date: "28 Jan 2024",
+    date: "23 Dec 2023",
     lastUpdated: "5 May 2025",
     image: "/bricks-to-bits.jpg",
     excerpt: "The future home isn’t just a place we return to at night. It’s an active partner in how we live. From bricks to bits, from shelter to system.",
@@ -155,11 +155,11 @@ export const articles = [
   {
     id: "unauthorized-colonies-unplanned-development",
     views: 30240,
-    publishDate: "2024-01-07",
+    publishDate: "2023-12-15",
     title: "Unauthorized Colonies: How Our Cities Grew Without Planning",
     author: "Harsh Mahto",
     category: "Urban Planning & Society",
-    date: "7 Jan 2024",
+    date: "15 Dec 2023",
     image: "/unauthorized-colonies-unplanned.jpg",
     excerpt: "Have you ever noticed how some parts of our cities feel completely unplanned? Unauthorized colonies represent a symptom of a deeper planning failure in India's urban growth.",
     content: `
@@ -288,11 +288,11 @@ export const articles = [
   {
     id: "failed-urban-infrastructure-high-rise-societies",
     views: 47240,
-    publishDate: "2024-01-21",
+    publishDate: "2023-12-21",
     title: "Failed Urban Infrastructure & the Rise of High-Rise Societies",
     author: "Harsh Mahto",
     category: "Urban Planning & Society",
-    date: "21 Jan 2024",
+    date: "21 Dec 2023",
     image: "/high-rise-societies.jpg",
     excerpt: "High-rise societies are more than just a lifestyle choice; they are a private response to a systemic failure in public infrastructure.",
     content: `
@@ -8116,11 +8116,11 @@ export const articles = [
   {
     id: "unplanned-cities",
     views: 20240,
-    publishDate: "2024-01-02",
+    publishDate: "2023-12-13",
     title: "Why Our Cities Are So Unplanned",
     author: "Harsh Mahto",
     category: "Urban Planning & Society",
-    date: "2 Jan 2024",
+    date: "13 Dec 2023",
     image: "/unplanned-cities-comparison.jpg",
     excerpt: "Sometimes I really wonder... why do our Indian cities feel so chaotic compared to cities in Europe or the U.S? When we look at those places, everything just seems to fit—like it was thought through properly.",
     content: `
