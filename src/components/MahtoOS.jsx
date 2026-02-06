@@ -62,16 +62,13 @@ const MahtoOS = () => {
             name: 'MAHTO',
             renderIcon: () => (
                 <span style={{
-                    fontSize: '18px',
+                    fontSize: '16px',
                     fontWeight: '1000',
-                    letterSpacing: '-0.02em',
+                    letterSpacing: '0.02em',
                     fontFamily: 'var(--font-sans)',
                     color: '#fff',
                     textAlign: 'center',
-                    WebkitFontSmoothing: 'antialiased',
-                    display: 'block',
-                    width: '100%',
-                    padding: '0 4px'
+                    WebkitFontSmoothing: 'antialiased'
                 }}>MAHTO</span>
             )
         },
