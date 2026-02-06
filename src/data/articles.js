@@ -372,40 +372,57 @@ export const articles = [
 
       <p>When it floods in Whitefield or Bellandur, it’s not just 'excess rain.' It is the city’s geography fighting back against unplanned concrete. These layouts are often regularized retrospectively (Akrama-Sakrama), but you cannot regularize a blocked waterway or a vanished wetland.</p>
 
-      <div style="margin: 2.5rem auto; padding: 1.75rem; background: #eff6ff; border-radius: 16px; border: 1px solid #bfdbfe; max-width: 600px; font-family: sans-serif; font-size: 0.9rem;">
+      <div style="margin: 2.5rem auto; padding: 1.75rem; background: #f8fafc; border-radius: 16px; border: 1px solid #e2e8f0; max-width: 600px; font-family: sans-serif; font-size: 0.9rem;">
         <h4 style="color: #1e40af; text-align: center; margin-bottom: 2rem; font-size: 1.1rem; font-weight: 800; font-family: var(--font-serif);">Bengaluru: The Engineering Failure</h4>
         
         <div style="margin-bottom: 2rem;">
-          <h5 style="font-size: 0.8rem; font-weight: 800; color: #1e3a8a; text-transform: uppercase; margin-bottom: 1.25rem; border-bottom: 1px solid #bfdbfe; padding-bottom: 0.4rem;">1. Built-up Area Growth (1990-2024)</h5>
+          <h5 style="font-size: 0.8rem; font-weight: 800; color: #475569; text-transform: uppercase; margin-bottom: 1.25rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.4rem;">1. Vanishing Green Cover (Environmental Erasure)</h5>
           <div style="display: flex; flex-direction: column; gap: 0.75rem;">
-            <div style="display: flex; justify-content: space-between; font-weight: 700; font-size: 0.85rem;">
-              <span>Increase in Concrete Surface Area</span>
-              <span style="color: #1e40af;">~1000%</span>
+            <div style="display: flex; align-items: center; gap: 0.75rem;">
+              <div style="width: 80px; font-size: 0.7rem; font-weight: 800; color: #10b981;">1990</div>
+              <div style="flex: 1; height: 12px; background: #f1f5f9; border-radius: 6px; overflow: hidden;"><div style="width: 45%; height: 100%; background: #10b981;"></div></div>
+              <div style="width: 35px; font-size: 0.75rem; font-weight: 700;">~45%</div>
             </div>
-            <div style="height: 16px; background: #dbeafe; border-radius: 8px; overflow: hidden;"><div style="width: 100%; height: 100%; background: #3b82f6;"></div></div>
+            <div style="display: flex; align-items: center; gap: 0.75rem;">
+              <div style="width: 80px; font-size: 0.7rem; font-weight: 800; color: #ef4444;">Today</div>
+              <div style="flex: 1; height: 12px; background: #f1f5f9; border-radius: 6px; overflow: hidden;"><div style="width: 4%; height: 100%; background: #ef4444;"></div></div>
+              <div style="width: 35px; font-size: 0.75rem; font-weight: 700;">~4%</div>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-bottom: 2rem;">
+          <h5 style="font-size: 0.8rem; font-weight: 800; color: #475569; text-transform: uppercase; margin-bottom: 1.25rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.4rem;">2. Exploding Concrete Area (Built-up)</h5>
+          <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+            <div style="display: flex; align-items: center; gap: 0.75rem;">
+              <div style="width: 80px; font-size: 0.7rem; font-weight: 800; color: #64748b;">1990</div>
+              <div style="flex: 1; height: 12px; background: #f1f5f9; border-radius: 6px; overflow: hidden;"><div style="width: 25%; height: 100%; background: #64748b;"></div></div>
+              <div style="width: 35px; font-size: 0.75rem; font-weight: 700;">~25%</div>
+            </div>
+            <div style="display: flex; align-items: center; gap: 0.75rem;">
+              <div style="width: 80px; font-size: 0.7rem; font-weight: 800; color: #1e293b;">Today</div>
+              <div style="flex: 1; height: 12px; background: #f1f5f9; border-radius: 6px; overflow: hidden;"><div style="width: 93%; height: 100%; background: #1e293b;"></div></div>
+              <div style="width: 35px; font-size: 0.75rem; font-weight: 700;">~93%</div>
+            </div>
           </div>
         </div>
 
         <div>
-          <h5 style="font-size: 0.8rem; font-weight: 800; color: #1e3a8a; text-transform: uppercase; margin-bottom: 1.25rem; border-bottom: 1px solid #bfdbfe; padding-bottom: 0.4rem;">2. Drainage Loss Index</h5>
-          <div style="display: flex; flex-direction: column; gap: 1.5rem;">
-            <div>
-              <div style="font-weight: 700; color: #1e40af; margin-bottom: 0.6rem; font-size: 0.85rem;">Natural Drainage Connectivity</div>
-              <div style="display: flex; align-items: center; gap: 0.75rem;">
-                <div style="width: 80px; font-size: 0.65rem; font-weight: 800; color: #10b981;">1990 (Orig.)</div>
-                <div style="flex: 1; height: 8px; background: #eee; border-radius: 4px; overflow: hidden;"><div style="width: 95%; height: 100%; background: #10b981;"></div></div>
-                <div style="width: 30px; font-size: 0.75rem; font-weight: 700;">95%</div>
-              </div>
-              <div style="display: flex; align-items: center; gap: 0.75rem; margin-top: 0.4rem;">
-                <div style="width: 80px; font-size: 0.65rem; font-weight: 800; color: #ef4444;">Today</div>
-                <div style="flex: 1; height: 8px; background: #eee; border-radius: 4px; overflow: hidden;"><div style="width: 25%; height: 100%; background: #ef4444;"></div></div>
-                <div style="width: 30px; font-size: 0.75rem; font-weight: 700;">25%</div>
-              </div>
+          <h5 style="font-size: 0.8rem; font-weight: 800; color: #475569; text-transform: uppercase; margin-bottom: 1.25rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.4rem;">3. Drainage Loss (Flood Connection)</h5>
+          <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+            <div style="display: flex; justify-content: space-between; font-weight: 700; font-size: 0.85rem; margin-bottom: 0.25rem;">
+              <span>Natural Water Carrying Capacity</span>
+              <span style="color: #ef4444;">-75% Loss</span>
+            </div>
+            <div style="height: 12px; background: #f1f5f9; border-radius: 6px; overflow: hidden; display: flex;">
+              <div style="width: 25%; height: 100%; background: #3b82f6;"></div>
+              <div style="width: 75%; height: 100%; background: #e2e8f0; opacity: 0.5;"></div>
             </div>
           </div>
         </div>
-        <p style="text-align: center; color: #64748b; font-size: 0.7rem; margin-top: 1rem; font-style: italic;">
-          *Data reflects the systemic reduction in natural water carrying capacity due to unplanned encroachments.
+        
+        <p style="text-align: center; color: #64748b; font-size: 0.7rem; margin-top: 1.5rem; font-style: italic; line-height: 1.4;">
+          *Systemic conversion of catchment areas and 'Rajakaluves' into concrete settlements.
         </p>
       </div>
 
