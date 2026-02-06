@@ -22,7 +22,11 @@ export const articles = [
 
       <p>Our water tank already has a sound system. When it’s full, a speaker announces: <em>“Aapki tanki bhar gayi hai.”</em></p>
 
-      <p>And yet… someone still had to shout. Someone still had to wake up. Someone still had to run to the switch. Lying back on the bed, half-awake, one thought hit me hard: If I can control my TV from my phone—change channels, adjust volume, even switch it off remotely—why can’t I control my submersible pump?</p>
+      <p>And yet… someone still had to shout.</p>
+      <p>Someone still had to wake up.</p>
+      <p>Someone still had to run to the switch.</p>
+
+      <p>Lying back on the bed, half-awake, one thought hit me hard: If I can control my TV from my phone—change channels, adjust volume, even switch it off remotely—why can’t I control my submersible pump?</p>
 
       <p>That question quietly pulled me into reading more about smart homes. But then I realized — smart homes don’t start with apps or phones. They start much earlier. They start with the ground.</p>
 
