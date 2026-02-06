@@ -51,6 +51,43 @@ const AppIcon = ({ app }) => {
                         )
                 }
             </span>
+            {app.id === 'mahto' && (
+                <div style={{ display: 'flex', gap: '8px', marginTop: '8px' }}>
+                    <a
+                        href="https://play.google.com/store/apps/details?id=tech.mahto.ma"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={(e) => e.stopPropagation()}
+                        style={{ display: 'flex', transition: 'transform 0.2s' }}
+                        onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.1)'}
+                        onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
+                    >
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M3 20.5V3.5C3 2.5 4.5 2 5.5 2.5L21 11C22 11.5 22 12.5 21 13L5.5 21.5C4.5 22 3 21.5 3 20.5Z" fill="#3B82F6" />
+                            <path d="M3.6 2.5L15.3 11.6L3.6 20.8V2.5Z" fill="#10B981" fillOpacity="0.8" />
+                            <path d="M15.3 11.6L21.3 10.8C21.8 11.1 21.8 11.8 21.3 12.2L15.3 11.6Z" fill="#FBBF24" />
+                            <path d="M3.6 20.8L15.3 11.6L21.3 12.2L6.5 21.6C5.5 22.2 3.6 21.7 3.6 20.8Z" fill="#EF4444" fillOpacity="0.8" />
+                        </svg>
+                    </a>
+                    <a
+                        href="https://apps.apple.com/us/app/mahto-jobs-contract-shops/id6756539905"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        onClick={(e) => e.stopPropagation()}
+                        style={{ display: 'flex', transition: 'transform 0.2s' }}
+                        onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.1)'}
+                        onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
+                    >
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="24" height="24" rx="5" fill="#000" />
+                            <circle cx="12" cy="12" r="10" stroke="white" strokeWidth="1.2" />
+                            <path d="M12 7V17" stroke="white" strokeWidth="1.2" strokeLinecap="round" />
+                            <path d="M8 11L16 11" stroke="white" strokeWidth="1.2" strokeLinecap="round" />
+                            <path d="M9 14L15 14" stroke="white" strokeWidth="1.2" strokeLinecap="round" />
+                        </svg>
+                    </a>
+                </div>
+            )}
         </div>
     );
 };
@@ -61,47 +98,15 @@ const MahtoOS = () => {
             id: 'mahto',
             name: 'MAHTO',
             renderIcon: () => (
-                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '6px' }}>
-                    <span style={{
-                        fontSize: '14px',
-                        fontWeight: '1000',
-                        letterSpacing: '0.05em',
-                        fontFamily: 'var(--font-sans)',
-                        color: '#fff',
-                        WebkitFontSmoothing: 'antialiased'
-                    }}>MAHTO</span>
-                    <div style={{ display: 'flex', gap: '8px' }}>
-                        <a
-                            href="https://play.google.com/store/apps/details?id=tech.mahto.ma"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            onClick={(e) => e.stopPropagation()}
-                            style={{ display: 'flex' }}
-                        >
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <path d="M3 20.5V3.5C3 2.5 4.5 2 5.5 2.5L21 11C22 11.5 22 12.5 21 13L5.5 21.5C4.5 22 3 21.5 3 20.5Z" fill="#fff" fillOpacity="0.2" />
-                                <path d="M3.60986 2.50293L15.3499 11.6499L3.60986 20.7969V2.50293Z" fill="#3B82F6" />
-                                <path d="M15.3499 11.6499L18.6799 14.2499L21.3199 12.1899C21.7899 11.8299 21.7899 11.1299 21.3199 10.7699L18.6799 8.70996L15.3499 11.6499Z" fill="#FBBF24" />
-                                <path d="M3.60986 20.7969L15.3499 11.6499L18.6799 14.2499L6.50986 21.5969C5.45986 22.2269 3.60986 21.7069 3.60986 20.7969Z" fill="#EF4444" />
-                                <path d="M3.60986 2.50293L15.3499 11.6499L18.6799 8.70996L6.50986 1.70293C5.45986 1.07293 3.60986 1.59293 3.60986 2.50293Z" fill="#10B981" />
-                            </svg>
-                        </a>
-                        <a
-                            href="https://apps.apple.com/us/app/mahto-jobs-contract-shops/id6756539905"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                            onClick={(e) => e.stopPropagation()}
-                            style={{ display: 'flex' }}
-                        >
-                            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                <circle cx="12" cy="12" r="11" stroke="white" strokeWidth="1.5" />
-                                <path d="M12 7V17" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
-                                <path d="M8 10L16 10" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
-                                <path d="M9 14L15 14" stroke="white" strokeWidth="1.5" strokeLinecap="round" />
-                            </svg>
-                        </a>
-                    </div>
-                </div>
+                <span style={{
+                    fontSize: '16px',
+                    fontWeight: '1000',
+                    letterSpacing: '0.02em',
+                    fontFamily: 'var(--font-sans)',
+                    color: '#fff',
+                    textAlign: 'center',
+                    WebkitFontSmoothing: 'antialiased'
+                }}>MAHTO</span>
             )
         },
         {
