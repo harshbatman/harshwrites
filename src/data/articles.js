@@ -164,21 +164,35 @@ export const articles = [
     image: "/unauthorized-colonies-unplanned.jpg",
     excerpt: "Have you ever noticed how some parts of our cities feel completely unplanned? Unauthorized colonies represent a symptom of a deeper planning failure in India's urban growth.",
     content: `
-      <p>Have you ever noticed how some parts of our cities feel completely unplanned? No proper roads, no drainage, water issues everywhere. Take Delhi for example. Areas like Sangam Vihar are classic cases of what we call unauthorized colonies.</p>
+      <p>Have you ever caught yourself looking out of a car window or walking through a lane and wondering—<em>how did we even end up with this?</em> No proper roads, lanes so narrow they feel like they’re closing in on you, and a complete absence of symmetry. If you live in Delhi or Faridabad, you’ve seen it. Areas like Sangam Vihar or Surya Vihar aren’t just "ghettos"; they are the primary housing reality for most of our urban population.</p>
 
-      <p>It’s a reality many of us live with, yet it feels like a glitch in the system. The worst part is that the people living there suffer daily. There’s no proper sewer system, no underground drainage, and irregular water supply. In many houses, residents have to build their own septic tanks because there’s simply no municipal sewer line at all.</p>
+      <p>It feels like a glitch in the system, doesn't it? We talk about "Smart Cities" and "World Class Infrastructure," but for millions, the daily reality is overflowing septic tanks and irregular water tankers. I want to talk to you about why this happened. It wasn't an accident. It was a choice—sometimes by desperate families, often by clever landowners, and always because our formal planning failed us.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Roots of the Problem</h3>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The "Productization" of Land</h3>
 
-      <p>This didn’t happen overnight. There’s a history behind it. In our system, land is usually categorized into four types: agricultural, residential, commercial, and industrial. In Delhi especially, most of the land earlier had agricultural status.</p>
+      <p>To understand the mess, we have to look at how we treat land. Think about it—there are two ways to make money: sell a service or sell a product. Around 20-30 years ago, landowners on the outskirts of our cities looked at their agricultural fields and saw a massive "product" opportunity.</p>
 
-      <p>But when development picked up—migration increased, jobs grew, and the population exploded—the demand for housing went through the roof. This is where the gap started. The Delhi Development Authority (DDA) simply couldn’t keep up with the demand for planned housing.</p>
-
-
+      <p>The formal agencies, like the DDA in Delhi or HUDA in Haryana, simply couldn't build houses fast enough for everyone moving into the city. So, the "informal" market took over. Landowners didn't wait for approvals. They just cut their fields into tiny plots—30 yards, 50 yards, 100 yards—and sold them to anyone who had a bit of savings and a dream of owning a home.</p>
 
       <div style="margin: 2rem 0; padding: 1.5rem; background: #fffcf0; border-left: 4px solid #eab308; border-radius: 4px;">
-        <p style="margin: 0; color: #854d0e; font-weight: 600;">When planned supply fails to meet organic demand, the market finds its own, often chaotic, way forward.</p>
+        <p style="margin: 0; color: #854d0e; font-weight: 600;">When the government fails to provide a roof, the 'informal' market stepping in isn't just business—it's survival. Chaotic, but survival nonetheless.</p>
       </div>
+
+
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The "Stitchwork" Reality</h3>
+
+      <p>This is why, when you walk through these colonies, nothing matches. One house is 50 yards, the next is a massive 500-yard bungalow, and the lane between them turns at a sharp 90-degree angle for no reason. It’s "stitchwork." Everything was pasted together piece by piece without a master plan.</p>
+
+      <p>Infrastructure was never the priority—only houses were. But once thousands of people started living there, the basics became a nightmare. Water, sewage, drainage—you can't just "add" these easily when the houses are built wall-to-wall. Let’s look at the numbers for our major hubs, and I think you’ll see the scale of what we’re dealing with.</p>
+
+      <h2 style="font-family: var(--font-serif); font-size: 1.8rem; margin-top: 3rem; margin-bottom: 1.5rem; color: #111827; font-weight: 800; border-bottom: 2px solid #e5e7eb; padding-bottom: 0.5rem;">A Tale of Four Cities</h2>
+
+      <p>I want to take you through a few cities that represent this crisis differently. It's not just a "Delhi problem" anymore.</p>
+
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.25rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">1. The Capital's Crisis: Delhi</h3>
+      <p>Delhi is where it all started. As the population exploded, the formal agencies simply stepped back. Today, roughly 70% of Delhi lives in unplanned areas. Think about that—only 30% of people in the capital have access to fully planned, serviced housing.</p>
 
       <div style="margin: 2.5rem auto; padding: 1.75rem; background: #fafafa; border-radius: 16px; border: 1px solid #e2e8f0; max-width: 600px; font-family: sans-serif; font-size: 0.9rem;">
         <h4 style="color: #0f172a; text-align: center; margin-bottom: 2rem; font-size: 1.25rem; font-weight: 800; font-family: var(--font-serif);">Delhi's Urban Reality</h4>
@@ -234,55 +248,6 @@ export const articles = [
           </div>
         </div>
       </div>
-
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Land as a Product</h3>
-
-      <p>Landowners saw an opportunity. There are basically two ways to make money—either by selling a service or by selling a product. These landowners chose the second route. They started treating land like a product.</p>
-
-      <p>Instead of waiting for proper land-use conversion and approvals, they started cutting agricultural land into small plots—30 yards, 40 yards, 50 yards—and selling them to whoever was willing to pay. And since this was happening outside the planning framework, there was no layout plan.</p>
-
-      <p>No provision for parks, no space reserved for roads, drainage, schools, or hospitals. That’s why when we walk through unauthorized colonies today, there’s no symmetry at all. One plot is 50 yards, next to it 100 yards, somewhere 200 yards, and suddenly you’ll see a massive 500-yard plot.</p>
-
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Stitchwork City</h3>
-
-      <p>Everything looks stitched together randomly. Narrow lanes, sharp turns, houses built wall-to-wall. Infrastructure was never planned—only houses were. Later, when people started living there in large numbers, basic needs kicked in. Water, sewage, drainage.</p>
-
-      <p>But since the colony itself was unauthorized, civic bodies couldn’t easily provide services. We ended up with a "tanker water" culture, overflowing septic tanks, open drains, and waterlogging every monsoon. It became a permanent fix for a temporary situation.</p>
-
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Long-Term Cost</h3>
-
-      <p>Unless planning, enforcement, and affordable housing move together, this cycle will keep repeating in cities across the country. It's time we stop seeing these colonies as just "illegal" and start seeing them as a symptom of a deeper planning failure.</p>
-
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Not Exactly "Illegal"</h3>
-
-      <p>And one thing we really need to clarify here—this land is not exactly illegal in the way people usually think. Most people living in these colonies have actually bought the land from the original landowner. There was a real transaction. Money was paid. Papers were exchanged—sometimes agreements, sometimes power of attorney.</p>
-
-      <p>But the problem is, we didn’t complete the process with the government. No proper registration, no stamp duty paid. At that time, many people genuinely thought—"We are buying land from the owner and building our house. Why do we even need to pay the government?"</p>
-
-      <p>And honestly, for families just trying to secure a roof over their head, saving that extra money felt logical. Registration and stamp duty looked expensive, unnecessary, and avoidable. But here’s the catch—in government records, the land status never changed. On paper, that land is still marked as agricultural land, not residential.</p>
-
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #eff6ff; border-left: 4px solid #3b82f6; border-radius: 4px;">
-        <p style="margin: 0; color: #1e40af; font-weight: 600;">Because of that status gap, civic bodies are stuck. They legally cannot provide basic facilities on land that is still agricultural in official records.</p>
-      </div>
-
-      <p>So no proper drainage system. No underground sewage lines. No planned garbage collection. Water supply becomes irregular, gas connections get delayed, and everything turns into a jugaad-based system. That’s why we see septic tanks everywhere. Everyone builds their own solution because there is no common infrastructure.</p>
-
-      <p>And when people ask, "Why doesn’t the government fix this?"—this is the reason. From their side, the land itself is not approved for urban living. Unauthorized colonies are not about criminals grabbing land. They are about ordinary people buying land the wrong way, without realizing the long-term consequences.</p>
-
-      <p>Once thousands of families settle like this, the problem becomes massive—socially, legally, and politically. That’s the real story behind unauthorized colonies. Not illegal intentions—but incomplete processes that ended up creating permanent urban problems for all of us.</p>
-
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #eff6ff; border-left: 4px solid #3b82f6; border-radius: 4px;">
-        <p style="margin: 0; color: #1e40af; font-weight: 600;">The transition from 'agricultural' to 'residential' isn't just a paper change—it's the legal gatekeeper of basic human dignity like clean water and sewage.</p>
-      </div>
-
-
-      <h2 style="font-family: var(--font-serif); font-size: 1.8rem; margin-top: 3rem; margin-bottom: 1.5rem; color: #111827; font-weight: 800; border-bottom: 2px solid #e5e7eb; padding-bottom: 0.5rem;">The Crisis Next Door: Faridabad</h2>
-
-      <p>We recently talked about unauthorized colonies in Delhi, but it’s time we look just next door—at Faridabad.</p>
-
-      <p>That question matters. Faridabad isn’t just another city; it is the most populated district of Haryana, sitting right on the outskirts of Delhi. Over the years, our city has become a natural stop for migrant workers—people who came from states like Uttar Pradesh, Bihar, and beyond—searching for work, affordability, and proximity to the capital.</p>
-
-      <p>But where do we house such massive growth? This is where unauthorized colonies enter the picture. Across Faridabad, there are dozens of colonies developed without proper approvals or urban planning. Places like Surya Vihar, Saidpur (Sahedpur), and many more are home to thousands of families.</p>
 
       <div style="margin: 2rem 0; padding: 1.5rem; background: #fffcf0; border-left: 4px solid #eab308; border-radius: 4px;">
         <p style="margin: 0; color: #854d0e; font-weight: 600;">These are not empty lands anymore. These are living, breathing neighborhoods—with children, daily-wage workers, and elderly people—that remain invisible in official planning.</p>
@@ -442,39 +407,21 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Everyday Problems We Face</h3>
 
-      <p>Life goes on, but the systems that support it don't exist. In many unauthorized colonies, residents live without proper sewer and drainage systems, reliable water supply, organized garbage collection, or any real garbage recycling mechanism.</p>
-
-      <p>During the monsoon, dirty water floods the streets. Sewage mixes with rainwater, mosquitoes breed, and diseases spread. It makes you ask—is this how urban life is supposed to be?</p>
-
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Present on Paper, Absent on Ground</h3>
-
-      <p>Officially, municipal corporations exist. Water departments exist. Sanitation contracts exist. But on the ground, the reality is very different. Garbage piles up because trucks don’t come regularly, water tankers are irregular and expensive, and sewage lines are either missing or badly connected.</p>
-
-      <p>People end up paying twice—once through the taxes that are supposed to fund these services, and again through private arrangements just to get the basics. It’s a systemic failure that residents have to balance every single day.</p>
-
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Why This Cycle Repeats</h3>
-
-      <p>Unauthorized colonies grow because the demand for housing is real, but affordable, planned housing is limited. Migrant families can’t wait years for policies to catch up. They settle where land is cheap and jobs are close. Over time, these colonies become permanent parts of the landscape, but our planning mindset still treats them as temporary problems.</p>
-
-      <p>Faridabad runs on the labor that lives in these colonies—the factory workers, construction workers, drivers, and domestic helpers. Our city depends on them, yet it denies them basic dignity in infrastructure. That is the uncomfortable truth we need to face.</p>
+      <p>Life goes on, but the systems that support it often don't. During the monsoon, dirty water floods the streets. Sewage mixes with rainwater, mosquitoes breed, and diseases spread. It makes you ask—is this how urban life is supposed to be? We end up paying twice—once through the taxes that are supposed to fund these services, and again through private arrangements just to get the basics like water tankers or garbage collection.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Legal Gray Area</h3>
 
-      <p>It’s important to clarify that this land isn’t exactly "illegal" in the way many people assume. Most residents in places like Surya Vihar or Saidpur actually bought their land from the original owners. There were real transactions, money was paid, and papers were exchanged—often through power of attorney or agreements.</p>
-
-      <p>The problem is that the process with the government was never completed. No proper registration, no stamp duty. For many families, skipping these expensive and complex steps felt like a logical way to save money while securing a roof over their heads.</p>
+      <p>It’s important to clarify one thing—this land isn’t exactly "illegal" in the way many people assume. Most residents in these colonies actually <em>bought</em> their land from the original owners. There were real transactions, money was paid, and papers were exchanged. But because the process with the government was never completed, they remain stuck in a legal limbo.</p>
 
       <div style="margin: 2rem 0; padding: 1.5rem; background: #eff6ff; border-left: 4px solid #3b82f6; border-radius: 4px;">
-        <p style="margin: 0; color: #1e40af; font-weight: 600;">Since the land status on paper remains "agricultural," municipal bodies are legally restricted from providing permanent infrastructure like underground sewers or planned drainage.</p>
+        <p style="margin: 0; color: #1e40af; font-weight: 600;">Since the land status on paper remains "agricultural," municipal bodies are legally restricted from providing permanent infrastructure. It’s a paper-work problem with human-life consequences.</p>
       </div>
-
-      <p>This creates a permanent <em>jugaad</em>-based ecosystem. People build their own septic tanks and find private ways to get water because the official system isn't allowed to reach them. The issue isn't illegal intentions—it's an incomplete legal process that has created a massive, permanent urban crisis for thousands of families in Faridabad.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">A Path Toward Urban Justice</h3>
 
-      <p>We cannot keep pretending these areas don’t exist. We need regularization with accountability, not just announcements. We need basic infrastructure first—sewers, drainage, and water—and a move toward inclusion in municipal planning.</p>
+      <p>We cannot keep pretending these areas don’t exist. They house the workers who build our corporate towers, drive our cars, and keep our cities running. We need regularization with accountability. We need basic infrastructure first—sewers, drainage, and water—and a move toward inclusion in municipal planning.</p>
 
-      <p>This is not about freebies; it is about urban justice. If we can talk about Delhi’s unauthorized colonies, we owe the same honesty to Faridabad. These colonies are not "illegal people living illegally." They are our people, living in our city, asking for basic dignity—nothing more.</p>
+      <p>This is not about freebies; it is about urban justice. These colonies are not filled with "illegal intentions"—they are filled with our people, asking for basic dignity. If you’ve read this far, take a moment to look at the neighborhood next to yours. Is it planned? Or is it a symptom of a system that forgot its people? Let's start talking about the city we actually live in, not just the one on the posters.</p>
     `
   },
 
