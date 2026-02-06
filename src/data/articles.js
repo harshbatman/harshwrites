@@ -10,27 +10,34 @@ export const articles = [
     image: "/bricks-to-bits.jpg",
     excerpt: "The future home isn’t just a place we return to at night. It’s an active partner in how we live. From bricks to bits, from shelter to system.",
     content: `
-      <p>Let’s not start with apps or phones. Let’s start where every home actually begins — the ground.</p>
+      <p>After Chhath Puja, I recently visited my home. Yesterday afternoon, I was sleeping when suddenly I heard someone shouting: <em>“Motor band karo! Tanki bhar gayi hai!”</em> (Switch off the submersible pump — the water tank is full.)</p>
 
-      <p>Before anything becomes "smart," it has to stand. We're talking about foundations, cement, steel, bricks. For decades, home construction meant one thing: building something strong enough to shelter us. Four walls, a roof, and protection from heat, rain, and noise. For a long time, that was enough. A home was passive; it just existed.</p>
+      <p>I woke up in a panic and rushed to the electric board to turn it off. The funny part? Our water tank already has a sound system. When it’s full, a speaker announces: <em>“Aapki tanki bhar gayi hai.”</em></p>
+
+      <p>And yet… someone still had to shout. Someone still had to wake up. Someone still had to run to the switch. Lying back on the bed, half-awake, one thought hit me hard: If I can control my TV from my phone—change channels, adjust volume, even switch it off remotely—why can’t I control my submersible pump?</p>
+
+      <p>That question quietly pulled me into reading more about smart homes. But let’s not start with apps or phones. Let’s start where every home actually begins — the ground.</p>
+
+      <p>Before anything becomes smart, it has to stand. We’re talking about foundations, cement, steel, bricks. For decades, home construction meant one thing: building something strong enough to shelter us. Four walls. A roof. Protection from heat, rain, and noise. For a long time, that was enough. Homes were passive. They didn’t think. They didn’t respond. They just existed.</p>
 
       <div style="margin: 2rem 0; padding: 1.5rem; background: #fffcf0; border-left: 4px solid #eab308; border-radius: 4px;">
         <p style="margin: 0; color: #854d0e; font-weight: 600;">A home used to be a passive shelter. Today, it is evolving into an active responder to the world around it.</p>
       </div>
 
-      <p>But slowly, what we expect from our homes has changed. As the outside world changed—with more pollution, rising heat, less clean water, and unstable power—our homes started filling up with machines. Fans, air conditioners, air and water purifiers, refrigerators. At first, they felt like upgrades. Now, they feel like essentials.</p>
+      <p>But slowly, what we expect from our homes has changed. As the outside world changed—more pollution, rising heat, less clean water, and unstable power—our homes started filling up with machines. Fans, air conditioners, air purifiers, water purifiers, refrigerators. At first, they felt like upgrades. Now, they feel like essentials.</p>
 
-      <p>Then came the next shift: control. Switches became remotes, remotes became apps, and apps moved into our phones. Suddenly, we could control our fan, TV, AC, and purifier — all from one device.</p>
+      <p>And then came the next shift — control. Switches became remotes. Remotes became apps. Apps moved into our phones. Suddenly, from one device in our hand, we could control the fan, the TV, the AC, and the purifier. Our homes were no longer just shelter. They were becoming systems.</p>
+
+      <p>And that’s when the question becomes unavoidable: If almost everything inside our home can be controlled intelligently… why is something as basic as water still shouting for attention?</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">When Homes Start Responding</h3>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #eff6ff; border-left: 4px solid #3b82f6; border-radius: 4px;">
+        <p style="margin: 0; color: #1e40af; font-weight: 600;">Maybe the future of homes isn’t about adding more gadgets. Maybe it’s about making the home aware. Not just a place that protects us — but a place that responds to us.</p>
+      </div>
       <p>That’s when the idea of a smart home really started. Not just when we added gadgets, but when the home started <strong>responding</strong>. Responding to temperature, to air quality, and to how and when we live.</p>
 
       <p>Imagine a fan that adjusts itself, an air purifier that reacts to outside AQI, an AC that knows when we’re actually home, or a refrigerator that manages energy better than we do. At that point, the home stops being passive; it becomes a system.</p>
-
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #eff6ff; border-left: 4px solid #3b82f6; border-radius: 4px;">
-        <p style="margin: 0; color: #1e40af; font-weight: 600;">The real smart home isn't about the number of gadgets; it's about how the system responds to our needs without us lifting a finger.</p>
-      </div>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Ecosystem Challenge</h3>
 
