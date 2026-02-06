@@ -17,46 +17,43 @@ export const articles = [
 
       <p>And yet… someone still had to shout. Someone still had to wake up. Someone still had to run to the switch. Lying back on the bed, half-awake, one thought hit me hard: If I can control my TV from my phone—change channels, adjust volume, even switch it off remotely—why can’t I control my submersible pump?</p>
 
-      <p>That question quietly pulled me into reading more about smart homes. But let’s not start with apps or phones. Let’s start where every home actually begins — the ground.</p>
+      <p>That question quietly pulled me into reading more about smart homes. But then I realized — smart homes don’t start with apps or phones. They start much earlier. They start with the ground.</p>
 
-      <p>Before anything becomes smart, it has to stand. We’re talking about foundations, cement, steel, bricks. For decades, home construction meant one thing: building something strong enough to shelter us. Four walls. A roof. Protection from heat, rain, and noise. For a long time, that was enough. Homes were passive. They didn’t think. They didn’t respond. They just existed.</p>
+      <p>Before anything becomes smart, it has to stand. We’re talking about foundations, cement, steel, and bricks. For decades, home construction meant one thing: building something strong enough to shelter us. Four walls. A roof. Protection from heat, rain, and noise. For a long time, that was enough. Homes were passive. They didn’t think. They didn’t respond. They just existed.</p>
 
       <div style="margin: 2rem 0; padding: 1.5rem; background: #fffcf0; border-left: 4px solid #eab308; border-radius: 4px;">
         <p style="margin: 0; color: #854d0e; font-weight: 600;">A home used to be a passive shelter. Today, it is evolving into an active responder to the world around it.</p>
       </div>
 
-      <p>But slowly, what we expect from our homes has changed. As the outside world changed—more pollution, rising heat, less clean water, and unstable power—our homes started filling up with machines. Fans, air conditioners, air purifiers, water purifiers, refrigerators. At first, they felt like upgrades. Now, they feel like essentials.</p>
+      <p>But slowly, what we expect from our homes has changed. As the outside world changed—more pollution, rising heat, less clean water, and unstable power—our homes started filling up with machines. Fans, ACs, air purifiers, water purifiers, and refrigerators. At first, they felt like upgrades. Now, they feel like survival essentials.</p>
 
-      <p>And then came the next shift — control. Switches became remotes. Remotes became apps. Apps moved into our phones. Suddenly, from one device in our hand, we could control the fan, the TV, the AC, and the purifier. Our homes were no longer just shelter. They were becoming systems.</p>
+      <p>Then came the next shift: control. Switches became remotes, remotes became apps, and apps moved into our phones. And quietly, in the background, something else entered our homes — IoT and embedded systems.</p>
 
-      <p>And that’s when the question becomes unavoidable: If almost everything inside our home can be controlled intelligently… why is something as basic as water still shouting for attention?</p>
+      <p>These are tiny computers tucked inside everyday things. Sensors measuring temperature, water levels, and air quality. Embedded systems taking decisions. Internet connectivity making these devices talk to each other. Suddenly, from one device in our hand, we could control the fan, the TV, the AC, and the purifier. Our homes were no longer just shelter. They were becoming systems.</p>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">When Homes Start Responding</h3>
+      <p>And that’s when the question becomes unavoidable: If almost everything in our home can sense, measure, and respond intelligently… why is something as basic as water still shouting for attention?</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">When Homes Become Aware</h3>
 
       <div style="margin: 2rem 0; padding: 1.5rem; background: #eff6ff; border-left: 4px solid #3b82f6; border-radius: 4px;">
-        <p style="margin: 0; color: #1e40af; font-weight: 600;">Maybe the future of homes isn’t about adding more gadgets. Maybe it’s about making the home aware. Not just a place that protects us — but a place that responds to us.</p>
+        <p style="margin: 0; color: #1e40af; font-weight: 600;">The future of homes isn’t just about adding more gadgets. It’s about making the home aware — of temperature, air quality, water usage, and how we actually live.</p>
       </div>
-      <p>That’s when the idea of a smart home really started. Not just when we added gadgets, but when the home started <strong>responding</strong>. Responding to temperature, to air quality, and to how and when we live.</p>
 
-      <p>Imagine a fan that adjusts itself, an air purifier that reacts to outside AQI, an AC that knows when we’re actually home, or a refrigerator that manages energy better than we do. At that point, the home stops being passive; it becomes a system.</p>
+      <p>That’s when a home stops being passive. Imagine a fan that adjusts itself, an air purifier reacting to AQI, or a pump that switches off silently as soon as the tank is full. It becomes an active responder. But there’s a real challenge here: the ecosystem.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Ecosystem Challenge</h3>
 
-      <p>However, there's a real challenge here. Every company builds its own product. TV companies build TVs, AC companies build ACs, and phone companies build phones. But we don’t live inside products; we live inside ecosystems.</p>
-
-      <p>This means the future home needs a common digital layer — an operating system for homes. It needs to be open, flexible, and long-lasting. It cannot be a closed, walled garden where everything must come from one brand.</p>
-
-      <p>Why? Because our homes last 30–50 years, while our phones barely last 3–4. The intelligence of a home can’t be tied to a single gadget that becomes obsolete in a few summers.</p>
+      <p>Every company builds its own product. TV companies build TVs, AC companies build ACs, and pump companies build pumps. But we don’t live inside products; we live inside ecosystems. And homes last way longer than gadgets. Our homes last 30–50 years, while our gadgets barely last 3–4. The intelligence of a home cannot be tied to a single brand or a gadget that becomes obsolete in a few summers.</p>
 
       <div style="margin: 2rem 0; padding: 1.5rem; background: #fdf2f8; border-left: 4px solid #ec4899; border-radius: 4px;">
-        <p style="margin: 0; color: #831843; font-weight: 600;">Our homes outlast our technology by decades. The intelligence of a home must sit above the appliances, not inside them.</p>
+        <p style="margin: 0; color: #831843; font-weight: 600;">The intelligence of a home must sit above the gadgets — a common digital layer, like an operating system for living, that outlasts the trends.</p>
       </div>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Future: From Shelter to System</h3>
+      <p>It has to be smart infrastructure, not just smart appliances. This intelligence sits above construction, wiring, energy, and water. It manages electricity, protects health, saves energy, and learns quietly in the background.</p>
 
-      <p>The intelligence has to sit above everything — construction, wiring, appliances, and energy. It should manage our electricity, water, air, and comfort. That’s when a home starts doing more than just sheltering us; it protects our health, saves energy, adapts to our routines, and learns.</p>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Future: From Shelter to Partner</h3>
 
-      <p>The future home isn’t just a place we return to at night. It’s an active partner in how we live. From bricks to bits, from shelter to system. That is the real future of our homes.</p>
+      <p>The home becomes a partner. It’s no longer just a place we return to at night to escape the world; it’s an active partner in how we live. From bricks to bits, from shelter to system. That isn't just a smart home; it’s the future of living.</p>
     `
   },
 
