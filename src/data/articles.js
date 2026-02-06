@@ -2,11 +2,11 @@ export const articles = [
   {
     id: "from-bricks-to-bits-future-of-homes",
     views: 54240,
-    publishDate: "2024-03-16",
+    publishDate: "2024-01-28",
     title: "From Bricks to Bits: The Future of Our Homes",
     author: "Harsh Mahto",
     category: "Technology & Society",
-    date: "16 Mar 2024",
+    date: "28 Jan 2024",
     lastUpdated: "5 May 2025",
     image: "/bricks-to-bits.jpg",
     excerpt: "The future home isn’t just a place we return to at night. It’s an active partner in how we live. From bricks to bits, from shelter to system.",
