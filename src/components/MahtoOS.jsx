@@ -103,12 +103,12 @@ const MahtoOS = () => {
                     }}>
                         <div style={{ width: '24px', height: '24px' }}>
                             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                {/* Solid White House Body including Gable */}
-                                <path d="M12 4L3 12V22H21V12L12 4Z" fill="white" style={{ filter: 'drop-shadow(0 1px 1px rgba(0,0,0,0.3))' }} />
-                                {/* Roof Outline for definition */}
-                                <path d="M3 12L12 4L21 12" stroke="white" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round" />
-                                {/* Gate (Doorway) - Black Cutout */}
-                                <path d="M10 22V17C10 16.4477 10.4477 16 11 16H13C13.5523 16 14 16.4477 14 17V22H10Z" fill="#000" />
+                                {/* The Roof Line (Reverse V) */}
+                                <path d="M4 11L12 4L20 11" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+                                {/* House Body with a Gap from the Roof */}
+                                <path d="M12 8.5L5 14V22H19V14L12 8.5Z" fill="white" />
+                                {/* Gate (Doorway) */}
+                                <path d="M10 22V18C10 17.4477 10.4477 16 11 16H13C13.5523 17 14 17.4477 14 18V22H10Z" fill="#000" />
                             </svg>
                         </div>
                         <span style={{
