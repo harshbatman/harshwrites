@@ -337,13 +337,13 @@ export const articles = [
               <div style="font-weight: 700; color: #92400e; margin-bottom: 0.6rem; font-size: 0.85rem;">Solid Waste Management</div>
               <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.4rem;">
                 <div style="width: 60px; font-size: 0.75rem; font-weight: 800; color: #ef4444;">Unauth.</div>
-                <div style="flex: 1; height: 8px; background: #fef3c7; border-radius: 4px; overflow: hidden;"><div style="width: 15%; height: 100%; background: #ef4444;"></div></div>
-                <div style="width: 30px; font-size: 0.75rem; font-weight: 700;">15%</div>
+                <div style="flex: 1; height: 8px; background: #fef3c7; border-radius: 4px; overflow: hidden;"><div style="width: 10%; height: 100%; background: #ef4444;"></div></div>
+                <div style="width: 30px; font-size: 0.75rem; font-weight: 700;">10%</div>
               </div>
               <div style="display: flex; align-items: center; gap: 0.75rem;">
                 <div style="width: 60px; font-size: 0.75rem; font-weight: 800; color: #10b981;">Sector</div>
-                <div style="flex: 1; height: 8px; background: #fef3c7; border-radius: 4px; overflow: hidden;"><div style="width: 70%; height: 100%; background: #10b981;"></div></div>
-                <div style="width: 30px; font-size: 0.75rem; font-weight: 700;">70%</div>
+                <div style="flex: 1; height: 8px; background: #fef3c7; border-radius: 4px; overflow: hidden;"><div style="width: 90%; height: 100%; background: #10b981;"></div></div>
+                <div style="width: 30px; font-size: 0.75rem; font-weight: 700;">90%</div>
               </div>
             </div>
           </div>
