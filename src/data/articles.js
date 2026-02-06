@@ -101,13 +101,31 @@ export const articles = [
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Ecosystem Challenge</h3>
 
-      <p>Every company builds its own product. TV companies build TVs, AC companies build ACs, and pump companies build pumps. But we don’t live inside products; we live inside ecosystems. And homes last way longer than gadgets. Our homes last 30–50 years, while our gadgets barely last 3–4. The intelligence of a home cannot be tied to a single brand or a gadget that becomes obsolete in a few summers.</p>
+      <p>Think about smartphones.</p>
+      
+      <p>There are many mobile manufacturing companies — Samsung, Vivo, Oppo, Motorola, and Apple. Each company makes its own hardware. But hardware alone doesn’t define the experience.</p>
+      
+      <p>What actually makes the phone usable for years is the operating system: Apple phones run on iOS, and most other phones run on Android.</p>
+      
+      <p>When you buy a Samsung or Vivo phone, you’re not buying just a screen and battery. You’re buying into the Android ecosystem. Apps, updates, security, settings, cloud — all of this sits above the phone brand. That’s why you can change from Samsung to Motorola, or from Oppo to Vivo, and still feel comfortable. The ecosystem stays the same, even when the device changes.</p>
+
+      <p>Now apply this to homes.</p>
+
+      <p>Today, smart homes are like phones without a common OS. One company makes the TV. Another makes the AC. Another makes the water pump. Each one works — but only inside its own app.</p>
+
+      <p>But there's a fundamental problem: Homes last 30–50 years. Gadgets last 3–4 years.</p>
+      
+      <p>If your home’s intelligence depends on one brand or one gadget, it will become outdated very fast — just like an old phone with no updates.</p>
 
       <div style="margin: 2rem 0; padding: 1.5rem; background: #fdf2f8; border-left: 4px solid #ec4899; border-radius: 4px;">
-        <p style="margin: 0; color: #831843; font-weight: 600;">The intelligence of a home must sit above the gadgets — a common digital layer, like an operating system for living, that outlasts the trends.</p>
+        <p style="margin: 0; color: #831843; font-weight: 600;">The intelligence of a home must outlive individual gadgets. It needs to sit above the appliances — a common digital layer, like an operating system for living.</p>
       </div>
 
-      <p>It has to be smart infrastructure, not just smart appliances. This intelligence sits above construction, wiring, energy, and water. It manages electricity, protects health, saves energy, and learns quietly in the background.</p>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Smart Infrastructure, Not Just Appliances</h3>
+
+      <p>This intelligence must sit above everything — construction, wiring, energy, and water. Not inside one TV, one AC, or one pump. That’s what makes it smart infrastructure, not just smart appliances.</p>
+
+      <p>Just like Android or iOS outlives individual phone models, the intelligence of a home must outlive individual gadgets. That’s the ecosystem challenge — and also the key to the future of smart homes.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Future: From Shelter to Partner</h3>
 
