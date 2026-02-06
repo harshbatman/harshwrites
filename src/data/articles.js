@@ -179,53 +179,70 @@ export const articles = [
         <p style="margin: 0; color: #854d0e; font-weight: 600;">When planned supply fails to meet organic demand, the market finds its own, often chaotic, way forward.</p>
       </div>
 
-      <div style="margin: 2.5rem auto; padding: 2rem; background: #fff; border-radius: 16px; border: 1px solid #e5e7eb; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05); max-width: 650px;">
-        <h4 style="color: #111827; text-align: center; margin-bottom: 2rem; font-size: 1.2rem; font-weight: 800; font-family: var(--font-serif);">Urban Paradox: The Infrastructure Deficit</h4>
+      <div style="margin: 3rem auto; padding: 2.5rem; background: #fafafa; border-radius: 20px; border: 1px solid #e2e8f0; max-width: 750px; font-family: sans-serif;">
+        <h4 style="color: #0f172a; text-align: center; margin-bottom: 2.5rem; font-size: 1.4rem; font-weight: 800; font-family: var(--font-serif);">The Urban Reality of Delhi</h4>
         
-        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
-          {/* Metric: Sewers */}
-          <div>
-            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.85rem; font-weight: 700;">
-              <span>Sewage & Waste Management</span>
-              <span style="color: #6b7280; font-size: 0.75rem;">Planned (90%) vs Unauthorized (5%)</span>
+        {/* Part 1: The Scale Problem */}
+        <div style="margin-bottom: 3rem;">
+          <h5 style="font-size: 0.9rem; font-weight: 800; color: #64748b; text-transform: uppercase; margin-bottom: 1.5rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.5rem;">1. Where People Actually Live (Land Area / Housing Share)</h5>
+          <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+            <div style="display: flex; justify-content: space-between; font-size: 0.85rem; font-weight: 700;">
+              <span>Unauthorized & Organic Growth</span>
+              <span style="color: #ef4444;">~70% of Population</span>
             </div>
-            <div style="height: 12px; background: #f3f4f6; border-radius: 6px; overflow: hidden; display: flex;">
-              <div style="width: 90%; height: 100%; background: #10b981; border-right: 2px solid white;"></div>
-              <div style="width: 5%; height: 100%; background: #ef4444;"></div>
+            <div style="height: 24px; background: #e2e8f0; border-radius: 12px; overflow: hidden; position: relative;">
+              <div style="width: 70%; height: 100%; background: #ef4444; display: flex; align-items: center; padding-left: 1rem; color: white; font-size: 0.75rem; font-weight: 900;">ORGANIC (UNPLANNED)</div>
             </div>
-          </div>
-
-          {/* Metric: Piped Water */}
-          <div>
-            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.85rem; font-weight: 700;">
-              <span>Piped Water Supply</span>
-              <span style="color: #6b7280; font-size: 0.75rem;">Planned (95%) vs Unauthorized (35%)</span>
+            
+            <div style="display: flex; justify-content: space-between; font-size: 0.85rem; font-weight: 700; margin-top: 0.5rem;">
+              <span>Planned Development (DDA/Lutyens)</span>
+              <span style="color: #10b981;">~30% of Population</span>
             </div>
-            <div style="height: 12px; background: #f3f4f6; border-radius: 6px; overflow: hidden; display: flex;">
-              <div style="width: 95%; height: 100%; background: #3b82f6; border-right: 2px solid white;"></div>
-              <div style="width: 35%; height: 100%; background: #f59e0b;"></div>
+            <div style="height: 24px; background: #e2e8f0; border-radius: 12px; overflow: hidden; position: relative;">
+              <div style="width: 30%; height: 100%; background: #10b981; display: flex; align-items: center; padding-left: 1rem; color: white; font-size: 0.75rem; font-weight: 900;">PLANNED</div>
             </div>
           </div>
-
-          {/* Metric: Road Width & Safety */}
-          <div>
-            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.85rem; font-weight: 700;">
-              <span>Road Access & Drainage</span>
-              <span style="color: #6b7280; font-size: 0.75rem;">Planned (100%) vs Unauthorized (15%)</span>
-            </div>
-            <div style="height: 12px; background: #f3f4f6; border-radius: 6px; overflow: hidden; display: flex;">
-              <div style="width: 100%; height: 100%; background: #6366f1; border-right: 2px solid white;"></div>
-              <div style="width: 15%; height: 100%; background: #6b7280;"></div>
-            </div>
-          </div>
+          <p style="font-size: 0.75rem; color: #64748b; margin-top: 1rem; font-style: italic;">Note: "Organic" includes Unauthorized colonies, Slums/JJs, and Urban villages where planning failed to reach.</p>
         </div>
 
-        <div style="margin-top: 1.5rem; display: flex; gap: 1.5rem; justify-content: center; font-size: 0.75rem; font-weight: 600;">
-          <div style="display: flex; align-items: center; gap: 0.4rem;">
-            <span style="width: 10px; height: 10px; border-radius: 2px; background: #10b981;"></span> Planned
-          </div>
-          <div style="display: flex; align-items: center; gap: 0.4rem;">
-            <span style="width: 10px; height: 10px; border-radius: 2px; background: #ef4444;"></span> Unauthorized
+        {/* Part 2: The Infrastructure Deficit */}
+        <div>
+          <h5 style="font-size: 0.9rem; font-weight: 800; color: #64748b; text-transform: uppercase; margin-bottom: 1.5rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.5rem;">2. The Gap in Basic Infrastructure</h5>
+          
+          <div style="display: grid; grid-template-columns: 1fr; gap: 1.5rem;">
+            {/* Sewage */}
+            <div>
+              <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: 700; color: #475569; margin-bottom: 0.5rem;">
+                <span>Municipal Sewage Line Access</span>
+              </div>
+              <div style="display: flex; align-items: center; gap: 1rem;">
+                <div style="width: 60px; font-size: 0.7rem; font-weight: 800; color: #10b981;">Planned</div>
+                <div style="flex: 1; height: 8px; background: #dcfce7; border-radius: 4px; overflow: hidden;"><div style="width: 85%; height: 100%; background: #10b981;"></div></div>
+                <div style="width: 30px; font-size: 0.7rem; font-weight: 700;">85%</div>
+              </div>
+              <div style="display: flex; align-items: center; gap: 1rem; margin-top: 0.5rem;">
+                <div style="width: 60px; font-size: 0.7rem; font-weight: 800; color: #ef4444;">Unautho.</div>
+                <div style="flex: 1; height: 8px; background: #fee2e2; border-radius: 4px; overflow: hidden;"><div style="width: 8%; height: 100%; background: #ef4444;"></div></div>
+                <div style="width: 30px; font-size: 0.7rem; font-weight: 700;">8%</div>
+              </div>
+            </div>
+
+            {/* Piped Water */}
+            <div>
+              <div style="display: flex; justify-content: space-between; font-size: 0.8rem; font-weight: 700; color: #475569; margin-bottom: 0.5rem;">
+                <span>Regular Piped Water Supply</span>
+              </div>
+              <div style="display: flex; align-items: center; gap: 1rem;">
+                <div style="width: 60px; font-size: 0.7rem; font-weight: 800; color: #10b981;">Planned</div>
+                <div style="flex: 1; height: 8px; background: #dcfce7; border-radius: 4px; overflow: hidden;"><div style="width: 90%; height: 100%; background: #10b981;"></div></div>
+                <div style="width: 30px; font-size: 0.7rem; font-weight: 700;">90%</div>
+              </div>
+              <div style="display: flex; align-items: center; gap: 1rem; margin-top: 0.5rem;">
+                <div style="width: 60px; font-size: 0.7rem; font-weight: 800; color: #ef4444;">Unautho.</div>
+                <div style="flex: 1; height: 8px; background: #fee2e2; border-radius: 4px; overflow: hidden;"><div style="width: 45%; height: 100%; background: #ef4444;"></div></div>
+                <div style="width: 30px; font-size: 0.7rem; font-weight: 700;">45%</div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
