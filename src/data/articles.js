@@ -8248,7 +8248,7 @@ export const articles = [
 
       <p>And sometimes, it makes me feel like our homes have stopped being homes. They’ve started feeling more like <strong>survival chambers</strong>.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fafafa; border-left: 4px solid #18181b; border-radius: 4px; font-family: var(--font-serif); font-style: italic; font-size: 1.2rem;">
+      <div style="margin: 2.5rem 0; padding: 1.5rem; background: #f5f3ff; border-left: 4px solid #6366f1; border-radius: 8px; font-family: var(--font-serif); font-style: italic; font-size: 1.25rem; color: #4338ca; line-height: 1.8;">
         A home was once a place where you rested.<br/>
         You breathed freely.<br/>
         You drank water without thinking twice.<br/>
@@ -8371,8 +8371,8 @@ export const articles = [
 
       <p>Deep down, we all know this isn’t progress. This is adjustment. Adjustment to a world we slowly damaged—and then tried to fix with machines instead of real solutions.</p>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fef2f2; border-left: 4px solid #ef4444; border-radius: 4px;">
-        <p style="margin: 0; color: #991b1b; font-weight: 600;">In our cities today, machines have replaced nature. <span style="color: #000; font-weight: 800;">Air purifiers</span>, <span style="color: #000; font-weight: 800;">water filters</span>, and <span style="color: #000; font-weight: 800;">air conditioners</span> aren't luxuries anymore. They are survival tools in a world we broke quietly, and now keep alive with electricity.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffbeb; border-left: 4px solid #f59e0b; border-radius: 4px;">
+        <p style="margin: 0; color: #92400e; font-weight: 600;">In our cities today, machines have replaced nature. <span style="color: #000; font-weight: 800;">Air purifiers</span>, <span style="color: #000; font-weight: 800;">water filters</span>, and <span style="color: #000; font-weight: 800;">air conditioners</span> aren't luxuries anymore. They are survival tools in a world we broke quietly, and now keep alive with electricity.</p>
       </div>
 
 `
