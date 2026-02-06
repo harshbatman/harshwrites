@@ -53,7 +53,7 @@ const AppIcon = ({ app }) => {
             </span>
             <div style={{ display: 'flex', gap: '8px', marginTop: '8px' }}>
                 <a
-                    href="https://play.google.com/store/apps/details?id=tech.mahto.ma"
+                    href={app.playStoreUrl || "https://play.google.com/store/apps/details?id=tech.mahto.ma"}
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={(e) => e.stopPropagation()}
@@ -64,7 +64,7 @@ const AppIcon = ({ app }) => {
                     <img src="/assets/play-store.png" alt="Play Store" style={{ height: '22px', width: 'auto' }} />
                 </a>
                 <a
-                    href="https://apps.apple.com/us/app/mahto-jobs-contract-shops/id6756539905"
+                    href={app.appStoreUrl || "https://apps.apple.com/us/app/mahto-jobs-contract-shops/id6756539905"}
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={(e) => e.stopPropagation()}
@@ -138,7 +138,7 @@ const MahtoOS = () => {
                             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 <path d="M4 11L12 4L20 11" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
                                 <path d="M12 8.5L5 14V22H19V14L12 8.5Z" fill="white" />
-                                <path d="M10 22V18C10 17.4477 10.4477 17 11 17H13C13.5523 17 14 17.4477 14 18V22H10Z" fill="#000" />
+                                <path d="M10 22V18C10 17.4477 10.4477 16 11 16H13C13.5523 17 14 17.4477 14 18V22H10Z" fill="#000" />
                             </svg>
                         </div>
                         <span style={{
@@ -151,7 +151,9 @@ const MahtoOS = () => {
                         }}>Loans</span>
                     </div>
                 </div>
-            )
+            ),
+            playStoreUrl: 'https://play.google.com/store/apps/details?id=tech.mahto.tech',
+            appStoreUrl: 'https://apps.apple.com/us/app/mahto-home-loans/id6756539905'
         },
         {
             id: 'properties',
