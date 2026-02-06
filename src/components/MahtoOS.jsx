@@ -24,33 +24,42 @@ const AppIcon = ({ app }) => {
             }}>
                 {app.renderIcon()}
             </div>
-            <span style={{
-                fontSize: '0.65rem',
-                fontWeight: 700,
-                color: isHovered ? 'var(--color-text-primary)' : 'var(--color-text-secondary)',
-                textTransform: app.id === 'mine' ? 'none' : 'uppercase',
-                letterSpacing: '0.06em',
-                transition: 'color 0.2s',
-                textAlign: 'center',
-                maxWidth: '100px',
-                lineHeight: '1.3',
+            <div style={{
+                height: '34px',
+                display: 'flex',
+                flexDirection: 'column',
+                justifyContent: 'center',
+                alignItems: 'center',
+                width: '100%',
                 marginTop: '2px'
             }}>
-                {app.id === 'mahto' ? 'MAHTO' :
-                    app.id === 'mine' ? 'mine' :
-                        app.id === 'loans' ? (
-                            <div style={{ display: 'flex', flexDirection: 'column' }}>
-                                <span>MAHTO</span>
-                                <span>Home Loans</span>
-                            </div>
-                        ) : (
-                            <div style={{ display: 'flex', flexDirection: 'column' }}>
-                                <span>MAHTO</span>
-                                <span style={{ whiteSpace: 'nowrap' }}>Land & Properties</span>
-                            </div>
-                        )
-                }
-            </span>
+                <span style={{
+                    fontSize: '0.65rem',
+                    fontWeight: 700,
+                    color: isHovered ? 'var(--color-text-primary)' : 'var(--color-text-secondary)',
+                    textTransform: app.id === 'mine' ? 'none' : 'uppercase',
+                    letterSpacing: '0.06em',
+                    transition: 'color 0.2s',
+                    textAlign: 'center',
+                    maxWidth: '100px',
+                    lineHeight: '1.2'
+                }}>
+                    {app.id === 'mahto' ? 'MAHTO' :
+                        app.id === 'mine' ? 'mine' :
+                            app.id === 'loans' ? (
+                                <div style={{ display: 'flex', flexDirection: 'column' }}>
+                                    <span>MAHTO</span>
+                                    <span>Home Loans</span>
+                                </div>
+                            ) : (
+                                <div style={{ display: 'flex', flexDirection: 'column' }}>
+                                    <span>MAHTO</span>
+                                    <span style={{ whiteSpace: 'nowrap' }}>Land & Properties</span>
+                                </div>
+                            )
+                    }
+                </span>
+            </div>
             <div style={{ display: 'flex', gap: '8px', marginTop: '8px' }}>
                 <a
                     href={app.playStoreUrl || "https://play.google.com/store/apps/details?id=tech.mahto.ma"}
