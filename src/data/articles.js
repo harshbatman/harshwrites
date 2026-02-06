@@ -320,7 +320,12 @@ export const articles = [
           
           <div style="display: grid; grid-template-columns: 1fr; gap: 1.5rem;">
             <div>
-              <div style="font-weight: 700; color: #92400e; margin-bottom: 0.6rem; font-size: 0.85rem;">Planned Housing Coverage</div>
+              <div style="font-weight: 700; color: #92400e; margin-bottom: 0.6rem; font-size: 0.85rem;">Housing Coverage (Unplanned vs Planned)</div>
+              <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.4rem;">
+                <div style="width: 60px; font-size: 0.75rem; font-weight: 800; color: #ef4444;">Unauth.</div>
+                <div style="flex: 1; height: 8px; background: #fef3c7; border-radius: 4px; overflow: hidden;"><div style="width: 75%; height: 100%; background: #ef4444;"></div></div>
+                <div style="width: 30px; font-size: 0.75rem; font-weight: 700;">75%</div>
+              </div>
               <div style="display: flex; align-items: center; gap: 0.75rem;">
                 <div style="width: 60px; font-size: 0.75rem; font-weight: 800; color: #10b981;">Planned</div>
                 <div style="flex: 1; height: 8px; background: #fef3c7; border-radius: 4px; overflow: hidden;"><div style="width: 25%; height: 100%; background: #10b981;"></div></div>
