@@ -78,12 +78,9 @@ const AppIcon = ({ app }) => {
                         onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.1)'}
                         onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
                     >
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="24" height="24" rx="5" fill="#000" />
-                            <circle cx="12" cy="12" r="10" stroke="white" strokeWidth="1.2" />
-                            <path d="M12 7V17" stroke="white" strokeWidth="1.2" strokeLinecap="round" />
-                            <path d="M8 11L16 11" stroke="white" strokeWidth="1.2" strokeLinecap="round" />
-                            <path d="M9 14L15 14" stroke="white" strokeWidth="1.2" strokeLinecap="round" />
+                        <svg width="22" height="22" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+                            <rect width="512" height="512" rx="100" fill="#007AFF" />
+                            <path d="M367.6 308.1L423.6 405.1C427.6 412.1 425.2 421.1 418.2 425.1C411.2 429.1 402.2 426.7 398.2 419.7L343.8 325.5L168.2 325.5L113.8 419.7C109.8 426.7 100.8 429.1 93.8 425.1C86.8 421.1 84.4 412.1 88.4 405.1L144.4 308.1L367.6 308.1ZM256 122.3L325.6 242.8L186.4 242.8L256 122.3ZM256 70.3C263.8 70.3 271.4 73.8 276.5 79.9L467.5 309.9C472.6 316.1 471.2 325.3 464.3 330C457.5 334.6 448.3 333.3 443.6 326.4L256 100.7L68.4 326.4C63.7 333.3 54.5 334.6 47.7 330C40.8 325.3 39.4 316.1 44.5 309.9L235.5 79.9C240.6 73.8 248.2 70.3 256 70.3Z" fill="white" />
                         </svg>
                     </a>
                 </div>
