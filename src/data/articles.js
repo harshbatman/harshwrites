@@ -418,11 +418,6 @@ export const articles = [
       <p>But we must ask ourselves—is a city made of thousands of private islands still a city? Or is it just a collection of escapes?</p>
 
       <div style="margin: 3rem 0; padding: 2.5rem; background: #111827; color: white; border-radius: 20px; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25); position: relative; overflow: hidden;">
-        <div style="position: absolute; top: 0; right: 0; padding: 1rem; opacity: 0.1;">
-          <svg width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
-            <path d="M3 21h18M3 10h18M3 10V4a1 1 0 0 1 1-1h16a1 1 0 0 1 1 1v6M4 21V10m16 11V10M9 21v-4a2 2 0 0 1 2-2h2a2 2 0 0 1 2 2v4" />
-          </svg>
-        </div>
         <h3 style="color: #f9fafb; font-family: var(--font-serif); font-size: 1.75rem; margin-bottom: 1.5rem; font-weight: 700; border-bottom: 1px solid #374151; padding-bottom: 1rem;">The Final Diagnosis</h3>
         <p style="color: #d1d5db; font-size: 1.15rem; line-height: 1.8; margin: 0; font-style: italic;">
           The high-rise isn't a symbol of a rising middle class; it's a symptom of a sinking public system. We aren't moving into towers because we love the view; we're moving because we can't trust the street. Until we fix the city outside the gates, the gates will only get higher—and the cost of basic survival will continue to be marketed as a luxury.
