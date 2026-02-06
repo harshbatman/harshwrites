@@ -45,13 +45,16 @@ const MahtoOS = () => {
             name: 'MAHTO',
             renderIcon: () => (
                 <span style={{
-                    fontSize: '22px',
-                    fontWeight: '1000', // Ultra bold
-                    letterSpacing: '-0.04em',
+                    fontSize: '18px',
+                    fontWeight: '1000',
+                    letterSpacing: '-0.02em',
                     fontFamily: 'var(--font-sans)',
                     color: '#fff',
-                    transform: 'scaleY(1.05)', // Slightly taller like the image
-                    WebkitFontSmoothing: 'antialiased'
+                    textAlign: 'center',
+                    WebkitFontSmoothing: 'antialiased',
+                    display: 'block',
+                    width: '100%',
+                    padding: '0 4px'
                 }}>MAHTO</span>
             )
         },
@@ -133,7 +136,8 @@ const iconStyle = {
     boxShadow: '0 10px 25px -5px rgba(0, 0, 0, 0.1), 0 8px 10px -6px rgba(0, 0, 0, 0.1)',
     transition: 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)',
     cursor: 'pointer',
-    border: '1px solid rgba(255,255,255,0.1)'
+    border: '1px solid rgba(255,255,255,0.1)',
+    overflow: 'hidden'
 };
 
 export default MahtoOS;
