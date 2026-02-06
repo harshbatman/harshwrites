@@ -8359,6 +8359,67 @@ export const articles = [
 
       <p>We damage the environment, then invent gadgets to shield ourselves from the damage, and in doing so, damage it even further.</p>
 
+      <div style="margin: 3rem 0; padding: 2rem; background: #0f172a; color: white; border-radius: 20px; box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5); overflow: hidden; position: relative;">
+        <h4 style="color: #f8fafc; text-align: center; margin-bottom: 2.5rem; font-size: 1.4rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em;">The Cost of Inaction: Annual Mortality (India)</h4>
+        
+        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-bottom: 2rem;">
+          {/* Air Pollution Column */}
+          <div style="background: rgba(255, 255, 255, 0.05); padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);">
+            <div style="display: flex; align-items: baseline; gap: 0.5rem; margin-bottom: 1rem;">
+              <span style="font-size: 2.5rem; font-weight: 900; color: #f87171;">1.67M+</span>
+              <span style="font-size: 0.9rem; color: #94a3b8;">Deaths / Year</span>
+            </div>
+            <h5 style="color: #fca5a5; font-size: 0.9rem; font-weight: 700; text-transform: uppercase; margin-bottom: 1rem;">Air Pollution Impact</h5>
+            <div style="display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.85rem; color: #cbd5e1;">
+              <div style="display: flex; justify-content: space-between;"><span>• COPD & Asthma</span> <span style="color: #ef4444;">Critical</span></div>
+              <div style="display: flex; justify-content: space-between;"><span>• Ischemic Heart Disease</span> <span style="color: #ef4444;">Severe</span></div>
+              <div style="display: flex; justify-content: space-between;"><span>• Lung Cancer</span> <span style="color: #f87171;">Rising</span></div>
+              <div style="display: flex; justify-content: space-between;"><span>• Stroke</span> <span style="color: #f87171;">High</span></div>
+            </div>
+          </div>
+
+          {/* Water Pollution Column */}
+          <div style="background: rgba(255, 255, 255, 0.05); padding: 1.5rem; border-radius: 12px; border: 1px solid rgba(255,255,255,0.1);">
+            <div style="display: flex; align-items: baseline; gap: 0.5rem; margin-bottom: 1rem;">
+              <span style="font-size: 2.5rem; font-weight: 900; color: #60a5fa;">0.50M+</span>
+              <span style="font-size: 0.9rem; color: #94a3b8;">Deaths / Year</span>
+            </div>
+            <h5 style="color: #93c5fd; font-size: 0.9rem; font-weight: 700; text-transform: uppercase; margin-bottom: 1rem;">Water Pollution Impact</h5>
+            <div style="display: flex; flex-direction: column; gap: 0.5rem; font-size: 0.85rem; color: #cbd5e1;">
+              <div style="display: flex; justify-content: space-between;"><span>• Diarrheal Diseases</span> <span style="color: #3b82f6;">Extreme</span></div>
+              <div style="display: flex; justify-content: space-between;"><span>• Cholera & Typhoid</span> <span style="color: #3b82f6;">Chronic</span></div>
+              <div style="display: flex; justify-content: space-between;"><span>• Hepatitis A & E</span> <span style="color: #60a5fa;">Widespread</span></div>
+              <div style="display: flex; justify-content: space-between;"><span>• Fluorosis / Arsenic</span> <span style="color: #60a5fa;">Systemic</span></div>
+            </div>
+          </div>
+        </div>
+
+        <svg viewBox="0 0 800 120" style="width: 100%; height: auto; margin-top: 1rem;">
+          <rect x="0" y="40" width="800" height="40" fill="rgba(255,255,255,0.05)" rx="20" />
+          <rect x="0" y="40" width="616" height="40" fill="url(#airGrad)" rx="20" />
+          <rect x="620" y="40" width="180" height="40" fill="url(#waterGrad)" rx="20" />
+          
+          <defs>
+            <linearGradient id="airGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" style="stop-color:#b91c1c;stop-opacity:1" />
+              <stop offset="100%" style="stop-color:#f87171;stop-opacity:1" />
+            </linearGradient>
+            <linearGradient id="waterGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" style="stop-color:#1d4ed8;stop-opacity:1" />
+              <stop offset="100%" style="stop-color:#60a5fa;stop-opacity:1" />
+            </linearGradient>
+          </defs>
+
+          <text x="300" y="65" fill="white" font-size="14" font-weight="900" text-anchor="middle">AIR POLLUTION (77%)</text>
+          <text x="710" y="65" fill="white" font-size="14" font-weight="900" text-anchor="middle">WATER (23%)</text>
+        </svg>
+
+        <p style="text-align: center; color: #94a3b8; font-size: 0.8rem; margin-top: 1.5rem; font-style: italic;">
+          Source: Lancet Commission on Pollution and Health. 
+          Pollution claims more lives in India than any other country in the world.
+        </p>
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Progress or Adjustment?</h3>
 
       <p>We often call this development. But if development means needing machines just to breathe, drink, and sleep, then we need to ask—who was this development really for?</p>
