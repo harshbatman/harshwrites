@@ -50,7 +50,24 @@ export const articles = [
         <p style="margin: 0; color: #854d0e; font-weight: 600;">A home used to be a passive shelter. Today, it is evolving into an active responder to the world around it.</p>
       </div>
 
-      <p>But slowly, what we expect from our homes has changed. As the outside world changed—more pollution, rising heat, less clean water, and unstable power—our homes started filling up with machines. Fans, ACs, air purifiers, water purifiers, and refrigerators. At first, they felt like upgrades. Now, they feel like survival essentials.</p>
+      <p>But slowly, what we expect from our homes has changed.</p>
+
+      <p>As the outside world changed—</p>
+      <p>more pollution,</p>
+      <p>rising heat,</p>
+      <p>less clean water,</p>
+      <p>unstable power—</p>
+
+      <p>our homes started filling up with machines.</p>
+
+      <p>Fans.</p>
+      <p>ACs.</p>
+      <p>Air purifiers.</p>
+      <p>Water purifiers.</p>
+      <p>Refrigerators.</p>
+
+      <p>At first, they felt like upgrades.</p>
+      <p>Now, they feel like survival essentials.</p>
 
       <p>Then came the next shift: control. Switches became remotes, remotes became apps, and apps moved into our phones. And quietly, in the background, something else entered our homes — IoT and embedded systems.</p>
 
