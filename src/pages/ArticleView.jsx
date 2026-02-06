@@ -5,6 +5,7 @@ import { ArrowLeft, User, Calendar, Share2, Eye, X, Volume2, Square, Play, Pause
 import { articles } from '../data/articles';
 import SupportSection from '../components/SupportSection';
 import SupporterList from '../components/SupporterList';
+import MahtoOS from '../components/MahtoOS';
 
 function ArticleView() {
     const { id } = useParams();
@@ -520,7 +521,7 @@ function ArticleView() {
                     </p>
                 </div>
 
-
+                <MahtoOS />
 
                 <SupportSection />
                 <SupporterList />
