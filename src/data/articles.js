@@ -8359,62 +8359,49 @@ export const articles = [
 
       <p>We damage the environment, then invent gadgets to shield ourselves from the damage, and in doing so, damage it even further.</p>
 
-      <div style="margin: 3rem auto; padding: 1.25rem; background: #0f172a; color: white; border-radius: 16px; box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1); overflow: hidden; position: relative; max-width: 700px;">
-        <h4 style="color: #f8fafc; text-align: center; margin-bottom: 1.5rem; font-size: 1.1rem; font-weight: 800; text-transform: uppercase; letter-spacing: 0.05em;">The Cost of Inaction: Annual Mortality (India)</h4>
+      <div style="margin: 2rem auto; padding: 1rem; background: #0f172a; color: white; border-radius: 12px; box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1); overflow: hidden; max-width: 550px; font-size: 0.85rem;">
+        <h4 style="color: #f8fafc; text-align: center; margin-bottom: 1rem; font-size: 0.9rem; font-weight: 800; text-transform: uppercase;">Annual Mortality in India</h4>
         
-        <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 1rem; margin-bottom: 1.5rem;">
-          {/* Air Pollution Column */}
-          <div style="background: rgba(255, 255, 255, 0.03); padding: 1rem; border-radius: 10px; border: 1px solid rgba(255,255,255,0.08);">
-            <div style="display: flex; align-items: baseline; gap: 0.4rem; margin-bottom: 0.75rem;">
-              <span style="font-size: 1.5rem; font-weight: 900; color: #f87171;">1.67M+</span>
-              <span style="font-size: 0.75rem; color: #94a3b8;">Deaths</span>
+        <div style="display: flex; gap: 0.75rem; margin-bottom: 1rem;">
+          {/* Air Pollution Side */}
+          <div style="flex: 1; background: rgba(255, 255, 255, 0.03); padding: 0.75rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.08);">
+            <div style="display: flex; align-items: baseline; gap: 0.3rem;">
+              <span style="font-size: 1.25rem; font-weight: 900; color: #f87171;">1.67M</span>
+              <span style="font-size: 0.65rem; color: #94a3b8;">Air</span>
             </div>
-            <h5 style="color: #fca5a5; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; margin-bottom: 0.75rem;">Air Pollution</h5>
-            <div style="display: flex; flex-direction: column; gap: 0.35rem; font-size: 0.75rem; color: #cbd5e1;">
-              <div style="display: flex; justify-content: space-between;"><span>• COPD / Asthma</span> <span style="color: #ef4444; font-size: 0.7rem;">Critical</span></div>
-              <div style="display: flex; justify-content: space-between;"><span>• Heart Disease</span> <span style="color: #ef4444; font-size: 0.7rem;">Severe</span></div>
-              <div style="display: flex; justify-content: space-between;"><span>• Lung Cancer</span> <span style="color: #f87171; font-size: 0.7rem;">Rising</span></div>
+            <div style="margin-top: 0.5rem; font-size: 0.65rem; color: #cbd5e1; line-height: 1.4;">
+              • COPD / Asthma<br/>• Heart Disease
             </div>
           </div>
 
-          {/* Water Pollution Column */}
-          <div style="background: rgba(255, 255, 255, 0.03); padding: 1rem; border-radius: 10px; border: 1px solid rgba(255,255,255,0.08);">
-            <div style="display: flex; align-items: baseline; gap: 0.4rem; margin-bottom: 0.75rem;">
-              <span style="font-size: 1.5rem; font-weight: 900; color: #60a5fa;">0.50M+</span>
-              <span style="font-size: 0.75rem; color: #94a3b8;">Deaths</span>
+          {/* Water Pollution Side */}
+          <div style="flex: 1; background: rgba(255, 255, 255, 0.03); padding: 0.75rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.08);">
+            <div style="display: flex; align-items: baseline; gap: 0.3rem;">
+              <span style="font-size: 1.25rem; font-weight: 900; color: #60a5fa;">0.50M</span>
+              <span style="font-size: 0.65rem; color: #94a3b8;">Water</span>
             </div>
-            <h5 style="color: #93c5fd; font-size: 0.75rem; font-weight: 700; text-transform: uppercase; margin-bottom: 0.75rem;">Water Pollution</h5>
-            <div style="display: flex; flex-direction: column; gap: 0.35rem; font-size: 0.75rem; color: #cbd5e1;">
-              <div style="display: flex; justify-content: space-between;"><span>• Diarrheal Dis.</span> <span style="color: #3b82f6; font-size: 0.7rem;">Extreme</span></div>
-              <div style="display: flex; justify-content: space-between;"><span>• Cholera / Typh.</span> <span style="color: #3b82f6; font-size: 0.7rem;">Chronic</span></div>
-              <div style="display: flex; justify-content: space-between;"><span>• Hepatitis A & E</span> <span style="color: #60a5fa; font-size: 0.7rem;">Wide</span></div>
+            <div style="margin-top: 0.5rem; font-size: 0.65rem; color: #cbd5e1; line-height: 1.4;">
+              • Diarrheal Dis.<br/>• Cholera / Typh.
             </div>
           </div>
         </div>
 
-        <svg viewBox="0 0 800 80" style="width: 100%; height: auto;">
-          <rect x="0" y="20" width="800" height="25" fill="rgba(255,255,255,0.05)" rx="12.5" />
-          <rect x="0" y="20" width="616" height="25" fill="url(#airGradSmall)" rx="12.5" />
-          <rect x="620" y="20" width="180" height="25" fill="url(#waterGradSmall)" rx="12.5" />
-          
+        <svg viewBox="0 0 800 50" style="width: 100%; height: auto;">
+          <rect x="0" y="10" width="800" height="20" fill="rgba(255,255,255,0.05)" rx="10" />
+          <rect x="0" y="10" width="616" height="20" fill="url(#airGradUltra)" rx="10" />
+          <rect x="620" y="10" width="180" height="20" fill="url(#waterGradUltra)" rx="10" />
           <defs>
-            <linearGradient id="airGradSmall" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" style="stop-color:#b91c1c;stop-opacity:1" />
-              <stop offset="100%" style="stop-color:#f87171;stop-opacity:1" />
+            <linearGradient id="airGradUltra" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" style="stop-color:#b91c1c" />
+              <stop offset="100%" style="stop-color:#f87171" />
             </linearGradient>
-            <linearGradient id="waterGradSmall" x1="0%" y1="0%" x2="100%" y2="0%">
-              <stop offset="0%" style="stop-color:#1d4ed8;stop-opacity:1" />
-              <stop offset="100%" style="stop-color:#60a5fa;stop-opacity:1" />
+            <linearGradient id="waterGradUltra" x1="0%" y1="0%" x2="100%" y2="0%">
+              <stop offset="0%" style="stop-color:#1d4ed8" />
+              <stop offset="100%" style="stop-color:#60a5fa" />
             </linearGradient>
           </defs>
-
-          <text x="300" y="38" fill="white" font-size="12" font-weight="900" text-anchor="middle">AIR (77%)</text>
-          <text x="710" y="38" fill="white" font-size="12" font-weight="900" text-anchor="middle">WATER</text>
+          <text x="300" y="25" fill="white" font-size="12" font-weight="900" text-anchor="middle">AIR (77%)</text>
         </svg>
-
-        <p style="text-align: center; color: #94a3b8; font-size: 0.7rem; margin-top: 1rem; font-style: italic;">
-          Source: Lancet Commission on Pollution & Health.
-        </p>
       </div>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Progress or Adjustment?</h3>
