@@ -25,14 +25,16 @@ const AppIcon = ({ app }) => {
                 {app.renderIcon()}
             </div>
             <span style={{
-                fontSize: '0.72rem',
+                fontSize: '0.65rem',
                 fontWeight: 700,
                 color: isHovered ? 'var(--color-text-primary)' : 'var(--color-text-secondary)',
                 textTransform: 'uppercase',
-                letterSpacing: '0.05em',
+                letterSpacing: '0.06em',
                 transition: 'color 0.2s',
                 textAlign: 'center',
-                maxWidth: '90px'
+                maxWidth: '100px',
+                lineHeight: '1.3',
+                marginTop: '2px'
             }}>
                 {app.id === 'mahto' ? 'MAHTO' : app.id === 'mine' ? 'mine' : app.id === 'loans' ? 'MAHTO Home Loans' : 'Properties'}
             </span>
@@ -77,18 +79,43 @@ const MahtoOS = () => {
             id: 'loans',
             name: 'MAHTO Home Loans',
             renderIcon: () => (
-                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1px' }}>
-                    <span style={{ fontSize: '11px', fontWeight: '1000', letterSpacing: '0.02em', color: '#fff', marginBottom: '1px' }}>MAHTO</span>
-                    <div style={{ display: 'flex', alignItems: 'flex-end', gap: '2px' }}>
-                        <div style={{ width: '24px', height: '24px', position: 'relative' }}>
-                            {/* Custom House SVG with Reverse V roof and Gate */}
-                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ width: '100%', height: '100%' }}>
-                                <path d="M2 14L12 4L22 14" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
-                                <path d="M5 14V22H19V14H5Z" fill="white" />
-                                <path d="M10 22V17C10 16.4477 10.4477 16 11 16H13C13.5523 16 14 16.4477 14 17V22H10Z" fill="#000" />
+                <div style={{
+                    display: 'flex',
+                    flexDirection: 'column',
+                    alignItems: 'center',
+                    justifyContent: 'center',
+                    gap: '1px',
+                    width: '100%',
+                    height: '100%'
+                }}>
+                    <span style={{
+                        fontSize: '11px',
+                        fontWeight: '1000',
+                        letterSpacing: '0.04em',
+                        color: '#fff',
+                        textShadow: '0 1px 2px rgba(0,0,0,0.5)'
+                    }}>MAHTO</span>
+                    <div style={{
+                        display: 'flex',
+                        alignItems: 'center',
+                        gap: '2px',
+                        transform: 'translateY(-1px)'
+                    }}>
+                        <div style={{ width: '22px', height: '22px' }}>
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M3 13L12 4L21 13" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" style={{ filter: 'drop-shadow(0 1px 1px rgba(0,0,0,0.5))' }} />
+                                <path d="M6 13V21H18V13H6Z" fill="white" style={{ filter: 'drop-shadow(0 1px 1px rgba(0,0,0,0.5))' }} />
+                                <rect x="10.5" y="17" width="3" height="4" fill="#000" />
                             </svg>
                         </div>
-                        <span style={{ fontSize: '19px', fontWeight: '1000', letterSpacing: '-0.04em', color: '#fff', lineHeight: '0.9' }}>Loans</span>
+                        <span style={{
+                            fontSize: '16px',
+                            fontWeight: '1000',
+                            letterSpacing: '-0.04em',
+                            color: '#fff',
+                            textShadow: '0 1px 3px rgba(0,0,0,0.5)',
+                            lineHeight: 0.9
+                        }}>Loans</span>
                     </div>
                 </div>
             )
