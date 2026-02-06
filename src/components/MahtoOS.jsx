@@ -82,24 +82,22 @@ const MahtoOS = () => {
                 <div style={{
                     display: 'flex',
                     flexDirection: 'column',
-                    alignItems: 'center',
+                    alignItems: 'flex-start',
                     justifyContent: 'center',
-                    gap: '1px',
-                    width: '100%',
-                    height: '100%'
+                    gap: '1px'
                 }}>
                     <span style={{
                         fontSize: '11px',
                         fontWeight: '1000',
                         letterSpacing: '0.04em',
                         color: '#fff',
-                        textShadow: '0 1px 2px rgba(0,0,0,0.5)'
+                        textShadow: '0 1px 2px rgba(0,0,0,0.5)',
+                        marginLeft: '1px' // Slight adjustment to line up exactly with roof edge
                     }}>MAHTO</span>
                     <div style={{
                         display: 'flex',
                         alignItems: 'center',
-                        gap: '2px',
-                        transform: 'translateY(-1px)'
+                        gap: '2px'
                     }}>
                         <div style={{ width: '24px', height: '24px' }}>
                             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
