@@ -1,7 +1,7 @@
 export const articles = [
   {
     id: "from-bricks-to-bits-future-of-homes",
-    views: 47240,
+    views: 54240,
     publishDate: "2024-02-08",
     title: "From Bricks to Bits: The Future of Our Homes",
     author: "Harsh Mahto",
@@ -187,7 +187,7 @@ export const articles = [
 
   {
     id: "failed-urban-infrastructure-high-rise-societies",
-    views: 41240,
+    views: 47240,
     publishDate: "2024-01-21",
     title: "Failed Urban Infrastructure & the Rise of High-Rise Societies",
     author: "Harsh Mahto",
@@ -2410,7 +2410,7 @@ export const articles = [
   },
   {
     id: "flutter-vs-react-native",
-    views: 32240,
+    views: 40240,
     publishDate: "2023-10-23",
     title: "Why Flutter and Not React Native?",
     author: "Harsh Mahto",
@@ -2842,7 +2842,7 @@ export const articles = [
   },
   {
     id: "transistors-to-ai",
-    views: 54240,
+    views: 65240,
     publishDate: "2023-09-20",
     title: "From Transistors to AI",
     author: "Harsh Mahto",
