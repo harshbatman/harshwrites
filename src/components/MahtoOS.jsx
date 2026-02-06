@@ -77,11 +77,18 @@ const MahtoOS = () => {
             id: 'loans',
             name: 'MAHTO Home Loans',
             renderIcon: () => (
-                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '0' }}>
-                    <span style={{ fontSize: '12px', fontWeight: '1000', letterSpacing: '0.05em', color: '#fff' }}>MAHTO</span>
-                    <div style={{ display: 'flex', alignItems: 'center', gap: '2px', marginTop: '-2px' }}>
-                        <Home size={22} fill="#fff" stroke="none" />
-                        <span style={{ fontSize: '18px', fontWeight: '900', letterSpacing: '-0.03em', color: '#fff' }}>Loans</span>
+                <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '1px' }}>
+                    <span style={{ fontSize: '11px', fontWeight: '1000', letterSpacing: '0.02em', color: '#fff', marginBottom: '1px' }}>MAHTO</span>
+                    <div style={{ display: 'flex', alignItems: 'flex-end', gap: '2px' }}>
+                        <div style={{ width: '24px', height: '24px', position: 'relative' }}>
+                            {/* Custom House SVG with Reverse V roof and Gate */}
+                            <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" style={{ width: '100%', height: '100%' }}>
+                                <path d="M2 14L12 4L22 14" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round" />
+                                <path d="M5 14V22H19V14H5Z" fill="white" />
+                                <path d="M10 22V17C10 16.4477 10.4477 16 11 16H13C13.5523 16 14 16.4477 14 17V22H10Z" fill="#000" />
+                            </svg>
+                        </div>
+                        <span style={{ fontSize: '19px', fontWeight: '1000', letterSpacing: '-0.04em', color: '#fff', lineHeight: '0.9' }}>Loans</span>
                     </div>
                 </div>
             )
