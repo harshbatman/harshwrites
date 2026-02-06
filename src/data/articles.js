@@ -121,13 +121,18 @@ export const articles = [
       <p>Another makes the refrigerator.</p>
       <p>Another makes the water pump.</p>
 
-      <p>Each device works. But each device lives inside its own app. So to run one home, we end up running ten apps.</p>
+      <p>Each device works.</p>
+      <p>But each device lives inside its own app.</p>
+
+      <p>So to run one home, we end up running ten apps.</p>
 
       <p>And unlike phones, the problem is bigger.</p>
 
-      <p>Phones change every 3–4 years. Homes stay with us for 30–50 years.</p>
+      <p>Phones change every 3–4 years.</p>
+      <p>Homes stay with us for 30–50 years.</p>
       
-      <p>That’s why a home cannot depend on one brand, one gadget, or one app. Its intelligence must sit above all devices — like Android or iOS does for phones.</p>
+      <p>That’s why a home cannot depend on one brand, one gadget, or one app.</p>
+      <p>Its intelligence must sit above all devices — like Android or iOS does for phones.</p>
 
       <p>Only then does a home stop being a collection of smart gadgets and start becoming a smart system.</p>
 
