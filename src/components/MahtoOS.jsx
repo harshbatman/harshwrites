@@ -36,7 +36,20 @@ const AppIcon = ({ app }) => {
                 lineHeight: '1.3',
                 marginTop: '2px'
             }}>
-                {app.id === 'mahto' ? 'MAHTO' : app.id === 'mine' ? 'mine' : app.id === 'loans' ? 'MAHTO Home Loans' : 'MAHTO Land & Properties'}
+                {app.id === 'mahto' ? 'MAHTO' :
+                    app.id === 'mine' ? 'mine' :
+                        app.id === 'loans' ? (
+                            <div style={{ display: 'flex', flexDirection: 'column' }}>
+                                <span>MAHTO</span>
+                                <span>Home Loans</span>
+                            </div>
+                        ) : (
+                            <div style={{ display: 'flex', flexDirection: 'column' }}>
+                                <span>MAHTO</span>
+                                <span style={{ whiteSpace: 'nowrap' }}>Land & Properties</span>
+                            </div>
+                        )
+                }
             </span>
         </div>
     );
