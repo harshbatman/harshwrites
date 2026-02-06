@@ -107,7 +107,8 @@ const MahtoOS = () => {
                     lineHeight: 1,
                     marginBottom: '4px' // Optical adjustment for lower-case 'm'
                 }}>m</span>
-            )
+            ),
+            playStoreUrl: 'https://play.google.com/store'
         },
         {
             id: 'loans',
@@ -181,7 +182,8 @@ const MahtoOS = () => {
                         marginTop: '1px'
                     }}>Land & Properties</span>
                 </div>
-            )
+            ),
+            playStoreUrl: 'https://play.google.com/store'
         }
     ];
 
