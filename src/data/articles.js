@@ -200,36 +200,34 @@ export const articles = [
         </div>
 
         <div>
-          <h5 style="font-size: 0.7rem; font-weight: 800; color: #64748b; text-transform: uppercase; margin-bottom: 1rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.3rem;">2. Infrastructure Gap</h5>
+          <h5 style="font-size: 0.7rem; font-weight: 800; color: #64748b; text-transform: uppercase; margin-bottom: 1rem; border-bottom: 1px solid #e2e8f0; padding-bottom: 0.3rem;">2. Sewage & Water Gap</h5>
           
           <div style="display: grid; grid-template-columns: 1fr; gap: 1rem;">
-            {/* Sewage */}
             <div>
               <div style="font-weight: 700; color: #475569; margin-bottom: 0.4rem; font-size: 0.75rem;">Sewage Line Access</div>
               <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.25rem;">
-                <div style="width: 50px; font-size: 0.65rem; font-weight: 800; color: #10b981;">Planned</div>
-                <div style="flex: 1; height: 6px; background: #eee; border-radius: 3px; overflow: hidden;"><div style="width: 85%; height: 100%; background: #10b981;"></div></div>
-                <div style="width: 25px; font-size: 0.65rem; font-weight: 700;">85%</div>
-              </div>
-              <div style="display: flex; align-items: center; gap: 0.5rem;">
                 <div style="width: 50px; font-size: 0.65rem; font-weight: 800; color: #ef4444;">Unauth.</div>
                 <div style="flex: 1; height: 6px; background: #eee; border-radius: 3px; overflow: hidden;"><div style="width: 8%; height: 100%; background: #ef4444;"></div></div>
                 <div style="width: 25px; font-size: 0.65rem; font-weight: 700;">8%</div>
               </div>
+              <div style="display: flex; align-items: center; gap: 0.5rem;">
+                <div style="width: 50px; font-size: 0.65rem; font-weight: 800; color: #10b981;">Planned</div>
+                <div style="flex: 1; height: 6px; background: #eee; border-radius: 3px; overflow: hidden;"><div style="width: 85%; height: 100%; background: #10b981;"></div></div>
+                <div style="width: 25px; font-size: 0.65rem; font-weight: 700;">85%</div>
+              </div>
             </div>
 
-            {/* Water */}
             <div>
               <div style="font-weight: 700; color: #475569; margin-bottom: 0.4rem; font-size: 0.75rem;">Piped Water</div>
               <div style="display: flex; align-items: center; gap: 0.5rem; margin-bottom: 0.25rem;">
-                <div style="width: 50px; font-size: 0.65rem; font-weight: 800; color: #10b981;">Planned</div>
-                <div style="flex: 1; height: 6px; background: #eee; border-radius: 3px; overflow: hidden;"><div style="width: 90%; height: 100%; background: #10b981;"></div></div>
-                <div style="width: 25px; font-size: 0.65rem; font-weight: 700;">90%</div>
-              </div>
-              <div style="display: flex; align-items: center; gap: 0.5rem;">
                 <div style="width: 50px; font-size: 0.65rem; font-weight: 800; color: #ef4444;">Unauth.</div>
                 <div style="flex: 1; height: 6px; background: #eee; border-radius: 3px; overflow: hidden;"><div style="width: 45%; height: 100%; background: #ef4444;"></div></div>
                 <div style="width: 25px; font-size: 0.65rem; font-weight: 700;">45%</div>
+              </div>
+              <div style="display: flex; align-items: center; gap: 0.5rem;">
+                <div style="width: 50px; font-size: 0.65rem; font-weight: 800; color: #10b981;">Planned</div>
+                <div style="flex: 1; height: 6px; background: #eee; border-radius: 3px; overflow: hidden;"><div style="width: 90%; height: 100%; background: #10b981;"></div></div>
+                <div style="width: 25px; font-size: 0.65rem; font-weight: 700;">90%</div>
               </div>
             </div>
           </div>
