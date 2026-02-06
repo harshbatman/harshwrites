@@ -16,7 +16,11 @@ export const articles = [
       <p style="font-weight: 600; font-style: italic; color: #111827; margin: 1.5rem 0 0.5rem 0;">“Motor band karo! Tanki bhar gayi hai!”</p>
       <p style="color: #6b7280; margin-bottom: 1.5rem;">(Switch off the submersible pump — the water tank is full.)</p>
 
-      <p>I woke up in a panic and rushed to the electric board to turn it off. The funny part? Our water tank already has a sound system. When it’s full, a speaker announces: <em>“Aapki tanki bhar gayi hai.”</em></p>
+      <p>I woke up in a panic and rushed to the electric board to turn it off.</p>
+
+      <p>The funny part?</p>
+
+      <p>Our water tank already has a sound system. When it’s full, a speaker announces: <em>“Aapki tanki bhar gayi hai.”</em></p>
 
       <p>And yet… someone still had to shout. Someone still had to wake up. Someone still had to run to the switch. Lying back on the bed, half-awake, one thought hit me hard: If I can control my TV from my phone—change channels, adjust volume, even switch it off remotely—why can’t I control my submersible pump?</p>
 
