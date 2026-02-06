@@ -69,8 +69,8 @@ export const articles = [
           <text x="420" y="400" font-size="14" fill="#111827" text-anchor="middle" font-weight="600">Number of Smart Gadgets</text>
 
           <!-- Fragmented Curve (Exponential) -->
-          <path d="M 100 330 Q 340 320, 640 150 T 740 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-dasharray="8,4" />
-          <text x="120" y="150" font-size="14" fill="#ef4444" font-weight="700">Fragmented (Individual Apps)</text>
+          <path d="M 100 330 C 300 330, 600 250, 740 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-dasharray="8,4" />
+          <text x="120" y="200" font-size="14" fill="#ef4444" font-weight="700">Fragmented (Individual Apps)</text>
 
           <!-- Unified Curve (Linear) -->
           <path d="M 100 330 L 740 280" fill="none" stroke="#10b981" stroke-width="4" />
