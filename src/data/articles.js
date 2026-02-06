@@ -179,6 +179,57 @@ export const articles = [
         <p style="margin: 0; color: #854d0e; font-weight: 600;">When planned supply fails to meet organic demand, the market finds its own, often chaotic, way forward.</p>
       </div>
 
+      <div style="margin: 2.5rem auto; padding: 2rem; background: #fff; border-radius: 16px; border: 1px solid #e5e7eb; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05); max-width: 650px;">
+        <h4 style="color: #111827; text-align: center; margin-bottom: 2rem; font-size: 1.2rem; font-weight: 800; font-family: var(--font-serif);">Urban Paradox: The Infrastructure Deficit</h4>
+        
+        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+          {/* Metric: Sewers */}
+          <div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.85rem; font-weight: 700;">
+              <span>Sewage & Waste Management</span>
+              <span style="color: #6b7280; font-size: 0.75rem;">Planned (90%) vs Unauthorized (5%)</span>
+            </div>
+            <div style="height: 12px; background: #f3f4f6; border-radius: 6px; overflow: hidden; display: flex;">
+              <div style="width: 90%; height: 100%; background: #10b981; border-right: 2px solid white;"></div>
+              <div style="width: 5%; height: 100%; background: #ef4444;"></div>
+            </div>
+          </div>
+
+          {/* Metric: Piped Water */}
+          <div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.85rem; font-weight: 700;">
+              <span>Piped Water Supply</span>
+              <span style="color: #6b7280; font-size: 0.75rem;">Planned (95%) vs Unauthorized (35%)</span>
+            </div>
+            <div style="height: 12px; background: #f3f4f6; border-radius: 6px; overflow: hidden; display: flex;">
+              <div style="width: 95%; height: 100%; background: #3b82f6; border-right: 2px solid white;"></div>
+              <div style="width: 35%; height: 100%; background: #f59e0b;"></div>
+            </div>
+          </div>
+
+          {/* Metric: Road Width & Safety */}
+          <div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.85rem; font-weight: 700;">
+              <span>Road Access & Drainage</span>
+              <span style="color: #6b7280; font-size: 0.75rem;">Planned (100%) vs Unauthorized (15%)</span>
+            </div>
+            <div style="height: 12px; background: #f3f4f6; border-radius: 6px; overflow: hidden; display: flex;">
+              <div style="width: 100%; height: 100%; background: #6366f1; border-right: 2px solid white;"></div>
+              <div style="width: 15%; height: 100%; background: #6b7280;"></div>
+            </div>
+          </div>
+        </div>
+
+        <div style="margin-top: 1.5rem; display: flex; gap: 1.5rem; justify-content: center; font-size: 0.75rem; font-weight: 600;">
+          <div style="display: flex; align-items: center; gap: 0.4rem;">
+            <span style="width: 10px; height: 10px; border-radius: 2px; background: #10b981;"></span> Planned
+          </div>
+          <div style="display: flex; align-items: center; gap: 0.4rem;">
+            <span style="width: 10px; height: 10px; border-radius: 2px; background: #ef4444;"></span> Unauthorized
+          </div>
+        </div>
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Land as a Product</h3>
 
       <p>Landowners saw an opportunity. There are basically two ways to make money—either by selling a service or by selling a product. These landowners chose the second route. They started treating land like a product.</p>
