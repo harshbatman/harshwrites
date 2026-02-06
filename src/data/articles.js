@@ -16,139 +16,88 @@ export const articles = [
       <p style="font-style: italic; margin: 1.5rem 0 0.5rem 0;">“Motor band kardo! Tanki bhar gayi hai!”</p>
       <p style="color: #6b7280; margin-bottom: 1.5rem;">(Switch off the submersible pump — the water tank is full.)</p>
 
-      <p>I woke up in a panic and rushed to the electric board to turn it off.</p>
+      <p>I woke up in a panic and rushed to the electric board to turn it off. The funny part? Our water tank already has a sound system. When it’s full, a speaker announces: <em>“Aapki tanki bhar gayi hai.”</em></p>
 
-      <p>The funny part?</p>
+      <p>And yet… someone still had to shout. Someone still had to wake up. Someone still had to run to the switch.</p>
 
-      <p>Our water tank already has a sound system. When it’s full, a speaker announces: <em>“Aapki tanki bhar gayi hai.”</em></p>
+      <p>Lying back on the bed, half-awake, one thought hit me: If I can control my TV from my phone—change channels, adjust volume, even switch it off remotely—why can’t I control my submersible pump? Why is a 1000-liter tank shouting while a 5-inch phone stays silent?</p>
 
-      <p>And yet… someone still had to shout.</p>
-      <p>Someone still had to wake up.</p>
-      <p>Someone still had to run to the switch.</p>
+      <p>That question pulled me into the world of smart homes. But I quickly realized that smart homes don’t start with apps. They start with the ground. Before anything becomes smart, it has to stand—on foundations of cement, steel, and bricks.</p>
 
-      <p>Lying back on the bed, half-awake, one thought hit me hard: If I can control my TV from my phone—change channels, adjust volume, even switch it off remotely—why can’t I control my submersible pump?</p>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Passive Era</h3>
 
-      <p>That question quietly pulled me into reading more about smart homes. But then I realized — smart homes don’t start with apps or phones. They start much earlier. They start with the ground.</p>
-
-      <p>Before anything becomes smart, it has to stand.</p>
-      <p>We’re talking about foundations, cement, steel, and bricks.</p>
-
-      <p>For decades, home construction meant one thing: building something strong enough to shelter us.</p>
-
-      <p>Four walls.</p>
-      <p>A roof.</p>
-      <p>Protection from heat, rain, and noise.</p>
-
-      <p>For a long time, that was enough.</p>
-
-      <p>Homes were passive.</p>
-      <p>They didn’t think.</p>
-      <p>They didn’t respond.</p>
-      <p>They just existed.</p>
+      <p>For decades, home construction meant one thing: building a shelter. Four walls, a roof, and protection from the elements. Homes were passive. They didn’t think. They didn’t respond. They just existed.</p>
 
       <div style="margin: 2rem 0; padding: 1.5rem; background: #fffcf0; border-left: 4px solid #eab308; border-radius: 4px;">
         <p style="margin: 0; color: #854d0e; font-weight: 600;">A home used to be a passive shelter. Today, it is evolving into an active responder to the world around it.</p>
       </div>
 
-      <p>But slowly, what we expect from our homes has changed.</p>
+      <p>But as the outside world changed—rising heat, pollution, unstable power—our homes started filling up with survival machines: ACs, air purifiers, water filters. At first, they were upgrades. Now, they are essentials.</p>
 
-      <p>As the outside world changed—</p>
-      <p>more pollution,</p>
-      <p>rising heat,</p>
-      <p>less clean water,</p>
-      <p>unstable power—</p>
+      <p>Then came the shift in control. Switches became remotes. Remotes became apps. And quietly, IoT entered our homes. Tiny computers (embedded systems) tucked inside everyday things, measuring air quality and water levels.</p>
 
-      <p>our homes started filling up with machines.</p>
-
-      <p>Fans.</p>
-      <p>ACs.</p>
-      <p>Air purifiers.</p>
-      <p>Water purifiers.</p>
-      <p>Refrigerators.</p>
-
-      <p>At first, they felt like upgrades.</p>
-      <p>Now, they feel like survival essentials.</p>
-
-      <p>Then came the next shift: control.</p>
-      <p>Switches became remotes.</p>
-      <p>Remotes became apps.</p>
-      <p>Apps moved into our phones.</p>
-
-      <p>And quietly, in the background, something else entered our homes — IoT and embedded systems.</p>
-
-      <p>These are tiny computers tucked inside everyday things.</p>
-      <p>Sensors measuring temperature, water levels, and air quality.</p>
-      <p>Embedded systems taking decisions.</p>
-      <p>Internet connectivity making these devices talk to each other.</p>
-
-      <p>Suddenly, from one device in our hand, we could control the fan, the TV, the AC, and the purifier.</p>
-
-      <p>Our homes were no longer just shelter.</p>
-      <p>They were becoming systems.</p>
-
-      <p>And that’s when the question becomes unavoidable:</p>
-
-      <p>If almost everything in our home can sense, measure, and respond intelligently…</p>
-      <p>why is something as basic as water still shouting for attention?</p>
-
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">When Homes Become Aware</h3>
-
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #eff6ff; border-left: 4px solid #3b82f6; border-radius: 4px;">
-        <p style="margin: 0; color: #1e40af; font-weight: 600;">The future of homes isn’t just about adding more gadgets. It’s about making the home aware — of temperature, air quality, water usage, and how we actually live.</p>
-      </div>
-
-      <p>That’s when a home stops being passive. Imagine a fan that adjusts itself, an air purifier reacting to AQI, or a pump that switches off silently as soon as the tank is full. It becomes an active responder. But there’s a real challenge here: the ecosystem.</p>
+      <p>Suddenly, we could control the fan, the TV, and the AC from one hand. Our homes were no longer just shelter; they were becoming systems. But that brings us back to the motor shouting in the afternoon.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Ecosystem Challenge</h3>
 
-      <p>Think about smartphones.</p>
-      
-      <p>There are many mobile manufacturing companies — Samsung, Vivo, Oppo, Motorola, and Apple. Each company makes its own hardware. But hardware alone doesn’t define the experience.</p>
-      
-      <p>What actually makes the phone usable for years is the operating system: Apple phones run on iOS, and most other phones run on Android.</p>
-      
-      <p>When you buy a Samsung or Vivo phone, you’re not buying just a screen and battery. You’re buying into the Android ecosystem. Apps, updates, security, settings, cloud — all of this sits above the phone brand. That’s why you can change from Samsung to Motorola, or from Oppo to Vivo, and still feel comfortable. The ecosystem stays the same, even when the device changes.</p>
+      <p>Think about smartphones. There are many manufacturers—Samsung, Motorola, Apple. But hardware doesn't define the experience; the operating system does. You're buying into the Android or iOS ecosystem, which stays consistent even when you change your phone.</p>
 
-      <p>Now apply this to homes.</p>
+      <p>Now apply this to homes. Today, smart homes are like phones without a common operating system.</p>
 
-      <p>Today, smart homes are like phones without a common operating system.</p>
+      <p>One company makes the TV. Another makes the AC. Another makes the air purifier. Another makes the fan. Another makes the bulb. Another makes the refrigerator. Another makes the water pump.</p>
 
-      <p>One company makes the TV.</p>
-      <p>Another makes the AC.</p>
-      <p>Another makes the air purifier.</p>
-      <p>Another makes the fan.</p>
-      <p>Another makes the bulb.</p>
-      <p>Another makes the refrigerator.</p>
-      <p>Another makes the water pump.</p>
+      <p>Each device works. But each device lives inside its own app.</p>
 
-      <p>Each device works.</p>
-      <p>But each device lives inside its own app.</p>
+      <p style="font-weight: 600; color: #ef4444;">So to run one home, we end up running ten apps.</p>
 
-      <p>So to run one home, we end up running ten apps.</p>
+      <div style="margin: 2.5rem 0; padding: 2rem; background: #f9fafb; border-radius: 16px; border: 1px solid #e5e7eb;">
+        <h4 style="color: #111827; text-align: center; margin-bottom: 1.5rem; font-size: 1.1rem; font-weight: 700;">The Management Debt</h4>
+        <svg viewBox="0 0 800 400" style="width: 100%; height: auto; background: white; border-radius: 12px; padding: 20px;">
+          <!-- Axes -->
+          <line x1="60" y1="350" x2="740" y2="350" stroke="#9ca3af" stroke-width="2" />
+          <line x1="60" y1="350" x2="60" y2="50" stroke="#9ca3af" stroke-width="2" />
+          
+          <!-- Y Labels -->
+          <text x="50" y="350" font-size="12" fill="#6b7280" text-anchor="end">Low</text>
+          <text x="50" y="50" font-size="12" fill="#6b7280" text-anchor="end">High</text>
+          <text x="30" y="200" font-size="14" fill="#111827" transform="rotate(-90, 30, 200)" font-weight="600">User Effort & Complexity</text>
 
-      <p>And unlike phones, the problem is bigger.</p>
+          <!-- X Labels -->
+          <text x="60" y="375" font-size="12" fill="#6b7280" text-anchor="middle">1 Device</text>
+          <text x="400" y="375" font-size="12" fill="#6b7280" text-anchor="middle">5 Devices</text>
+          <text x="740" y="375" font-size="12" fill="#6b7280" text-anchor="middle">15+ Devices</text>
+          <text x="400" y="395" font-size="14" fill="#111827" text-anchor="middle" font-weight="600">Number of Smart Gadgets</text>
 
-      <p>Phones change every 3–4 years.</p>
-      <p>Homes stay with us for 30–50 years.</p>
-      
-      <p>That’s why a home cannot depend on one brand, one gadget, or one app.</p>
-      <p>Its intelligence must sit above all devices — like Android or iOS does for phones.</p>
+          <!-- Fragmented Curve (Exponential) -->
+          <path d="M 60 330 Q 300 320, 600 150 T 740 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-dasharray="8,4" />
+          <text x="600" y="100" font-size="14" fill="#ef4444" font-weight="700">Fragmented (Individual Apps)</text>
 
-      <p>Only then does a home stop being a collection of smart gadgets and start becoming a smart system.</p>
+          <!-- Unified Curve (Linear) -->
+          <path d="M 60 330 L 740 280" fill="none" stroke="#10b981" stroke-width="4" />
+          <text x="500" y="260" font-size="14" fill="#10b981" font-weight="700">Unified (Home OS)</text>
 
-      <div style="margin: 2rem 0; padding: 1.5rem; background: #fdf2f8; border-left: 4px solid #ec4899; border-radius: 4px;">
-        <p style="margin: 0; color: #831843; font-weight: 600;">The intelligence of a home must outlive individual gadgets. It needs to sit above the appliances — a common digital layer, like an operating system for living.</p>
+          <!-- Annotation -->
+          <circle cx="740" cy="50" r="6" fill="#ef4444" />
+          <text x="730" y="35" font-size="11" fill="#ef4444" text-anchor="end">"App Overload"</text>
+        </svg>
+        <p style="text-align: center; color: #4b5563; font-size: 0.875rem; margin-top: 1rem; font-style: italic;">
+          As you add more gadgets, the effort to manage them grows exponentially unless they share a common intelligence.
+        </p>
       </div>
 
-      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Smart Infrastructure, Not Just Appliances</h3>
+      <p>Unlike phones, which we change every 3 years, homes stay for 50 years. A home cannot depend on a single brand or a temporary app. Its intelligence must sit above all devices—a common digital layer, like an operating system for living.</p>
 
-      <p>This intelligence must sit above everything — construction, wiring, energy, and water. Not inside one TV, one AC, or one pump. That’s what makes it smart infrastructure, not just smart appliances.</p>
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fdf2f8; border-left: 4px solid #ec4899; border-radius: 4px;">
+        <p style="margin: 0; color: #831843; font-weight: 600;">The intelligence of a home must outlive individual gadgets. It needs to sit above the appliances—not inside them.</p>
+      </div>
 
-      <p>Just like Android or iOS outlives individual phone models, the intelligence of a home must outlive individual gadgets. That’s the ecosystem challenge — and also the key to the future of smart homes.</p>
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Smart Infrastructure, Not Just Gadgets</h3>
+
+      <p>This intelligence must integrate with construction, wiring, and utilities. That’s what makes it smart infrastructure, not just a collection of smart appliances. Only then does a home stop being a collection of gadgets and starts becoming a smart system.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Future: From Shelter to Partner</h3>
 
-      <p>The home becomes a partner. It’s no longer just a place we return to at night to escape the world; it’s an active partner in how we live. From bricks to bits, from shelter to system. That isn't just a smart home; it’s the future of living.</p>
+      <p>The home of the future is a partner. It’s no longer just where you escape the world; it’s an active participant in how you live. From bricks to bits, from shelter to system—this isn't just a tech upgrade; it’s the evolution of living.</p>
     `
   },
 
