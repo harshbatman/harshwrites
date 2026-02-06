@@ -14,7 +14,7 @@ export const articles = [
       <p>After Chhath Puja, I recently visited my home. Yesterday afternoon, I was sleeping when suddenly I heard someone shouting:</p>
 
       <p style="font-weight: 600; font-style: italic; color: #111827; margin: 1.5rem 0 0.5rem 0;">“Motor band karo! Tanki bhar gayi hai!”</p>
-      <p style="color: #6b7280; font-size: 0.95rem; margin-bottom: 1.5rem;">(Switch off the submersible pump — the water tank is full.)</p>
+      <p style="color: #6b7280; margin-bottom: 1.5rem;">(Switch off the submersible pump — the water tank is full.)</p>
 
       <p>I woke up in a panic and rushed to the electric board to turn it off. The funny part? Our water tank already has a sound system. When it’s full, a speaker announces: <em>“Aapki tanki bhar gayi hai.”</em></p>
 
