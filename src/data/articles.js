@@ -51,7 +51,7 @@ export const articles = [
       <p style="font-weight: 600; color: #ef4444;">So to run one home, we end up running ten apps.</p>
 
       <div style="margin: 2.5rem 0; padding: 2rem; background: #f9fafb; border-radius: 16px; border: 1px solid #e5e7eb;">
-        <h4 style="color: #111827; text-align: center; margin-bottom: 1.5rem; font-size: 1.1rem; font-weight: 700;">The Management Debt</h4>
+        <h4 style="color: #111827; text-align: center; margin-bottom: 1.5rem; font-size: 1.1rem; font-weight: 700;">The Management Burden</h4>
         <svg viewBox="0 0 800 400" style="width: 100%; height: auto; background: white; border-radius: 12px; padding: 20px;">
           <!-- Axes -->
           <line x1="100" y1="350" x2="740" y2="350" stroke="#9ca3af" stroke-width="2" />
