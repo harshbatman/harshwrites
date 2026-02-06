@@ -85,7 +85,58 @@ export const articles = [
         </p>
       </div>
 
+      <div style="margin: 2.5rem 0; padding: 2rem; background: #f9fafb; border-radius: 16px; border: 1px solid #e5e7eb;">
+        <h4 style="color: #111827; text-align: center; margin-bottom: 1.5rem; font-size: 1.1rem; font-weight: 700;">The Longevity Gap</h4>
+        <svg viewBox="0 0 800 300" style="width: 100%; height: auto; background: white; border-radius: 12px; padding: 20px;">
+          <!-- Axes -->
+          <line x1="160" y1="250" x2="740" y2="250" stroke="#9ca3af" stroke-width="2" />
+          <line x1="160" y1="250" x2="160" y2="30" stroke="#9ca3af" stroke-width="1" />
+          
+          <!-- Smartphones -->
+          <text x="150" y="70" font-size="14" fill="#6b7280" text-anchor="end">Smartphone</text>
+          <rect x="160" y="55" width="80" height="30" fill="#3b82f6" rx="4" />
+          <text x="250" y="75" font-size="12" fill="#3b82f6" font-weight="600">3-4 Years</text>
+          
+          <!-- Smart Gadgets -->
+          <text x="150" y="140" font-size="14" fill="#6b7280" text-anchor="end">Smart TV / AC</text>
+          <rect x="160" y="125" width="200" height="30" fill="#8b5cf6" rx="4" />
+          <text x="370" y="145" font-size="12" fill="#8b5cf6" font-weight="600">8-12 Years</text>
+          
+          <!-- The Home -->
+          <text x="150" y="210" font-size="14" fill="#111827" text-anchor="end" font-weight="700">The Home</text>
+          <rect x="160" y="195" width="550" height="30" fill="#10b981" rx="4" />
+          <text x="720" y="215" font-size="12" fill="#10b981" font-weight="700">50+ Years</text>
+
+          <!-- Timeline labels -->
+          <text x="160" y="275" font-size="11" fill="#9ca3af" text-anchor="middle">Purchase</text>
+          <text x="710" y="275" font-size="11" fill="#9ca3af" text-anchor="middle">Decades Later</text>
+        </svg>
+        <p style="text-align: center; color: #4b5563; font-size: 0.875rem; margin-top: 1rem; font-style: italic;">
+          A home is built for generations, yet we are trying to run it with software designed for gadgets that only last a few years.
+        </p>
+      </div>
+
       <p>Unlike phones, which we change every 3 years, homes stay for 50 years. A home cannot depend on a single brand or a temporary app. Its intelligence must sit above all devices—a common digital layer, like an operating system for living.</p>
+
+      <div style="margin: 2.5rem 0; padding: 2rem; background: #fffcf0; border-radius: 16px; border: 1px solid #fef3c7;">
+        <h4 style="color: #92400e; text-align: center; margin-bottom: 1.5rem; font-size: 1.1rem; font-weight: 700;">Evolution of the Home Composition</h4>
+        <svg viewBox="0 0 800 250" style="width: 100%; height: auto; background: white; border-radius: 12px; padding: 20px;">
+          <!-- 1950s Stacked Bar -->
+          <text x="80" y="40" font-size="14" fill="#111827" font-weight="700">1950s: Shelter</text>
+          <rect x="80" y="55" width="300" height="40" fill="#d1d5db" rx="2" /> <!-- Bricks -->
+          <rect x="380" y="55" width="20" height="40" fill="#fbbf24" rx="2" /> <!-- Mechanical -->
+          <text x="180" y="115" font-size="12" fill="#6b7280">95% Passive Shelter</text>
+          
+          <!-- 2024 Stacked Bar -->
+          <text x="80" y="160" font-size="14" fill="#111827" font-weight="700">2024: System</text>
+          <rect x="80" y="175" width="180" height="40" fill="#d1d5db" rx="2" /> <!-- Bricks -->
+          <rect x="260" y="175" width="100" height="40" fill="#fbbf24" rx="2" /> <!-- Mechanical -->
+          <rect x="360" y="175" width="40" height="40" fill="#3b82f6" rx="2" /> <!-- Digital -->
+          <text x="80" y="235" font-size="11" fill="#6b7280">Shelter</text>
+          <text x="260" y="235" font-size="11" fill="#b45309">Machines</text>
+          <text x="360" y="235" font-size="11" fill="#2563eb">Digital</text>
+        </svg>
+      </div>
 
       <div style="margin: 2rem 0; padding: 1.5rem; background: #fdf2f8; border-left: 4px solid #ec4899; border-radius: 4px;">
         <p style="margin: 0; color: #831843; font-weight: 600;">The intelligence of a home must outlive individual gadgets. It needs to sit above the appliances—not inside them.</p>
