@@ -83,34 +83,32 @@ const MahtoOS = () => {
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'flex-start',
-                    justifyContent: 'center'
+                    justifyContent: 'center',
+                    transform: 'translateY(-1px)'
                 }}>
                     <span style={{
-                        fontSize: '14px',
+                        fontSize: '11px',
                         fontWeight: '1000',
                         letterSpacing: '0.04em',
                         color: '#fff',
                         textShadow: '0 1px 2px rgba(0,0,0,0.5)',
-                        marginBottom: '-2px'
+                        marginBottom: '-1px',
+                        marginLeft: '1px'
                     }}>MAHTO</span>
                     <div style={{
                         display: 'flex',
                         alignItems: 'flex-end',
-                        gap: '1px',
-                        transform: 'translateY(-1px)' // Optical adjustment to keep centered in box after aligning bottoms
+                        gap: '1px'
                     }}>
-                        <div style={{ width: '26px', height: '26px', marginLeft: '-3px' }}>
+                        <div style={{ width: '22px', height: '22px', marginLeft: '-2px' }}>
                             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                                {/* The Roof Line (Reverse V) */}
                                 <path d="M4 11L12 4L20 11" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
-                                {/* House Body with a Gap from the Roof */}
                                 <path d="M12 8.5L5 14V22H19V14L12 8.5Z" fill="white" />
-                                {/* Gate (Doorway) */}
                                 <path d="M10 22V18C10 17.4477 10.4477 17 11 17H13C13.5523 17 14 17.4477 14 18V22H10Z" fill="#000" />
                             </svg>
                         </div>
                         <span style={{
-                            fontSize: '18px',
+                            fontSize: '16px',
                             fontWeight: '1000',
                             letterSpacing: '-0.05em',
                             color: '#fff',
