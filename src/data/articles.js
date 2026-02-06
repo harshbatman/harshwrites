@@ -70,7 +70,7 @@ export const articles = [
 
           <!-- Fragmented Curve (Exponential) -->
           <path d="M 100 330 C 300 330, 600 250, 740 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-dasharray="8,4" />
-          <text x="160" y="300" font-size="14" fill="#ef4444" font-weight="700">Fragmented (Individual Apps)</text>
+          <text x="140" y="270" font-size="14" fill="#ef4444" font-weight="700">Fragmented (Individual Apps)</text>
 
           <!-- Unified Curve (Linear) -->
           <path d="M 100 330 L 740 280" fill="none" stroke="#10b981" stroke-width="4" />
