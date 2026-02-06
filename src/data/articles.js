@@ -127,8 +127,8 @@ export const articles = [
           <rect x="380" y="55" width="20" height="40" fill="#fbbf24" rx="2" /> <!-- Mechanical -->
           <text x="180" y="115" font-size="12" fill="#6b7280">95% Passive Shelter</text>
           
-          <!-- 2024 Stacked Bar -->
-          <text x="80" y="160" font-size="14" fill="#111827" font-weight="700">2024: System</text>
+          <!-- 2023 Stacked Bar -->
+          <text x="80" y="160" font-size="14" fill="#111827" font-weight="700">2023: System</text>
           <rect x="80" y="175" width="180" height="40" fill="#d1d5db" rx="2" /> <!-- Bricks -->
           <rect x="260" y="175" width="100" height="40" fill="#fbbf24" rx="2" /> <!-- Mechanical -->
           <rect x="360" y="175" width="40" height="40" fill="#3b82f6" rx="2" /> <!-- Digital -->
