@@ -351,6 +351,89 @@ export const articles = [
         </div>
       </div>
 
+      <h2 style="font-family: var(--font-serif); font-size: 1.8rem; margin-top: 3rem; margin-bottom: 1.5rem; color: #111827; font-weight: 800; border-bottom: 2px solid #e5e7eb; padding-bottom: 0.5rem;">The Millennium Mirage: Gurugram</h2>
+
+      <p>Gurugram is often celebrated as the 'Millennium City,' a glass-and-steel dream. But behind the cyber hubs lies a chaotic reality of urban villages like Nathupur, Chakkarpur, and Mullahera. These villages were never part of the 'New Gurgaon' master plan—they were swallowed by it.</p>
+
+      <p>As corporate towers went up, the demand for low-cost labor exploded. These urban villages became the only affordable housing option for the thousands of service workers who keep the city running. However, because they are 'Lal Dora' lands or unauthorized extensions, they exist in a planning vacuum.</p>
+
+      <div style="margin: 2.5rem auto; padding: 1.75rem; background: #f0fdf4; border-radius: 16px; border: 1px solid #bbf7d0; max-width: 600px; font-family: sans-serif; font-size: 0.9rem;">
+        <h4 style="color: #166534; text-align: center; margin-bottom: 2rem; font-size: 1.1rem; font-weight: 800; font-family: var(--font-serif);">Gurugram: The Paradox of Proximity</h4>
+        
+        <div style="margin-bottom: 2rem;">
+          <h5 style="font-size: 0.8rem; font-weight: 800; color: #15803d; text-transform: uppercase; margin-bottom: 1.25rem; border-bottom: 1px solid #bbf7d0; padding-bottom: 0.4rem;">1. Resource Consumption vs. Planning</h5>
+          <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+            <div style="display: flex; justify-content: space-between; font-weight: 700; font-size: 0.85rem;">
+              <span>Population in Unplanned 'Urban Villages'</span>
+              <span style="color: #166534;">~45%</span>
+            </div>
+            <div style="height: 16px; background: #dcfce7; border-radius: 8px; overflow: hidden;"><div style="width: 45%; height: 100%; background: #22c55e;"></div></div>
+          </div>
+        </div>
+
+        <div>
+          <h5 style="font-size: 0.8rem; font-weight: 800; color: #15803d; text-transform: uppercase; margin-bottom: 1.25rem; border-bottom: 1px solid #bbf7d0; padding-bottom: 0.4rem;">2. The Infrastructure Mismatch</h5>
+          <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+            <div>
+              <div style="font-weight: 700; color: #166534; margin-bottom: 0.6rem; font-size: 0.85rem;">Groundwater Dependency</div>
+              <div style="display: flex; align-items: center; gap: 0.75rem;">
+                <div style="width: 70px; font-size: 0.75rem; font-weight: 800; color: #ef4444;">Unplanned</div>
+                <div style="flex: 1; height: 8px; background: #eee; border-radius: 4px; overflow: hidden;"><div style="width: 95%; height: 100%; background: #ef4444;"></div></div>
+                <div style="width: 30px; font-size: 0.75rem; font-weight: 700;">95%</div>
+              </div>
+              <div style="display: flex; align-items: center; gap: 0.75rem; margin-top: 0.4rem;">
+                <div style="width: 70px; font-size: 0.75rem; font-weight: 800; color: #10b981;">DLF/Sectors</div>
+                <div style="flex: 1; height: 8px; background: #eee; border-radius: 4px; overflow: hidden;"><div style="width: 40%; height: 100%; background: #10b981;"></div></div>
+                <div style="width: 30px; font-size: 0.75rem; font-weight: 700;">40%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <h2 style="font-family: var(--font-serif); font-size: 1.8rem; margin-top: 3rem; margin-bottom: 1.5rem; color: #111827; font-weight: 800; border-bottom: 2px solid #e5e7eb; padding-bottom: 0.5rem;">Silicon Valley's Blind Spot: Bengaluru</h2>
+
+      <p>In Bengaluru, the story isn't just about land status—it's about environmental erasure. Thousands of unauthorized layouts have sprouted in the peripheral areas of the city, often built directly over the natural topography of 'Rajakaluves' (stormwater drains) and lake beds.</p>
+
+      <p>When it floods in Whitefield or Bellandur, it’s not just 'excess rain.' It is the city’s geography fighting back against unplanned concrete. These layouts are often regularized retrospectively (Akrama-Sakrama), but you cannot regularize a blocked waterway or a vanished wetland.</p>
+
+      <div style="margin: 2.5rem auto; padding: 1.75rem; background: #eff6ff; border-radius: 16px; border: 1px solid #bfdbfe; max-width: 600px; font-family: sans-serif; font-size: 0.9rem;">
+        <h4 style="color: #1e40af; text-align: center; margin-bottom: 2rem; font-size: 1.1rem; font-weight: 800; font-family: var(--font-serif);">Bengaluru: The Engineering Failure</h4>
+        
+        <div style="margin-bottom: 2rem;">
+          <h5 style="font-size: 0.8rem; font-weight: 800; color: #1e3a8a; text-transform: uppercase; margin-bottom: 1.25rem; border-bottom: 1px solid #bfdbfe; padding-bottom: 0.4rem;">1. Built-up Area Growth (1990-2024)</h5>
+          <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+            <div style="display: flex; justify-content: space-between; font-weight: 700; font-size: 0.85rem;">
+              <span>Increase in Concrete Surface Area</span>
+              <span style="color: #1e40af;">~1000%</span>
+            </div>
+            <div style="height: 16px; background: #dbeafe; border-radius: 8px; overflow: hidden;"><div style="width: 100%; height: 100%; background: #3b82f6;"></div></div>
+          </div>
+        </div>
+
+        <div>
+          <h5 style="font-size: 0.8rem; font-weight: 800; color: #1e3a8a; text-transform: uppercase; margin-bottom: 1.25rem; border-bottom: 1px solid #bfdbfe; padding-bottom: 0.4rem;">2. Drainage Loss Index</h5>
+          <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+            <div>
+              <div style="font-weight: 700; color: #1e40af; margin-bottom: 0.6rem; font-size: 0.85rem;">Natural Drainage Connectivity</div>
+              <div style="display: flex; align-items: center; gap: 0.75rem;">
+                <div style="width: 80px; font-size: 0.65rem; font-weight: 800; color: #10b981;">1990 (Orig.)</div>
+                <div style="flex: 1; height: 8px; background: #eee; border-radius: 4px; overflow: hidden;"><div style="width: 95%; height: 100%; background: #10b981;"></div></div>
+                <div style="width: 30px; font-size: 0.75rem; font-weight: 700;">95%</div>
+              </div>
+              <div style="display: flex; align-items: center; gap: 0.75rem; margin-top: 0.4rem;">
+                <div style="width: 80px; font-size: 0.65rem; font-weight: 800; color: #ef4444;">Today</div>
+                <div style="flex: 1; height: 8px; background: #eee; border-radius: 4px; overflow: hidden;"><div style="width: 25%; height: 100%; background: #ef4444;"></div></div>
+                <div style="width: 30px; font-size: 0.75rem; font-weight: 700;">25%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <p style="text-align: center; color: #64748b; font-size: 0.7rem; margin-top: 1rem; font-style: italic;">
+          *Data reflects the systemic reduction in natural water carrying capacity due to unplanned encroachments.
+        </p>
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Everyday Problems We Face</h3>
 
       <p>Life goes on, but the systems that support it don't exist. In many unauthorized colonies, residents live without proper sewer and drainage systems, reliable water supply, organized garbage collection, or any real garbage recycling mechanism.</p>
