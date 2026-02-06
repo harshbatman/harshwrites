@@ -301,6 +301,50 @@ export const articles = [
         </p>
       </div>
 
+      <div style="margin: 2.5rem auto; padding: 1.75rem; background: #fffcf0; border-radius: 16px; border: 1px solid #fde68a; max-width: 600px; font-family: sans-serif; font-size: 0.9rem;">
+        <h4 style="color: #92400e; text-align: center; margin-bottom: 2rem; font-size: 1.1rem; font-weight: 800; font-family: var(--font-serif);">Faridabad: The Density Crisis</h4>
+        
+        <div style="margin-bottom: 2rem;">
+          <h5 style="font-size: 0.8rem; font-weight: 800; color: #b45309; text-transform: uppercase; margin-bottom: 1.25rem; border-bottom: 1px solid #fde68a; padding-bottom: 0.4rem;">1. Population Pressure (Highest in Haryana)</h5>
+          <div style="display: flex; flex-direction: column; gap: 0.75rem;">
+            <div style="display: flex; justify-content: space-between; font-weight: 700; font-size: 0.85rem;">
+              <span>Density (People per sq. km)</span>
+              <span style="color: #991b1b;">~2400+</span>
+            </div>
+            <div style="height: 16px; background: #fef3c7; border-radius: 8px; overflow: hidden;"><div style="width: 100%; height: 100%; background: #ef4444;"></div></div>
+          </div>
+        </div>
+
+        <div>
+          <h5 style="font-size: 0.8rem; font-weight: 800; color: #b45309; text-transform: uppercase; margin-bottom: 1.25rem; border-bottom: 1px solid #fde68a; padding-bottom: 0.4rem;">2. Core Service Gap</h5>
+          
+          <div style="display: grid; grid-template-columns: 1fr; gap: 1.5rem;">
+            <div>
+              <div style="font-weight: 700; color: #92400e; margin-bottom: 0.6rem; font-size: 0.85rem;">Planned Housing Coverage</div>
+              <div style="display: flex; align-items: center; gap: 0.75rem;">
+                <div style="width: 60px; font-size: 0.75rem; font-weight: 800; color: #10b981;">Planned</div>
+                <div style="flex: 1; height: 8px; background: #fef3c7; border-radius: 4px; overflow: hidden;"><div style="width: 25%; height: 100%; background: #10b981;"></div></div>
+                <div style="width: 30px; font-size: 0.75rem; font-weight: 700;">25%</div>
+              </div>
+            </div>
+
+            <div>
+              <div style="font-weight: 700; color: #92400e; margin-bottom: 0.6rem; font-size: 0.85rem;">Solid Waste Management</div>
+              <div style="display: flex; align-items: center; gap: 0.75rem; margin-bottom: 0.4rem;">
+                <div style="width: 60px; font-size: 0.75rem; font-weight: 800; color: #ef4444;">Unauth.</div>
+                <div style="flex: 1; height: 8px; background: #fef3c7; border-radius: 4px; overflow: hidden;"><div style="width: 15%; height: 100%; background: #ef4444;"></div></div>
+                <div style="width: 30px; font-size: 0.75rem; font-weight: 700;">15%</div>
+              </div>
+              <div style="display: flex; align-items: center; gap: 0.75rem;">
+                <div style="width: 60px; font-size: 0.75rem; font-weight: 800; color: #10b981;">Sector</div>
+                <div style="flex: 1; height: 8px; background: #fef3c7; border-radius: 4px; overflow: hidden;"><div style="width: 70%; height: 100%; background: #10b981;"></div></div>
+                <div style="width: 30px; font-size: 0.75rem; font-weight: 700;">70%</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Everyday Problems We Face</h3>
 
       <p>Life goes on, but the systems that support it don't exist. In many unauthorized colonies, residents live without proper sewer and drainage systems, reliable water supply, organized garbage collection, or any real garbage recycling mechanism.</p>
