@@ -449,7 +449,7 @@ function ArticleView() {
                             gap: '0.5rem'
                         }}>
                             <span style={{
-                                fontSize: '0.65rem',
+                                fontSize: '0.8rem',
                                 color: 'var(--color-text-tertiary)',
                                 fontWeight: 700,
                                 textTransform: 'uppercase',
