@@ -30,7 +30,21 @@ export const articles = [
 
       <p>That question quietly pulled me into reading more about smart homes. But then I realized — smart homes don’t start with apps or phones. They start much earlier. They start with the ground.</p>
 
-      <p>Before anything becomes smart, it has to stand. We’re talking about foundations, cement, steel, and bricks. For decades, home construction meant one thing: building something strong enough to shelter us. Four walls. A roof. Protection from heat, rain, and noise. For a long time, that was enough. Homes were passive. They didn’t think. They didn’t respond. They just existed.</p>
+      <p>Before anything becomes smart, it has to stand.</p>
+      <p>We’re talking about foundations, cement, steel, and bricks.</p>
+
+      <p>For decades, home construction meant one thing: building something strong enough to shelter us.</p>
+
+      <p>Four walls.</p>
+      <p>A roof.</p>
+      <p>Protection from heat, rain, and noise.</p>
+
+      <p>For a long time, that was enough.</p>
+
+      <p>Homes were passive.</p>
+      <p>They didn’t think.</p>
+      <p>They didn’t respond.</p>
+      <p>They just existed.</p>
 
       <div style="margin: 2rem 0; padding: 1.5rem; background: #fffcf0; border-left: 4px solid #eab308; border-radius: 4px;">
         <p style="margin: 0; color: #854d0e; font-weight: 600;">A home used to be a passive shelter. Today, it is evolving into an active responder to the world around it.</p>
