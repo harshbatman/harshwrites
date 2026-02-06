@@ -69,11 +69,27 @@ export const articles = [
       <p>At first, they felt like upgrades.</p>
       <p>Now, they feel like survival essentials.</p>
 
-      <p>Then came the next shift: control. Switches became remotes, remotes became apps, and apps moved into our phones. And quietly, in the background, something else entered our homes — IoT and embedded systems.</p>
+      <p>Then came the next shift: control.</p>
+      <p>Switches became remotes.</p>
+      <p>Remotes became apps.</p>
+      <p>Apps moved into our phones.</p>
 
-      <p>These are tiny computers tucked inside everyday things. Sensors measuring temperature, water levels, and air quality. Embedded systems taking decisions. Internet connectivity making these devices talk to each other. Suddenly, from one device in our hand, we could control the fan, the TV, the AC, and the purifier. Our homes were no longer just shelter. They were becoming systems.</p>
+      <p>And quietly, in the background, something else entered our homes — IoT and embedded systems.</p>
 
-      <p>And that’s when the question becomes unavoidable: If almost everything in our home can sense, measure, and respond intelligently… why is something as basic as water still shouting for attention?</p>
+      <p>These are tiny computers tucked inside everyday things.</p>
+      <p>Sensors measuring temperature, water levels, and air quality.</p>
+      <p>Embedded systems taking decisions.</p>
+      <p>Internet connectivity making these devices talk to each other.</p>
+
+      <p>Suddenly, from one device in our hand, we could control the fan, the TV, the AC, and the purifier.</p>
+
+      <p>Our homes were no longer just shelter.</p>
+      <p>They were becoming systems.</p>
+
+      <p>And that’s when the question becomes unavoidable:</p>
+
+      <p>If almost everything in our home can sense, measure, and respond intelligently…</p>
+      <p>why is something as basic as water still shouting for attention?</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">When Homes Become Aware</h3>
 
