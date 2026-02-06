@@ -159,7 +159,8 @@ export const articles = [
     title: "Unauthorized Colonies: How Our Cities Grew Without Planning",
     author: "Harsh Mahto",
     category: "Urban Planning & Society",
-    date: "5 May 2025",
+    date: "15 Dec 2023",
+    lastUpdated: "5 May 2025",
     image: "/unauthorized-colonies-unplanned.jpg",
     excerpt: "Have you ever noticed how some parts of our cities feel completely unplanned? Unauthorized colonies represent a symptom of a deeper planning failure in India's urban growth.",
     content: `
