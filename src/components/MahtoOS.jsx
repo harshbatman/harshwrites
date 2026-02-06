@@ -108,7 +108,8 @@ const MahtoOS = () => {
                     marginBottom: '4px' // Optical adjustment for lower-case 'm'
                 }}>m</span>
             ),
-            playStoreUrl: 'https://play.google.com/store'
+            playStoreUrl: 'https://play.google.com/store',
+            appStoreUrl: 'https://www.apple.com/in/app-store/'
         },
         {
             id: 'loans',
@@ -154,7 +155,7 @@ const MahtoOS = () => {
                 </div>
             ),
             playStoreUrl: 'https://play.google.com/store/apps/details?id=tech.mahto.tech',
-            appStoreUrl: 'https://apps.apple.com/us/app/mahto-home-loans/id6756539905'
+            appStoreUrl: 'https://www.apple.com/in/app-store/'
         },
         {
             id: 'properties',
@@ -183,7 +184,8 @@ const MahtoOS = () => {
                     }}>Land & Properties</span>
                 </div>
             ),
-            playStoreUrl: 'https://play.google.com/store'
+            playStoreUrl: 'https://play.google.com/store',
+            appStoreUrl: 'https://www.apple.com/in/app-store/'
         }
     ];
 
