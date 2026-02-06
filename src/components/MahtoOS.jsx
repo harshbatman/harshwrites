@@ -28,7 +28,7 @@ const AppIcon = ({ app }) => {
                 fontSize: '0.65rem',
                 fontWeight: 700,
                 color: isHovered ? 'var(--color-text-primary)' : 'var(--color-text-secondary)',
-                textTransform: 'uppercase',
+                textTransform: app.id === 'mine' ? 'none' : 'uppercase',
                 letterSpacing: '0.06em',
                 transition: 'color 0.2s',
                 textAlign: 'center',
@@ -78,7 +78,7 @@ const MahtoOS = () => {
             renderIcon: () => (
                 <span style={{
                     fontSize: '42px',
-                    fontWeight: '700',
+                    fontWeight: '500',
                     fontFamily: 'var(--font-sans)',
                     lineHeight: 1,
                     marginBottom: '4px' // Optical adjustment for lower-case 'm'
