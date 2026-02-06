@@ -62,12 +62,7 @@ const AppIcon = ({ app }) => {
                         onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.1)'}
                         onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
                     >
-                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                            <path d="M3 20.5V3.5C3 2.5 4.5 2 5.5 2.5L21 11C22 11.5 22 12.5 21 13L5.5 21.5C4.5 22 3 21.5 3 20.5Z" fill="#3B82F6" />
-                            <path d="M3.6 2.5L15.3 11.6L3.6 20.8V2.5Z" fill="#10B981" fillOpacity="0.8" />
-                            <path d="M15.3 11.6L21.3 10.8C21.8 11.1 21.8 11.8 21.3 12.2L15.3 11.6Z" fill="#FBBF24" />
-                            <path d="M3.6 20.8L15.3 11.6L21.3 12.2L6.5 21.6C5.5 22.2 3.6 21.7 3.6 20.8Z" fill="#EF4444" fillOpacity="0.8" />
-                        </svg>
+                        <img src="/assets/play-store.png" alt="Play Store" style={{ height: '22px', width: 'auto' }} />
                     </a>
                     <a
                         href="https://apps.apple.com/us/app/mahto-jobs-contract-shops/id6756539905"
@@ -78,14 +73,7 @@ const AppIcon = ({ app }) => {
                         onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.1)'}
                         onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
                     >
-                        <svg width="22" height="22" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
-                            <rect width="512" height="512" rx="110" fill="#007AFF" />
-                            <g fill="none" stroke="white" stroke-width="40" stroke-linecap="round" stroke-linejoin="round">
-                                <path d="M256 110 L140 380" />
-                                <path d="M256 110 L372 380" />
-                                <path d="M175 300 L337 300" />
-                            </g>
-                        </svg>
+                        <img src="/assets/app-store.jpg" alt="App Store" style={{ height: '22px', width: 'auto', borderRadius: '4px' }} />
                     </a>
                 </div>
             )}
