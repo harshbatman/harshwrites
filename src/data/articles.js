@@ -54,33 +54,33 @@ export const articles = [
         <h4 style="color: #111827; text-align: center; margin-bottom: 1.5rem; font-size: 1.1rem; font-weight: 700;">The Management Debt</h4>
         <svg viewBox="0 0 800 400" style="width: 100%; height: auto; background: white; border-radius: 12px; padding: 20px;">
           <!-- Axes -->
-          <line x1="60" y1="350" x2="740" y2="350" stroke="#9ca3af" stroke-width="2" />
-          <line x1="60" y1="350" x2="60" y2="50" stroke="#9ca3af" stroke-width="2" />
+          <line x1="100" y1="350" x2="740" y2="350" stroke="#9ca3af" stroke-width="2" />
+          <line x1="100" y1="350" x2="100" y2="50" stroke="#9ca3af" stroke-width="2" />
           
           <!-- Y Labels -->
-          <text x="50" y="350" font-size="12" fill="#6b7280" text-anchor="end">Low</text>
-          <text x="50" y="50" font-size="12" fill="#6b7280" text-anchor="end">High</text>
-          <text x="30" y="200" font-size="14" fill="#111827" transform="rotate(-90, 30, 200)" font-weight="600">User Effort & Complexity</text>
+          <text x="90" y="350" font-size="12" fill="#6b7280" text-anchor="end">Low</text>
+          <text x="90" y="50" font-size="12" fill="#6b7280" text-anchor="end">High</text>
+          <text x="40" y="200" font-size="14" fill="#111827" transform="rotate(-90, 40, 200)" font-weight="600" text-anchor="middle">User Effort & Complexity</text>
 
           <!-- X Labels -->
-          <text x="60" y="375" font-size="12" fill="#6b7280" text-anchor="middle">1 Device</text>
-          <text x="400" y="375" font-size="12" fill="#6b7280" text-anchor="middle">5 Devices</text>
+          <text x="100" y="375" font-size="12" fill="#6b7280" text-anchor="middle">1 Device</text>
+          <text x="420" y="375" font-size="12" fill="#6b7280" text-anchor="middle">5 Devices</text>
           <text x="740" y="375" font-size="12" fill="#6b7280" text-anchor="middle">15+ Devices</text>
-          <text x="400" y="395" font-size="14" fill="#111827" text-anchor="middle" font-weight="600">Number of Smart Gadgets</text>
+          <text x="420" y="400" font-size="14" fill="#111827" text-anchor="middle" font-weight="600">Number of Smart Gadgets</text>
 
           <!-- Fragmented Curve (Exponential) -->
-          <path d="M 60 330 Q 300 320, 600 150 T 740 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-dasharray="8,4" />
+          <path d="M 100 330 Q 340 320, 640 150 T 740 50" fill="none" stroke="#ef4444" stroke-width="4" stroke-dasharray="8,4" />
           <text x="600" y="100" font-size="14" fill="#ef4444" font-weight="700">Fragmented (Individual Apps)</text>
 
           <!-- Unified Curve (Linear) -->
-          <path d="M 60 330 L 740 280" fill="none" stroke="#10b981" stroke-width="4" />
+          <path d="M 100 330 L 740 280" fill="none" stroke="#10b981" stroke-width="4" />
           <text x="500" y="260" font-size="14" fill="#10b981" font-weight="700">Unified (Home OS)</text>
 
           <!-- Annotation -->
           <circle cx="740" cy="50" r="6" fill="#ef4444" />
           <text x="730" y="35" font-size="11" fill="#ef4444" text-anchor="end">"App Overload"</text>
         </svg>
-        <p style="text-align: center; color: #4b5563; font-size: 0.875rem; margin-top: 1rem; font-style: italic;">
+        <p style="text-align: center; color: #4b5563; font-size: 0.875rem; margin-top: 1.5rem; font-style: italic;">
           As you add more gadgets, the effort to manage them grows exponentially unless they share a common intelligence.
         </p>
       </div>
