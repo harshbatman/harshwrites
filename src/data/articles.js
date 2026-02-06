@@ -8298,6 +8298,50 @@ export const articles = [
 
       <p>The AC isn’t cooling us anymore—it’s protecting us from the environment we built. And the refrigerator fits into this picture perfectly. Cold water becomes a relief, not a preference. Food spoils faster in rising temperatures. Medicines need cooling. Even leftovers don’t survive the heat.</p>
 
+      <div style="margin: 2.5rem 0; padding: 2rem; background: #fff; border-radius: 16px; border: 1px solid #e5e7eb; box-shadow: 0 10px 15px -3px rgba(0,0,0,0.05);">
+        <h4 style="color: #111827; text-align: center; margin-bottom: 2rem; font-size: 1.25rem; font-weight: 800; font-family: var(--font-serif);">The Survival Stack: From Luxury to Infrastructure</h4>
+        <svg viewBox="0 0 800 400" style="width: 100%; height: auto; background: #fff; border-radius: 12px; padding: 20px;">
+          <!-- Axes -->
+          <line x1="80" y1="320" x2="720" y2="320" stroke="#9ca3af" stroke-width="2" />
+          <line x1="80" y1="320" x2="80" y2="40" stroke="#9ca3af" stroke-width="2" />
+
+          <!-- Y Label -->
+          <text x="70" y="180" font-size="14" fill="#6b7280" transform="rotate(-90, 70, 180)" text-anchor="middle" font-weight="600">Essentiality Index</text>
+
+          <!-- Bars -->
+          <!-- Air Purifier -->
+          <rect x="150" y="60" width="80" height="260" fill="rgba(59, 130, 246, 0.1)" rx="4" />
+          <rect x="150" y="60" width="80" height="260" fill="#3b82f6" rx="4" />
+          <text x="190" y="345" font-size="12" fill="#111827" text-anchor="middle" font-weight="700">Air Purifier</text>
+          <text x="190" y="190" font-size="10" fill="#fff" text-anchor="middle" font-weight="800" transform="rotate(-90, 190, 190)">BREATHING</text>
+
+          <!-- Water Purifier -->
+          <rect x="300" y="80" width="80" height="240" fill="rgba(16, 185, 129, 0.1)" rx="4" />
+          <rect x="300" y="80" width="80" height="240" fill="#10b981" rx="4" />
+          <text x="340" y="345" font-size="12" fill="#111827" text-anchor="middle" font-weight="700">Water RO</text>
+          <text x="340" y="200" font-size="10" fill="#fff" text-anchor="middle" font-weight="800" transform="rotate(-90, 340, 200)">DRINKING</text>
+
+          <!-- AC -->
+          <rect x="450" y="100" width="80" height="220" fill="rgba(245, 158, 11, 0.1)" rx="4" />
+          <rect x="450" y="100" width="80" height="220" fill="#f59e0b" rx="4" />
+          <text x="490" y="345" font-size="12" fill="#111827" text-anchor="middle" font-weight="700">Air Cond.</text>
+          <text x="490" y="210" font-size="10" fill="#fff" text-anchor="middle" font-weight="800" transform="rotate(-90, 490, 210)">PROTECTION</text>
+
+          <!-- Fridge -->
+          <rect x="600" y="140" width="80" height="180" fill="rgba(139, 92, 246, 0.1)" rx="4" />
+          <rect x="600" y="140" width="80" height="180" fill="#8b5cf6" rx="4" />
+          <text x="640" y="345" font-size="12" fill="#111827" text-anchor="middle" font-weight="700">Refrigerator</text>
+          <text x="640" y="230" font-size="10" fill="#fff" text-anchor="middle" font-weight="800" transform="rotate(-90, 640, 230)">FOOD SECURITY</text>
+
+          <!-- Annotations -->
+          <line x1="80" y1="120" x2="720" y2="120" stroke="#ef4444" stroke-width="1" stroke-dasharray="4,4" />
+          <text x="725" y="125" font-size="11" fill="#ef4444" font-weight="700">Survival Baseline</text>
+        </svg>
+        <p style="text-align: center; color: #4b5563; font-size: 0.875rem; margin-top: 1.5rem; font-style: italic; line-height: 1.6;">
+          When Nature's defaults (Air, Water, Temperature) break, machines become the new infrastructure. We've outsourced our survival to switches.
+        </p>
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Vicious Cycle</h3>
 
       <p>What connects all these machines is electricity.</p>
