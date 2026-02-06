@@ -44,7 +44,15 @@ const MahtoOS = () => {
             id: 'mahto',
             name: 'MAHTO',
             renderIcon: () => (
-                <span style={{ fontSize: '18px', fontWeight: '800', letterSpacing: '1px' }}>MAHTO</span>
+                <span style={{
+                    fontSize: '22px',
+                    fontWeight: '1000', // Ultra bold
+                    letterSpacing: '-0.04em',
+                    fontFamily: 'var(--font-sans)',
+                    color: '#fff',
+                    transform: 'scaleY(1.05)', // Slightly taller like the image
+                    WebkitFontSmoothing: 'antialiased'
+                }}>MAHTO</span>
             )
         },
         {
