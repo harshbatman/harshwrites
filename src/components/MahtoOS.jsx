@@ -95,8 +95,9 @@ const MahtoOS = () => {
                     }}>MAHTO</span>
                     <div style={{
                         display: 'flex',
-                        alignItems: 'center',
-                        gap: '1px'
+                        alignItems: 'flex-end',
+                        gap: '1px',
+                        transform: 'translateY(-1px)' // Optical adjustment to keep centered in box after aligning bottoms
                     }}>
                         <div style={{ width: '26px', height: '26px', marginLeft: '-3px' }}>
                             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
