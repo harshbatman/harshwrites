@@ -62,7 +62,13 @@ const MahtoOS = () => {
             id: 'mine',
             name: 'mine',
             renderIcon: () => (
-                <span style={{ fontSize: '32px', fontWeight: '400', fontFamily: 'var(--font-serif)' }}>m</span>
+                <span style={{
+                    fontSize: '42px',
+                    fontWeight: '700',
+                    fontFamily: 'var(--font-sans)',
+                    lineHeight: 1,
+                    marginBottom: '4px' // Optical adjustment for lower-case 'm'
+                }}>m</span>
             )
         },
         {
