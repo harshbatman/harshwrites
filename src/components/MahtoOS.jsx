@@ -51,32 +51,30 @@ const AppIcon = ({ app }) => {
                         )
                 }
             </span>
-            {app.id === 'mahto' && (
-                <div style={{ display: 'flex', gap: '8px', marginTop: '8px' }}>
-                    <a
-                        href="https://play.google.com/store/apps/details?id=tech.mahto.ma"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        onClick={(e) => e.stopPropagation()}
-                        style={{ display: 'flex', transition: 'transform 0.2s' }}
-                        onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.1)'}
-                        onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
-                    >
-                        <img src="/assets/play-store.png" alt="Play Store" style={{ height: '22px', width: 'auto' }} />
-                    </a>
-                    <a
-                        href="https://apps.apple.com/us/app/mahto-jobs-contract-shops/id6756539905"
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        onClick={(e) => e.stopPropagation()}
-                        style={{ display: 'flex', transition: 'transform 0.2s' }}
-                        onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.1)'}
-                        onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
-                    >
-                        <img src="/assets/app-store.jpg" alt="App Store" style={{ height: '22px', width: 'auto', borderRadius: '4px' }} />
-                    </a>
-                </div>
-            )}
+            <div style={{ display: 'flex', gap: '8px', marginTop: '8px' }}>
+                <a
+                    href="https://play.google.com/store/apps/details?id=tech.mahto.ma"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                    style={{ display: 'flex', transition: 'transform 0.2s' }}
+                    onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.1)'}
+                    onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
+                >
+                    <img src="/assets/play-store.png" alt="Play Store" style={{ height: '22px', width: 'auto' }} />
+                </a>
+                <a
+                    href="https://apps.apple.com/us/app/mahto-jobs-contract-shops/id6756539905"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    onClick={(e) => e.stopPropagation()}
+                    style={{ display: 'flex', transition: 'transform 0.2s' }}
+                    onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.1)'}
+                    onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
+                >
+                    <img src="/assets/app-store.jpg" alt="App Store" style={{ height: '22px', width: 'auto', borderRadius: '4px' }} />
+                </a>
+            </div>
         </div>
     );
 };
