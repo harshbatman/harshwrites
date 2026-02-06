@@ -83,39 +83,38 @@ const MahtoOS = () => {
                     display: 'flex',
                     flexDirection: 'column',
                     alignItems: 'flex-start',
-                    justifyContent: 'center',
-                    gap: '1px'
+                    justifyContent: 'center'
                 }}>
                     <span style={{
-                        fontSize: '11px',
+                        fontSize: '14px',
                         fontWeight: '1000',
                         letterSpacing: '0.04em',
                         color: '#fff',
                         textShadow: '0 1px 2px rgba(0,0,0,0.5)',
-                        marginLeft: '1px' // Slight adjustment to line up exactly with roof edge
+                        marginBottom: '-2px'
                     }}>MAHTO</span>
                     <div style={{
                         display: 'flex',
                         alignItems: 'center',
-                        gap: '2px'
+                        gap: '1px'
                     }}>
-                        <div style={{ width: '24px', height: '24px' }}>
+                        <div style={{ width: '26px', height: '26px', marginLeft: '-3px' }}>
                             <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                                 {/* The Roof Line (Reverse V) */}
-                                <path d="M4 11L12 4L20 11" stroke="white" strokeWidth="2.2" strokeLinecap="round" strokeLinejoin="round" />
+                                <path d="M4 11L12 4L20 11" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round" />
                                 {/* House Body with a Gap from the Roof */}
                                 <path d="M12 8.5L5 14V22H19V14L12 8.5Z" fill="white" />
                                 {/* Gate (Doorway) */}
-                                <path d="M10 22V18C10 17.4477 10.4477 16 11 16H13C13.5523 17 14 17.4477 14 18V22H10Z" fill="#000" />
+                                <path d="M10 22V18C10 17.4477 10.4477 17 11 17H13C13.5523 17 14 17.4477 14 18V22H10Z" fill="#000" />
                             </svg>
                         </div>
                         <span style={{
-                            fontSize: '17px',
+                            fontSize: '18px',
                             fontWeight: '1000',
-                            letterSpacing: '-0.04em',
+                            letterSpacing: '-0.05em',
                             color: '#fff',
                             textShadow: '0 1px 3px rgba(0,0,0,0.5)',
-                            lineHeight: 0.9
+                            lineHeight: 1
                         }}>Loans</span>
                     </div>
                 </div>
