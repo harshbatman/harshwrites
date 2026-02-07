@@ -8578,6 +8578,7 @@ export const articles = [
             </linearGradient>
           </defs>
           <text x="300" y="25" fill="white" font-size="12" font-weight="900" text-anchor="middle">AIR POLLUTION (77%)</text>
+          <text x="710" y="25" fill="white" font-size="9" font-weight="800" text-anchor="middle">WATER POLLUTION (23%)</text>
         </svg>
       </div>
 
