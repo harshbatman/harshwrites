@@ -74,6 +74,33 @@ export const articles = [
 
       <p>Beyond housing, the plan includes commercial spaces, offices, schools, hospitals, parks, and modern roads. In short, Dharavi is supposed to transform into a planned urban township. While over a million people live or work here, eligibility for free housing depends on documents and cut-off dates. This is where the anxiety begins; many families—tenants, informal renters, and migrants—worry about being excluded from this new future.</p>
 
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fafaf9; border-radius: 12px; border: 1px solid #e7e5e4;">
+        <h4 style="color: #1c1917; text-align: center; margin-bottom: 1.5rem; font-size: 1rem; font-weight: 800; font-family: var(--font-serif);">The Inclusion Challenge: Housing vs. Population</h4>
+        <div style="display: flex; flex-direction: column; gap: 1.5rem;">
+          <div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.85rem; font-weight: 700;">
+              <span style="color: #44403c;">Total Estimated Population</span>
+              <span style="color: #1c1917;">1,000,000+</span>
+            </div>
+            <div style="height: 12px; background: #e7e5e4; border-radius: 6px; overflow: hidden;">
+              <div style="width: 100%; height: 100%; background: #44403c;"></div>
+            </div>
+          </div>
+          <div>
+            <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.85rem; font-weight: 700;">
+              <span style="color: #0891b2;">Rehabilitation Units Planned</span>
+              <span style="color: #0891b2;">75,000 Units (~40% of Households)</span>
+            </div>
+            <div style="height: 12px; background: #e7e5e4; border-radius: 6px; overflow: hidden;">
+              <div style="width: 40%; height: 100%; background: #0891b2; border-radius: 6px;"></div>
+            </div>
+          </div>
+        </div>
+        <p style="font-size: 0.75rem; color: #78716c; margin-top: 1rem; font-style: italic; line-height: 1.4;">
+          * Even with 75k units, a significant portion of the current population (including migrants and non-eligible tenants) faces an uncertain future.
+        </p>
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Timeline and Turbulence</h3>
 
       <p>Officially, the project is expected to take 7 to 10 years, placing the completion somewhere between 2031 and 2035. But in India, projects of this scale rarely escape delays. The challenges are real: daily-wage workers fear losing income during relocation to transit camps, and small businesses worry that high-rise apartments won't support the "mixed-use" living—where home and work coexist—that Dharavi is famous for.</p>
