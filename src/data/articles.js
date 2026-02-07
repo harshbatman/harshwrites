@@ -8544,6 +8544,7 @@ export const articles = [
           <div style="flex: 1; background: rgba(255, 255, 255, 0.03); padding: 0.75rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.08);">
             <div style="display: flex; align-items: baseline; gap: 0.3rem;">
               <span style="font-size: 1.25rem; font-weight: 900; color: #f87171;">1.67M</span>
+              <span style="font-size: 0.65rem; color: #94a3b8; font-weight: 600;">(16.7 Lakh)</span>
               <span style="font-size: 0.65rem; color: #94a3b8;">Air Pollution</span>
             </div>
             <div style="margin-top: 0.5rem; font-size: 0.65rem; color: #cbd5e1; line-height: 1.4;">
@@ -8555,6 +8556,7 @@ export const articles = [
           <div style="flex: 1; background: rgba(255, 255, 255, 0.03); padding: 0.75rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.08);">
             <div style="display: flex; align-items: baseline; gap: 0.3rem;">
               <span style="font-size: 1.25rem; font-weight: 900; color: #60a5fa;">0.50M</span>
+              <span style="font-size: 0.65rem; color: #94a3b8; font-weight: 600;">(5 Lakh)</span>
               <span style="font-size: 0.65rem; color: #94a3b8;">Water Pollution</span>
             </div>
             <div style="margin-top: 0.5rem; font-size: 0.65rem; color: #cbd5e1; line-height: 1.4;">
