@@ -8540,7 +8540,7 @@ export const articles = [
         <h4 style="color: #f8fafc; text-align: center; margin-bottom: 1rem; font-size: 0.9rem; font-weight: 800; text-transform: uppercase;">Annual Mortality in India</h4>
         
         <div style="display: flex; gap: 0.75rem; margin-bottom: 1rem;">
-          {/* Air Pollution Side */}
+
           <div style="flex: 1; background: rgba(255, 255, 255, 0.03); padding: 0.75rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.08);">
             <div style="display: flex; align-items: baseline; gap: 0.3rem;">
               <span style="font-size: 1.25rem; font-weight: 900; color: #f87171;">1.67M</span>
@@ -8551,7 +8551,7 @@ export const articles = [
             </div>
           </div>
 
-          {/* Water Pollution Side */}
+
           <div style="flex: 1; background: rgba(255, 255, 255, 0.03); padding: 0.75rem; border-radius: 8px; border: 1px solid rgba(255,255,255,0.08);">
             <div style="display: flex; align-items: baseline; gap: 0.3rem;">
               <span style="font-size: 1.25rem; font-weight: 900; color: #60a5fa;">0.50M</span>
