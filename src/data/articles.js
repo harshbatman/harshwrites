@@ -8607,10 +8607,9 @@ export const articles = [
 
       <ul style="list-style: none; padding: 0; margin: 2rem 0;">
         <li style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;"><span style="width: 6px; height: 6px; border-radius: 50%; background: #ef4444;"></span> Clean air needs a <strong>purifier</strong>.</li>
-        <li style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;"><span style="width: 6px; height: 6px; border-radius: 50%; background: #3b82f6;"></span> Drinkable water needs a <strong>filter</strong>.</li>
-        <li style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;"><span style="width: 6px; height: 6px; border-radius: 50%; background: #f59e0b;"></span> Comfort needs <strong>air conditioners, heaters, or humidifiers</strong>.</li>
-        <li style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;"><span style="width: 6px; height: 6px; border-radius: 50%; background: #6b7280;"></span> Silence needs <strong>insulation</strong>.</li>
-        <li style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;"><span style="width: 6px; height: 6px; border-radius: 50%; background: #10b981;"></span> Power needs <strong>backups</strong>.</li>
+        <li style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;"><span style="width: 6px; height: 6px; border-radius: 50%; background: #3b82f6;"></span> Drinkable water needs a <strong>purifier</strong>.</li>
+        <li style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;"><span style="width: 6px; height: 6px; border-radius: 50%; background: #f59e0b;"></span> Comfort needs <strong>air conditioners</strong>.</li>
+        <li style="margin-bottom: 0.75rem; display: flex; align-items: center; gap: 0.5rem;"><span style="width: 6px; height: 6px; border-radius: 50%; background: #8b5cf6;"></span> Fresh food needs a <strong>fridge</strong>.</li>
       </ul>
 
       <p style="font-weight: 700; font-size: 1.25rem; color: #ef4444; margin: 2rem 0;">This isn’t about convenience anymore. This is about survival.</p>
