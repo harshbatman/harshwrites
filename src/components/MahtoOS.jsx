@@ -135,6 +135,7 @@ const MahtoOS = () => {
                     marginBottom: '4px' // Optical adjustment for lower-case 'm'
                 }}>m</span>
             ),
+            webUrl: 'https://www.mahtomine.tech/',
             playStoreUrl: 'https://play.google.com/store',
             appStoreUrl: 'https://www.apple.com/in/app-store/'
         },
