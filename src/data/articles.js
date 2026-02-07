@@ -10,9 +10,17 @@ export const articles = [
     image: "/dharavi-redevelopment.jpg",
     excerpt: "Dharavi is more than just Asia's largest slum; it's an economic powerhouse. As it stands on the brink of a massive transformation, we explore its history, its people, and the challenges of redevelopment.",
     content: `
-      <p>You know, whenever people outside India talk about Mumbai, they always mention two extremes — the sea-facing skyscrapers and Dharavi. But for us, Dharavi isn’t just a headline. It’s a lived reality.</p>
+      <p>Earlier, I wrote about unauthorized colonies. But there is a reality even harsher than those colonies—and that reality is Dharavi.</p>
 
-      <p>For the world, Dharavi is often reduced to “Asia’s largest slum.” But for those who know it, it’s about work, struggle, <em>jugaad</em>, and survival. It’s a place where generations of families built lives with their own hands. And now, suddenly, everyone is talking about redevelopment, transformation, and a “new Dharavi.”</p>
+      <p>Whenever people outside India talk about Mumbai, they almost always jump to two extremes. On one side, the sea-facing skyscrapers, glass balconies, and postcard views. On the other, Dharavi. As if the city exists only between luxury and poverty. But for us, Dharavi isn’t just a headline or a statistic. It’s a lived reality.</p>
+
+      <p>To the world, Dharavi is casually labelled “Asia’s largest slum.” But to those who actually know it, Dharavi is about work, sweat, <em>jugaad</em>, and survival. It’s about people waking up before sunrise, running small workshops, recycling the city’s waste, stitching clothes, baking bread, tanning leather—keeping Mumbai alive in ways no brochure ever mentions.</p>
+
+      <p>This is a place where families didn’t just live; they built their lives with their own hands. Brick by brick. Generation after generation. With no guarantees, no security, and very little support—yet with dignity and resilience.</p>
+
+      <p>And now, suddenly, everyone is talking about redevelopment. Transformation. A “new Dharavi.” Big words. Shiny promises. Grand visions.</p>
+
+      <p style="font-weight: 700; color: #111827; margin-bottom: 2rem;">But before we rush into the future, it’s worth pausing to ask: What exactly are we redeveloping—and who is this new Dharavi really for?</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Where Dharavi Came From</h3>
 
