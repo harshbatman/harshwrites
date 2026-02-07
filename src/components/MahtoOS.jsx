@@ -121,7 +121,8 @@ const MahtoOS = () => {
                     textAlign: 'center',
                     WebkitFontSmoothing: 'antialiased'
                 }}>MAHTO</span>
-            )
+            ),
+            webUrl: 'https://www.mahtoji.tech/'
         },
         {
             id: 'mine',
@@ -182,6 +183,7 @@ const MahtoOS = () => {
                     </div>
                 </div>
             ),
+            webUrl: 'https://www.mahtohomeloan.tech/',
             playStoreUrl: 'https://play.google.com/store/apps/details?id=tech.mahto.tech',
             appStoreUrl: 'https://www.apple.com/in/app-store/'
         },
@@ -212,6 +214,7 @@ const MahtoOS = () => {
                     }}>Land & Properties</span>
                 </div>
             ),
+            webUrl: 'https://www.mahtolandandproperties.shop/',
             playStoreUrl: 'https://play.google.com/store',
             appStoreUrl: 'https://www.apple.com/in/app-store/'
         }
