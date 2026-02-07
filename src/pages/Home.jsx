@@ -247,7 +247,7 @@ function Home() {
 
                                     <Link to={`/article/${article.id}`} style={{ textDecoration: 'none' }}>
                                         <button className="btn" style={{ padding: '0.6rem 1.25rem', fontSize: '0.85rem' }}>
-                                            Read <ArrowRight size={14} />
+                                            Read Story <ArrowRight size={14} />
                                         </button>
                                     </Link>
                                 </div>
