@@ -101,6 +101,60 @@ export const articles = [
         </p>
       </div>
 
+      <div style="margin: 2rem 0; overflow-x: auto; -webkit-overflow-scrolling: touch; border: 1px solid #e5e7eb; border-radius: 12px; background: #fff;">
+        <table style="width: 100%; border-collapse: collapse; min-width: 800px; font-size: 0.85rem; text-align: left;">
+          <thead>
+            <tr style="background: #f9fafb; border-bottom: 2px solid #e5e7eb;">
+              <th colspan="5" style="padding: 1.25rem; font-family: var(--font-serif); font-size: 1.1rem; color: #111827; font-weight: 700;">🏠 Dharavi Redevelopment: Eligibility Breakdown (Simple Table)</th>
+            </tr>
+            <tr style="background: #f9fafb; border-bottom: 1px solid #e5e7eb; color: #4b5563; font-weight: 700; text-transform: uppercase; font-size: 0.75rem; letter-spacing: 0.05em;">
+              <th style="padding: 1rem; width: 20%;">Category</th>
+              <th style="padding: 1rem; width: 20%;">Proof of Stay</th>
+              <th style="padding: 1rem; width: 20%;">What You Get</th>
+              <th style="padding: 1rem; width: 20%;">Where You Get It</th>
+              <th style="padding: 1rem; width: 20%;">Example</th>
+            </tr>
+          </thead>
+          <tbody style="color: #374151;">
+            <tr style="border-bottom: 1px solid #f3f4f6;">
+              <td style="padding: 1rem; font-weight: 700; color: #111827;">Category 1: Fully Eligible (Core Beneficiaries)</td>
+              <td style="padding: 1rem;">Living in Dharavi <strong>before 1 Jan 2000</strong></td>
+              <td style="padding: 1rem;">Free flat (≈350 sq ft)</td>
+              <td style="padding: 1rem;">Inside Dharavi (in-situ rehabilitation)</td>
+              <td style="padding: 1rem; color: #6b7280; font-style: italic;">A family living in the same house since the 1990s with ration card / voter ID</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #f3f4f6; background: #fafafa;">
+              <td style="padding: 1rem; font-weight: 700; color: #111827;">Category 2: Conditionally Eligible</td>
+              <td style="padding: 1rem;">Entered Dharavi <strong>between 1 Jan 2000 – 31 Dec 2011</strong></td>
+              <td style="padding: 1rem;">Subsidised flat (≈300 sq ft)</td>
+              <td style="padding: 1rem;">Outside Dharavi (Mumbai/MMR locations)</td>
+              <td style="padding: 1rem; color: #6b7280; font-style: italic;">A migrant worker who settled in 2004 with electricity bill proof</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #f3f4f6;">
+              <td style="padding: 1rem; font-weight: 700; color: #111827;">Category 3: Commercial / Industrial Units</td>
+              <td style="padding: 1rem;">Verified businesses/workshops</td>
+              <td style="padding: 1rem;">Separate commercial space or mixed-use unit</td>
+              <td style="padding: 1rem;">Mostly inside redeveloped Dharavi</td>
+              <td style="padding: 1rem; color: #6b7280; font-style: italic;">Leather unit, recycling unit, small factory</td>
+            </tr>
+            <tr style="border-bottom: 1px solid #f3f4f6; background: #fafafa;">
+              <td style="padding: 1rem; font-weight: 700; color: #111827;">Category 4: Post-2011 Residents</td>
+              <td style="padding: 1rem;">Entered <strong>after 2011</strong></td>
+              <td style="padding: 1rem;">Usually not eligible for free housing</td>
+              <td style="padding: 1rem;">May get rental housing / alternative schemes</td>
+              <td style="padding: 1rem; color: #6b7280; font-style: italic;">Recent renters or informal occupants</td>
+            </tr>
+            <tr>
+              <td style="padding: 1rem; font-weight: 700; color: #111827;">Category 5: Renters (without ownership proof)</td>
+              <td style="padding: 1rem;">No structure ownership proof</td>
+              <td style="padding: 1rem;">Depends on documents & survey</td>
+              <td style="padding: 1rem;">Case-by-case decision</td>
+              <td style="padding: 1rem; color: #6b7280; font-style: italic;">Tenant renting a room without legal papers</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Timeline and Turbulence</h3>
 
       <p>Officially, the project is expected to take 7 to 10 years, placing the completion somewhere between 2031 and 2035. But in India, projects of this scale rarely escape delays. The challenges are real: daily-wage workers fear losing income during relocation to transit camps, and small businesses worry that high-rise apartments won't support the "mixed-use" living—where home and work coexist—that Dharavi is famous for.</p>
