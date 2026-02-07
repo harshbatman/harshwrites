@@ -1,5 +1,66 @@
 export const articles = [
   {
+    id: "lets-talk-about-dharavi-past-people-future",
+    views: 12450,
+    publishDate: "2026-02-07",
+    title: "Let’s Talk About Dharavi: Past, People, and the Future",
+    author: "Harsh Mahto",
+    category: "Urban Planning & Society",
+    date: "7 Feb 2026",
+    image: "/dharavi-redevelopment.jpg",
+    excerpt: "Dharavi is more than just Asia's largest slum; it's an economic powerhouse. As it stands on the brink of a massive transformation, we explore its history, its people, and the challenges of redevelopment.",
+    content: `
+      <p>You know, whenever people outside India talk about Mumbai, they always mention two extremes — the sea-facing skyscrapers and Dharavi. But for us, Dharavi isn’t just a headline. It’s a lived reality.</p>
+
+      <p>For the world, Dharavi is often reduced to “Asia’s largest slum.” But for those who know it, it’s about work, struggle, <em>jugaad</em>, and survival. It’s a place where generations of families built lives with their own hands. And now, suddenly, everyone is talking about redevelopment, transformation, and a “new Dharavi.”</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Where Dharavi Came From</h3>
+
+      <p>People often forget that Dharavi didn’t appear overnight. It started more than a hundred years ago, when Mumbai was expanding and workers migrated here for jobs in textile mills, ports, and small factories. Back then, this area was on the outskirts of the city—swamps, salt pans, and unusable land that nobody wanted. The city pushed its poorest here, and they built homes because there was no other option.</p>
+
+      <p>Over time, Dharavi became something unique — not just housing, but a massive economic engine. From leather units and pottery to recycling, garments, and food processing, it is home to an incredible range of industries. While largely informal, it is incredibly productive. Some estimates suggest Dharavi’s informal economy generates thousands of crores every year. It’s a profound irony: the place people call a “slum” actually keeps much of the city running.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffcf0; border-left: 4px solid #eab308; border-radius: 4px;">
+        <p style="margin: 0; color: #854d0e; font-weight: 600;">Dharavi is not just a settlement; it is a self-made economic kingdom built on land that the city once rejected.</p>
+      </div>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Why Redevelopment Became Inevitable</h3>
+
+      <p>Still, we can’t deny the tough reality. Overcrowding, poor sanitation, open drains, fire risks, and a complete lack of open spaces make life here a constant challenge. Homes have become more like survival units than places to live with dignity. As Mumbai grew vertically all around it, Dharavi stayed compressed, making redevelopment a topic of discussion since the 1990s.</p>
+
+      <p>Plans were announced, scrapped, and re-announced for decades, but nothing really moved—until recently. This time, the scale is massive. It is probably the biggest urban redevelopment project India has ever attempted.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Who Is Redeveloping Dharavi?</h3>
+
+      <p>The redevelopment is being executed through a government-created Special Purpose Vehicle called <strong>Dharavi Redevelopment Project Pvt Ltd (DRPPL)</strong>. The private partner is an Adani Group–led company called Navbharat Mega Developers, which won the global tender. The structure involves roughly 80% private participation and a 20% government stake, aiming to combine private capital with public oversight.</p>
+
+      <p>The bidding process itself was a marathon of controversy. Earlier tenders failed because developers found the project too risky due to the complexities of rehabilitation, legal challenges, and political pressure. Eventually, the winning bid came in at around ₹5,069 crore as an upfront payment, plus a commitment to fully finance the massive rehabilitation and infrastructure costs.</p>
+
+      <div style="margin: 2.5rem 0; padding: 2rem; background: #f9fafb; border-radius: 16px; border: 1px solid #e5e7eb;">
+        <h4 style="color: #111827; text-align: center; margin-bottom: 1.5rem; font-size: 1.1rem; font-weight: 700;">The Financial Scale</h4>
+        <p>Officially, the redevelopment cost is estimated at around <strong>₹95,000–₹1 lakh crore</strong>. However, many experts believe that once you factor in relocation, transit housing, commercial development, and potential delays, the final cost could touch <strong>₹2–3 lakh crore</strong>. This is not just a housing project; it’s a full city-within-a-city being built from scratch.</p>
+      </div>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Promise: What Will Be Built?</h3>
+
+      <p>For eligible Dharavi residents, the project promises free permanent housing — flats ranging from 350 to 405 square feet, featuring private toilets, proper ventilation, and steady water and electricity. Around 70,000–75,000 residential units are expected to be built for rehabilitation alone.</p>
+
+      <p>Beyond housing, the plan includes commercial spaces, offices, schools, hospitals, parks, and modern roads. In short, Dharavi is supposed to transform into a planned urban township. While over a million people live or work here, eligibility for free housing depends on documents and cut-off dates. This is where the anxiety begins; many families—tenants, informal renters, and migrants—worry about being excluded from this new future.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Timeline and Turbulence</h3>
+
+      <p>Officially, the project is expected to take 7 to 10 years, placing the completion somewhere between 2031 and 2035. But in India, projects of this scale rarely escape delays. The challenges are real: daily-wage workers fear losing income during relocation to transit camps, and small businesses worry that high-rise apartments won't support the "mixed-use" living—where home and work coexist—that Dharavi is famous for.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fdf2f8; border-left: 4px solid #ec4899; border-radius: 4px;">
+        <p style="margin: 0; color: #831843; font-weight: 600;">The greatest challenge isn't just building towers; it's preserving the economic heartbeat and social trust of a million people during the transition.</p>
+      </div>
+
+      <p>If done right, Dharavi’s redevelopment could redefine how India handles informal settlements, proving that growth can include dignity. If done wrong, it could become another story of displacement and lost livelihoods. This project isn't just about buildings; it’s about whether we can build cities that care about people, not just land value.</p>
+
+      <p>Dharavi has survived floods, fires, and neglect because its people adapted. Now, it stands at a crossroads between memory and modernity. Whatever it becomes tomorrow, we must remember — this land was not empty. It was full of lives, stories, and hard-earned hope.</p>
+    `
+  },
+  {
     id: "from-bricks-to-bits-future-of-homes",
     views: 54240,
     publishDate: "2023-12-23",
