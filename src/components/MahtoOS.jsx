@@ -34,7 +34,7 @@ const AppIcon = ({ app }) => {
                 marginTop: '2px'
             }}>
                 <span style={{
-                    fontSize: '0.65rem',
+                    fontSize: '0.75rem',
                     fontWeight: 700,
                     color: isHovered ? 'var(--color-text-primary)' : 'var(--color-text-secondary)',
                     textTransform: app.id === 'mine' ? 'none' : 'uppercase',
