@@ -234,20 +234,20 @@ function Home() {
                                 </p>
 
                                 <div className="card-footer">
-                                    <div style={{ display: 'flex', alignItems: 'center', gap: '1rem', color: 'var(--color-text-tertiary)', fontSize: '0.85rem' }}>
-                                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
-                                            <Eye size={14} />
+                                    <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', color: 'var(--color-text-tertiary)', fontSize: '0.75rem', whiteSpace: 'nowrap' }}>
+                                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
+                                            <Eye size={12} />
                                             <span>{formatViews(article.views)}</span>
                                         </div>
-                                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.35rem' }}>
-                                            <Calendar size={14} />
+                                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
+                                            <Calendar size={12} />
                                             <span>{article.date}</span>
                                         </div>
                                     </div>
 
-                                    <Link to={`/article/${article.id}`} style={{ textDecoration: 'none' }}>
-                                        <button className="btn" style={{ padding: '0.6rem 1.25rem', fontSize: '0.85rem' }}>
-                                            Read Story <ArrowRight size={14} />
+                                    <Link to={`/article/${article.id}`} style={{ textDecoration: 'none', flexShrink: 0 }}>
+                                        <button className="btn" style={{ padding: '0.5rem 1rem', fontSize: '0.75rem', whiteSpace: 'nowrap', minWidth: 'max-content' }}>
+                                            Read Story <ArrowRight size={12} />
                                         </button>
                                     </Link>
                                 </div>
