@@ -80,7 +80,7 @@ export const articles = [
           <div>
             <div style="display: flex; justify-content: space-between; margin-bottom: 0.5rem; font-size: 0.85rem; font-weight: 700;">
               <span style="color: #44403c;">Total Estimated Population</span>
-              <span style="color: #1c1917;">1,000,000+</span>
+              <span style="color: #1c1917;">10 Lakh+</span>
             </div>
             <div style="height: 12px; background: #e7e5e4; border-radius: 6px; overflow: hidden;">
               <div style="width: 100%; height: 100%; background: #44403c;"></div>
