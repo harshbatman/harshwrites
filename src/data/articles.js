@@ -1,7 +1,7 @@
 export const articles = [
   {
     id: "lets-talk-about-dharavi-past-people-future",
-    views: 12450,
+    views: 28450,
     publishDate: "2023-12-16",
     title: "Let’s Talk About Dharavi: Past, People, and the Future",
     author: "Harsh Mahto",
