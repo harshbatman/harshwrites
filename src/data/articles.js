@@ -47,6 +47,25 @@ export const articles = [
       <div style="margin: 2.5rem 0; padding: 2rem; background: #f9fafb; border-radius: 16px; border: 1px solid #e5e7eb;">
         <h4 style="color: #111827; text-align: center; margin-bottom: 1.5rem; font-size: 1.1rem; font-weight: 700;">The Financial Scale</h4>
         <p>Officially, the redevelopment cost is estimated at around <strong>₹95,000–₹1 lakh crore</strong>. However, many experts believe that once you factor in relocation, transit housing, commercial development, and potential delays, the final cost could touch <strong>₹2–3 lakh crore</strong>. This is not just a housing project; it’s a full city-within-a-city being built from scratch.</p>
+        
+        <div style="margin-top: 2rem; background: white; padding: 1.5rem; border-radius: 12px; border: 1px solid #f3f4f6;">
+          <h5 style="text-align: center; font-size: 0.9rem; color: #4b5563; margin-bottom: 1.5rem; font-weight: 700;">Projected Cost Gap (in ₹ Crores)</h5>
+          <svg viewBox="0 0 400 200" style="width: 100%; height: auto;">
+            <!-- Official Bar -->
+            <rect x="50" y="100" width="120" height="60" fill="#94a3b8" rx="4" />
+            <text x="110" y="90" text-anchor="middle" font-size="12" font-weight="800" fill="#1e293b">₹1,00,000 Cr</text>
+            <text x="110" y="180" text-anchor="middle" font-size="10" font-weight="600" fill="#64748b">Govt. Estimate</text>
+
+            <!-- Expert Bar -->
+            <rect x="230" y="20" width="120" height="140" fill="#ef4444" rx="4" opacity="0.9" />
+            <text x="290" y="15" text-anchor="middle" font-size="12" font-weight="900" fill="#b91c1c">₹3,00,000 Cr</text>
+            <text x="290" y="180" text-anchor="middle" font-size="10" font-weight="600" fill="#64748b">Expert Projection</text>
+
+            <!-- Base Line -->
+            <line x1="20" y1="160" x2="380" y2="160" stroke="#e2e8f0" stroke-width="2" />
+          </svg>
+          <p style="font-size: 0.75rem; color: #94a3b8; text-align: center; margin-top: 1rem; font-style: italic;">* Figures based on industry analysis of massive urban rehabilitation</p>
+        </div>
       </div>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Promise: What Will Be Built?</h3>
