@@ -3,7 +3,7 @@ export const articles = [
     id: "lets-talk-about-dharavi-past-people-future",
     views: 28450,
     publishDate: "2023-12-16",
-    title: "Let’s Talk About Dharavi: Past, People, and the Future",
+    title: "Let’s Talk About Dharavi: Future",
     author: "Harsh Mahto",
     category: "Urban Planning & Society",
     date: "16 Dec 2023",
