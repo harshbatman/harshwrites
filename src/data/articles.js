@@ -53,12 +53,12 @@ export const articles = [
           <svg viewBox="0 0 400 200" style="width: 100%; height: auto;">
             <!-- Official Bar -->
             <rect x="50" y="100" width="120" height="60" fill="#94a3b8" rx="4" />
-            <text x="110" y="90" text-anchor="middle" font-size="12" font-weight="800" fill="#1e293b">₹1 Lakh Cr</text>
+            <text x="110" y="90" text-anchor="middle" font-size="11" font-weight="800" fill="#1e293b">₹1 Lakh Cr (~$12B)</text>
             <text x="110" y="180" text-anchor="middle" font-size="10" font-weight="600" fill="#64748b">Govt. Estimate</text>
 
             <!-- Expert Bar -->
             <rect x="230" y="20" width="120" height="140" fill="#ef4444" rx="4" opacity="0.9" />
-            <text x="290" y="15" text-anchor="middle" font-size="12" font-weight="900" fill="#b91c1c">₹3 Lakh Cr</text>
+            <text x="290" y="15" text-anchor="middle" font-size="11" font-weight="900" fill="#b91c1c">₹3 Lakh Cr (~$36B)</text>
             <text x="290" y="180" text-anchor="middle" font-size="10" font-weight="600" fill="#64748b">Expert Projection</text>
 
             <!-- Base Line -->
