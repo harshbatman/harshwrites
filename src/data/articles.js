@@ -8582,6 +8582,7 @@ export const articles = [
           <text x="300" y="29" fill="white" font-size="12" font-weight="900" text-anchor="middle">AIR POLLUTION (77%)</text>
           <text x="710" y="29" fill="white" font-size="9" font-weight="800" text-anchor="middle">WATER POLLUTION (23%)</text>
         </svg>
+        <p style="text-align: right; font-size: 0.7rem; color: #94a3b8; margin-top: 0.5rem; font-style: italic; opacity: 0.8;">* source of this data</p>
       </div>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Progress or Adjustment?</h3>
