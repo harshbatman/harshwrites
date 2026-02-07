@@ -7,6 +7,7 @@ export const articles = [
     author: "Harsh Mahto",
     category: "Urban Planning & Society",
     date: "16 Dec 2023",
+    lastUpdated: "5 May 2025",
     image: "/dharavi-redevelopment.jpg",
     excerpt: "Dharavi is more than just Asia's largest slum; it's an economic powerhouse. As it stands on the brink of a massive transformation, we explore its history, its people, and the challenges of redevelopment.",
     content: `

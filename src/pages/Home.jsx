@@ -239,9 +239,15 @@ function Home() {
                                             <Eye size={12} />
                                             <span>{formatViews(article.views)}</span>
                                         </div>
-                                        <div style={{ display: 'flex', alignItems: 'center', gap: '0.3rem' }}>
+                                        <div style={{ display: 'flex', flexWrap: 'wrap', alignItems: 'center', gap: '0.3rem' }}>
                                             <Calendar size={12} />
                                             <span>{article.date}</span>
+                                            {article.lastUpdated && (
+                                                <>
+                                                    <span style={{ opacity: 0.5, margin: '0 0.2rem' }}>|</span>
+                                                    <span style={{ color: 'var(--color-text-secondary)', fontWeight: 600 }}>Upd: {article.lastUpdated}</span>
+                                                </>
+                                            )}
                                         </div>
                                     </div>
 
