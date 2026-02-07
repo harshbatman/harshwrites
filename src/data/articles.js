@@ -8564,9 +8564,9 @@ export const articles = [
         </div>
 
         <svg viewBox="0 0 800 50" style="width: 100%; height: auto;">
-          <rect x="0" y="10" width="800" height="20" fill="rgba(255,255,255,0.05)" rx="10" />
-          <rect x="0" y="10" width="616" height="20" fill="url(#airGradUltra)" rx="10" />
-          <rect x="620" y="10" width="180" height="20" fill="url(#waterGradUltra)" rx="10" />
+          <rect x="0" y="10" width="800" height="28" fill="rgba(255,255,255,0.05)" rx="14" />
+          <rect x="0" y="10" width="616" height="28" fill="url(#airGradUltra)" rx="14" />
+          <rect x="620" y="10" width="180" height="28" fill="url(#waterGradUltra)" rx="14" />
           <defs>
             <linearGradient id="airGradUltra" x1="0%" y1="0%" x2="100%" y2="0%">
               <stop offset="0%" style="stop-color:#b91c1c" />
@@ -8577,8 +8577,8 @@ export const articles = [
               <stop offset="100%" style="stop-color:#60a5fa" />
             </linearGradient>
           </defs>
-          <text x="300" y="25" fill="white" font-size="12" font-weight="900" text-anchor="middle">AIR POLLUTION (77%)</text>
-          <text x="710" y="25" fill="white" font-size="9" font-weight="800" text-anchor="middle">WATER POLLUTION (23%)</text>
+          <text x="300" y="29" fill="white" font-size="12" font-weight="900" text-anchor="middle">AIR POLLUTION (77%)</text>
+          <text x="710" y="29" fill="white" font-size="9" font-weight="800" text-anchor="middle">WATER POLLUTION (23%)</text>
         </svg>
       </div>
 
