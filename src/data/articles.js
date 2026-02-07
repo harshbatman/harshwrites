@@ -2,11 +2,11 @@ export const articles = [
   {
     id: "lets-talk-about-dharavi-past-people-future",
     views: 12450,
-    publishDate: "2026-02-07",
+    publishDate: "2023-12-16",
     title: "Let’s Talk About Dharavi: Past, People, and the Future",
     author: "Harsh Mahto",
     category: "Urban Planning & Society",
-    date: "7 Feb 2026",
+    date: "16 Dec 2023",
     image: "/dharavi-redevelopment.jpg",
     excerpt: "Dharavi is more than just Asia's largest slum; it's an economic powerhouse. As it stands on the brink of a massive transformation, we explore its history, its people, and the challenges of redevelopment.",
     content: `
