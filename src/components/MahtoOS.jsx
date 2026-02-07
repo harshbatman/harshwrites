@@ -13,7 +13,7 @@ const AppIcon = ({ app }) => {
                 flexDirection: 'column',
                 alignItems: 'center',
                 gap: '12px',
-                width: '120px',
+                width: '140px',
                 cursor: 'pointer'
             }}
         >
@@ -41,7 +41,7 @@ const AppIcon = ({ app }) => {
                     letterSpacing: '0.06em',
                     transition: 'color 0.2s',
                     textAlign: 'center',
-                    maxWidth: '110px',
+                    maxWidth: '130px',
                     lineHeight: '1.2'
                 }}>
                     {app.id === 'mahto' ? 'MAHTO' :
@@ -62,8 +62,8 @@ const AppIcon = ({ app }) => {
             </div>
             <div style={{
                 display: 'flex',
-                gap: '8px',
-                marginTop: '10px',
+                gap: '10px',
+                marginTop: '12px',
                 justifyContent: 'center',
                 alignItems: 'center',
                 width: '100%'
@@ -77,7 +77,7 @@ const AppIcon = ({ app }) => {
                     onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.1)'}
                     onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
                 >
-                    <img src="/assets/web-logo.png" alt="Web" style={{ height: '18px', width: 'auto', borderRadius: '3px', objectFit: 'contain' }} />
+                    <img src="/assets/web-logo.png" alt="Web" style={{ height: '24px', width: 'auto', borderRadius: '4px', objectFit: 'contain' }} />
                 </a>
                 <a
                     href={app.playStoreUrl || "https://play.google.com/store/apps/details?id=tech.mahto.ma"}
@@ -88,7 +88,7 @@ const AppIcon = ({ app }) => {
                     onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.1)'}
                     onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
                 >
-                    <img src="/assets/play-store.png" alt="Play Store" style={{ height: '18px', width: 'auto', objectFit: 'contain' }} />
+                    <img src="/assets/play-store.png" alt="Play Store" style={{ height: '24px', width: 'auto', objectFit: 'contain' }} />
                 </a>
                 <a
                     href={app.appStoreUrl || "https://apps.apple.com/us/app/mahto-jobs-contract-shops/id6756539905"}
@@ -99,7 +99,7 @@ const AppIcon = ({ app }) => {
                     onMouseEnter={(e) => e.currentTarget.style.transform = 'scale(1.1)'}
                     onMouseLeave={(e) => e.currentTarget.style.transform = 'scale(1)'}
                 >
-                    <img src="/assets/app-store.jpg" alt="App Store" style={{ height: '18px', width: 'auto', borderRadius: '3px', objectFit: 'contain' }} />
+                    <img src="/assets/app-store.jpg" alt="App Store" style={{ height: '24px', width: 'auto', borderRadius: '4px', objectFit: 'contain' }} />
                 </a>
             </div>
         </div>
