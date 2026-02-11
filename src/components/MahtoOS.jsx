@@ -1,5 +1,4 @@
 import React from 'react';
-import { Home } from 'lucide-react';
 
 const AppIcon = ({ app }) => {
     const [isHovered, setIsHovered] = React.useState(false);
@@ -214,7 +213,7 @@ const MahtoOS = () => {
                     }}>Land & Properties</span>
                 </div>
             ),
-            webUrl: 'https://www.mahtolandandproperties.shop/',
+            webUrl: 'https://www.mahtolandandpropertie.tech/',
             playStoreUrl: 'https://play.google.com/store',
             appStoreUrl: 'https://www.apple.com/in/app-store/'
         }
