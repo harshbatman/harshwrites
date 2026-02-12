@@ -17,6 +17,6 @@
     Banks, Builders,
   </text>
   <text x="50%" y="60%" dominant-baseline="middle" text-anchor="middle" font-family="sans-serif" font-size="80" font-weight="800" fill="#fbbf24" filter="url(#shadow)">
-    & Billions
+    &amp; Billions
   </text>
 </svg>
