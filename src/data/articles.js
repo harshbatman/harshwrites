@@ -9067,5 +9067,69 @@ export const articles = [
 
 `
   },
+  {
+    id: "beyond-titles-and-degrees-polymath-mindset",
+    views: 4200,
+    publishDate: "2026-02-13",
+    title: "Beyond Titles and Degrees: Curiosity Has No Degree — The Polymath Mindset",
+    author: "Harsh Mahto",
+    category: "Philosophy & Mindset",
+    date: "13 Feb 2026",
+    image: "/polymath.svg",
+    excerpt: "Three days ago, I received an email criticizing me. It asked, “What the hell are you?” This article is my answer—a declaration that curiosity has no degree.",
+    content: `
+      <p>Three days ago, I received an email criticizing me. It said, “You wrote a lot of articles about many different topics — history, technology, war, army. Do you understand how wars are fought? Are you an army general? Are you a technology professor? Are you a history professor? Are you a policymaker? Are you an economics guru? What the hell are you?”</p>
+
+      <p>Initially, I thought I would just ignore the email. But then I had no idea what to write next. So that is why I am writing this — about a polymath.</p>
+
+      <p>That email made me think—are we supposed to choose just one box in life? One title? One field? We are trained to introduce ourselves with a label. Engineer. Doctor. Lawyer. Professor. But what if we are more than that? Society tells us to specialize. Pick one field. Become an expert. Specialization is important, yes. But curiosity is even more important.</p>
+      
+      <p>A polymath is someone who learns and works across multiple fields. Not because they are confused—but because they are curious. We don’t need permission to explore different subjects. Knowledge never belonged to only one department. History shapes politics. Technology shapes war. Economics shapes society. Everything is connected.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Learning Without Borders</h3>
+
+      <p>In our country, we are often told to "focus on one thing" and not distract ourselves. But that mindset limits us. We are a civilization that produced people who studied philosophy, mathematics, astronomy, and medicine—sometimes all at once. Knowledge was never meant to be locked.</p>
+
+      <p>Being a polymath means we allow ourselves to learn beyond degrees. It means we don’t say, "I am not an army general, so I can’t study military strategy." Or "I am not a professor, so I can’t write about technology." Learning is not restricted by designation.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Historical Polymaths Who Inspire Us</h3>
+
+      <p>We don't have to look far for proof.</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fafafa; border-radius: 12px; border: 1px solid #e5e7eb;">
+        <p><strong>Leonardo da Vinci</strong> was a painter, scientist, engineer, anatomist, and inventor. He painted the Mona Lisa and also designed flying machines centuries ahead of his time. He refused to limit himself.</p>
+        <p><strong>Rabindranath Tagore</strong> was not just a poet. He was a philosopher, composer, painter, and educator. He wrote our national anthem and reshaped modern literature.</p>
+        <p><strong>A. P. J. Abdul Kalam</strong>—scientist, missile developer, President, teacher, author. He moved from aerospace engineering to national leadership and still spoke to students about dreams. He was not limited by a single identity.</p>
+      </div>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Fear of Being a "Jack of All Trades"</h3>
+
+      <p>People often say, "Jack of all trades, master of none." They forget the full quote: "Jack of all trades, master of none, but oftentimes better than master of one."</p>
+
+      <p>A polymath connects ideas. That connection creates innovation. Like combining technology with policy, or economics with history, or military strategy with geopolitics. The future belongs to those who can think across disciplines.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">For Us, Today</h3>
+
+      <p>So when someone asks, "What the hell are you?" what should we answer?</p>
+
+      <div style="margin: 2rem 0; padding: 1.5rem; background: #fffcf0; border-left: 4px solid #eab308; border-radius: 4px;">
+        <p style="margin: 0; color: #854d0e; font-weight: 600;">We can simply say—"We are learners."</p>
+      </div>
+
+      <p>We are not limited to one domain. We are not defined only by our degree. We can study war without being generals. We can analyze technology without being professors. We can discuss economics without being gurus. Writing about different subjects is not confusion—it is curiosity. And curiosity is power.</p>
+
+      <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">Final Thought</h3>
+
+      <p>This article is not a defense. It is a declaration.</p>
+
+      <p>We don’t have to limit ourselves to one field. We can learn whatever we want. We can explore whatever we want. Knowledge is not owned by titles.</p>
+      
+      <p>Being a polymath is not about knowing everything. It is about refusing to stop learning.</p>
+
+      <p>The question isn't "What the hell are you?"</p>
+      
+      <p style="font-size: 1.2rem; font-weight: bold; margin-top: 1rem;">The better question is—"Why should we limit ourselves?"</p>
+    `
+  }
 ];
 
