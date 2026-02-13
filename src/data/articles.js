@@ -9139,7 +9139,7 @@ export const articles = [
     author: "Harsh Mahto",
     category: "Finance & Economy",
     date: "14 Feb 2026",
-    image: "/banks-builders-finance.png",
+    image: "/banks-builders-finance-final.png",
     excerpt: "Have you seen how big our housing finance market has become? We’re talking about roughly ₹33.5 lakh crore in outstanding individual housing loans. That’s system-level capital.",
     content: `
       <p>Have you seen how big our housing finance market has become? It’s huge. We’re talking about roughly ₹33.5 lakh crore in outstanding individual housing loans. That’s not small change. That’s system-level capital.</p>
