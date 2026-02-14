@@ -79,7 +79,7 @@ const AppIcon = ({ app }) => {
                     <img src="/assets/web-logo.png" alt="Web" style={{ height: '24px', width: 'auto', borderRadius: '4px', objectFit: 'contain' }} />
                 </a>
                 <a
-                    href={app.playStoreUrl || "https://play.google.com/store/apps/details?id=tech.mahto.ma"}
+                    href={app.playStoreUrl || "https://play.google.com/store/apps/details?id=com.harsh.mahto"}
                     target="_blank"
                     rel="noopener noreferrer"
                     onClick={(e) => e.stopPropagation()}
@@ -121,7 +121,8 @@ const MahtoOS = () => {
                     WebkitFontSmoothing: 'antialiased'
                 }}>MAHTO</span>
             ),
-            webUrl: 'https://www.mahtoji.tech/'
+            webUrl: 'https://www.mahtoji.tech/',
+            playStoreUrl: 'https://play.google.com/store/apps/details?id=com.harsh.mahto'
         },
         {
             id: 'mine',
