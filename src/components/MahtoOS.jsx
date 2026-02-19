@@ -123,7 +123,7 @@ const MahtoOS = () => {
             ),
             webUrl: 'https://www.mahtoji.tech/',
             playStoreUrl: 'https://play.google.com/store/apps/details?id=com.harsh.mahto',
-            playStoreIcon: '/assets/mahto-play-store.png'
+            playStoreIcon: '/assets/raj.png'
         },
         {
             id: 'mine',
