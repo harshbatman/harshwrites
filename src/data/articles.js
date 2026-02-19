@@ -9134,11 +9134,11 @@ export const articles = [
   {
     id: "banks-builders-and-billions-real-story-housing-finance",
     views: 3100,
-    publishDate: "2026-02-14",
+    publishDate: "2023-12-25",
     title: "Banks, Builders, and Billions: The Real Story of Our Housing Finance Market",
     author: "Harsh Mahto",
     category: "Finance & Economy",
-    date: "14 Feb 2026",
+    date: "25 Dec 2023",
     image: "/harsh.png",
     excerpt: "Have you seen how big our housing finance market has become? We’re talking about roughly ₹33.5 lakh crore in outstanding individual housing loans. That’s system-level capital.",
     content: `
