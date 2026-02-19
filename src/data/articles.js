@@ -9070,11 +9070,11 @@ export const articles = [
   {
     id: "beyond-titles-and-degrees-polymath-mindset",
     views: 4200,
-    publishDate: "2026-02-13",
+    publishDate: "2023-10-20",
     title: "Beyond Titles and Degrees: Curiosity Has No Degree — The Polymath Mindset",
     author: "Harsh Mahto",
     category: "Philosophy & Mindset",
-    date: "13 Feb 2026",
+    date: "20 Oct 2023",
     image: "/polymath.svg",
     excerpt: "Three days ago, I received an email criticizing me. It asked, “What the hell are you?” This article is my answer—a declaration that curiosity has no degree.",
     content: `
