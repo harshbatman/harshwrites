@@ -216,7 +216,7 @@ const MahtoOS = () => {
                 </div>
             ),
             webUrl: 'https://www.mahtolandandpropertie.tech/',
-            playStoreUrl: 'https://play.google.com/store',
+            playStoreUrl: 'https://play.google.com/store/apps/details?id=com.mahto.landproperties&pcampaignid=web_share',
             appStoreUrl: 'https://www.apple.com/in/app-store/'
         }
     ];
