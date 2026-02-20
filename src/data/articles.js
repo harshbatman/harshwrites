@@ -9148,6 +9148,32 @@ export const articles = [
 
       <p>Mostly banks. Public sector banks (PSBs) lead the game with around ₹15.9 lakh crore. Private banks follow closely with about ₹13 lakh crore. Housing Finance Companies (HFCs)—like LIC Housing Finance and others—handle around ₹6.7 lakh crore. Regional Rural Banks (RRBs) and others manage the rest.</p>
 
+      <div style="margin: 2.5rem 0; padding: 2rem; background: #fff; border-radius: 16px; border: 1px solid #e5e7eb; box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05);">
+        <h4 style="color: #111827; text-align: center; margin-bottom: 2rem; font-size: 1.1rem; font-weight: 700; font-family: var(--font-serif);">Individual Housing Loan Market (₹ Lakh Crores)</h4>
+        <svg viewBox="0 0 800 350" style="width: 100%; height: auto; font-family: sans-serif;">
+          <!-- Axes -->
+          <line x1="100" y1="280" x2="700" y2="280" stroke="#e5e7eb" stroke-width="2" />
+          
+          <!-- PSB Bar -->
+          <rect x="150" y="80" width="120" height="200" fill="#3b82f6" rx="6" />
+          <text x="210" y="70" text-anchor="middle" font-size="14" font-weight="700" fill="#1e40af">₹15.9L Cr</text>
+          <text x="210" y="305" text-anchor="middle" font-size="12" font-weight="600" fill="#4b5563">Public Sector Banks</text>
+          
+          <!-- Private Bar -->
+          <rect x="340" y="115" width="120" height="165" fill="#8b5cf6" rx="6" />
+          <text x="400" y="105" text-anchor="middle" font-size="14" font-weight="700" fill="#5b21b6">₹13.0L Cr</text>
+          <text x="400" y="305" text-anchor="middle" font-size="12" font-weight="600" fill="#4b5563">Private Banks</text>
+          
+          <!-- HFC Bar -->
+          <rect x="530" y="195" width="120" height="85" fill="#10b981" rx="6" />
+          <text x="590" y="185" text-anchor="middle" font-size="14" font-weight="700" fill="#065f46">₹6.7L Cr</text>
+          <text x="590" y="305" text-anchor="middle" font-size="12" font-weight="600" fill="#4b5563">Housing Finance Cos</text>
+          
+          <!-- Source -->
+          <text x="700" y="340" text-anchor="end" font-size="10" fill="#9ca3af" font-style="italic">Source: Market Data FY24-25</text>
+        </svg>
+      </div>
+
       <p>PSBs still dominate with a 40%+ share, but private banks are aggressive and catching up fast.</p>
 
       <h3 style="font-family: var(--font-serif); font-size: 1.5rem; margin-top: 2rem; margin-bottom: 1rem; color: #111827; font-weight: 700;">The Big Players</h3>
