@@ -1488,7 +1488,7 @@ export const articles = [
     id: "home-loan-crisis",
     views: 14240,
     publishDate: "2023-12-07",
-    title: "Home Loan or Life Loan?",
+    title: "Home Loan or Life Loan? Why India Needs Smarter Home Planning.",
     author: "Harsh Mahto",
     category: "Finance & Society",
     date: "7 Dec 2023",
