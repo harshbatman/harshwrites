@@ -131,34 +131,42 @@ a {
   font-family: 'Great Vibes', cursive;
   font-weight: 400;
   font-size: 2.5rem;
-  letter-spacing: 0.02em;
   color: var(--color-text-primary);
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
-  position: relative;
-  /* Handwriting/Writing Animation */
-  background: linear-gradient(90deg, var(--color-text-primary) 50%, transparent 50%);
-  background-size: 200% 100%;
-  background-position: 100% 0;
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  animation: write-loop 6s linear infinite;
+  border-right: 3px solid var(--color-text-primary);
+  width: 0;
+  animation:
+    writing-effect 6s cubic-bezier(0.4, 0, 0.2, 1) infinite,
+    cursor-blink 0.75s step-end infinite;
 }
 
-@keyframes write-loop {
+@keyframes writing-effect {
   0% {
-    background-position: 100% 0;
+    width: 0;
   }
 
-  35%,
-  65% {
-    background-position: 0% 0;
+  40%,
+  70% {
+    width: 100%;
   }
 
+  90%,
   100% {
-    background-position: -100% 0;
+    width: 0;
+  }
+}
+
+@keyframes cursor-blink {
+
+  from,
+  to {
+    border-color: transparent
+  }
+
+  50% {
+    border-color: var(--color-text-primary)
   }
 }
 
