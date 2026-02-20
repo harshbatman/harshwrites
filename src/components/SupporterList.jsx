@@ -233,13 +233,6 @@ const SupporterList = () => {
                     Stars reflect long-term support and belief in this work.
                 </p>
 
-                <p style={{
-                    fontSize: '0.8rem',
-                    color: '#737373',
-                    marginTop: '0.5rem'
-                }}>
-                    This platform exists because of you.
-                </p>
             </div>
         </div>
     );
