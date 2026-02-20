@@ -9135,7 +9135,7 @@ export const articles = [
     id: "banks-builders-and-billions-real-story-housing-finance",
     views: 3100,
     publishDate: "2023-12-25",
-    title: "Banks, Builders, and Billions: The Real Story of Our Housing Finance Market",
+    title: "Banks, Builders, and Billions: The Housing Finance Market",
     author: "Harsh Mahto",
     category: "Finance & Economy",
     date: "25 Dec 2023",
