@@ -135,38 +135,22 @@ a {
   display: inline-block;
   white-space: nowrap;
   overflow: hidden;
-  border-right: 3px solid var(--color-text-primary);
   width: 0;
-  animation:
-    writing-effect 6s cubic-bezier(0.4, 0, 0.2, 1) infinite,
-    cursor-blink 0.75s step-end infinite;
+  animation: simple-write 5s ease-in-out infinite;
 }
 
-@keyframes writing-effect {
+@keyframes simple-write {
   0% {
     width: 0;
   }
 
-  40%,
-  70% {
+  45%,
+  75% {
     width: 100%;
   }
 
-  90%,
   100% {
     width: 0;
-  }
-}
-
-@keyframes cursor-blink {
-
-  from,
-  to {
-    border-color: transparent
-  }
-
-  50% {
-    border-color: var(--color-text-primary)
   }
 }
 
