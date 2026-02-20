@@ -1312,11 +1312,11 @@ export const articles = [
   {
     id: "rent-vs-buy",
     views: 24240,
-    publishDate: "2023-12-11",
+    publishDate: "2023-12-30",
     title: "Rent vs Buy: The Wrong Debate",
     author: "Harsh Mahto",
     category: "Finance & Society",
-    date: "11 Dec 2023",
+    date: "30 Dec 2023",
     image: "/rent-vs-buy.jpg",
     excerpt: "Everywhere we look, there’s this big debate going on—rent versus buy. People keep arguing like it’s some math problem. But I think the debate itself is wrong.",
     content: `
