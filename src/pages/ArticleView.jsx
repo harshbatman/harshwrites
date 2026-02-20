@@ -523,8 +523,12 @@ function ArticleView() {
 
                 <MahtoOS />
 
-                <SupportSection />
-                <SupporterList />
+                {article.id !== 'failed-urban-infrastructure-high-rise-societies' && (
+                    <>
+                        <SupportSection />
+                        <SupporterList />
+                    </>
+                )}
 
                 <div style={{ padding: '3rem 0', marginTop: '3rem', borderTop: '1px solid #e5e7eb', display: 'flex', justifyContent: 'center' }}>
                     <button
