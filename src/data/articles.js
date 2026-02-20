@@ -9139,6 +9139,7 @@ export const articles = [
     author: "Harsh Mahto",
     category: "Finance & Economy",
     date: "25 Dec 2023",
+    lastUpdated: "16 May 2025",
     image: "/harsh.png",
     excerpt: "Have you seen how big our housing finance market has become? We’re talking about roughly ₹33.5 lakh crore in outstanding individual housing loans. That’s system-level capital.",
     content: `
