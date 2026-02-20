@@ -128,11 +128,38 @@ a {
 }
 
 .site-logo {
-  font-family: var(--font-serif);
-  font-weight: 700;
-  font-size: 1.75rem;
-  letter-spacing: -0.03em;
+  font-family: 'Great Vibes', cursive;
+  font-weight: 400;
+  font-size: 2.5rem;
+  letter-spacing: 0.02em;
   color: var(--color-text-primary);
+  display: inline-block;
+  white-space: nowrap;
+  overflow: hidden;
+  position: relative;
+  /* Handwriting/Writing Animation */
+  background: linear-gradient(90deg, var(--color-text-primary) 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: 100% 0;
+  -webkit-background-clip: text;
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+  animation: write-loop 6s linear infinite;
+}
+
+@keyframes write-loop {
+  0% {
+    background-position: 100% 0;
+  }
+
+  35%,
+  65% {
+    background-position: 0% 0;
+  }
+
+  100% {
+    background-position: -100% 0;
+  }
 }
 
 /* Hero / Story Header */
